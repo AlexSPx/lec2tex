@@ -6,6 +6,45 @@
 
 \input{bodies/exam_note}
 
+\chapter*{Как да четете тези записки}
+\addcontentsline{toc}{chapter}{Как да четете тези записки}
+
+Оформлението е направено така, че текстът да може да се преглежда бързо. Всеки
+блок принадлежи към едно от три нива:
+
+% Rendered with the raw box styles rather than the theorem environments, so the
+% legend does not consume statement numbers.
+\begin{tcolorbox}[leckeybox]
+\textbf{\textcolor{keyframe}{$\bigstar$} Теорема 11.1 (Централна гранична теорема).}
+Златна рамка с широка лява ивица и звезда. Това са малкото на брой твърдения и
+дефиниции, които носят курса — при преговор започнете от тях.
+\end{tcolorbox}
+
+\begin{tcolorbox}[lecbox, colback=defback, colframe=defframe]
+\textbf{Дефиниция.} Синя рамка: въвежда ново понятие, което се ползва по-нататък.
+\end{tcolorbox}
+
+\begin{tcolorbox}[lecbox, colback=thmback, colframe=thmframe]
+\textbf{Твърдение.} Зелена рамка: теорема, твърдение, лема или следствие —
+резултат, който се доказва.
+\end{tcolorbox}
+
+\begin{tcolorbox}[blanker, borderline west={1.2pt}{0pt}{exrule},
+  left=4mm, top=1mm, bottom=1mm, before skip=0.7em, after skip=0.7em]
+\textbf{\color{exrule}$\triangleright$ Пример.} Тънка сива черта отляво.
+Примерите илюстрират, но не въвеждат нова теория — при първо четене могат да се
+пропуснат.
+\end{tcolorbox}
+
+\begin{tcolorbox}[blanker, borderline west={0.6pt}{0pt}{proofrule},
+  left=4mm, top=0.6mm, bottom=0.6mm, before skip=0.7em, after skip=0.7em]
+\emph{Доказателство.} Още по-бледа черта отляво. Доказателствата могат да се
+прескочат при първо четене и да се прочетат, когато твърдението вече е
+разбрано.\hfill$\square$
+\end{tcolorbox}
+
+В края на всяка лекция има раздел \emph{Задачи}.
+
 \chapter*{Основни означения}
 \addcontentsline{toc}{chapter}{Основни означения}
 

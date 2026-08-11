@@ -51,6 +51,20 @@ that runs across the whole volume (`Дефиниция 7.3`, `Теорема 11.
   one counter, so `Твърдение 4.7` is unambiguous and `\label`/`\ref` works.
 - **Proofs are `\begin{proof}`**, always *outside* the box, always closed by an
   automatic flush-right □.
+- **Three reading tiers**, so the text can be skimmed. Explained to the reader in
+  the front-matter chapter *Как да четете тези записки*:
+
+  | tier | environments | look | meaning |
+  |---|---|---|---|
+  | landmark | `keythm` `keydefn` `keylem` | gold, 2.2 mm left bar, ★ | memorise; start revision here |
+  | standard | `defn` / `thm` `prop` `lem` `cor` | blue / green box | ordinary definition / result |
+  | skippable | `example`, `proof` | no fill, hairline left rule (▷ on examples) | safe to skip on a first pass |
+
+  Each tier differs in **rule weight and fill** as well as hue, so the hierarchy
+  survives greyscale printing. `keythm` shares the counter with `thm` and prints
+  the same name — the mathematical status is identical, only the study weight
+  differs. Currently 24 of 107 statements are starred (22%); keep it near that.
+  Starring more destroys the signal.
 - Defined terms use `\emph{}`. Bulgarian quotation marks `„ “`. Decimal comma,
   braced in math (`$0{,}95$`) so TeX does not set it as punctuation.
 - Course/exam logistics are kept out of the mathematical flow (see the note at

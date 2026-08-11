@@ -56,10 +56,20 @@
 \setlength{\emergencystretch}{3em}
 
 % --- palette ---------------------------------------------------------------
+% Three reading tiers, so the page can be skimmed:
+%   gold + thick bar + star = landmark result, memorise it
+%   blue / green boxes      = ordinary definition / result
+%   hairline rule, no fill  = example or proof, skippable on a first pass
+% Each tier is distinguished by RULE WEIGHT and FILL as well as by hue, so the
+% hierarchy still reads when the document is printed in greyscale.
 \definecolor{defframe}{RGB}{38,90,160}
 \definecolor{defback}{RGB}{234,241,250}
 \definecolor{thmframe}{RGB}{34,120,70}
 \definecolor{thmback}{RGB}{233,246,238}
+\definecolor{keyframe}{RGB}{176,124,18}
+\definecolor{keyback}{RGB}{253,247,232}
+\definecolor{exrule}{RGB}{118,130,146}
+\definecolor{proofrule}{RGB}{198,203,212}
 
 % --- numbered statement environments ---------------------------------------
 % One shared counter for all five, so a reader scanning for "Твърдение 4.7"
@@ -80,10 +90,28 @@
 \newtheorem{lem}[thm]{Лема}
 \newtheorem{cor}[thm]{Следствие}
 
+% Landmark variants. Same counter, same printed name — the mathematical status
+% is identical; only the study weight differs. \keythm{...} reads exactly like
+% \thm{...} to a reader who ignores the colour.
+\newtheoremstyle{leckey}
+  {\topsep}{\topsep}{\normalfont}{0pt}{\bfseries}{.}{0.5em}
+  {\textcolor{keyframe}{\ensuremath{\bigstar}}\ \thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}
+\theoremstyle{leckey}
+\newtheorem{keythm}[thm]{Теорема}
+\newtheorem{keydefn}[thm]{Дефиниция}
+\newtheorem{keylem}[thm]{Лема}
+
 \newtheoremstyle{lecremark}
   {\topsep}{\topsep}{\normalfont}{0pt}{\itshape}{.}{0.5em}{}
 \theoremstyle{lecremark}
 \newtheorem{remark}[thm]{Забележка}
+
+% Examples are marked to be SKIPPED on a first pass: recessive slate head with a
+% ▷ lead-in, no fill, thin left rule.
+\newtheoremstyle{lecexample}
+  {\topsep}{\topsep}{\normalfont}{0pt}{\bfseries\color{exrule}}{.}{0.5em}
+  {\color{exrule}\ensuremath{\triangleright}\ \thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}
+\theoremstyle{lecexample}
 \newtheorem{example}[thm]{Пример}
 
 % Definitions in blue, everything provable in green. Proofs stay outside.
@@ -95,6 +123,23 @@
 \tcolorboxenvironment{prop}{lecbox, colback=thmback, colframe=thmframe}
 \tcolorboxenvironment{lem} {lecbox, colback=thmback, colframe=thmframe}
 \tcolorboxenvironment{cor} {lecbox, colback=thmback, colframe=thmframe}
+
+% Landmark tier: gold, plus a heavy left bar so it is still unmistakable in
+% greyscale and when flicking through at speed.
+\tcbset{leckeybox/.style={lecbox, colback=keyback, colframe=keyframe,
+    leftrule=2.2mm}}
+\tcolorboxenvironment{keythm} {leckeybox}
+\tcolorboxenvironment{keydefn}{leckeybox}
+\tcolorboxenvironment{keylem} {leckeybox}
+
+% Skippable tier: no fill, no frame, just a marginal rule the eye can run past.
+% Examples get a visible slate rule; proofs get a fainter one still.
+\tcolorboxenvironment{example}{blanker, breakable,
+  borderline west={1.2pt}{0pt}{exrule},
+  left=4mm, top=1mm, bottom=1mm, before skip=0.7em, after skip=0.7em}
+\tcolorboxenvironment{proof}{blanker, breakable,
+  borderline west={0.6pt}{0pt}{proofrule},
+  left=4mm, top=0.6mm, bottom=0.6mm, before skip=0.7em, after skip=0.7em}
 
 % Proofs: unboxed, with an automatic flush-right QED on every one of them.
 % The driver localizes \proofname after \begin{document}, once polyglossia has
