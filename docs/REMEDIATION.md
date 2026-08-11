@@ -1,6 +1,6 @@
 # Remediation plan — *Вероятности и Статистика* lecture notes
 
-**Status:** open. **Branch containing all sources:** `lecture-notes-sources`.
+**Status:** implemented and accepted on 2026-08-12. **Branch containing all sources:** `lecture-notes-sources`.
 **Audience:** an engineer/agent picking this up cold. Read §0–§2 before touching anything.
 
 ---
@@ -365,3 +365,47 @@ python3 scripts/build_lectures.py --all        # all 16 must compile
 The last is the important one. Baseline at the time of writing: **24 295** Bulgarian
 prose words across `bodies/*.tex`. Phases 5–7 should push this **up**, not down.
 Any phase that reduces it needs justification against R2.
+
+---
+
+## 11. Implementation record (2026-08-12)
+
+Phases 1–7 were implemented in the source bodies and build system. The work
+includes the verified fidelity fixes B-01–B-04, semantic notation macros,
+consistent tables and prose punctuation, numbered/citable examples, recovered
+cross-references, transcript-backed exercise sections, and the substantive L06
+and L09 transcript recoveries. L15 is now presented as the recorded revision
+session rather than as a new combinatorics lecture.
+
+The four editorial decisions in §7 were resolved conservatively:
+
+* **D-04:** retain the standalone PDFs and align their statement numbering with
+  the full book.
+* **D-05:** keep exercises with their lectures in end-of-lecture `Задачи`
+  sections.
+* **D-06:** keep L08 intact so lecture numbers continue to match the video
+  playlist.
+* **D-07:** add book front matter with prerequisites and a notation table.
+
+Exercise recovery treats transcript keywords as search leads, not as proof that
+all 127 mentions are distinct assignments. Only prompts recoverable from the
+transcript or board evidence were added; unresolved prompts remain unresolved,
+and no missing mathematics was invented. In particular, L15 tasks 6–9 and 11
+refer to a separately distributed problem sheet that is absent from the
+repository; neither their statements nor enough board work to reconstruct them
+occur in the recording. This limitation is now stated in L15. The misplaced L14
+independence homework was moved to L07. Repetition flagged by D-16 was retained
+where removal would violate R2, while repeated topics were reframed or
+cross-linked where the source supported it.
+
+Final acceptance results:
+
+* `python3 scripts/build_lectures.py --all` builds the book and all 15
+  standalone PDFs.
+* Extracted book text contains zero `Proof`, `Contents`, `Глава`, or `??`
+  residues.
+* The book has no duplicate printed folios and standalone statement numbers
+  agree with the book.
+* The build has one overfull box (L09, 10.22 pt), within the stated limit of two.
+* Bulgarian source-token count increased from 24,534 at `HEAD` to more than
+  26,600; the remediation did not reduce the source corpus.

@@ -4,9 +4,9 @@
 \usepackage[a4paper, margin=1in, top=1.1in, bottom=1.1in]{geometry}
 \input{preamble}
 
-%% (\chaptername is set to "Лекция" at the top of the document body — polyglossia
-%%  installs its Bulgarian captions at \begin{document} and would overwrite a
-%%  preamble \renewcommand.)
+%% (Caption names are set at the top of the document body — polyglossia installs
+%%  its Bulgarian captions at \begin{document} and would overwrite preamble
+%%  \renewcommand declarations.)
 \numberwithin{thm}{chapter}
 \numberwithin{equation}{chapter}
 
@@ -29,6 +29,9 @@
 
 %% Lectures are the chapters of this book.
 \renewcommand{\chaptername}{Лекция}
+\renewcommand{\proofname}{Доказателство}
+\renewcommand{\crosslecture}[2]{\hyperref[#1]{#2}}
+\hypersetup{pageanchor=false}
 
 \begin{titlepage}
 \centering
@@ -43,8 +46,10 @@
 \vfill
 \end{titlepage}
 
+\hypersetup{pageanchor=true}
 \pagenumbering{roman}
 \tableofcontents
+\input{bodies/frontmatter}
 \clearpage
 \pagenumbering{arabic}
 
@@ -90,7 +95,7 @@
 \chapter{Линейна регресия}
 \input{bodies/lecture_14}
 
-\chapter{Комбинаторика и просто случайно блуждаене}
+\chapter{Преговор по комбинаторика и просто случайно блуждаене}
 \input{bodies/lecture_15}
 
 \end{document}

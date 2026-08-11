@@ -3,8 +3,11 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper, margin=1in]{geometry}
 \input{preamble}
-\numberwithin{thm}{section}
-\numberwithin{equation}{section}
+% Match the collected book: its chapter number is the lecture number, while
+% statement and equation counters run continuously within that chapter.
+\renewcommand{\thesection}{12.\arabic{section}}
+\renewcommand{\thethm}{12.\arabic{thm}}
+\renewcommand{\theequation}{12.\arabic{equation}}
 
 \hypersetup{pdftitle={Лекция 12. Точкови оценки. Максимално правдоподобие и метод на моментите}}
 
@@ -16,11 +19,15 @@
 
 \begin{document}
 
+% Polyglossia installs captions at \begin{document}; localize afterwards.
+\renewcommand{\proofname}{Доказателство}
+
 \begin{center}
   {\Large\bfseries Лекция 12.\ }{\Large Точкови оценки. Максимално правдоподобие и метод на моментите}
 \end{center}
 \vspace{1.2em}
 
 \input{bodies/lecture_12}
+
 
 \end{document}

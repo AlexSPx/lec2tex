@@ -3,8 +3,11 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper, margin=1in]{geometry}
 \input{preamble}
-\numberwithin{thm}{section}
-\numberwithin{equation}{section}
+% Match the collected book: its chapter number is the lecture number, while
+% statement and equation counters run continuously within that chapter.
+\renewcommand{\thesection}{10.\arabic{section}}
+\renewcommand{\thethm}{10.\arabic{thm}}
+\renewcommand{\theequation}{10.\arabic{equation}}
 
 \hypersetup{pdftitle={Лекция 10. Видове сходимост. Неравенство на Чебишов и закони за големите числа}}
 
@@ -16,11 +19,15 @@
 
 \begin{document}
 
+% Polyglossia installs captions at \begin{document}; localize afterwards.
+\renewcommand{\proofname}{Доказателство}
+
 \begin{center}
   {\Large\bfseries Лекция 10.\ }{\Large Видове сходимост. Неравенство на Чебишов и закони за големите числа}
 \end{center}
 \vspace{1.2em}
 
 \input{bodies/lecture_10}
+
 
 \end{document}

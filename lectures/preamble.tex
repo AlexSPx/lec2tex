@@ -9,7 +9,9 @@
 % ---------------------------------------------------------------------------
 
 \usepackage{fontspec}
-\setmainfont{Times New Roman}
+\IfFontExistsTF{Times New Roman}
+  {\setmainfont{Times New Roman}}
+  {\setmainfont{Liberation Serif}}
 
 % Bulgarian: loads hyphenation patterns (without these TeX cannot break a single
 % Cyrillic word, which is what produced the loose lines and overfull boxes) and
@@ -22,6 +24,17 @@
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{amsthm}
+% Shared probability notation. Bodies use these semantic commands exclusively.
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Var}{\mathbb{D}}
+\newcommand{\ind}{\mathbf{1}}
+\newcommand{\given}{\mid}
+\DeclareMathOperator{\Bin}{Bi}
+\DeclareMathOperator{\Poi}{Po}
+\DeclareMathOperator{\Ber}{Ber}
+% Standalone lectures do not load labels from other lecture bodies. The book
+% driver upgrades cross-lecture mentions to links after all shared setup.
+\newcommand{\crosslecture}[2]{#2}
 \usepackage[most]{tcolorbox}
 \usepackage{microtype}
 \usepackage{fancyhdr}
@@ -84,7 +97,8 @@
 \tcolorboxenvironment{cor} {lecbox, colback=thmback, colframe=thmframe}
 
 % Proofs: unboxed, with an automatic flush-right QED on every one of them.
-\renewcommand{\proofname}{Доказателство}
+% The driver localizes \proofname after \begin{document}, once polyglossia has
+% installed its Bulgarian captions.
 \renewcommand{\qedsymbol}{$\square$}
 
 % --- links ------------------------------------------------------------------

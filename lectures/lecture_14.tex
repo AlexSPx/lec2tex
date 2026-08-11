@@ -3,8 +3,11 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper, margin=1in]{geometry}
 \input{preamble}
-\numberwithin{thm}{section}
-\numberwithin{equation}{section}
+% Match the collected book: its chapter number is the lecture number, while
+% statement and equation counters run continuously within that chapter.
+\renewcommand{\thesection}{14.\arabic{section}}
+\renewcommand{\thethm}{14.\arabic{thm}}
+\renewcommand{\theequation}{14.\arabic{equation}}
 
 \hypersetup{pdftitle={Лекция 14. Линейна регресия}}
 
@@ -16,11 +19,18 @@
 
 \begin{document}
 
+% Polyglossia installs captions at \begin{document}; localize afterwards.
+\renewcommand{\proofname}{Доказателство}
+
 \begin{center}
   {\Large\bfseries Лекция 14.\ }{\Large Линейна регресия}
 \end{center}
 \vspace{1.2em}
 
 \input{bodies/lecture_14}
+
+\section*{Организационна бележка}
+\input{bodies/exam_note}
+
 
 \end{document}
