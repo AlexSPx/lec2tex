@@ -1,0 +1,22 @@
+{
+  "timestamp": 3660.0,
+  "image": "board_022.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow \\mu"
+    },
+    {
+      "type": "text",
+      "content": "е известна."
+    },
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{n \\hat{\\sigma}^2}{\\sigma^2} = \\sum_{j=1}^n \\frac{(X_j - \\mu)^2}{\\sigma} \\sim \\chi^2(n)"
+    }
+  ]
+}

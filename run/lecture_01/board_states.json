@@ -1,0 +1,326 @@
+[
+  {
+    "timestamp": 0.0,
+    "image": "board_001.png"
+  },
+  {
+    "timestamp": 2.33,
+    "image": "board_002.png"
+  },
+  {
+    "timestamp": 40.33,
+    "image": "board_003.png"
+  },
+  {
+    "timestamp": 200.0,
+    "image": "board_004.png"
+  },
+  {
+    "timestamp": 268.67,
+    "image": "board_005.png"
+  },
+  {
+    "timestamp": 408.33,
+    "image": "board_006.png"
+  },
+  {
+    "timestamp": 468.33,
+    "image": "board_007.png"
+  },
+  {
+    "timestamp": 475.67,
+    "image": "board_008.png"
+  },
+  {
+    "timestamp": 500.67,
+    "image": "board_009.png"
+  },
+  {
+    "timestamp": 540.33,
+    "image": "board_010.png"
+  },
+  {
+    "timestamp": 559.33,
+    "image": "board_011.png"
+  },
+  {
+    "timestamp": 597.67,
+    "image": "board_012.png"
+  },
+  {
+    "timestamp": 711.0,
+    "image": "board_013.png"
+  },
+  {
+    "timestamp": 715.0,
+    "image": "board_014.png"
+  },
+  {
+    "timestamp": 731.0,
+    "image": "board_015.png"
+  },
+  {
+    "timestamp": 768.33,
+    "image": "board_016.png"
+  },
+  {
+    "timestamp": 773.0,
+    "image": "board_017.png"
+  },
+  {
+    "timestamp": 811.67,
+    "image": "board_018.png"
+  },
+  {
+    "timestamp": 836.33,
+    "image": "board_019.png"
+  },
+  {
+    "timestamp": 851.67,
+    "image": "board_020.png"
+  },
+  {
+    "timestamp": 879.67,
+    "image": "board_021.png"
+  },
+  {
+    "timestamp": 881.33,
+    "image": "board_022.png"
+  },
+  {
+    "timestamp": 904.0,
+    "image": "board_023.png"
+  },
+  {
+    "timestamp": 904.33,
+    "image": "board_024.png"
+  },
+  {
+    "timestamp": 904.67,
+    "image": "board_025.png"
+  },
+  {
+    "timestamp": 910.33,
+    "image": "board_026.png"
+  },
+  {
+    "timestamp": 915.33,
+    "image": "board_027.png"
+  },
+  {
+    "timestamp": 920.0,
+    "image": "board_028.png"
+  },
+  {
+    "timestamp": 941.67,
+    "image": "board_029.png"
+  },
+  {
+    "timestamp": 1012.0,
+    "image": "board_030.png"
+  },
+  {
+    "timestamp": 1024.33,
+    "image": "board_031.png"
+  },
+  {
+    "timestamp": 1025.33,
+    "image": "board_032.png"
+  },
+  {
+    "timestamp": 1033.0,
+    "image": "board_033.png"
+  },
+  {
+    "timestamp": 1042.67,
+    "image": "board_034.png"
+  },
+  {
+    "timestamp": 1046.67,
+    "image": "board_035.png"
+  },
+  {
+    "timestamp": 1048.33,
+    "image": "board_036.png"
+  },
+  {
+    "timestamp": 1054.33,
+    "image": "board_037.png"
+  },
+  {
+    "timestamp": 1063.33,
+    "image": "board_038.png"
+  },
+  {
+    "timestamp": 1077.67,
+    "image": "board_039.png"
+  },
+  {
+    "timestamp": 1093.0,
+    "image": "board_040.png"
+  },
+  {
+    "timestamp": 1110.0,
+    "image": "board_041.png"
+  },
+  {
+    "timestamp": 1127.33,
+    "image": "board_042.png"
+  },
+  {
+    "timestamp": 1163.67,
+    "image": "board_043.png"
+  },
+  {
+    "timestamp": 1198.33,
+    "image": "board_044.png"
+  },
+  {
+    "timestamp": 1217.33,
+    "image": "board_045.png"
+  },
+  {
+    "timestamp": 1245.0,
+    "image": "board_046.png"
+  },
+  {
+    "timestamp": 1300.67,
+    "image": "board_047.png"
+  },
+  {
+    "timestamp": 1314.33,
+    "image": "board_048.png"
+  },
+  {
+    "timestamp": 1315.0,
+    "image": "board_049.png"
+  },
+  {
+    "timestamp": 1321.33,
+    "image": "board_050.png"
+  },
+  {
+    "timestamp": 1323.33,
+    "image": "board_051.png"
+  },
+  {
+    "timestamp": 1326.67,
+    "image": "board_052.png"
+  },
+  {
+    "timestamp": 1346.67,
+    "image": "board_053.png"
+  },
+  {
+    "timestamp": 1349.33,
+    "image": "board_054.png"
+  },
+  {
+    "timestamp": 1377.67,
+    "image": "board_055.png"
+  },
+  {
+    "timestamp": 1378.33,
+    "image": "board_056.png"
+  },
+  {
+    "timestamp": 1381.33,
+    "image": "board_057.png"
+  },
+  {
+    "timestamp": 1481.0,
+    "image": "board_058.png"
+  },
+  {
+    "timestamp": 1548.67,
+    "image": "board_059.png"
+  },
+  {
+    "timestamp": 1550.67,
+    "image": "board_060.png"
+  },
+  {
+    "timestamp": 1575.33,
+    "image": "board_061.png"
+  },
+  {
+    "timestamp": 1592.0,
+    "image": "board_062.png"
+  },
+  {
+    "timestamp": 1601.0,
+    "image": "board_063.png"
+  },
+  {
+    "timestamp": 1653.0,
+    "image": "board_064.png"
+  },
+  {
+    "timestamp": 1684.33,
+    "image": "board_065.png"
+  },
+  {
+    "timestamp": 1689.33,
+    "image": "board_066.png"
+  },
+  {
+    "timestamp": 1696.67,
+    "image": "board_067.png"
+  },
+  {
+    "timestamp": 1703.67,
+    "image": "board_068.png"
+  },
+  {
+    "timestamp": 1728.33,
+    "image": "board_069.png"
+  },
+  {
+    "timestamp": 1733.0,
+    "image": "board_070.png"
+  },
+  {
+    "timestamp": 1749.0,
+    "image": "board_071.png"
+  },
+  {
+    "timestamp": 1756.0,
+    "image": "board_072.png"
+  },
+  {
+    "timestamp": 1765.33,
+    "image": "board_073.png"
+  },
+  {
+    "timestamp": 1768.0,
+    "image": "board_074.png"
+  },
+  {
+    "timestamp": 1769.67,
+    "image": "board_075.png"
+  },
+  {
+    "timestamp": 1771.67,
+    "image": "board_076.png"
+  },
+  {
+    "timestamp": 1775.33,
+    "image": "board_077.png"
+  },
+  {
+    "timestamp": 1781.33,
+    "image": "board_078.png"
+  },
+  {
+    "timestamp": 1792.67,
+    "image": "board_079.png"
+  },
+  {
+    "timestamp": 1804.33,
+    "image": "board_080.png"
+  },
+  {
+    "timestamp": 1827.33,
+    "image": "board_081.png"
+  }
+]

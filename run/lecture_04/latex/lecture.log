@@ -1,0 +1,516 @@
+**
+(lecture.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (fontspec.sty (xparse.sty (expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+ (l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+\c__kernel_sys_dvipdfmx_version_int=\count189
+\l__color_backend_stack_int=\count190
+\g__color_backend_stack_int=\count191
+\g__graphics_track_int=\count192
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count193
+\g__pdf_backend_annotation_int=\count194
+\g__pdf_backend_link_int=\count195
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count196
+\l__fontspec_language_int=\count197
+\l__fontspec_strnum_int=\count198
+\l__fontspec_tmp_int=\count199
+\l__fontspec_tmpa_int=\count266
+\l__fontspec_tmpb_int=\count267
+\l__fontspec_tmpc_int=\count268
+\l__fontspec_em_int=\count269
+\l__fontspec_emdef_int=\count270
+\l__fontspec_strong_int=\count271
+\l__fontspec_strongdef_int=\count272
+\l__fontspec_tmpa_dim=\dimen139
+\l__fontspec_tmpb_dim=\dimen140
+\l__fontspec_tmpc_dim=\dimen141
+ (fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (fontspec.cfg)))
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen142
+)) (amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count278
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip16
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks17
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks18
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+) (lecture.aux)
+\openout1 = `lecture.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+3.
+ (ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 13.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 13.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 13.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 13.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 13.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 13.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 13.
+LaTeX Font Info:    Redeclaring math accent \check on input line 13.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 13.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 13.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 13.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 13.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 13.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
+3.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+13.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 13.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 13.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+
+ (umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+
+ (umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (6.42908pt too wide) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/10 такова множество може да бъде характеризирано чрез 
+всевъзможни характеристики
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 21--22
+[]\TU/TimesNewRoman(0)/m/n/10 На практика обаче, за даден експеримент или изсле
+дване най-често се интересуваме
+ []
+
+
+Overfull \hbox (24.23299pt too wide) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/10 елементарно събитие $\OML/cmm/m/it/10 ! \OMS/cmsy/m
+/n/10 2 \OT1/cmr/m/n/10 
+$ \TU/TimesNewRoman(0)/m/n/10 да съпоставим реално число. Това класическо изобр
+ажение
+ []
+
+
+Overfull \hbox (0.83176pt too wide) in paragraph at lines 21--22
+\TU/TimesNewRoman(0)/m/n/10 на елементарните събития и да работим изцяло с техн
+ите числови характеристики,
+ []
+
+
+Overfull \hbox (8.25623pt too wide) in paragraph at lines 27--28
+[]\TU/TimesNewRoman(0)/m/n/10 Ако имаме интервал (или произволно множество) $\O
+ML/cmm/m/it/10 I \OMS/cmsy/m/n/10 ^^Z \U/msb/m/n/10 R$\TU/TimesNewRoman(0)/m/n/
+10 , под пълния първообраз
+ []
+
+
+Overfull \hbox (9.86168pt too wide) in paragraph at lines 30--32
+\TU/TimesNewRoman(0)/m/n/10 което за краткост ще записваме просто като $\OMS/cm
+sy/m/n/10 f\OML/cmm/m/it/10 a < X < b\OMS/cmsy/m/n/10 g$\TU/TimesNewRoman(0)/m/
+n/10 , като винаги подразбираме,
+ []
+
+[1
+
+]
+Overfull \hbox (3.11757pt too wide) in paragraph at lines 39--40
+[]\TU/TimesNewRoman(0)/m/n/10 Това условие означава, че можем да придаваме веро
+ятност на такива множества
+ []
+
+
+Overfull \hbox (11.28445pt too wide) in paragraph at lines 41--42
+\TU/TimesNewRoman(0)/m/n/10 алгебрата $\OMS/cmsy/m/n/10 A$\TU/TimesNewRoman(0)/
+m/n/10 . Следователно ние можем да измерваме и да изчисляваме вероятностите
+ []
+
+[2]
+Overfull \hbox (1.7725pt too wide) in paragraph at lines 64--65
+\TU/TimesNewRoman(0)/m/n/10 Преди да преминем към конкретната дефиниция на диск
+ретни случайни величини,
+ []
+
+
+Overfull \hbox (3.2623pt too wide) in paragraph at lines 75--76
+[]\TU/TimesNewRoman(0)/m/n/10 Това е най-простият прототип за бинарен експериме
+нт (успех/неуспех). Цялото
+ []
+
+
+Overfull \hbox (19.40164pt too wide) in paragraph at lines 75--76
+\TU/TimesNewRoman(0)/m/n/10 събитието се е случило (стойност 1) или не (стойнос
+т 0). Използването на индикаторни
+ []
+
+
+Overfull \hbox (88.55785pt too wide) detected at line 89
+\OT1/cmr/m/n/10 1[] = 1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1[] = 1 \OMS/cmsy/
+m/n/10 ^^@ \OT1/cmr/m/n/10 (1[] + 1[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1[]1
+[]) = 1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/
+m/n/10 1[] + 1[]1[] = (1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1[])(1 \OMS/cmsy/
+m/n/10 ^^@ \OT1/cmr/m/n/10 1[]) = 1[]1[] = 1[]
+ []
+
+
+Overfull \hbox (11.21587pt too wide) in paragraph at lines 89--91
+\TU/TimesNewRoman(0)/m/n/10 От равенството на индикаторните функции следва раве
+нството на самите множества:
+ []
+
+
+Overfull \hbox (3.73318pt too wide) in paragraph at lines 92--94
+[]\TU/TimesNewRoman(0)/b/n/10 Твърдение: \TU/TimesNewRoman(0)/m/n/10 Ако множес
+твото $\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 2 A$\TU/TimesNewRoman(0)/m/n/10 , то
+ индикаторната функция $\OT1/cmr/m/n/10 1[]$ \TU/TimesNewRoman(0)/m/n/10 е случ
+айна
+ []
+
+[3]
+Overfull \hbox (59.62025pt too wide) detected at line 101
+\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 1[] \OML/cmm/m/it/10 < b\OMS/cmsy/m/n/10 g \O
+T1/cmr/m/n/10 = []
+ []
+
+
+Overfull \hbox (21.55995pt too wide) in paragraph at lines 101--103
+\TU/TimesNewRoman(0)/m/n/10 фундаментът (”тухличката”), върху който се изгражда
+ теорията на мярката и интеграла,
+ []
+
+
+Overfull \hbox (8.97476pt too wide) in paragraph at lines 115--116
+\TU/TimesNewRoman(0)/m/n/10 индикатор от тази сума не е нула. Следователно $\OM
+L/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 )$ \TU/TimesN
+ewRoman(0)/m/n/10 винаги приема една конкретна
+ []
+
+
+Overfull \hbox (0.2302pt too wide) in paragraph at lines 115--116
+\TU/TimesNewRoman(0)/m/n/10 (както видяхме) индикаторите са случайни величини, 
+а тяхна линейна комбинация
+ []
+
+
+Overfull \hbox (12.09518pt too wide) in paragraph at lines 117--118
+[]\TU/TimesNewRoman(0)/b/n/10 Дефиниция: \TU/TimesNewRoman(0)/m/n/10 Под \TU/Ti
+mesNewRoman(0)/m/it/10 разпределение \TU/TimesNewRoman(0)/m/n/10 на дискретната
+ случайна величина $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n/10 разбираме
+ []
+
+[4]
+Overfull \hbox (2.47156pt too wide) in paragraph at lines 129--130
+[]\TU/TimesNewRoman(0)/m/n/10 С тази таблица нашият модел напълно се абстрахира
+ от сложното вероятностно
+ []
+
+
+Overfull \hbox (24.6871pt too wide) in paragraph at lines 137--139
+\TU/TimesNewRoman(0)/m/n/10 стойността 4000 вероятността акумулира всички остан
+али: $\U/msb/m/n/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Y \OT1/cmr/m/n/10 = 4000
+) = [][] \OML/cmm/m/it/10 p[]$\TU/TimesNewRoman(0)/m/n/10 .
+ []
+
+
+Overfull \hbox (11.82245pt too wide) in paragraph at lines 143--144
+\TU/TimesNewRoman(0)/m/n/10 построява като по хоризонталната ос се отбелязват с
+тойностите $\OML/cmm/m/it/10 x[]$\TU/TimesNewRoman(0)/m/n/10 , а по вертикалнат
+а
+ []
+
+
+Overfull \hbox (26.82037pt too wide) in paragraph at lines 145--146
+[]\TU/TimesNewRoman(0)/b/n/10 Пример: \TU/TimesNewRoman(0)/m/n/10 Да разгледаме
+ хвърлянето на два честни зара, които се хвърлят независимо.
+ []
+
+
+Overfull \hbox (17.36333pt too wide) in paragraph at lines 155--156
+\TU/TimesNewRoman(0)/m/n/10 Хистограмата за този експеримент ще изглежда като с
+иметрична триъгълна пирамида,
+ []
+
+[5]
+Overfull \hbox (19.57007pt too wide) in paragraph at lines 165--166
+\TU/TimesNewRoman(0)/m/n/10 число (както при четните числа от зара, които отива
+т в 1), ние можем да преномерираме
+ []
+
+
+Overfull \hbox (5.19765pt too wide) in paragraph at lines 165--166
+\TU/TimesNewRoman(0)/m/n/10 и да обединим съответните колонки в таблицата на ра
+зпределението, като сумираме
+ []
+
+
+Overfull \hbox (8.59193pt too wide) in paragraph at lines 168--169
+[]\TU/TimesNewRoman(0)/b/n/10 Пример: \TU/TimesNewRoman(0)/m/n/10 Да се върнем 
+към модела с процесора, чийто живот е $\OML/cmm/m/it/10 X \OMS/cmsy/m/n/10 2 f\
+OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr
+/m/n/10 2\OML/cmm/m/it/10 ; [] \OMS/cmsy/m/n/10 g$\TU/TimesNewRoman(0)/m/n/10 .
+
+ []
+
+
+Overfull \hbox (22.74303pt too wide) in paragraph at lines 169--171
+\TU/TimesNewRoman(0)/m/n/10 Табличката на разпределение на $\OML/cmm/m/it/10 Y$
+ \TU/TimesNewRoman(0)/m/n/10 става изключително проста: стойност $\OT1/cmr/m/n/
+10 0$ \TU/TimesNewRoman(0)/m/n/10 с вероятност
+ []
+
+
+Overfull \hbox (21.81157pt too wide) in paragraph at lines 169--171
+\OML/cmm/m/it/10 p[]$ \TU/TimesNewRoman(0)/m/n/10 и стойност $\OT1/cmr/m/n/10 1
+$ \TU/TimesNewRoman(0)/m/n/10 с вероятност $\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 
+^^@ \OML/cmm/m/it/10 p[]$\TU/TimesNewRoman(0)/m/n/10 . Така си спестяваме дълго
+то и сложно разпределение
+ []
+
+
+Overfull \hbox (3.67746pt too wide) in paragraph at lines 173--174
+\TU/TimesNewRoman(0)/m/n/10 Когато сменяме променливите на две случайни величин
+и едновременно, е ключово
+ []
+
+
+Overfull \hbox (2.79803pt too wide) in paragraph at lines 181--182
+\TU/TimesNewRoman(0)/m/n/10 величини $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/
+m/n/10 и $\OML/cmm/m/it/10 Y$ \TU/TimesNewRoman(0)/m/n/10 във $\OML/cmm/m/it/10
+ V$\TU/TimesNewRoman(0)/m/n/10 , интуитивно те са независими, ако стойността, к
+оято приема
+ []
+
+[6]
+Overfull \hbox (2.84575pt too wide) in paragraph at lines 184--186
+\TU/TimesNewRoman(0)/m/n/10 Тоест, вероятността двете случайни величини едновре
+менно да приемат конкретни
+ []
+
+
+Overfull \hbox (1.22563pt too wide) in paragraph at lines 184--186
+\TU/TimesNewRoman(0)/m/n/10 стойности (настъпването на сечението на събитията) 
+се разпада като произведение
+ []
+
+
+Overfull \hbox (8.29732pt too wide) in paragraph at lines 187--188
+[]\TU/TimesNewRoman(0)/b/n/10 Дефиниция за независимост в съвкупност: \TU/Times
+NewRoman(0)/m/n/10 Нека имаме $\OML/cmm/m/it/10 n$ \TU/TimesNewRoman(0)/m/n/10 
+дискретни случайни
+ []
+
+
+Overfull \hbox (8.01982pt too wide) in paragraph at lines 187--188
+\TU/TimesNewRoman(0)/m/n/10 тогава, когато за всяко подмножество от техни индек
+си $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 j[]; j[]; [] ; j[]\OMS/cmsy/m/n/10 g ^^Z
+ f\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; [] ; n\OMS/cmsy/m/n/10 g$
+ []
+
+
+Overfull \hbox (33.04655pt too wide) detected at line 188
+\U/msb/m/n/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 = \OML/cmm
+/m/it/10 x[]; X[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]; [] ; X[] \OT1/cmr/m/n
+/10 = \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = \U/msb/m/n/10 P\OT1/cmr/m/n/10 (\
+OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\U/m
+sb/m/n/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 = \OML/cmm/m/i
+t/10 x[]\OT1/cmr/m/n/10 ) [] \U/msb/m/n/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X
+[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )
+ []
+
+
+Overfull \hbox (0.14232pt too wide) in paragraph at lines 188--190
+\TU/TimesNewRoman(0)/m/n/10 Записът може да изглежда сложен, но идеята му е про
+ста: каквото и подмножество
+ []
+
+
+Overfull \hbox (30.04628pt too wide) in paragraph at lines 188--190
+\TU/TimesNewRoman(0)/m/n/10 от случайните величини да вземете, съвместната веро
+ятност за всяка тяхна конфигурация
+ []
+
+[7] (lecture.aux) )
+Output written on lecture.xdv (7 pages, 128280 bytes).

@@ -1,0 +1,50 @@
+{
+  "timestamp": 9483.0,
+  "image": "board_064.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства:"
+    },
+    {
+      "type": "equation",
+      "content": "DX"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} X"
+    },
+    {
+      "type": "equation",
+      "content": "Dc = 0"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} c = c"
+    },
+    {
+      "type": "equation",
+      "content": "DaX = a^2 DX"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}(aX+b) = a\\mathbb{E}X + b"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}(aX+bY) = a\\mathbb{E}X + b\\mathbb{E}Y"
+    },
+    {
+      "type": "equation",
+      "content": "X \\perp\\!\\!\\!\\perp Y \\quad D(X+Y) = DX + DY"
+    },
+    {
+      "type": "equation",
+      "content": "X \\perp\\!\\!\\!\\perp Y \\quad \\mathbb{E}XY = \\mathbb{E}X\\mathbb{E}Y"
+    },
+    {
+      "type": "equation",
+      "content": "D(X+c) = DX"
+    }
+  ]
+}

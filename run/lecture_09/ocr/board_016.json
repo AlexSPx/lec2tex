@@ -1,0 +1,138 @@
+{
+  "timestamp": 5916.0,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Теор: (смяна на пром) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X = (X_1, X_2)"
+    },
+    {
+      "type": "text",
+      "content": "е със съвм. плът"
+    },
+    {
+      "type": "equation",
+      "content": "f_X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{D}(f_X)"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "g: \\mathbb{R}^2 \\to \\mathbb{R}^2"
+    },
+    {
+      "type": "text",
+      "content": "като"
+    },
+    {
+      "type": "equation",
+      "content": "g: \\mathcal{D}(f_X) \\to \\mathbb{R}^2"
+    },
+    {
+      "type": "text",
+      "content": "е взаимно еднозначно"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\begin{pmatrix} Y_1 \\\\ Y_2 \\end{pmatrix} = g(X) = \\begin{pmatrix} g_1(X_1, X_2) \\\\ g_2(X_1, X_2) \\end{pmatrix}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "g(\\mathcal{D}_{f_X}) = \\{y \\in \\mathbb{R}^2: y=g(x)"
+    },
+    {
+      "type": "text",
+      "content": "за някое"
+    },
+    {
+      "type": "equation",
+      "content": "x \\in \\mathcal{D}(f_X)\\}"
+    },
+    {
+      "type": "equation",
+      "content": "X = g^{-1}(Y) = h(Y)"
+    },
+    {
+      "type": "equation",
+      "content": "(h = g^{-1})"
+    },
+    {
+      "type": "equation",
+      "content": "g"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "h"
+    },
+    {
+      "type": "text",
+      "content": "са непрекъснати и диференцируеми"
+    },
+    {
+      "type": "text",
+      "content": "в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{D}(f_X)"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "g(\\mathcal{D}_{f_X})"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{D}_{f_X}"
+    },
+    {
+      "type": "equation",
+      "content": "g"
+    },
+    {
+      "type": "equation",
+      "content": "h = g^{-1}"
+    },
+    {
+      "type": "equation",
+      "content": "g(\\mathcal{D}_{f_X})"
+    },
+    {
+      "type": "equation",
+      "content": "f_Y(y) = f_X(h(y)) |J(y)|, \\forall y \\in g(\\mathcal{D}_{f_X})"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{pmatrix} \\frac{\\partial h_1}{\\partial y_1} & \\frac{\\partial h_1}{\\partial y_2} \\\\ \\frac{\\partial h_2}{\\partial y_1} \\end{pmatrix}"
+    }
+  ]
+}

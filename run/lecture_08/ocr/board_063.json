@@ -1,0 +1,22 @@
+{
+  "timestamp": 9201.0,
+  "image": "board_063.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "DX = \\sum_i (x_i - EX)^2 p_i"
+    },
+    {
+      "type": "equation",
+      "content": "g(x)"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "E g(x) = \\int_{-\\infty}^{\\infty} g(x) f_X(x) dx"
+    }
+  ]
+}

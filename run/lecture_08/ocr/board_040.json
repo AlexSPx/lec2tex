@@ -1,0 +1,10 @@
+{
+  "timestamp": 4836.0,
+  "image": "board_040.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c|c}\nY \\backslash X & 0 & 1 & 2 \\\\\n\\hline\n0 & \\frac{16}{36} & \\frac{8}{36} & \\frac{1}{36} \\\\\n\\hline\n1 & \\frac{8}{36} & \\frac{2}{36} & 0 \\\\\n\\hline\n2 & \\frac{1}{36} & 0 & 0\n\\end{array}"
+    }
+  ]
+}

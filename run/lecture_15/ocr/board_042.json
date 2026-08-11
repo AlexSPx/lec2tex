@@ -1,0 +1,106 @@
+{
+  "timestamp": 2616.0,
+  "image": "board_042.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "k-ел м-во, но позволяваме и повторения на n-ел м-во"
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "M = \\{a_1, \\dots, a_n\\}"
+    },
+    {
+      "type": "text",
+      "content": ", то търсеният брой е # р-я на"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_n = k"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "text",
+      "content": "колко пъти сме избрали"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "text",
+      "content": "в"
+    },
+    {
+      "type": "equation",
+      "content": "N_0"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "# възм. е"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n+k-1}{n-1} = \\binom{n+k-1}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n}{k} = \\binom{n}{n-k}; \\left(\\binom{n}{k}\\right) = \\binom{n+k-1}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "multichoose"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "Зад. 4"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "различни частици (топки)"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "(различни) клетки (урни)"
+    },
+    {
+      "type": "text",
+      "content": "а) всяка клетка"
+    },
+    {
+      "type": "equation",
+      "content": "\\le 1"
+    },
+    {
+      "type": "text",
+      "content": "части"
+    }
+  ]
+}

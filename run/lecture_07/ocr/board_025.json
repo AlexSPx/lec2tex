@@ -1,0 +1,78 @@
+{
+  "timestamp": 5898.0,
+  "image": "board_025.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "Y=aX+b"
+    },
+    {
+      "type": "text",
+      "content": "Теор:)"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "сл. вел. с"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "DY < \\infty"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y=aX+b \\iff |\\rho(X,Y)|=1."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:)"
+    },
+    {
+      "type": "text",
+      "content": "\""
+    },
+    {
+      "type": "equation",
+      "content": "\\Longleftarrow"
+    },
+    {
+      "type": "text",
+      "content": "\""
+    },
+    {
+      "type": "equation",
+      "content": "|\\rho(X,Y)|=1"
+    },
+    {
+      "type": "equation",
+      "content": "\\rho(X,Y)=1."
+    }
+  ]
+}

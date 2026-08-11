@@ -1,0 +1,34 @@
+{
+  "timestamp": 2202.0,
+  "image": "board_024.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Схема на Бернули"
+    },
+    {
+      "type": "equation",
+      "content": "(X_j)_{j=1}^\\infty"
+    },
+    {
+      "type": "text",
+      "content": "са независими в съвкупност и"
+    },
+    {
+      "type": "text",
+      "content": "еднакво разпределени, т.е."
+    },
+    {
+      "type": "text",
+      "content": "вер. за успех"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X_1=1) = p = \\mathbb{P}(X_j=1), j \\ge 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X_1=0) = 1-p = q = \\mathbb{P}(X_j=0)"
+    }
+  ]
+}

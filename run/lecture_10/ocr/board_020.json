@@ -1,0 +1,50 @@
+{
+  "timestamp": 4974.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: (Усилен ЗГЧ) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "(X_i)_{i=1}^{\\infty}"
+    },
+    {
+      "type": "text",
+      "content": "е редица от сл. вел. с очаквания"
+    },
+    {
+      "type": "equation",
+      "content": "(\\mathbb{E} X_i)_{i=1}^{\\infty}."
+    },
+    {
+      "type": "text",
+      "content": "Тогава за редицата е в сила УЗГЧ."
+    },
+    {
+      "type": "text",
+      "content": "(*)"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\sum_{i=1}^n (X_i - \\mathbb{E} X_i)}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} 0."
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} X_i = \\mathbb{E} X_1 \\; \\forall i \\ge 1,"
+    },
+    {
+      "type": "text",
+      "content": "то (*) може да се напише като"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} \\mathbb{E} X_1"
+    }
+  ]
+}

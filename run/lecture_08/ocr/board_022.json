@@ -1,0 +1,18 @@
+{
+  "timestamp": 2853.0,
+  "image": "board_022.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на УМО:"
+    },
+    {
+      "type": "text",
+      "content": "г)."
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[\\mathbb{E}[X|Y]] = \\mathbb{E}X"
+    }
+  ]
+}

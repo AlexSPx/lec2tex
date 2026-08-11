@@ -1,0 +1,14 @@
+{
+  "timestamp": 3903.0,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Ковариация"
+    },
+    {
+      "type": "equation",
+      "content": "Y \\neq aX + b ; Y \\neq f(X)"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "timestamp": 5622.0,
+  "image": "board_027.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\textcircled{7} X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "извест."
+    },
+    {
+      "type": "equation",
+      "content": "H_0: \\mu = \\mu_0"
+    },
+    {
+      "type": "equation",
+      "content": "(\\mu_1 > \\mu_0) ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha = 0,05 ;"
+    },
+    {
+      "type": "equation",
+      "content": "H_1: \\mu = \\mu_1"
+    },
+    {
+      "type": "text",
+      "content": "Извадка"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X}"
+    },
+    {
+      "type": "text",
+      "content": "с"
+    },
+    {
+      "type": "equation",
+      "content": "L_1(\\vec{x}) = \\left(\\frac{1}{\\sqrt{2\\pi}}\\right)^n \\frac{1}{\\sigma^n} \\prod_{j=1}^n e^{-\\frac{(x_j - \\mu_1)^2}{2\\sigma^2}}"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "наблюдения"
+    },
+    {
+      "type": "equation",
+      "content": "L_0(\\vec{x}) = \\left(\\frac{1}{\\sqrt{2\\pi}}\\right)^n \\frac{1}{\\sigma^n} \\prod_{j=1}^n e^{-\\frac{(x_j - \\mu_0)^2}{2\\sigma^2}} ;"
+    },
+    {
+      "type": "equation",
+      "content": "W^* = \\{ L_1 \\ge k L_0 \\}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(\\vec{X} \\in W^* | H_0) = \\alpha ."
+    },
+    {
+      "type": "equation",
+      "content": "k(\\alpha)"
+    }
+  ]
+}

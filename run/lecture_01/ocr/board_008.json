@@ -1,0 +1,54 @@
+{
+  "timestamp": 475.67,
+  "image": "board_008.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = \\{"
+    },
+    {
+      "type": "text",
+      "content": "'ези'"
+    },
+    {
+      "type": "equation",
+      "content": ";"
+    },
+    {
+      "type": "text",
+      "content": "'тура'"
+    },
+    {
+      "type": "equation",
+      "content": "\\} ; \\Omega = \\{0; 1\\}"
+    },
+    {
+      "type": "text",
+      "content": "2)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = \\{1, 2, 3, 4, 5, 6\\} ; \\omega_5 = \\{5\\}"
+    },
+    {
+      "type": "text",
+      "content": "3)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = \\{\\omega_1, \\omega_2, \\dots, \\omega_N\\} \\quad N = \\binom{49}{6} = \\underline{\\underline{13983816}};"
+    },
+    {
+      "type": "text",
+      "content": "4)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = \\mathbb{R}_+ = [0, \\infty)"
+    }
+  ]
+}

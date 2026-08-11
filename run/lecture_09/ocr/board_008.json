@@ -1,0 +1,38 @@
+{
+  "timestamp": 756.0,
+  "image": "board_008.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "1. Равномерно разпр -"
+    },
+    {
+      "type": "equation",
+      "content": "Y \\sim U(0, 1), X \\sim U(a, b)"
+    },
+    {
+      "type": "equation",
+      "content": "Z = \\frac{X-a}{b-a} \\iff X = a + (b-a)Z"
+    },
+    {
+      "type": "equation",
+      "content": "\\equiv g(X)"
+    },
+    {
+      "type": "equation",
+      "content": "y = g(x) = \\frac{x-a}{b-a}"
+    },
+    {
+      "type": "equation",
+      "content": "g \\uparrow"
+    },
+    {
+      "type": "equation",
+      "content": "y = g(x) \\implies X = a + (b-a)y = g^{-1}(y)"
+    },
+    {
+      "type": "equation",
+      "content": "f_Z(y) = f_X(a+(b-a)y)(b-a)"
+    }
+  ]
+}

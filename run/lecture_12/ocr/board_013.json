@@ -1,0 +1,42 @@
+{
+  "timestamp": 4386.0,
+  "image": "board_013.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\mu;"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X^2 = DX + (\\mathbb{E}X)^2 = \\sigma^2 + \\mu^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\boxed{\\overline{X}_n^{(1)} = \\mu}"
+    },
+    {
+      "type": "text",
+      "content": "ММО=ММП"
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{X}_n^{(2)} = \\frac{1}{n} \\sum_{j=1}^n X_j^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{X}_n^{(2)} = \\mu^2 + \\sigma^2 \\Rightarrow \\hat{\\sigma}^2 = \\overline{X}_n^{(2)} - \\left(\\overline{X}_n^{(1)}\\right)^2 = \\frac{1}{n} \\sum_{j=1}^n \\left(X_j - \\overline{X}_n^{(1)}\\right)^2"
+    },
+    {
+      "type": "text",
+      "content": "ММО = ММП."
+    }
+  ]
+}

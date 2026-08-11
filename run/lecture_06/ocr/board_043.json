@@ -1,0 +1,54 @@
+{
+  "timestamp": 4131.0,
+  "image": "board_043.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Ge(p)."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = q^k p, \\quad k \\ge 0"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "k=0"
+    },
+    {
+      "type": "equation",
+      "content": "\\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0) = \\mathbb{P}(X_1=1) = p"
+    },
+    {
+      "type": "equation",
+      "content": "k \\ge 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\{X=k\\} = \\{X_1=0; \\dots; X_k=0; X_{k+1}=1\\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = \\mathbb{P}(X_1=0; X_2=0; \\dots; X_k=0; X_{k+1}=1)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}(X_1=0) \\mathbb{P}(X_2=0) \\dots \\mathbb{P}(X_k=0) \\mathbb{P}(X_{k+1}=1)"
+    },
+    {
+      "type": "equation",
+      "content": "= q^k p."
+    }
+  ]
+}

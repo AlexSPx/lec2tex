@@ -1,0 +1,62 @@
+{
+  "timestamp": 2706.0,
+  "image": "board_032.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Б. Биномно разпределение"
+    },
+    {
+      "type": "text",
+      "content": "Тв: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Bi(n, p)"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = (q+ps)^n"
+    },
+    {
+      "type": "text",
+      "content": "; б)"
+    },
+    {
+      "type": "equation",
+      "content": "EX = np"
+    },
+    {
+      "type": "text",
+      "content": "; в)"
+    },
+    {
+      "type": "equation",
+      "content": "DX = npq"
+    },
+    {
+      "type": "text",
+      "content": "г)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}"
+    },
+    {
+      "type": "equation",
+      "content": "0 \\le k \\le n"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "X = \\sum_{j=1}^n X_j"
+    }
+  ]
+}

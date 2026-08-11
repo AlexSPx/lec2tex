@@ -1,0 +1,34 @@
+{
+  "timestamp": 2241.0,
+  "image": "board_032.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "-ел под м-во, но позволяваме и повторения"
+    },
+    {
+      "type": "text",
+      "content": "на"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "-ел м-во"
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "M=\\{a_1, \\dots, a_n\\}"
+    }
+  ]
+}

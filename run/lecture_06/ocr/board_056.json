@@ -1,0 +1,22 @@
+{
+  "timestamp": 5550.0,
+  "image": "board_056.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r, p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": 2616.0,
+  "image": "board_005.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "L(\\vec{x}; \\theta) = \\left(\\frac{1}{\\sqrt{2\\pi}}\\right)^n \\sigma^{-n} e^{-\\sum_{i=1}^n \\frac{(x_i - \\mu)^2}{2\\sigma^2}}"
+    },
+    {
+      "type": "equation",
+      "content": "\\theta = (\\mu, \\sigma^2)"
+    },
+    {
+      "type": "equation",
+      "content": "\\ln L(\\vec{x}, \\theta) = n \\ln \\frac{1}{\\sqrt{2\\pi}} - n \\ln \\sigma"
+    }
+  ]
+}

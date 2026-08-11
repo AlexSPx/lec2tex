@@ -1,0 +1,42 @@
+{
+  "timestamp": 5424.0,
+  "image": "board_044.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Полиномно разпределение:"
+    },
+    {
+      "type": "equation",
+      "content": "r \\ge 1;"
+    },
+    {
+      "type": "equation",
+      "content": "n;"
+    },
+    {
+      "type": "equation",
+      "content": "(X_1, X_2, \\dots, X_r)"
+    },
+    {
+      "type": "equation",
+      "content": "(p_1, p_2, \\dots, p_r)"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_{j=1}^{r} p_j = 1"
+    },
+    {
+      "type": "equation",
+      "content": "k_1 + k_2 + \\dots + k_r = n"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X_1=k_1; X_2=k_2; \\dots; X_r=k_r)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{n!}{k_1! \\dots k_r!} p_1^{k_1} p_2^{k_2} \\dots p_r^{k_r}"
+    }
+  ]
+}

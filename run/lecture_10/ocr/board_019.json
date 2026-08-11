@@ -1,0 +1,82 @@
+{
+  "timestamp": 4797.0,
+  "image": "board_019.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Закони за големите числа"
+    },
+    {
+      "type": "text",
+      "content": "Теор1 (ЗГЧ). Нека"
+    },
+    {
+      "type": "equation",
+      "content": "(X_i)_{i=1}^\\infty"
+    },
+    {
+      "type": "text",
+      "content": "е редица от нез. и еднакво разпр. сл. вел."
+    },
+    {
+      "type": "text",
+      "content": "с"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} X_1"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} |X_1| < \\infty"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\mathbb{P}} \\mathbb{E} X_1"
+    },
+    {
+      "type": "text",
+      "content": "Д-во: Ще докажем когато"
+    },
+    {
+      "type": "equation",
+      "content": "D X_1 < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} X_i = \\mathbb{E} X_1 \\quad \\forall i \\ge 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall \\varepsilon > 0 : \\lim_{n \\to \\infty} \\mathbb{P} \\left( \\left| \\frac{\\sum_{i=1}^n X_i}{n} - \\mathbb{E} X_1 \\right| > \\varepsilon \\right) = \\lim_{n \\to \\infty} \\mathbb{P} \\left( \\frac{\\left| \\sum_{i=1}^n (X_i - \\mathbb{E} X_i) \\right|}{n} > \\varepsilon \\right)"
+    },
+    {
+      "type": "text",
+      "content": "Нер. на Чебишев"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(|Y| > \\varepsilon n)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P} \\left( \\left| \\sum_{i=1}^n X_i - \\mathbb{E} X_i \\right| > \\varepsilon n \\right) \\le \\frac{D \\left( \\sum_{i=1}^n (X_i - \\mathbb{E} X_i) \\right)}{\\varepsilon^2 n^2} \\overset{!}{=} \\frac{\\sum_{i=1}^n D(X_i)}{\\varepsilon^2 n^2}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{n D X_1}{n^2 \\varepsilon^2} = \\frac{D X_1}{n \\varepsilon^2} \\xrightarrow[n \\to \\infty]{} 0"
+    }
+  ]
+}

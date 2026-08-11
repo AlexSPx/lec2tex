@@ -1,0 +1,46 @@
+{
+  "timestamp": 405.0,
+  "image": "board_005.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus."
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\begin{cases} 1 \\\\ 0 \\end{cases}"
+    },
+    {
+      "type": "equation",
+      "content": "Y = 1_A"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A) = \\mathbb{P}(Y=1) = p"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(\\overline{A}) = 1 - p = q"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{R}"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "equation",
+      "content": "\\min_{G} \\mathbb{E}(X - G(Y))^2"
+    }
+  ]
+}

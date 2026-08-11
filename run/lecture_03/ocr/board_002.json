@@ -1,0 +1,42 @@
+{
+  "timestamp": 813.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "дъжд"
+    },
+    {
+      "type": "text",
+      "content": "слънце"
+    },
+    {
+      "type": "equation",
+      "content": "T"
+    },
+    {
+      "type": "text",
+      "content": "дъжд"
+    },
+    {
+      "type": "equation",
+      "content": "p_1"
+    },
+    {
+      "type": "equation",
+      "content": "1 - p_1"
+    },
+    {
+      "type": "text",
+      "content": "слънце"
+    },
+    {
+      "type": "equation",
+      "content": "1 - p_2"
+    },
+    {
+      "type": "equation",
+      "content": "p_2"
+    }
+  ]
+}

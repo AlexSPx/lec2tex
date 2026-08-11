@@ -1,0 +1,46 @@
+{
+  "timestamp": 1127.33,
+  "image": "board_042.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства:"
+    },
+    {
+      "type": "equation",
+      "content": "\\bigcup_{i=1}^{\\infty} A_i = \\{ w \\in \\Omega :"
+    },
+    {
+      "type": "equation",
+      "content": "w"
+    },
+    {
+      "type": "text",
+      "content": "принадлежи на поне"
+    },
+    {
+      "type": "text",
+      "content": "едно"
+    },
+    {
+      "type": "equation",
+      "content": "A_i \\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\bigcap_{i=1}^{\\infty} A_i = \\{ w \\in \\Omega :"
+    },
+    {
+      "type": "equation",
+      "content": "w"
+    },
+    {
+      "type": "text",
+      "content": "принадлежи на"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall A_i \\}"
+    }
+  ]
+}

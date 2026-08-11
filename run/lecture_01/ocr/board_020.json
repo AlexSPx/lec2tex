@@ -1,0 +1,86 @@
+{
+  "timestamp": 851.67,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A = \\{"
+    },
+    {
+      "type": "text",
+      "content": "гласували за"
+    },
+    {
+      "type": "equation",
+      "content": "X \\}"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "B = \\{"
+    },
+    {
+      "type": "text",
+      "content": "хора на в-ст"
+    },
+    {
+      "type": "equation",
+      "content": "19-21"
+    },
+    {
+      "type": "text",
+      "content": "год."
+    },
+    {
+      "type": "equation",
+      "content": "\\}"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cup B"
+    },
+    {
+      "type": "text",
+      "content": "Деф. (\"и\")"
+    },
+    {
+      "type": "equation",
+      "content": "A, B \\subseteq \\Omega"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "C = A \\cap B"
+    },
+    {
+      "type": "text",
+      "content": "е събитието, ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in C"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in A"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in B"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "timestamp": 3963.0,
+  "image": "board_058.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "неразличими частици в"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n}{k}"
+    },
+    {
+      "type": "text",
+      "content": "б) няма огр."
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "x_n"
+    },
+    {
+      "type": "text",
+      "content": "частици"
+    },
+    {
+      "type": "text",
+      "content": "частици"
+    },
+    {
+      "type": "text",
+      "content": "# решения в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{N}_0"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_n = k"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow x'_1 + \\dots + x'_n = n+k"
+    },
+    {
+      "type": "text",
+      "content": "в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{N}"
+    },
+    {
+      "type": "equation",
+      "content": "n+k"
+    },
+    {
+      "type": "text",
+      "content": "звезд."
+    },
+    {
+      "type": "equation",
+      "content": "n-1"
+    },
+    {
+      "type": "text",
+      "content": "прегради"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow \\binom{n+k-1}{n-1} = \\binom{n+k-1}{k}"
+    },
+    {
+      "type": "text",
+      "content": "В) няма празна клетка (домашно)"
+    },
+    {
+      "type": "text",
+      "content": "полз. включ/изключ"
+    },
+    {
+      "type": "text",
+      "content": "зад 10"
+    },
+    {
+      "type": "equation",
+      "content": "y"
+    },
+    {
+      "type": "text",
+      "content": "simple random walk"
+    },
+    {
+      "type": "equation",
+      "content": "(0,0)"
+    },
+    {
+      "type": "equation",
+      "content": "2n"
+    },
+    {
+      "type": "equation",
+      "content": "x"
+    },
+    {
+      "type": "text",
+      "content": "По колко начина от"
+    },
+    {
+      "type": "equation",
+      "content": "(0,0)"
+    },
+    {
+      "type": "text",
+      "content": "до"
+    },
+    {
+      "type": "equation",
+      "content": "(2n, 0)"
+    },
+    {
+      "type": "text",
+      "content": "?"
+    },
+    {
+      "type": "text",
+      "content": "като не п"
+    }
+  ]
+}

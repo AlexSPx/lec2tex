@@ -1,0 +1,82 @@
+{
+  "timestamp": 330.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Случайни величини. Свойства."
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in \\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "V = (\\Omega, \\mathcal{A}, \\mathbb{P}); \\Omega"
+    },
+    {
+      "type": "text",
+      "content": "клиенти"
+    },
+    {
+      "type": "text",
+      "content": "молекули"
+    },
+    {
+      "type": "text",
+      "content": "успех и неуспех"
+    },
+    {
+      "type": "text",
+      "content": "функции"
+    },
+    {
+      "type": "text",
+      "content": "траектории"
+    },
+    {
+      "type": "text",
+      "content": "хора"
+    },
+    {
+      "type": "equation",
+      "content": "X : \\Omega \\rightarrow \\mathbb{R}"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "X^{-1}(I)"
+    },
+    {
+      "type": "equation",
+      "content": "X(\\omega)"
+    },
+    {
+      "type": "equation",
+      "content": "I"
+    },
+    {
+      "type": "equation",
+      "content": "X^{-1}(I) = \\{ \\omega \\in \\Omega : X(\\omega) \\in I \\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{R}"
+    },
+    {
+      "type": "equation",
+      "content": "I = (a, b)"
+    },
+    {
+      "type": "equation",
+      "content": "X^{-1}(I) = \\{ \\omega \\in \\Omega : a < X(\\omega) < b \\}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\{ a < X < b \\}"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": 2577.0,
+  "image": "board_019.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{Z_n}{\\sqrt{\\frac{U_n}{n-1}}} \\in t(n-1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\sim 1"
+    },
+    {
+      "type": "text",
+      "content": "ЦГТ"
+    },
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{\\bar{X}_n - \\mu}{\\sigma/\\sqrt{n}} \\approx N(0,1)"
+    },
+    {
+      "type": "equation",
+      "content": "(X_1, \\dots, X_n)"
+    },
+    {
+      "type": "equation",
+      "content": "EX = \\mu"
+    },
+    {
+      "type": "equation",
+      "content": "DX = \\sigma^2"
+    },
+    {
+      "type": "equation",
+      "content": "X_n \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "equation",
+      "content": "n \\ge 30"
+    }
+  ]
+}

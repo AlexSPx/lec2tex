@@ -1,0 +1,42 @@
+{
+  "timestamp": 2727.0,
+  "image": "board_013.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_1 = b_1 = \\sum_{k=1}^n c_k y_k"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_0 = b_0 = \\sum_{k=1}^n \\left(\\frac{1}{n} - \\bar{x} c_k\\right) y_k"
+    },
+    {
+      "type": "equation",
+      "content": "c_k = \\frac{x_k - \\bar{x}}{A}"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\sum_{k=1}^n (x_k - \\bar{x})^2"
+    },
+    {
+      "type": "equation",
+      "content": "Y_k = \\beta_0 + \\beta_1 x_k + \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "E Y_k = \\beta_0 + \\beta_1 x_k"
+    },
+    {
+      "type": "equation",
+      "content": "D \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "b_1 \\sim N\\left(\\beta_1; \\frac{\\sigma^2}{A}\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "b_0 \\sim N\\left(\\beta_0; \\sigma^2\\left(\\frac{1}{n} + \\frac{\\bar{x}^2}{A}\\right)\\right)"
+    }
+  ]
+}

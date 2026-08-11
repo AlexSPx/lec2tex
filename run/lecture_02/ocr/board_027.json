@@ -1,0 +1,34 @@
+{
+  "timestamp": 4101.0,
+  "image": "board_027.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Omega = \\{1, 2, \\dots, N\\}"
+    },
+    {
+      "type": "equation",
+      "content": "(p_1, \\dots, p_N) : \\sum_{i=1}^N p_i"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A) = \\sum_{i \\in A} p_i ; \\quad \\mathbb{P}(\\{i\\}) = p_i ; \\quad 1 \\le i \\le N"
+    },
+    {
+      "type": "text",
+      "content": "Равномерна вероятност е частен случай,"
+    },
+    {
+      "type": "text",
+      "content": "при който"
+    },
+    {
+      "type": "equation",
+      "content": "p_i = \\frac{1}{N}, \\quad 1 \\le i \\le N"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus \\quad N = 13983816 ; \\quad \\mathbb{P}(\\{\\omega_i\\}) = \\mathbb{P}(\\{i\\}) = \\frac{1}{13983816}"
+    }
+  ]
+}

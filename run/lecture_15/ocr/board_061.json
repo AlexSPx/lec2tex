@@ -1,0 +1,58 @@
+{
+  "timestamp": 4257.0,
+  "image": "board_061.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "0"
+    },
+    {
+      "type": "equation",
+      "content": "-1"
+    },
+    {
+      "type": "equation",
+      "content": "-2"
+    },
+    {
+      "type": "equation",
+      "content": "2n"
+    },
+    {
+      "type": "equation",
+      "content": "n+1 \\uparrow"
+    },
+    {
+      "type": "equation",
+      "content": "n-1 \\downarrow"
+    },
+    {
+      "type": "text",
+      "content": "Всички \"лоши\" разходки са"
+    },
+    {
+      "type": "text",
+      "content": "# разходки от"
+    },
+    {
+      "type": "equation",
+      "content": "(0, -2)"
+    },
+    {
+      "type": "text",
+      "content": "до"
+    },
+    {
+      "type": "equation",
+      "content": "(2n, 0)"
+    },
+    {
+      "type": "text",
+      "content": "Те са"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{2n}{n+1} ="
+    }
+  ]
+}

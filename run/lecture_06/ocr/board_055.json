@@ -1,0 +1,46 @@
+{
+  "timestamp": 5505.0,
+  "image": "board_055.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Г. Отрицателно биномно -"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r, p)"
+    },
+    {
+      "type": "equation",
+      "content": "r \\ge 1"
+    },
+    {
+      "type": "equation",
+      "content": "X = \\min \\{ n \\ge 1 : \\sum_{j=1}^n X_j = r \\} - r"
+    },
+    {
+      "type": "equation",
+      "content": "(NB(1, p) = Ge(p))"
+    },
+    {
+      "type": "equation",
+      "content": "X = \\sum_{j=1}^r Y_j ,"
+    },
+    {
+      "type": "equation",
+      "content": "(Y_j)_{j=1}^r"
+    },
+    {
+      "type": "text",
+      "content": "са независими в съвкупност"
+    },
+    {
+      "type": "equation",
+      "content": "Y_j \\sim Ge(p)"
+    },
+    {
+      "type": "equation",
+      "content": "\\underbrace{0\\ 0\\ 0}_{Y_1} 1 \\underbrace{0\\ 0}_{Y_2} \\underbrace{\\not{0}}_{Y_3=0} \\dots \\underbrace{0\\ 0 \\dots}_{Y_r} 1"
+    }
+  ]
+}

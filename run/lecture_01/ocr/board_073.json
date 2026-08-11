@@ -1,0 +1,30 @@
+{
+  "timestamp": 1765.33,
+  "image": "board_073.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A = \\bigcup_{i=1}^{9999} A_i ;"
+    },
+    {
+      "type": "equation",
+      "content": "A_i = \\{ \\omega^{(i)} = \\omega^{(i+1)} \\} \\subseteq \\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "A_i \\in 2^{\\Omega}"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\{"
+    },
+    {
+      "type": "text",
+      "content": "паднали са се едни и същи числа в два последователни тиража от 10,000"
+    },
+    {
+      "type": "equation",
+      "content": "\\}"
+    }
+  ]
+}

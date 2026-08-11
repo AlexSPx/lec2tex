@@ -1,0 +1,42 @@
+{
+  "timestamp": 1299.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:)"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim HG(N, M, n)"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава а)."
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = \\frac{\\binom{M}{k} \\binom{N-M}{n-k}}{\\binom{N}{n}}"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = n \\frac{M}{N}"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{D}X = \\frac{nM}{N} \\frac{N-M}{N} \\frac{N-n}{N-1}"
+    },
+    {
+      "type": "equation",
+      "content": "0 \\vee (n-N+M) \\le k \\le M \\wedge n"
+    }
+  ]
+}

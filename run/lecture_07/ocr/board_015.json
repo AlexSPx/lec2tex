@@ -1,0 +1,30 @@
+{
+  "timestamp": 3717.0,
+  "image": "board_015.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\rightarrow F_{X,Y}(x, \\infty) = \\mathbb{P}(X < x; Y < \\infty) = \\mathbb{P}(X < x) = F_X(x)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A \\cap B) = \\mathbb{P}(A)"
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(B) = 1"
+    },
+    {
+      "type": "equation",
+      "content": "F_{X,Y}(\\infty, y) = F_Y(y)"
+    },
+    {
+      "type": "equation",
+      "content": "F_{X,Y}(\\infty, \\infty) = 1"
+    }
+  ]
+}

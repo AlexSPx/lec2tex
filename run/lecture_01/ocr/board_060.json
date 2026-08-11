@@ -1,0 +1,14 @@
+{
+  "timestamp": 1550.67,
+  "image": "board_060.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Omega = \\mathbb{R}_+ = [0, \\infty) ; A \\subset \\mathbb{R}_+"
+    },
+    {
+      "type": "equation",
+      "content": "A = (a, b)"
+    }
+  ]
+}

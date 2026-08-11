@@ -1,0 +1,14 @@
+{
+  "timestamp": 4782.0,
+  "image": "board_038.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c|c}\nY \\backslash X & 0 & 1 & 2 \\\\\n\\hline\n0 & & & \\\\\n\\hline\n1 & & & 0 \\\\\n\\hline\n2 & & 0 & 0\n\\end{array}"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "timestamp": 5697.0,
+  "image": "board_028.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "7"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "извест."
+    },
+    {
+      "type": "equation",
+      "content": "H_0: \\mu = \\mu_0"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu = \\mu_1"
+    },
+    {
+      "type": "equation",
+      "content": "(\\mu_1 > \\mu_0);"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha = 0,05;"
+    },
+    {
+      "type": "text",
+      "content": "Извадка"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X}"
+    },
+    {
+      "type": "text",
+      "content": "с"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "наблюдения"
+    },
+    {
+      "type": "equation",
+      "content": "\\{ \\vec{x} \\in \\mathbb{R}^n: L_1(\\vec{x}) \\ge k L_0(\\vec{x}) \\} ="
+    },
+    {
+      "type": "equation",
+      "content": "="
+    }
+  ]
+}

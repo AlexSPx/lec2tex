@@ -1,0 +1,30 @@
+{
+  "timestamp": 3177.0,
+  "image": "board_009.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "H_1"
+    },
+    {
+      "type": "equation",
+      "content": "H_2"
+    },
+    {
+      "type": "equation",
+      "content": "H_i"
+    },
+    {
+      "type": "equation",
+      "content": "\\vdots"
+    },
+    {
+      "type": "equation",
+      "content": "H_n"
+    }
+  ]
+}

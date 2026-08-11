@@ -1,0 +1,22 @@
+{
+  "timestamp": 1377.67,
+  "image": "board_055.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus \\Omega = \\{0, 1\\}"
+    },
+    {
+      "type": "equation",
+      "content": "A^c = \\left( \\bigcap_{i=1}^{\\infty} A_i \\right)^c = \\bigcup_{i=1}^{\\infty} \\underbrace{A_i^c}_{\\substack{\\in \\mathcal{A} \\\\ \\text{от } ii)}} \\stackrel{iii)}{\\in} \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "B^c \\in \\mathcal{A} \\stackrel{ii)}{\\implies} B = (B^c)^c \\in \\mathcal{A}"
+    }
+  ]
+}

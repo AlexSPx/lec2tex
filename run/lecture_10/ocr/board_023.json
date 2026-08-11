@@ -1,0 +1,22 @@
+{
+  "timestamp": 5727.0,
+  "image": "board_023.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "(X_i)_{i=1}^\\infty"
+    },
+    {
+      "type": "equation",
+      "content": "X_i = \\begin{cases} 1 & \\frac{18}{37} \\\\ -1 & \\frac{19}{37} \\end{cases}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} X_1 = -\\frac{1}{37} ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} -\\frac{1}{37} ;"
+    }
+  ]
+}

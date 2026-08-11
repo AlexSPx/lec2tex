@@ -1,0 +1,78 @@
+{
+  "timestamp": 1198.33,
+  "image": "board_044.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: ("
+    },
+    {
+      "type": "equation",
+      "content": "\\sigma"
+    },
+    {
+      "type": "text",
+      "content": "-алгебра)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega, \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "е колекция от подмножества на"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "се нарича"
+    },
+    {
+      "type": "equation",
+      "content": "\\sigma"
+    },
+    {
+      "type": "text",
+      "content": "-алгебра, ако са изпълнени:"
+    },
+    {
+      "type": "text",
+      "content": "i)."
+    },
+    {
+      "type": "equation",
+      "content": "\\emptyset \\in \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "ii)."
+    },
+    {
+      "type": "equation",
+      "content": "A \\in \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "A^c \\in \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "iii)."
+    }
+  ]
+}

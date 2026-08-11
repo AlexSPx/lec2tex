@@ -1,0 +1,26 @@
+{
+  "timestamp": 1617.0,
+  "image": "board_005.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Дискретни случайни величини"
+    },
+    {
+      "type": "equation",
+      "content": "A, B \\in \\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "1_{A \\cap B} = 1_A 1_B"
+    },
+    {
+      "type": "equation",
+      "content": "1_{A \\cap B}(\\omega) = 1 \\iff 1_A(\\omega) = 1 \\quad 1_B(\\omega) = 1"
+    },
+    {
+      "type": "equation",
+      "content": "1_{A \\cup B} = 1_A + 1_B - 1_{A \\cap B} = 1_A + 1_B - 1_A \\cdot 1_B"
+    }
+  ]
+}

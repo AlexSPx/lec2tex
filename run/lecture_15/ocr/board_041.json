@@ -1,0 +1,102 @@
+{
+  "timestamp": 2532.0,
+  "image": "board_041.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "-елно м-во, но позволяваме и повторения"
+    },
+    {
+      "type": "text",
+      "content": "на"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "-ел м-во"
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "M=\\{a_1, \\dots, a_n\\}"
+    },
+    {
+      "type": "text",
+      "content": ", то търсеният брой"
+    },
+    {
+      "type": "text",
+      "content": "е # р-я на"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_n = k"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "text",
+      "content": "колко пъти сме избрали"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "text",
+      "content": "в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{N}_0"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "# възм. е"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n+k-1}{n-1} = \\binom{n+k-1}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n}{k} = \\binom{n}{n-k}"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "\\left(\\binom{n}{k}\\right) = \\binom{n+k-1}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "multichoose"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    }
+  ]
+}

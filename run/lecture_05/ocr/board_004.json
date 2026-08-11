@@ -1,0 +1,42 @@
+{
+  "timestamp": 1731.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Лема: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са две дискр. сл. вел. такива че"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} Y"
+    },
+    {
+      "type": "text",
+      "content": "съществуват."
+    }
+  ]
+}

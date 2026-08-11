@@ -1,0 +1,10 @@
+{
+  "timestamp": 540.33,
+  "image": "board_010.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Omega = \\bigotimes_{i=1}^{10 000} \\Omega_i"
+    }
+  ]
+}

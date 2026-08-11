@@ -1,0 +1,90 @@
+{
+  "timestamp": 4689.0,
+  "image": "board_036.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Условни разпределения:"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са дискретни"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X|Y=y_j] = \\sum_i x_i \\mathbb{P}(X=x_i|Y=y_j)"
+    },
+    {
+      "type": "text",
+      "content": "Деф:"
+    },
+    {
+      "type": "text",
+      "content": "(условно разпределение)"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са дискр. сл. вел"
+    },
+    {
+      "type": "text",
+      "content": "Тогава усл. разпр. на"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "при"
+    },
+    {
+      "type": "equation",
+      "content": "Y=y_j"
+    },
+    {
+      "type": "text",
+      "content": "(за всяка възм с-т на"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": ")"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c|c|c|c} X & x_1 & x_2 & \\dots & x_i & \\dots \\\\ \\hline & \\mathbb{P}(X=x_1|Y=y_j) & & & \\mathbb{P}(X=x_i|Y=y_j) & \\end{array}"
+    }
+  ]
+}

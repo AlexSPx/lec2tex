@@ -1,0 +1,126 @@
+{
+  "timestamp": 3891.0,
+  "image": "board_057.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "неразличими частици в"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n}{k}"
+    },
+    {
+      "type": "text",
+      "content": "б) няма огр."
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "x_n"
+    },
+    {
+      "type": "text",
+      "content": "частици"
+    },
+    {
+      "type": "text",
+      "content": "частици"
+    },
+    {
+      "type": "text",
+      "content": "# решения в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{N}_0"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_n = k"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow x_1' + \\dots + x_n' = n + k"
+    },
+    {
+      "type": "text",
+      "content": "в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{N}"
+    },
+    {
+      "type": "equation",
+      "content": "n+k"
+    },
+    {
+      "type": "text",
+      "content": "звезди"
+    },
+    {
+      "type": "equation",
+      "content": "n-1"
+    },
+    {
+      "type": "text",
+      "content": "прегради"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow \\binom{n+k-1}{n-1} = \\binom{n+k-1}{k}"
+    },
+    {
+      "type": "text",
+      "content": "в) няма празна клетка (домашно)"
+    },
+    {
+      "type": "text",
+      "content": "пак вкл-изкл"
+    },
+    {
+      "type": "text",
+      "content": "зад 10"
+    },
+    {
+      "type": "text",
+      "content": "simple random walk"
+    },
+    {
+      "type": "equation",
+      "content": "(0,0)"
+    }
+  ]
+}

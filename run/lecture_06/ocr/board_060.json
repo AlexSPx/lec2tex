@@ -1,0 +1,54 @@
+{
+  "timestamp": 5763.0,
+  "image": "board_060.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв 1:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r, p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r,p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "EX = \\frac{rq}{p}, DX = \\frac{rq}{p^2}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "k! \\mathbb{P}(X=k) \\stackrel{\\text{тв}}{=} g_X^{(k)}(0) = \\left. \\frac{d^k}{ds^k} \\frac{p^r}{(1-qs)^r} \\right|_{s=0}"
+    },
+    {
+      "type": "equation",
+      "content": "= p^r \\left. \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} \\right|_{s=0} = p^r \\cdot r(r+1) \\dots (r+k-1)"
+    }
+  ]
+}

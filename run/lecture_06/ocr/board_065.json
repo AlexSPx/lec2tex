@@ -1,0 +1,42 @@
+{
+  "timestamp": 6249.0,
+  "image": "board_065.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "g'_X(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda"
+    },
+    {
+      "type": "text",
+      "content": "Тв:)"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Poi(\\lambda),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = e^{\\lambda s - \\lambda}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "EX = DX = \\lambda."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:)"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}"
+    }
+  ]
+}

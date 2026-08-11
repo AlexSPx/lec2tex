@@ -1,0 +1,58 @@
+{
+  "timestamp": 1770.0,
+  "image": "board_026.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "зад. 3"
+    },
+    {
+      "type": "equation",
+      "content": "X_1 + \\dots + X_k = n"
+    },
+    {
+      "type": "text",
+      "content": "Брой решения = ?"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "X_1, \\dots, X_k \\in \\mathbb{N}"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "X_1, \\dots, X_k \\in \\mathbb{N} \\cup \\{0\\} = \\mathbb{N}_0"
+    },
+    {
+      "type": "text",
+      "content": "stars & bars"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + x_2 + x_3 = 6"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "x_3"
+    },
+    {
+      "type": "equation",
+      "content": "6"
+    }
+  ]
+}

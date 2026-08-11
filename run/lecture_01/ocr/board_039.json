@@ -1,0 +1,50 @@
+{
+  "timestamp": 1077.67,
+  "image": "board_039.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства:"
+    },
+    {
+      "type": "equation",
+      "content": "(A^c)^c = A"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "A^c"
+    },
+    {
+      "type": "text",
+      "content": "г). Ако"
+    },
+    {
+      "type": "equation",
+      "content": "A_i, i \\ge 1"
+    },
+    {
+      "type": "text",
+      "content": "са събития, то ;"
+    },
+    {
+      "type": "equation",
+      "content": "(A \\cup B)^c = A^c \\cap B^c"
+    },
+    {
+      "type": "equation",
+      "content": "\\left(\\bigcup_{i=1}^\\infty A_i\\right)^c = \\bigcap_{i=1}^\\infty A_i^c"
+    },
+    {
+      "type": "text",
+      "content": "(Де Морган)"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": 282.0,
+  "image": "board_005.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Пораждащи функции"
+    },
+    {
+      "type": "text",
+      "content": "Деф:"
+    },
+    {
+      "type": "equation",
+      "content": "X : \\Omega \\rightarrow N"
+    },
+    {
+      "type": "text",
+      "content": "е целочислена сл. вел."
+    },
+    {
+      "type": "text",
+      "content": "Тогава под пораждаща ф-я на"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) := \\mathbb{E}s^X = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n)"
+    },
+    {
+      "type": "text",
+      "content": ", за"
+    },
+    {
+      "type": "equation",
+      "content": "s \\in (-1, 1]"
+    }
+  ]
+}

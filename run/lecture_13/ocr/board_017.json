@@ -1,0 +1,14 @@
+{
+  "timestamp": 2289.0,
+  "image": "board_017.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{Z_n}{\\sqrt{\\frac{U_n}{n-1}}}"
+    },
+    {
+      "type": "equation",
+      "content": "T_n \\approx Z_n \\sim N(0,1)"
+    }
+  ]
+}

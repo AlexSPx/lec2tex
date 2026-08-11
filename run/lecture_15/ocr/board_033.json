@@ -1,0 +1,46 @@
+{
+  "timestamp": 2289.0,
+  "image": "board_033.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "-ел под м-во, но позволяваме и повторения\nна "
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "-ел м-во\nАко "
+    },
+    {
+      "type": "equation",
+      "content": "M = \\{a_1, \\dots, a_n\\}"
+    },
+    {
+      "type": "text",
+      "content": ", то търсеният брой\nе # р-я на\n"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_n = k"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "text",
+      "content": "\nколко # сме избрали "
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    }
+  ]
+}

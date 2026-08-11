@@ -1,0 +1,10 @@
+{
+  "timestamp": 945.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "b_1 = \\frac{\\sum x_k y_k - n \\bar{x} \\bar{y}}{\\sum x_k^2 - n(\\bar{x})^2} = \\frac{\\sum (x_k - \\bar{x})(y_k - \\bar{y})}{\\sum (x_k - \\bar{x})^2} = \\sum \\frac{(x_k - \\bar{x})}{\\sum (x_k - \\bar{x})^2} \\cdot y_k"
+    }
+  ]
+}

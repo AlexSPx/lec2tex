@@ -1,0 +1,110 @@
+{
+  "timestamp": 3510.0,
+  "image": "board_054.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "неразличими частици в"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "text",
+      "content": "a)"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n}{k}"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "text",
+      "content": "няма огр."
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "x_n"
+    },
+    {
+      "type": "text",
+      "content": "частици"
+    },
+    {
+      "type": "text",
+      "content": "частици"
+    },
+    {
+      "type": "text",
+      "content": "# решения в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{N}_0"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_n = k"
+    }
+  ]
+}

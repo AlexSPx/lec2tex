@@ -1,0 +1,18 @@
+{
+  "timestamp": 1728.33,
+  "image": "board_069.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A = \\{"
+    },
+    {
+      "type": "text",
+      "content": "паднали са се едни и същи числа в два последователни тиража"
+    },
+    {
+      "type": "equation",
+      "content": "\\}"
+    }
+  ]
+}

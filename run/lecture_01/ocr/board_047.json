@@ -1,0 +1,58 @@
+{
+  "timestamp": 1300.67,
+  "image": "board_047.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Следствие:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "е"
+    },
+    {
+      "type": "equation",
+      "content": "\\sigma"
+    },
+    {
+      "type": "text",
+      "content": "-алгебра и"
+    },
+    {
+      "type": "equation",
+      "content": "A_i \\in \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": ", за"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall i \\ge 1"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "B = \\bigcap_{i=1}^{\\infty} A_i"
+    },
+    {
+      "type": "equation",
+      "content": "\\in \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    }
+  ]
+}

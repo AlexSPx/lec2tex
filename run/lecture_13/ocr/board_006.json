@@ -1,0 +1,66 @@
+{
+  "timestamp": 1077.0,
+  "image": "board_006.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "известно ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X} = (X_1, \\dots, X_n)"
+    },
+    {
+      "type": "equation",
+      "content": "T = \\frac{\\bar{X}_n^{(1)} - \\mu}{\\sigma/\\sqrt{n}} \\sim \\underline{\\underline{N(0, 1)}} ,"
+    },
+    {
+      "type": "equation",
+      "content": "T"
+    },
+    {
+      "type": "text",
+      "content": "е монот."
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "text",
+      "content": "по"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "equation",
+      "content": "\\bar{X}_n^{(1)} \\sim N(\\mu; \\frac{\\sigma^2}{n})"
+    },
+    {
+      "type": "equation",
+      "content": "H(x) = \\mathbb{P}(T < x) = \\Phi(x)"
+    },
+    {
+      "type": "equation",
+      "content": "\\gamma = 0,95 = \\mathbb{P}(-q < T < q) = \\mathbb{P}\\left(-q < \\frac{\\bar{X}_n^{(1)} - \\mu}{\\sigma/\\sqrt{n}} < q\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}\\left( \\underbrace{\\bar{X}_n^{(1)} - \\frac{q\\sigma}{\\sqrt{n}}}_{T_1} < \\mu < \\underbrace{\\bar{X}_n^{(1)} + \\frac{q\\sigma}{\\sqrt{n}}}_{T_2} \\right) ="
+    },
+    {
+      "type": "equation",
+      "content": "T_1 = \\bar{X}_n^{(1)} - \\frac{q\\sigma}{\\sqrt{n}}"
+    },
+    {
+      "type": "equation",
+      "content": "T_2 = \\bar{X}_n^{(1)} + \\frac{q\\sigma}{\\sqrt{n}}"
+    }
+  ]
+}

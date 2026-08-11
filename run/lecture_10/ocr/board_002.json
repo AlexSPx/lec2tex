@@ -1,0 +1,78 @@
+{
+  "timestamp": 1089.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Видове сходимости"
+    },
+    {
+      "type": "text",
+      "content": "Деф: (сходимост по разпр.) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X_n"
+    },
+    {
+      "type": "text",
+      "content": "е сл. вел в"
+    },
+    {
+      "type": "equation",
+      "content": "(\\Omega, \\mathcal{A}_n, \\mathbb{P}_n)"
+    },
+    {
+      "type": "equation",
+      "content": ", n \\ge 1,"
+    },
+    {
+      "type": "text",
+      "content": "и нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е сл. вел в"
+    },
+    {
+      "type": "equation",
+      "content": "(\\Omega, \\mathcal{A}, \\mathbb{P})."
+    },
+    {
+      "type": "text",
+      "content": "Това"
+    },
+    {
+      "type": "equation",
+      "content": "X_n \\xrightarrow[n \\to \\infty]{d} X"
+    },
+    {
+      "type": "text",
+      "content": "ако за всяко"
+    },
+    {
+      "type": "equation",
+      "content": "x \\in C_{F_X}"
+    },
+    {
+      "type": "text",
+      "content": "е"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{R}"
+    },
+    {
+      "type": "text",
+      "content": "вярно, че"
+    },
+    {
+      "type": "equation",
+      "content": "\\lim_{n \\to \\infty} F_{X_n}(x) = F_X(x)"
+    }
+  ]
+}

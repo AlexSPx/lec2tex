@@ -1,0 +1,14 @@
+{
+  "timestamp": 768.33,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Операции с множества (събития)"
+    },
+    {
+      "type": "equation",
+      "content": "A \\subseteq B"
+    }
+  ]
+}

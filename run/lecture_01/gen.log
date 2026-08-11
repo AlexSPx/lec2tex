@@ -1,0 +1,11 @@
+
+--- Stage 8: Generating LaTeX Lecture Notes via LLM ---
+Calling LLM via local agy CLI (indirect file-prompt mode)...
+LaTeX document generated and saved to run/full/latex/lecture.tex
+
+--- Stage 9: Running LaTeX Validation and Self-Correction Loop ---
+
+[Attempt 1/3] Compiling LaTeX...
+Compiling 'lecture.tex' in '/Users/g8row/Documents/lec2tex/run/full/latex' via Tectonic...
+LaTeX compilation succeeded!
+Success! Output PDF is available at run/full/latex/lecture.pdf

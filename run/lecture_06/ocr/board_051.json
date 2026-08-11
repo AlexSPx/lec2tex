@@ -1,0 +1,58 @@
+{
+  "timestamp": 4998.0,
+  "image": "board_051.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Ge(p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\mathbb{P}(X \\ge m)"
+    },
+    {
+      "type": "text",
+      "content": "(беспаметност)"
+    },
+    {
+      "type": "text",
+      "content": "memoryless"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall m \\ge 0"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall k \\ge 0."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\frac{\\mathbb{P}(X \\ge m+k, X \\ge k)}{\\mathbb{P}(X \\ge k)}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{\\mathbb{P}(X \\ge m+k)}{\\mathbb{P}(X \\ge k)} = \\frac{q^{m+k}}{q^k} = q^m = \\mathbb{P}(X \\ge m)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X \\ge m) = \\mathbb{P}(X_1=0, \\dots, X_m=0) = q^m"
+    }
+  ]
+}

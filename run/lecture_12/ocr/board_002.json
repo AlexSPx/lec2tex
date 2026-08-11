@@ -1,0 +1,46 @@
+{
+  "timestamp": 1404.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "A. Метод на максималното правдоподобие (МПО)"
+    },
+    {
+      "type": "equation",
+      "content": "X, f_X(x; \\theta); \\vec{X}"
+    },
+    {
+      "type": "text",
+      "content": "ф-я на максимално правдоподобие наричаме"
+    },
+    {
+      "type": "text",
+      "content": "съвместната плътност на"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X}"
+    },
+    {
+      "type": "text",
+      "content": ", т. е."
+    },
+    {
+      "type": "equation",
+      "content": "L(\\vec{X}, \\theta) = \\prod_{j=1}^n f_X(X_j; \\theta)"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{x}"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "L(\\vec{x}, \\theta) = \\prod_{j=1}^n f_X(x_j; \\theta)"
+    }
+  ]
+}

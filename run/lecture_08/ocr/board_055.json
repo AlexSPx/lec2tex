@@ -1,0 +1,82 @@
+{
+  "timestamp": 7590.0,
+  "image": "board_055.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е непр. с. в. (н.с.в) и"
+    },
+    {
+      "type": "equation",
+      "content": "c \\in \\mathbb{R}"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=c) = 0"
+    },
+    {
+      "type": "text",
+      "content": "и следователно за"
+    },
+    {
+      "type": "equation",
+      "content": "a < b"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X \\in (a, b)) = \\mathbb{P}(a < X < b) = \\mathbb{P}(a < X \\le b)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}(a \\le X < b) = \\mathbb{P}(a \\le X \\le b)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}(X \\in [a, b))"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}(X \\in [a, b])"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\\{X = c\\} \\subseteq \\left\\{c - \\frac{1}{n} < X < c + \\frac{1}{n}\\right\\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall n \\ge 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X = c) \\le \\mathbb{P}\\left(X \\in \\left(c - \\frac{1}{n}, c + \\frac{1}{n}\\right)\\right) \\stackrel{\\text{деф}}{=} \\int_{c - \\frac{1}{n}}^{c + \\frac{1}{n}} f_X(x) dx"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X = c) \\le \\lim_{n \\to \\infty} \\int_{c - \\frac{1}{n}}^{c + \\frac{1}{n}} f_X(x) dx = \\int_c^c f_X(x) dx = 0"
+    }
+  ]
+}

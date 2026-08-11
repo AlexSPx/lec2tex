@@ -1,0 +1,74 @@
+{
+  "timestamp": 1203.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A_1"
+    },
+    {
+      "type": "text",
+      "content": "- гласувал за партия 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "text",
+      "content": "общо"
+    },
+    {
+      "type": "text",
+      "content": "партия 1"
+    },
+    {
+      "type": "equation",
+      "content": "N_1"
+    },
+    {
+      "type": "equation",
+      "content": "m_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "млади"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{N_1}{N_1+N_2} = \\mathbb{P}(A_1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\vdots"
+    },
+    {
+      "type": "text",
+      "content": "партия 2"
+    },
+    {
+      "type": "equation",
+      "content": "N_2"
+    },
+    {
+      "type": "equation",
+      "content": "m_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "млади"
+    },
+    {
+      "type": "equation",
+      "content": "\\vdots"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 9006.0,
+  "image": "board_061.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е н.с.в. и"
+    },
+    {
+      "type": "equation",
+      "content": "\\int_{-\\infty}^{\\infty} |x| f_X(x) dx < \\infty"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} X = \\int_{-\\infty}^{\\infty} x f_X(x) dx"
+    }
+  ]
+}

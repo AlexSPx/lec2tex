@@ -1,0 +1,54 @@
+{
+  "timestamp": 4761.0,
+  "image": "board_025.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Проверка на хипотези"
+    },
+    {
+      "type": "equation",
+      "content": "W"
+    },
+    {
+      "type": "text",
+      "content": "е критична област за грешка от I-ви род"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "text",
+      "content": "Деф: (о.к.о) Наричаме"
+    },
+    {
+      "type": "equation",
+      "content": "W^*"
+    },
+    {
+      "type": "text",
+      "content": "о.к.о при фиксирано"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha = \\alpha_{W^*}"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\beta_{W^*} = \\min_{\\alpha_W = \\alpha_{W^*} = \\alpha} \\beta_W"
+    }
+  ]
+}

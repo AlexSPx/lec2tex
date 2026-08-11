@@ -1,0 +1,42 @@
+{
+  "timestamp": 5073.0,
+  "image": "board_017.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на точковите оценки:"
+    },
+    {
+      "type": "text",
+      "content": "ако не знаете "
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\sigma}^2 \\triangleq \\frac{1}{n}\\sum_{j=1}^n \\left(X_j - \\overline{X}_n^{(1)}\\right)^2 = \\overline{X}_n^{(2)} - \\left(\\overline{X}_n^{(1)}\\right)^2"
+    },
+    {
+      "type": "equation",
+      "content": "E\\hat{\\sigma}^2 = E\\overline{X}_n^{(2)} - E\\left(\\overline{X}_n^{(1)}\\right)^2 = \\frac{1}{n}\\sum_{j=1}^n \\underset{\\underset{EX_1^2}{||}}{EX_j^2} - \\frac{1}{n^2}E\\left(\\sum_{j=1}^n X_j\\right)^2"
+    },
+    {
+      "type": "equation",
+      "content": "= EX_1^2 - \\frac{1}{n^2}E\\left(\\sum_{j=1}^n X_j^2 + \\sum_{i \\neq j} X_i X_j\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "= EX_1^2 - \\frac{1}{n^2}\\sum_{j=1}^n \\underset{\\underset{EX_1^2}{||}}{EX_j^2} - \\frac{1}{n^2}E\\sum_{i \\neq j} X_i X_j"
+    },
+    {
+      "type": "equation",
+      "content": "= \\left(1 - \\frac{1}{n}\\right)EX_1^2 - \\frac{1}{n^2}\\sum_{i \\neq j} \\underset{\\underset{\\mu}{||}}{E X_i} \\underset{\\underset{\\mu}{||}}{E X_j}"
+    }
+  ]
+}

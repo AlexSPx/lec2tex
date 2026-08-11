@@ -1,0 +1,26 @@
+{
+  "timestamp": 5361.0,
+  "image": "board_022.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "(X_i)_{i=1}^\\infty"
+    },
+    {
+      "type": "equation",
+      "content": "X_i \\sim \\text{Ber}(p), p \\in (0,1)"
+    },
+    {
+      "type": "text",
+      "content": "УЗГЧ"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} p = \\mathbb{E}X_1"
+    }
+  ]
+}

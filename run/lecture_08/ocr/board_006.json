@@ -1,0 +1,34 @@
+{
+  "timestamp": 732.0,
+  "image": "board_006.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A)=\\mathbb{E}1_A"
+    },
+    {
+      "type": "equation",
+      "content": "\\min_{G} \\mathbb{E}(X-G(Y))^2 = \\min_{a,b \\in \\mathbb{R}} \\underbrace{\\mathbb{E}(X-a1_A-b1_{A^c})^2}_{f(a,b)} = \\min_{a,b \\in \\mathbb{R}} f(a,b)"
+    },
+    {
+      "type": "equation",
+      "content": "0 = \\frac{\\partial f}{\\partial a} = 2a\\mathbb{P}(A) - 2\\mathbb{E}X1_A"
+    },
+    {
+      "type": "equation",
+      "content": "0 = \\frac{\\partial f}{\\partial b} = 2b\\mathbb{P}(A^c) - 2\\mathbb{E}X1_{A^c}"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "a = \\frac{\\mathbb{E}X1_A}{\\mathbb{P}(A)} = \\frac{\\mathbb{E}XY}{\\mathbb{P}(Y=1)}"
+    },
+    {
+      "type": "equation",
+      "content": "b = \\frac{\\mathbb{E}X1_{A^c}}{\\mathbb{P}(A^c)} = \\frac{\\mathbb{E}X(1-Y)}{\\mathbb{P}(Y=0)}"
+    }
+  ]
+}

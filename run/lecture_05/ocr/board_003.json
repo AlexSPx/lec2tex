@@ -1,0 +1,82 @@
+{
+  "timestamp": 1074.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Математическо очакване и дисперсия"
+    },
+    {
+      "type": "text",
+      "content": "( expectation"
+    },
+    {
+      "type": "text",
+      "content": "variation"
+    },
+    {
+      "type": "text",
+      "content": "variance"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_j (x_j - a)^2 p_j"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "взема с-ти"
+    },
+    {
+      "type": "equation",
+      "content": "\\{x_1, \\dots, x_n\\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\sum_{j=1}^n x_j p_j"
+    },
+    {
+      "type": "equation",
+      "content": "p_1"
+    },
+    {
+      "type": "equation",
+      "content": "p_n"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X"
+    },
+    {
+      "type": "equation",
+      "content": "p_j"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_n"
+    },
+    {
+      "type": "equation",
+      "content": "x_j"
+    },
+    {
+      "type": "text",
+      "content": "център на тежестта"
+    }
+  ]
+}

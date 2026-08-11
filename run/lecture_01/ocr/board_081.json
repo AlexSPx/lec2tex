@@ -1,0 +1,26 @@
+{
+  "timestamp": 1827.33,
+  "image": "board_081.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A = \\bigcup_{i=1}^{9999} A_i ;"
+    },
+    {
+      "type": "equation",
+      "content": "A_i = \\{ \\omega^{(i)} = \\omega^{(i+1)} \\} \\subseteq \\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "A_i \\in 2^{\\Omega}"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "a < b"
+    }
+  ]
+}

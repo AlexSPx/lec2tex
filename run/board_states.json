@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": 0.0,
+    "image": "board_001.png"
+  },
+  {
+    "timestamp": 31.0,
+    "image": "board_002.png"
+  },
+  {
+    "timestamp": 46.0,
+    "image": "board_003.png"
+  },
+  {
+    "timestamp": 60.0,
+    "image": "board_004.png"
+  },
+  {
+    "timestamp": 125.0,
+    "image": "board_005.png"
+  }
+]

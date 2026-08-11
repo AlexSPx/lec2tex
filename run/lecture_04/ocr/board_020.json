@@ -1,0 +1,22 @@
+{
+  "timestamp": 3318.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}_2"
+    },
+    {
+      "type": "equation",
+      "content": "x_n"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "timestamp": 8700.0,
+  "image": "board_026.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X_i \\sim \\Gamma(\\alpha_i, \\beta)"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "i=1,\\dots,n"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "(X_1, \\dots, X_n)"
+    },
+    {
+      "type": "text",
+      "content": "са незав. в съвкупност."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\sum_{j=1}^n X_j \\sim \\Gamma(\\alpha_1 + \\dots + \\alpha_n, \\beta)"
+    },
+    {
+      "type": "text",
+      "content": "Д-во"
+    },
+    {
+      "type": "text",
+      "content": "("
+    },
+    {
+      "type": "equation",
+      "content": "n=2"
+    },
+    {
+      "type": "text",
+      "content": ")"
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\begin{pmatrix} Y_1 \\\\ Y_2 \\end{pmatrix} = \\begin{pmatrix} X_1 \\\\ X_1 + X_2 \\end{pmatrix}"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "g"
+    },
+    {
+      "type": "equation",
+      "content": "y_2"
+    },
+    {
+      "type": "equation",
+      "content": "y_1"
+    },
+    {
+      "type": "equation",
+      "content": "y_2=y_1"
+    },
+    {
+      "type": "equation",
+      "content": "(y_1, y_2 - y_1)"
+    },
+    {
+      "type": "equation",
+      "content": "f_Y(y_1, y_2) = f_X(h(y_1, y_2)) = f_X(y_1, y_2 - y_1)"
+    },
+    {
+      "type": "equation",
+      "content": "= f_{X_1}(y_1) f_{X_2}(y_2 - y_1) = \\frac{\\beta^{\\alpha_1}}{\\Gamma(\\alpha_1)} y_1^{\\alpha_1 - 1} e^{-\\beta y_1} \\frac{\\beta^{\\alpha_2}}{\\Gamma(\\alpha_2)} (y_2 - y_1)^{\\alpha_2 - 1} e^{-\\beta(y_2 - y_1)}"
+    },
+    {
+      "type": "equation",
+      "content": "f_{Y_2}(y_2) = \\int_0^{y_2} f_{X_1}(y_1) f_{X_2}(y_2 - y_1) dy_1"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "y_2 > 0 \\Rightarrow f_{Y_2}(y_2) = \\frac{\\beta^{\\alpha_1 + \\alpha_2}}{\\Gamma(\\alpha_1 + \\alpha_2)}"
+    }
+  ]
+}

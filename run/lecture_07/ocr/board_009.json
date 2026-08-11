@@ -1,0 +1,14 @@
+{
+  "timestamp": 1902.0,
+  "image": "board_009.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "(X,Y)"
+    },
+    {
+      "type": "text",
+      "content": "Съвместни дискретни разпределения"
+    }
+  ]
+}

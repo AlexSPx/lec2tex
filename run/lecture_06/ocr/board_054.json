@@ -1,0 +1,26 @@
+{
+  "timestamp": 5364.0,
+  "image": "board_054.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Г. Отрицателно биномно -"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r, p)"
+    },
+    {
+      "type": "equation",
+      "content": "r \\ge 1"
+    },
+    {
+      "type": "equation",
+      "content": "X = \\min\\{n \\ge 1: \\sum_{j=1}^{n} X_j = r\\} - r"
+    },
+    {
+      "type": "equation",
+      "content": "(NB(1, p) = Ge(p))"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": 9723.0,
+  "image": "board_031.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Теор:) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "Z_1, \\dots, Z_n"
+    },
+    {
+      "type": "text",
+      "content": "са стандартни норм. разпр и независими"
+    },
+    {
+      "type": "text",
+      "content": "в съвкупност"
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\sum_{j=1}^n (Z_j)^2 \\sim \\chi^2(n)"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:) Ще покажем, че"
+    },
+    {
+      "type": "equation",
+      "content": "(Z_j)^2 \\sim \\chi^2(1) = \\Gamma(\\frac{1}{2}, \\frac{1}{2})"
+    },
+    {
+      "type": "equation",
+      "content": "T_1 = Z_1^2 \\sim \\chi^2(1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_{j=1}^n Z_j^2 \\sim \\chi^2(n) \\sim \\Gamma(\\frac{n}{2}, \\frac{1}{2})"
+    },
+    {
+      "type": "equation",
+      "content": "T_1 = g(Z_1) = Z_1^2"
+    },
+    {
+      "type": "equation",
+      "content": "F_{T_1}(t) = \\mathbb{P}(T_1 < t) = \\mathbb{P}(Z_1^2 < t) = \\mathbb{P}(-\\sqrt{t} < Z_1 < \\sqrt{t}) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\sqrt{t}}^{\\sqrt{t}} e^{-\\frac{y^2}{2}} dy"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{d}{dt} F_{T_1} = f_{T_1}(t) ="
+    }
+  ]
+}

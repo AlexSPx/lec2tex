@@ -1,0 +1,134 @@
+{
+  "timestamp": 5841.0,
+  "image": "board_024.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "Y=aX+b"
+    },
+    {
+      "type": "text",
+      "content": "Теор:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "сл. вел с"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "DY < \\infty ."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y=aX+b \\iff |\\rho(X, Y)|=1 ."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\"\\implies\""
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{Y} = v \\overline{X}"
+    },
+    {
+      "type": "equation",
+      "content": "1 \\stackrel{Tb}{=} D \\overline{Y} = D v \\overline{X} = v^2 D \\overline{X} = v^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\implies"
+    },
+    {
+      "type": "equation",
+      "content": "v^2 = 1"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "equation",
+      "content": "v = \\pm 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{Y} = \\pm \\overline{X}"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{Y} = \\overline{X}"
+    },
+    {
+      "type": "equation",
+      "content": "\\implies"
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{X}\\overline{Y} = \\overline{X}^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\rho(X, Y) = \\mathbb{E}\\overline{X}\\overline{Y} = \\mathbb{E}\\overline{X}^2 = 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{Y} = -\\overline{X}"
+    },
+    {
+      "type": "equation",
+      "content": "\\implies"
+    },
+    {
+      "type": "equation",
+      "content": "1 = \\mathbb{E}\\overline{Y}^2 = -\\mathbb{E}\\overline{X}\\overline{Y} = -\\rho(X, Y)"
+    },
+    {
+      "type": "equation",
+      "content": "\\implies"
+    },
+    {
+      "type": "equation",
+      "content": "\\rho(X, Y) = -1."
+    }
+  ]
+}

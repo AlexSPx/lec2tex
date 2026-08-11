@@ -1,0 +1,66 @@
+{
+  "timestamp": 618.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Математическо очакване и дисперсия"
+    },
+    {
+      "type": "text",
+      "content": "( expectation"
+    },
+    {
+      "type": "text",
+      "content": "variation )"
+    },
+    {
+      "type": "text",
+      "content": "variance"
+    },
+    {
+      "type": "text",
+      "content": "Деф: (очакване) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е дискр. сл. вел."
+    },
+    {
+      "type": "text",
+      "content": "Тогава под очакване на"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "equation",
+      "content": "EX"
+    },
+    {
+      "type": "text",
+      "content": "разбираме"
+    },
+    {
+      "type": "equation",
+      "content": "EX = \\sum_j x_j p_j"
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_j |x_j| p_j < \\infty."
+    }
+  ]
+}

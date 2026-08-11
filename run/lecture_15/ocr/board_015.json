@@ -1,0 +1,26 @@
+{
+  "timestamp": 915.0,
+  "image": "board_015.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "зад 1 Вкл. и изкл. ?"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "B"
+    },
+    {
+      "type": "equation",
+      "content": "|A \\cup B| = |A| + |B| - |A \\cap B|"
+    },
+    {
+      "type": "equation",
+      "content": "|A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |A"
+    }
+  ]
+}

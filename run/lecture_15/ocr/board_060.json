@@ -1,0 +1,26 @@
+{
+  "timestamp": 4203.0,
+  "image": "board_060.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "0"
+    },
+    {
+      "type": "equation",
+      "content": "2n"
+    },
+    {
+      "type": "equation",
+      "content": "-1"
+    },
+    {
+      "type": "equation",
+      "content": "-2"
+    },
+    {
+      "type": "text",
+      "content": "Всички лоши"
+    }
+  ]
+}

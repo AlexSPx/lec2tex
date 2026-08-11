@@ -1,0 +1,14 @@
+{
+  "timestamp": 468.0,
+  "image": "board_011.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Статистика"
+    },
+    {
+      "type": "text",
+      "content": "Наблю о"
+    }
+  ]
+}

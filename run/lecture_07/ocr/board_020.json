@@ -1,0 +1,74 @@
+{
+  "timestamp": 5499.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "Y=aX+b"
+    },
+    {
+      "type": "text",
+      "content": "Теор:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "сл. вел. с"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "DY < \\infty."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y=aX+b \\iff |\\rho(X,Y)|=1."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\"\\Rightarrow\""
+    },
+    {
+      "type": "equation",
+      "content": "Y=aX+b \\implies \\frac{Y-\\mathbb{E}Y}{\\sqrt{DY}} = \\frac{a}{\\sqrt{DY}}(X-\\mathbb{E}X+\\mathbb{E}X) + \\frac{b-\\mathbb{E}Y}{\\sqrt{DY}}"
+    },
+    {
+      "type": "equation",
+      "content": "\\implies \\overline{Y} = \\frac{a\\sqrt{DX}}{\\sqrt{DY}} \\frac{(X-\\mathbb{E}X)}{\\sqrt{DX}} + \\underbrace{\\frac{a}{\\sqrt{DY}}\\mathbb{E}X + \\frac{b-\\mathbb{E}Y}{\\sqrt{DY}}}_{w}"
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{Y} = v\\overline{X} + w"
+    }
+  ]
+}

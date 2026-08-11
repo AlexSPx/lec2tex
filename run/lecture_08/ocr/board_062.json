@@ -1,0 +1,38 @@
+{
+  "timestamp": 9132.0,
+  "image": "board_062.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е н.с.в и"
+    },
+    {
+      "type": "equation",
+      "content": "\\int_{-\\infty}^{\\infty} |x| f_X(x) dx < \\infty"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "EX = \\int_{-\\infty}^{\\infty} x f_X(x) dx"
+    },
+    {
+      "type": "equation",
+      "content": "(EX = \\sum_i x_i p_i)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{D}X = \\mathbb{E}(X - EX)^2 = \\int_{-\\infty}^{\\infty} (x - EX)^2 f_X(x) dx"
+    },
+    {
+      "type": "equation",
+      "content": "DX = \\sum_i (x_i - EX)^2 p_i"
+    }
+  ]
+}

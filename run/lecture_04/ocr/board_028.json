@@ -1,0 +1,50 @@
+{
+  "timestamp": 3492.0,
+  "image": "board_028.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "H_1"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "equation",
+      "content": "H_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\vdots"
+    },
+    {
+      "type": "equation",
+      "content": "H_n"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_n"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "timestamp": 4455.0,
+  "image": "board_024.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Проверка на хипотези"
+    },
+    {
+      "type": "equation",
+      "content": "H_0: \\theta = \\theta_0"
+    },
+    {
+      "type": "equation",
+      "content": "W \\subseteq \\mathbb{R}^n,"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X} \\in W"
+    },
+    {
+      "type": "text",
+      "content": "отхвърляте"
+    },
+    {
+      "type": "equation",
+      "content": "H_0"
+    },
+    {
+      "type": "equation",
+      "content": "H_1: \\theta = \\theta_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X} \\notin W"
+    },
+    {
+      "type": "text",
+      "content": "приемате"
+    },
+    {
+      "type": "equation",
+      "content": "H_0."
+    },
+    {
+      "type": "text",
+      "content": "Грешка от I-ви род:"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}( \\vec{X} \\in W | H_0 ) = \\alpha = \\alpha_w"
+    },
+    {
+      "type": "text",
+      "content": "Грешка от II-ри род"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}( \\vec{X} \\notin W | H_1 ) = \\beta = \\beta_w"
+    }
+  ]
+}

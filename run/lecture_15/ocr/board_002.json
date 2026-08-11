@@ -1,0 +1,22 @@
+{
+  "timestamp": 87.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "\"Вероятности и статистика"
+    },
+    {
+      "type": "text",
+      "content": "ези / тура"
+    },
+    {
+      "type": "text",
+      "content": "Каква е вероятността от 10хв. да имаме 6 езита?"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow \\mathbb{P}(\\dots)"
+    }
+  ]
+}

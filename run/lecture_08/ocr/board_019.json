@@ -1,0 +1,22 @@
+{
+  "timestamp": 2385.0,
+  "image": "board_019.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на УМО:"
+    },
+    {
+      "type": "text",
+      "content": "8)"
+    },
+    {
+      "type": "equation",
+      "content": "X \\perp\\!\\!\\!\\perp Y \\Rightarrow \\mathbb{E}[X|Y] = \\mathbb{E}X"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} f(X) \\cdot g(Y) = \\mathbb{E} f(X) \\mathbb{E} g(Y)"
+    }
+  ]
+}

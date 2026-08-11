@@ -1,0 +1,54 @@
+{
+  "timestamp": 1146.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "\\emptyset = \\Omega^c \\Rightarrow \\mathbb{P}(\\emptyset) = \\mathbb{P}(\\Omega^c) = 1 - \\mathbb{P}(\\Omega) = 0"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(B) = \\mathbb{P}(A \\cap B) + \\mathbb{P}(A^c \\cap B)"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "A^c \\cap B"
+    },
+    {
+      "type": "equation",
+      "content": "B"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cap B"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "equation",
+      "content": "A \\subseteq B"
+    },
+    {
+      "type": "equation",
+      "content": "B = A \\cap B \\cup A^c \\cap B"
+    }
+  ]
+}

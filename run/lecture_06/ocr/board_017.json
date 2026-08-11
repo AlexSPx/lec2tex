@@ -1,0 +1,70 @@
+{
+  "timestamp": 1086.0,
+  "image": "board_017.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Сл.) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са целочислени. Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "X \\overset{d}{=} Y \\iff"
+    },
+    {
+      "type": "equation",
+      "content": "g_X \\equiv g_Y."
+    },
+    {
+      "type": "text",
+      "content": "Д-во: \""
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "\""
+    },
+    {
+      "type": "equation",
+      "content": "X \\overset{d}{=} Y \\iff \\mathbb{P}(X=n) = \\mathbb{P}(Y=n), \\forall n \\ge 0."
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(Y=n) = g_Y(s)"
+    },
+    {
+      "type": "text",
+      "content": "\""
+    },
+    {
+      "type": "equation",
+      "content": "\\Leftarrow"
+    },
+    {
+      "type": "text",
+      "content": "\""
+    },
+    {
+      "type": "equation",
+      "content": "g_X \\equiv g_Y \\overset{\\text{Тв. 6)}}{\\implies} k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+    }
+  ]
+}

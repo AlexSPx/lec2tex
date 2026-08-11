@@ -1,0 +1,70 @@
+{
+  "timestamp": 5826.0,
+  "image": "board_029.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\textcircled{7}"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "извест."
+    },
+    {
+      "type": "equation",
+      "content": "H_0 : \\mu = \\mu_0"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu = \\mu_1"
+    },
+    {
+      "type": "equation",
+      "content": "(\\mu_1 > \\mu_0) ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha = 0,05 ;"
+    },
+    {
+      "type": "text",
+      "content": "Извадка"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X}"
+    },
+    {
+      "type": "text",
+      "content": "с"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "наблюдения"
+    },
+    {
+      "type": "equation",
+      "content": "(x_1, \\dots, x_n)"
+    },
+    {
+      "type": "equation",
+      "content": "\\{ \\vec{x} \\in \\mathbb{R}^n : L_1(\\vec{x}) \\ge k L_0(\\vec{x}) \\} ="
+    },
+    {
+      "type": "equation",
+      "content": "= \\{ e^{-\\frac{\\sum_{j=1}^n (x_j - \\mu_1)^2}{2\\sigma^2}} \\ge k e^{-\\frac{\\sum_{j=1}^n (x_j - \\mu_0)^2}{2\\sigma^2}} ="
+    },
+    {
+      "type": "equation",
+      "content": "\\{ - \\sum_{j=1}^n (x_j - \\mu_1)^2 \\ge 2\\sigma^2 \\ln k - \\sum_{j=1}^n (x_j - \\mu_0)^2 \\}"
+    }
+  ]
+}

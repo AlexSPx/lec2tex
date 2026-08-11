@@ -1,0 +1,82 @@
+{
+  "timestamp": 1866.0,
+  "image": "board_027.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "зад. 3"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_k = n"
+    },
+    {
+      "type": "text",
+      "content": "бр. решения = ?"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "x_1, \\dots, x_k \\in \\mathbb{N}"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "x_1, \\dots, x_k \\in \\mathbb{N} \\cup \\{0\\} = \\mathbb{N}_0"
+    },
+    {
+      "type": "text",
+      "content": "stars & bars"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + x_2 + x_3 = 6"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "x_3"
+    },
+    {
+      "type": "text",
+      "content": "6 звезд. и 2 прегради"
+    },
+    {
+      "type": "text",
+      "content": "5 позиции за преградите"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "У-то"
+    },
+    {
+      "type": "equation",
+      "content": "x_1+x_2+x_3"
+    },
+    {
+      "type": "text",
+      "content": "има"
+    },
+    {
+      "type": "equation",
+      "content": "(5"
+    }
+  ]
+}

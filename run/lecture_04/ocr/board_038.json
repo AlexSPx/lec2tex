@@ -1,0 +1,46 @@
+{
+  "timestamp": 5964.0,
+  "image": "board_038.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "дискретни сл. в-ни."
+    },
+    {
+      "type": "text",
+      "content": "са две дискр. сл. в-ни във V"
+    },
+    {
+      "type": "text",
+      "content": "за всеки две възможни"
+    },
+    {
+      "type": "text",
+      "content": "стойности"
+    },
+    {
+      "type": "equation",
+      "content": "x_i"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "y_j"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=x_i, Y=y_j) = \\mathbb{P}(X=x_i)\\mathbb{P}(Y=y_j)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A_i)\\mathbb{P}(B_j)"
+    }
+  ]
+}

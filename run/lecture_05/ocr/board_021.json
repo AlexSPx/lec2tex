@@ -1,0 +1,74 @@
+{
+  "timestamp": 5619.0,
+  "image": "board_021.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Твър: Ако"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е дискр. сл. вел. с крайна дисперсия"
+    },
+    {
+      "type": "text",
+      "content": "("
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "), то"
+    },
+    {
+      "type": "equation",
+      "content": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2."
+    },
+    {
+      "type": "text",
+      "content": "Сл: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е дискр. сл. вел. и"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X^2 \\ge (\\mathbb{E}X)^2"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "0 \\le DX = \\mathbb{E}\\underbrace{(X-\\mathbb{E}X)^2}_{Y} = \\mathbb{E}Y \\stackrel{\\text{Тв.}}{=} \\mathbb{E}X^2 - (\\mathbb{E}X)^2"
+    }
+  ]
+}

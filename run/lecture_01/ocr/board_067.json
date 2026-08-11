@@ -1,0 +1,26 @@
+{
+  "timestamp": 1696.67,
+  "image": "board_067.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = \\bigotimes_{i=1}^{10000} \\Omega_i"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "|\\Omega| = (13983816)^{10000}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{A} = 2^\\Omega"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": 4116.0,
+  "image": "board_011.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во. (ЦГТ)"
+    },
+    {
+      "type": "text",
+      "content": "Цел:"
+    },
+    {
+      "type": "equation",
+      "content": "Z_n = \\frac{S_n - n\\mu}{\\sigma \\sqrt{n}} \\xrightarrow[n \\to \\infty]{d} Z \\sim N(0,1)"
+    },
+    {
+      "type": "equation",
+      "content": "Z_n = \\frac{1}{\\sqrt{n}} \\frac{S_n - n\\mu}{\\sigma} = \\frac{1}{\\sqrt{n}} \\sum_{j=1}^n \\frac{X_j - \\mu}{\\sigma} = \\frac{1}{\\sqrt{n}} \\sum_{j=1}^n Y_j"
+    },
+    {
+      "type": "equation",
+      "content": "Y_j = \\frac{X_j - \\mu}{\\sigma};"
+    },
+    {
+      "type": "text",
+      "content": "Ще допуснем, че"
+    },
+    {
+      "type": "equation",
+      "content": "M_{X_1}"
+    },
+    {
+      "type": "text",
+      "content": "е деф."
+    },
+    {
+      "type": "equation",
+      "content": "|t| < r_0."
+    },
+    {
+      "type": "equation",
+      "content": "M_{Y_j}(t) \\stackrel{\\text{св.}}{=} e^{-\\frac{\\mu}{\\sigma}} M_{X_j}\\left(\\frac{t}{\\sigma}\\right) = e^{-\\frac{\\mu}{\\sigma}} M_{X_1}\\left(\\frac{t}{\\sigma}\\right) = M_{Y_1}(t)"
+    }
+  ]
+}

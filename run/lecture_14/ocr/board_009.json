@@ -1,0 +1,46 @@
+{
+  "timestamp": 2469.0,
+  "image": "board_009.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_0 = b_0 = \\overline{Y} - b_1 \\overline{X} = \\sum_{k=1}^n \\left( \\frac{1}{n} - \\overline{X} C_k \\right) Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_1 = b_1 = \\sum_{k=1}^n C_k Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "E b_0 = \\sum_{k=1}^n \\left( \\frac{1}{n} - \\overline{X} C_k \\right) (\\beta_0 + \\beta_1 X_k)"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_0 = b_0 = \\sum_{k=1}^n \\left( \\frac{1}{n} - \\overline{X} C_k \\right) Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "= \\beta_0 + \\beta_1 \\overline{X} - \\beta_1 \\overline{X} \\sum C_k X_k"
+    },
+    {
+      "type": "equation",
+      "content": "C_k = \\frac{X_k - \\overline{X}}{A}"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\sum_{k=1}^n (X_k - \\overline{X})^2"
+    },
+    {
+      "type": "equation",
+      "content": "Y_k = \\beta_0 + \\beta_1 X_k + \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "E Y_k = \\beta_0 + \\beta_1 X_k"
+    },
+    {
+      "type": "equation",
+      "content": "b_1 \\sim N\\left( \\beta_1; \\frac{\\sigma^2}{A} \\right)"
+    }
+  ]
+}

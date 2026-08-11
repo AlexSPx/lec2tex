@@ -1,0 +1,38 @@
+{
+  "timestamp": 7425.0,
+  "image": "board_022.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Схема:"
+    },
+    {
+      "type": "equation",
+      "content": "X_1, X_2"
+    },
+    {
+      "type": "equation",
+      "content": "(X_1 \\perp \\!\\!\\! \\perp X_2)"
+    },
+    {
+      "type": "equation",
+      "content": "f_X(x_1, x_2) = f_{X_1}(x_1) f_{X_2}(x_2)"
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\begin{pmatrix} Y_1 \\\\ Y_2 \\end{pmatrix} = \\begin{pmatrix} X_1 \\\\ X_1+X_2 \\end{pmatrix} = g(X)"
+    },
+    {
+      "type": "equation",
+      "content": "X = h(Y) = \\begin{pmatrix} Y_1 \\\\ \\underset{h_2(Y_1, Y_2)}{Y_2-Y_1} \\end{pmatrix} = \\begin{pmatrix} X_1 \\\\ X_2 \\end{pmatrix}"
+    },
+    {
+      "type": "equation",
+      "content": "f_Y(y) = f_X(h(y)) \\cdot 1"
+    },
+    {
+      "type": "equation",
+      "content": "J(y) = \\det \\begin{pmatrix} 1 & 0 \\\\ -1 & 1 \\end{pmatrix} = 1"
+    }
+  ]
+}

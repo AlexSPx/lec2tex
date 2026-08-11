@@ -1,0 +1,4611 @@
+[
+  {
+    "timestamp": 0.0,
+    "image": "board_001.png",
+    "speech": "Абонирайте се!",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Пораждащи функции"
+      }
+    ],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 48.0,
+    "image": "board_002.png",
+    "speech": "Абонирайте се! Абонирайте се!",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Пораждащи функции"
+      }
+    ],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 72.0,
+    "image": "board_003.png",
+    "speech": "Абонирайте се!",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Пораждащи функции"
+      }
+    ],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 90.0,
+    "image": "board_004.png",
+    "speech": "Абонирайте се! Абонирайте се! Би трябвало да се чува в момента. Добре, благодаря! Това, където казах, съжаление ще трябва да задържа 2-3 минути за почивката, защото е доста материал днеска. Ще ще въведем така наричените пораждащи функции и ще разгледаме различни косове случайни величини. Пораждащите функции, те ще съответстват, ще бъдат някаква трансформация на случайните величини. Така както Джордж Поля през 50-те години е описал тяхната полза, иллюстрирайки и уподобяваки го на турбичка, в която ви имате много обекти. Това ще бъдат различните вариаторности за различните събития. И вие тия обекти ги слагате в една турбичка и си ги носите. Тоест така вие ходите с куфар и с чампиен, носите тук химикалки в ръце, ще ви гледа малко смешно. И когато ви потреба ги вадите. Аз обичам да го оподобявам с архитектурата, в която ви имате някаква случайна величина. И така, ако знаете само разпределението, така сравнително добре, не казвам да някакъв много прост случай, вие може да кажете много неща. И ако разглеждате по разността функция, то имаме различна скица на една сграда. И ако гледате от една скица от един ягъл, виждате едно нещо.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Пораждащи функции"
+      }
+    ],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 282.0,
+    "image": "board_005.png",
+    "speech": "И ако гледате от една скица от един ягъл, виждате едно нещо. И ако гледате някакъв друг разрез, виждате друго нещо. И ако гледаме от колко гледаме от първия разрез. И ако гледаме от Completo Completo Completo Обязняваме, ще го разберем с примери. Имаме случайна величина х, която изобразява омега в М. Тук е много важно, че цевите числа, т.е. това са 0, 1, 2, 3, т.е. имаме целочислена случайна величина. Аз нямам да правя отделна дефиниция за целочислена, просто възможните стоимости са между 0, 1, 2 и така нататък. Тогава, под пораждаща функция на х, разбираме g от х от малко с. Сега ще кажа какво е малко с. Това по дефиниция е очакването на с на степен х или за разписано n от 0 до безкрайност с на n-та, върътността х да е равна на n, за за с принължащо на минус 1, едно затворен интервал. Сега минус 1, аз не искам да... То не пречи да е затворен за минус 1. Айде ще бъдам правя за затворен. т.е. вашето число s варира между минус 1 и 1. Ви разглеждате очакването на s на степен х, това число на степен х, което е разписано по формула, която знаем от миналия път. Това е функцията, чието очакване пресмятаме. виждате s на степен n, това са възможните стоимости на х, повърътността х да е равно на n. Значи, когато х е равно на n, тук имаме s на n-та. Ето s на х, s на n-та, повърътността х да е равно на n. И тази сума е от 0 до безкрайност. Тук няма значение, че много от тези вариациясти може да са 0. Представете си експеримент само с 0 и 1. Тогава имате две стоимости, или 0 или 1. Почти всички тези сумируеми са 0, защото х може да приеме само 0 или 1. Но няма значение за удобство. Е по-добре да се го запишем като този безкрайен ред, защото пащаме всички целочислени случайни величини без никакъв проблем. И това е дефиницията на поражаща функция. Вие на тази случайна величина с нейното разпределение, което се задава с тези вариатности, съпоставяте някаква функция на интервала минус 1, 1. Го изобразява. Малочно ще напиша в R, не е необходимо да специфицирам повече. Съпоставяте една конкретна функция. И се оказа, че тази трансформация е полезна последните причини. И първата причина е, че можете да пресмятате различни количества, свързани с х, посредством по разрастата функция. Т.е. вие някой път можете чисто комбинаторни или други аргументи ги следете до чисто аналитични разсъждения. И това е резултат на първото твърдение.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Пораждащи функции"
+      },
+      {
+        "type": "text",
+        "text": "Деф:"
+      },
+      {
+        "type": "equation",
+        "latex": "X : \\Omega \\rightarrow N"
+      },
+      {
+        "type": "text",
+        "text": "е целочислена сл. вел."
+      },
+      {
+        "type": "text",
+        "text": "Тогава под пораждаща ф-я на"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) := \\mathbb{E}s^X = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n)"
+      },
+      {
+        "type": "text",
+        "text": ", за"
+      },
+      {
+        "type": "equation",
+        "latex": "s \\in (-1, 1]"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X : \\Omega \\rightarrow N",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) := \\mathbb{E}s^X = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "s \\in (-1, 1]",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 498.0,
+    "image": "board_006.png",
+    "speech": "И това е резултат на първото твърдение. Значи, нека х е целочислена, няма да пише какво, ясно, че е случайна величина, с пораждаща функция, функция G от х. Тогава е бали последното. А очакването на х, разбира се, ако съществува, е производната. То дори да не съществува тази производна, ще бъде безкрайност. Значи, производната на х на подразжаща функция в точката 1 бе дисперсията на х е равно на втората производна на пораждаща функция в точката 1. Тук го казвам на ум, ако има грешка, ще го видим доказателството. Плюс първата производна в точката 1. Минус първата производна на квадрат. Ето, ако знаете или имате добра форма за пораждаща функция и може да работите с нейните производни, вие моментално изличате информацията за дисперсията и за очакването. И последното е, че k факториел, повередността х да е равна на k, всъщност е катата производна на пораждаща функция, само че в точката 0. И това е за k пълг. Това е равна на 0. Тоест, вие с производните в 0-та можете да възстановявате в разпределението има х. така. Ще направя първото по един начин,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Твърд:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "е целочислена с пораждаща ф-я"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Тогава"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = g_X'(1)"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = g_X''(1) + g_X'(1) - (g_X'(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+      },
+      {
+        "type": "text",
+        "text": ","
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = g_X'(1)",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = g_X''(1) + g_X'(1) - (g_X'(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 504.0,
+    "image": "board_007.png",
+    "speech": "по един начин, второто по друг и последното ще го набързо направим. Значи, вижте, gх от s, това е а, е сумата n от 0 до безкрайност, s на n-та, повередността х да е равна на n. Това е по дефиниция. Ако вие формално диференцирате по s,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Твърд:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "е целочислена с пораждаща ф-я"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Тогава"
+      },
+      {
+        "type": "text",
+        "text": "а)."
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = g'_X(1)"
+      },
+      {
+        "type": "text",
+        "text": "б)."
+      },
+      {
+        "type": "equation",
+        "latex": "DX = g''_X(1) + g'_X(1) - (g'_X(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "в)."
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+      },
+      {
+        "type": "text",
+        "text": ","
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = g'_X(1)",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = g''_X(1) + g'_X(1) - (g'_X(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 543.0,
+    "image": "board_008.png",
+    "speech": "диференцирате по s, ще получите n по s на n без първа по вередността х равна на n. Сега, като поставите s равно на 1, какво ще получите? ще получите gх от 1 е равна когато поставите s равно на 1, това е изчезно и става сумата, което е точно очакването на х, ако то съществува, т.е. ако то е крайно. Факт е, че ако това е безкрайност, то означава, че очакването не съществува. Тук е дори повече. Не би трябва очакването да съществува,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Твърд:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "е цялочислена с пораждаща ф-я"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Тогава"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = g'_X(1)"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = g''_X(1) + g'_X(1) - (g'_X(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+      },
+      {
+        "type": "text",
+        "text": ","
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{ds} g_X(s) = \\frac{d}{ds} \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} n s^{n-1} \\mathbb{P}(X=n)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = g'_X(1)",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = g''_X(1) + g'_X(1) - (g'_X(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\frac{d}{ds} g_X(s) = \\frac{d}{ds} \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} n s^{n-1} \\mathbb{P}(X=n)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 615.0,
+    "image": "board_009.png",
+    "speech": "очакването да съществува, ами то съществува тогава и само тогава, когато това е крайно. И може да се изчисли чрез производната в точката 1. Това е един е начин, по който може да работите, ако ви е по-лесно с такива степенни функции. Сега ще ви покажа друг начин, който аз ще го направя без и изцяло строго, но ще трябва да ми повявате. Нека се възползваме от другия поглед върху тази поражаща функция. Аз ще взема производни. Какво ще стави? Първата производна ще бъде DDS от очакването на S на степен х. Ето тази стъпка,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Твърд:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "е цялочислена с пораждаща ф-я"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Тогава"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = g_X'(1)"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{D}X = g_X''(1) + g_X'(1) - (g_X'(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+      },
+      {
+        "type": "text",
+        "text": ","
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\mathbb{E}s^X"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = g_X'(1)",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{D}X = g_X''(1) + g_X'(1) - (g_X'(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\mathbb{E}s^X",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 636.0,
+    "image": "board_010.png",
+    "speech": "ви я правя без да я формализира, мога да размена производната и очакването. За вас няма смисъл да ви товаря с допълнително аргументи. и производната на S на степен х по х не е нищо друго от очакването е х по S на х без 1. Ето това е вашата първа производна. Втората производна по същия начин може да видите, че е х х без 1 по S х без 2. Добре? Сега, ако ви искате да пресметнете диспенсията, вие трябва да намерите следните очакване. Значи, Dх е очакването на х на квадрат минус очакването на х на квадрат. Сега, това нещо от точка A",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Твърд: Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "е целочислена с пораждаща ф-я"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Тогава"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = g'_X(1)"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = g''_X(1) + g'_X(1) - (g'_X(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+      },
+      {
+        "type": "text",
+        "text": ","
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Д-во: б)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\mathbb{E} s^X \\to g'_X(s) = \\frac{d}{ds} \\mathbb{E} s^X"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\mathbb{E} \\frac{d}{ds} s^X"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = g'_X(1)",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = g''_X(1) + g'_X(1) - (g'_X(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\mathbb{E} s^X \\to g'_X(s) = \\frac{d}{ds} \\mathbb{E} s^X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\mathbb{E} \\frac{d}{ds} s^X",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 723.0,
+    "image": "board_011.png",
+    "speech": "от точка A го знаем какво е. Ето къде дойде квадрата на квадрат. Това го знаем. Само не знаем как да пресметнем ето този момент. Еми, ето от тук трябва да съобразим. от тук следва, че Gх секунд в единицата не е нищо друго от очакването на х по х без 1. Което, отваряйки скобите, не е нищо друго от ех квадрат минус ех. Защото имаме х по х х квадрат, х по минус 1 минус х. очакването е линейно и надяваме, че се вижда. Аз не знам тук защо спря. Предлагам, че надяваме, че се вижда.",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "DX = \\mathbb{E} X^2 - (\\mathbb{E} X)^2 = \\mathbb{E} X^2 - (g'_X(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\delta)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\mathbb{E} s^X \\rightarrow g'_X(s) = \\frac{d}{ds} \\mathbb{E} s^X"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\mathbb{E} \\frac{d}{ds} s^X = \\mathbb{E} X s^{X-1} = g'_X(s)"
+      },
+      {
+        "type": "equation",
+        "latex": "g''_X(s) = \\mathbb{E} X(X-1)s^{X-2} \\Rightarrow g''_X(1) = \\mathbb{E} X(X-1) = \\mathbb{E} X^2 - \\mathbb{E} X"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "DX = \\mathbb{E} X^2 - (\\mathbb{E} X)^2 = \\mathbb{E} X^2 - (g'_X(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\delta)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\mathbb{E} s^X \\rightarrow g'_X(s) = \\frac{d}{ds} \\mathbb{E} s^X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\mathbb{E} \\frac{d}{ds} s^X = \\mathbb{E} X s^{X-1} = g'_X(s)",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= \\mathbb{E} \\frac{d}{ds} s^X = \\mathbb{E} X s^{X-1} = g'_X(s)\n^"
+        },
+        {
+          "latex": "g''_X(s) = \\mathbb{E} X(X-1)s^{X-2} \\Rightarrow g''_X(1) = \\mathbb{E} X(X-1) = \\mathbb{E} X^2 - \\mathbb{E} X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 732.0,
+    "image": "board_012.png",
+    "speech": "се вижда. нещо на моят екран беше спрело. Нали виждате? Добре, благодаря. Тук, отваряйки скобите, получавате, че втората производна в единицата е очакването на х на квадрат минус очакването на х ех. Значи, замествате ето това като това плюс това, защото то минава от другата страна и става гх което трябваше",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g'_X(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "Д-во: б)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\mathbb{E}s^X \\rightarrow g'_X(s) = \\frac{d}{ds}\\mathbb{E}s^X"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\mathbb{E}\\frac{d}{ds}s^X = \\mathbb{E}X s^{X-1} = g'_X(s)"
+      },
+      {
+        "type": "equation",
+        "latex": "g''_X(s) = \\mathbb{E}X(X-1)s^{X-2} \\Rightarrow g''_X(1) = \\mathbb{E}X(X-1) = \\mathbb{E}X^2 - \\mathbb{E}X"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g'_X(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\mathbb{E}s^X \\rightarrow g'_X(s) = \\frac{d}{ds}\\mathbb{E}s^X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\mathbb{E}\\frac{d}{ds}s^X = \\mathbb{E}X s^{X-1} = g'_X(s)",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= \\mathbb{E}\\frac{d}{ds}s^X = \\mathbb{E}X s^{X-1} = g'_X(s)\n^"
+        },
+        {
+          "latex": "g''_X(s) = \\mathbb{E}X(X-1)s^{X-2} \\Rightarrow g''_X(1) = \\mathbb{E}X(X-1) = \\mathbb{E}X^2 - \\mathbb{E}X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 795.0,
+    "image": "board_013.png",
+    "speech": "трябваше и да се докаже. сега аз точка везе да не губя излишно време няма да ви докажа изцяло, само ще ви показва, че едно факториел х равно на едно е всъщност производната на х в нулата и вие ще можете по същия начин да си направите останалите. Ами също ще разсъждавате с вида който имате за gх от s. Значи това ще бъде n от 0 до безкрайност, s на n-та във във х равна на n-та. ако искате да вземете ето това количество, така трябва да диференцирате, че да унищожите този коефициент и след това да заместите s равно на 0, за да убиете всички останали, които има в този ред. Значи, подиференцирате веднъж, ще имате, аз ще го напиша така. Това беше от преди малко, затова го правя по-бързо. Сега, когато n е равна на 0,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g_X'(1))^2"
+      },
+      {
+        "type": "equation",
+        "latex": "= g_X''(1) + g_X'(1) - (g_X'(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "в)."
+      },
+      {
+        "type": "equation",
+        "latex": "1! \\mathbb{P}(X=1) = g_X'(0)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g_X'(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= g_X''(1) + g_X'(1) - (g_X'(1))^2",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        },
+        {
+          "latex": "1! \\mathbb{P}(X=1) = g_X'(0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 888.0,
+    "image": "board_014.png",
+    "speech": "равна на 0, това нещо изчезе и аз тази сума мога да я напиша от n равно на 1, защото иначе е 0. И сега, ако заместите s равно на 0, виждате, че когато тази степен не е 0, този израз е 0 по нещо и изчезва. А тази степен не е 0, само когато s е равно на 1. n е равно на 1, извинявам се. Значи, имаме, че gx при 0 е равно на px равно на 1. Защо? Защото имаме s на степен 0, при n равно на 1 и ако положим s равно на 0, нищо не ми се променя. обаче, ако n е равен на 2, тук имаме s на 1 и като сложим s равно на 0, този член изчезва. И така изчезват всички други членове. Така, като вземете k производни, унищожавате всички полиномии с s на степен n, които са по-малки от k, защото производните са 0, а всички, които са защото полагат s равно на 0 и хващате точно k от тях. така, коймате въпроси, разбира се, в консултациите, който съм сложил след часа, ще може да ме питате иди друг път. Така, следващото следствие е, че х, нека х и у",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g'_X(1))^2"
+      },
+      {
+        "type": "equation",
+        "latex": "= g''_X(1) + g'_X(1) - (g'_X(1))^2"
+      },
+      {
+        "type": "text",
+        "text": "в). 1."
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=1) = g'_X(0)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n)"
+      },
+      {
+        "type": "equation",
+        "latex": "g'_X(s) = \\sum_{n=0}^{\\infty} n s^{n-1} \\mathbb{P}(X=n) = \\sum_{n=1}^{\\infty} n s^{n-1} \\mathbb{P}(X=n)"
+      },
+      {
+        "type": "equation",
+        "latex": "s=0 \\Rightarrow g'_X(0) = \\mathbb{P}(X=1)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g'_X(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= g''_X(1) + g'_X(1) - (g'_X(1))^2",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        },
+        {
+          "latex": "\\mathbb{P}(X=1) = g'_X(0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g'_X(s) = \\sum_{n=0}^{\\infty} n s^{n-1} \\mathbb{P}(X=n) = \\sum_{n=1}^{\\infty} n s^{n-1} \\mathbb{P}(X=n)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "s=0 \\Rightarrow g'_X(0) = \\mathbb{P}(X=1)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1017.0,
+    "image": "board_015.png",
+    "speech": "нека х и у са целочисленни. Тогава х е равно на у по разпределение, тогава и само тогава, когато g от х х съвпада с g от y. Ето още едно хубаво свойство, че двете функции съвпадат тогава и само тогава, когато двете случайни величини имате двое същото разпределение. Значи, ако имаме х х, равенство по разпределение на y, това е тази посока, ще докажем ето тази посока, forward direction, когато х е равен на y по разпределение, то вероятността х да е равна на n, е равна на вероятността на y, да е равна на n, за всяко n по-голямо да е равна на 0. това е по дефиниция на равенство по разпределение или in distribution. Само да кажа, че имаше въпроси за английската терминология, че поражащи функции са generating functions на английски. Probability generating functions. Така, е, след като тия са равни, то j х от s по дефиниция е s на n-та вероятността х равна на n-та,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Сл.: Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "Y"
+      },
+      {
+        "type": "text",
+        "text": "са целочислени. Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\stackrel{d}{=} Y \\iff"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X \\equiv g_Y."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "\"\\Rightarrow\""
+      },
+      {
+        "type": "equation",
+        "latex": "X \\stackrel{d}{=} Y,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Leftrightarrow"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=n)=\\mathbb{P}(Y=n),"
+      },
+      {
+        "type": "equation",
+        "latex": "\\forall n \\ge 0."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "Y",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X \\stackrel{d}{=} Y \\iff",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n} Y \\iff\n^"
+        },
+        {
+          "latex": "g_X \\equiv g_Y.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\"\\Rightarrow\"",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\"\\Rightarrow\"\n^"
+        },
+        {
+          "latex": "X \\stackrel{d}{=} Y,",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n} Y,\n^"
+        },
+        {
+          "latex": "\\Leftrightarrow",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=n)=\\mathbb{P}(Y=n),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\forall n \\ge 0.",
+          "sympy_status": "unparsed",
+          "detail": "I expected one of these: <INVALID>\n\\forall n \\ge 0.\n~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1056.0,
+    "image": "board_016.png",
+    "speech": "вероятността х равна на n-та, но ето тези може да ги заменим, защото са равна. Което не е нищо друго от j y от s. Разбира се, s е между минус 1 и 1. Обратната посока, т.е. знаем, че двете поражащи функции са еднакви, следва, че k факториел, повърятността х да е равна на k,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Сл.) Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "Y"
+      },
+      {
+        "type": "text",
+        "text": "са целочислени. Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\stackrel{d}{=} Y \\iff"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X \\equiv g_Y."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "\"\\Rightarrow\""
+      },
+      {
+        "type": "equation",
+        "latex": "X \\stackrel{d}{=} Y \\iff \\mathbb{P}(X=n) = \\mathbb{P}(Y=n), \\forall n \\ge 0."
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(Y=n) = g_Y(s)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "Y",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X \\stackrel{d}{=} Y \\iff",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n} Y \\iff\n^"
+        },
+        {
+          "latex": "g_X \\equiv g_Y.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\"\\Rightarrow\"",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\"\\Rightarrow\"\n^"
+        },
+        {
+          "latex": "X \\stackrel{d}{=} Y \\iff \\mathbb{P}(X=n) = \\mathbb{P}(Y=n), \\forall n \\ge 0.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(Y=n) = g_Y(s)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1086.0,
+    "image": "board_017.png",
+    "speech": "х да е равна на k, това е твърдение v, последната точка, не е нищо друго от производната на х, катата производна в 0-та. Това е от твърдение. Е, да, да, има тия функции са еднакви, едни и същи, значи производните в 0-лите са иматнакви. к-тата производна на y в 0-та, което не е нищо друго от k факториел по върхотността y равна на k. Е, това k факториел се съкръщава, откъдето следва, че върхотността х равна на k равна на върхотността y равна на k за всяко k по-голямо равна на 0. И, по този начин, се вижда относително бързо, че две случайни, целочислени случайни гъмчини са равни по разпределение тогава и само тогава, когато техните поражащи функции са едни и същи. Тоест, са едни и същи функции, като функции на интервал минус 1-1. така, преди да видим някои други хубави свойства на поражащите функции, ще направя следната дефиниция. така, случайните величини, айде ще укажа дискретните случайни величини, както разбирате, целочислените са дискретни, защото приемат крайни ли избори брой стоимости, бидейки цели числа са. х1-х1-х1 или х1, х1, х1, х1, g1 до безкрайност, т.е. тези тук, т.е. имаме крайен брой случайни величини или безкрайен брой случайни величини са независени съвкупност съвкупност за този случай, вече сме тетенирали, и остана за този случай или за всеки набор g1 до gn и за всяко n по-голямо е равен на 2, х1, х1, х1 до х1, са независени съвкупност. Сега малко по-сложен е записа, отколкото реално това, което означава. Ние знаем какво е n случайни величините, са независени съвкупност. сега го превеждам на подчовешкия език.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Сл.) Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "Y"
+      },
+      {
+        "type": "text",
+        "text": "са целочислени. Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\overset{d}{=} Y \\iff"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X \\equiv g_Y."
+      },
+      {
+        "type": "text",
+        "text": "Д-во: \""
+      },
+      {
+        "type": "equation",
+        "latex": "\\Rightarrow"
+      },
+      {
+        "type": "text",
+        "text": "\""
+      },
+      {
+        "type": "equation",
+        "latex": "X \\overset{d}{=} Y \\iff \\mathbb{P}(X=n) = \\mathbb{P}(Y=n), \\forall n \\ge 0."
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(Y=n) = g_Y(s)"
+      },
+      {
+        "type": "text",
+        "text": "\""
+      },
+      {
+        "type": "equation",
+        "latex": "\\Leftarrow"
+      },
+      {
+        "type": "text",
+        "text": "\""
+      },
+      {
+        "type": "equation",
+        "latex": "g_X \\equiv g_Y \\overset{\\text{Тв. 6)}}{\\implies} k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "Y",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X \\overset{d}{=} Y \\iff",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n} Y \\iff\n^"
+        },
+        {
+          "latex": "g_X \\equiv g_Y.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\Rightarrow",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\\Rightarrow\n^"
+        },
+        {
+          "latex": "X \\overset{d}{=} Y \\iff \\mathbb{P}(X=n) = \\mathbb{P}(Y=n), \\forall n \\ge 0.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(Y=n) = g_Y(s)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\Leftarrow",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X \\equiv g_Y \\overset{\\text{Тв. 6)}}{\\implies} k! \\mathbb{P}(X=k) = g_X^{(k)}(0)",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\ng_X \\equiv g_Y \\overset{\\text{Тв. 6)}}{\\implies} k! \\mathbb{P}(X=k) = g_X^{(k)}(0)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1449.0,
+    "image": "board_018.png",
+    "speech": "сега го превеждам на подчовешкия език. Какво означава, че една редица, изброима редица, изброим брой случайни величини, са независими съвкупност. Тук вече нямаме крайен брой, а безкрайен брой. Тази редица се нарича независими съвкупност, ако които и да е крайен брой от тях да вземем, те са независими съвкупност, разгледани като n-на брой случайни величини. Може да вземете всеки две от тях, всеки три, всеки 15, всеки 15 трилиона от тях, тъма крайен броя с очайни величин са независими в съвкупност. Т.е. каквото и подможеството тях да вземете, крайен броя от тях, те са независими в съвкупност в смисъма, в който вече сме дефинирали. Това го повторих за ваше удобство, да ви припомма това понятие, макар че не го, естествено, дефинирам отново и с цяло, а го свързвам за безкрайен броя чрез това, което знаем за крайен броя. Т.е. безкрайния брой случайни величини са независни в съвкупност. Ако които и да е крайен брой от тях да вземете, този крайен брой, този набор, ето го тук, е независим в съвкупност като крайен брой случайни величини. Ако не искате в момента да се затурнозявате с помнятото на тази техниция, мислете си, че нито една случайна величина не зависи от реализацията на останали. То най-често така се работи, те се допуска, че случайните величини не си влияват една на друга и така се считат, че те са независни в съвкупност. Така. Защо го обедох тази техниция? Защото трябва да покажем още една основна теорема за порадищите функции, но преди това ще въведа още една техниция. Дискретните случайни величини х1, х1 или отново същия порядък, отново е безкрайна брой от тя, имат еднакво разпределение. Ако в първия случай, ще го напишеш червено, хи има същото разпределение като хи, жи за и, жи по-малко или равно на м. Т.е. всеки две от тях имат едно и също разпределение. А във втория случай, или хи е равна по разпределение на хи, жи за всяко и, жи по-малко или безкрайност, по-голямо или равно на 1. Т.е. какво означава? Означава, че всеки две случайни величини от тях имат едно и също табличка, едно и също функция на разпределение или една и също поражаща функция. Защото имате едно и също разпределение. Т.е. които и две от тях да вземете, те имат едно и също разпределение. След малко ще видим пример за това, когато разгледаме схема на Бернули. Но идеята е, че те имат едни и същи таблички в смисъла на разпределение, което сме дефинирали за дискретни случайни величини, или едни и същи функции на разпределение, или едни и същи поражащи функции. Защо ги въввеждам тези неща? Защото това е фундаментални неща, които ще използваме в този курс, и е във втория на вероятностите. и ще ни трябва за следващата теория. Значи, нека х1 до хn са независени в събкупност се очислями случайни величини. Тогава, ако означим с y сумата на х1 плюс хn, то поражаща функция на y не е нищо друго от умножението на поражащите функции на х. т.е. ако имаме сума от независими случайни величини, поражаща функция на y не е нищо друго от индивидуалните умножението на индивидуалните поражащи функции. ако в допълнение х1 до хn са равни по разпределение, или еднакви по разпределение, то jys е jx1 от s на степен n т.е. ето тези всичките са едни и същи, и аз имам само първата от тях, jx1 и дигам на степен n, защото n пъти умножавам едно и също нещо. Защото са равни по разпределение.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Деф:)"
+      },
+      {
+        "type": "text",
+        "text": "Дискретните сл. вел."
+      },
+      {
+        "type": "equation",
+        "latex": "X_1, \\dots, X_n"
+      },
+      {
+        "type": "text",
+        "text": "или"
+      },
+      {
+        "type": "equation",
+        "latex": "(X_j)_{j=1}^\\infty"
+      },
+      {
+        "type": "text",
+        "text": "имат"
+      },
+      {
+        "type": "text",
+        "text": "еднакво разпределение, ако"
+      },
+      {
+        "type": "equation",
+        "latex": "X_i \\stackrel{d}{=} X_j, 1 \\le i, j \\le n,"
+      },
+      {
+        "type": "text",
+        "text": "или"
+      },
+      {
+        "type": "equation",
+        "latex": "X_i \\stackrel{d}{=} X_j \\quad 1 \\le i, j < \\infty"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X_1, \\dots, X_n",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "(X_j)_{j=1}^\\infty",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "X_i \\stackrel{d}{=} X_j, 1 \\le i, j \\le n,",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n} X_j, 1 \\le i, j \\le n,\n^"
+        },
+        {
+          "latex": "X_i \\stackrel{d}{=} X_j \\quad 1 \\le i, j < \\infty",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1698.0,
+    "image": "board_019.png",
+    "speech": "Защото са равни по разпределение. Ето тук означава, кога напиша още тук, че jx1 е равна на jxj за всяко, j по-малко или е равна на n. Т.е. тази едни и същи поражащи. функции. И ето тук замесваме едни пъти едно и също нещо. Сега, доказателството аз ще направя само за две. Останалото ще ви остава вие да си помислите, ако имате желание, разбира се. Днес държително си вземете курса, за да, като знаете всички тези резултати в детайл. Но ако имате по-високи имбици, е хубаво да поработите по-вече. Значи, y е равна на x1 плюс x2. Нека да пресметнем поражаща функция, която не е нищо друг от s на степен х1 плюс х2. Това е под дефиницията на поражаща функция, като y съм заместил с неговото равна. Как пресмятаме такива очаквани? Пресмятаме всички възможни стоимости на едната случайна величина. Тя е целочислена от 0 до безкрайност. всички възможни стоимости на другата i от 0 до безкрайност. s на степен i плюс j. Ето го. х1 е j. х2 е възможна стоимость i. По вариатността х1 да е равна на i, на j, извинявам се, и х2 да е равна на i. Ето, виждате. х1 плюс х2 е i плюс j, когато х1 е j, а х2 е i. Сега, виждате къде използваме, че са независими. х1 и х2 са независими съвкупност, т.е. тези две случайни величини са независими. Ето, това се разпада на произведение. си, си, с, j.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "n=2"
+      },
+      {
+        "type": "equation",
+        "latex": "Y=X_1+X_2;"
+      },
+      {
+        "type": "equation",
+        "latex": "g_Y(s) = \\mathbb{E} s^{X_1+X_2} = \\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^{i+j} \\mathbb{P}(X_1=j, X_2=i)"
+      },
+      {
+        "type": "equation",
+        "latex": "="
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "n=2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "Y=X_1+X_2;",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\nX_1+X_2;\n~~~~~~~^"
+        },
+        {
+          "latex": "g_Y(s) = \\mathbb{E} s^{X_1+X_2} = \\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^{i+j} \\mathbb{P}(X_1=j, X_2=i)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "=",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1734.0,
+    "image": "board_020.png",
+    "speech": "си, си, с, j. Без независимост тази сметка била невъзможна. и сега, виждате, това зависи само от i, ето ги, а тези зависят само от j. Така, че тези могат ли излезнат отвънка, защото не зависят от i. и това става е, това не е нищо друго от jx1s по jx2s. Ето ги, тези две количество, които съм написан.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "n=2"
+      },
+      {
+        "type": "equation",
+        "latex": "Y = X_1 + X_2;"
+      },
+      {
+        "type": "equation",
+        "latex": "g_Y(s) = \\mathbb{E} s^{X_1+X_2} = \\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^{i+j} \\mathbb{P}(X_1=j; X_2=i)"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1 \\perp\\!\\!\\!\\perp X_2"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^i s^j \\mathbb{P}(X_1=j) \\mathbb{P}(X_2=i)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "n=2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "Y = X_1 + X_2;",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\nX_1 + X_2;\n~~~~~~~~~^"
+        },
+        {
+          "latex": "g_Y(s) = \\mathbb{E} s^{X_1+X_2} = \\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^{i+j} \\mathbb{P}(X_1=j; X_2=i)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1 \\perp\\!\\!\\!\\perp X_2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^i s^j \\mathbb{P}(X_1=j) \\mathbb{P}(X_2=i)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1791.0,
+    "image": "board_021.png",
+    "speech": "които съм написан. разбира се, ако x1 е равен по разпределение на x2, то j от x1 е равен на j от x2 и тогава j от y от s е jx1 от s цялото на квадрат. Това е за случая n равен на 2, защото това и това са едно и също число и са едно това взето на квадрат. Ето, виждате, че когато работите с суми на случайни величини, целочислени, техните поражащи функции са произведения. Стига да се независи, разбира се. Това е много важно. Те са произведения на поражащи функции. И мога да ми каза, че е много по-ресно да се работи с тия произведения често пъти, отколкото са разпределението на тази сума. Защото разпределението на сума случайни величини, вие трябва да обходите всички възможности стоимости, които сумата приема. А сумата може да приема по много различни начини и различни стоимости. Може първата да е една стоимость, втората да е друга, третата да е третия и вие трябва да изчерпате една така, се каже, невообразимо количество от информации трябва да обработите. Докато тук поражаща функция е просто произведение на поражащите функции. И вие си капсулирате поражаща функция на сумата чрез поражащите функции на х1 и х2 или х1 до х7 зависимост от това колко от тях разгрежда. Така че след малко ще видим ползата. Ние знаем, че за една поражаща функция ние можем да пресмятаме очаквания, можем да пресмятаме вероятностите, след малко ще да видим действия, това нещо. И като знаем поражаща функция на сумата ще можем да изчисляваме в различни количества, когато имаме суми от независими случайни величини. Сега, до тук е по-теоретичната част отглед на точка на това, че въвведохме много количество а именно поражащи функции. Със всяка една целочислена случайна величина",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "n=2"
+      },
+      {
+        "type": "equation",
+        "latex": "Y = X_1 + X_2;"
+      },
+      {
+        "type": "equation",
+        "latex": "g_Y(s) = \\mathbb{E} s^{X_1+X_2} = \\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^{i+j} \\mathbb{P}(X_1=j; X_2=i)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\underline{\\underline{X_1 \\perp\\!\\!\\!\\perp X_2}}"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^i s^j \\mathbb{P}(X_1=j) \\mathbb{P}(X_2=i) = \\sum_{j=0}^{\\infty} s^j \\mathbb{P}(X_1=j) \\sum_{i=0}^{\\infty} s^i \\mathbb{P}(X_2=i)"
+      },
+      {
+        "type": "equation",
+        "latex": "= g_{X_1}(s) g_{X_2}(s)"
+      },
+      {
+        "type": "text",
+        "text": "Ако"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1 \\stackrel{d}{=} X_2"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_{X_1} = g_{X_2}"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Rightarrow g_Y(s) = (g_{X_1}(s))^2."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "n=2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "Y = X_1 + X_2;",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\nX_1 + X_2;\n~~~~~~~~~^"
+        },
+        {
+          "latex": "g_Y(s) = \\mathbb{E} s^{X_1+X_2} = \\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^{i+j} \\mathbb{P}(X_1=j; X_2=i)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\underline{\\underline{X_1 \\perp\\!\\!\\!\\perp X_2}}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^i s^j \\mathbb{P}(X_1=j) \\mathbb{P}(X_2=i) = \\sum_{j=0}^{\\infty} s^j \\mathbb{P}(X_1=j) \\sum_{i=0}^{\\infty} s^i \\mathbb{P}(X_2=i)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= g_{X_1}(s) g_{X_2}(s)",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        },
+        {
+          "latex": "X_1 \\stackrel{d}{=} X_2",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n} X_2\n^"
+        },
+        {
+          "latex": "g_{X_1} = g_{X_2}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\Rightarrow g_Y(s) = (g_{X_1}(s))^2.",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\Rightarrow g_Y(s)\n^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1992.0,
+    "image": "board_022.png",
+    "speech": "случайна величина асоцирахме една поражаща функция и ако две случайни величини имат едно и също разпределение, то това се случва тогава и само тогава, когато функцията поражащите съвпадат. Т.е. вие се замарива, ще е вероятност и стоимото е вероятността х да е равна на н всички възможни вероятности, които имате в разпределението на х и сте ги кодирали с поражаща функция и после от поражаща функция ако ви е удобно може да си ги извадите и да си ги ползвате на ново. След малко ще стане напълно ясно за какво става дума когато разглеждаме конкретни примери за конкретни къслове случайни величини. Така. И за тази ще се раздавам сега схема на Бернуре. А че схемата на Бернуре ще ни бъде изходната точка от която ще построим няколко класа случайни величини. Какво се състои схемата на Бернуре? Най-просто казано представете си, че последователно мятате Ези и Тора. Ако се падне Ези и броите за успех, ако се падне Тора броите за неуспех. Или по-общо казано имате експериментите, които са независими едни от други. Но всеки експеримент завършва с вероятност за успех. Да кажем х равен на 1 с някаква вероятност и вероятност за неуспех с някаква едно минус 5, да кажем. Или едно минус вероятността х да е равен на 1. Тоест, вие какво имате? Последователите експерименти ви ги кодирате като редица от случайни величини х, х, ж, които са независими в съвкупност, и една хора с пределение. Тоест, вероятността х е едно, да е равна на 1. Първият експеримент има вероятност за успех 5 и то е равен на вероятност за успех на всеки друг експеримент. И вероятността първият експеримент да завърши с неуспех, разбира се, едно минус 5 ще означаваме с х. И това е wrap wrap на вероятността, който да е друг експеримент да не успее. Тоест, представете си, извършите редица от експерименти, които имат една и съща постановка. Тоест, имате една и съща монета, която има едни и същи свойства затова имате една и съща въроятност за успех и неуспех и извършвате експериментите",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Схема на Бернули"
+      },
+      {
+        "type": "equation",
+        "latex": "X_j"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X_j",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2124.0,
+    "image": "board_023.png",
+    "speech": "и извършвате експериментите независимо един от друг. Вие може да имаме независимост един от друг, но тези въроятностите да се сменят. Ако промените монетата, вземете една пър послед друга, може физическите свойства на монетата да обославят една и съща въроятност за успех и неуспех. Но това се нарича въроятност за успех. т.е. най-общо имате едни поредица от независими експерименти или хвърване на монета, като върятностната структура на тези експерименти не се променя. Т.е. имате най-съща върятност за успех и неуспех. Това означава да не се променя върятностна структура, че това нещо е фиксирано и не зависи от индексите. Това е фиксирано число. Това се нарича схема на Бернули. Т.е. имате поредица от експерименти с една и съща върятностна структура с бинарен изход, т.е. само единица или нула. Сега ще видите от тази схема на Бернули как ще изкокнат редица разпределения, които вие ще виждате в този лекционен курс, както и на упражненията, а най-върятно и на практикумите. Така че схемата на Бернули на първ поле ще кажете, ама тя е много специфична. Имаме само два възможно изхода за всеки един експеримент и те не се променят. Освен, че се не зависим един от друг, не се променя и вероятностната структура. Е, да, да има тази схема на Бернули е достатъчно богата, за да генерира с нея може да практически да приближавате, която искате случайна величина, да симулирате имаме предвид, компютърно. Може да изградите много други случайни величини, кои се срещат в приложенията и в моделирането и т.н. Така че за видната простота има достатъчно голяма общност",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Схема на Бернули"
+      },
+      {
+        "type": "equation",
+        "latex": "(X_j)_{j=1}^{\\infty}"
+      },
+      {
+        "type": "text",
+        "text": "са независими в съвкупност и"
+      },
+      {
+        "type": "text",
+        "text": "еднакво разпределени, т.е."
+      },
+      {
+        "type": "text",
+        "text": "вер. за успех"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X_1=1) = p = \\mathbb{P}(X_j=1), j \\ge 2"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X_1=0) = 1-p = q = \\mathbb{P}(X_j=0)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "(X_j)_{j=1}^{\\infty}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X_1=1) = p = \\mathbb{P}(X_j=1), j \\ge 2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X_1=0) = 1-p = q = \\mathbb{P}(X_j=0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2202.0,
+    "image": "board_024.png",
+    "speech": "има достатъчно голяма общност за да се разглежда отделно като схема на Бернули и да се обръща специално внимание на тази постановка. Сега, с тази схема на Бернули оттук нататък, докато не ви кажа, вече не работим с схема на Бернули, ще мислите, че имате схема на Бернули. Т.е. имате редица от независими случайни величини, които имат два възможно изхода единица и 0, с една и съща вероятност Бернули и Ку. И ще ги ползвам тях след на тази редица. редица. Значи, първият, първото разпределение,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Схема на Бернули"
+      },
+      {
+        "type": "equation",
+        "latex": "(X_j)_{j=1}^\\infty"
+      },
+      {
+        "type": "text",
+        "text": "са независими в съвкупност и"
+      },
+      {
+        "type": "text",
+        "text": "еднакво разпределени, т.е."
+      },
+      {
+        "type": "text",
+        "text": "вер. за успех"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X_1=1) = p = \\mathbb{P}(X_j=1), j \\ge 1"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X_1=0) = 1-p = q = \\mathbb{P}(X_j=0)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "(X_j)_{j=1}^\\infty",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X_1=1) = p = \\mathbb{P}(X_j=1), j \\ge 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X_1=0) = 1-p = q = \\mathbb{P}(X_j=0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2205.0,
+    "image": "board_025.png",
+    "speech": "първото разпределение, което ще разглеждаме, е разпределение на Бернули. Това, това е, да кажем, х1 схемата на Бернули. Т.е. това е прототипа, на който е изградена тази схема на Бернули. Т.е. прототипа, имейки предизг, каква е вероятността за успех и каква е вероятността за неуспех. Значи, х1 записва се х1 е Бернули с вероятност 5. Ето тази вероятност предопределение разпределението на х1 и се нарича Бернули п. Защо това е вероятността за успех, а за неуспех, разбира се, единица п-минус п. Ето ви табличката на х1,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Схема на Бернули"
+      },
+      {
+        "type": "equation",
+        "latex": "(X_j)_{j=1}^{\\infty}"
+      },
+      {
+        "type": "text",
+        "text": "са независими в съвкупност и еднакво разпределени, т.е."
+      },
+      {
+        "type": "text",
+        "text": "вер. за успех"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X_1=1) = p = \\mathbb{P}(X_j=1), j \\ge 2"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X_1=0) = 1-p = q = \\mathbb{P}(X_j=0)"
+      },
+      {
+        "type": "text",
+        "text": "A"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "(X_j)_{j=1}^{\\infty}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X_1=1) = p = \\mathbb{P}(X_j=1), j \\ge 2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X_1=0) = 1-p = q = \\mathbb{P}(X_j=0)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2328.0,
+    "image": "board_026.png",
+    "speech": "това е Ку и това е П. Нищо повече. Това е първата случайна величина в схемата на Бернули. Тя има разпределение на Бернули. Т.е. х1 се нарича, че има разпределение на Бернули. Тя приема два изхода, 0 или 1, с вероятност Ку или П. Това е изход да от един конкретен опит въз темата на Бернули. Какви свойства имаме за тази случайна величина, само да не пропусна някоя, тъй е твърде просто. очакването на х1 е равен на П. Това е П по единица, плюс 0 по Ку. Дисперсията на х1 е очакването на х1 на квадрат, минус очакването на х1 цялото на квадрат. х1 на квадрат не си променя стоеностите отново 0 или 1, защото 0 на квадрат е 0, 1 на квадрат е 1. Значи отново тук имаме П, защото имаме 1 на квадрат по П, 0 на квадрат по Ку, това ни дава първото очакването.",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E} X_1 = p , D X_1 = \\mathbb{E} X_1^2 - (\\mathbb{E} X_1)^2 ="
+      },
+      {
+        "type": "text",
+        "text": "11. Разпределение на Бернули - нека е"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1"
+      },
+      {
+        "type": "text",
+        "text": "в схема на Бернули Записва се"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1 \\sim Ber(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E} X_1 = p , D X_1 = \\mathbb{E} X_1^2 - (\\mathbb{E} X_1)^2 =",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1 \\sim Ber(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}\n~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2352.0,
+    "image": "board_027.png",
+    "speech": "това ни дава първото очакването. А другото, тук още го пресметваме. Това е П по Ку, защото Ку е единица минус П. Каква е пораждаща функция? Ами възможите стоимости са 2, 0 и единица. Значи имаме Ку по С на 0, плюс П по С на 1.",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E} X_1 = p, D X_1 = \\mathbb{E} X_1^2 - (\\mathbb{E} X_1)^2 = p - p^2 = p q"
+      },
+      {
+        "type": "text",
+        "text": "1.1 Разпределение на Бернули - нека е"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1"
+      },
+      {
+        "type": "text",
+        "text": "в"
+      },
+      {
+        "type": "text",
+        "text": "схема на Бернули Записва се"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1 \\sim \\text{Ber}(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E} X_1 = p, D X_1 = \\mathbb{E} X_1^2 - (\\mathbb{E} X_1)^2 = p - p^2 = p q",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1 \\sim \\text{Ber}(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}\n~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2373.0,
+    "image": "board_028.png",
+    "speech": "плюс П по С на 1. Или това е Ку плюс ПС. Ще кажа, ще е, но това трябва много проста тази функция, за какво я правим. Ще разберете след малко. Но вижте моментално, как ако вземете първата производна, това е просто равно на П, като диференцирате по С, откъдето следва,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X_1 = p, D X_1 = \\mathbb{E}X_1^2 - (\\mathbb{E}X_1)^2 = p - p^2 = pq"
+      },
+      {
+        "type": "equation",
+        "latex": "g_{X_1}(s) = q \\cdot s^0 + p s^1 = q + ps"
+      },
+      {
+        "type": "text",
+        "text": "А.) Разпределение на Бернули - това е"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1"
+      },
+      {
+        "type": "text",
+        "text": "в"
+      },
+      {
+        "type": "text",
+        "text": "схема на Бернули Записва се"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1 \\sim Ber(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E}X_1 = p, D X_1 = \\mathbb{E}X_1^2 - (\\mathbb{E}X_1)^2 = p - p^2 = pq",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_{X_1}(s) = q \\cdot s^0 + p s^1 = q + ps",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1 \\sim Ber(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}\n~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2397.0,
+    "image": "board_029.png",
+    "speech": "откъдето следва, че Jх1' от 1 е равно на П. И това е вашето очакване. По същия начин, използвайки формулата за дисперсия,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X_1 = p, \\quad DX_1 = \\mathbb{E}X_1^2 - (\\mathbb{E}X_1)^2 = p - p^2 = pq"
+      },
+      {
+        "type": "equation",
+        "latex": "g_{X_1}(s) = q \\cdot s^0 + ps^1 = q + ps"
+      },
+      {
+        "type": "equation",
+        "latex": "g'_{X_1}(s) = p \\Rightarrow g'_{X_1}(1) = p = \\mathbb{E}X_1"
+      },
+      {
+        "type": "text",
+        "text": "А) Разпределение на Бернули - нека е"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1"
+      },
+      {
+        "type": "text",
+        "text": "в"
+      },
+      {
+        "type": "text",
+        "text": "схема на Бернули Записва се"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1 \\sim Ber(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E}X_1 = p, \\quad DX_1 = \\mathbb{E}X_1^2 - (\\mathbb{E}X_1)^2 = p - p^2 = pq",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_{X_1}(s) = q \\cdot s^0 + ps^1 = q + ps",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g'_{X_1}(s) = p \\Rightarrow g'_{X_1}(1) = p = \\mathbb{E}X_1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1 \\sim Ber(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}\n~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2403.0,
+    "image": "board_030.png",
+    "speech": "използвайки формулата за дисперсия, а ако искате, можете да пресметнете по-нататък, но ето забережете, че втората производна е равна на 0, откъдето следва, че дисперсията е равна на 0, защото това е втората производна, къде е 0. това имате първата производна, ви е P, минус първата производна на квадрат, ви е P по Q. Вижте, ако знаехте само това, то ви капсулира достатъчно информация да си възстановите нещо, което така и не на челесно се смята, но все пак се опитам да ви покажа силата на поважнищите функции, още от най-простите примери. Добре, това количество е много просто, но тази случайна величина е много проста, но е много добра, така да се каже, е тухличка, възможното вие можете да изграждате повече и по-сложни случайни величини. Вторият пример, когато имаме схема на 2 0, е така нареченото бинонно разпределение, което на човешки думи означава, или айдам ще го кажа, бинонно разпределение, х е бинонно разпределение, с N и P, с параметри N и P, когато хикс брои, броя успехи, първите N експеримента, схема на Бернули, с вероятност за успех, P. т.е. винонното разпределение вие вече имате малко по-друг поглед. То не е някаква случайна величина, за имайки стоености от 0 до N,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E} X_1 = p , D X_1 = \\mathbb{E} X_1^2 - (\\mathbb{E} X_1)^2 = p - p^2 = pq"
+      },
+      {
+        "type": "equation",
+        "latex": "g_{X_1}(s) = q \\cdot s^0 + p s^1 = q + ps"
+      },
+      {
+        "type": "equation",
+        "latex": "g'_{X_1}(s) = p \\Rightarrow g'_{X_1}(1) = p = \\mathbb{E} X_1"
+      },
+      {
+        "type": "text",
+        "text": "А.] Разпределение на Бернули - това е"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1"
+      },
+      {
+        "type": "text",
+        "text": "в схема на Бернули Записва се"
+      },
+      {
+        "type": "equation",
+        "latex": "X_1 \\sim Ber(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E} X_1 = p , D X_1 = \\mathbb{E} X_1^2 - (\\mathbb{E} X_1)^2 = p - p^2 = pq",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_{X_1}(s) = q \\cdot s^0 + p s^1 = q + ps",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g'_{X_1}(s) = p \\Rightarrow g'_{X_1}(1) = p = \\mathbb{E} X_1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X_1 \\sim Ber(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}\n~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2682.0,
+    "image": "board_031.png",
+    "speech": "за имайки стоености от 0 до N, а това е точно случайната величина, когато брои, броя успехи в първите N експеримента на схема на Бернули. т.е. какво е хикс? хикс е сумата хикс жи, защото всеки експеримент завършва с успех или не успех, 0 или 1, 1 или 0. И вие броите броя на единиците, които имаме. И забележете, тук нещо е, хора да пропускат по някакъв път и не виждат структурата. структурата, че това е сума на независими, еднакво разпределени, случайни величини, с всяка една от тях, с възможност, стоености, единица или 0, с една и съща, го реаку с 5 или кури. И това нещо, ако разък кажа, намерете очакването на биногно разпределение, може да си го помните, може да си го изведете, използвайки нещо, което ще правите на упражнения формулите, но може много лесно да го видите като очакване на сумата. и това е много просто. Но аз ще започна с малко по-далече, като пресметна първо поражаща функция. Ще остава биномно разпределение, да се вижда и ще имам следвато твърдение. Нека х е биномно с N и P. Тогава поражащата функция на х не е нищо друго от Q плюс P по S на степен N. Очакването на х не е нищо друго от N по P. и очакването и дисперсията на х е N, P, Q. И G двойността х да е равна на K, не е нищо друго от N над K, P на K-та по Q на N без K са K между 0 и N. Вижте сега колко лесно става всичко. Аз не на това ме очава, че не бих ви препоръчал комбинаторните аргументи, но вижте как аналитично нещата пада.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б. Биномно разпределение -"
+      },
+      {
+        "type": "text",
+        "text": "Тв:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Bi(n,p)"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = (q+ps)^n"
+      },
+      {
+        "type": "text",
+        "text": ";"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = np"
+      },
+      {
+        "type": "text",
+        "text": ";"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = npq"
+      },
+      {
+        "type": "text",
+        "text": "г)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}"
+      },
+      {
+        "type": "equation",
+        "latex": "0 \\le k \\le n"
+      },
+      {
+        "type": "text",
+        "text": "."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Bi(n,p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = (q+ps)^n",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{E}X = np",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = npq",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "0 \\le k \\le n",
+          "sympy_status": "unparsed",
+          "detail": "Can only compare inequalities with Expr"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2706.0,
+    "image": "board_032.png",
+    "speech": "но вижте как аналитично нещата пада. Х е сума на независни еднакво разпределени Бернулини. всяко една от тях успех не успех, Бернулиния възмолява успех. Следователно оттвърдението поражащата функция на х не е нищо друго от поражаща функция на първата на степен N,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б. Биномно разпределение"
+      },
+      {
+        "type": "text",
+        "text": "Тв: Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Bi(n, p)"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = (q+ps)^n"
+      },
+      {
+        "type": "text",
+        "text": "; б)"
+      },
+      {
+        "type": "equation",
+        "latex": "EX = np"
+      },
+      {
+        "type": "text",
+        "text": "; в)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = npq"
+      },
+      {
+        "type": "text",
+        "text": "г)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}"
+      },
+      {
+        "type": "equation",
+        "latex": "0 \\le k \\le n"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\sum_{j=1}^n X_j"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Bi(n, p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = (q+ps)^n",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "EX = np",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = npq",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "0 \\le k \\le n",
+          "sympy_status": "unparsed",
+          "detail": "Can only compare inequalities with Expr"
+        },
+        {
+          "latex": "X = \\sum_{j=1}^n X_j",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2733.0,
+    "image": "board_033.png",
+    "speech": "на първата на степен N, защото те имат едно и също разпределение. А пъртва нещо, го знаем, че Q плюс P S на N. Вижте колко е просто. Б. Еми, как ще пресмекнем очакване? Ще вземем тая производна по S в точката 1. Очакването на х е Gх' в 1. Еми, какво е? Това е N пъти по P по Q плюс P",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б. Биномно разпределение -"
+      },
+      {
+        "type": "text",
+        "text": "Тв:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Bi(n, p)"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = (q+ps)^n"
+      },
+      {
+        "type": "text",
+        "text": ";"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = np"
+      },
+      {
+        "type": "text",
+        "text": ";"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = npq"
+      },
+      {
+        "type": "text",
+        "text": "г)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}"
+      },
+      {
+        "type": "equation",
+        "latex": "0 \\le k \\le n"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\sum_{j=1}^n X_j"
+      },
+      {
+        "type": "equation",
+        "latex": "\\xrightarrow{\\text{Тв.}}"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = (g_{X_1}(s))^n = (q+ps)^n"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Bi(n, p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = (q+ps)^n",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{E}X = np",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = npq",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "0 \\le k \\le n",
+          "sympy_status": "unparsed",
+          "detail": "Can only compare inequalities with Expr"
+        },
+        {
+          "latex": "X = \\sum_{j=1}^n X_j",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\xrightarrow{\\text{Тв.}}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\xrightarrow{\\text{Тв.}}\n~~~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "g_X(s) = (g_{X_1}(s))^n = (q+ps)^n",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2769.0,
+    "image": "board_034.png",
+    "speech": "P S на N минус 1 при положение, че S е равен 1. Е, това е N път по P плюс Q на N без 1, но това е единица. Защото P плюс Q е единица. Сега ще приключа твърдението, ще оправим дои 15 почивка, че не можахме да да започнем на време. Е, дисперсията е втората производна, аз няма да я записвам. Това е Вие ще си го сметнете и виждате как нещата стават аналитично без Вие да влагате какъвто иде замисъл. Стига да знаете тази структура, че това е сума на независни и еднакво разпределени случайни величини. И G нещо, което Вие на упражнение ще го правите по комбинаторни разсъждения. Вие знаете, че K-турел по P по ревността Х да е равна на K по твърдение от поражащите функции е K-тата производна в 0-ата. е това не е нищо друго от",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б. Биномно разпределение"
+      },
+      {
+        "type": "text",
+        "text": "Тв:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Bi(n, p)"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = (q+ps)^n"
+      },
+      {
+        "type": "text",
+        "text": ";"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = np"
+      },
+      {
+        "type": "text",
+        "text": ";"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = npq"
+      },
+      {
+        "type": "text",
+        "text": "г)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}"
+      },
+      {
+        "type": "equation",
+        "latex": "0 \\le k \\le n"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "text",
+        "text": "а)"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\sum_{j=1}^n X_j \\xrightarrow{\\text{тв.}} g_X(s) = (g_{X_1}(s))^n = (q+ps)^n"
+      },
+      {
+        "type": "text",
+        "text": "б)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = g_X'(1) = np(q+ps)^{n-1} \\Big|_{s=1} = np(p+q)^{n-1} = np"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Bi(n, p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = (q+ps)^n",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{E}X = np",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = npq",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "0 \\le k \\le n",
+          "sympy_status": "unparsed",
+          "detail": "Can only compare inequalities with Expr"
+        },
+        {
+          "latex": "X = \\sum_{j=1}^n X_j \\xrightarrow{\\text{тв.}} g_X(s) = (g_{X_1}(s))^n = (q+ps)^n",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\nX = \\sum_{j=1}^n X_j \\xrightarrow{\\text{тв.}} g_X(s) = (g_{X_1}(s))^n = (q+ps)^n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "\\mathbb{E}X = g_X'(1) = np(q+ps)^{n-1} \\Big|_{s=1} = np(p+q)^{n-1} = np",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2883.0,
+    "image": "board_035.png",
+    "speech": "от K плюс P по S на степен N диференцирано K-тати което разбира се е P на K N по N без едно N без едно плюс K N без K плюс едно по P на K-та по Q плюс P S на N без K при S равен на 0. Ебак, което е равен на 0. Ето, това нещо изчезва и става което N без K. Е, добре, вероятността Х е равен на K е равен на N N без едно N без K плюс едно върху K фрактория по P на K на N без K това е нещо, което вие ще видите по комбинаторни от комбинаторни разсъждения на упражнението. Но вижте как чисто аналитично вие може да манипулирате и да получавате резултати без каквито да усилия само използайки по различно функции и факта, че пораща функция на Х е произведението или първата на степен N т.е. Gх1 на степен N или K плюс P S на степен N оттамата търна има никакви комбинаторни разсъждения. Това е силата на математика. Че някой път формализира така нещата, че вие може да манипулирате и получавате резултати някой път дори да не разбирате съсвсем точно какво се случва. И ето чисто аналитично как изведохи всичко, което вие правите комбинаторно на упражнение. Ако не сте го правили, ще го правите.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б Биномно разпределение -"
+      },
+      {
+        "type": "text",
+        "text": "г)."
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) \\overset{\\text{тв.}}{=} g_X^{(k)}(0) = \\left( (q+ps)^n \\right)^{(k)} \\bigg|_{s=0}"
+      },
+      {
+        "type": "equation",
+        "latex": "= n(n-1)\\dots(n-k+1) p^k (q+ps)^{n-k} \\bigg|_{s=0}"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\frac{n(n-1)\\dots(n-k+1)}{k!} p^k q^{n-k}"
+      },
+      {
+        "type": "text",
+        "text": "Д-во: a)."
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\sum_{j=1}^n X_j \\overset{\\text{тв.}}{\\longrightarrow} g_X(s) = (g_{X_1}(s))^n = (q+ps)^n"
+      },
+      {
+        "type": "text",
+        "text": "б)."
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = g_X'(1) = np(q+ps)^{n-1}\\big|_{s=1} = np(p+q)^{n-1} = np"
+      },
+      {
+        "type": "text",
+        "text": "в)"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = g_X''(1) + g_X'(1) - (g_X'(1))^2"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "k! \\mathbb{P}(X=k) \\overset{\\text{тв.}}{=} g_X^{(k)}(0) = \\left( (q+ps)^n \\right)^{(k)} \\bigg|_{s=0}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= n(n-1)\\dots(n-k+1) p^k (q+ps)^{n-k} \\bigg|_{s=0}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= n(n-1)\\dots(n-k+1) p^k (q+ps)^{n-k} \\bigg|_{s=0}\n^"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\frac{n(n-1)\\dots(n-k+1)}{k!} p^k q^{n-k}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X = \\sum_{j=1}^n X_j \\overset{\\text{тв.}}{\\longrightarrow} g_X(s) = (g_{X_1}(s))^n = (q+ps)^n",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\nX = \\sum_{j=1}^n X_j \\overset{\\text{тв.}}{\\longrightarrow} g_X(s) = (g_{X_1}(s))^n = (q+ps)^n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "\\mathbb{E}X = g_X'(1) = np(q+ps)^{n-1}\\big|_{s=1} = np(p+q)^{n-1} = np",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "DX = g_X''(1) + g_X'(1) - (g_X'(1))^2",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 2967.0,
+    "image": "board_036.png",
+    "speech": "ще го правите. Ще продължим след почивката в Х15 с някой примери за биномното разпределение и ще преминем към още други класове случайни величини. Тук това са класове случайни величини. На Бернули това е х с два възможно изходи 0 и 1 на биномно с N плюс 1 възможно изходи 0, 1, 2, т.н. при положение, че х е сума на Бернули. След това ще минам към геометричното, но това ще бъде след почивката. Ако имате въпроси на консултацията, ще се опитам да ви отговорим. винам Complet Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се!     Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се!",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б Биномно разпределение -"
+      }
+    ],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 3579.0,
+    "image": "board_037.png",
+    "speech": "Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се!  Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! Абонирайте се! И Complet Complet И Complet С схема на тип Бернули можем да симулираме всяка една случайна величина, защото ако искаме изцяло да симулираме, трябва да безкрайен броя, но приближаваме, защото ние може да приближим равномерното на 0-1, а чрез равномерното на 0-1 може да приближим всяка друга случайна величина. Така че да, със схема на Бернули може, но разбира се, това ще поставя по-заприближения практически, а теоретично за изразяване.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б. Биномно разпределение -"
+      }
+    ],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 3633.0,
+    "image": "board_038.png",
+    "speech": "а теоретично за изразяване. Тоест, равномерното разпределение, което ще учим на 0-1, реализира се схема на Бернули, си използвайки всички случайни величини. Така, сега ще продължим нататък. Преди да приключя за биномното разпределение, ще се опитам да дам една интерпретация, свързана с пример от живота, така да се каже. Миналата година, като настъпи пандемията, изнъж към България се юрнаха един куб хора, които живеят в чужбина, но по една или друга причина искаха да се приберат по родници места, по време на такава опасност, така да спремаме от тях опасност. И как може приблизително грубо да намерим схема на Бернули в този поток от хора? Представете си, че си идват отделно хора, да кажем, първи, втори, трети и всеки от тях, да кажем, идва от Франция или Германика, ето да кажем върхността за зараза е 0,05. Тогава първият влязов в държавата Х1, да кажем, завърнал се, е Бернули с П равно на 0,05, която е върхността да бъде заразена. Това ще бъде да кажем Бернули с 0,05. Ако вземем Н на брой хора, които са се завърнали, последователно един след друг, то хикс равна на сумата Ж от 1 до Н е броя заразени, които са влезнали за Н на брой, върнали се емигранти. И това е биномно с параметри Н и П, стига те да са независими един от друг, да кажем един и това от един град, друг от друг. Всеки един от тях, независимо е заразен от останалите. И да кажем грубо казвам, е най-съща върхност П, която е присъща на съответната държава.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Б Биномно разпределение -"
+      },
+      {
+        "type": "equation",
+        "latex": "\\oplus ."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\oplus .",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 3807.0,
+    "image": "board_039.png",
+    "speech": "И да кажем грубо казвам, е най-съща върхност П, която е присъща на съответната държава. Да кажем 0,05 или на някакъв регион. Така че броя заразени е приблизително биномно, теоретично е точно биномно с Н,5. Тоест броя заразени е между 0 и Е и по-точно случайна величина с параметри Н и П, като първи е Бернули с 0,05. Това ще кажа, че е 0,05 в този контекст. Сега, следващото количество, което ни интересува и което ще дефинираме, е колко хора ще влязат незаразени преди да влезне първия заразен. И това ще ни даде трети клас случайни величини до Бернули до биномно. Сега ще ни даде трети клас изключително важни случайни величини на вечен геометрично разпределение. Казва се разпределение, защото всички случайни величини, които имат това разпределение, било Бернули или биномно или сега геометрично, имат едни и същи влориатности за едни и същи стоимости, които искат да приемат. Геометрично разпределение. Или имаме хикс, което се означава с геометрично, съзовеят на успех за успех. Как се конструира? Имате схема на Бернули, последователно реализиране на експерименти или възвръщане на хора от чужбина. Тогава хикс се задава като най-малкото N, за което сумата G от 1 до N хикс G е равно 1 минус 1. Или това е броя неуспехи до първи успех. Неуспехи до първи успех.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "B. Геометрично разпределение или"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 3882.0,
+    "image": "board_040.png",
+    "speech": "Схема на Бернули. Чисто пример. Та кажем, първия е незаразен 0, незаразен, незаразен и четвъртия е заразен. Е, в тази конкретна реализация хикс е равно на 3. Защото при N равно на 4 получавате, че тази сума е 1. Защото 0, 0, 0 плюс 0, плюс 0, плюс 1 е равно на 1 за първи път, като N е равно на 4. и след това бавите една единица. Т.е. това е броя неуспехи до първи успех в схема на Бернули. И това се нарича геометрично разпределение. Така. Искам да кажа, че някой път геометрично разпределение се дефинира без изваждането на тази единица,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "В. Геометрично разпределение или"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\min\\{n \\ge 1 : \\sum_{j=1}^n X_j = 1\\} - 1"
+      },
+      {
+        "type": "text",
+        "text": "или броя"
+      },
+      {
+        "type": "text",
+        "text": "неуспехи до първи успех в схема на Бернули"
+      },
+      {
+        "type": "equation",
+        "latex": "0 \\ 0 \\ 0 \\ 1"
+      },
+      {
+        "type": "equation",
+        "latex": "X=3"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X = \\min\\{n \\ge 1 : \\sum_{j=1}^n X_j = 1\\} - 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "0 \\ 0 \\ 0 \\ 1",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n0 \\ 0 \\ 0 \\ 1\n~~^"
+        },
+        {
+          "latex": "X=3",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 3903.0,
+    "image": "board_041.png",
+    "speech": "Искам да кажа, че някой път геометрично разпределение се дефинира без изваждането на тази единица, но това нещо само по себе си не е толкова съществено за нашите разбеждани. Искам само да ви да нямам някой пример да съм пропуснал. Но аз вече стартирах с заразените и незаразените. Значи имате последователност от експерименти, блюйте броя експерименти до първи успех. И виждате, че вече ХИКС може да приема произволно голени стоимости. Защото може да имате с много малка вероятност много набройни успешни езита или тура или незаразени хора, докато се случи първото езита или първия заразен или първия успех в тази експеримент. Сега, ние хубаво си го кръстихме, така няколко поизучим тази случайна величина. Ще види тенейната индустрация, свъзана с игрите на шанса, какво тя ни казва и какви свойства притежа.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "В. Геометрично разпределение или"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\min\\{n \\ge 1 : \\sum_{j=1}^n X_j = 1\\} - 1"
+      },
+      {
+        "type": "text",
+        "text": "или броя"
+      },
+      {
+        "type": "text",
+        "text": "неуспехи до първи успех в схема на Бернули"
+      },
+      {
+        "type": "equation",
+        "latex": "\\underbrace{0\\ 0\\ 0}_{X=3} 1"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X = \\min\\{n \\ge 1 : \\sum_{j=1}^n X_j = 1\\} - 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\underbrace{0\\ 0\\ 0}_{X=3} 1",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\underbrace{0\\ 0\\ 0}_{X\n~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4002.0,
+    "image": "board_042.png",
+    "speech": "Ще види тенейната индустрация, свъзана с игрите на шанса, какво тя ни казва и какви свойства притежа. Първото твърдение е следното. ХИКС е геометрично с вариателност пека. Нека тогава вариателността ХИКС да е равна на К, т.е. имаме К на успех и до първи успех, и К на К-та по 5 и това е вярно за всяко К, по-вървия и равна на 0. Т.е. ние можем да преснятаме какви са вариателностите, да имаме К на брои на успех и до първи успех в схема на Бернур. Е, какво означава ХИКС да е равна на К? Ами това означава, че ХИКС е дно е равна на 0. Айде ще взема постъпково. Първо ще взема К равна на 0. Какво означава ХИКС да е равна на 0? Това означава, че още първи експеримент е дал успех. Т.е. ХИКС е дно е равна на 0 и когато още нямаме неуспехи до първи успех в схема на Бернур. Още първи е заразен. Следователно, вариатността ХИКС да е равна на 0 е вариатността ХИКС е дно да е равна на 1, равна на П. П по К на 0 е. А че нека сега си взема К да е по-голямо да е равна на 1. Тогава ХИКС е равна на 0. А измена се на К. Какво означава? Че първия експеримент трябва да е завършил с науспех. Катият експеримент трябва да е завършил с науспех.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв: Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      },
+      {
+        "type": "text",
+        "text": ". Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = q^k p"
+      },
+      {
+        "type": "text",
+        "text": ","
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = q^k p",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4131.0,
+    "image": "board_043.png",
+    "speech": "Катият експеримент трябва да е завършил с науспех. И К плюс първия да е завършил с успех. Т.е. да имам К на успеха до първи успех в схема на Бернур. Или записано като вариатности. ХИКС е дно е равна на 0. ХИКС е дно е равна на 0. И така нататък ХИК е равна на 0. ХИК плюс е дно е равна на 1. но те са независими в съдкупност. Всеки един край на броя тях. Така че това е сечение. И това, и това, и това, и това. Се разпада на произведение. Е, ма те имате в моят също вариатност за науспех. Ку на степен К. Ето ги К пъти. И това е Т. И по този начин, ние пресметнахме индивидуалните вероятности за успех. Т.е. индивидуалните вероятности ХИКС да е равна на К. Т.е. брой на успехи до първи успех.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв: Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)."
+      },
+      {
+        "type": "text",
+        "text": "Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = q^k p, \\quad k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "k=0"
+      },
+      {
+        "type": "equation",
+        "latex": "\\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0) = \\mathbb{P}(X_1=1) = p"
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 1"
+      },
+      {
+        "type": "equation",
+        "latex": "\\{X=k\\} = \\{X_1=0; \\dots; X_k=0; X_{k+1}=1\\}"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\mathbb{P}(X_1=0; X_2=0; \\dots; X_k=0; X_{k+1}=1)"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\mathbb{P}(X_1=0) \\mathbb{P}(X_2=0) \\dots \\mathbb{P}(X_k=0) \\mathbb{P}(X_{k+1}=1)"
+      },
+      {
+        "type": "equation",
+        "latex": "= q^k p."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p).",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = q^k p, \\quad k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k=0",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0) = \\mathbb{P}(X_1=1) = p",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0) = \\mathbb{P}(X_1=1) = p\n~~~^"
+        },
+        {
+          "latex": "k \\ge 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\{X=k\\} = \\{X_1=0; \\dots; X_k=0; X_{k+1}=1\\}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\{X=k\\} = \\{X_1=0; \\dots; X_k=0; X_{k+1}=1\\}\n~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\mathbb{P}(X_1=0; X_2=0; \\dots; X_k=0; X_{k+1}=1)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\mathbb{P}(X_1=0) \\mathbb{P}(X_2=0) \\dots \\mathbb{P}(X_k=0) \\mathbb{P}(X_{k+1}=1)",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= \\mathbb{P}(X_1=0) \\mathbb{P}(X_2=0) \\dots \\mathbb{P}(X_k=0) \\mathbb{P}(X_{k+1}=1)\n^"
+        },
+        {
+          "latex": "= q^k p.",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4149.0,
+    "image": "board_044.png",
+    "speech": "Т.е. брой на успехи до първи успех. Аз и мисля малко по-напредвече и превключени са от тази момента. Вижте, тук, за разлика от бернулевите и биномото, което беше конструирано, което беше конструирано чрез бернулевите, директно като сума, тук няма как първо да пресметнем по разлика функция и от там етапък да си изведем всичко. Тук първо ще си извеждаме извеждаме вероятностите. Сега ще пресметнем по разлика функция и от нея ще си извлечем каквото ни е необходим. Нека тогава, това е второ твардение, JХ от S, аз не го помна, но мога да си го изведа, ако съм го сбъркал ще го поправя, е P1-QS. Тоест, по разлика функция има този удобен вид. Как се пресмята по разлика функция? Ами това е N от 0 до безкрайност, S на N-та, по вероятността ХХ да е равна на N. Е, ама ние тия неща, тук и що ги пресметнахме. твърдение, S на N-та, това е Q на N-та по 5,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)."
+      },
+      {
+        "type": "text",
+        "text": "Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = q^k p,"
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "k=0"
+      },
+      {
+        "type": "equation",
+        "latex": "\\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0)=\\mathbb{P}(X_1=1)=p"
+      },
+      {
+        "type": "equation",
+        "latex": "k \\ge 1"
+      },
+      {
+        "type": "equation",
+        "latex": "\\{X=k\\} = \\{X_1=0; \\dots, X_k=0, X_{k+1}=1\\}"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\mathbb{P}(X_1=0; X_2=0; \\dots, X_k=0; X_{k+1}=1)"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\mathbb{P}(X_1=0) \\mathbb{P}(X_2=0) \\dots \\mathbb{P}(X_k=0) \\mathbb{P}(X_{k+1}=1)"
+      },
+      {
+        "type": "equation",
+        "latex": "= q^k p."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p).",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = q^k p,",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k=0",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0)=\\mathbb{P}(X_1=1)=p",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0)=\\mathbb{P}(X_1=1)=p\n~~~^"
+        },
+        {
+          "latex": "k \\ge 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\{X=k\\} = \\{X_1=0; \\dots, X_k=0, X_{k+1}=1\\}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\{X=k\\} = \\{X_1=0; \\dots, X_k=0, X_{k+1}=1\\}\n~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\mathbb{P}(X_1=0; X_2=0; \\dots, X_k=0; X_{k+1}=1)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\mathbb{P}(X_1=0) \\mathbb{P}(X_2=0) \\dots \\mathbb{P}(X_k=0) \\mathbb{P}(X_{k+1}=1)",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= \\mathbb{P}(X_1=0) \\mathbb{P}(X_2=0) \\dots \\mathbb{P}(X_k=0) \\mathbb{P}(X_{k+1}=1)\n^"
+        },
+        {
+          "latex": "= q^k p.",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4305.0,
+    "image": "board_045.png",
+    "speech": "ето го тук. Замескам го в снеговото равно, което е равен на 5 по сумата N от 0 до безкрайност, Q по S и степен N, което от формулата за геометрична прогресия е 5 във единица минус Q по S, което трябваше да се докажа. Е така ще мога да отбелязвам крайне доказателството. т.е. вижте, ние в момент изведохме пораждаща функция и моментално можеш да направим следното следствие. Нека ХХ е геометрична с вероятност 5, тогава очакването на ХХ е 5 във Q, а диспенсията на ХХ сега кубър ще е 5 квадрат върху кули, ще бъде или Q квадрат по-скоро, най- Q квадрат по-5 квадрат. А, но тук е Q квадрат по-5. Не може да... И сега, ако човек иска да смята очакване, трябва да работи с някакви такива редове, ама на вас не ги трябва, защото имате поражда функции. И сега отново ще виждате, видите, ползата от пораждащите функции. Ако иска да пресметна очакването и дисперсията, ще ми трябва производната в единицата. Първата производна в единицата и втората производна в единицата. е първата производна. Не е много трудно да се сметне. Това е P по Q върху 1 минус QS на квадрат. А втората производна е равна на 2 пъти P Q квадрат. Минусите ще бъде минус 2, са още един минус. 1 минус QS на пред. Е сега, ще положим S равно на 1 и ще си пресметнем производните в точката 1. Вижте как аналитично ние стигаме до средното и дисперсията, очакването и дисперсията, без кой не знае какви аргументи с вързани с вариатностата структура. Това е P по Q върху 1 минус Q на квадрат. Но това е точно P, защото 1 минус Q е P.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв: Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      },
+      {
+        "type": "text",
+        "text": ". Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\frac{p}{1-qs}"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) \\overset{\\text{Тв}}{=} \\sum_{n=0}^{\\infty} s^n q^n p = p \\sum_{n=0}^{\\infty} (qs)^n"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\frac{p}{1-qs}"
+      },
+      {
+        "type": "text",
+        "text": "#"
+      },
+      {
+        "type": "text",
+        "text": "Сл: Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      },
+      {
+        "type": "text",
+        "text": ". Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{q}{p}"
+      },
+      {
+        "type": "text",
+        "text": ","
+      },
+      {
+        "type": "equation",
+        "latex": "DX = \\frac{q}{p^2}"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\frac{p}{1-qs}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) \\overset{\\text{Тв}}{=} \\sum_{n=0}^{\\infty} s^n q^n p = p \\sum_{n=0}^{\\infty} (qs)^n",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\frac{p}{1-qs}",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n\n^"
+        },
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\frac{q}{p}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "DX = \\frac{q}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4434.0,
+    "image": "board_046.png",
+    "speech": "защото 1 минус Q е P. Значи това е Q върху P. И това е точно очакването. Втората производна в точката 1 е 2P Q квадрат върху P на трета. защото 1 минус Q на трета е P на трета, което е 2П Q квадрат P квадрат. И Completo Completo И Completo че дисперсията е 2 пати Q2 върху P2 плюс Q2 минус Q2 върху P2 това е втората производна, първата производна минус първата производна на квадрат, това се съкръщава и се получава Q2 1 плюс Q2 което е Q2 защото P плюс Q е 1 и става P плюс Q2 е 1 върху P и вижте колко лесно се пресмята и съответната дисперсия. Чисто аналитична сметка на базата на поражаща функция, която имаме. Само да видя, да не съм пропуснал някой пример. Сега, ако, само да ще кажа чисто схематично, ако искате да пресметнете очакването чрез неговата дефиниция, трябваше да пресметнете този ред. Аз не казвам, че това е трудно, но със сигурност изиска някаква съобразителност. Ако искате пресметнете с този ред, разбира се, че няма да стигнете го нещо по-различно, от което аз съм ви дал, но ще видите, че тук все пак ще трябва да проявите някаква съобразителност, защото трябва да пресметнете един такъв степенен ред, който, освен че има степени, има и н по степента. То не случайно е свързано с производна, защото една производна по ку ще ви свали един такъв такова н, но че трябва да прояви съобразителност. Тукът тук, иначе, вие можете директно, аналитично да си намерите очакването и диспенсите,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "g'_X(1) = \\frac{pq}{(1-q)^2} = \\frac{q}{p} = \\mathbb{E}X"
+      },
+      {
+        "type": "equation",
+        "latex": "g''_X(1) = \\frac{2pq^2}{p^3} = \\frac{2q^2}{p^2} \\Rightarrow DX = \\frac{2q^2}{p^2} + \\frac{q}{p} - \\frac{q^2}{p^2}"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\frac{q}{p}\\left(1 + \\frac{q}{p}\\right) = \\frac{q}{p^2}"
+      },
+      {
+        "type": "text",
+        "text": "Сл:"
+      },
+      {
+        "type": "text",
+        "text": "Нека"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      },
+      {
+        "type": "text",
+        "text": ". Тогава"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{q}{p}, DX = \\frac{q}{p^2}"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "g'_X(s) = \\frac{p \\cdot q}{(1-qs)^2} ;"
+      },
+      {
+        "type": "equation",
+        "latex": "g''_X(s) = \\frac{2pq^2}{(1-qs)^3}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "g'_X(1) = \\frac{pq}{(1-q)^2} = \\frac{q}{p} = \\mathbb{E}X",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g''_X(1) = \\frac{2pq^2}{p^3} = \\frac{2q^2}{p^2} \\Rightarrow DX = \\frac{2q^2}{p^2} + \\frac{q}{p} - \\frac{q^2}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\frac{q}{p}\\left(1 + \\frac{q}{p}\\right) = \\frac{q}{p^2}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= \\frac{q}{p}\\left(1 + \\frac{q}{p}\\right) = \\frac{q}{p^2}\n^"
+        },
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\frac{q}{p}, DX = \\frac{q}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g'_X(s) = \\frac{p \\cdot q}{(1-qs)^2} ;",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\frac{p \\cdot q}{(1-qs)^2} ;\n~~~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "g''_X(s) = \\frac{2pq^2}{(1-qs)^3}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4599.0,
+    "image": "board_047.png",
+    "speech": "очакването и диспенсите, да видите тяхното право. Така. Сега, и тук следва така друго важно и интересно свойство, свързано с геометричето разпределение, но при това ще дам няколко примера какво то означава. Освен броя незаразени хора до първия заразен, чисто схематично геометричето разпределение брои броя е зита или броя тури до първо падане на на ези. Тоест, хвърляте монета, броите колко пъти ще се падне тура преди да се падне ези. Това ще бъде геометрично с една втора. И веднага може да си пресметните, че очакването на х, броя на тури до първо ези е една втора върху една втора. Това ви е п, това ви е ку, те са, да кажем, честна монета е точно единица. Тоест, средно, ще смявате, ще отвърляте един път тура до падане на ези. Ако имате, да кажем, заразените, които са създорият от 0,05, ще имате 0,95 върху 0,05. Това ще ви е средния брой заразени, незаразени, до първият заразен човек. Това с няма да го пресмятам,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{0,95}{0,05}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E}X = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\frac{0,95}{0,05}",
+          "sympy_status": "unparsed",
+          "detail": "I expected one of these: '}'\n\\frac{0,95}{0,05}\n~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4602.0,
+    "image": "board_048.png",
+    "speech": "Това с няма да го пресмятам, вие можете числено да си го направите. Не е това целта на този курс, да ги смятам, 95 върху 5, което, разбира се, е 19. това си имате 19 незаразени средни, до първия заразен. Друг пример, например, е баскетболист, който стреля към коша, той може да не го прави последователно, но да кажем, че ни мората не играе, няма значение, да кажем, един добър стрелец от зоната за наказателния удар, да кажем, вкарва злориатност 0,90 в коша и той по време на играта хвърля много пъти, когато бива фаулиран",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{0,95}{0,05}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E}X = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\frac{0,95}{0,05}",
+          "sympy_status": "unparsed",
+          "detail": "I expected one of these: '}'\n\\frac{0,95}{0,05}\n~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4695.0,
+    "image": "board_049.png",
+    "speech": "когато бива фаулиран и примерно тук може на успех да броите вкаран кош, това нас не ви пречи успех на успех, да е нещо положително да отрицателно. Времете до първия пропуск, броя вкарани кошове до първия пропуск е геометрично с злориатност 0,9. Защо? Защото той вкарва да се съсознавам с 0,10, ето я се обвъртвам, защото с 10% той не успява да вкара и това се брои за успех, а с 90% успява да вкара и това се брои за неуспех. Така че броя вкарани кошове до първия неуспех е геометрично. И виждате, че този тип случайното речени, ако не изцяло да съвпада с някаква реална случка, много реален модел, да да кажем, стрелба към коша в частност, то е много добро приближение на някакъв от тези неща, които ние наблюдаваме светъл около нас. Също важи, за съжаление, и за катастрофи. Сега, вярвам, че различни участъци имат различна интензивност, но да кажем, че магистралата е грубо казана на еднаква на товара на президента. И ние, ако са идете на един участък и гледате за минават някакви кули, и върхуста някакво да му падне гумата или нещо да се случи, е геометричен. Тоест, броя кули, които няма нищо да се случи до първата авария, ще е грубо казано геометричен, или ще е добро приближение, добро начало за един модел, който може да използва. Защо геометричното има своята роля? Защото притежава едно много хубаво свойство, което се нарича безпаметност. То се дължи на следното твърдение. А че кухиг се геометрично, то вероятността х да е по-голямо или равен, тоест броя на неуспехи да е повече от n плюс k, при положение, че ние знаем, че е повече от k,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{0,95}{0,05} = 19"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{E}X = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\frac{0,95}{0,05} = 19",
+          "sympy_status": "unparsed",
+          "detail": "I expected one of these: '}'\n\\mathbb{E}X = \\frac{0,95}{0,05} = 19\n~~~~~~~~~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4839.0,
+    "image": "board_050.png",
+    "speech": "че е повече от k, е вероятността х да е по-голямо или равен на n и това е вярно за всяко от n по-голямо от 0 и всяко от k по-голямо или равен на 0. Това свойство се наричат безпаметност. Или на английски memoryless. Какво ви казвам? Представете си, че след малко ще дам други интерпретации, че имате процесор, който е работил k на брой дни и вие сте го видели, че той е работил k на брой дни. каква е вероятността процесора да работи още m дни при положение, че е работил вече k дни. Ами, оказа се, че това е вероятността, ако чисто нов не е работил k дена, ами чисто нов го сложите в този момент и вероятността да работи m дни. Тоест това, че той е работил k дни, не променя неговата вероятност да оцелега още m дни. Това е, седможно, той е нов и е поставен на много и той работи следващи k дни. Това е безпаметност и за такива части някой път това се чита за добро разпределение, защото живота те не устаряват толкова бързо. Око един процесор, поне така съм чел в книгите, така съм обяснявани, ако един процесор работи 10 дена, това не променя съществено в живота или ако работи 5 месеца. Това дали ще го сложите чисто нов или ще работи от 5 месеца и ще ги се поставяте чисто нов с такъв, който работи от 5 месеца, това няма голяма разлика в неговия живот. При хората не е така. В Completността някой да живее повече от 50 години е съвсем различна някой да живее повече от 80 години ако вече е приживел извинам се повече от 50 години повече от 80 години, ако вече е живял повече от 30. Защото човешкия живот не е така. Едно е да си новороден от бебе, тогава е вредността да преживееш 50 години, поне, да кажем М равно на 50, е различно от това, поне на 30 години да си жив още 50. Така че за човешкия живот това не е, но за неща, които се наричат мемори, те са забравили какво се е случило. Забравили са, че са живели години и, казвате, тази върятност не е зависи от К. Доказателство всъщност е радикално просто на този факт. И него ще го направим",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p)"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X \\geq m+k \\mid X \\geq k) = \\mathbb{P}(X \\geq m)"
+      },
+      {
+        "type": "text",
+        "text": "(безпаметност)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\forall m \\geq 0"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "\\forall k \\geq 0"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "text",
+        "text": "memoryless"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X \\geq m+k \\mid X \\geq k) = \\mathbb{P}(X \\geq m)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\forall m \\geq 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\forall k \\geq 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 4998.0,
+    "image": "board_051.png",
+    "speech": "И него ще го направим последния начин. Значи върятността х да е по-голямо или равно на Н плюс К, при положение х да е по-голямо или равно на К, по дефиницията за условна върятност е да, да е, но ето това събитие е по-голямо от това събитие, така че сечението на това и това е просто това. Това няма нищо общо с геометричното. това е по принцип е вярно за всяка случайна величина, но се оказва, че това е К на Н плюс К, а това е К на К. И това е равен на К на Н, което се оказва точно върятността х да е по-голямо или равно на Н. Сега, защо следва така? Ами вижте върятността х да е по-голямо или равно на Н. Това се сбъдва последния начин. Това означава, че трябва да имате поне Н неуспех. Това е върятността. х е дно от схемата на Бермули да е 0, х М да е 0, пак след това да става каквото ще, защото вие знаете, че броя на неуспехи е поне Н. Е това не е нищо друго, таку на Н. защото имате Н неуспех. Ето. Гаде имате повече от Н неуспех, означава, че първите Н експеримента са завършени на успех, па после не ви интересува какво се е случило. Това е К на Н плюс К, ето го тук. К на К, К на Н е точно ето това. Само угарирайки Н. И виждате, че ето това се нарича свойството безпамятност, че информацията, че сте живеели К дни, не ви промени върхуста да живеете още Н дни. Плюс тези К.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Ge(p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\mathbb{P}(X \\ge m)"
+      },
+      {
+        "type": "text",
+        "text": "(беспаметност)"
+      },
+      {
+        "type": "text",
+        "text": "memoryless"
+      },
+      {
+        "type": "equation",
+        "latex": "\\forall m \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "\\forall k \\ge 0."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\frac{\\mathbb{P}(X \\ge m+k, X \\ge k)}{\\mathbb{P}(X \\ge k)}"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\frac{\\mathbb{P}(X \\ge m+k)}{\\mathbb{P}(X \\ge k)} = \\frac{q^{m+k}}{q^k} = q^m = \\mathbb{P}(X \\ge m)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X \\ge m) = \\mathbb{P}(X_1=0, \\dots, X_m=0) = q^m"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Ge(p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\mathbb{P}(X \\ge m)",
+          "sympy_status": "ok",
+          "detail": "identity holds"
+        },
+        {
+          "latex": "\\forall m \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\forall k \\ge 0.",
+          "sympy_status": "unparsed",
+          "detail": "I expected one of these: <INVALID>\n\\forall k \\ge 0.\n~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\frac{\\mathbb{P}(X \\ge m+k, X \\ge k)}{\\mathbb{P}(X \\ge k)}",
+          "sympy_status": "unparsed",
+          "detail": "I expected one of these: '}'\n\\frac{\\mathbb{P}(X \\ge m+k, X \\ge k)}{\\mathbb{P}(X \\ge k)}\n~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "= \\frac{\\mathbb{P}(X \\ge m+k)}{\\mathbb{P}(X \\ge k)} = \\frac{q^{m+k}}{q^k} = q^m = \\mathbb{P}(X \\ge m)",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= \\frac{\\mathbb{P}(X \\ge m+k)}{\\mathbb{P}(X \\ge k)} = \\frac{q^{m+k}}{q^k} = q^m = \\mathbb{P}(X \\ge m)\n^"
+        },
+        {
+          "latex": "\\mathbb{P}(X \\ge m) = \\mathbb{P}(X_1=0, \\dots, X_m=0) = q^m",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5058.0,
+    "image": "board_052.png",
+    "speech": "Плюс тези К. Сега, това нещо, как се съотнася с игрите на рулетка? Ако някой от вас е чел, играч на рулетка на Постоевски, ще забелязва, че там хората са записвали къдните втерчета, колко пъти са се падали черно, червено, всякакви компоненти от играта на рулетка. или да искате колко пъти се е падало ези, преди да се падне тура да кажем. Колко път се е падало ези, до тук. Гледали са там, десет върлини, следи, че ези се е падало, или че червено число се е падало. И са опитвали на базата на тази информация, на тази предистория на играта, да направят някаква прогноза за следващото. Да да имат тези игри, са memoryless, те имат геометрична структура. и какво се е случило преди, няма никакво значение за бъдещето. Затова, например, ако влезнете, да кажем, в една игрална зала, или наблюдавате, идвате така, някой хвърля ези, тура, просто за удоволствие, и вие идвате малко по-късно, и някой ви каза, а, чакай, чакай, тука се е падало поне три пъти тура,",
+    "board_items": [],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 5127.0,
+    "image": "board_053.png",
+    "speech": "три пъти тура, от това аз наблюдавам. Как това променя върятността да се пада от пет пъти, още два пъти тура, поне още два пъти да се е падало тура. Или ако се е падало от тука три пъти черно, каква е вър Completността още два пъти да се е падало черно. Тоест, каква е Completността х, която е Completността х, Completност Completност слов или броя ТОРИ до първо ези, каква е тази вероятността? Как зависи от информацията, като някой ни е дал, че три пъти подред се е паднал черно или ТОРА. Е, ни оказа се, че това не носи никаква информация и това е вероятността ние да влезнем, да не говорим с никой, да не получим тази предходна информация и да видим два пъти подред черно или два пъти по ред ТОРА. Т.е. ако ви имате парички за три залога или за два, изпитате каква е вероятността аз да се залагам на червено, каква е вероятността поне два пъти да се е паднал черно, тоя сега да си загуба парите. Това, че някой ви е дал някаква информация и три пъти се е паднал черно и вие ще кажа, ама ама каква е вероятността още два пъти да се падне, тоест поне пет пъти, ама то не се променят. И Completo никой да не ви беше давал никаква информация и вие да влезнете и два пъти да се падне черно или да се падне ТОРА. Тоест информацията за историята няма никакво значение към бъдещето. Това е валидно и за 6 от 49. Може да гледате какво се е паднало като числа предишните пърки. Няма никакво значение. Това е именно заради свойството безпаметност или на английски memoryless. И то е присъщо само за геометрично поразпределение, когато става дума за дискретни случайни величини и за експоненциалното, когато става дума за непрекъснати. В този смисъл това са много хубави случайни величини, защото описват едно такова свойство, че информацията от миналото не ни носи нищо. Тоест, когато видят ли, че 10 пъти се пада не успех в данен експеримент, това не ви проведе понищо, падането не успех на 11-я, 12-я и така натапевти пъти. И последното разпределение, когато ще се разглеждаме в рамките на схема на Бернули е отрицателно биномно. Това ще бъде фикс отрицателно биномно, негатив биномия на английски,",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X \\geq 5 \\mid X \\geq 3)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "\\mathbb{P}(X \\geq 5 \\mid X \\geq 3)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5364.0,
+    "image": "board_054.png",
+    "speech": "негатив биномия на английски, с параметри R и P. R е целочислен. Парсар е по-грамно и равна на 1. Това се разбива в схема на Бернули и се дефинира формално, последния начин. Това е най-малкото N, при което са постигнати R на брой успеха, като се извади R. Т.е. геометричното е негативно биномно с 1 и 5. Този списъл, негативно биномно с 1 и 5, е равно на геометрично с 5. ето го това. Какво означава това? Броите броя на успехи до R-ти успех. Т.е. вие не се интересувате колко пъти сте хвърлили и Тора до 1 ези, а колко пъти сте хвърлили и Тора общо до R-то на брой ези. Казано в контекста на иммигрантите, които се завръщат заради COVID-2, ако кажете добре би нашата здравна система така и че 2 дияни, ако земата дойдат още 100 болни, тук ще рухнем, той имаше такива опасения. И сега вие се питате, възме ви интересува броя хора до първи заразен. Вие с един заразен ще се справите. Обаче вие заинтересува колко хора средно ще влезнат преди вие да имате R на брой или 100 или 200 на брой заразени. И тогава вие ще видите отрицателно биномно. И вие ще трябва да може да си оцените аха, като забережат, че са влезнали там вече 100, 2000, 2000, 5000 души, да може вече и към 100 да успеха да има, т.е. 100 заразени да има. Защото, плейте, какви си причини, моделирайки с отрицателно биномно разпределение. Защото вие не се интересувате до първи заразени, ами да кажем до стопния заразени. И примерно, като влезат 1000 души, вие вдиглят алармат и кажете, между тези 1000 души, е влезатно да има коне 100 заразени. И тук тази система може да не издарзи, защото тя има един план, пак изначени да хубват много хора, които също искат грижи от нея. Какво е важно? Това е брой, чисто схематично, хикс. Може да се запишем, като сумата, като YG са неизвисими са вкутност геометрични. Тоест YG е геометричност P. Аз това няма да го доказвам, миналото година съм го доказвам, но няма да губа време за това. Това е лесен факт. Какво се случва? Ето това са диня успехите, до първи успех. Това е вие да кажем Y1. След това имате по-малко, да кажем Y2. Броя на успех е до втори успех. Тука може да имате 0. Y3 да е равен 0. Директно пак успех. И така нататък",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Г. Отрицателно биномно -"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r, p)"
+      },
+      {
+        "type": "equation",
+        "latex": "r \\ge 1"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\min\\{n \\ge 1: \\sum_{j=1}^{n} X_j = r\\} - r"
+      },
+      {
+        "type": "equation",
+        "latex": "(NB(1, p) = Ge(p))"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim NB(r, p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "r \\ge 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X = \\min\\{n \\ge 1: \\sum_{j=1}^{n} X_j = r\\} - r",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "(NB(1, p) = Ge(p))",
+          "sympy_status": "unparsed",
+          "detail": "missing ')' at '<EOF>'\n(NB(1, p)\n~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5505.0,
+    "image": "board_055.png",
+    "speech": "И така нататък до R-тия на брой успех. Та е YR. Тоест хикс, бидейки броя нулички, тук няма нищо, до R на брой единици, е сумата на геометричния. това е геометрично, броя 0 до 1 успех, след това експеримента започва на 0, на ново, броя 0 до 2 успех, y2 има същото разпределение, като y1, защото то е геометрично, броя успехи до 1 успех, броя успехи до 1 успех, броя успехи до 1 успех. И виждате, че х е сума на независими в съвкупност геометрични случайни величини. И често пъть тази структура се пропуска и хората, така да се кажем, не я осъзнават и работят трудно с отрицателно биномо, защото пропускат именно тази структура. Виж колко е важно да имате конкретна структура, която се асоции раздаден модел. Ако имате такава структура, обиквенно се работи по-лесно. Моментално трябва да ни светне лампичката за следното. Що имаме сума на независими еднакво разпределени случайни величини, ние ще пресметнем много лесно по различно функция на х. И това ще направим в момента. Защото ние знаем по различно функция на геометричност.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Г. Отрицателно биномно -"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r, p)"
+      },
+      {
+        "type": "equation",
+        "latex": "r \\ge 1"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\min \\{ n \\ge 1 : \\sum_{j=1}^n X_j = r \\} - r"
+      },
+      {
+        "type": "equation",
+        "latex": "(NB(1, p) = Ge(p))"
+      },
+      {
+        "type": "equation",
+        "latex": "X = \\sum_{j=1}^r Y_j ,"
+      },
+      {
+        "type": "equation",
+        "latex": "(Y_j)_{j=1}^r"
+      },
+      {
+        "type": "text",
+        "text": "са независими в съвкупност"
+      },
+      {
+        "type": "equation",
+        "latex": "Y_j \\sim Ge(p)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\underbrace{0\\ 0\\ 0}_{Y_1} 1 \\underbrace{0\\ 0}_{Y_2} \\underbrace{\\not{0}}_{Y_3=0} \\dots \\underbrace{0\\ 0 \\dots}_{Y_r} 1"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim NB(r, p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "r \\ge 1",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X = \\min \\{ n \\ge 1 : \\sum_{j=1}^n X_j = r \\} - r",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "(NB(1, p) = Ge(p))",
+          "sympy_status": "unparsed",
+          "detail": "missing ')' at '<EOF>'\n(NB(1, p)\n~~~~~~~~~^"
+        },
+        {
+          "latex": "X = \\sum_{j=1}^r Y_j ,",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "(Y_j)_{j=1}^r",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "Y_j \\sim Ge(p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\underbrace{0\\ 0\\ 0}_{Y_1} 1 \\underbrace{0\\ 0}_{Y_2} \\underbrace{\\not{0}}_{Y_3=0} \\dots \\underbrace{0\\ 0 \\dots}_{Y_r} 1",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\underbrace{0\\ 0\\ 0}_{Y_1} 1 \\underbrace{0\\ 0}_{Y_2} \\underbrace{\\not{0}}_{Y_3\n~~~~~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5550.0,
+    "image": "board_056.png",
+    "speech": "Х е негативно биномно с R и P, то нищо повече от това. Това е R пъти произведението на геометричното. Аз няма и да го доказвам. Геометричната е P върху едно минус Q на S, а това е вдигнато на степен R, защото х е сума на R на брой независими геометрични разпределени. х е негативно биномно с R и P. То очакването на х не е нищо друго от R ку върху P. дисперсията на х е R ку върху P квадрат, ако не е лъже.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r, p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim NB(r, p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r.",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5610.0,
+    "image": "board_057.png",
+    "speech": "Паметата трябва да е тъд, има тази динейност, разбира се. И върху вероятността х да е равна на K не е нищо друго от R плюс K без едно га по K P на R-та и на K-та. Тоест, ние можем да пресметнем очакването, дисперсията и съответните вероятност. Сега, аз очакването ще го пресметна директно от сумата, защото аз мога да използвам пораждаща функция, но искам да ви покажем друг начин, който също е валиден. Знаем, че очакването е линейно. Ема това всичкото е R пъти по Q върху P. Защото всяко едно от тези очаквания е Q върху P. Дисперсията е същото,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Т1:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r,p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r."
+      },
+      {
+        "type": "text",
+        "text": "Сл:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r,p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{rq}{p}, DX = \\frac{rq}{p^2}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim NB(r,p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r.",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "X \\sim NB(r,p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\frac{rq}{p}, DX = \\frac{rq}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5673.0,
+    "image": "board_058.png",
+    "speech": "Дисперсията е същото, и тук е важно, че те са независими, защото иначе нямаше да е гярно. това е R пъти по дисперсията на Y към е дно, защото имат едно и същото разпределение, все геометрично, или R пъти P върху Q върху. Добре, ще кажете, да, тук истина не ни трябваше пораждаща функция, макар че тя е много универсален инструмент, имаме свойства за очакването и за дисперсията, когато имаме суми от независими, случайни величини. Ето сега, обаче, за това нещо, което вие можете и чисто комбинаторно да изведете, може да го направите с пораждаща функция. И да видите там къл как всичко е въпрос на сметки. От твърдение, знаете, че K факториел по великостта Х да е равен к, не е нищо друго от твърдение от производната, катата производна в 0-та. Е добре, каква е катата производна в 0-та? Значи това е dbxk",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Т1:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r, p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r"
+      },
+      {
+        "type": "text",
+        "text": "Сл:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r, p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = r\\frac{q}{p},"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{D}X = r\\frac{q}{p^2}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\mathbb{E} \\sum_{j=1}^r Y_j = \\sum_{j=1}^r \\mathbb{E}Y_j = r \\frac{q}{p} ;"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{D}X = \\mathbb{D} \\sum_{j=1}^r Y_j = r \\mathbb{D}Y_1 = r \\frac{q}{p^2}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim NB(r, p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "X \\sim NB(r, p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = r\\frac{q}{p},",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{D}X = r\\frac{q}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\mathbb{E} \\sum_{j=1}^r Y_j = \\sum_{j=1}^r \\mathbb{E}Y_j = r \\frac{q}{p} ;",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\mathbb{E}X = \\mathbb{E} \\sum_{j=1}^r Y_j = \\sum_{j=1}^r \\mathbb{E}Y_j = r \\frac{q}{p} ;\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        },
+        {
+          "latex": "\\mathbb{D}X = \\mathbb{D} \\sum_{j=1}^r Y_j = r \\mathbb{D}Y_1 = r \\frac{q}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5733.0,
+    "image": "board_059.png",
+    "speech": "dbxk bsk p на r-та върху 1-u s е r-та. Е добре, p на r-та е константа, тя не зависи от s. Имате db s k 1-u s разбира се, това е при s равна на 0. Мастерно трябва да направя производната, разбира се. Е, какво и са производните по, като вземете k производни, ами това е, имате следната схема. Този минус ще се компенсира от минус r и всички последващи. Значи имате r по r-1 по r-1",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Т1:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r,p)"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r"
+      },
+      {
+        "type": "text",
+        "text": "Сл:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r,p)"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{E}X = \\frac{rq}{p}, DX = \\frac{rq}{p^2}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0,"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) \\overset{\\text{T1}}{=} g_X^{(k)}(0) = \\left. \\frac{d^k}{ds^k} \\frac{p^r}{(1-qs)^r} \\right|_{s=0}"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\left. p^r \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} \\right|_{s=0}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim NB(r,p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "X \\sim NB(r,p)",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{E}X = \\frac{rq}{p}, DX = \\frac{rq}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0,",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k! \\mathbb{P}(X=k) \\overset{\\text{T1}}{=} g_X^{(k)}(0) = \\left. \\frac{d^k}{ds^k} \\frac{p^r}{(1-qs)^r} \\right|_{s=0}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= \\left. p^r \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} \\right|_{s=0}",
+          "sympy_status": "unparsed",
+          "detail": "I expected something else here\n= \\left. p^r \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} \\right|_{s=0}\n^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5763.0,
+    "image": "board_060.png",
+    "speech": "по r-1 минус k като не се лъжа, плюс k-1, извиняем се. и ще имам k. всеки път при всяка една производна по s тук ще пада по едно k имам k на брой k които ще пада при всяка производна и ще остане 1 минус k по s на степен a плюс k ема s ако е равен на 0 е това е точно единица. Защото s е равен на 0 това изчезва едно бърху едно на като да е степен единица. И какво получихме? Чисто формално, просто взимайки производни без никаква комбинаторика, че k върху върху върху х да е равен на k не е нищо друго от r минус k без 1 по r по p на r по k е откъдето следва че върху х е равен на k е равен на r плюс k без 1 по r върху",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Тв 1:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r, p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim NB(r,p),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "EX = \\frac{rq}{p}, DX = \\frac{rq}{p^2}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0"
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) \\stackrel{\\text{тв}}{=} g_X^{(k)}(0) = \\left. \\frac{d^k}{ds^k} \\frac{p^r}{(1-qs)^r} \\right|_{s=0}"
+      },
+      {
+        "type": "equation",
+        "latex": "= p^r \\left. \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} \\right|_{s=0} = p^r \\cdot r(r+1) \\dots (r+k-1)"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim NB(r, p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "X \\sim NB(r,p),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "EX = \\frac{rq}{p}, DX = \\frac{rq}{p^2}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "k! \\mathbb{P}(X=k) \\stackrel{\\text{тв}}{=} g_X^{(k)}(0) = \\left. \\frac{d^k}{ds^k} \\frac{p^r}{(1-qs)^r} \\right|_{s=0}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "= p^r \\left. \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} \\right|_{s=0} = p^r \\cdot r(r+1) \\dots (r+k-1)",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n= p^r \\left. \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} \\right|_{s=0} = p^r \\cdot r(r+1) \\dots (r+k-1)\n^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5880.0,
+    "image": "board_061.png",
+    "speech": "върху k п на r к което лесно се вижма, r плюс k без едно върху k p на r ма к виште без никакви комбинаторни разсъждение. Нуа. И това нещо излиза съвсем директно. Само чрез поразващите функции и производните. Тоест комбинаторните аргументи са сведени чрез тази трансформация към аналитични аргументи. Това е ясно ви, че нам за много от вас това няма да е централно място във вашата образование, но вие трябва да имате някакво мислене. Просто дори това да е по-скоро като екзотично знание за вас, все пак трябва да може да мислите формално и логически. Някой от вас по-голямата част няма да го използват. Единици, които напреднат повече имат интерес към по-математизирани хомове, ще попаднат на такива неща, евентуални или някакви аргументи, които трябва да приложат. Но пак, повтарям, за да не стане недоразумение, взимането на изпита не",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = (r+k-1) \\dots r p^r q^k"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\frac{(r+k-1) \\dots r}{k!} p^r q^k = \\binom{r+k-1}{k} p^r q^k."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "k! \\mathbb{P}(X=k) = (r+k-1) \\dots r p^r q^k",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\frac{(r+k-1) \\dots r}{k!} p^r q^k = \\binom{r+k-1}{k} p^r q^k.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5889.0,
+    "image": "board_062.png",
+    "speech": "недоразумение, взимането на изпита не изисква са шестица, ако искате. разбира се, това някой от тия неща да владеете, но самото взимане на изпита, ако нямате",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = (r+k-1) \\dots r p^r q^k"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\frac{(r+k-1) \\dots r}{k!} p^r q^k = \\binom{r+k-1}{k} p^r q^k."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "k! \\mathbb{P}(X=k) = (r+k-1) \\dots r p^r q^k",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\frac{(r+k-1) \\dots r}{k!} p^r q^k = \\binom{r+k-1}{k} p^r q^k.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 5892.0,
+    "image": "board_063.png",
+    "speech": "но самото взимане на изпита, ако нямате високи амбиции, не изиска да минете абсолютно всичко. Но трябва да разбирате базата. Повтарям, заото някой после идва и казва, много е трудно, ама аз искам тройка. Еме, като искате тройка, учете за тройка, научете основните неща, сега не е дужно да правите тези производни и да ги разбирате. На мен не е това целтъпсва. Това е все пак някаква интуиция да се развие във вас и имате някаква грамотност. А кой вече иска по-високи оценки, има амбиции, той вече трябва да положи повече труд. Така, сега вече нямам схема на Бермули, а имам поасонно го разпределение. Тук вече няма да имаме схема на Бермули, а ще имаме хексепоасонно с параметър ламба, където ламба е положително число. Пуасонното разпределение също е много важно, но то се задава вече не чрез някаква структура, а чрез своите въориятности. До тук задавахме случайните величини с схема на Бермули, първи заразен, брой заразени. Тук не го задаваме така. Пуасонната случайна величина ще се зададе чрез последния начин. Хекс е пуасонова с ламба. Ако по ръкността хекс да е равна на К, да е равна на ламба К, ако К фартуя е на минус ламба, за К по-дограмни, да е равна на ламба. Докато преди задавахме с конкретна структура, тук задаваме с конкретни вероятности случайната величина. Не взимаме брой успехи, бройни успехи, или каквото искате, а взимаме техни терориятности. и така задаваме пуасонната с параметъра ламба. ще кажете добре, зато не взимаше много ясни причини, поради които ние ги вземахме тези случайни величини. Брои на успехи, неуспехи до първи успехи, каквото искат. Тук защо го взимаме? Искам да видя до къде ще успея да стигна. Взимаме, защото се оказа, че пуасонното разпределение е много добре в различни случаи на моделиране. Например, брой катастрофи. Добре се моделира с пуасонното. Брой голове в матч. Не мога да кажа, че е много добре, но е добър старт да се моделира с пуасонното. Брой звезди в еднак участък от небето, той разбира се е детерминистичен, и не може да ги видим всичките, а и, вероятно, никога, защото се расширява селената, може да се моделира с пуасонно.",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "k! \\mathbb{P}(X=k) = (r+k-1) \\dots r p^r q^k"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\frac{(r+k-1) \\dots r}{k!} p^r q^k = \\binom{r+k-1}{k} p^r q^k ."
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "k! \\mathbb{P}(X=k) = (r+k-1) \\dots r p^r q^k",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\frac{(r+k-1) \\dots r}{k!} p^r q^k = \\binom{r+k-1}{k} p^r q^k .",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 6198.0,
+    "image": "board_064.png",
+    "speech": "може да се моделира с пуасонно. Брой пристигнали клиенти за единица време, също може да се моделира с пуасонно. Въобще това е едно от най-универсалните разпределения. И самият факт, че имат тези вероятности, следва от... Вистина, не е така очевидно, както при другите, но се оказа, че за много конкретни модели, пуасонното разпределение с тези сигурятности е добра случайна величина, пято ни върши. Работа ние ще видим, че тя е приближение на пуасонно. също на биномни разпределения. Разбира се, логиката, че излиза пуасонно, има тънка логика зад така наречените процеси са стационарни, независими нарастания, но това е отвъд този курс. Така, че това не е чак толкова мистериозно, но не е за първи курс. Човек не може да разбере от къде е. Първото нещо, което трябва да се убедим, че това нещо в крайна сметка наистина се сумира до 1x, защото ние сме задали някакви числа. И аз не знам дали това нещо е равно на едно. Това дава ли? Вероятно, са разпределени се някакви числа, които се сумират до различни стоници. Е, сега, това тук вече не е необходимо да го знаете наизус, но това е развитието от Фред на Тейлор, не е на степен ламда, така че това е е на минус ламда по е на ламда е равно на единица. Т.е. това са сумируемите в развитието на ред на Тейлор и то ни дава е на ламда по е на минус ламда е единица, т.е. е на поля. Така че това наистина дефинира вървието. Сега ще докажа част от нещата и ще продължим следващия път, защото тук има важни неща, които е по-добре да не ги прибързва. Но следвато твърдение не е особено трудно. А че кога х е по-асонова с ламда, то поражаща функция на х се призмята лесно. Това е е на ламда ес минус ламда. Следователно и очакването на х е равно на дисперсията на х е равно на ламда. Е, поражаща функция е доста лесно. ес на енда. Аз моментално ще заместя съответните гориятности. Да не ги преписам всеки път. Това е върхуста х да е равна на ен. Което е е на минус ламда. Сумата е на 0 до безкрайност. Ес ламда на степен ен върху ен върху ен Това е е на минус ламда кога ена ламда ес. Това е развитието пред на тейлър на ена ламда ес. и получавате този отбор.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Д."
+      },
+      {
+        "type": "text",
+        "text": "Поасоново разпределение"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Poi(\\lambda), \\lambda > 0."
+      },
+      {
+        "type": "text",
+        "text": "Деф.:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Poi(\\lambda),"
+      },
+      {
+        "type": "text",
+        "text": "ако"
+      },
+      {
+        "type": "equation",
+        "latex": "\\mathbb{P}(X=k) = \\frac{\\lambda^k}{k!} e^{-\\lambda} ; \\quad k \\ge 0."
+      },
+      {
+        "type": "equation",
+        "latex": "1 \\overset{?}{=} \\sum_{k=0}^{\\infty} \\mathbb{P}(X=k) = e^{-\\lambda} \\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!} = e^{-\\lambda} \\cdot e^{\\lambda} = 1"
+      },
+      {
+        "type": "text",
+        "text": "Тв.:"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Poi(\\lambda),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = e^{\\lambda s - \\lambda}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "EX = DX = \\lambda."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "X \\sim Poi(\\lambda), \\lambda > 0.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X \\sim Poi(\\lambda),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\mathbb{P}(X=k) = \\frac{\\lambda^k}{k!} e^{-\\lambda} ; \\quad k \\ge 0.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "1 \\overset{?}{=} \\sum_{k=0}^{\\infty} \\mathbb{P}(X=k) = e^{-\\lambda} \\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!} = e^{-\\lambda} \\cdot e^{\\lambda} = 1",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n1 \\overset{?}{=} \\sum_{k=0}^{\\infty} \\mathbb{P}(X=k) = e^{-\\lambda} \\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!} = e^{-\\lambda} \\cdot e^{\\lambda} = 1\n~~~~~~~~~~~^"
+        },
+        {
+          "latex": "X \\sim Poi(\\lambda),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = e^{\\lambda s - \\lambda}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "EX = DX = \\lambda.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 6249.0,
+    "image": "board_065.png",
+    "speech": "Сега ако искате да пресметнете очакването това е упражнение в производни. Каква е производната по ес? Това е ламда ена ламда ес без ламда. като поставите ес равно на 1 получавате ламда защото имате ена степен на 0. Ако искате да пресметнете втората производна ще получите ламда на квадрат нищо по-различно минус ламда от където следва че втората производна в единиц е ламда квадрат. Ето дисперсията тогава е втората производна плюс първата производна минус първата",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "g'_X(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda"
+      },
+      {
+        "type": "text",
+        "text": "Тв:)"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Poi(\\lambda),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = e^{\\lambda s - \\lambda}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "EX = DX = \\lambda."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "g'_X(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "X \\sim Poi(\\lambda),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = e^{\\lambda s - \\lambda}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "EX = DX = \\lambda.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 6288.0,
+    "image": "board_066.png",
+    "speech": "минус първата на квадрат която е точно ламда. И така виждаме че може да пресмятаме очакването и дисперсията с една и съща стоеност. Тоест ламда е един параметр той предопределя стоеностите на очакването дисперсията не само предопределя ни е равна на тях и също така разбира се предопределя поражаща функция като във вида е на ламда 10 минут ламда. Тоест виждате отново удобството",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "g_X'(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X''(s) = \\lambda^2 e^{\\lambda s - \\lambda} \\implies g_X''(1) = \\lambda^2"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = \\lambda^2 + \\lambda - (\\lambda)^2 = \\lambda;"
+      },
+      {
+        "type": "text",
+        "text": "Тв:)"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Poi(\\lambda),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = e^{\\lambda s - \\lambda}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "EX = DX = \\lambda."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "g_X'(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X''(s) = \\lambda^2 e^{\\lambda s - \\lambda} \\implies g_X''(1) = \\lambda^2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "DX = \\lambda^2 + \\lambda - (\\lambda)^2 = \\lambda;",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\nDX = \\lambda^2 + \\lambda - (\\lambda)^2 = \\lambda;\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "X \\sim Poi(\\lambda),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = e^{\\lambda s - \\lambda}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "EX = DX = \\lambda.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 6315.0,
+    "image": "board_067.png",
+    "speech": "удобството за поражаща функция която ни позволява да пресметнем очакването. Следващия път ще си говорим за теоремата на поласон която ще ни каже как може да приближаваме биномни разпределения чрез поласон. Това също е една от ползите на поласоновото разпределение, че то ви позволява да пресмятате биномни разпределения. Биномните разпределения са трудни, защото имат факториели. Тоест имате N на K.",
+    "board_items": [
+      {
+        "type": "equation",
+        "latex": "g_X'(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X''(s) = \\lambda^2 e^{\\lambda s - \\lambda} \\implies g_X''(1) = \\lambda^2"
+      },
+      {
+        "type": "equation",
+        "latex": "DX = \\lambda^2 + \\lambda - (\\lambda)^2 = \\lambda;"
+      },
+      {
+        "type": "text",
+        "text": "Тв:)"
+      },
+      {
+        "type": "equation",
+        "latex": "X \\sim Poi(\\lambda),"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = e^{\\lambda s - \\lambda}"
+      },
+      {
+        "type": "text",
+        "text": "и"
+      },
+      {
+        "type": "equation",
+        "latex": "EX=DX=\\lambda."
+      },
+      {
+        "type": "text",
+        "text": "Д-во:)"
+      },
+      {
+        "type": "equation",
+        "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "g_X'(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X''(s) = \\lambda^2 e^{\\lambda s - \\lambda} \\implies g_X''(1) = \\lambda^2",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "DX = \\lambda^2 + \\lambda - (\\lambda)^2 = \\lambda;",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\nDX = \\lambda^2 + \\lambda - (\\lambda)^2 = \\lambda;\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^"
+        },
+        {
+          "latex": "X \\sim Poi(\\lambda),",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = e^{\\lambda s - \\lambda}",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "EX=DX=\\lambda.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 6342.0,
+    "image": "board_068.png",
+    "speech": "В N на K има много факториели, които вие трябва да пресмятате. И това нещо не е съвсем тривиално. И се оказва, че по подходящ начин тези вариатности могат много добре да се приближават с поласонови",
+    "board_items": [],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 6345.0,
+    "image": "board_069.png",
+    "speech": "поласонови вариатности. и някои колеги ваши от миналото година доста си бяха",
+    "board_items": [],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 6351.0,
+    "image": "board_070.png",
+    "speech": "доста си бяха поиграли, дискутирали с асистентите как работи това приближение. Даже бяха имали собствен поглед, защото компютърно се бяха опитвали кое работи",
+    "board_items": [],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 6366.0,
+    "image": "board_071.png",
+    "speech": "кое работи по-добре, кое работи по-зле, но затова ще стане дума следващия път. Сега ще премина на Google Meet, където ако имате въпроси заповядайте и да ви пожелавам лека вечер на тези, които няма да се",
+    "board_items": [],
+    "verification": {
+      "sympy": []
+    }
+  },
+  {
+    "timestamp": 6378.0,
+    "image": "board_072.png",
+    "speech": "които няма да се изъединат. Значи сега ще отидем на Google Meet, където има разбира се линк на страницата на курса в Moodle. Искам друго също да кажа, при да забравя. Мисля, че отскоро ще бъде възможно и присъственото образование, плюс снимането с камерата, т.е. имаме хибридно. И аз смятам, за тези, които имат право да позволя да дойдат. Крайна светка в тази голяма зала 5-10 души си заявили желание 15. Нямам нищо против тях, ако искат да идват и да може да си комуникираме, защото за мен лично присъствие от образование е по-добро като цяло и да мога да задават въпроси. Но това стане май-малко след две седмици, защото сега е още по-трудно, че има някакъв допълнителни изиска. Добре, значи ще премина на Google Meet. ",
+    "board_items": [],
+    "verification": {
+      "sympy": []
+    }
+  }
+]

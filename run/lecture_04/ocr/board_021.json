@@ -1,0 +1,38 @@
+{
+  "timestamp": 3363.0,
+  "image": "board_021.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}_1"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cap \\mathcal{H}_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\vdots"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}_n"
+    }
+  ]
+}

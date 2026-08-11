@@ -1,0 +1,34 @@
+{
+  "timestamp": 3882.0,
+  "image": "board_040.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "В. Геометрично разпределение или"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Ge(p)"
+    },
+    {
+      "type": "equation",
+      "content": "X = \\min\\{n \\ge 1 : \\sum_{j=1}^n X_j = 1\\} - 1"
+    },
+    {
+      "type": "text",
+      "content": "или броя"
+    },
+    {
+      "type": "text",
+      "content": "неуспехи до първи успех в схема на Бернули"
+    },
+    {
+      "type": "equation",
+      "content": "0 \\ 0 \\ 0 \\ 1"
+    },
+    {
+      "type": "equation",
+      "content": "X=3"
+    }
+  ]
+}

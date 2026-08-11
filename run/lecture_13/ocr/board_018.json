@@ -1,0 +1,18 @@
+{
+  "timestamp": 2445.0,
+  "image": "board_018.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{Z_n}{\\sqrt{\\frac{U_n}{n-1}}} \\in t(n-1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\sqrt{\\frac{U_n}{n-1}} \\sim 1"
+    },
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{\\bar{X}_n - \\mu}{\\sigma / \\sqrt{n}}"
+    }
+  ]
+}

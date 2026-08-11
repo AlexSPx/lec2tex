@@ -1,0 +1,90 @@
+{
+  "timestamp": 2877.0,
+  "image": "board_045.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "text",
+      "content": "1-ва"
+    },
+    {
+      "type": "text",
+      "content": "2-ра"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "-та"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "общо"
+    },
+    {
+      "type": "equation",
+      "content": "n^k"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "частици, различни"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "text",
+      "content": "#"
+    },
+    {
+      "type": "text",
+      "content": "."
+    }
+  ]
+}

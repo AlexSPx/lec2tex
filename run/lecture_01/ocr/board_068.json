@@ -1,0 +1,14 @@
+{
+  "timestamp": 1703.67,
+  "image": "board_068.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus \\Omega = \\bigotimes_{i=1}^{10000} \\Omega_i ; |\\Omega| = (\\underbrace{13983816}_{N})^{10000}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{A} = 2^\\Omega ; |\\mathcal{A}| = 2^{N^{10000}}"
+    }
+  ]
+}

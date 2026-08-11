@@ -1,0 +1,46 @@
+{
+  "timestamp": 4320.0,
+  "image": "board_018.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Дисперсия"
+    },
+    {
+      "type": "text",
+      "content": "(variance)"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c} X & -1 & 1 \\\\ \\hline \\mathbb{P} & \\frac{19}{37} & \\frac{18}{37} \\end{array}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\mathbb{E}Y ="
+    },
+    {
+      "type": "equation",
+      "content": "= -\\frac{1}{37}"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c} Y & -1 & 35 \\\\ \\hline \\mathbb{P} & \\frac{36}{37} & \\frac{1}{37} \\end{array}"
+    },
+    {
+      "type": "equation",
+      "content": "-1"
+    },
+    {
+      "type": "equation",
+      "content": "-\\frac{1}{37}"
+    },
+    {
+      "type": "equation",
+      "content": "0"
+    },
+    {
+      "type": "equation",
+      "content": "1"
+    }
+  ]
+}

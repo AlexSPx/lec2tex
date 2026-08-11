@@ -1,0 +1,66 @@
+{
+  "timestamp": 1557.0,
+  "image": "board_009.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "Как да конструираме д.и. за"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": "?"
+    },
+    {
+      "type": "text",
+      "content": "неизвестна"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\mu} = \\overline{X}_n ; \\quad \\hat{\\sigma}^2 = \\frac{\\sum_{j=1}^n (X_j - \\overline{X}_n)^2}{n} = \\frac{n-1}{n} S^2"
+    },
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu \\parallel S^2"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "S^2 \\in \\chi^2(n-1)"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_{j=1}^n Z_j^2 = \\sum_{j=1}^n \\left( \\frac{X_j - \\mu}{\\sigma} \\right)^2 = U \\sim \\chi^2(n)"
+    },
+    {
+      "type": "equation",
+      "content": "Z_j = \\frac{X_j - \\mu}{\\sigma} \\sim N(0,1)"
+    },
+    {
+      "type": "equation",
+      "content": "U = (n-1) \\frac{\\sum_{j=1}^n (X_j - \\overline{X}_n)^2}{\\sigma^2 (n-1)} + n \\frac{(\\overline{X}_n - \\mu)^2}{\\sigma^2}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{(n-1) S^2}{\\sigma^2}"
+    }
+  ]
+}

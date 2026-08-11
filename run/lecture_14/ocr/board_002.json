@@ -1,0 +1,14 @@
+{
+  "timestamp": 822.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "n\\bar{y} - nb_0 - b_1n\\bar{x} \\implies b_0 = \\bar{y} - b_1\\bar{x}"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum x_i y_i - b_0 n\\bar{x} - b_1 \\sum x_i^2 = 0"
+    }
+  ]
+}

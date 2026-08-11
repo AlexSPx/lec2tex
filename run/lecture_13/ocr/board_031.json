@@ -1,0 +1,62 @@
+{
+  "timestamp": 6225.0,
+  "image": "board_031.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "извест."
+    },
+    {
+      "type": "equation",
+      "content": "\\mu = \\mu_0"
+    },
+    {
+      "type": "equation",
+      "content": "(x_1, \\dots, x_n)"
+    },
+    {
+      "type": "equation",
+      "content": "W^* = \\left\\{ \\vec{x} \\in \\mathbb{R}^n : L_1(\\vec{x}) \\ge K L_0(\\vec{x}) \\right\\} = \\left\\{ \\sum_{j=1}^n x_j \\ge \\underbrace{\\frac{2\\sigma^2 \\ln K + n\\mu_1^2 - n\\mu_0^2}{2(\\mu_1 - \\mu_0)}}_{\\tilde{K}} \\right\\}"
+    },
+    {
+      "type": "text",
+      "content": "Търсим K :"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha = \\mathbb{P}(\\vec{X} \\in W^* \\mid H_0) ="
+    },
+    {
+      "type": "equation",
+      "content": "1-\\alpha"
+    },
+    {
+      "type": "equation",
+      "content": "q_{1-\\alpha}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}\\left( \\sum_{j=1}^n X_j \\ge \\tilde{K} \\mid H_0 \\right)"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\tilde{K} - n\\mu_0}{\\sigma\\sqrt{n}} = q_{1-\\alpha}"
+    },
+    {
+      "type": "text",
+      "content": "<- табл."
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}\\left( \\frac{\\sum_{j=1}^n X_j - n\\mu_0}{\\sigma\\sqrt{n}} \\ge \\frac{\\tilde{K} - n\\mu_0}{\\sigma\\sqrt{n}} \\mid H_0 \\right) = \\mathbb{P}\\left( Z \\ge \\frac{\\tilde{K} - n\\mu_0}{\\sigma\\sqrt{n}} \\right)"
+    },
+    {
+      "type": "equation",
+      "content": "\\in N(0,1)"
+    }
+  ]
+}

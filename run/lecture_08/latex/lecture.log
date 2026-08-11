@@ -1,0 +1,583 @@
+**
+(lecture.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+)) (amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count194
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip16
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks17
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (fontspec.sty (xparse.sty (expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+ (l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+\c__kernel_sys_dvipdfmx_version_int=\count267
+\l__color_backend_stack_int=\count268
+\g__color_backend_stack_int=\count269
+\g__graphics_track_int=\count270
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count271
+\g__pdf_backend_annotation_int=\count272
+\g__pdf_backend_link_int=\count273
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count274
+\l__fontspec_language_int=\count275
+\l__fontspec_strnum_int=\count276
+\l__fontspec_tmp_int=\count277
+\l__fontspec_tmpa_int=\count278
+\l__fontspec_tmpb_int=\count279
+\l__fontspec_tmpc_int=\count280
+\l__fontspec_em_int=\count281
+\l__fontspec_emdef_int=\count282
+\l__fontspec_strong_int=\count283
+\l__fontspec_strongdef_int=\count284
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+ (fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (fontspec.cfg)))
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (lecture.aux)
+\openout1 = `lecture.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+2.
+ (ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 12.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 12.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 12.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 12.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 12.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 12.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 12.
+LaTeX Font Info:    Redeclaring math accent \check on input line 12.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 12.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 12.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 12.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 12.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 12.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 12.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
+2.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 12.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+12.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 12.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 12.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+12.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 12.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 12.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 12.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 12.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 12.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+
+
+(umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+
+ (umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (5.80922pt too wide) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/n/10 В много практически ситуации разполагаме със случай
+на величина $\OML/cmm/m/it/10 X$\TU/TimesNewRoman(0)/m/n/10 , която описва
+ []
+
+
+Overfull \hbox (13.64604pt too wide) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/n/10 Това означава, че дисперсията $\U/msb/m/n/10 D\OML/
+cmm/m/it/10 X \OT1/cmr/m/n/10 = \U/msb/m/n/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
+0 X \OMS/cmsy/m/n/10 ^^@ \U/msb/m/n/10 E\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 )[]$ 
+\TU/TimesNewRoman(0)/m/n/10 е минималното средноквадратично
+ []
+
+
+Overfull \hbox (15.77327pt too wide) in paragraph at lines 21--23
+\TU/TimesNewRoman(0)/m/n/10 Следователно, очакването е най-добрата константа за
+ оценка на $\OML/cmm/m/it/10 X$\TU/TimesNewRoman(0)/m/n/10 , ако не разполагаме
+
+ []
+
+
+Overfull \hbox (19.16681pt too wide) in paragraph at lines 24--25
+\TU/TimesNewRoman(0)/m/n/10 случай вече не търсим просто едно число $\OML/cmm/m
+/it/10 a$\TU/TimesNewRoman(0)/m/n/10 , което да минимизира средноквадратичната
+ []
+
+[1
+
+]
+Overfull \hbox (5.91313pt too wide) in paragraph at lines 54--56
+\TU/TimesNewRoman(0)/m/n/10 Полученият резултат е минимум (тъй като изразът пре
+дставлява квадратична форма
+ []
+
+
+Overfull \hbox (7.67357pt too wide) in paragraph at lines 58--60
+\TU/TimesNewRoman(0)/m/n/10 стойности в зависимост от това каква стойност сме н
+аблюдавали за $\OML/cmm/m/it/10 Y$\TU/TimesNewRoman(0)/m/n/10 . Ако клиентът
+ []
+
+
+Overfull \hbox (13.41476pt too wide) in paragraph at lines 61--62
+[]\TU/TimesNewRoman(0)/m/n/10 За да илюстрираме как условната вероятност естест
+вено възниква в този контекст,
+ []
+
+
+Overfull \hbox (20.39555pt too wide) in paragraph at lines 69--70
+\TU/TimesNewRoman(0)/m/n/10 Въз основа на изложената геометрична мотивация (кат
+о проекция в средноквадратичен
+ []
+
+
+Overfull \hbox (32.21825pt too wide) in paragraph at lines 71--72
+[]\TU/TimesNewRoman(0)/b/n/10 Дефиниция: \TU/TimesNewRoman(0)/m/n/10 Нека $\OML
+/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n/10 и $\OML/cmm/m/it/10 Y$ \TU/TimesNew
+Roman(0)/m/n/10 са дискретни случайни величини. Условното математическо
+ []
+
+[2]
+Overfull \hbox (19.07173pt too wide) in paragraph at lines 77--78
+[]\TU/TimesNewRoman(0)/m/n/10 Това е просто число (за дадено фиксирано събитие 
+$\OML/cmm/m/it/10 Y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y[]$\TU/TimesNewRoman(0)
+/m/n/10 ). Ако обаче разглеждаме
+ []
+
+
+Overfull \hbox (19.96208pt too wide) in paragraph at lines 77--78
+\OML/cmm/m/it/10 Y$ \TU/TimesNewRoman(0)/m/n/10 като случайна величина, можем д
+а дефинираме \TU/TimesNewRoman(0)/m/it/10 условното математическо очакване
+ []
+
+
+Overfull \hbox (15.52805pt too wide) in paragraph at lines 94--95
+\TU/TimesNewRoman(0)/m/n/10 Условното очакване притежава серия от важни свойств
+а, аналогични на обикновеното
+ []
+
+
+Overfull \hbox (0.96805pt too wide) in paragraph at lines 94--95
+\TU/TimesNewRoman(0)/m/n/10 математическо очакване. Те са валидни както за диск
+ретни, така и за непрекъснати
+ []
+
+
+Overfull \hbox (36.4031pt too wide) detected at line 104
+\U/msb/m/n/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 aX \OT1/cmr/m/n/10 + \OML/cmm/
+m/it/10 bZ \OMS/cmsy/m/n/10 j \OML/cmm/m/it/10 Y\OT1/cmr/m/n/10 ] = [] [][][] =
+ \OML/cmm/m/it/10 a [] [][][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 b [] [][][]
+ []
+
+
+Overfull \hbox (17.33556pt too wide) in paragraph at lines 109--111
+[]\TU/TimesNewRoman(0)/m/n/10 Когато $\OML/cmm/m/it/10 Y$ \TU/TimesNewRoman(0)/
+m/n/10 не носи информация за $\OML/cmm/m/it/10 X$\TU/TimesNewRoman(0)/m/n/10 , 
+условното очакване съвпада с безусловното,
+ []
+
+
+Overfull \hbox (11.22768pt too wide) in paragraph at lines 109--111
+\TU/TimesNewRoman(0)/m/n/10 защото най-доброто число за приближение на $\OML/cm
+m/m/it/10 X$ \TU/TimesNewRoman(0)/m/n/10 (в средноквадратичен смисъл)
+ []
+
+
+Overfull \hbox (6.10083pt too wide) in paragraph at lines 109--111
+\TU/TimesNewRoman(0)/m/n/10 остава просто нейното обикновено математическо очак
+ване. \TU/TimesNewRoman(0)/m/it/10 Доказателство:
+ []
+
+[3]
+Overfull \hbox (22.65738pt too wide) in paragraph at lines 114--115
+\TU/TimesNewRoman(0)/m/n/10 точност стойността на $\OML/cmm/m/it/10 X$\TU/Times
+NewRoman(0)/m/n/10 , то тогава случайността отпада и сме в детерминистичен
+ []
+
+
+Overfull \hbox (90.4093pt too wide) detected at line 123
+\U/msb/m/n/10 E\OT1/cmr/m/n/10 [\U/msb/m/n/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/1
+0 X\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 Y\OT1/cmr/m/n/10 ]] = \U/msb/m/n/10 E [] 
+\OT1/cmr/m/n/10 = [] []\U/msb/m/n/10 E[][] \OT1/cmr/m/n/10 = [] \U/msb/m/n/10 E
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 X[][]\OT1/cmr/m/n/10 ] = \U/msb/m/n/10 E [] \
+OT1/cmr/m/n/10 = \U/msb/m/n/10 E\OML/cmm/m/it/10 X
+ []
+
+
+Overfull \hbox (30.53534pt too wide) in paragraph at lines 125--126
+[]\TU/TimesNewRoman(0)/b/n/10 Изнасяне на функция от условието: \TU/TimesNewRom
+an(0)/m/n/10 Ако $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X; Y\OT1/
+cmr/m/n/10 )$ \TU/TimesNewRoman(0)/m/n/10 е функция на двете променливи,
+ []
+
+
+Overfull \hbox (13.39574pt too wide) in paragraph at lines 140--142
+\TU/TimesNewRoman(0)/m/n/10 вероятност за успех $\OT1/cmr/m/n/10 1/3$\TU/TimesN
+ewRoman(0)/m/n/10 . Търсим пълната вероятност $\U/msb/m/n/10 P\OT1/cmr/m/n/10 (
+\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = 1)$\TU/TimesNewRoman(0)/m/n/10 , която за 
+индикаторна
+ []
+
+
+Overfull \hbox (2.53845pt too wide) in paragraph at lines 140--142
+\TU/TimesNewRoman(0)/m/n/10 променлива напълно съвпада с нейното математическо 
+очакване $\U/msb/m/n/10 E\OML/cmm/m/it/10 X$\TU/TimesNewRoman(0)/m/n/10 . Изпол
+звайки
+ []
+
+[4]
+Overfull \hbox (18.87602pt too wide) in paragraph at lines 145--147
+\TU/TimesNewRoman(0)/m/n/10 Вземайки безусловното математическо очакване от две
+те страни, получаваме крайната
+ []
+
+
+Overfull \hbox (31.44676pt too wide) in paragraph at lines 155--156
+[]\TU/TimesNewRoman(0)/b/n/10 Дефиниция: \TU/TimesNewRoman(0)/m/n/10 Нека $\OML
+/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n/10 и $\OML/cmm/m/it/10 Y$ \TU/TimesNew
+Roman(0)/m/n/10 са дискретни случайни величини. Условното разпределение
+ []
+
+
+Overfull \hbox (21.58316pt too wide) in paragraph at lines 162--164
+\TU/TimesNewRoman(0)/m/n/10 Това на практика са изменените вероятности за $\OML
+/cmm/m/it/10 X$\TU/TimesNewRoman(0)/m/n/10 , които произтичат от допълнителната
+
+ []
+
+
+Overfull \hbox (13.64697pt too wide) in paragraph at lines 165--166
+\TU/TimesNewRoman(0)/m/n/10 приемат стойности в множестото $\OMS/cmsy/m/n/10 f\
+OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr
+/m/n/10 2\OMS/cmsy/m/n/10 g$\TU/TimesNewRoman(0)/m/n/10 . Съвместното им разпре
+деление е зададено
+ []
+
+
+Overfull \hbox (29.42096pt too wide) in paragraph at lines 176--178
+\TU/TimesNewRoman(0)/m/n/10 Искаме да намерим условното разпределение на $\OML/
+cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n/10 при условие, че $\OML/cmm/m/it/10 Y 
+\OT1/cmr/m/n/10 = 0$\TU/TimesNewRoman(0)/m/n/10 . Маргиналната
+ []
+
+[5]
+Overfull \hbox (8.77312pt too wide) in paragraph at lines 187--189
+\TU/TimesNewRoman(0)/m/n/10 Нека провеждаме $\OML/cmm/m/it/10 n$ \TU/TimesNewRo
+man(0)/m/n/10 независими експеримента. Всеки експеримент може да завърши
+ []
+
+
+Overfull \hbox (13.87428pt too wide) in paragraph at lines 205--206
+\TU/TimesNewRoman(0)/m/n/10 много изброимо множество от стойности. Има обаче мн
+ого случайни характеристики
+ []
+
+[6]
+Overfull \hbox (22.67067pt too wide) in paragraph at lines 207--210
+\TU/TimesNewRoman(0)/m/n/10 В такъв случай защо въобще са ни нужни непрекъснати
+ случайни величини? Отговорът
+ []
+
+
+Overfull \hbox (7.35736pt too wide) in paragraph at lines 207--210
+\TU/TimesNewRoman(0)/m/n/10 се крие в ефективността. Ако искаме да моделираме р
+авномерна случайна величина
+ []
+
+
+Overfull \hbox (23.76364pt too wide) in paragraph at lines 207--210
+\TU/TimesNewRoman(0)/m/n/10 в интервала $\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \
+OT1/cmr/m/n/10 1)$ \TU/TimesNewRoman(0)/m/n/10 с много голяма точност (например
+ 100 милиона възможни стойности),
+ []
+
+
+Overfull \hbox (9.6371pt too wide) in paragraph at lines 207--210
+\TU/TimesNewRoman(0)/m/n/10 температурата да бъде съвършено равняваща се на дад
+ено число с безкрайна точност
+ []
+
+
+Overfull \hbox (16.42581pt too wide) in paragraph at lines 213--214
+\TU/TimesNewRoman(0)/b/n/10 Дефиниция (Абсолютно непрекъсната случайна величина
+): \TU/TimesNewRoman(0)/m/n/10 Случайната величина
+ []
+
+
+Overfull \hbox (0.69449pt too wide) in paragraph at lines 225--226
+[]\TU/TimesNewRoman(0)/m/n/10 От свойствата на интеграла веднага следва, че вер
+оятността $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n/10 да приеме точно
+ []
+
+
+Overfull \hbox (16.09541pt too wide) in paragraph at lines 234--235
+[]\TU/TimesNewRoman(0)/b/n/10 Пример (Медицински застраховки): \TU/TimesNewRoma
+n(0)/m/n/10 Нека разходите за медицински застраховки
+ []
+
+[7]
+Overfull \hbox (12.4649pt too wide) in paragraph at lines 248--251
+\TU/TimesNewRoman(0)/m/n/10 да пази огромен масив с дискретни вероятности за вс
+яка възможна стотинка, фирмата
+ []
+
+
+Overfull \hbox (1.19926pt too wide) in paragraph at lines 262--264
+\TU/TimesNewRoman(0)/m/n/10 Следователно, ако знаем плътността, чрез интегриран
+е възстановяваме функцията
+ []
+
+
+Overfull \hbox (9.66016pt too wide) in paragraph at lines 265--265
+[]\TU/TimesNewRoman(0)/b/n/12 Трансформация на непрекъснати случайни величини (
+смяна
+ []
+
+
+Overfull \hbox (0.95003pt too wide) in paragraph at lines 267--268
+\TU/TimesNewRoman(0)/m/n/10 Често имаме даден модел със случайна величина $\OML
+/cmm/m/it/10 X$\TU/TimesNewRoman(0)/m/n/10 , но се интересуваме от някаква
+ []
+
+[8]
+Overfull \hbox (5.92293pt too wide) in paragraph at lines 282--284
+\OML/cmm/m/it/10 w \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 v\OT1/cmr/m/n/10 )$\TU/TimesNewRoman(0)/m/n/10 . Тогава диференциал
+ът е $\OML/cmm/m/it/10 dw \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/1
+0 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))[]\OML/cmm/m/it/10 dv$\TU/TimesNewRoman(
+0)/m/n/10 . Границите на интегриране
+ []
+
+
+Overfull \hbox (4.45445pt too wide) in paragraph at lines 289--290
+\TU/TimesNewRoman(0)/m/n/10 Когато приложим $\OML/cmm/m/it/10 g[]$ \TU/TimesNew
+Roman(0)/m/n/10 към неравенството $\OML/cmm/m/it/10 a < g\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 < b$\TU/TimesNewRoman(0)/m/n/10
+ , посоките на неравенствата
+ []
+
+
+Overfull \hbox (21.48381pt too wide) in paragraph at lines 296--298
+\TU/TimesNewRoman(0)/m/n/10 Но тъй като $\OML/cmm/m/it/10 g$ \TU/TimesNewRoman(
+0)/m/n/10 е монотонно намаляваща, $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 g[]\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ))[]$ \TU/TimesNewRoman(0)/m/n/10 е
+ отрицателна функция, следователно
+ []
+
+
+Overfull \hbox (32.39648pt too wide) in paragraph at lines 303--303
+[]\TU/TimesNewRoman(0)/b/n/12 Математическо очакване и дисперсия на непрекъснат
+и случайни
+ []
+
+
+Overfull \hbox (1.06352pt too wide) in paragraph at lines 305--306
+\TU/TimesNewRoman(0)/m/n/10 По аналогичен начин на дискретните случайни величин
+и, където математическото
+ []
+
+
+Overfull \hbox (20.11302pt too wide) in paragraph at lines 305--306
+\TU/TimesNewRoman(0)/m/n/10 заменя с интеграл (тъй като интегралът е граница на
+ сума), а вероятностите преминават
+ []
+
+[9]
+Overfull \hbox (16.98459pt too wide) in paragraph at lines 310--312
+\TU/TimesNewRoman(0)/m/n/10 От гледна точка на механиката, ако разглеждаме плът
+ността $\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 
+)$ \TU/TimesNewRoman(0)/m/n/10 като разпределение
+ []
+
+
+Overfull \hbox (27.63773pt too wide) in paragraph at lines 313--314
+[]\TU/TimesNewRoman(0)/b/n/10 Дисперсията $\U/msb/m/n/10 D\OML/cmm/m/it/10 X$ \
+TU/TimesNewRoman(0)/m/n/10 продължава да се дефинира като средноквадратичното о
+тклонение
+ []
+
+
+Overfull \hbox (4.92192pt too wide) in paragraph at lines 318--319
+[]\TU/TimesNewRoman(0)/m/n/10 Ако искаме да пресметнем математическото очакване
+ на функция от случайната
+ []
+
+
+Overfull \hbox (14.79659pt too wide) in paragraph at lines 336--337
+\TU/TimesNewRoman(0)/m/n/10 Равномерното разпределение (Uniform distribution) е
+ най-простият клас непрекъснати
+ []
+
+
+Overfull \hbox (18.50807pt too wide) in paragraph at lines 336--337
+\TU/TimesNewRoman(0)/m/n/10 случайни величини. То се използва изключително чест
+о като априорно разпределение,
+ []
+
+
+Overfull \hbox (24.0479pt too wide) in paragraph at lines 336--337
+\TU/TimesNewRoman(0)/m/n/10 когато нямаме никаква допълнителна информация или е
+кспертни познания за системата
+ []
+
+[10] [11] (lecture.aux) )
+Output written on lecture.xdv (11 pages, 182496 bytes).

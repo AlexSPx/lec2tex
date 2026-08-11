@@ -1,0 +1,62 @@
+{
+  "timestamp": 4605.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: (дисперсия) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е дискр. сл. вел с очакване"
+    },
+    {
+      "type": "equation",
+      "content": "EX"
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "DX := \\sum_{j} (x_j - EX)^2 p_j"
+    },
+    {
+      "type": "text",
+      "content": "стига"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty"
+    },
+    {
+      "type": "equation",
+      "content": "DX = Var(X)."
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "приема краен брой стойности"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty."
+    }
+  ]
+}

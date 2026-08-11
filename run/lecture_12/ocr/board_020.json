@@ -1,0 +1,34 @@
+{
+  "timestamp": 5991.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus X \\sim U(0, \\theta)"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\theta}_1 = \\max_{j \\le n}(X_j); \\hat{\\theta}_2 = 2 \\bar{X}_n"
+    },
+    {
+      "type": "equation",
+      "content": "||"
+    },
+    {
+      "type": "equation",
+      "content": "X^*"
+    },
+    {
+      "type": "equation",
+      "content": "F_{X^*}(x) = \\mathbb{P}(X^* < x) = \\mathbb{P}\\left(\\bigcap_{j=1}^n \\{X_j < x\\}\\right) \\stackrel{\\text{незав.}}{=} \\prod_{j=1}^n \\mathbb{P}(X_j < x)"
+    },
+    {
+      "type": "text",
+      "content": "едн."
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X_1 < x)^n = \\left(\\frac{x}{\\theta}\\right)^n, \\quad x \\in (0, \\theta)"
+    }
+  ]
+}

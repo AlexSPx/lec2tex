@@ -1,0 +1,78 @@
+{
+  "timestamp": 5175.0,
+  "image": "board_026.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Лема (Нейман-Пиърсън):"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X, f_X(x; \\theta); L(\\vec{x}, \\theta)"
+    },
+    {
+      "type": "text",
+      "content": "и извадка"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X}."
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "W^* \\subseteq \\mathbb{R}^n"
+    },
+    {
+      "type": "text",
+      "content": "е к. о."
+    },
+    {
+      "type": "text",
+      "content": "с грешка от първи род"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "W^* \\subseteq \\{ L_1(x) \\geq k L_0(x) \\}"
+    },
+    {
+      "type": "equation",
+      "content": "(W^*)^c \\subseteq \\{ L_1(x) \\leq k L_0(x) \\}"
+    },
+    {
+      "type": "text",
+      "content": "за някое"
+    },
+    {
+      "type": "equation",
+      "content": "k > 0"
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "W^*"
+    },
+    {
+      "type": "text",
+      "content": "е н. м. о."
+    }
+  ]
+}

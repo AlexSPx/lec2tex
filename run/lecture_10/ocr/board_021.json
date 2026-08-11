@@ -1,0 +1,34 @@
+{
+  "timestamp": 5139.0,
+  "image": "board_021.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Теор. (УЗГЧ) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "(X_i)_{i=1}^\\infty"
+    },
+    {
+      "type": "text",
+      "content": "е редица от независими и еднакво"
+    },
+    {
+      "type": "text",
+      "content": "разпределени сл. вел., такива че"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}|X_1| < \\infty"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} \\mathbb{E} X_1"
+    }
+  ]
+}

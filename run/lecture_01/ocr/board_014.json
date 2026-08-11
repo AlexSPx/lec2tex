@@ -1,0 +1,14 @@
+{
+  "timestamp": 715.0,
+  "image": "board_014.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Omega = \\{ \\omega_1, \\dots, \\omega_N \\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega_1"
+    }
+  ]
+}

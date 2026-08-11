@@ -1,0 +1,30 @@
+{
+  "timestamp": 1734.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "n=2"
+    },
+    {
+      "type": "equation",
+      "content": "Y = X_1 + X_2;"
+    },
+    {
+      "type": "equation",
+      "content": "g_Y(s) = \\mathbb{E} s^{X_1+X_2} = \\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^{i+j} \\mathbb{P}(X_1=j; X_2=i)"
+    },
+    {
+      "type": "equation",
+      "content": "X_1 \\perp\\!\\!\\!\\perp X_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_{j=0}^{\\infty} \\sum_{i=0}^{\\infty} s^i s^j \\mathbb{P}(X_1=j) \\mathbb{P}(X_2=i)"
+    }
+  ]
+}

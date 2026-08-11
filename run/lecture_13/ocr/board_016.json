@@ -1,0 +1,10 @@
+{
+  "timestamp": 2274.0,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{Z_n}{\\sqrt{\\frac{U_n}{n-1}}}"
+    }
+  ]
+}

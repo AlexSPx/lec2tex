@@ -1,0 +1,98 @@
+{
+  "timestamp": 4638.0,
+  "image": "board_040.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Проверка на хипотези"
+    },
+    {
+      "type": "equation",
+      "content": "\\sigma^2"
+    },
+    {
+      "type": "text",
+      "content": "известно"
+    },
+    {
+      "type": "equation",
+      "content": "Z = \\frac{b_1 - \\beta}{\\sqrt{\\frac{\\sigma^2}{A}}} \\sim N(0,1)"
+    },
+    {
+      "type": "text",
+      "content": "при валидност на"
+    },
+    {
+      "type": "equation",
+      "content": "H_0"
+    },
+    {
+      "type": "equation",
+      "content": "\\alpha"
+    },
+    {
+      "type": "text",
+      "content": "- грешка от първи род"
+    },
+    {
+      "type": "equation",
+      "content": "W = \\{ |Z| \\geq q_{1-\\frac{\\alpha}{2}} \\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\alpha}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "q_{\\frac{\\alpha}{2}} = -q_{1-\\frac{\\alpha}{2}}"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\alpha}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "q_{1-\\frac{\\alpha}{2}}"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_1 = b_1 = \\sum_{k=1}^n C_k y_k"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_0 = b_0 = \\sum_{k=1}^n (\\frac{1}{n} - \\bar{x} C_k) y_k"
+    },
+    {
+      "type": "equation",
+      "content": "C_k = \\frac{x_k - \\bar{x}}{A}"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\sum_{k=1}^n (x_k - \\bar{x})^2"
+    },
+    {
+      "type": "equation",
+      "content": "y_k = \\beta_0 + \\beta_1 x_k + \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "E y_k = \\beta_0 + \\beta_1 x_k"
+    },
+    {
+      "type": "equation",
+      "content": "D \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "b_1 \\sim N(\\beta_1; \\frac{\\sigma^2}{A})"
+    },
+    {
+      "type": "equation",
+      "content": "b_0 \\sim N(\\beta_0; \\sigma^2(\\frac{1}{n} + \\frac{\\bar{x}^2}{A}))"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\sigma}^2 = \\frac{1}{n-2} \\sum_{k=1}^n (y_k - b_0 - b_1 x_k)^2"
+    }
+  ]
+}

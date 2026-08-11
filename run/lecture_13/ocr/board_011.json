@@ -1,0 +1,42 @@
+{
+  "timestamp": 1812.0,
+  "image": "board_011.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "неизвестна"
+    },
+    {
+      "type": "text",
+      "content": "Как да конструираме д.и. за"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": "?"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\mu} = \\bar{X}_n ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\sigma}^2 = \\frac{\\sum_{j=1}^n (X_j - \\bar{X}_n)^2}{n} = \\frac{n-1}{n} S^2"
+    },
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{\\bar{X}_n - \\mu}{}"
+    }
+  ]
+}

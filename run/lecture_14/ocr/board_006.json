@@ -1,0 +1,74 @@
+{
+  "timestamp": 2265.0,
+  "image": "board_006.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "b_1 = \\hat{\\beta}_1"
+    },
+    {
+      "type": "equation",
+      "content": "b_1 = \\sum_{k=1}^n c_k Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "D b_1 = \\sum_{k=1}^n D c_k Y_k = \\sum_{k=1}^n c_k^2 \\sigma^2"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sigma^2 \\frac{\\sum_{k=1}^n (X_k - \\bar{X})^2}{\\left(\\sum_{k=1}^n (X_k - \\bar{X})^2\\right)^2} = \\frac{\\sigma^2}{\\sum_{k=1}^n (X_k - \\bar{X})^2} = \\frac{\\sigma^2}{A}"
+    },
+    {
+      "type": "equation",
+      "content": "b_1 \\sim N\\left(\\beta_1, \\frac{\\sigma^2}{A}\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_1 = b_1 = \\sum_{k=1}^n c_k Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_0 = b_0 = \\sum_{k=1}^n \\left(\\frac{1}{n} - \\bar{X} c_k\\right) Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "c_k = \\frac{X_k - \\bar{X}}{A}"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\sum_{k=1}^n (X_k - \\bar{X})^2"
+    },
+    {
+      "type": "equation",
+      "content": "Y_k = \\beta_0 + \\beta_1 X_k + \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "E Y_k = \\beta_0 + \\beta_1 X_k"
+    },
+    {
+      "type": "equation",
+      "content": "Y_k \\sim N(\\beta_0 + \\beta_1 X_k, \\sigma^2)"
+    },
+    {
+      "type": "equation",
+      "content": "D \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "(Y_1, \\dots, Y_n)"
+    },
+    {
+      "type": "text",
+      "content": "са независ."
+    },
+    {
+      "type": "equation",
+      "content": "(\\varepsilon_1, \\dots, \\varepsilon_n)"
+    },
+    {
+      "type": "text",
+      "content": "са независ."
+    }
+  ]
+}

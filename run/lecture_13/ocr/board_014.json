@@ -1,0 +1,26 @@
+{
+  "timestamp": 2082.0,
+  "image": "board_014.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{Z_n}{\\sqrt{\\frac{U_n}{n-1}}} = \\frac{\\bar{X}_n - \\mu}{S/\\sqrt{n}} \\in t(n-1)"
+    },
+    {
+      "type": "equation",
+      "content": "T_n"
+    },
+    {
+      "type": "text",
+      "content": "е Ц.С. за"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": "."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": 6315.0,
+  "image": "board_067.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "g_X'(s)|_{s=1} = \\lambda e^{\\lambda s - \\lambda}|_{s=1} = \\lambda"
+    },
+    {
+      "type": "equation",
+      "content": "g_X''(s) = \\lambda^2 e^{\\lambda s - \\lambda} \\implies g_X''(1) = \\lambda^2"
+    },
+    {
+      "type": "equation",
+      "content": "DX = \\lambda^2 + \\lambda - (\\lambda)^2 = \\lambda;"
+    },
+    {
+      "type": "text",
+      "content": "Тв:)"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Poi(\\lambda),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = e^{\\lambda s - \\lambda}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "EX=DX=\\lambda."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:)"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(s\\lambda)^n}{n!} = e^{-\\lambda} \\cdot e^{\\lambda s}"
+    }
+  ]
+}

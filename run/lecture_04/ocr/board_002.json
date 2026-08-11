@@ -1,0 +1,66 @@
+{
+  "timestamp": 207.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Случайни величини. Свойства."
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in \\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "V = (\\Omega, \\mathcal{A}, \\mathbb{P});"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "text",
+      "content": "молекули"
+    },
+    {
+      "type": "text",
+      "content": "успех и неуспех"
+    },
+    {
+      "type": "text",
+      "content": "функции"
+    },
+    {
+      "type": "text",
+      "content": "шесторки"
+    },
+    {
+      "type": "text",
+      "content": "хора"
+    },
+    {
+      "type": "equation",
+      "content": "X: \\Omega \\rightarrow \\mathbb{R}"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "equation",
+      "content": "X(\\omega)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{R}"
+    }
+  ]
+}

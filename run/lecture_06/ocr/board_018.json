@@ -1,0 +1,46 @@
+{
+  "timestamp": 1449.0,
+  "image": "board_018.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф:)"
+    },
+    {
+      "type": "text",
+      "content": "Дискретните сл. вел."
+    },
+    {
+      "type": "equation",
+      "content": "X_1, \\dots, X_n"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "equation",
+      "content": "(X_j)_{j=1}^\\infty"
+    },
+    {
+      "type": "text",
+      "content": "имат"
+    },
+    {
+      "type": "text",
+      "content": "еднакво разпределение, ако"
+    },
+    {
+      "type": "equation",
+      "content": "X_i \\stackrel{d}{=} X_j, 1 \\le i, j \\le n,"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "equation",
+      "content": "X_i \\stackrel{d}{=} X_j \\quad 1 \\le i, j < \\infty"
+    }
+  ]
+}

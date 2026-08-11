@@ -1,0 +1,38 @@
+{
+  "timestamp": 1548.67,
+  "image": "board_059.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = \\mathbb{R}_+ = [0,\\infty) ; \\quad A \\subseteq \\mathbb{R}_+"
+    },
+    {
+      "type": "equation",
+      "content": "A = (a,b)"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "A_3"
+    },
+    {
+      "type": "equation",
+      "content": "A_2"
+    },
+    {
+      "type": "equation",
+      "content": "A_1"
+    }
+  ]
+}

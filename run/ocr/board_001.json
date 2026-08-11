@@ -1,0 +1,34 @@
+{
+  "timestamp": 0.0,
+  "image": "board_001.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф (\"допълнение\")"
+    },
+    {
+      "type": "equation",
+      "content": "A \\subseteq \\Omega,"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "A^c = \\Omega \\setminus A"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in A^c"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "timestamp": 1349.33,
+  "image": "board_054.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Следствие:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "е"
+    },
+    {
+      "type": "equation",
+      "content": "\\sigma"
+    },
+    {
+      "type": "text",
+      "content": "-алгебра"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "A_i \\in \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": ", за"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall i \\ge 1"
+    },
+    {
+      "type": "text",
+      "content": ". T"
+    },
+    {
+      "type": "equation",
+      "content": "B = \\bigcap_{i=1}^{\\infty} A_i"
+    },
+    {
+      "type": "equation",
+      "content": "\\in \\mathcal{A}"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{A} \\ni B ="
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{A} \\ni B^c"
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "B^c \\in \\mathcal{A} \\stackrel{u}{\\implies} B = (B^c)^c \\in \\mathcal{A}"
+    }
+  ]
+}

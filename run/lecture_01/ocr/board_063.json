@@ -1,0 +1,10 @@
+{
+  "timestamp": 1601.0,
+  "image": "board_063.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "= \\{ v, u, 5w_1, 5w_2, 5w_3, \\dots, 5w_{n-1}, 5w_n \\}"
+    }
+  ]
+}

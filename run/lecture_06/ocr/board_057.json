@@ -1,0 +1,46 @@
+{
+  "timestamp": 5610.0,
+  "image": "board_057.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Т1:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r,p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r."
+    },
+    {
+      "type": "text",
+      "content": "Сл:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r,p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\frac{rq}{p}, DX = \\frac{rq}{p^2}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0"
+    }
+  ]
+}

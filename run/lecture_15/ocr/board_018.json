@@ -1,0 +1,70 @@
+{
+  "timestamp": 1236.0,
+  "image": "board_018.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Зад. 2"
+    },
+    {
+      "type": "equation",
+      "content": "|M|=n"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "разл. ел. от"
+    },
+    {
+      "type": "equation",
+      "content": "M"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "equation",
+      "content": "n-1"
+    },
+    {
+      "type": "equation",
+      "content": "n-k+1"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "ел."
+    },
+    {
+      "type": "equation",
+      "content": "n(n-"
+    }
+  ]
+}

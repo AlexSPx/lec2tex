@@ -1,0 +1,94 @@
+{
+  "timestamp": 1146.0,
+  "image": "board_007.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "известно"
+    },
+    {
+      "type": "equation",
+      "content": "; \\vec{X} = (X_1, \\dots, X_n)"
+    },
+    {
+      "type": "equation",
+      "content": "T = \\frac{\\bar{X}_n^{(1)} - \\mu}{\\sigma / \\sqrt{n}} \\sim \\underline{\\underline{N(0, 1)}} ,"
+    },
+    {
+      "type": "equation",
+      "content": "T"
+    },
+    {
+      "type": "text",
+      "content": "е монот."
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "text",
+      "content": "по"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "equation",
+      "content": "0,025"
+    },
+    {
+      "type": "equation",
+      "content": "0,025"
+    },
+    {
+      "type": "equation",
+      "content": "\\bar{X}_n^{(1)} \\sim N(\\mu, \\frac{\\sigma^2}{n})"
+    },
+    {
+      "type": "equation",
+      "content": "H(x) = \\mathbb{P}(T < x) = \\Phi(x)"
+    },
+    {
+      "type": "equation",
+      "content": "-q"
+    },
+    {
+      "type": "equation",
+      "content": "q"
+    },
+    {
+      "type": "equation",
+      "content": "\\gamma = 0,95 ="
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(-q < T < q) = \\mathbb{P}\\left(-q < \\frac{\\bar{X}_n^{(1)} - \\mu}{\\sigma / \\sqrt{n}} < q\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "q = 1,96"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}\\left(\\underbrace{\\bar{X}_n^{(1)} - \\frac{q \\sigma}{\\sqrt{n}}}_{T_1} < \\mu < \\underbrace{\\bar{X}_n^{(1)} + \\frac{q \\sigma}{\\sqrt{n}}}_{T_2}\\right) ="
+    },
+    {
+      "type": "equation",
+      "content": "T_1 = \\bar{X}_n^{(1)} - \\frac{q \\sigma}{\\sqrt{n}}"
+    },
+    {
+      "type": "equation",
+      "content": "T_2 = \\bar{X}_n^{(1)} + \\frac{q \\sigma}{\\sqrt{n}}"
+    },
+    {
+      "type": "equation",
+      "content": "T_2 - T_1 = \\frac{2 q \\sigma}{\\sqrt{n}}"
+    }
+  ]
+}

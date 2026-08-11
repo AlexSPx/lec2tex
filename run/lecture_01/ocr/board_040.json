@@ -1,0 +1,14 @@
+{
+  "timestamp": 1093.0,
+  "image": "board_040.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства:"
+    },
+    {
+      "type": "equation",
+      "content": "\\bigcup_{i=1}^{\\infty} A_i"
+    }
+  ]
+}

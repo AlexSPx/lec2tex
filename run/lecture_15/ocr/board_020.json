@@ -1,0 +1,66 @@
+{
+  "timestamp": 1299.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "зад. 2"
+    },
+    {
+      "type": "equation",
+      "content": "|M|=n"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "разл. ел. от"
+    },
+    {
+      "type": "equation",
+      "content": "M"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "equation",
+      "content": "n-1"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "n-k+1"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "ел."
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{n(n-1)\\dots(n-k+1)}{k!} = \\frac{n!}{k!(n-k)!} = \\binom{n}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^k b^{n-k}"
+    },
+    {
+      "type": "equation",
+      "content": "(a+b"
+    }
+  ]
+}

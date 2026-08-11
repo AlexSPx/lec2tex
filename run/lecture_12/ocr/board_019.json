@@ -1,0 +1,42 @@
+{
+  "timestamp": 5241.0,
+  "image": "board_019.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на точковите оценки:"
+    },
+    {
+      "type": "text",
+      "content": "ако не знаете"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\sigma}^2 = \\frac{1}{n} \\sum_{j=1}^{n} (X_j - \\bar{X}_n^{(1)})^2 = \\bar{X}_n^{(2)} - (\\bar{X}_n^{(1)})^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}\\hat{\\sigma}^2 = \\frac{n-1}{n} \\sigma^2 \\neq \\sigma^2"
+    },
+    {
+      "type": "text",
+      "content": "изместена оценка."
+    },
+    {
+      "type": "equation",
+      "content": "S^2 = \\frac{n}{n-1} \\hat{\\sigma}^2, \\quad \\mathbb{E}S^2 = \\frac{n}{n-1} \\frac{n-1}{n} \\sigma^2 = \\sigma^2 !"
+    },
+    {
+      "type": "equation",
+      "content": "S^2 = \\frac{1}{n-1} \\sum_{j=1}^{n} (X_j - \\bar{X}_n^{(1)})^2"
+    }
+  ]
+}

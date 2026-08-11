@@ -1,0 +1,94 @@
+{
+  "timestamp": 801.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "избирате"
+    },
+    {
+      "type": "equation",
+      "content": "q_1"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "q_2"
+    },
+    {
+      "type": "text",
+      "content": ":"
+    },
+    {
+      "type": "equation",
+      "content": "H(q_2) - H(q_1) = \\gamma"
+    },
+    {
+      "type": "text",
+      "content": "Имате 2 два свободни параметъра."
+    },
+    {
+      "type": "equation",
+      "content": "H'(x) = h(x)"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{1-\\gamma}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "\\gamma"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{1-\\gamma}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "h(x)"
+    },
+    {
+      "type": "equation",
+      "content": "q_1"
+    },
+    {
+      "type": "equation",
+      "content": "q_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{1-\\gamma}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "h"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{1-\\gamma}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "1 - \\frac{1-\\gamma}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "-q"
+    },
+    {
+      "type": "equation",
+      "content": "q"
+    },
+    {
+      "type": "equation",
+      "content": "-q = q_{\\frac{1-\\gamma}{2}}, q = q_{\\frac{1+\\gamma}{2}}"
+    }
+  ]
+}

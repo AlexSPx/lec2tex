@@ -1,0 +1,86 @@
+{
+  "timestamp": 1887.0,
+  "image": "board_015.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са дискретни сл. вел. Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X|Y=y_j] = \\sum_i x_i \\mathbb{P}(B_i | A_j)"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "B_i = \\{X=x_i\\}"
+    },
+    {
+      "type": "equation",
+      "content": "A_j = \\{Y=y_j\\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X|Y] = \\sum_j \\mathbb{E}[X|Y=y_j] 1_{A_j}"
+    },
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са дискретни сл. вел, то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X|Y]"
+    },
+    {
+      "type": "text",
+      "content": "е дискретна сл. вел. със следната таблица"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c|c|c} \\mathbb{E}[X|Y] & \\mathbb{E}[X|Y=y_1] & \\dots & \\mathbb{E}[X|Y=y_j] & \\dots \\\\ \\hline & p_1=\\mathbb{P}(A_1) & \\dots & p_j=\\mathbb{P}(A_j) & \\dots \\end{array}"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp": 3519.0,
+  "image": "board_030.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}_2"
+    },
+    {
+      "type": "equation",
+      "content": "\\vdots"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathcal{H}"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    }
+  ]
+}

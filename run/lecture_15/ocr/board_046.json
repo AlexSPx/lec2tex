@@ -1,0 +1,142 @@
+{
+  "timestamp": 2982.0,
+  "image": "board_046.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "text",
+      "content": "1-ва"
+    },
+    {
+      "type": "text",
+      "content": "2-ра"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "text",
+      "content": "k-та"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "общо"
+    },
+    {
+      "type": "equation",
+      "content": "n^k"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "частици, различни"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "equation",
+      "content": "k \\ge n"
+    },
+    {
+      "type": "text",
+      "content": "# : няма празна клетка"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    },
+    {
+      "type": "equation",
+      "content": "\\circ"
+    },
+    {
+      "type": "equation",
+      "content": "\\circ"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\circ"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    }
+  ]
+}

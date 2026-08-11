@@ -1,0 +1,58 @@
+{
+  "timestamp": 1017.0,
+  "image": "board_015.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Сл.: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са целочислени. Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "X \\stackrel{d}{=} Y \\iff"
+    },
+    {
+      "type": "equation",
+      "content": "g_X \\equiv g_Y."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\"\\Rightarrow\""
+    },
+    {
+      "type": "equation",
+      "content": "X \\stackrel{d}{=} Y,"
+    },
+    {
+      "type": "equation",
+      "content": "\\Leftrightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=n)=\\mathbb{P}(Y=n),"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall n \\ge 0."
+    }
+  ]
+}

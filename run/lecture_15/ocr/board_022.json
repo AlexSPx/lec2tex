@@ -1,0 +1,102 @@
+{
+  "timestamp": 1440.0,
+  "image": "board_022.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Зад. 2"
+    },
+    {
+      "type": "equation",
+      "content": "|M| = n"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "разл. ел. от"
+    },
+    {
+      "type": "equation",
+      "content": "M"
+    },
+    {
+      "type": "equation",
+      "content": "n \\quad n-1 \\quad \\dots \\quad n-k+1"
+    },
+    {
+      "type": "equation",
+      "content": "\\square \\quad \\square \\quad \\dots \\quad \\square"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "ел."
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{n(n-1) \\dots (n-k+1)}{k!} = \\boxed{\\frac{n!}{k!(n-k)!} = \\binom{n}{k}}"
+    },
+    {
+      "type": "equation",
+      "content": "(a+b)^n = \\sum_{k=0}^n \\binom{n}{k} a^k b^{n-k}"
+    },
+    {
+      "type": "equation",
+      "content": "(a+b)(a+b) \\dots (a+b)"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow \\quad \\downarrow \\quad \\dots \\quad \\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "a \\quad a \\quad \\dots \\quad a"
+    },
+    {
+      "type": "equation",
+      "content": "(1+1)^n = 2^n = \\sum_{k=0}^n \\binom{n}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "\\square \\quad \\square \\quad \\dots \\quad \\square"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "ел."
+    },
+    {
+      "type": "equation",
+      "content": "1 \\quad 1 \\quad \\dots \\quad 1"
+    },
+    {
+      "type": "equation",
+      "content": "(a_1, \\dots, a_k)"
+    },
+    {
+      "type": "text",
+      "content": ", т.е. редът"
+    },
+    {
+      "type": "text",
+      "content": "има значение"
+    },
+    {
+      "type": "text",
+      "content": "Както преди:"
+    }
+  ]
+}

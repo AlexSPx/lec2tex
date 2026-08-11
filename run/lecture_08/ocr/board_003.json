@@ -1,0 +1,26 @@
+{
+  "timestamp": 324.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus. Y = \\left\\{ \\begin{matrix} 1 \\\\ 0 \\end{matrix} \\right."
+    },
+    {
+      "type": "equation",
+      "content": "Y = 1_A"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{R}"
+    }
+  ]
+}

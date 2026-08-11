@@ -1,0 +1,74 @@
+{
+  "timestamp": 4266.0,
+  "image": "board_017.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Ковариация"
+    },
+    {
+      "type": "text",
+      "content": "Деф:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "(X, Y)"
+    },
+    {
+      "type": "text",
+      "content": "са две сл. вел. Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "cov(X; Y) = \\mathbb{E}[(X - \\mathbb{E}X)(Y - \\mathbb{E}Y)],"
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "text",
+      "content": "центрирани"
+    },
+    {
+      "type": "text",
+      "content": "очакването е крайно."
+    },
+    {
+      "type": "equation",
+      "content": "\\widetilde{X} = X - \\mathbb{E}X;"
+    },
+    {
+      "type": "equation",
+      "content": "\\widetilde{Y} = Y - \\mathbb{E}Y,"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "cov(X; Y) = \\mathbb{E}\\widetilde{X}\\widetilde{Y}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}\\widetilde{X} = \\mathbb{E}\\widetilde{Y} = 0"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X - \\mathbb{E}X = 0"
+    },
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "equation",
+      "content": "cov(X; Y) = \\mathbb{E}XY - \\mathbb{E}X\\mathbb{E}Y"
+    }
+  ]
+}

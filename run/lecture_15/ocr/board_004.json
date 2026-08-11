@@ -1,0 +1,50 @@
+{
+  "timestamp": 237.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Вероятности и статистика"
+    },
+    {
+      "type": "text",
+      "content": "ези/тура"
+    },
+    {
+      "type": "text",
+      "content": "Каква е вероятността от 10 хв. да имаме 6 езита?"
+    },
+    {
+      "type": "equation",
+      "content": "\\rightarrow \\mathbb{P}(\\dots) = \\binom{10}{6}\\left(\\frac{1}{2}\\right)^{10}"
+    },
+    {
+      "type": "text",
+      "content": "Закон за гол. числа:"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\#\\text{езита}}{\\#\\text{хвърляния}} \\xrightarrow[\\text{хвърляния} \\to \\infty]{} \\frac{1}{2}"
+    },
+    {
+      "type": "equation",
+      "content": "X_1 = 1"
+    },
+    {
+      "type": "text",
+      "content": "за ези"
+    },
+    {
+      "type": "equation",
+      "content": "X_1 = 0"
+    },
+    {
+      "type": "text",
+      "content": "за тура"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{X_1 + \\dots + X_n}{n} \\xrightarrow[n \\to \\infty]{} \\frac{1}{2}"
+    }
+  ]
+}

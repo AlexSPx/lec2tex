@@ -1,0 +1,398 @@
+[
+  {
+    "timestamp": 0.0,
+    "image": "board_001.png",
+    "speech": "на А допълнение, то Омега не принадлежи на А. Тоест, това е допълнението. Грубо казано, какво е вашето Омега. Много често така човек си го представя, незвисимо доли е дискретно или не, като някакво множество. И да кажем, това е вашето А.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Деф (\"допълнение\")"
+      },
+      {
+        "type": "equation",
+        "latex": "A \\subseteq \\Omega,"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c = \\Omega \\setminus A"
+      },
+      {
+        "type": "text",
+        "text": "или"
+      },
+      {
+        "type": "text",
+        "text": "ако"
+      },
+      {
+        "type": "equation",
+        "latex": "\\omega \\in A^c"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "A \\subseteq \\Omega,",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A^c = \\Omega \\setminus A",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\omega \\in A^c",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 31.0,
+    "image": "board_002.png",
+    "speech": "И да кажем, това е вашето А. Това тук е А допълнение. Омега в някакъв смисъл е А, обединено с А допълнение. И в примерите, които имахме, да кажем за клиентите, когато върнем събитието А, жени. Допълнението на А ще бъде мъже.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Деф: (\"допълнение\")"
+      },
+      {
+        "type": "equation",
+        "latex": "A \\subseteq \\Omega,"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c = \\Omega \\setminus A"
+      },
+      {
+        "type": "text",
+        "text": "или"
+      },
+      {
+        "type": "text",
+        "text": "събитието"
+      },
+      {
+        "type": "text",
+        "text": "ако"
+      },
+      {
+        "type": "equation",
+        "latex": "\\omega \\in A^c,"
+      },
+      {
+        "type": "text",
+        "text": "то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\omega \\notin A."
+      },
+      {
+        "type": "equation",
+        "latex": "A"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Omega = A \\cup A^c"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "A \\subseteq \\Omega,",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A^c = \\Omega \\setminus A",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\omega \\in A^c,",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\omega \\notin A.",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A^c",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\Omega = A \\cup A^c",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 46.0,
+    "image": "board_003.png",
+    "speech": "Това е да кажем допълнението на множеството А, когато върнем събитието А, като събитието А беше жени. Например, друго събитие, допълнение е 2, 4, 6,",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Деф: (\"допълнение\")"
+      },
+      {
+        "type": "equation",
+        "latex": "A \\subseteq \\Omega"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c = \\Omega \\setminus A"
+      },
+      {
+        "type": "text",
+        "text": "или"
+      },
+      {
+        "type": "text",
+        "text": "събитието ако"
+      },
+      {
+        "type": "equation",
+        "latex": "\\omega \\in A^c"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\omega \\notin A"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "equation",
+        "latex": "A"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Omega = A \\cup A^c"
+      },
+      {
+        "type": "text",
+        "text": "+"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c = \\{ \\text{мъжко} \\};"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "A \\subseteq \\Omega",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A^c = \\Omega \\setminus A",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\omega \\in A^c",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\omega \\notin A",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A^c",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\Omega = A \\cup A^c",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "A^c = \\{ \\text{мъжко} \\};",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\{ \\text{мъжко} \\};\n~~~~~~~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 60.0,
+    "image": "board_004.png",
+    "speech": "допълнение е 2, 4, 6, ако се върнем, например, за числата, когато да оттърваме на зарче. И още един пример за допълнение. Може да бъде на пример. Не гласували за партия Х. Т.е. Ако имате някакъв признак, по който определяте А, то допълнението на А са всички елементарни събития, които не е удобно. времето върнем този признак. Т.е. които не са жени, които не са гласувани за Х. и които не са нечетни, т.е. са четни.",
+    "board_items": [
+      {
+        "type": "text",
+        "text": "Деф: (\"допълнение\")"
+      },
+      {
+        "type": "equation",
+        "latex": "A \\subseteq \\Omega"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c = \\Omega \\setminus A"
+      },
+      {
+        "type": "text",
+        "text": "или"
+      },
+      {
+        "type": "text",
+        "text": "събитието ако"
+      },
+      {
+        "type": "equation",
+        "latex": "\\omega \\in A^c"
+      },
+      {
+        "type": "text",
+        "text": ", то"
+      },
+      {
+        "type": "equation",
+        "latex": "\\omega \\notin A"
+      },
+      {
+        "type": "text",
+        "text": "."
+      },
+      {
+        "type": "equation",
+        "latex": "A"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Omega = A \\cup A^c"
+      },
+      {
+        "type": "text",
+        "text": "+"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c = \\{\\text{мъжко}\\}"
+      },
+      {
+        "type": "text",
+        "text": ";"
+      },
+      {
+        "type": "equation",
+        "latex": "A^c = \\{2, 4, 6\\}"
+      }
+    ],
+    "verification": {
+      "sympy": [
+        {
+          "latex": "A \\subseteq \\Omega",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A^c = \\Omega \\setminus A",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "\\omega \\in A^c",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\omega \\notin A",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "A^c",
+          "sympy_status": "ok",
+          "detail": "parsed"
+        },
+        {
+          "latex": "\\Omega = A \\cup A^c",
+          "sympy_status": "ok",
+          "detail": "parsed (symbolic, not a numeric identity)"
+        },
+        {
+          "latex": "A^c = \\{\\text{мъжко}\\}",
+          "sympy_status": "unparsed",
+          "detail": "I don't understand this\n\\{\\text{мъжко}\\}\n~~~~~~~~^"
+        },
+        {
+          "latex": "A^c = \\{2, 4, 6\\}",
+          "sympy_status": "unparsed",
+          "detail": "I expected one of these: '\\}'\n\\{2, 4, 6\\}\n~~~^"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 125.0,
+    "image": "board_005.png",
+    "speech": "са четни. това са тези операции, за които ние имаме възмегли, т.е. вопълнение, вънтрициалния пуската. И това да видим някой пример да не пропусна. Мисля, че няма. Това горе-долу съм го написал. И са някои други, те са пак кръстени операции, с множество. Или по-скоро свойство, искате. Т.е. че ясен знам как да го кръстам. Това е нещо, повечето тях са съвсем естествените, с толкова тим няма, че това може да го забравя. А, угадименост Б е всъщност Б, обединено с А, т.е. имате някаква коммунитативност. Имате А сечено с Б и всъщност Б сечено с А. Имате А обединено с Б обединено с С, т.е. имате три събития, или А, т.е. или Б, или С, и добавено същото обединение с А, тоже. Абонирайте се!",
+    "board_items": [],
+    "verification": {
+      "sympy": []
+    }
+  }
+]

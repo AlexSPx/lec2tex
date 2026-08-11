@@ -1,0 +1,50 @@
+{
+  "timestamp": 1122.0,
+  "image": "board_010.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A) = \\mathbb{E} 1_A"
+    },
+    {
+      "type": "equation",
+      "content": "\\min_G \\mathbb{E}(X - G(Y))^2 = \\min_{a,b \\in \\mathbb{R}} \\underbrace{\\mathbb{E}(X - a 1_A - b 1_{A^C})^2}_{f(a,b)} = \\min_{a,b \\in \\mathbb{R}} f(a,b)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow G^*(Y) = \\frac{\\mathbb{E} X 1_A}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{E} X 1_{A^C}}{\\mathbb{P}(A^C)} 1_{A^C} =: \\mathbb{E}(X|Y)"
+    },
+    {
+      "type": "equation",
+      "content": "X = 1_B"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow G^*(Y) = \\frac{\\mathbb{E} 1_B 1_A}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{E} 1_B 1_{A^C}}{\\mathbb{P}(A^C)} 1_{A^C}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{\\mathbb{P}(A \\cap B)}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{P}(A^C \\cap B)}{\\mathbb{P}(A^C)} 1_{A^C}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}(B|A) 1_A + \\mathbb{P}(B|A^C) 1_{A^C}"
+    },
+    {
+      "type": "equation",
+      "content": "B"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "B^C"
+    },
+    {
+      "type": "equation",
+      "content": "A^C"
+    }
+  ]
+}

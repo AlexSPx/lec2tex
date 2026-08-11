@@ -1,0 +1,46 @@
+{
+  "timestamp": 4839.0,
+  "image": "board_050.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Ge(p)"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X \\geq m+k \\mid X \\geq k) = \\mathbb{P}(X \\geq m)"
+    },
+    {
+      "type": "text",
+      "content": "(безпаметност)"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall m \\geq 0"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall k \\geq 0"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "text",
+      "content": "memoryless"
+    }
+  ]
+}

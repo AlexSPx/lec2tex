@@ -1,0 +1,66 @@
+{
+  "timestamp": 46.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: (\"допълнение\")"
+    },
+    {
+      "type": "equation",
+      "content": "A \\subseteq \\Omega"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "A^c = \\Omega \\setminus A"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "text",
+      "content": "събитието ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in A^c"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\notin A"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "A^c"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = A \\cup A^c"
+    },
+    {
+      "type": "text",
+      "content": "+"
+    },
+    {
+      "type": "equation",
+      "content": "A^c = \\{ \\text{мъжко} \\};"
+    }
+  ]
+}

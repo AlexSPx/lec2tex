@@ -1,0 +1,46 @@
+{
+  "timestamp": 3930.0,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "7."
+    },
+    {
+      "type": "equation",
+      "content": "X_n = \\begin{cases} 1 & p^n \\\\ n+1 & 1-p^n \\end{cases}"
+    },
+    {
+      "type": "equation",
+      "content": "1-p = 0,01 ; 0,05"
+    },
+    {
+      "type": "text",
+      "content": "заразен"
+    },
+    {
+      "type": "equation",
+      "content": "p"
+    },
+    {
+      "type": "text",
+      "content": "- незаразен"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\mathbb{E} X_n}{n} = \\frac{1}{n} ( 1 \\cdot p^n + (n+1)(1-p^n) )"
+    },
+    {
+      "type": "equation",
+      "content": "= 1 + \\frac{1}{n} - p^n \\xrightarrow[n \\ge 1]{\\min}"
+    },
+    {
+      "type": "equation",
+      "content": "n = 5"
+    },
+    {
+      "type": "equation",
+      "content": "\\min_{n \\ge 1} \\frac{\\mathbb{E} X_n}{n} = \\frac{\\mathbb{E} X_5}{5} = 0,43 \\implies \\mathbb{E} X_5 = 2,15."
+    }
+  ]
+}

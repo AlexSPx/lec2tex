@@ -1,0 +1,90 @@
+[
+  {
+    "timestamp": 0.0,
+    "image": "board_001.png"
+  },
+  {
+    "timestamp": 618.0,
+    "image": "board_002.png"
+  },
+  {
+    "timestamp": 1074.0,
+    "image": "board_003.png"
+  },
+  {
+    "timestamp": 1731.0,
+    "image": "board_004.png"
+  },
+  {
+    "timestamp": 1779.0,
+    "image": "board_005.png"
+  },
+  {
+    "timestamp": 1809.0,
+    "image": "board_006.png"
+  },
+  {
+    "timestamp": 2040.0,
+    "image": "board_007.png"
+  },
+  {
+    "timestamp": 2307.0,
+    "image": "board_008.png"
+  },
+  {
+    "timestamp": 2553.0,
+    "image": "board_009.png"
+  },
+  {
+    "timestamp": 3162.0,
+    "image": "board_010.png"
+  },
+  {
+    "timestamp": 3168.0,
+    "image": "board_011.png"
+  },
+  {
+    "timestamp": 3174.0,
+    "image": "board_012.png"
+  },
+  {
+    "timestamp": 3186.0,
+    "image": "board_013.png"
+  },
+  {
+    "timestamp": 3192.0,
+    "image": "board_014.png"
+  },
+  {
+    "timestamp": 3429.0,
+    "image": "board_015.png"
+  },
+  {
+    "timestamp": 3930.0,
+    "image": "board_016.png"
+  },
+  {
+    "timestamp": 4005.0,
+    "image": "board_017.png"
+  },
+  {
+    "timestamp": 4320.0,
+    "image": "board_018.png"
+  },
+  {
+    "timestamp": 4548.0,
+    "image": "board_019.png"
+  },
+  {
+    "timestamp": 4605.0,
+    "image": "board_020.png"
+  },
+  {
+    "timestamp": 5619.0,
+    "image": "board_021.png"
+  },
+  {
+    "timestamp": 6135.0,
+    "image": "board_022.png"
+  }
+]

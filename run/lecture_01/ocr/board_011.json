@@ -1,0 +1,22 @@
+{
+  "timestamp": 559.33,
+  "image": "board_011.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Omega = \\bigotimes_{i=1}^{10.000} \\Omega_i"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in \\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega = (\\omega^{(1)}, \\omega^{(2)}, \\dots, \\omega^{(10000)})"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": 3378.0,
+  "image": "board_020.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\bigcap_{i=1}^{9999} A_i^c ) = 1 - \\prod_{i=1}^{9999} \\mathbb{P}(A_i^c)"
+    },
+    {
+      "type": "equation",
+      "content": "))^{9999}"
+    },
+    {
+      "type": "equation",
+      "content": "( \\mathbb{P}(A_1^c) = \\mathbb{P}(A_i^c)"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall 1 < i \\le 9999"
+    }
+  ]
+}

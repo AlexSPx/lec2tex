@@ -1,0 +1,146 @@
+{
+  "timestamp": 1536.0,
+  "image": "board_023.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Зад. 2"
+    },
+    {
+      "type": "equation",
+      "content": "|M|=n"
+    },
+    {
+      "type": "text",
+      "content": "а) k разл. ел. от M"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "equation",
+      "content": "n-1"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "n-k+1"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "text",
+      "content": "k ел."
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{n(n-1)\\dots(n-k+1)}{k!} = \\frac{n!}{k!(n-k)!} = \\binom{n}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "(a+b)^n = \\sum_{k=0}^n \\binom{n}{k} a^k b^{n-k}"
+    },
+    {
+      "type": "equation",
+      "content": "(a+b)(a+b)\\dots(a+b)"
+    },
+    {
+      "type": "equation",
+      "content": "a"
+    },
+    {
+      "type": "equation",
+      "content": "a"
+    },
+    {
+      "type": "equation",
+      "content": "a"
+    },
+    {
+      "type": "equation",
+      "content": "(1+1)^n = 2^n = \\sum_{k=0}^n \\binom{n}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\square"
+    },
+    {
+      "type": "text",
+      "content": "n ел."
+    },
+    {
+      "type": "equation",
+      "content": "1"
+    },
+    {
+      "type": "equation",
+      "content": "1"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "1"
+    },
+    {
+      "type": "equation",
+      "content": "(a_1, \\dots, a_k)"
+    },
+    {
+      "type": "text",
+      "content": "k-орка от различни"
+    },
+    {
+      "type": "text",
+      "content": ", т.е. редът"
+    },
+    {
+      "type": "text",
+      "content": "има значение"
+    },
+    {
+      "type": "text",
+      "content": "Както преди:"
+    },
+    {
+      "type": "equation",
+      "content": "n(n-1)\\dots(n-k+1) = \\frac{n!}{(n-k)!} = V_n^k"
+    },
+    {
+      "type": "equation",
+      "content": "\\{a_1, \\dots, a_k\\}"
+    }
+  ]
+}

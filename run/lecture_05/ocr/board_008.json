@@ -1,0 +1,50 @@
+{
+  "timestamp": 2307.0,
+  "image": "board_008.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_{i,j} x_i \\mathbb{P}(X=x_i; Y=y_j) + \\sum_{i,j} y_j \\mathbb{P}(X=x_i; Y=y_j)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_{i} x_i \\sum_{j} \\mathbb{P}(X=x_i; Y=y_j) + \\sum_{j} y_j \\sum_{i} \\mathbb{P}(X=x_i; Y=y_j)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_{i} x_i \\mathbb{P}(X=x_i) + \\sum_{j} y_j \\mathbb{P}(Y=y_j)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "Y=y_1"
+    },
+    {
+      "type": "equation",
+      "content": "X=x_i"
+    },
+    {
+      "type": "equation",
+      "content": "Y=y_2"
+    },
+    {
+      "type": "equation",
+      "content": "Y=y_j"
+    },
+    {
+      "type": "equation",
+      "content": "\\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\{X=x_i\\} = \\{X=x_i\\} \\cap \\Omega = \\{X=x_i\\} \\cap \\bigcup_{j} \\{Y=y_j\\}"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp": 6321.0,
+  "image": "board_032.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "H_0: \\theta = \\theta_0"
+    },
+    {
+      "type": "equation",
+      "content": "H_1: \\theta = \\theta_1 ; L_1, L_0, \\vec{X}, \\alpha"
+    },
+    {
+      "type": "equation",
+      "content": "\\Sigma"
+    }
+  ]
+}

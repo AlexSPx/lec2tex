@@ -1,0 +1,54 @@
+{
+  "timestamp": 6072.0,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Сл."
+    },
+    {
+      "type": "equation",
+      "content": "X_n \\sim \\text{Bin}(n, p)"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{X_n - np}{\\sqrt{np(1-p)}} \\xrightarrow[n \\to \\infty]{d} Z"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "X_n = \\sum_{j=1}^n Y_j"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "Y_j \\in \\text{Ber}(p)"
+    },
+    {
+      "type": "equation",
+      "content": "\\sigma = \\sqrt{p(1-p)}"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{X_n - np}{\\sqrt{np(1-p)}} \\xrightarrow[n \\to \\infty]{d} Z"
+    },
+    {
+      "type": "equation",
+      "content": "k_n = np + a"
+    },
+    {
+      "type": "equation",
+      "content": "P(X_n \\ge k_n) = P\\left( \\frac{X_n - np}{\\sqrt{np(1-p)}} \\ge \\frac{k_n - np}{\\sqrt{np(1-p)}} \\right) \\approx P\\left( Z \\ge \\frac{k_n - np}{\\sqrt{np(1-p)}} \\right)"
+    }
+  ]
+}

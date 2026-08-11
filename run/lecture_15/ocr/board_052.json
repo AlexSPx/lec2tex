@@ -1,0 +1,34 @@
+{
+  "timestamp": 3357.0,
+  "image": "board_052.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "неразличими частици в"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "клетки"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n}{k}"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    }
+  ]
+}

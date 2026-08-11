@@ -1,0 +1,30 @@
+{
+  "timestamp": 4593.0,
+  "image": "board_035.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Условни разпределения:"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са дискретни"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X | Y = y_j] = \\sum_i x_i \\mathbb{P}(X = x_i | Y = y_j)"
+    }
+  ]
+}

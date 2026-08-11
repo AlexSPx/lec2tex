@@ -1,0 +1,58 @@
+{
+  "timestamp": 8508.0,
+  "image": "board_058.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Теор: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е с.в. и"
+    },
+    {
+      "type": "equation",
+      "content": "g : \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "type": "text",
+      "content": "която строго монотонно растяща,"
+    },
+    {
+      "type": "text",
+      "content": "или намаляваща."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y = g(X)"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "f_Y(y) = f_X(g^{-1}(y)) \\left| (g^{-1}(y))' \\right|"
+    },
+    {
+      "type": "text",
+      "content": "Забел:"
+    },
+    {
+      "type": "equation",
+      "content": "0"
+    },
+    {
+      "type": "equation",
+      "content": "2"
+    }
+  ]
+}

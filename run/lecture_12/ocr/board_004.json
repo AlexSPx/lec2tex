@@ -1,0 +1,50 @@
+{
+  "timestamp": 2367.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "А. Метод на максималното правдоподобие (МПО)"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{1}{\\theta^n}"
+    },
+    {
+      "type": "text",
+      "content": "е намаляваща по"
+    },
+    {
+      "type": "equation",
+      "content": "\\theta"
+    },
+    {
+      "type": "equation",
+      "content": "X^*"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{1}{\\theta^n}"
+    },
+    {
+      "type": "equation",
+      "content": "\\theta"
+    },
+    {
+      "type": "equation",
+      "content": "L(\\vec{X}, \\theta) = \\prod_{j=1}^{n} \\frac{1}{\\theta} 1_{(0, \\theta)}(X_j)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{1}{\\theta^n} 1_{(0, \\theta)}(X^*) = \\begin{cases} \\frac{1}{\\theta^n} & X^* \\le \\theta \\\\ 0 & X^* > \\theta \\end{cases}"
+    },
+    {
+      "type": "equation",
+      "content": "L(\\vec{X}, \\hat{\\theta}) = \\sup_{\\theta > 0} L(\\vec{X}, \\theta)"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\theta} = \\max_{j \\le n}(X_j) , \\hat{\\theta} = \\hat{\\theta}(\\vec{X})"
+    }
+  ]
+}

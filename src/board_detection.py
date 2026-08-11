@@ -155,14 +155,19 @@ def main():
     parser.add_argument("--output-json", type=str, default="board_corners.json", help="Path to save corners JSON")
     parser.add_argument("--output-rectified", type=str, default="rectified_board.png", help="Path to save rectified board image")
     parser.add_argument("--manual-corners", type=str, default=None, help="Optional manual corners JSON path or raw list [[x,y],...]")
+    parser.add_argument("--no-rectify", action="store_true", help="Skip perspective detection; use the full frame (modern VLMs tolerate skew)")
     args = parser.parse_args()
-    
+
     # Get a clean background frame using median filter
     print("Generating median frame from video...")
     median_frame = get_median_frame(args.video)
-    
+
     corners = None
-    if args.manual_corners:
+    if args.no_rectify:
+        h, w = median_frame.shape[:2]
+        corners = np.array([[0, 0], [w, 1], [w, h], [1, h]], dtype="float32")
+        print("--no-rectify: using full-frame corners (no perspective correction).")
+    elif args.manual_corners:
         try:
             if os.path.exists(args.manual_corners):
                 with open(args.manual_corners, "r") as f:

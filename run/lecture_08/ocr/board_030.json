@@ -1,0 +1,26 @@
+{
+  "timestamp": 3972.0,
+  "image": "board_030.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim \\text{Ber}(Y)"
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\begin{cases} \\frac{2}{3} & p \\\\ \\frac{1}{3} & 1-p \\end{cases}"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "X \\perp\\!\\!\\!\\perp Y"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": 2340.0,
+  "image": "board_006.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Дискретни случайни величини"
+    },
+    {
+      "type": "equation",
+      "content": "V"
+    }
+  ]
+}

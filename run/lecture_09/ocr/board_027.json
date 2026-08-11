@@ -1,0 +1,22 @@
+{
+  "timestamp": 8775.0,
+  "image": "board_027.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Сл.) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X_1, \\dots, X_n"
+    },
+    {
+      "type": "text",
+      "content": "са незав. в съвкупност"
+    },
+    {
+      "type": "equation",
+      "content": "X_i \\sim Exp(\\lambda), \\quad i=1,\\dots,n"
+    }
+  ]
+}

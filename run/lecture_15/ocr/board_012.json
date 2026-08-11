@@ -1,0 +1,26 @@
+{
+  "timestamp": 516.0,
+  "image": "board_012.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Статистика"
+    },
+    {
+      "type": "text",
+      "content": "Наблюдаваме монета"
+    },
+    {
+      "type": "text",
+      "content": "EEETTEEEEEE"
+    },
+    {
+      "type": "equation",
+      "content": "P(\\text{да се падне ези}) = p"
+    },
+    {
+      "type": "text",
+      "content": "С"
+    }
+  ]
+}

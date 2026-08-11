@@ -1,0 +1,54 @@
+{
+  "timestamp": 9591.0,
+  "image": "board_029.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Теор.) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "Z_1, \\dots, Z_n"
+    },
+    {
+      "type": "text",
+      "content": "са стандартни норм. разпр. и независими"
+    },
+    {
+      "type": "text",
+      "content": "в съвкупност"
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y = \\sum_{j=1}^n (Z_j)^2 \\sim \\chi^2(n)"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "text",
+      "content": "Ще покажем, че"
+    },
+    {
+      "type": "equation",
+      "content": "(Z_j^2) \\sim \\chi^2(1) = \\Gamma(\\frac{1}{2}, \\frac{1}{2})"
+    },
+    {
+      "type": "equation",
+      "content": "T_i = Z_i^2 \\sim \\chi^2(1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_{j=1}^n Z_j^2 \\sim \\chi^2(n) = \\Gamma(\\frac{n}{2}, \\frac{1}{2})"
+    },
+    {
+      "type": "equation",
+      "content": "T_i = g(Z_i) = Z_i^2"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "timestamp": 1012.0,
+  "image": "board_030.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства:"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cup B = B \\cup A;"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cap B = B \\cap A"
+    },
+    {
+      "type": "text",
+      "content": "б)."
+    },
+    {
+      "type": "equation",
+      "content": "A \\cup (B \\cup C) = (A \\cup B) \\cup C = A \\cup B \\cup C"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cap (B \\cap C) = (A \\cap B) \\cap C = A \\cap B \\cap C"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)"
+    },
+    {
+      "type": "text",
+      "content": "г)."
+    },
+    {
+      "type": "text",
+      "content": "Ако"
+    },
+    {
+      "type": "equation",
+      "content": "A_i, i \\ge 1"
+    },
+    {
+      "type": "text",
+      "content": "са събития то"
+    },
+    {
+      "type": "equation",
+      "content": "\\bigcup_{i=1}^{\\infty} A_i"
+    }
+  ]
+}

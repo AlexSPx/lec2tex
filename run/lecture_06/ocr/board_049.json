@@ -1,0 +1,14 @@
+{
+  "timestamp": 4695.0,
+  "image": "board_049.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\frac{\\frac{1}{2}}{\\frac{1}{2}} = 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\frac{0,95}{0,05} = 19"
+    }
+  ]
+}

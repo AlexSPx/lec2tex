@@ -1,0 +1,26 @@
+{
+  "timestamp": 408.33,
+  "image": "board_006.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega = \\{ \\text{'ези'}; \\text{'тура'} \\},"
+    },
+    {
+      "type": "text",
+      "content": "Деф: За даден случаен експеримент, м-вото от елементарни събития се означава с"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "text",
+      "content": "."
+    }
+  ]
+}

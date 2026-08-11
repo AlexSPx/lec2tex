@@ -1,0 +1,34 @@
+{
+  "timestamp": 3822.0,
+  "image": "board_028.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на УМО:"
+    },
+    {
+      "type": "text",
+      "content": "е)."
+    },
+    {
+      "type": "equation",
+      "content": "X \\perp\\!\\!\\!\\perp Y"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "f(X;Y)"
+    },
+    {
+      "type": "text",
+      "content": ", тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[f(X,Y) \\mid Y=y_j] = \\mathbb{E}[f(X;y_j)]"
+    }
+  ]
+}

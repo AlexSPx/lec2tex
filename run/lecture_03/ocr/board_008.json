@@ -1,0 +1,22 @@
+{
+  "timestamp": 2808.0,
+  "image": "board_008.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Де Морган"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A) = 1 - \\mathbb{P}\\left(\\bigcap_{i=1}^{9999} A_i^c\\right) = 1 - \\prod_{i=1}^{9999} \\mathbb{P}(A_i^c)"
+    },
+    {
+      "type": "equation",
+      "content": "= 1 - (\\mathbb{P}(A_1^c))^{9999}"
+    },
+    {
+      "type": "equation",
+      "content": "\\left( \\begin{array}{c} \\mathbb{P}(A_1^c) = \\mathbb{P}(A_i^c) \\\\ \\forall 1 \\le i \\le 9999 \\end{array} \\right)"
+    }
+  ]
+}

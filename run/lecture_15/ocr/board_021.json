@@ -1,0 +1,62 @@
+{
+  "timestamp": 1359.0,
+  "image": "board_021.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Зад. 2"
+    },
+    {
+      "type": "equation",
+      "content": "|M|=n"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "разл. ел. от"
+    },
+    {
+      "type": "equation",
+      "content": "M"
+    },
+    {
+      "type": "equation",
+      "content": "\\overset{n}{\\square} \\quad \\overset{n-1}{\\square} \\quad \\dots \\quad \\overset{n-k+1}{\\square}"
+    },
+    {
+      "type": "equation",
+      "content": "k"
+    },
+    {
+      "type": "text",
+      "content": "ел."
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{n(n-1)\\dots(n-k+1)}{k!} = \\boxed{\\frac{n!}{k!(n-k)!} = \\binom{n}{k}}"
+    },
+    {
+      "type": "equation",
+      "content": "(a+b)^n = \\sum_{k=0}^n \\binom{n}{k} a^k b^{n-k}"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{matrix} (a+b) & (a+b) & \\dots & (a+b) \\\\ \\downarrow & \\downarrow & & \\downarrow \\\\ a & a & \\dots & a \\end{matrix}"
+    },
+    {
+      "type": "equation",
+      "content": "(1+1)^n = 2^n = \\sum_{k=0}^n \\binom{n}{k}"
+    },
+    {
+      "type": "equation",
+      "content": "\\square \\quad \\square \\quad \\dots \\quad \\square"
+    }
+  ]
+}

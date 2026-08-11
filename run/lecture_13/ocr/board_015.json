@@ -1,0 +1,46 @@
+{
+  "timestamp": 2160.0,
+  "image": "board_015.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "T_n = \\frac{Z_n}{\\sqrt{\\frac{U_n}{n-1}}} = \\frac{\\bar{X}_n - \\mu}{S / \\sqrt{n}} \\in t(n-1)"
+    },
+    {
+      "type": "equation",
+      "content": "\\gamma"
+    },
+    {
+      "type": "equation",
+      "content": "T_n"
+    },
+    {
+      "type": "text",
+      "content": "е Ц. С. за"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "equation",
+      "content": "-q"
+    },
+    {
+      "type": "equation",
+      "content": "q"
+    },
+    {
+      "type": "equation",
+      "content": "q = q_{\\frac{1+\\gamma}{2}}"
+    },
+    {
+      "type": "equation",
+      "content": "\\gamma = \\mathbb{P}(I_1 < \\mu < I_2) = \\mathbb{P}(-q < T_n < q)"
+    }
+  ]
+}

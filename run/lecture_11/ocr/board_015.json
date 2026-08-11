@@ -1,0 +1,34 @@
+{
+  "timestamp": 5676.0,
+  "image": "board_015.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(|E_N| > \\varepsilon) \\le \\mathbb{P}(|Z_N| > \\varepsilon 2\\sqrt{N}) \\approx \\mathbb{P}(|Z| > 2\\varepsilon\\sqrt{N})"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{1}{\\sqrt{2\\pi}} \\int_{|y| > 2\\varepsilon\\sqrt{N}} e^{-\\frac{y^2}{2}} dy \\le \\delta"
+    },
+    {
+      "type": "equation",
+      "content": "\\varepsilon = 0,01"
+    },
+    {
+      "type": "equation",
+      "content": "\\delta = 0,01"
+    },
+    {
+      "type": "equation",
+      "content": "\\varepsilon = \\frac{A}{2\\sqrt{N}}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(|E_N| > \\frac{A}{2\\sqrt{N}}) \\le \\frac{1}{\\sqrt{2\\pi}} \\int_{|y|>A} e^{-\\frac{y^2}{2}} dy \\approx \\frac{1}{\\sqrt{2\\pi}} \\frac{e^{-\\frac{A^2}{2}}}{A} \\le \\delta"
+    },
+    {
+      "type": "equation",
+      "content": "< \\frac{1}{100}"
+    }
+  ]
+}

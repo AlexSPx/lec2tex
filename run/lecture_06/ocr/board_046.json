@@ -1,0 +1,50 @@
+{
+  "timestamp": 4434.0,
+  "image": "board_046.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "g'_X(1) = \\frac{pq}{(1-q)^2} = \\frac{q}{p} = \\mathbb{E}X"
+    },
+    {
+      "type": "equation",
+      "content": "g''_X(1) = \\frac{2pq^2}{p^3} = \\frac{2q^2}{p^2} \\Rightarrow DX = \\frac{2q^2}{p^2} + \\frac{q}{p} - \\frac{q^2}{p^2}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{q}{p}\\left(1 + \\frac{q}{p}\\right) = \\frac{q}{p^2}"
+    },
+    {
+      "type": "text",
+      "content": "Сл:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Ge(p)"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\frac{q}{p}, DX = \\frac{q}{p^2}"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "g'_X(s) = \\frac{p \\cdot q}{(1-qs)^2} ;"
+    },
+    {
+      "type": "equation",
+      "content": "g''_X(s) = \\frac{2pq^2}{(1-qs)^3}"
+    }
+  ]
+}

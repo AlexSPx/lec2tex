@@ -1,0 +1,22 @@
+{
+  "timestamp": 855.0,
+  "image": "board_007.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A) = \\mathbb{E} 1_A"
+    },
+    {
+      "type": "equation",
+      "content": "\\min_G \\mathbb{E}(X - G(Y))^2 = \\min_{a, b \\in \\mathbb{R}} \\underbrace{\\mathbb{E}(X - a 1_A - b 1_{A^C})^2}_{f(a, b)} = \\min_{a, b \\in \\mathbb{R}} f(a, b)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow G^*(Y) = \\frac{\\mathbb{E} X 1_A}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{E} X 1_{A^C}}{\\mathbb{P}(A^C)} 1_{A^C} =: \\mathbb{E}(X | Y)"
+    },
+    {
+      "type": "text",
+      "content": "Деф:"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "timestamp": 2358.0,
+  "image": "board_036.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "зад. 3"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_k = n"
+    },
+    {
+      "type": "text",
+      "content": "# решения = ?"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "x_1, \\dots, x_k \\in \\mathbb{N}"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "x_1, \\dots, x_k \\in \\mathbb{N} \\cup \\{0\\} = \\mathbb{N}_0"
+    },
+    {
+      "type": "text",
+      "content": "stars & bars"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + x_2 + x_3 = 6"
+    },
+    {
+      "type": "equation",
+      "content": "x_1"
+    },
+    {
+      "type": "equation",
+      "content": "x_2"
+    },
+    {
+      "type": "equation",
+      "content": "x_3"
+    },
+    {
+      "type": "equation",
+      "content": "6"
+    },
+    {
+      "type": "text",
+      "content": "звезд. и"
+    },
+    {
+      "type": "equation",
+      "content": "2"
+    },
+    {
+      "type": "text",
+      "content": "прегради"
+    },
+    {
+      "type": "equation",
+      "content": "5"
+    },
+    {
+      "type": "text",
+      "content": "позиции за преградите"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "text",
+      "content": "У-то"
+    },
+    {
+      "type": "equation",
+      "content": "x_1+x_2+x_3"
+    },
+    {
+      "type": "text",
+      "content": "има"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{5}{2}"
+    },
+    {
+      "type": "text",
+      "content": "решения в"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{N}"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_k = n"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": "звезд.,"
+    },
+    {
+      "type": "equation",
+      "content": "k-1"
+    },
+    {
+      "type": "text",
+      "content": "прегради"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "n-1"
+    },
+    {
+      "type": "text",
+      "content": "позиции за преградите"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n-1}{k-1}"
+    },
+    {
+      "type": "text",
+      "content": "решения"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "x_1=0"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n+1}{k-1}"
+    },
+    {
+      "type": "equation",
+      "content": "x_1 + \\dots + x_k = n"
+    },
+    {
+      "type": "equation",
+      "content": "(x_1+1) + \\dots + (x_k+1) = n+k"
+    },
+    {
+      "type": "equation",
+      "content": "x_1' + \\dots + x_k' = n+k"
+    },
+    {
+      "type": "text",
+      "content": "Отг. а)"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n+k-1}{k-1}"
+    },
+    {
+      "type": "text",
+      "content": "начина"
+    }
+  ]
+}

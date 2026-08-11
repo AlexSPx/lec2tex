@@ -1,0 +1,42 @@
+{
+  "timestamp": 2064.0,
+  "image": "board_009.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Б Нормално разпределение (Гаусово)"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "equation",
+      "content": "Z = \\frac{X - \\mu}{\\sigma} \\sim N(0, 1)"
+    },
+    {
+      "type": "equation",
+      "content": "1 = \\frac{1}{\\sqrt{2\\pi}\\sigma} \\int_{-\\infty}^{\\infty} e^{-\\frac{y^2}{2\\sigma^2}} dy"
+    },
+    {
+      "type": "text",
+      "content": "Цел:"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow \\sqrt{2\\pi}\\sigma = \\int_{-\\infty}^{\\infty} e^{-\\frac{y^2}{2\\sigma^2}} dy"
+    },
+    {
+      "type": "equation",
+      "content": "\\int_{-\\infty}^{\\infty} y^2 e^{-\\frac{y^2}{2}} dy"
+    },
+    {
+      "type": "equation",
+      "content": "\\sqrt{2\\pi} = \\int_{-\\infty}^{\\infty} -\\frac{y^2}{2} \\cdot \\frac{-2}{\\sigma^3} e^{-\\frac{y^2}{2\\sigma^2}} dy"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow \\sqrt{2\\pi}\\sigma^3 = \\int_{-\\infty}^{\\infty} y^2 e^{-\\frac{y^2}{2\\sigma^2}} dy \\bigg|_{\\sigma=1}"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": 773.0,
+  "image": "board_017.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Операции с множества (събития)"
+    },
+    {
+      "type": "equation",
+      "content": "A \\subseteq B"
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in A \\rightarrow \\omega \\in B"
+    }
+  ]
+}

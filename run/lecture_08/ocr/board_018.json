@@ -1,0 +1,30 @@
+{
+  "timestamp": 2208.0,
+  "image": "board_018.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на УМО:"
+    },
+    {
+      "type": "text",
+      "content": "- a)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[aX+bZ|Y] = a\\mathbb{E}[X|Y] + b\\mathbb{E}[Z|Y]"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[aX+bZ|Y] = \\sum_j \\frac{\\mathbb{E}(aX+bZ)1_{A_j}}{\\mathbb{P}(A_j)} 1_{A_j} ="
+    },
+    {
+      "type": "equation",
+      "content": "A_j=\\{Y=y_j\\}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_j"
+    }
+  ]
+}

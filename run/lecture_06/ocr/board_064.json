@@ -1,0 +1,70 @@
+{
+  "timestamp": 6198.0,
+  "image": "board_064.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д."
+    },
+    {
+      "type": "text",
+      "content": "Поасоново разпределение"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Poi(\\lambda), \\lambda > 0."
+    },
+    {
+      "type": "text",
+      "content": "Деф.:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Poi(\\lambda),"
+    },
+    {
+      "type": "text",
+      "content": "ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = \\frac{\\lambda^k}{k!} e^{-\\lambda} ; \\quad k \\ge 0."
+    },
+    {
+      "type": "equation",
+      "content": "1 \\overset{?}{=} \\sum_{k=0}^{\\infty} \\mathbb{P}(X=k) = e^{-\\lambda} \\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!} = e^{-\\lambda} \\cdot e^{\\lambda} = 1"
+    },
+    {
+      "type": "text",
+      "content": "Тв.:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Poi(\\lambda),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = e^{\\lambda s - \\lambda}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "EX = DX = \\lambda."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\frac{\\lambda^n}{n!} e^{-\\lambda}"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": 4197.0,
+  "image": "board_012.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во. (ЦГТ)"
+    },
+    {
+      "type": "text",
+      "content": "Цел:"
+    },
+    {
+      "type": "equation",
+      "content": "Z_n = \\frac{S_n - n\\mu}{\\sigma\\sqrt{n}} \\xrightarrow[n \\to \\infty]{d} Z \\sim N(0, 1)"
+    },
+    {
+      "type": "equation",
+      "content": "Z_n = \\frac{1}{\\sqrt{n}} \\frac{S_n - n\\mu}{\\sigma} = \\frac{1}{\\sqrt{n}} \\sum_{j=1}^n \\frac{X_j - \\mu}{\\sigma} = \\frac{1}{\\sqrt{n}} \\sum_{j=1}^n Y_j \\xrightarrow[n \\to \\infty]{d} Z"
+    },
+    {
+      "type": "equation",
+      "content": "M_{Z_n}(t) = M_{\\frac{1}{\\sqrt{n}} \\sum_{j=1}^n Y_j}(t) = \\mathbb{E} e^{t \\frac{\\sum_{j=1}^n Y_j}{\\sqrt{n}}} = M_{\\sum_{j=1}^n Y_j}\\left(\\frac{t}{\\sqrt{n}}\\right) ="
+    }
+  ]
+}

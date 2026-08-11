@@ -1,0 +1,58 @@
+{
+  "timestamp": 2685.0,
+  "image": "board_010.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са две сл. вел. Тогава съвместна ф-я на разпределение на"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "е"
+    },
+    {
+      "type": "equation",
+      "content": "F_{X,Y}(x,y) := \\mathbb{P}(X < x; Y < y) \\quad \\forall (x,y) \\in \\mathbb{R}^2"
+    },
+    {
+      "type": "equation",
+      "content": "F_{X,Y}\\left(\\frac{1}{2}, \\frac{1}{2}\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "="
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=0; Y=0)"
+    }
+  ]
+}

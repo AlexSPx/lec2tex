@@ -1,0 +1,30 @@
+{
+  "timestamp": 5268.0,
+  "image": "board_042.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Полиномно разпределение:"
+    },
+    {
+      "type": "equation",
+      "content": "r \\ge 1"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "n"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "(X_1, X_2, \\dots, X_r)"
+    }
+  ]
+}

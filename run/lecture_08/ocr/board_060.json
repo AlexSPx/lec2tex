@@ -1,0 +1,98 @@
+{
+  "timestamp": 8691.0,
+  "image": "board_060.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Теор:"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е н.с.в. и"
+    },
+    {
+      "type": "equation",
+      "content": "g: \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "type": "text",
+      "content": "някоя строго монотонно растяща"
+    },
+    {
+      "type": "text",
+      "content": "или намаляваща."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y=g(X)"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "f_Y(y) = f_X(g^{-1}(y)) \\left| (g^{-1}(y))' \\right|"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(Y \\in (a, b)) = \\mathbb{P}(g(X) \\in (a, b))"
+    },
+    {
+      "type": "equation",
+      "content": "\\overset{\\times}{=}"
+    },
+    {
+      "type": "equation",
+      "content": "\\int_{g^{-1}(a)}^{g^{-1}(b)} f_X(w) dw"
+    },
+    {
+      "type": "equation",
+      "content": "g^\\uparrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X \\in (g^{-1}(a), g^{-1}(b)))"
+    },
+    {
+      "type": "equation",
+      "content": "\\overset{\\times}{=}"
+    },
+    {
+      "type": "equation",
+      "content": "\\overset{\\checkmark}{=}"
+    },
+    {
+      "type": "equation",
+      "content": "\\int_{g^{-1}(b)}^{g^{-1}(a)} f_X(w) dw"
+    },
+    {
+      "type": "equation",
+      "content": "g^\\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X \\in (g^{-1}(b), g^{-1}(a)))"
+    },
+    {
+      "type": "equation",
+      "content": "\\overset{\\checkmark}{=}"
+    }
+  ]
+}

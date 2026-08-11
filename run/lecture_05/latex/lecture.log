@@ -1,0 +1,505 @@
+**
+(lecture.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (fontspec.sty (xparse.sty (expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+ (l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+\c__kernel_sys_dvipdfmx_version_int=\count189
+\l__color_backend_stack_int=\count190
+\g__color_backend_stack_int=\count191
+\g__graphics_track_int=\count192
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count193
+\g__pdf_backend_annotation_int=\count194
+\g__pdf_backend_link_int=\count195
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count196
+\l__fontspec_language_int=\count197
+\l__fontspec_strnum_int=\count198
+\l__fontspec_tmp_int=\count199
+\l__fontspec_tmpa_int=\count266
+\l__fontspec_tmpb_int=\count267
+\l__fontspec_tmpc_int=\count268
+\l__fontspec_em_int=\count269
+\l__fontspec_emdef_int=\count270
+\l__fontspec_strong_int=\count271
+\l__fontspec_strongdef_int=\count272
+\l__fontspec_tmpa_dim=\dimen139
+\l__fontspec_tmpb_dim=\dimen140
+\l__fontspec_tmpc_dim=\dimen141
+ (fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (fontspec.cfg)))
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen142
+)) (amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+) (amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count278
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip16
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks17
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks18
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (lecture.aux)
+\openout1 = `lecture.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+.
+ (ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 8.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 8.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 8.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 8.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 8.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 8.
+LaTeX Font Info:    Redeclaring math accent \check on input line 8.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 8.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 8.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 8.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 8
+.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+8.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 8.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+
+ (umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+
+ (umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (4.09454pt too wide) in paragraph at lines 14--15
+[]\TU/TimesNewRoman(0)/m/n/10 Нека $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/
+n/10 е случайна величина, дефинирана в дадено вероятностно пространство.
+ []
+
+
+Overfull \hbox (0.21393pt too wide) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/n/10 в англоезичната литература (а и не само), функцията
+ на разпределение по принцип
+ []
+
+
+Overfull \hbox (16.83922pt too wide) in paragraph at lines 18--19
+\TU/TimesNewRoman(0)/m/n/10 използването на строго неравенство ($\OML/cmm/m/it/
+10 X < x$\TU/TimesNewRoman(0)/m/n/10 ). На практика това не води до съществени
+ []
+
+
+Overfull \hbox (0.80273pt too wide) in paragraph at lines 20--20
+[]\TU/TimesNewRoman(0)/b/n/12 Връзка с разпределението на дискретна случайна ве
+личина 
+ []
+
+
+Overfull \hbox (1.2468pt too wide) in paragraph at lines 22--23
+\TU/TimesNewRoman(0)/m/n/10 Миналия път видяхме как дискретните случайни величи
+ни могат да бъдат описани
+ []
+
+
+Overfull \hbox (3.19537pt too wide) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/n/10 попадне в интервала $\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 x[]; x[]\OT1/cmr/m/n/10 ]$\TU/TimesNewRoman(0)/m/n/10 , единствената възмож
+на стойност на $\OML/cmm/m/it/10 X$\TU/TimesNewRoman(0)/m/n/10 , която е строго
+
+ []
+
+
+Overfull \hbox (24.85477pt too wide) in paragraph at lines 38--39
+\TU/TimesNewRoman(0)/m/n/10 стъпаловидно. Вижда се, че от тази функция лесно мо
+жем да възстановим оригиналната
+ []
+
+
+Overfull \hbox (1.54858pt too wide) in paragraph at lines 40--43
+\TU/TimesNewRoman(0)/m/n/10 Графиката на функцията на разпределение $\OML/cmm/m
+/it/10 F\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \TU/TimesNewRoman
+(0)/m/n/10 за този индикатор е стъпаловидна.
+ []
+
+[1
+
+]
+Overfull \hbox (26.36398pt too wide) in paragraph at lines 54--55
+\TU/TimesNewRoman(0)/m/n/10 Следващата основна тема е свързана с две изключител
+но важни числови характеристики
+ []
+
+
+Overfull \hbox (15.96234pt too wide) in paragraph at lines 60--61
+\OML/cmm/m/it/10 x[]; x[]; [] $ \TU/TimesNewRoman(0)/m/n/10 със съответни вероя
+тности $\OML/cmm/m/it/10 p[]; p[]; [] $\TU/TimesNewRoman(0)/m/n/10 . Тогава под
+ \TU/TimesNewRoman(0)/m/it/10 математическо очакване
+ []
+
+
+Overfull \hbox (4.42795pt too wide) in paragraph at lines 67--68
+[]\TU/TimesNewRoman(0)/m/n/10 Ако $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n
+/10 приема \TU/TimesNewRoman(0)/m/it/10 краен брой стойности $\OMS/cmsy/m/n/10 
+f\OML/cmm/m/it/10 x[]; [] ; x[]\OMS/cmsy/m/n/10 g$\TU/TimesNewRoman(0)/m/n/10 ,
+ то сумата винаги е крайна
+ []
+
+
+Overfull \hbox (27.49136pt too wide) in paragraph at lines 68--69
+[]\TU/TimesNewRoman(0)/m/n/10 Ако $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n
+/10 приема \TU/TimesNewRoman(0)/m/it/10 безкраен брой стойности\TU/TimesNewRoma
+n(0)/m/n/10 , е възможно очакването да не съществува.
+ []
+
+
+Overfull \hbox (10.30344pt too wide) in paragraph at lines 68--69
+\TU/TimesNewRoman(0)/m/n/10 (сумата му е безкрайност), следователно очакването 
+за тази случайна величина
+ []
+
+
+Overfull \hbox (8.36104pt too wide) in paragraph at lines 73--74
+\TU/TimesNewRoman(0)/b/n/10 Физическа интерпретация: \TU/TimesNewRoman(0)/m/n/1
+0 Математическото очакване има много ясен физически
+ []
+
+[2]
+Overfull \hbox (6.54137pt too wide) in paragraph at lines 75--76
+[]\TU/TimesNewRoman(0)/b/n/10 Математическа интерпретация (Минимизиране на греш
+ката): \TU/TimesNewRoman(0)/m/n/10 Представете
+ []
+
+
+Overfull \hbox (12.66682pt too wide) in paragraph at lines 75--76
+\TU/TimesNewRoman(0)/m/n/10 си, че трябва да изберете само едно реално число $\
+OML/cmm/m/it/10 a$\TU/TimesNewRoman(0)/m/n/10 , което най-добре да характеризир
+а
+ []
+
+
+Overfull \hbox (31.60474pt too wide) in paragraph at lines 75--76
+\TU/TimesNewRoman(0)/m/n/10 дадена случайна величина $\OML/cmm/m/it/10 X$\TU/Ti
+mesNewRoman(0)/m/n/10 . Какво означава ”най-добре”? Ако искаме да минимизираме
+ []
+
+
+Overfull \hbox (11.94243pt too wide) in paragraph at lines 76--78
+\TU/TimesNewRoman(0)/m/n/10 смисъл, очакването най-добре описва ”типичната” сто
+йност на случайната величина.
+ []
+
+
+Overfull \hbox (1.67201pt too wide) in paragraph at lines 81--84
+\TU/TimesNewRoman(0)/b/n/10 Пример 1: Равномерно разпределение \TU/TimesNewRoma
+n(0)/m/n/10 Нека $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n/10 е равномерно 
+разпределена върху
+ []
+
+
+Overfull \hbox (19.70937pt too wide) in paragraph at lines 97--98
+[]\TU/TimesNewRoman(0)/m/n/10 От гледна точка на математическото очакване, двет
+е игри са напълно еквивалентни.
+ []
+
+
+Overfull \hbox (19.45992pt too wide) in paragraph at lines 97--98
+\TU/TimesNewRoman(0)/m/n/10 стотинки), независимо коя от двете стратегии ще изб
+ерете. Това показва, че очакването
+ []
+
+[3]
+Overfull \hbox (12.72694pt too wide) in paragraph at lines 101--102
+\TU/TimesNewRoman(0)/m/n/10 Преди да продължим, ще формулираме и докажем основн
+ите свойства на очакването. 
+ []
+
+[4]
+Overfull \hbox (58.80978pt too wide) detected at line 135
+\U/msb/m/n/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 XY\OT1/cmr/m/n/10 ) = [] \OML/
+cmm/m/it/10 x[]y[]\U/msb/m/n/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X \OT1/cmr/m
+/n/10 = \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\U/msb/m/n/10 P\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 Y \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ) = [] [
+] = \U/msb/m/n/10 E\OML/cmm/m/it/10 X \OMS/cmsy/m/n/10 ^^A \U/msb/m/n/10 E\OML/
+cmm/m/it/10 Y
+ []
+
+
+Overfull \hbox (23.97032pt too wide) in paragraph at lines 143--144
+\TU/TimesNewRoman(0)/m/n/10 Този пример беше особено актуален по време на панде
+мията от COVID-19. Представете
+ []
+
+
+Overfull \hbox (2.49298pt too wide) in paragraph at lines 147--148
+[]\TU/TimesNewRoman(0)/m/n/10 Ако общият тест е \TU/TimesNewRoman(0)/m/it/10 от
+рицателен\TU/TimesNewRoman(0)/m/n/10 , това означава, че всички $\OML/cmm/m/it/
+10 n$ \TU/TimesNewRoman(0)/m/n/10 човека са здрави.
+ []
+
+
+Overfull \hbox (2.97977pt too wide) in paragraph at lines 148--149
+\TU/TimesNewRoman(0)/m/n/10 заразен, се налага да тестваме всеки от тях поотдел
+но. Така сме изразходвали
+ []
+
+[5] [6]
+Overfull \hbox (22.5928pt too wide) in paragraph at lines 185--186
+[]\TU/TimesNewRoman(0)/m/n/10 Ако $\OML/cmm/m/it/10 X$ \TU/TimesNewRoman(0)/m/n
+/10 приема краен брой стойности, дисперсията винаги съществува. Дисперсията
+ []
+
+
+Overfull \hbox (34.3936pt too wide) in paragraph at lines 185--186
+\TU/TimesNewRoman(0)/m/n/10 говорихме по-рано), когато за характеризираща конст
+анта изберем точно математическото
+ []
+
+
+Overfull \hbox (8.7533pt too wide) in paragraph at lines 187--188
+[]\TU/TimesNewRoman(0)/b/n/10 Забележка: \TU/TimesNewRoman(0)/m/n/10 Корен квад
+ратен от дисперсията се нарича \TU/TimesNewRoman(0)/m/it/10 стандартно отклонен
+ие
+ []
+
+
+Overfull \hbox (9.22319pt too wide) in paragraph at lines 193--194
+[]\TU/TimesNewRoman(0)/m/n/10 За първата стратегия ($\OML/cmm/m/it/10 X$\TU/Tim
+esNewRoman(0)/m/n/10 , залагане на цвят): стойностите са $\OMS/cmsy/m/n/10 ^^@\
+OT1/cmr/m/n/10 1$ \TU/TimesNewRoman(0)/m/n/10 и $\OT1/cmr/m/n/10 1$\TU/TimesNew
+Roman(0)/m/n/10 . Очакването
+ []
+
+
+Overfull \hbox (3.89336pt too wide) in paragraph at lines 193--194
+\TU/TimesNewRoman(0)/m/n/10 е $\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1/37$\TU/Tim
+esNewRoman(0)/m/n/10 . Отклонението на възможните печалби/загуби от очакването 
+е много
+ []
+
+
+Overfull \hbox (17.67863pt too wide) in paragraph at lines 194--195
+[]\TU/TimesNewRoman(0)/m/n/10 За втората стратегия ($\OML/cmm/m/it/10 Y$\TU/Tim
+esNewRoman(0)/m/n/10 , залагане на число): стойностите са $\OMS/cmsy/m/n/10 ^^@
+\OT1/cmr/m/n/10 1$ \TU/TimesNewRoman(0)/m/n/10 и $\OT1/cmr/m/n/10 35$\TU/TimesN
+ewRoman(0)/m/n/10 . Очакването
+ []
+
+
+Overfull \hbox (3.53314pt too wide) in paragraph at lines 194--195
+\TU/TimesNewRoman(0)/m/n/10 възможните стойности е огромен. Ако извадите очаква
+нето от 35, получавате
+ []
+
+
+Overfull \hbox (7.80397pt too wide) in paragraph at lines 196--197
+\TU/TimesNewRoman(0)/m/n/10 печалба, макар че дългосрочното математическо очакв
+ане остава същото. Разликата
+ []
+
+
+Overfull \hbox (12.25815pt too wide) in paragraph at lines 202--205
+\U/msb/m/n/10 E\OML/cmm/m/it/10 F \OT1/cmr/m/n/10 = 0$\TU/TimesNewRoman(0)/m/n/
+10 . Някои хора погрешно смятат, че щом средната сила е нула, то с нарастването
+
+ []
+
+[7]
+Overfull \hbox (25.39296pt too wide) in paragraph at lines 208--209
+\TU/TimesNewRoman(0)/m/n/10 Ще докажем няколко важни свойства, които значително
+ улесняват работата с дисперсии. 
+ []
+
+
+Overfull \hbox (4.6029pt too wide) in paragraph at lines 212--214
+\TU/TimesNewRoman(0)/m/it/10 Доказателство: \TU/TimesNewRoman(0)/m/n/10 Изхожда
+ме от дефиницията и разкриваме скобите под очакването: 
+ []
+
+
+Overfull \hbox (40.06691pt too wide) in paragraph at lines 214--216
+\TU/TimesNewRoman(0)/m/n/10 Използваме факта, че $\U/msb/m/n/10 E\OML/cmm/m/it/
+10 X$ \TU/TimesNewRoman(0)/m/n/10 е просто константа, и прилагаме линейността н
+а математическото
+ []
+
+
+Overfull \hbox (5.76982pt too wide) in paragraph at lines 233--235
+[]\TU/TimesNewRoman(0)/m/it/10 Доказателство: \TU/TimesNewRoman(0)/m/n/10 а) Ак
+о $\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 C$\TU/TimesNewRoman(0)
+/m/n/10 , знаем, че $\U/msb/m/n/10 E\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/c
+mm/m/it/10 C$\TU/TimesNewRoman(0)/m/n/10 . Замествайки в дефиницията
+ []
+
+[8]
+Overfull \hbox (15.60944pt too wide) in paragraph at lines 241--243
+\TU/TimesNewRoman(0)/m/n/10 степен спрямо оригиналната величина (ако мерите в м
+етри, дисперсията е в квадратни
+ []
+
+[9] (lecture.aux) )
+Output written on lecture.xdv (9 pages, 163440 bytes).

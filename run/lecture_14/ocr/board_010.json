@@ -1,0 +1,50 @@
+{
+  "timestamp": 2568.0,
+  "image": "board_010.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "D b_0 = \\sum_{j=1}^n \\left(\\frac{1}{n} - \\bar{x} c_k\\right)^2 \\sigma^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_1 = b_1 = \\sum_{k=1}^n c_k y_k"
+    },
+    {
+      "type": "equation",
+      "content": "="
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_0 = b_0 = \\sum_{k=1}^n \\left(\\frac{1}{n} - \\bar{X} c_k\\right) y_k"
+    },
+    {
+      "type": "equation",
+      "content": "c_k = \\frac{X_k - \\bar{X}}{A}"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\sum_{k=1}^n (X_k - \\bar{X})^2"
+    },
+    {
+      "type": "equation",
+      "content": "y_k = \\beta_0 + \\beta_1 X_k + \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "E y_k = \\beta_0 + \\beta_1 X_k"
+    },
+    {
+      "type": "equation",
+      "content": "D\\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "b_1 \\sim N\\left(\\beta_1; \\frac{\\sigma^2}{A}\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "b_0 \\sim N(\\beta_0;"
+    }
+  ]
+}

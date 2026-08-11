@@ -1,0 +1,18 @@
+{
+  "timestamp": 2139.0,
+  "image": "board_017.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на УМО:"
+    },
+    {
+      "type": "text",
+      "content": "- a)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[aX + bZ | Y] = a\\mathbb{E}[X | Y] + b\\mathbb{E}[Z | Y]"
+    }
+  ]
+}

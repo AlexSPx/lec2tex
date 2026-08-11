@@ -22,12 +22,26 @@ venv.bak/
 .DS_Store
 Thumbs.db
 
-# Project specific media / outputs
+# ---------------------------------------------------------------------------
+# Source video. ~15 GB across 17 files — far too large for git and fully
+# reproducible from the course playlist (see scripts/ for the download step).
+# Everything DERIVED from the video (transcripts, board frames, OCR) IS
+# tracked, so the pipeline can be re-run from the intermediate artefacts
+# without re-downloading.
+# ---------------------------------------------------------------------------
 *.mp4
 *.avi
 *.mkv
+*.mov
+*.webm
+*.wav
+*.m4a
 
-# Output directories and files
+# ---------------------------------------------------------------------------
+# Scratch outputs of the ORIGINAL single-run layout, at repo root only.
+# These paths are anchored with a leading slash on purpose: the per-lecture
+# equivalents under run/lecture_NN/ are real artefacts and ARE tracked.
+# ---------------------------------------------------------------------------
 /audio/
 /board/
 /ir/
@@ -35,6 +49,14 @@ Thumbs.db
 /ocr/
 /lecture1/
 /lecture2/
-board_corners.json
-board_states.json
-rectified_board.png
+/board_corners.json
+/board_states.json
+/rectified_board.png
+
+# LaTeX build intermediates (tectonic normally cleans these up itself)
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk

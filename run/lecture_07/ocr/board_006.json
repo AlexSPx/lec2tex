@@ -1,0 +1,74 @@
+{
+  "timestamp": 1581.0,
+  "image": "board_006.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:)"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim HG(N, M, n)."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "text",
+      "content": "а)."
+    },
+    {
+      "type": "equation",
+      "content": "P(X=k) = \\frac{\\binom{M}{k}\\binom{N-M}{n-k}}{\\binom{N}{n}}"
+    },
+    {
+      "type": "equation",
+      "content": "0 \\lor (n-N+M) \\le k \\le M \\land n"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = n\\frac{M}{N}"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "equation",
+      "content": "DX = \\frac{nM}{N} \\frac{N-M}{N} \\frac{N-n}{N-1}"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:)"
+    },
+    {
+      "type": "text",
+      "content": "б)."
+    },
+    {
+      "type": "equation",
+      "content": "X_j = \\begin{cases} 1 & \\text{ако } j^{\\text{то}} \\text{ място има маркиран} \\\\ 0 & \\text{ако не е маркиран.} \\end{cases}"
+    },
+    {
+      "type": "equation",
+      "content": ", 1 \\le j \\le n"
+    },
+    {
+      "type": "equation",
+      "content": "X = \\sum_{j=1}^{n} X_j \\implies \\mathbb{E}X = \\sum_{j=1}^{n} \\mathbb{E}X_j"
+    },
+    {
+      "type": "equation",
+      "content": "X_j \\sim Ber(p_j)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_{j=1}^{n} p_j"
+    }
+  ]
+}

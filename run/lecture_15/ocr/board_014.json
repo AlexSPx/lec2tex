@@ -1,0 +1,22 @@
+{
+  "timestamp": 876.0,
+  "image": "board_014.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "зад 1 Вкл и изкл ?"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "B"
+    },
+    {
+      "type": "equation",
+      "content": "|A \\cup B| = |A| + |B| - |A"
+    }
+  ]
+}

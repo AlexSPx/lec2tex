@@ -1,0 +1,38 @@
+{
+  "timestamp": 5412.0,
+  "image": "board_029.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Геометрична вероятност:"
+    },
+    {
+      "type": "equation",
+      "content": "\\infty > \\text{Vol}(\\Omega) = |\\Omega| = \\int_{\\Omega} dx"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega \\subseteq \\mathbb{R}^d"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A) := \\frac{|A|}{|\\Omega|} = \\mathbb{P}("
+    },
+    {
+      "type": "text",
+      "content": "да изберем точка"
+    },
+    {
+      "type": "text",
+      "content": "от"
+    },
+    {
+      "type": "equation",
+      "content": "A)"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": 1164.0,
+  "image": "board_011.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A) = \\mathbb{E}1_A"
+    },
+    {
+      "type": "equation",
+      "content": "\\min_{G} \\mathbb{E}(X-G(Y))^2 = \\min_{a,b \\in \\mathbb{R}} \\underbrace{\\mathbb{E}(X-a1_A-b1_{A^c})^2}_{= f(a,b)} = \\min_{a,b \\in \\mathbb{R}} f(a,b)"
+    },
+    {
+      "type": "equation",
+      "content": "\\Rightarrow G^*(Y) = \\frac{\\mathbb{E} X 1_A}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{E} X 1_{A^c}}{\\mathbb{P}(A^c)} 1_{A^c} =: \\mathbb{E}(X|Y)"
+    },
+    {
+      "type": "equation",
+      "content": "X = 1_B \\Rightarrow G^*(Y) = \\frac{\\mathbb{E} 1_B 1_A}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{E} 1_B 1_{A^c}}{\\mathbb{P}(A^c)} 1_{A^c}"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "B"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "B^c"
+    },
+    {
+      "type": "equation",
+      "content": "A^c"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{\\mathbb{P}(A \\cap B)}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{P}(A^c \\cap B)}{\\mathbb{P}(A^c)} 1_{A^c}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}(B|A) 1_A + \\mathbb{P}(B|A^c) 1_{A^c}"
+    }
+  ]
+}

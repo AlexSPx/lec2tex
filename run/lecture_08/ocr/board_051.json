@@ -1,0 +1,50 @@
+{
+  "timestamp": 6804.0,
+  "image": "board_051.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Непрекъснати сл. вел.:"
+    },
+    {
+      "type": "text",
+      "content": "7"
+    },
+    {
+      "type": "equation",
+      "content": "M = 100.000 X"
+    },
+    {
+      "type": "text",
+      "content": ", където"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е непр. сл. вел"
+    },
+    {
+      "type": "equation",
+      "content": "f_X(x) = \\begin{cases} 5(1-x)^4, & x \\in (0,1) \\\\ 0 & \\text{иначе} \\end{cases}"
+    },
+    {
+      "type": "equation",
+      "content": "5"
+    },
+    {
+      "type": "equation",
+      "content": "1"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(M > 10,000) = \\mathbb{P}\\left(X > \\frac{1}{10}\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{P}\\left(\\frac{1}{10} < X < 1\\right) = 5 \\int_{\\frac{1}{10}}^1 (1-x)^4 dx = \\left(\\frac{9}{10}\\right)^5 \\approx 0,59"
+    }
+  ]
+}

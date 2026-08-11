@@ -1,0 +1,78 @@
+{
+  "timestamp": 264.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Случайни величини. Свойства."
+    },
+    {
+      "type": "equation",
+      "content": "V=(\\Omega, \\mathcal{A}, \\mathbb{P});"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in \\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "text",
+      "content": "клиенти"
+    },
+    {
+      "type": "text",
+      "content": "молекули"
+    },
+    {
+      "type": "text",
+      "content": "успех и неуспех"
+    },
+    {
+      "type": "text",
+      "content": "функции"
+    },
+    {
+      "type": "text",
+      "content": "траектории"
+    },
+    {
+      "type": "text",
+      "content": "хора"
+    },
+    {
+      "type": "equation",
+      "content": "X: \\Omega \\rightarrow \\mathbb{R}"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega"
+    },
+    {
+      "type": "equation",
+      "content": "X(\\omega)"
+    },
+    {
+      "type": "equation",
+      "content": "I"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{R}"
+    },
+    {
+      "type": "equation",
+      "content": "X^{-1}(I) = \\{ \\omega \\in \\Omega : X(\\omega) \\in I \\}"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": 516.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Теор: (ЦГТ) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "(X_i)_{i=1}^\\infty"
+    },
+    {
+      "type": "text",
+      "content": "н.е.р. с.в-ни със средно"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu = EX_1"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "DX_1 = \\sigma^2 < \\infty"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава е вярно"
+    },
+    {
+      "type": "text",
+      "content": "с означението"
+    },
+    {
+      "type": "equation",
+      "content": "Z_n := \\frac{\\sqrt{n}}{\\sigma} E_n = \\frac{\\sqrt{n}}{\\sigma} \\left( \\frac{S_n}{n} - \\mu \\right) = \\frac{S_n - n\\mu}{\\sigma\\sqrt{n}}"
+    },
+    {
+      "type": "text",
+      "content": ", че"
+    },
+    {
+      "type": "equation",
+      "content": "Z_n \\xrightarrow[n\\to\\infty]{d} Z \\sim N(0,1)"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "text",
+      "content": "Коментари:"
+    }
+  ]
+}

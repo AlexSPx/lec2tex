@@ -1,0 +1,50 @@
+{
+  "timestamp": 939.0,
+  "image": "board_005.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": "известно ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X} = (X_1, \\dots, X_n)"
+    },
+    {
+      "type": "equation",
+      "content": "T = \\frac{\\bar{X}_n - \\mu}{\\sigma/\\sqrt{n}} \\sim \\underline{\\underline{N(0, 1)}} ,"
+    },
+    {
+      "type": "equation",
+      "content": "T"
+    },
+    {
+      "type": "text",
+      "content": "е монот."
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow"
+    },
+    {
+      "type": "text",
+      "content": "по"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "equation",
+      "content": "H(x) = \\mathbb{P}(T < x) = \\Phi(x)"
+    }
+  ]
+}

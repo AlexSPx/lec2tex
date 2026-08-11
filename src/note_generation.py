@@ -112,28 +112,51 @@ def extract_latex(llm_output):
 
 def run_latex_compile(latex_dir, filename="lecture.tex", compile_cmd="pdflatex"):
     """
-    Runs LaTeX compilation inside the texlive Docker container.
+    Compiles LaTeX. Prefers Tectonic (single cross-platform binary, auto-fetches
+    packages, no Docker); falls back to a local TeX compiler, then Docker texlive.
     """
+    import shutil
     abs_dir = os.path.abspath(latex_dir)
-    print(f"Compiling LaTeX file '{filename}' in '{abs_dir}' via Docker...")
-    
-    # We use lualatex or pdflatex based on the argument
+    tex_path = os.path.join(abs_dir, filename)
+
+    # 1) Tectonic (preferred; identical on macOS + Linux)
+    if shutil.which("tectonic"):
+        print(f"Compiling '{filename}' in '{abs_dir}' via Tectonic...")
+        cmd = ["tectonic", "-X", "compile", "--keep-logs", "--outdir", abs_dir, tex_path]
+        try:
+            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                                 text=True, timeout=300)
+            # tectonic prints diagnostics on stderr even on success
+            return res.returncode == 0, res.stdout, res.stderr
+        except subprocess.TimeoutExpired:
+            return False, "", "Tectonic timeout"
+        except Exception as e:
+            print(f"Tectonic error ({e}); trying next compiler...")
+
+    # 2) Local pdflatex/lualatex
+    if shutil.which(compile_cmd):
+        print(f"Compiling '{filename}' via local {compile_cmd}...")
+        cmd = [compile_cmd, "-interaction=nonstopmode", filename]
+        try:
+            res = subprocess.run(cmd, cwd=abs_dir, stdout=subprocess.PIPE,
+                                 stderr=subprocess.PIPE, text=True, timeout=120)
+            return res.returncode == 0, res.stdout, res.stderr
+        except Exception as e:
+            print(f"Local {compile_cmd} error ({e}); trying Docker...")
+
+    # 3) Docker texlive fallback
+    print(f"Compiling '{filename}' in '{abs_dir}' via Docker texlive...")
     cmd = [
-        "docker", "run", "--rm",
-        "-v", f"{abs_dir}:/workdir",
-        "-w", "/workdir",
-        "texlive/texlive:latest",
-        compile_cmd, "-interaction=nonstopmode", filename
+        "docker", "run", "--rm", "-v", f"{abs_dir}:/workdir", "-w", "/workdir",
+        "texlive/texlive:latest", compile_cmd, "-interaction=nonstopmode", filename,
     ]
-    
     try:
-        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=60)
+        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                             text=True, timeout=120)
         return res.returncode == 0, res.stdout, res.stderr
     except subprocess.TimeoutExpired:
-        print("Compilation timed out.")
         return False, "", "Timeout"
     except Exception as e:
-        print(f"Compilation error: {e}")
         return False, "", str(e)
 
 def parse_latex_log(log_path):
@@ -197,17 +220,46 @@ def main():
     parser.add_argument("--model", type=str, default=None, help="LLM Model name")
     parser.add_argument("--compiler", type=str, default="pdflatex", choices=["pdflatex", "lualatex"], help="LaTeX compiler")
     parser.add_argument("--max-retries", type=int, default=5, help="Max compilation correction attempts")
-    
+    # Local/cloud backend switching for the generation step
+    parser.add_argument("--gen-mode", choices=["local", "cloud"], default="cloud",
+                        help="Where the generation model runs")
+    parser.add_argument("--gen-base-url", default=None, help="OpenAI-compatible base URL for local generation")
+    parser.add_argument("--device", default="auto", choices=["auto", "metal", "cuda", "cpu"])
+    parser.add_argument("--main-font", default=None,
+                        help="Unicode main font for the XeTeX/Tectonic preamble "
+                             "(default: 'Times New Roman' on macOS, 'DejaVu Serif' on Linux)")
+
     args = parser.parse_args()
-    
-    # Get API key
-    if args.provider != "agy":
-        api_key = args.api_key or (os.environ.get("GEMINI_API_KEY") if args.provider == "gemini" else os.environ.get("OPENAI_API_KEY"))
-        if not api_key:
-            print(f"Error: API key for {args.provider} must be provided or set in environment variables.")
-            sys.exit(1)
+
+    # Pick a Cyrillic-capable Unicode font that exists on the target OS.
+    # Tectonic uses XeTeX, so the classic T2A/inputenc/babel route (which needs
+    # cm-super metrics Tectonic doesn't bundle) fails; fontspec + a system font works.
+    if args.main_font:
+        main_font = args.main_font
+    elif sys.platform == "darwin":
+        main_font = "Times New Roman"
     else:
+        main_font = "DejaVu Serif"
+
+    # Build a single generate() callable that hides local-vs-cloud from the loop.
+    if args.gen_mode == "local":
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from backends import LLMClient
+        client = LLMClient(mode="local", model=args.model, base_url=args.gen_base_url,
+                           device=args.device)
+        print(f"Generation backend: {client.describe()}")
+        generate = lambda p: client.complete(p)
         api_key = None
+    else:
+        # Get API key for cloud providers
+        if args.provider != "agy":
+            api_key = args.api_key or (os.environ.get("GEMINI_API_KEY") if args.provider == "gemini" else os.environ.get("OPENAI_API_KEY"))
+            if not api_key:
+                print(f"Error: API key for {args.provider} must be provided or set in environment variables.")
+                sys.exit(1)
+        else:
+            api_key = None
+        generate = lambda p: call_llm(p, args.provider, api_key, args.model)
         
     # Read aligned IR
     with open(args.ir, "r", encoding="utf-8") as f:
@@ -230,18 +282,23 @@ Here is the raw lecture data in chronological order:
 Instructions:
 1. Write the lecture notes entirely in Bulgarian, preserving the language of the transcript. Use professional Bulgarian mathematical terminology.
 2. Group the content into logical sections and subsections (e.g., \\section{{...}}, \\subsection{{...}}).
-3. Do NOT make a frame-by-frame transcript. Write it as a clean textbook chapter or set of lecture notes.
-4. Merge duplicate or overlapping formulas. Since the blackboard changes over time, some formulas will be repeated or updated. Present them in their final, complete, and correct form.
+3. Do NOT make a frame-by-frame transcript. Write it as a clean, DETAILED textbook chapter or set of lecture notes.
+3a. Be thorough and verbose. Aim for comprehensive notes, not a summary. For every concept on the board: state the formal definition, then explain it in prose using the lecturer's spoken intuition from the aligned "speech", and show the reasoning/derivation steps rather than just the final formula. Keep ALL worked examples in full (with the numbers the lecturer used) and add a sentence or two of explanation for each. Where the speech motivates or interprets a formula, include that motivation. Prefer several short paragraphs per subsection over a single dense one. Do not drop content to be concise — completeness matters more than brevity.
+4. Merge duplicate or overlapping formulas. Since the blackboard changes over time, some formulas will be repeated or updated. Present them in their final, complete, and correct form (but still show intermediate forms when they illustrate a derivation).
 5. Fix any OCR-induced errors in the LaTeX formulas (e.g., mismatched brackets, missing backslashes, wrong characters).
 6. Surround math blocks with \\[ ... \\] and inline math with $ ... $.
 7. The output must be a single, complete, compilable LaTeX document starting with \\documentclass{{article}} and ending with \\end{{document}}.
-8. Use standard math packages: \\usepackage{{amsmath}}, \\usepackage{{amssymb}}, \\usepackage{{amsfonts}}. Since the document is in Bulgarian, you MUST include standard packages for Cyrillic/Bulgarian support: \\usepackage[T2A]{{fontenc}}, \\usepackage[utf8]{{inputenc}}, and \\usepackage[bulgarian]{{babel}}.
-9. Only return the raw LaTeX code inside a ```latex code block. Do not add any conversational text before or after the block.
+8. Use standard math packages: \\usepackage{{amsmath}}, \\usepackage{{amssymb}}, \\usepackage{{amsfonts}}. The document is compiled with Tectonic (XeTeX engine), so for Cyrillic/Bulgarian you MUST use a Unicode/fontspec preamble — NOT inputenc/fontenc/babel. Immediately after \\documentclass, put exactly:
+   \\usepackage{{fontspec}}
+   \\setmainfont{{{main_font}}}
+   Do NOT use \\usepackage[T2A]{{fontenc}}, \\usepackage[utf8]{{inputenc}}, \\usepackage[bulgarian]{{babel}}, or any font package like PTSerif — they break under Tectonic.
+9. Each state may carry a "verification" block (SymPy + LLM cross-check). Where it flags an equation as "inconsistent"/"unparsed" or suggests a correction, prefer the corrected/consistent form and silently fix obvious OCR artifacts. Do NOT mention the verification process in the notes.
+10. Only return the raw LaTeX code inside a ```latex code block. Do not add any conversational text before or after the block.
 """
 
-    llm_response = call_llm(prompt, args.provider, api_key, args.model)
+    llm_response = generate(prompt)
     latex_code = extract_latex(llm_response)
-    
+
     with open(tex_path, "w", encoding="utf-8") as f:
         f.write(latex_code)
     print(f"LaTeX document generated and saved to {tex_path}")
@@ -300,7 +357,7 @@ Here is the full LaTeX document:
 Please fix the error. Return the COMPLETE, updated, and compilable LaTeX document inside a ```latex code block. Do not include any explanation.
 """
             try:
-                llm_response = call_llm(correction_prompt, args.provider, api_key, args.model)
+                llm_response = generate(correction_prompt)
                 latex_code = extract_latex(llm_response)
                 
                 with open(tex_path, "w", encoding="utf-8") as f:

@@ -1,0 +1,62 @@
+{
+  "timestamp": 5499.0,
+  "image": "board_036.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Смяна на променливите на дискретни сл. вел."
+    },
+    {
+      "type": "equation",
+      "content": "X, Y"
+    },
+    {
+      "type": "text",
+      "content": "са две дискр. сл. вел. във"
+    },
+    {
+      "type": "equation",
+      "content": "\\Omega"
+    },
+    {
+      "type": "equation",
+      "content": "g: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R}"
+    },
+    {
+      "type": "equation",
+      "content": "g(x_1, y_1)"
+    },
+    {
+      "type": "equation",
+      "content": "H_1^*"
+    },
+    {
+      "type": "equation",
+      "content": "H_1"
+    },
+    {
+      "type": "equation",
+      "content": "H_n"
+    },
+    {
+      "type": "equation",
+      "content": "H_2^*"
+    },
+    {
+      "type": "equation",
+      "content": "H_2"
+    },
+    {
+      "type": "equation",
+      "content": "Z = g(X, Y)"
+    },
+    {
+      "type": "equation",
+      "content": "(g(x, y) = x+y)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_{j, k} g(x_j, y_k) 1_{H_j} 1_{H_k^*} = \\sum_{j, k} g(x_j, y_k) 1_{H_j \\cap H_k^*}"
+    }
+  ]
+}

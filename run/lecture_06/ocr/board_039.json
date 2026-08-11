@@ -1,0 +1,14 @@
+{
+  "timestamp": 3807.0,
+  "image": "board_039.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "B. Геометрично разпределение или"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Ge(p)"
+    }
+  ]
+}

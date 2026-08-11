@@ -1,0 +1,70 @@
+{
+  "timestamp": 4113.0,
+  "image": "board_012.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Б. Метод на моментите: (ММО)"
+    },
+    {
+      "type": "equation",
+      "content": "\\bar{X}_n^{(j)} = \\frac{1}{n} \\sum_{k=1}^n X_k^j, j \\ge 1"
+    },
+    {
+      "type": "text",
+      "content": "Деф: (ММО) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е сл. вел. с"
+    },
+    {
+      "type": "equation",
+      "content": "F_X(x; \\theta), \\theta = (\\theta_1, \\dots, \\theta_s)"
+    },
+    {
+      "type": "text",
+      "content": "Тогава ММО оценка за"
+    },
+    {
+      "type": "equation",
+      "content": "\\theta"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\theta}"
+    },
+    {
+      "type": "text",
+      "content": "намираме, чрез"
+    },
+    {
+      "type": "text",
+      "content": "решаването на системата"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu^{(j)}(\\theta) = \\bar{X}_n^{(j)}, 1 \\le j \\le s \\implies \\hat{\theta} = (\\hat{\theta}_1, \\dots, \\hat{\theta}_s)"
+    },
+    {
+      "type": "text",
+      "content": "където"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu^{(j)}(\\theta) = \\mathbb{E}[X^j], 1 \\le j \\le s"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\theta}_j = \\mu"
+    }
+  ]
+}

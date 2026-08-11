@@ -1,0 +1,27 @@
+/opt/homebrew/lib/python3.11/site-packages/mlx_lm/server.py:1723: UserWarning: mlx_lm.server is not recommended for production as it only implements basic security checks.
+  warnings.warn(
+2026-08-08 19:25:51,928 - INFO - Starting httpd at 127.0.0.1 on port 8080...
+127.0.0.1 - - [08/Aug/2026 19:26:03] "GET /v1/models HTTP/1.1" 200 -
+2026-08-08 19:26:50,319 - INFO - HTTP Request: GET https://huggingface.co/api/models/qwen3.6-27b-mlx/revision/main "HTTP/1.1 401 Unauthorized"
+127.0.0.1 - - [08/Aug/2026 19:26:50] "POST /v1/chat/completions HTTP/1.1" 404 -
+2026-08-08 19:27:20,388 - INFO - HTTP Request: GET https://huggingface.co/api/models/x/revision/main "HTTP/1.1 401 Unauthorized"
+127.0.0.1 - - [08/Aug/2026 19:27:20] "POST /v1/chat/completions HTTP/1.1" 404 -
+2026-08-08 19:27:20,592 - INFO - HTTP Request: GET https://huggingface.co/api/models/x/revision/main "HTTP/1.1 401 Unauthorized"
+127.0.0.1 - - [08/Aug/2026 19:27:20] "POST /chat/completions HTTP/1.1" 404 -
+2026-08-08 19:27:46,582 - INFO - Prompt Cache: 0 sequences, 0.00 GB
+2026-08-08 19:27:46,582 - INFO - - assistant: 0 sequences, 0.00 GB
+2026-08-08 19:27:46,582 - INFO - - user: 0 sequences, 0.00 GB
+2026-08-08 19:27:46,582 - INFO - - system: 0 sequences, 0.00 GB
+127.0.0.1 - - [08/Aug/2026 19:27:46] "POST /chat/completions HTTP/1.1" 200 -
+2026-08-08 19:27:47,185 - INFO - Prompt processing progress: 19/21
+2026-08-08 19:27:47,263 - INFO - Prompt processing progress: 20/21
+2026-08-08 19:27:47,328 - INFO - Prompt processing progress: 21/21
+2026-08-08 19:28:32,099 - INFO - Prompt Cache: 3 sequences, 0.47 GB
+2026-08-08 19:28:32,100 - INFO - - assistant: 2 sequences, 0.31 GB
+2026-08-08 19:28:32,100 - INFO - - user: 1 sequences, 0.16 GB
+2026-08-08 19:28:32,100 - INFO - - system: 0 sequences, 0.00 GB
+127.0.0.1 - - [08/Aug/2026 19:28:32] "POST /chat/completions HTTP/1.1" 200 -
+2026-08-08 19:28:54,999 - INFO - Prompt processing progress: 2048/4087
+2026-08-08 19:29:17,935 - INFO - Prompt processing progress: 4085/4087
+2026-08-08 19:29:18,023 - INFO - Prompt processing progress: 4086/4087
+2026-08-08 19:29:18,379 - INFO - Prompt processing progress: 4087/4087

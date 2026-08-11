@@ -1,0 +1,18 @@
+{
+  "timestamp": 200.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Р. Браун 1827 ; 1905"
+    },
+    {
+      "type": "text",
+      "content": "Брауново"
+    },
+    {
+      "type": "text",
+      "content": "Движение"
+    }
+  ]
+}

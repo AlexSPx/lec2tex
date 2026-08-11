@@ -1,0 +1,22 @@
+{
+  "timestamp": 6393.0,
+  "image": "board_018.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Схема:"
+    },
+    {
+      "type": "equation",
+      "content": "X_1, X_2 \\quad (X_1 \\perp \\!\\!\\! \\perp X_2) \\quad f_X(x_1, x_2) = f_{X_1}(x_1) f_{X_2}(x_2)"
+    },
+    {
+      "type": "text",
+      "content": "Интересуваме се от"
+    },
+    {
+      "type": "equation",
+      "content": "Y_2 = X_1 + X_2 \\stackrel{?}{\\implies} f_{Y_2}(y_2) = ?"
+    }
+  ]
+}

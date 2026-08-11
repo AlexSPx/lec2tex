@@ -1,0 +1,10 @@
+{
+  "timestamp": 138.0,
+  "image": "board_002.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "X, \\mathbb{E}X; \\quad \\mathbb{E}(X-\\mathbb{E}X)^2 = \\mathbb{D}X = \\min_{a \\in \\mathbb{R}} \\mathbb{E}(X-a)^2"
+    }
+  ]
+}

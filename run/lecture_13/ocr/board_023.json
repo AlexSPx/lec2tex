@@ -1,0 +1,50 @@
+{
+  "timestamp": 4338.0,
+  "image": "board_023.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Проверка на хипотези"
+    },
+    {
+      "type": "equation",
+      "content": "H_0: \\theta = \\theta_0"
+    },
+    {
+      "type": "equation",
+      "content": "W \\subseteq \\mathbb{R}^n, \\vec{X} \\in W"
+    },
+    {
+      "type": "text",
+      "content": "отхвърляме"
+    },
+    {
+      "type": "equation",
+      "content": "H_0"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "equation",
+      "content": "H_1: \\theta = \\theta_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X} \\notin W"
+    },
+    {
+      "type": "text",
+      "content": "приемаме"
+    },
+    {
+      "type": "equation",
+      "content": "H_0"
+    },
+    {
+      "type": "text",
+      "content": "."
+    }
+  ]
+}

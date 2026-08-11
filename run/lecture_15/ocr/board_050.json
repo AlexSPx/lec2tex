@@ -1,0 +1,114 @@
+{
+  "timestamp": 3276.0,
+  "image": "board_050.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "text",
+      "content": "1-ва 2-ра ... k-та"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow \\quad \\downarrow \\quad \\dots \\quad \\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "n \\quad n \\quad \\dots \\quad n"
+    },
+    {
+      "type": "text",
+      "content": "общо"
+    },
+    {
+      "type": "equation",
+      "content": "n^k"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "text",
+      "content": "k частици, различни"
+    },
+    {
+      "type": "text",
+      "content": "n клетки"
+    },
+    {
+      "type": "equation",
+      "content": "k \\ge n"
+    },
+    {
+      "type": "text",
+      "content": "# : няма празна клетка"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    },
+    {
+      "type": "equation",
+      "content": "A_i = \\{ \\text{i-тата клетка е празна} \\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\bigcup_{i=1}^n A_i = \\{ \\text{поне 1 клетка е празна} \\}"
+    },
+    {
+      "type": "text",
+      "content": "В такъв случай, отг ще"
+    },
+    {
+      "type": "equation",
+      "content": "| \\text{всички конф} | - \\left| \\bigcup_{i=1}^n A_i \\right|"
+    },
+    {
+      "type": "equation",
+      "content": "= n^k - \\left| \\bigcup_{i=1}^n A_i \\right|"
+    },
+    {
+      "type": "equation",
+      "content": "\\left| \\bigcup_{i=1}^n A_i \\right| = |A_1| + \\dots + |A_n| - |A_1 \\cap A_2| - \\dots - |A_{n-1} \\cap A_n| + \\dots + (-1)^{n+1} |A_1 \\cap \\dots \\cap A_n|"
+    },
+    {
+      "type": "equation",
+      "content": "|A_1| = (n-1)^k"
+    },
+    {
+      "type": "equation",
+      "content": "|A_1 \\cap A_2| = (n-2)^k"
+    },
+    {
+      "type": "text",
+      "content": "и т.н."
+    },
+    {
+      "type": "text",
+      "content": "Следов."
+    },
+    {
+      "type": "equation",
+      "content": "\\left| \\bigcup_{i=1}^n A_i \\right| = \\sum_{m=1}^n \\binom{n}{m} (n-m)^k (-1)^{m+1}"
+    }
+  ]
+}

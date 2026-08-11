@@ -1,0 +1,70 @@
+{
+  "timestamp": 1710.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во: а)"
+    },
+    {
+      "type": "equation",
+      "content": "L_X = \\left\\{ \\lim_{n\\to\\infty} X_n = X \\right\\}"
+    },
+    {
+      "type": "text",
+      "content": ", знаем, че"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(L_X) = 1"
+    },
+    {
+      "type": "equation",
+      "content": "L_X = \\bigcap_{r=1}^{\\infty} \\bigcup_{n=1}^{\\infty} \\bigcap_{k=n}^{\\infty} A_{k, \\frac{1}{r}}^{c},"
+    },
+    {
+      "type": "equation",
+      "content": "A_{k, \\frac{1}{r}}^{c} = \\left\\{ |X_k - X| \\le \\frac{1}{r} \\right\\}"
+    },
+    {
+      "type": "equation",
+      "content": "0 = \\mathbb{P}\\left(\\bigcup_{r=1}^{\\infty} B_r\\right) \\ge \\mathbb{P}(B_\\ell)"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall \\ell \\ge 1"
+    },
+    {
+      "type": "equation",
+      "content": "L_X^c = \\bigcup_{r=1}^{\\infty} \\underbrace{\\bigcap_{n=1}^{\\infty} \\bigcup_{k=n}^{\\infty} A_{k, \\frac{1}{r}}}_{B_r} ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(L_X^c) = 0 \\Rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "= \\bigcup_{r=1}^{\\infty} B_r"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall r \\ge 1,"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(B_r) = 0 \\Rightarrow"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}\\left(\\bigcap_{n=1}^{\\infty} \\underbrace{\\bigcup_{k=n}^{\\infty} A_{k, \\frac{1}{r}}}_{C_{n, r}}\\right) = 0"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}\\left(\\bigcap_{n=1}^{\\infty} C_{n, r}\\right) = 0 = \\lim_{n\\to\\infty} \\mathbb{P}(C_{n, r})"
+    },
+    {
+      "type": "equation",
+      "content": "C_{n, r} \\supseteq C_{n+1, r} \\supseteq \\dots"
+    }
+  ]
+}

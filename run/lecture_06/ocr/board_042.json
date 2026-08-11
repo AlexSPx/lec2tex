@@ -1,0 +1,38 @@
+{
+  "timestamp": 4002.0,
+  "image": "board_042.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim Ge(p)"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = q^k p"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "k \\ge 0"
+    },
+    {
+      "type": "text",
+      "content": "."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": 1686.0,
+  "image": "board_013.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са дискретни сл. вел. Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X \\mid Y=y_j] = \\sum_i x_i \\mathbb{P}(B_i \\mid A_j); \\quad B_i = \\{X=x_i\\}"
+    },
+    {
+      "type": "equation",
+      "content": "A_j = \\{Y=y_j\\}"
+    },
+    {
+      "type": "equation",
+      "content": "X = \\sum_i x_i 1_{B_i} \\implies \\mathbb{E}[X \\mid Y] = \\sum_j \\sum_i x_i \\frac{\\mathbb{P}(A_j \\cap B_i)}{\\mathbb{P}(A_j)} 1_{A_j}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_j \\sum_i x_i \\mathbb{P}(B_i \\mid A_j) 1_{A_j}"
+    }
+  ]
+}

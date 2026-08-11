@@ -1,0 +1,34 @@
+{
+  "timestamp": 987.0,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "зад 1 Вкл. и изкл. ?"
+    },
+    {
+      "type": "equation",
+      "content": "A_1, \\dots, A_n , |A_i| < \\infty"
+    },
+    {
+      "type": "equation",
+      "content": "A"
+    },
+    {
+      "type": "equation",
+      "content": "B"
+    },
+    {
+      "type": "equation",
+      "content": "|\\bigcup_{i=1}^n A_i| = \\sum |A_{i_1} \\cap \\dots \\cap A_{i_k}| \\cdot"
+    },
+    {
+      "type": "equation",
+      "content": "|A \\cup B| = |A| + |B| - |A \\cap B|"
+    },
+    {
+      "type": "equation",
+      "content": "|A \\cup B \\cup C| = |A| + |B| + |C| - |A \\cap B| - |A \\cap C| - |B \\cap C| + |A \\cap B \\cap C|"
+    }
+  ]
+}

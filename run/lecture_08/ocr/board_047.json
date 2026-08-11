@@ -1,0 +1,42 @@
+{
+  "timestamp": 6387.0,
+  "image": "board_047.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Непрекъснати сл. вел. :"
+    },
+    {
+      "type": "text",
+      "content": "+"
+    },
+    {
+      "type": "equation",
+      "content": "M = 100.000 \\cdot X ,"
+    },
+    {
+      "type": "text",
+      "content": "където"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е непр. сл. вел."
+    },
+    {
+      "type": "equation",
+      "content": "f_X(x) = \\begin{cases} 5(1-x)^4, & x \\in (0,1) \\\\ 0 & \\text{иначе} \\end{cases}"
+    },
+    {
+      "type": "equation",
+      "content": "5"
+    },
+    {
+      "type": "equation",
+      "content": "1"
+    }
+  ]
+}

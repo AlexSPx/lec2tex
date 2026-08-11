@@ -1,0 +1,38 @@
+{
+  "timestamp": 4548.0,
+  "image": "board_019.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: (дисперсия) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е дискр. сл. вел. с очакване"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "DX := \\sum_j (x_j - \\mathbb{E}X)^2 p_j"
+    },
+    {
+      "type": "text",
+      "content": "стига"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty."
+    }
+  ]
+}

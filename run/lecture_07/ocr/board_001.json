@@ -1,0 +1,10 @@
+{
+  "timestamp": 0.0,
+  "image": "board_001.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}"
+    }
+  ]
+}

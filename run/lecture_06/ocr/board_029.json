@@ -1,0 +1,42 @@
+{
+  "timestamp": 2397.0,
+  "image": "board_029.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X_1 = p, \\quad DX_1 = \\mathbb{E}X_1^2 - (\\mathbb{E}X_1)^2 = p - p^2 = pq"
+    },
+    {
+      "type": "equation",
+      "content": "g_{X_1}(s) = q \\cdot s^0 + ps^1 = q + ps"
+    },
+    {
+      "type": "equation",
+      "content": "g'_{X_1}(s) = p \\Rightarrow g'_{X_1}(1) = p = \\mathbb{E}X_1"
+    },
+    {
+      "type": "text",
+      "content": "А) Разпределение на Бернули - нека е"
+    },
+    {
+      "type": "equation",
+      "content": "X_1"
+    },
+    {
+      "type": "text",
+      "content": "в"
+    },
+    {
+      "type": "text",
+      "content": "схема на Бернули Записва се"
+    },
+    {
+      "type": "equation",
+      "content": "X_1 \\sim Ber(p)"
+    },
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}"
+    }
+  ]
+}

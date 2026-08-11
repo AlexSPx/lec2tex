@@ -1,0 +1,70 @@
+{
+  "timestamp": 3840.0,
+  "image": "board_012.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Непрекъснати съвместни разпределения"
+    },
+    {
+      "type": "text",
+      "content": "Деф:"
+    },
+    {
+      "type": "equation",
+      "content": "X = (X_1, \\dots, X_n)"
+    },
+    {
+      "type": "text",
+      "content": "е непр. вектор от сл. вел. ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\exists f_X: \\mathbb{R}^n \\to [0, \\infty):"
+    },
+    {
+      "type": "equation",
+      "content": "n=2"
+    },
+    {
+      "type": "text",
+      "content": "1)"
+    },
+    {
+      "type": "equation",
+      "content": "f_X(x) \\ge 0 \\quad \\forall x \\in \\mathbb{R}^n"
+    },
+    {
+      "type": "equation",
+      "content": "D"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "2)"
+    },
+    {
+      "type": "equation",
+      "content": "\\int_{-\\infty}^{\\infty} \\dots \\int_{-\\infty}^{\\infty} f_X(x_1, \\dots, x_n) dx_1 \\dots dx_n = 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\int f_X"
+    },
+    {
+      "type": "text",
+      "content": "3)"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall D \\subseteq \\mathbb{R}^n \\quad \\mathbb{P}(X \\in D) = \\int_D f_X(x) dx"
+    },
+    {
+      "type": "equation",
+      "content": "D \\subseteq \\mathbb{R}^n"
+    }
+  ]
+}

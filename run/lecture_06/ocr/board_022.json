@@ -1,0 +1,14 @@
+{
+  "timestamp": 1992.0,
+  "image": "board_022.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Схема на Бернули"
+    },
+    {
+      "type": "equation",
+      "content": "X_j"
+    }
+  ]
+}

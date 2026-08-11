@@ -1,133 +1,110 @@
 # Lec2LaTeX Pipeline
 
-A multi-stage pipeline designed to convert lecture videos (Bulgarian audio + whiteboard content) into clean, well-formatted, and compilable LaTeX notes. 
+Converts lecture videos (Bulgarian audio + handwritten whiteboard) into clean,
+compilable **Bulgarian** LaTeX notes. Instead of a frame-by-frame transcript it
+aligns spoken content with whiteboard states, reads the board with a
+vision-language model, verifies the math, and runs a self-correcting LaTeX
+compile loop.
 
-Rather than a simple frame-by-frame transcript, this pipeline aligns spoken Bulgarian content with whiteboard changes, translates the spoken explanations into professional academic English, reconstructs mathematical equations using specialized OCR (`pix2tex`), tracks whiteboard additions/erasures, and runs a self-correcting LaTeX compilation validation loop.
+The pipeline is **local-first** and **dual-backend**: every model-using stage can
+run on-device or in the cloud, on either an Apple-Silicon (Metal) machine or a
+CUDA/Linux box, and each stage is switched independently.
 
-## Architecture Overview
-
-```
-Video Input
- │
- ├── Stage 1: Audio Transcription (Faster-Whisper large-v3)
- │
- ├── Stage 2: Whiteboard Corner Detection & Homography Rectification (OpenCV)
- │
- ├── Stage 3: Whiteboard Change Tracking (SSIM-based keyframe extraction)
- │
- ├── Stage 4 & 5: Layout OCR & Evolution Tracking (PaddleOCR + pix2tex + IoU Matching)
- │
- ├── Stage 6 & 7: Temporal Alignment & Intermediate Representation (IR Output)
- │
- ├── Stage 8: LLM-Based Note Generation (Gemini / OpenAI translation & structuring)
- │
- └── Stage 9: Validation & Self-Correction Loop (Docker-based compilation & LLM correction)
-```
-
-## Repository Structure
+## Architecture
 
 ```
-lecture2latex/
-│
-├── audio/                  # Outputs from Stage 1
-│   └── transcript.json
-│
-├── board/                  # Outputs from Stage 2 & 3
-│   ├── board_001.png
-│   ├── board_002.png
-│   └── ...
-│
-├── ocr/                    # Outputs from Stage 4 & 5
-│   ├── board_001.json
-│   ├── board_002.json
-│   └── ...
-│
-├── ir/                     # Outputs from Stage 6 & 7
-│   └── lecture_ir.json
-│
-├── latex/                  # Outputs from Stage 8 & 9
-│   ├── lecture.tex
-│   └── lecture.pdf
-│
-├── src/                    # Pipeline source code
-│   ├── main.py             # Orchestrator entrypoint
-│   ├── transcribe.py       # Stage 1
-│   ├── board_detection.py  # Stage 2
-│   ├── board_tracking.py   # Stage 3
-│   ├── ocr_pipeline.py     # Stage 4 & 5
-│   ├── temporal_alignment.py # Stage 6 & 7
-│   └── note_generation.py  # Stage 8 & 9
-│
-├── .gitignore              # Ignores outputs, virtual environments, and media
-└── README.md
+Video
+ ├─ Stage 1  Transcribe (device-aware ASR)              → audio/transcript.json
+ ├─ Stage 2  Board detection (rectify optional)         → board_corners.json
+ ├─ Stage 3  Board keyframes (dual-SSIM)                → board/*.png, board_states.json
+ ├─ Stage 4  VLM whole-board OCR (→ text + LaTeX)       → ocr/*.json
+ ├─ Stage 5  Temporal alignment (speech ↔ board state)  → ir/lecture_ir.json
+ ├─ Stage 6  Math verification (SymPy + reasoning LLM)  → ir/lecture_ir.json (+report)
+ └─ Stage 7  Generation + Tectonic self-correct loop    → latex/lecture.{tex,pdf}
 ```
 
-## Setup Instructions
+Stage 4 replaces the former PaddleOCR + pix2tex + IoU-evolution stage (which was
+unreliable on handwriting): one VLM call reads the whole board into structured
+`{text|equation}` items. Stage 6 is new. Compilation uses **Tectonic** (a single
+cross-platform binary) with a Docker/`pdflatex` fallback.
 
-### Prerequisites
-- Python 3.10+
-- FFMPEG
-- Docker (for LaTeX compilation container `texlive/texlive:latest`)
+## Setup
 
-### Installation
-1. Initialize the virtual environment and install core dependencies:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip install --upgrade pip
-   pip install faster-whisper opencv-python-headless scikit-image pix2tex
-   pip install paddlepaddle paddleocr
-   ```
-
-2. Pull the LaTeX compilation Docker image:
-   ```bash
-   docker pull texlive/texlive:latest
-   ```
-
-## Running the Pipeline
-
-### Simple Run (No API Keys Required)
-By default, the pipeline uses the local `agy` CLI in headless mode for all LLM queries, which is already authenticated and installed on your machine. No API keys are required.
-
-To run the pipeline on the GPU, you must first export the correct library paths (which maps the CUDA 13 libraries in `.venv` and falls back to CUDA 12 libraries in `math-env` for `faster-whisper`):
+### Common
+- Python 3.11, FFmpeg, `yt-dlp` (optional, for pulling lecture videos)
+- `tectonic` for compilation: `brew install tectonic` (macOS) / see tectonic docs (Linux)
 
 ```bash
-export LD_LIBRARY_PATH=$(.venv/bin/python -c 'import os, sys; paths = []; nd1 = os.path.join(".venv", "lib", f"python{sys.version_info.major}.{sys.version_info.minor}", "site-packages", "nvidia"); paths.extend([os.path.abspath(os.path.join(nd1, d, "lib")) for d in os.listdir(nd1) if os.path.isdir(os.path.join(nd1, d))]) if os.path.exists(nd1) else None; nd2 = "/home/alexspx/Documents/transcribe/math-env/lib/python3.13/site-packages/nvidia"; paths.extend([os.path.abspath(os.path.join(nd2, d, "lib")) for d in os.listdir(nd2) if os.path.isdir(os.path.join(nd2, d))]) if os.path.exists(nd2) else None; print(":".join([p for p in paths if os.path.exists(p)]))'):$LD_LIBRARY_PATH
-
-.venv/bin/python src/main.py --video path/to/lecture.mp4
+python3.11 -m venv --system-site-packages .venv
+.venv/bin/pip install --upgrade pip
 ```
 
-### Alternative Run (External LLMs)
-If you prefer to use an external API via an API key:
+### Metal profile (Apple Silicon)
+```bash
+.venv/bin/pip install opencv-python-headless scikit-image sympy antlr4-python3-runtime \
+                      mlx-whisper mlx-vlm
+# local text LLM (verify/gen) via either:
+#   * mlx_lm.server  (serves an MLX model at http://localhost:8080/v1), or
+#   * Ollama         (http://localhost:11434/v1)
+```
+Local model store defaults to `/Users/g8row/models` (override with
+`LEC2TEX_MODELS_DIR`). A `--*-model` that names a directory there is used directly.
+
+### CUDA profile (Linux)
+```bash
+.venv/bin/pip install faster-whisper opencv-python-headless scikit-image sympy \
+                      antlr4-python3-runtime
+# ASR: faster-whisper (cuda) or NVIDIA NeMo Canary-1b-v2 (--asr-backend nemo-canary)
+# LLM/VLM local: vLLM or llama.cpp exposing an OpenAI-compatible endpoint
+```
+
+## Running
 
 ```bash
-# Setup CUDA environment (as above)
-export LD_LIBRARY_PATH=$(.venv/bin/python -c 'import os, sys; paths = []; nd1 = os.path.join(".venv", "lib", f"python{sys.version_info.major}.{sys.version_info.minor}", "site-packages", "nvidia"); paths.extend([os.path.abspath(os.path.join(nd1, d, "lib")) for d in os.listdir(nd1) if os.path.isdir(os.path.join(nd1, d))]) if os.path.exists(nd1) else None; nd2 = "/home/alexspx/Documents/transcribe/math-env/lib/python3.13/site-packages/nvidia"; paths.extend([os.path.abspath(os.path.join(nd2, d, "lib")) for d in os.listdir(nd2) if os.path.isdir(os.path.join(nd2, d))]) if os.path.exists(nd2) else None; print(":".join([p for p in paths if os.path.exists(p)]))'):$LD_LIBRARY_PATH
+# Fully local on Metal (ASR local; OCR/verify/gen point at local servers):
+.venv/bin/python src/main.py --video lecture.mp4 --device metal --mode local
 
-export GEMINI_API_KEY="your_api_key_here"
-.venv/bin/python src/main.py --video path/to/lecture.mp4 --provider gemini
+# Local-first with cloud OCR (no local VLM installed):
+.venv/bin/python src/main.py --video lecture.mp4 --device metal \
+    --mode local --ocr-mode cloud --ocr-provider agy
+
+# Everything in the cloud via Antigravity:
+.venv/bin/python src/main.py --video lecture.mp4 --mode cloud --provider agy
 ```
 
-### Skipping Completed Stages
-If you have already processed part of the video and want to tweak subsequent stages (e.g. adjust alignment window, or regenerate notes without re-running transcription/OCR):
+### Per-step backend switching
+Each model stage has its own `--<step>-mode {local,cloud}`, `--<step>-model`,
+`--<step>-base-url`, and `--<step>-provider`, where `<step>` ∈ `asr | ocr | verify | gen`.
+`--mode` sets the default for all steps; `--device {auto,metal,cuda,cpu}` picks the
+local runtime. Example — local ASR + cloud OCR + local verify/gen against a
+local MLX server:
 
 ```bash
-.venv/bin/python src/main.py --video path/to/lecture.mp4 \
-    --skip-transcription \
-    --skip-detection \
-    --skip-tracking \
-    --skip-ocr
+.venv/bin/python src/main.py --video lecture.mp4 --device metal --mode local \
+    --ocr-mode cloud --ocr-provider agy \
+    --verify-base-url http://localhost:11434/v1 --verify-model qwen3:4b \
+    --gen-base-url http://localhost:8080/v1
 ```
 
-### Parameter Reference
+### Recommended local runtime per role (2026)
+| Stage | Metal (M1) | CUDA (Linux) |
+|---|---|---|
+| ASR | `mlx-whisper` large-v3 | `faster-whisper` / NeMo Canary-1b-v2 |
+| Board VLM | MLX-VLM (`qwen*-vl`) | vLLM |
+| Verify / Gen | `mlx_lm.server` or Ollama | vLLM / llama.cpp |
+| Compile | Tectonic | Tectonic |
 
-- `--video`: (Required) Path to the input MP4/MKV video.
-- `--provider`: Choose `agy` (default, keyless), `gemini`, or `openai` for LLM notes generation.
-- `--api-key`: API key for external LLM providers (ignored for `agy`, falls back to env variables for others).
-- `--model`: Custom LLM model name.
-- `--compiler`: LaTeX compiler command run inside Docker (`pdflatex` or `lualatex`).
-- `--ssim-threshold`: SSIM similarity threshold (default `0.97`) to detect whiteboard changes.
-- `--stability-threshold`: SSIM threshold (default `0.98`) to check if the lecturer has finished writing/moving.
-- `--align-window`: Transcript alignment window in seconds (default `30.0`), mapping transcript segments to `board_timestamp ± window`.
-- `--whisper-model`: Whisper model size (`large-v3`, `medium`, `small`, etc., default: `large-v3`).
-- `--whisper-compute-type`: Compute precision (`int8_float16` for VRAM optimization, `float16` for full precision, default: `int8_float16`).
+### Key flags
+- `--no-rectify` — skip perspective correction; feed the full frame to the VLM (VLMs tolerate skew).
+- `--asr-backend {auto,mlx-whisper,faster-whisper,nemo-canary}`
+- `--skip-{transcription,detection,tracking,ocr,alignment,verification,generation}`
+- `--ssim-threshold` / `--stability-threshold` — keyframe sensitivity.
+- `--align-window` — speech↔board alignment window (s).
+- `--compiler {pdflatex,lualatex}` — used by the Docker/local fallback (Tectonic ignores it).
+- `--main-font` — Cyrillic-capable Unicode font for the preamble. Tectonic uses XeTeX, so notes compile via `fontspec` (`\setmainfont`), **not** `T2A/inputenc/babel` (Tectonic doesn't bundle the cm-super metrics that route needs). Default: `Times New Roman` on macOS, `DejaVu Serif` on Linux. Pass another installed font if you prefer.
+
+## Notes on RAM (Apple Silicon)
+On a 32GB machine, avoid loading a >16GB model concurrently with other stages.
+Run stages sequentially (the orchestrator does), and prefer a small local
+reasoner (e.g. `qwen3:4b` via Ollama) for verification, or a cloud provider for
+OCR/generation, when memory is tight.

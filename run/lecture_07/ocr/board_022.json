@@ -1,0 +1,94 @@
+{
+  "timestamp": 5688.0,
+  "image": "board_022.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\boxed{Y = aX + b}"
+    },
+    {
+      "type": "text",
+      "content": "Теор:)"
+    },
+    {
+      "type": "text",
+      "content": "Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "сл. вел. с"
+    },
+    {
+      "type": "equation",
+      "content": "DX < \\infty"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "DY < \\infty"
+    },
+    {
+      "type": "text",
+      "content": ". Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "Y = aX + b \\iff |\\rho(X, Y)| = 1."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:)"
+    },
+    {
+      "type": "equation",
+      "content": "\"\\implies\""
+    },
+    {
+      "type": "equation",
+      "content": "\\overline{Y} = v\\overline{X}"
+    },
+    {
+      "type": "equation",
+      "content": "1 \\stackrel{Th}{=} D\\overline{Y} = D v\\overline{X} = v^2 D\\overline{X} = v^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\implies v^2 = 1"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "equation",
+      "content": "v = \\pm 1"
+    },
+    {
+      "type": "equation",
+      "content": "\\implies \\overline{X}\\overline{Y} = \\pm \\overline{X}\\overline{X} = \\pm \\overline{X}^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\rho(X, Y) = \\mathbb{E}\\overline{X}\\overline{Y}"
+    },
+    {
+      "type": "equation",
+      "content": "\\rho(X, Y) = \\mathbb{E}\\overline{X}\\overline{Y} = \\pm \\overline{X}^2 = D\\overline{X}^2 = 1"
+    }
+  ]
+}

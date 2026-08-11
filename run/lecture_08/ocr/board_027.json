@@ -1,0 +1,30 @@
+{
+  "timestamp": 3726.0,
+  "image": "board_027.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на УМО:"
+    },
+    {
+      "type": "text",
+      "content": "г)."
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[\\mathbb{E}[X|Y]] = \\mathbb{E}X"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[\\mathbb{E}[X|Y]] = \\mathbb{E}\\left[\\sum_{j} \\frac{\\mathbb{E} X 1_{A_j}}{\\mathbb{P}(A_j)} 1_{A_j}\\right]"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_{j} \\frac{\\mathbb{E} X 1_{A_j}}{\\mathbb{P}(A_j)} \\mathbb{E} 1_{A_j} = \\sum_{j} \\mathbb{E} X 1_{A_j}"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{E} \\sum_{j} X 1_{A_j} = \\mathbb{E} X \\sum_{j} 1_{A_j} = \\mathbb{E} X"
+    }
+  ]
+}

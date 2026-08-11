@@ -1,0 +1,66 @@
+{
+  "timestamp": 6273.0,
+  "image": "board_017.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Тв:)"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim \\Gamma(\\alpha, \\beta),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "M_X(t) = ?"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:)"
+    },
+    {
+      "type": "equation",
+      "content": "M_X(t) = \\frac{\\beta^\\alpha}{\\Gamma(\\alpha)} \\int_0^\\infty e^{tx} x^{\\alpha-1} e^{-\\beta x} dx"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{\\beta^\\alpha}{\\Gamma(\\alpha)} \\int_0^\\infty x^{\\alpha-1} e^{-x(\\beta-t)} dx"
+    },
+    {
+      "type": "equation",
+      "content": "x(\\beta-t) = y"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{1}{\\Gamma(\\alpha)} y^{\\alpha-1} e^{-y}"
+    },
+    {
+      "type": "text",
+      "content": "е плътност"
+    },
+    {
+      "type": "text",
+      "content": "на"
+    },
+    {
+      "type": "equation",
+      "content": "\\Gamma(\\alpha, 1)"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{\\beta^\\alpha}{\\Gamma(\\alpha)(\\beta-t)^\\alpha} \\int_0^\\infty y^{\\alpha-1} e^{-y} dy"
+    },
+    {
+      "type": "equation",
+      "content": "= \\frac{\\beta^\\alpha}{(\\beta-t)^\\alpha}"
+    },
+    {
+      "type": "equation",
+      "content": "t < \\beta"
+    }
+  ]
+}

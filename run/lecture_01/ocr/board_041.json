@@ -1,0 +1,30 @@
+{
+  "timestamp": 1110.0,
+  "image": "board_041.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства:"
+    },
+    {
+      "type": "equation",
+      "content": "\\bigcup_{i=1}^{\\infty} A_i = \\{ \\omega \\in \\Omega :"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega"
+    },
+    {
+      "type": "text",
+      "content": "принадлежи на поне"
+    },
+    {
+      "type": "text",
+      "content": "едно"
+    },
+    {
+      "type": "equation",
+      "content": "A_i \\}"
+    }
+  ]
+}

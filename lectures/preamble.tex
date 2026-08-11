@@ -1,0 +1,96 @@
+% ---------------------------------------------------------------------------
+%  Shared preamble for the "Вероятности и Статистика" lecture notes.
+%
+%  Used by both builds:
+%    * lecture_NN.tex   — standalone article, one lecture   (\section = top level)
+%    * lectures_full.tex — collected book, report class     (\chapter = per lecture)
+%
+%  The driver sets \numberwithin{thm}{section|chapter} after \input-ing this.
+% ---------------------------------------------------------------------------
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+% Bulgarian: loads hyphenation patterns (without these TeX cannot break a single
+% Cyrillic word, which is what produced the loose lines and overfull boxes) and
+% translates the auto-generated captions ("Contents" -> "Съдържание").
+\usepackage{polyglossia}
+\setmainlanguage{bulgarian}
+\setotherlanguage{english}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage[most]{tcolorbox}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+% "г.", "т.е.", "п.с." are abbreviations, not sentence ends — suppress the
+% extra inter-sentence space LaTeX would otherwise insert after them.
+\frenchspacing
+
+\linespread{1.08}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0pt}
+\clubpenalty=10000       % no orphans
+\widowpenalty=10000      % no widows
+\displaywidowpenalty=10000
+
+% Long unbreakable inline-math runs (\{1,2,\dots,n\}, \text{...} spans) cannot be
+% hyphenated. Let TeX stretch a line as a last resort rather than let it stick
+% out into the margin.
+\setlength{\emergencystretch}{3em}
+
+% --- palette ---------------------------------------------------------------
+\definecolor{defframe}{RGB}{38,90,160}
+\definecolor{defback}{RGB}{234,241,250}
+\definecolor{thmframe}{RGB}{34,120,70}
+\definecolor{thmback}{RGB}{233,246,238}
+
+% --- numbered statement environments ---------------------------------------
+% One shared counter for all five, so a reader scanning for "Твърдение 4.7"
+% never has to guess which of five sequences it belongs to.
+\newtheoremstyle{lecstyle}
+  {\topsep}{\topsep}     % space above / below
+  {\normalfont}          % body font — upright; italic Cyrillic at 11pt is hard to read
+  {0pt}                  % indent
+  {\bfseries}            % head font
+  {.}                    % punctuation after head
+  {0.5em}                % space after head
+  {}                     % default head spec
+\theoremstyle{lecstyle}
+
+\newtheorem{thm}{Теорема}
+\newtheorem{defn}[thm]{Дефиниция}
+\newtheorem{prop}[thm]{Твърдение}
+\newtheorem{lem}[thm]{Лема}
+\newtheorem{cor}[thm]{Следствие}
+
+\newtheoremstyle{lecremark}
+  {\topsep}{\topsep}{\normalfont}{0pt}{\itshape}{.}{0.5em}{}
+\theoremstyle{lecremark}
+\newtheorem{remark}[thm]{Забележка}
+\newtheorem{example}[thm]{Пример}
+
+% Definitions in blue, everything provable in green. Proofs stay outside.
+\tcbset{lecbox/.style={enhanced, breakable, arc=2.4mm, boxrule=0.7pt,
+    left=2.6mm, right=2.6mm, top=1.8mm, bottom=1.8mm, before skip=0.6em,
+    after skip=0.6em}}
+\tcolorboxenvironment{defn}{lecbox, colback=defback, colframe=defframe}
+\tcolorboxenvironment{thm} {lecbox, colback=thmback, colframe=thmframe}
+\tcolorboxenvironment{prop}{lecbox, colback=thmback, colframe=thmframe}
+\tcolorboxenvironment{lem} {lecbox, colback=thmback, colframe=thmframe}
+\tcolorboxenvironment{cor} {lecbox, colback=thmback, colframe=thmframe}
+
+% Proofs: unboxed, with an automatic flush-right QED on every one of them.
+\renewcommand{\proofname}{Доказателство}
+\renewcommand{\qedsymbol}{$\square$}
+
+% --- links ------------------------------------------------------------------
+\usepackage{hyperref}   % load last
+\hypersetup{
+  colorlinks=true, linkcolor=defframe, urlcolor=defframe, citecolor=defframe,
+  linktoc=all, bookmarksnumbered=true, bookmarksopen=true, unicode=true,
+  bookmarksdepth=3,   % printed TOC stays lean; the PDF outline keeps full depth
+  pdfauthor={}}

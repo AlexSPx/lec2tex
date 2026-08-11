@@ -1,0 +1,58 @@
+{
+  "timestamp": 354.0,
+  "image": "board_003.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Доверителни интервали"
+    },
+    {
+      "type": "equation",
+      "content": "X; F_X(x, \\theta), \\theta \\in \\mathbb{R}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\vec{X} \\implies \\hat{\\theta} = \\hat{\\theta}(\\vec{X})"
+    },
+    {
+      "type": "equation",
+      "content": "I_1 = I_1(\\vec{X}); I_2 = I_2(\\vec{X})"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(I_1 \\le \\theta \\le I_2) \\ge \\gamma"
+    },
+    {
+      "type": "text",
+      "content": "ниво на доверие"
+    },
+    {
+      "type": "equation",
+      "content": "\\gamma = 0,95; 0,99"
+    },
+    {
+      "type": "equation",
+      "content": "0,9"
+    },
+    {
+      "type": "equation",
+      "content": "(I_1, I_2)"
+    },
+    {
+      "type": "text",
+      "content": "се нарича довер. интервал"
+    },
+    {
+      "type": "text",
+      "content": "с ниво на доверие"
+    },
+    {
+      "type": "equation",
+      "content": "\\gamma."
+    }
+  ]
+}

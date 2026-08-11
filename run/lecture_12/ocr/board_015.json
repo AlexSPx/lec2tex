@@ -1,0 +1,62 @@
+{
+  "timestamp": 4788.0,
+  "image": "board_015.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на точковите оценки:"
+    },
+    {
+      "type": "text",
+      "content": "ако не знаете"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\sigma}^2 = \\frac{1}{n} \\sum_{j=1}^{n} (X_j - \\overline{X}_n)^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim N(\\mu, \\sigma^2)"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\mu} = \\frac{1}{n} \\sum_{j=1}^{n} X_j"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}\\hat{\\mu} = \\frac{1}{n} \\sum_{j=1}^{n} \\mathbb{E}X_j = \\frac{n\\mu}{n} = \\mu"
+    },
+    {
+      "type": "text",
+      "content": "Ако знаете"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": ","
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}\\hat{\\sigma}^2 = \\frac{1}{n} \\mathbb{E} \\sum_{j=1}^{n} (X_j - \\mu)^2 = \\frac{1}{n} \\sum_{j=1}^{n} \\mathbb{E}(X_j - \\mu)^2 = \\frac{n\\sigma^2}{n} = \\sigma^2"
+    }
+  ]
+}

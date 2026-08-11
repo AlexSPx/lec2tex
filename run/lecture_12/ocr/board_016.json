@@ -1,0 +1,34 @@
+{
+  "timestamp": 4869.0,
+  "image": "board_016.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Свойства на точковите оценки:"
+    },
+    {
+      "type": "text",
+      "content": "ако не знаете"
+    },
+    {
+      "type": "equation",
+      "content": "\\mu"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\sigma}^2 \\triangleq \\frac{1}{n} \\sum_{j=1}^n (X_j - \\bar{X}_n^{(1)})^2"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E} \\hat{\\sigma}^2 = \\frac{1}{n} \\sum_{j=1}^n \\mathbb{E}(X_j - \\bar{X}_n^{(1)})^2 = \\frac{1}{n} \\sum_{j=1}^n \\mathbb{E}(X_j^2 - 2X_j\\bar{X}_n^{(1)} + (\\bar{X}_n^{(1)})^2)"
+    },
+    {
+      "type": "equation",
+      "content": "="
+    }
+  ]
+}

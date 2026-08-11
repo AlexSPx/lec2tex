@@ -1,0 +1,30 @@
+{
+  "timestamp": 1548.0,
+  "image": "board_004.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во"
+    },
+    {
+      "type": "text",
+      "content": "д)"
+    },
+    {
+      "type": "equation",
+      "content": "A_1 \\supseteq A_2 \\supseteq \\dots \\supseteq A_n \\supseteq \\dots"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(A_j)"
+    },
+    {
+      "type": "equation",
+      "content": "A_j"
+    },
+    {
+      "type": "equation",
+      "content": "A_1"
+    }
+  ]
+}

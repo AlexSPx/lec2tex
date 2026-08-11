@@ -1,0 +1,14 @@
+{
+  "timestamp": 3633.0,
+  "image": "board_038.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Б Биномно разпределение -"
+    },
+    {
+      "type": "equation",
+      "content": "\\oplus ."
+    }
+  ]
+}

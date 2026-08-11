@@ -1,0 +1,62 @@
+{
+  "timestamp": 5673.0,
+  "image": "board_058.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Т1:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r, p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\left( \\frac{p}{1-qs} \\right)^r"
+    },
+    {
+      "type": "text",
+      "content": "Сл:"
+    },
+    {
+      "type": "equation",
+      "content": "X \\sim NB(r, p),"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = r\\frac{q}{p},"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{D}X = r\\frac{q}{p^2}"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, k \\ge 0"
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = \\mathbb{E} \\sum_{j=1}^r Y_j = \\sum_{j=1}^r \\mathbb{E}Y_j = r \\frac{q}{p} ;"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{D}X = \\mathbb{D} \\sum_{j=1}^r Y_j = r \\mathbb{D}Y_1 = r \\frac{q}{p^2}"
+    }
+  ]
+}

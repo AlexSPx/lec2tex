@@ -1,0 +1,26 @@
+{
+  "timestamp": 1749.0,
+  "image": "board_071.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A = \\bigcup_{i=1}^{9999} A_i"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\{"
+    },
+    {
+      "type": "text",
+      "content": "паднали са се два същи числа"
+    },
+    {
+      "type": "text",
+      "content": "в два последователни тиража от"
+    },
+    {
+      "type": "equation",
+      "content": "10000 \\}"
+    }
+  ]
+}

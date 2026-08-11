@@ -1,0 +1,18 @@
+{
+  "timestamp": 1350.0,
+  "image": "board_012.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\begin{array}{c|c|c|c} Y & y_1 & \\dots y_j & \\dots \\\\ \\hline \\mathbb{P} & p_1 & p_j & \\dots \\end{array}"
+    },
+    {
+      "type": "equation",
+      "content": "A_j = \\{ Y = y_j \\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X|Y] = \\sum_j \\frac{\\mathbb{E} X 1_{A_j}}{\\mathbb{P}(A_j)} 1_{A_j}"
+    }
+  ]
+}

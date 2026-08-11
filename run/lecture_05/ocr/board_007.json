@@ -1,0 +1,62 @@
+{
+  "timestamp": 2040.0,
+  "image": "board_007.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Д-во:"
+    },
+    {
+      "type": "text",
+      "content": "а)"
+    },
+    {
+      "type": "equation",
+      "content": "X=C"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}X = C \\cdot \\mathbb{P}(X=C) = C"
+    },
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "equation",
+      "content": "Z = cX = g(X)"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}Z = \\mathbb{E}cX = \\sum_j g(x_j) p_j"
+    },
+    {
+      "type": "equation",
+      "content": "g(x) = cx"
+    },
+    {
+      "type": "equation",
+      "content": "= \\sum_j c x_j p_j = C \\cdot \\mathbb{E}X"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "equation",
+      "content": "Z = X + Y = g(X,Y)"
+    },
+    {
+      "type": "equation",
+      "content": "g(x,y) = x+y;"
+    }
+  ]
+}

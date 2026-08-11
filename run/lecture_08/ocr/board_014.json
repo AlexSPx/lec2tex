@@ -1,0 +1,46 @@
+{
+  "timestamp": 1731.0,
+  "image": "board_014.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Деф: Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "и"
+    },
+    {
+      "type": "equation",
+      "content": "Y"
+    },
+    {
+      "type": "text",
+      "content": "са дискретни сл. вел. Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X|Y=y_j] = \\sum_i x_i \\mathbb{P}(B_i | A_j)"
+    },
+    {
+      "type": "text",
+      "content": ";"
+    },
+    {
+      "type": "equation",
+      "content": "B_i = \\{X=x_i\\}"
+    },
+    {
+      "type": "equation",
+      "content": "A_j = \\{Y=y_j\\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{E}[X|Y]"
+    }
+  ]
+}

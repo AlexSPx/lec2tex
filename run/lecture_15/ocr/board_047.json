@@ -1,0 +1,82 @@
+{
+  "timestamp": 3063.0,
+  "image": "board_047.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "б)"
+    },
+    {
+      "type": "text",
+      "content": "1-ва 2-ра ... k-та"
+    },
+    {
+      "type": "equation",
+      "content": "\\downarrow \\quad \\downarrow \\quad \\dots \\quad \\downarrow"
+    },
+    {
+      "type": "equation",
+      "content": "n \\quad n \\quad \\dots \\quad n"
+    },
+    {
+      "type": "text",
+      "content": "общо"
+    },
+    {
+      "type": "equation",
+      "content": "n^k"
+    },
+    {
+      "type": "text",
+      "content": "в)"
+    },
+    {
+      "type": "text",
+      "content": "k частици, различни"
+    },
+    {
+      "type": "text",
+      "content": "n клетки"
+    },
+    {
+      "type": "equation",
+      "content": "k \\ge n"
+    },
+    {
+      "type": "text",
+      "content": "#: няма празна клетка"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    },
+    {
+      "type": "equation",
+      "content": "\\square \\quad \\square \\quad \\dots \\quad \\square"
+    },
+    {
+      "type": "equation",
+      "content": "a_{20}"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "equation",
+      "content": "a_1"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{\\square}{a_{20}}"
+    },
+    {
+      "type": "equation",
+      "content": "A_i = \\{ i\\text{-тата клетка е празна} \\}"
+    },
+    {
+      "type": "equation",
+      "content": "\\bigcup_{i=1}^n A_i = \\{ \\text{поне 1 клетка е празна} \\}"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": 10134.0,
+  "image": "board_034.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "\\Gamma(\\frac{7}{2}, \\beta)"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_{j=1}^{7} X_j, X_j \\sim \\Gamma(\\frac{1}{2}, \\beta)"
+    },
+    {
+      "type": "equation",
+      "content": "\\frac{7}{2n}"
+    },
+    {
+      "type": "equation",
+      "content": "\\sum_{j=1}^{n} X_j, X_j \\sim \\Gamma(\\frac{7}{2n}, \\beta)"
+    }
+  ]
+}

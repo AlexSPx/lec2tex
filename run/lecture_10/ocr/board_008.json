@@ -1,0 +1,42 @@
+{
+  "timestamp": 2937.0,
+  "image": "board_008.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Неравенство на Чебишев"
+    },
+    {
+      "type": "text",
+      "content": "Теор: (Чеб.) Нека"
+    },
+    {
+      "type": "equation",
+      "content": "X"
+    },
+    {
+      "type": "text",
+      "content": "е сл. вел. с дисперсия"
+    },
+    {
+      "type": "equation",
+      "content": "DX."
+    },
+    {
+      "type": "text",
+      "content": "Тогава"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(|X-EX|>a) \\le \\frac{DX}{a^2}"
+    },
+    {
+      "type": "equation",
+      "content": "\\forall a>0."
+    },
+    {
+      "type": "text",
+      "content": "Д-во:"
+    }
+  ]
+}

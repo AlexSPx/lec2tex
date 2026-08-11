@@ -1,0 +1,58 @@
+{
+  "timestamp": 4791.0,
+  "image": "board_042.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Проверка на хипотези"
+    },
+    {
+      "type": "equation",
+      "content": "\\sigma^2"
+    },
+    {
+      "type": "text",
+      "content": "- не е известна"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_1 = b_1 = \\sum_{k=1}^n C_k Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\beta}_0 = b_0 = \\sum_{k=1}^n \\left(\\frac{1}{n} - \\overline{X} C_k\\right) Y_k"
+    },
+    {
+      "type": "equation",
+      "content": "C_k = \\frac{X_k - \\overline{X}}{A}"
+    },
+    {
+      "type": "equation",
+      "content": "A = \\sum_{k=1}^n (X_k - \\overline{X})^2"
+    },
+    {
+      "type": "equation",
+      "content": "Y_k = \\beta_0 + \\beta_1 X_k + \\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "E Y_k = \\beta_0 + \\beta_1 X_k"
+    },
+    {
+      "type": "equation",
+      "content": "D\\varepsilon_k"
+    },
+    {
+      "type": "equation",
+      "content": "b_1 \\sim N\\left(\\beta_1; \\frac{\\sigma^2}{A}\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "b_0 \\sim N\\left(\\beta_0; \\sigma^2 \\left(\\frac{1}{n} + \\frac{\\overline{X}^2}{A}\\right)\\right)"
+    },
+    {
+      "type": "equation",
+      "content": "\\hat{\\sigma}^2 = \\frac{1}{n-2} \\sum_{k=1}^n (Y_k - b_0 - b_1 X_k)^2;"
+    }
+  ]
+}

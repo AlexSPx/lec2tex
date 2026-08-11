@@ -1,0 +1,50 @@
+{
+  "timestamp": 811.67,
+  "image": "board_018.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A \\in \\Omega, B \\in \\Omega,"
+    },
+    {
+      "type": "text",
+      "content": "то"
+    },
+    {
+      "type": "equation",
+      "content": "C = A \\cup B"
+    },
+    {
+      "type": "text",
+      "content": "разбираме"
+    },
+    {
+      "type": "equation",
+      "content": "C"
+    },
+    {
+      "type": "text",
+      "content": ", така че ако"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in C"
+    },
+    {
+      "type": "text",
+      "content": ", то"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in A"
+    },
+    {
+      "type": "text",
+      "content": "или"
+    },
+    {
+      "type": "equation",
+      "content": "\\omega \\in B."
+    }
+  ]
+}

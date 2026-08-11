@@ -1,0 +1,26 @@
+{
+  "timestamp": 732.0,
+  "image": "board_012.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "DX = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g'_X(1))^2"
+    },
+    {
+      "type": "text",
+      "content": "Д-во: б)"
+    },
+    {
+      "type": "equation",
+      "content": "g_X(s) = \\mathbb{E}s^X \\rightarrow g'_X(s) = \\frac{d}{ds}\\mathbb{E}s^X"
+    },
+    {
+      "type": "equation",
+      "content": "= \\mathbb{E}\\frac{d}{ds}s^X = \\mathbb{E}X s^{X-1} = g'_X(s)"
+    },
+    {
+      "type": "equation",
+      "content": "g''_X(s) = \\mathbb{E}X(X-1)s^{X-2} \\Rightarrow g''_X(1) = \\mathbb{E}X(X-1) = \\mathbb{E}X^2 - \\mathbb{E}X"
+    }
+  ]
+}

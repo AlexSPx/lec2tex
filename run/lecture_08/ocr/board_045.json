@@ -1,0 +1,18 @@
+{
+  "timestamp": 5499.0,
+  "image": "board_045.png",
+  "items": [
+    {
+      "type": "text",
+      "content": "Полиномно разпределение:"
+    },
+    {
+      "type": "equation",
+      "content": "\\binom{n}{k_1} \\binom{n-k_1}{k_2} \\dots \\binom{n-k_1-\\dots-k_{r-1}}{k_r}"
+    },
+    {
+      "type": "equation",
+      "content": "\\mathbb{P}(X_1=k_1; X_2=k_2; \\dots; X_r=k_r) = \\frac{n!}{k_1!\\dots k_r!} p_1^{k_1} p_2^{k_2} \\dots p_r^{k_r}"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp": 836.33,
+  "image": "board_019.png",
+  "items": [
+    {
+      "type": "equation",
+      "content": "A = \\{"
+    },
+    {
+      "type": "text",
+      "content": "гласували за"
+    },
+    {
+      "type": "equation",
+      "content": "X \\}, B = \\{"
+    },
+    {
+      "type": "text",
+      "content": "хора м/у 19-21 год."
+    },
+    {
+      "type": "equation",
+      "content": "\\}"
+    },
+    {
+      "type": "equation",
+      "content": "A \\cup B"
+    },
+    {
+      "type": "text",
+      "content": "Деф. (\"и\")"
+    }
+  ]
+}
