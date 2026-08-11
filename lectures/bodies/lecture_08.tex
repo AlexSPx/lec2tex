@@ -333,7 +333,7 @@ f_Y(y) = f_X(g^{-1}(y)) \left| (g^{-1}(y))' \right|
 \E[g(X)] = \int_{-\infty}^{\infty} g(x) f_X(x) dx
 \]
 
-\textbf{Свойства на очакването и дисперсията:}
+\begin{prop}[Свойства на очакването и дисперсията]\label{prop:exp-var-props}
 Следните свойства остават изцяло в сила както за дискретни, така и за непрекъснати случайни величини (нека $a, b, c$ са константи):
 \begin{itemize}
     \item Очакване на константа: $\E c = c$
@@ -343,6 +343,7 @@ f_Y(y) = f_X(g^{-1}(y)) \left| (g^{-1}(y))' \right|
     \item Мащабиране на дисперсията: $\Var(aX) = a^2 \Var X$
     \item Независимост: Ако $X \perp\!\!\!\perp Y$, то $\E[XY] = \E X \cdot \E Y$ и $\Var(X + Y) = \Var X + \Var Y$
 \end{itemize}
+\end{prop}
 
 \subsection{Равномерно разпределение}
 

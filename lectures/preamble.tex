@@ -70,6 +70,7 @@
 \definecolor{keyback}{RGB}{253,247,232}
 \definecolor{exrule}{RGB}{118,130,146}
 \definecolor{proofrule}{RGB}{198,203,212}
+\definecolor{suppframe}{RGB}{124,96,150}
 
 % --- numbered statement environments ---------------------------------------
 % One shared counter for all five, so a reader scanning for "Твърдение 4.7"
@@ -106,6 +107,15 @@
 \theoremstyle{lecremark}
 \newtheorem{remark}[thm]{Забележка}
 
+% Material that is NOT part of the recorded 2021/22 lectures — taken from the
+% official course documents. Dashed violet frame and a dagger, so it can never
+% be mistaken for something the lecturer said.
+\newtheoremstyle{lecsupp}
+  {\topsep}{\topsep}{\normalfont}{0pt}{\bfseries\color{suppframe}}{.}{0.5em}
+  {\color{suppframe}\ensuremath{\dagger}\ \thmname{#1}\thmnumber{ #2}\thmnote{ (#3)}}
+\theoremstyle{lecsupp}
+\newtheorem{supp}[thm]{Допълнение}
+
 % Examples are marked to be SKIPPED on a first pass: recessive slate head with a
 % ▷ lead-in, no fill, thin left rule.
 \newtheoremstyle{lecexample}
@@ -131,6 +141,12 @@
 \tcolorboxenvironment{keythm} {leckeybox}
 \tcolorboxenvironment{keydefn}{leckeybox}
 \tcolorboxenvironment{keylem} {leckeybox}
+
+% Supplement tier: dashed violet frame, no fill — visibly outside the lecture record.
+\tcolorboxenvironment{supp}{enhanced, breakable, colback=white,
+  colframe=suppframe, boxrule=0.5pt, frame style={dash pattern=on 3pt off 2pt},
+  arc=2.4mm, left=2.6mm, right=2.6mm, top=1.8mm, bottom=1.8mm,
+  before skip=0.6em, after skip=0.6em}
 
 % Skippable tier: no fill, no frame, just a marginal rule the eye can run past.
 % Examples get a visible slate rule; proofs get a fainter one still.
