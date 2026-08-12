@@ -66,6 +66,31 @@ F(x) =
 \end{cases}
 \]
 
+\begin{lecfigure}[Функцията на разпределение на индикатор $\ind_A$ при
+$p_1 = \mathbb{P}(A)$. Стъпаловидна е, с два скока — в $0$ и в $1$. Плътната точка
+показва коя стойност се приема в самата точка на скока: при конвенцията
+$F(x) = \mathbb{P}(X < x)$ функцията е непрекъсната отляво.\label{fig:cdf-indicator}]
+\begin{tikzpicture}[x=2.1cm, y=2.3cm]
+  \draw[axisline] (-0.75,0) -- (2.3,0) node[right, font=\small] {$x$};
+  \draw[axisline] (0,-0.12) -- (0,1.32) node[above, font=\small] {$F(x)$};
+  % level guides
+  \draw[guide] (0,1) -- (2.1,1);
+  \draw[guide] (0,0.62) -- (1,0.62);
+  \node[left, font=\small] at (-0.03,1) {$1$};
+  \node[left, font=\small] at (-0.03,0.62) {$1-p_1$};
+  \node[below, font=\small] at (1,-0.04) {$1$};
+  % the three pieces
+  \draw[cdfstep] (-0.7,0) -- (0,0);
+  \draw[cdfstep] (0,0.62) -- (1,0.62);
+  \draw[cdfstep] (1,1) -- (2.1,1);
+  % closed / open endpoints
+  \fill[defframe] (0,0) circle (1.7pt);
+  \draw[defframe, fill=white, line width=0.7pt] (0,0.62) circle (1.7pt);
+  \fill[defframe] (1,0.62) circle (1.7pt);
+  \draw[defframe, fill=white, line width=0.7pt] (1,1) circle (1.7pt);
+\end{tikzpicture}
+\end{lecfigure}
+
 \end{example}
 
 \section{Математическо очакване}

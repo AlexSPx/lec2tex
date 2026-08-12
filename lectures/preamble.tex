@@ -78,6 +78,32 @@
 \definecolor{proofrule}{RGB}{198,203,212}
 \definecolor{suppframe}{RGB}{124,96,150}
 
+% --- figures ---------------------------------------------------------------
+% Native TikZ: vector, no external assets, and it can reuse the palette above so
+% figures read as part of the same system. Figures are NON-FLOATING: where the
+% picture is the argument (the reflection principle), a float that drifts to the
+% next page breaks the proof. Meaning is carried by line weight and dash pattern
+% as well as colour, so the figures survive greyscale like the boxes do.
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, decorations.pathreplacing}
+\usepackage{caption}
+\captionsetup{font=small, labelfont=bf, skip=6pt}
+% NB: put \label{} INSIDE the caption argument -- \captionof steps the figure
+% counter, so a label placed before it would capture the wrong number.
+\newenvironment{lecfigure}[1][]
+  {\par\medskip\noindent\begin{minipage}{\linewidth}\centering
+   \def\lecfigcap{#1}}
+  {\ifx\lecfigcap\empty\else\captionof{figure}{\lecfigcap}\fi
+   \end{minipage}\par\medskip}
+\tikzset{
+  axisline/.style={gray!70, -{Stealth[length=2mm]}, line width=0.4pt},
+  walk/.style={thmframe, line width=1pt, line join=round},
+  walkrefl/.style={keyframe, line width=1pt, line join=round,
+                   dash pattern=on 3pt off 2pt},
+  cdfstep/.style={defframe, line width=1pt},
+  guide/.style={gray!55, line width=0.4pt, dash pattern=on 2pt off 2pt},
+}
+
 % --- numbered statement environments ---------------------------------------
 % One shared counter for all five, so a reader scanning for "Твърдение 4.7"
 % never has to guess which of five sequences it belongs to.
