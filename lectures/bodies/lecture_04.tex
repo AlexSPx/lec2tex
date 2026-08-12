@@ -194,6 +194,50 @@ $x = 7$ отразява симетрията на самия експериме
 Нека $X$ е дискретна случайна величина, а $g: \mathbb{R} \rightarrow \mathbb{R}$ е функция, която е добре дефинирана поне върху възможните стойности на $X$. Тогава $Y = g(X)$ също е дискретна случайна величина:
 \[ Y = g(X) = \sum_{j} g(x_j) \ind_{H_j} \]
 
+\begin{lecfigure}[Случайната величина като изображение. Горе: $X$ разбива $\Omega$ на
+непресичащи се събития $H_j = \{X = x_j\}$ и изпраща всяко от тях в едно число.
+Долу: съставената величина $Y = g(X)$ при $g(0) = 0$ и $g(n) = 1$ за $n \ge 1$ —
+събитията $H_1, H_2, \dots$ се сливат в една стойност, а вероятностите им се
+\emph{събират}. Точно това прави сумата в горната
+формула.\label{fig:rv-as-map}]
+\begin{tikzpicture}[x=1cm, y=1cm]
+  % ---------- top: X ----------
+  \begin{scope}
+    \draw[exrule, line width=0.7pt] (0,0) ellipse (1.95 and 1.4);
+    \node[font=\small, above] at (0,1.42) {$\Omega$};
+    \fill[defback] (-0.75,0.6) ellipse (0.62 and 0.36);
+    \fill[keyback] (0.72,0.52) ellipse (0.58 and 0.34);
+    \fill[thmback] (-0.5,-0.62) ellipse (0.66 and 0.36);
+    \node[font=\scriptsize] at (-0.75,0.6) {$H_0$};
+    \node[font=\scriptsize] at (0.72,0.52) {$H_1$};
+    \node[font=\scriptsize] at (-0.5,-0.62) {$H_2$};
+    \draw[axisline] (3.1,0) -- (7.4,0) node[below right, font=\small] {$\mathbb{R}$};
+    \foreach \x/\l in {3.7/0, 4.6/1, 5.5/2, 6.6/{$x_k$}} {
+      \draw[gray!70] (\x,-0.12) -- (\x,0.12);
+      \node[below, font=\scriptsize] at (\x,-0.13) {\l};}
+    \draw[defframe, -{Stealth[length=1.6mm]}] (-0.13,0.98) to[out=35,in=145] (3.65,0.16);
+    \draw[keyframe, -{Stealth[length=1.6mm]}] (1.32,0.56) to[out=12,in=155] (4.55,0.16);
+    \draw[thmframe, -{Stealth[length=1.6mm]}] (0.18,-0.68) to[out=-6,in=-150] (5.45,-0.16);
+  \end{scope}
+  % ---------- bottom: Y = g(X) ----------
+  \begin{scope}[yshift=-3.6cm]
+    \draw[exrule, line width=0.7pt] (0,0) ellipse (1.95 and 1.4);
+    \node[font=\small, above] at (0,1.42) {$\Omega$};
+    \fill[defback] (-0.85,0.62) ellipse (0.62 and 0.36);
+    \node[font=\scriptsize] at (-0.85,0.62) {$H_0$};
+    \fill[suppframe!12] (0.1,-0.42) ellipse (1.15 and 0.6);
+    \draw[suppframe, line width=0.7pt] (0.1,-0.42) ellipse (1.15 and 0.6);
+    \node[font=\scriptsize] at (0.1,-0.42) {$\bigcup_{j \ge 1} H_j$};
+    \draw[axisline] (3.1,0) -- (7.4,0) node[below right, font=\small] {$\mathbb{R}$};
+    \foreach \x/\l in {3.7/0, 4.6/1} {
+      \draw[gray!70] (\x,-0.12) -- (\x,0.12);
+      \node[below, font=\scriptsize] at (\x,-0.13) {\l};}
+    \draw[defframe, -{Stealth[length=1.6mm]}] (-0.23,1.0) to[out=35,in=145] (3.65,0.16);
+    \draw[suppframe, -{Stealth[length=1.6mm]}] (1.28,-0.42) to[out=8,in=-145] (4.55,-0.16);
+  \end{scope}
+\end{tikzpicture}
+\end{lecfigure}
+
 Ако функцията $g$ изобразява няколко различни стойности $x_i, x_j$ в едно и също число (както при четните числа от зара, които отиват в 1), ние можем да преномерираме и да обединим съответните колонки в таблицата на разпределението, като сумираме техните вероятности:
 \[ \mathbb{P}(Y = y) = \sum_{j : g(x_j) = y} \mathbb{P}(X = x_j) \]
 

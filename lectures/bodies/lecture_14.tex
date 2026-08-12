@@ -35,6 +35,28 @@ Y_k = \beta_0 + \beta_1 X_k + \varepsilon_k
 \]
 \end{defn}
 
+\begin{lecfigure}[Методът на най-малките квадрати. Точките са наблюденията
+$(X_k, Y_k)$, правата е $b_0 + b_1 x$, а вертикалните отсечки са грешките
+$\varepsilon_k = Y_k - b_0 - b_1 X_k$. Минимизира се сумата от техните \emph{квадрати}.
+Отсечките са вертикални, а не перпендикулярни на правата: моделът обяснява $Y$ чрез $X$,
+затова се мерят отклоненията само по $Y$.\label{fig:least-squares}]
+\begin{tikzpicture}[x=0.85cm, y=0.62cm]
+  \def\fit#1{1.05+0.62*(#1)}
+  \draw[axisline] (-0.3,0) -- (8.4,0) node[below right, font=\small] {$X$};
+  \draw[axisline] (-0.3,0) -- (-0.3,6.4) node[above right, font=\small] {$Y$};
+  \draw[cdfstep, thmframe] (0.1,{\fit{0.1}}) -- (8.0,{\fit{8.0}})
+        node[right, font=\small] {$b_0 + b_1 x$};
+  \foreach \x/\y in {0.6/2.05, 1.4/1.35, 2.2/3.05, 3.0/2.35, 3.8/4.25,
+                     4.6/3.35, 5.4/5.05, 6.2/4.35, 7.0/5.95, 7.6/5.15} {
+    \draw[guide] (\x,\y) -- (\x,{\fit{\x}});
+    \fill[defframe] (\x,\y) circle (2.0pt);
+  }
+  % name one residual
+  \draw[guide, keyframe, line width=0.8pt] (3.8,4.25) -- (3.8,{\fit{3.8}});
+  \node[right, font=\small, keyframe] at (3.85,{(4.25+\fit{3.8})/2}) {$\varepsilon_k$};
+\end{tikzpicture}
+\end{lecfigure}
+
 Изборът на квадрата на грешката (вместо модул) исторически е бил мотивиран от изчислително удобство, тъй като функцията е гладка и лесно се диференцира, а също така съответства на Евклидовото разстояние. Освен това, от статистическа гледна точка, този подход води до добри оценки.
 
 \subsection{Намиране на коефициентите}

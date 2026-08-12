@@ -391,6 +391,41 @@ W^* = \left\{ \vec{x} \in \mathbb{R}^n : \sum_{j=1}^n x_j \ge \underbrace{\frac{
 \[
 \frac{\tilde{K} - n\mu_0}{\sigma\sqrt{n}} = q_{1-\alpha}
 \]
+\begin{lecfigure}[Двете хипотези и решението между тях. Под $H_0$ средното е $\mu_0$,
+под $H_1$ е $\mu_1 > \mu_0$; наблюденията се сравняват с прага
+$\mu_0 + \frac{\sigma}{\sqrt{n}} q_{1-\alpha}$. Вдясно от прага отхвърляме $H_0$.
+Защрихованата площ под лявата крива е $\alpha$ — вероятността да отхвърлим вярна $H_0$;
+площта под дясната крива \emph{вляво} от прага е $\beta$. Прагът не може да свие двете
+едновременно: избутването му надясно намалява $\alpha$ и увеличава
+$\beta$.\label{fig:two-hypotheses}]
+\begin{tikzpicture}[x=1.45cm, y=1.0cm]
+  \def\hnull#1{1.55*exp(-((#1)-0.0)*((#1)-0.0)/0.62)}
+  \def\halt#1{1.55*exp(-((#1)-1.72)*((#1)-1.72)/0.62)}
+  \def\K{1.02}
+  % beta: area under H1 to the LEFT of the threshold
+  \fill[keyframe!25] plot[domain=0.1:\K, samples=40] (\x, {\halt{\x}}) -- (\K,0) -- (0.1,0) -- cycle;
+  % alpha: area under H0 to the RIGHT of the threshold
+  \fill[defframe!25] plot[domain=\K:2.75, samples=40] (\x, {\hnull{\x}}) -- (2.75,0) -- (\K,0) -- cycle;
+  \draw[axisline] (-1.9,0) -- (4.0,0);
+  \draw[cdfstep] plot[domain=-1.85:1.9, samples=80] (\x, {\hnull{\x}});
+  \draw[cdfstep, keyframe] plot[domain=-0.2:3.7, samples=80] (\x, {\halt{\x}});
+  \draw[guide] (0,0) -- (0,1.62);   \node[below, font=\small] at (0,-0.04) {$\mu_0$};
+  \draw[guide] (1.72,0) -- (1.72,1.62);   \node[below, font=\small] at (1.72,-0.04) {$\mu_1$};
+  \draw[gray!75, line width=0.8pt] (\K,-1.45) -- (\K,1.5);
+  \node[font=\small, defframe] at (1.42,0.22) {$\alpha$};
+  \node[font=\small, keyframe] at (0.62,0.22) {$\beta$};
+  \node[font=\small, above] at (-0.95,1.15) {$H_0$};
+  \node[font=\small, above, keyframe] at (2.75,1.15) {$H_1$};
+  % decision axis, well clear of the mu labels on the baseline
+  \draw[axisline, {Stealth[length=2mm]}-] (-1.9,-1.45) -- (\K,-1.45);
+  \draw[axisline, -{Stealth[length=2mm]}] (\K,-1.45) -- (4.0,-1.45);
+  \node[font=\small, above] at (-0.5,-1.42) {приемаме $H_0$};
+  \node[font=\small, above] at (2.7,-1.42) {отхвърляме $H_0$};
+  \node[font=\small, below] at (\K,-1.52)
+       {$\mu_0 + \frac{\sigma}{\sqrt{n}}\,q_{1-\alpha}$};
+\end{tikzpicture}
+\end{lecfigure}
+
 Квантилът $q_{1-\alpha}$ (например за $\alpha = 0{,}05$ от таблиците се намира стойността му) може да бъде намерен от статистическите таблици. От това уравнение еднозначно се намира константата $\tilde{K}$, с което най-мощната критична област $W^*$ е напълно определена.
 
 \end{example}
