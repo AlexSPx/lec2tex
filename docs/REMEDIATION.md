@@ -410,61 +410,82 @@ Final acceptance results:
 * Bulgarian source-token count increased from 24,534 at `HEAD` to more than
   26,600; the remediation did not reduce the source corpus.
 
-## 12. Provenance audit of lecture 13 (2026-08-12)
+## 12. Lecture 13 audio recovery (2026-08-12)
 
-Lecture 13 was singled out because its Whisper transcript degenerates partway
-through: past minute 46 it emits almost nothing but `Абонирайте се!`. The
-worry was that the second half of the chapter had been written without a
-source. It has not. The audit below maps every section of
-`bodies/lecture_13.tex` to the material it came from.
+Lecture 13's transcript degenerated into `Абонирайте се!` past minute 46. An
+earlier version of this section concluded that the second half of the chapter
+had no audio behind it and rested on board frames alone. **That conclusion was
+wrong, and the audio has since been recovered.** What follows replaces it.
 
-Two facts reframe the transcript failure:
+### Root cause
 
-* **Minutes 46.5–61.0 are a class break, not lost teaching.** At 45.2 min the
-  lecturer says «Ще продължим в 4 и 15, където ще разгледаме проверка на
-  хипотези и ще довършим малко за доверителните интервали». Whisper is
-  hallucinating over silence. Nothing was taught and nothing is missing.
-* **Audio is reliable for 0–46 min and useless for 61–108 min.** The
-  pre-break half has 1368 distinct segment strings; the post-break half has
-  15, of which the two commonest are the empty string and «това е!». The
-  post-break session is carried entirely by board frames.
+`src/transcribe.py` called `mlx_whisper.transcribe` without
+`condition_on_previous_text=False`, which defaults to `True`. Every lecture in
+this course contains a class break; lecture 13's runs from minute 46.5 to
+59 and is near-silent (−77 dBFS, 0.0% of frames above the speech floor). A
+long silence with conditioning on is the classic Whisper repetition trap: the
+model emits a filler caption, conditions on its own output, and never escapes.
 
-### Section-by-section sources
+The audio was never the problem. Measured per-minute RMS:
 
-| Notes section | Lecture time | Audio | Board frames |
-|---|---|---|---|
-| §1 Доверителни интервали, Постановка | 0.9–5.9 | yes | 002–003 |
-| §1 Централна статистика, Конструиране | 13.3 | yes | 004 |
-| §2.1 Известна дисперсия | 15.7–19.1 | yes | 005–007 |
-| §2.2 Дисперсия при известно μ | 61.0 | **no** | **022 only** |
-| §2.3 Неизвестна дисперсия, Стюдънт | 23.1–36.0 | yes | 008–015 |
-| §2.4 Връзка с ЦГТ | 40.8–43.0 | yes | 018–019 |
-| §3.1 Основни понятия, грешки, о.к.о. | 72.3–79.3 | no | 023–025 |
-| §3.2 Лема на Нейман–Пиърсън | 86.2 | no | 026 |
-| Пример 13.9 (тест за средното) | 93.7–103.8 | no | 027–031 |
+| Window | RMS | Frames above speech floor |
+|---|---|---|
+| Pre-break 0–46 | −36.3 dBFS | 49.8% |
+| Break 46–59 | −55.3 dBFS | 8.2% |
+| Post-break 59–107 | **−36.1 dBFS** | **47.5%** |
 
-Every post-break section maps onto a board frame that states its content
-directly; none of it is invented. Board 025 in particular names the о.к.о.
-definition, which an earlier revision of this plan had proposed deleting —
-see §8.
+The post-break half is acoustically indistinguishable from the pre-break half.
+The microphone was on and the lecturer was talking for all 46 minutes.
 
-### The one thin section
+### Recovery
 
-**§2.2, доверителен интервал за дисперсията при известно μ** rests on a single
-board frame with no audio, and there is an 11-minute hole (61.0 → 72.3) with
-no frame at all. Board 022 shows only the pivot
-`T_n = n·σ̂²_μ/σ² = Σ(X_j−μ)²/σ² ~ χ²(n)`. The notes state exactly that and
-then defer — «интервалът се получава по същата схема като по-горе» — rather
-than reconstructing a derivation nobody recorded. That is the correct
-treatment under R4 and should be left alone. The footnote already flags the
-provenance; do not remove it.
+Re-transcribed minutes 58–107.5 in isolation (so the decoder never sees the
+silence) with `condition_on_previous_text=False` and temperature fallback,
+using `mlx-community/whisper-large-v3-turbo`. 72 seconds of compute.
 
-### Do not "fix" the section order
+| | Segments | Distinct |
+|---|---|---|
+| Original post-break | 99 | 15 (15%) |
+| Recovered | 840 | 825 (98%) |
 
-The notes present §2.2 (delivered at 61 min, after the break) *before* §2.3
-(delivered at 23–36 min, before the break). This is a deliberate editorial
-reordering: it groups the two known-parameter cases together and leads into
-Student's t last. It is not a transcription error.
+`run/lecture_13/audio/transcript.json` now holds pre-break segments up to
+minute 46.5 plus the recovered span; the 122 hallucinated segments over the
+break were dropped. The break itself contains no speech, so nothing is lost.
+
+### Fixes applied
+
+* `condition_on_previous_text=False` plus temperature fallback in
+  `_transcribe_mlx_whisper`, with the reasoning recorded at the call site.
+* `check_hallucination()` runs after every transcription and warns on any
+  10-minute window below 50% distinct segments. This failure produces valid
+  JSON, sane timestamps and plausible-looking text — nothing short of counting
+  distinct strings catches it, which is why it survived in the repo for
+  months.
+
+### Sweep of the other lectures
+
+Every lecture shows a bad window at minutes 50–60: that is the break, and in
+all of them Whisper recovered afterwards. Lectures 8 and 9 (167 and 171
+minutes, double sessions) have a second break around minutes 105–125 and also
+recover; they lose 4.8% and 3.6% of segments respectively, all inside break
+windows. **Lecture 13 was the only one where the loop never broke**, losing 43%
+of its runtime. No other transcript needs re-running.
+
+### What the recovered audio changed in the notes
+
+The board-frame reconstruction turned out to be accurate — the recovered
+speech matches the boards section for section, and nothing in the chapter had
+to be rewritten. Two fidelity points did surface, both now footnoted:
+
+* **Errors of the first and second kind** (`def:errors`) are boxed as a
+  definition, but at minute 72 the lecturer said «това е много важно, аз няма
+  да го пиша като дефиниция». The box is an editorial choice made to support
+  later cross-references; the footnote says so.
+* **The Neyman–Pearson lemma is stated without proof.** At minute 89 the
+  lecturer deferred it — «да не се затрудняваме сега с доказателството, ще го
+  оставим следващия път» — and at minute 106 announced that the next lecture
+  would be linear regression, so it was never given. The footnote records this
+  so the gap is not read as an omission by the editor.
 
 ### A note on searching this transcript
 
