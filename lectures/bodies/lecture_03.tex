@@ -254,6 +254,33 @@ A = \bigcup_{i=1}^{9999} A_i
 се приема за нула; първият запис е валиден без това ограничение.
 \end{keythm}
 
+\begin{lecfigure}[Формулата за пълната вероятност. Хипотезите $H_i$ разрязват $\Omega$ на
+непресичащи се парчета, а събитието $A$ пресича няколко от тях. Тогава $A$ е обединение на
+парчетата $A \cap H_i$, които също не се пресичат — затова вероятностите им просто се
+събират. Формулата на Бейс обръща въпроса: като знаем, че се е случило $A$, каква част от
+него лежи в $H_i$?\label{fig:total-probability}]
+\begin{tikzpicture}[x=1cm, y=1cm]
+  \def\W{6.2} \def\H{3.0}
+  \begin{scope}
+    \clip (0,0) rectangle (\W,\H);
+    \fill[keyback] (2.55,1.45) ellipse (2.0 and 1.05);
+  \end{scope}
+  \draw[exrule, line width=0.8pt] (0,0) rectangle (\W,\H);
+  \node[font=\small, above right] at (0.06,\H) {$\Omega$};
+  % the partition
+  \foreach \x in {1.62, 2.9, 4.15, 5.25} { \draw[exrule, line width=0.6pt] (\x,0) -- (\x,\H); }
+  \foreach \x/\l in {0.8/1, 2.26/2, 3.52/3, 4.7/4, 5.73/n} {
+    \node[font=\small, below] at (\x,0.52) {$H_{\l}$}; }
+  \node[font=\small] at (4.95,2.62) {$\cdots$};
+  % A itself
+  \draw[keyframe, line width=1pt] (2.55,1.45) ellipse (2.0 and 1.05);
+  \node[font=\small, keyframe] at (2.3,2.1) {$A$};
+  % name two of the slices
+  \node[font=\scriptsize, keyframe] at (1.08,1.45) {$A \cap H_1$};
+  \node[font=\scriptsize, keyframe] at (3.55,1.45) {$A \cap H_3$};
+\end{tikzpicture}
+\end{lecfigure}
+
 Ако имаме изброимо безкрайно много хипотези, сумата просто продължава до безкрайност.
 
 \begin{proof}

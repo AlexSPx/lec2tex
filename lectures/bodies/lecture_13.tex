@@ -84,6 +84,31 @@ H(q_2) = 1 - \frac{1-\gamma}{2} = \frac{1+\gamma}{2}
 
 Това означава, че ако бъркаме, ще бъркаме еднакво и от ляво, и от дясно. Разбира се, има ситуации (в зависимост от модела), при които може да сложим $q_1 = -\infty$ и да оставим цялата маса $1-\gamma$ в дясната опашка. Ние обаче ще се фокусираме върху симетричния случай.
 
+\begin{lecfigure}[Общият случай. Нищо в конструкцията не изисква разпределението на $T$ да
+е симетрично или дори едномодално — искаме само между $q_1$ и $q_2$ да остане маса
+$\gamma$. Правилото „по $\frac{1-\gamma}{2}$ във всяка опашка“ е удобна конвенция, а не
+следствие от дефиницията; при несиметрично разпределение то дава различни по дължина
+разстояния от центъра до двата края.\label{fig:quantiles-asym}]
+\begin{tikzpicture}[x=1.05cm, y=1.6cm]
+  % a deliberately lopsided, bimodal density
+  \def\f#1{0.62*exp(-((#1)+1.15)*((#1)+1.15)/0.55) + 1.0*exp(-((#1)-0.95)*((#1)-0.95)/1.15)}
+  \def\qa{-1.95} \def\qb{2.55}
+  \fill[exrule!25] (-3.3,0) -- plot[domain=-3.3:\qa, samples=40] (\x,{\f{\x}}) -- (\qa,0) -- cycle;
+  \fill[exrule!25] (\qb,0) -- plot[domain=\qb:4.2, samples=40] (\x,{\f{\x}}) -- (4.2,0) -- cycle;
+  \fill[thmframe!18] (\qa,0) -- plot[domain=\qa:\qb, samples=90] (\x,{\f{\x}}) -- (\qb,0) -- cycle;
+  \draw[cdfstep] plot[domain=-3.3:4.2, samples=150, smooth] (\x,{\f{\x}});
+  \draw[axisline] (-3.6,0) -- (4.5,0) node[right, font=\small] {$x$};
+  \draw[guide] (\qa,0) -- (\qa,{\f{\qa}});
+  \draw[guide] (\qb,0) -- (\qb,{\f{\qb}});
+  \node[below, font=\small] at (\qa,-0.03) {$q_1$};
+  \node[below, font=\small] at (\qb,-0.03) {$q_2$};
+  \node[font=\small] at (0.35,0.42) {$\gamma$};
+  \node[font=\small] at (-2.75,0.14) {$\frac{1-\gamma}{2}$};
+  \node[font=\small] at (3.35,0.12) {$\frac{1-\gamma}{2}$};
+  \node[right, font=\small, defframe] at (3.05,0.75) {$f_T$};
+\end{tikzpicture}
+\end{lecfigure}
+
 Досега говорихме за $q_1$ и $q_2$ като за „точки, между които остава маса $\gamma$“. Нека
 дадем на това име.
 

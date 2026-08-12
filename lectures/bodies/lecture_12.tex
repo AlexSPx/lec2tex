@@ -84,6 +84,28 @@
 \[
     \hat{\theta}_1 = X^* = \max_{j \le n}(X_j)
 \]
+
+\begin{lecfigure}[Функцията на правдоподобие при $U(0,\theta)$. За $\theta < X^*$ поне
+едно наблюдение пада извън носителя и $L$ е нула; за $\theta \ge X^*$ функцията е
+$\theta^{-n}$ и намалява. Максимумът е в самата точка $X^*$ — тук не помага
+диференциране, а самата форма на функцията. Затова и дясният край на индикатора трябва да
+е включен: при отворен интервал стойността в $X^*$ би била нула и максимум изобщо нямаше
+да се достига.\label{fig:mle-uniform}]
+\begin{tikzpicture}[x=1.5cm, y=1.0cm]
+  \def\S{1.5}
+  \draw[axisline] (-0.2,0) -- (4.3,0) node[below right, font=\small] {$\theta$};
+  \draw[axisline] (-0.2,0) -- (-0.2,2.5) node[above right, font=\small] {$L(\vec{X},\theta)$};
+  % zero part
+  \draw[cdfstep] (-0.1,0) -- (\S,0);
+  % decreasing theta^{-n} part, scaled so the jump top sits at 2.1
+  \draw[cdfstep] plot[domain=\S:4.2, samples=70] (\x, {2.1*pow(\S/\x,3)});
+  \draw[guide] (\S,0) -- (\S,2.1);
+  \fill[defframe] (\S,2.1) circle (1.7pt);
+  \draw[defframe, fill=white, line width=0.7pt] (\S,0) circle (1.7pt);
+  \node[below, font=\small] at (\S,-0.05) {$X^* = \hat{\theta}$};
+  \node[right, font=\small, defframe] at (2.5,1.0) {$\theta^{-n}$};
+\end{tikzpicture}
+\end{lecfigure}
 Ако например сме получили наблюденията 1, 2, 3, 4 и 5, максимално правдоподобната оценка за $\theta$ би била просто най-голямата стойност — 5.
 
 \end{example}

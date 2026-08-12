@@ -124,6 +124,27 @@ X_1 & 0 & 1 \\ \hline
 \end{enumerate}
 \end{prop}
 
+\begin{lecfigure}[Биномното разпределение при $n=10$. Върхът стои около $\E X = np$:
+при $p = 0{,}3$ това е $3$, при $p = 0{,}5$ — $5$. Симетрия има само при $p = \frac12$; за
+$p < \frac12$ разпределението е изтеглено надясно, защото отляво го притиска границата
+$k \ge 0$. Височините във всеки панел се сумират до
+единица.\label{fig:binomial-pmf}]
+\begin{tikzpicture}[x=0.52cm, y=9.5cm]
+ \foreach \i/\lab/\dat in {%
+   0/{$p = 0{,}3$}/{0/0.028,1/0.121,2/0.233,3/0.267,4/0.200,5/0.103,6/0.037,7/0.009,8/0.001,9/0.000,10/0.000},
+   1/{$p = 0{,}5$}/{0/0.001,1/0.010,2/0.044,3/0.117,4/0.205,5/0.246,6/0.205,7/0.117,8/0.044,9/0.010,10/0.001}}
+ {
+  \begin{scope}[xshift=\i*7.2cm]
+    \foreach \k/\h in \dat {
+      \fill[defback] ({\k-0.36},0) rectangle ({\k+0.36},\h);
+      \draw[defframe, line width=0.4pt] ({\k-0.36},0) rectangle ({\k+0.36},\h);}
+    \draw[axisline] (-0.8,0) -- (10.9,0) node[below right, font=\small] {$k$};
+    \foreach \k in {0,2,4,6,8,10} { \node[below, font=\scriptsize] at (\k,-0.004) {\k}; }
+    \node[below, font=\small] at (5,-0.028) {\lab};
+  \end{scope}}
+\end{tikzpicture}
+\end{lecfigure}
+
 \begin{proof}
 а) Тъй като $X = \sum_{j=1}^n X_j$ и $X_j$ са независими и еднакво разпределени, то $g_X(s) = (g_{X_1}(s))^n = (q+ps)^n$.
 

@@ -234,6 +234,31 @@ $\E \ind_{\{Y>a\}} = \mathbb{P}(Y>a)$:
 \]
 \end{keythm}
 
+\begin{lecfigure}[Какво оценява неравенството на Чебишов: защрихованите опашки извън
+интервала $(\E X - a,\ \E X + a)$. Твърдението не казва нищо за формата на
+разпределението — то важи за \emph{всяка} случайна величина с крайна дисперсия и затова
+е грубо. Колкото по-малка е дисперсията, толкова по-малко маса може да остане в
+опашките.\label{fig:chebyshev}]
+\begin{tikzpicture}[x=1.25cm, y=1.6cm]
+  \def\a{1.6}
+  \fill[exrule!25] (-3.2,0) -- plot[domain=-3.2:-\a, samples=50] (\x,{exp(-\x*\x/2)}) -- (-\a,0) -- cycle;
+  \fill[exrule!25] (\a,0) -- plot[domain=\a:3.2, samples=50] (\x,{exp(-\x*\x/2)}) -- (3.2,0) -- cycle;
+  \draw[cdfstep] plot[domain=-3.2:3.2, samples=130, smooth] (\x,{exp(-\x*\x/2)});
+  \draw[axisline] (-3.6,0) -- (3.7,0) node[right, font=\small] {$x$};
+  \draw[guide] (0,0) -- (0,1.05);
+  \draw[guide] (-\a,0) -- (-\a,{exp(-\a*\a/2)});
+  \draw[guide] (\a,0) -- (\a,{exp(-\a*\a/2)});
+  \node[below, font=\small] at (0,-0.04) {$\E X$};
+  \node[below, font=\small] at (-\a,-0.04) {$\E X - a$};
+  \node[below, font=\small] at (\a,-0.04) {$\E X + a$};
+  \node[font=\small] at (2.55,0.34) {$\le \frac{\Var X}{a^2}$};
+  \draw[guide] (2.55,0.28) -- (2.3,0.07);
+  % the width being measured
+  \draw[axisline, {Stealth[length=1.6mm]}-{Stealth[length=1.6mm]}] (0,1.14) -- (\a,1.14);
+  \node[above, font=\small] at (0.8,1.13) {$a$};
+\end{tikzpicture}
+\end{lecfigure}
+
 \begin{proof}
 Нека положим $Y = X - \E X$. Търсим да оценим $\mathbb{P}(|Y| > a)$, което може да се запише като очакване на индикаторната функция: $\E[\ind_{\{|Y| > a\}}]$.
 От свойствата на дисперсията имаме $\Var X = \Var Y = \E[Y^2]$ (тъй като $\E Y = 0$).
