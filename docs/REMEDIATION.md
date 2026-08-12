@@ -409,3 +409,66 @@ Final acceptance results:
 * The build has one overfull box (L09, 10.22 pt), within the stated limit of two.
 * Bulgarian source-token count increased from 24,534 at `HEAD` to more than
   26,600; the remediation did not reduce the source corpus.
+
+## 12. Provenance audit of lecture 13 (2026-08-12)
+
+Lecture 13 was singled out because its Whisper transcript degenerates partway
+through: past minute 46 it emits almost nothing but `Абонирайте се!`. The
+worry was that the second half of the chapter had been written without a
+source. It has not. The audit below maps every section of
+`bodies/lecture_13.tex` to the material it came from.
+
+Two facts reframe the transcript failure:
+
+* **Minutes 46.5–61.0 are a class break, not lost teaching.** At 45.2 min the
+  lecturer says «Ще продължим в 4 и 15, където ще разгледаме проверка на
+  хипотези и ще довършим малко за доверителните интервали». Whisper is
+  hallucinating over silence. Nothing was taught and nothing is missing.
+* **Audio is reliable for 0–46 min and useless for 61–108 min.** The
+  pre-break half has 1368 distinct segment strings; the post-break half has
+  15, of which the two commonest are the empty string and «това е!». The
+  post-break session is carried entirely by board frames.
+
+### Section-by-section sources
+
+| Notes section | Lecture time | Audio | Board frames |
+|---|---|---|---|
+| §1 Доверителни интервали, Постановка | 0.9–5.9 | yes | 002–003 |
+| §1 Централна статистика, Конструиране | 13.3 | yes | 004 |
+| §2.1 Известна дисперсия | 15.7–19.1 | yes | 005–007 |
+| §2.2 Дисперсия при известно μ | 61.0 | **no** | **022 only** |
+| §2.3 Неизвестна дисперсия, Стюдънт | 23.1–36.0 | yes | 008–015 |
+| §2.4 Връзка с ЦГТ | 40.8–43.0 | yes | 018–019 |
+| §3.1 Основни понятия, грешки, о.к.о. | 72.3–79.3 | no | 023–025 |
+| §3.2 Лема на Нейман–Пиърсън | 86.2 | no | 026 |
+| Пример 13.9 (тест за средното) | 93.7–103.8 | no | 027–031 |
+
+Every post-break section maps onto a board frame that states its content
+directly; none of it is invented. Board 025 in particular names the о.к.о.
+definition, which an earlier revision of this plan had proposed deleting —
+see §8.
+
+### The one thin section
+
+**§2.2, доверителен интервал за дисперсията при известно μ** rests on a single
+board frame with no audio, and there is an 11-minute hole (61.0 → 72.3) with
+no frame at all. Board 022 shows only the pivot
+`T_n = n·σ̂²_μ/σ² = Σ(X_j−μ)²/σ² ~ χ²(n)`. The notes state exactly that and
+then defer — «интервалът се получава по същата схема като по-горе» — rather
+than reconstructing a derivation nobody recorded. That is the correct
+treatment under R4 and should be left alone. The footnote already flags the
+provenance; do not remove it.
+
+### Do not "fix" the section order
+
+The notes present §2.2 (delivered at 61 min, after the break) *before* §2.3
+(delivered at 23–36 min, before the break). This is a deliberate editorial
+reordering: it groups the two known-parameter cases together and leads into
+Student's t last. It is not a transcription error.
+
+### A note on searching this transcript
+
+Keyword search against the audio is unreliable. Whisper renders `t(n−1)`
+phonetically as «t2 с n без 1 степени на свободата», so a grep for «Стюдънт»
+returns zero hits across a stretch of tape that discusses nothing else. Read
+the surrounding segments before concluding that a topic is absent.
