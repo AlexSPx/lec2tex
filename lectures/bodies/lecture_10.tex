@@ -96,6 +96,42 @@ L_X^c = \bigcup_{r=1}^{\infty} \underbrace{\bigcap_{n=1}^{\infty} \bigcup_{k=n}^
 \]
 Това е вярно за всяко $r$, което доказва, че $X_n$ клони към $X$ по вероятност.
 
+\subsection{Скица на доказателството на част б)}
+Тук искаме да свържем събитието $\{X_n < x\}$, което участва във функцията на разпределение
+на $X_n$, със събитието $\{X < x\}$. Директна връзка няма — трябва да минем през малка
+пертурбация $\varepsilon$. Означаваме
+\[
+A_{n,\varepsilon} = \{ |X_n - X| > \varepsilon \},
+\qquad\text{като}\qquad
+\mathbb{P}(A_{n,\varepsilon}) \xrightarrow[n \to \infty]{} 0
+\]
+за всяко $\varepsilon > 0$ по условие (това е точно сходимостта по вероятност).
+
+Разбиваме $\{X_n < x\}$ по $A_{n,\varepsilon}$ и допълнението му, което не променя нищо:
+\[
+\{X_n < x\} = \big(\{X_n < x\} \cap A_{n,\varepsilon}^c\big) \cup \big(\{X_n < x\} \cap A_{n,\varepsilon}\big).
+\]
+Върху $A_{n,\varepsilon}^c$ имаме $|X_n - X| \le \varepsilon$, тоест $X$ се различава от $X_n$ с
+най-много $\varepsilon$. Затова
+\[
+\{X_n < x\} \subseteq \{X < x + \varepsilon\} \cup A_{n,\varepsilon},
+\qquad
+\{X < x - \varepsilon\} \cap A_{n,\varepsilon}^c \subseteq \{X_n < x\}.
+\]
+Прилагайки вероятност към двете влагания, получаваме „сандвич“:
+\[
+F_X(x-\varepsilon) - \mathbb{P}(A_{n,\varepsilon})
+\ \le\ F_{X_n}(x) \ \le\
+F_X(x+\varepsilon) + \mathbb{P}(A_{n,\varepsilon}).
+\]
+При $n \to \infty$ членовете $\mathbb{P}(A_{n,\varepsilon})$ отпадат и остава
+\[
+F_X(x-\varepsilon) \ \le\ \liminf_n F_{X_n}(x) \ \le\ \limsup_n F_{X_n}(x) \ \le\ F_X(x+\varepsilon).
+\]
+Накрая пускаме $\varepsilon \to 0$. Ако $x$ е точка на непрекъснатост на $F_X$, двата края
+клонят към $F_X(x)$ и следователно $F_{X_n}(x) \to F_X(x)$ — точно това е сходимост по
+разпределение.
+
 \subsection{Обратна връзка в частни случаи}
 В общия случай от сходимост по разпределение не следва сходимост по вероятност. Съществува обаче едно важно изключение: когато граничната случайна величина е константа.
 
