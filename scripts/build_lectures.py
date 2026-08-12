@@ -161,6 +161,9 @@ def full_book():
 
 """
             + chapters
+            + "\n\\appendix\n"
+              "\\renewcommand{\\chaptername}{Приложение}\n"
+              "\\input{bodies/tables}\n"
             + "\n\\end{document}\n")
 
 

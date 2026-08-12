@@ -4,9 +4,17 @@
 Two failure modes here are SILENT — neither produces a "??" in the PDF, so
 neither shows up in a normal build:
 
-  * a \\label that never reaches the .aux. Observed with \\label placed on the
-    same line as \\begin{env}; the statement still renders and numbers
-    correctly, so nothing looks wrong until something tries to \\ref it.
+  * a \\label that never reaches the .aux. Observed with \\label placed
+    immediately after \\begin{env}[...] — on the same line or the next one —
+    for a theorem environment wrapped by \\tcolorboxenvironment. The statement
+    still renders and still numbers correctly (the counter steps; only the
+    write is lost), so nothing looks wrong until something tries to \\ref it.
+    Moving the \\label a few words into the first sentence fixes it. Nearly
+    every label in the book sits in the leading position and is fine, so this
+    is not worth linting for statically — whether a given one survives seems to
+    depend on how its box breaks across pages, which means an unrelated edit in
+    the same chapter can knock one out. Run this check after any substantial
+    edit, not just after adding labels.
   * a \\crosslecture{label}{text} pointing at a label that no longer exists.
     In the book \\crosslecture expands to \\hyperref, which quietly prints the
     text with no link rather than erroring.

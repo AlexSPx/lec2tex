@@ -41,7 +41,10 @@ G_{X_n}(s) = \left(1 - \frac{\lambda}{n} + \frac{\lambda}{n} s\right)^n = \left(
 \]
 Получената граница $e^{\lambda (s-1)}$ е точно пораждащата функция на Поасонова случайна величина $X \sim \Poi(\lambda)$. Благодарение на споменатото по-горе твърдение, това доказва, че $\lim_{n \to \infty} \mathbb{P}(X_n = k) = \frac{\lambda^k}{k!} e^{-\lambda}$.
 
-\textbf{Практическо приложение (Приближение на Поасон):}
+\end{proof}
+
+\subsection{Практическо приложение: приближение на Поасон}
+
 В практиката тази теорема не се използва толкова като строга граница (понеже на практика разполагаме с едно конкретно $n$), колкото като рецепта за приближение. Сложният израз за биномната вероятност $\binom{n}{k} p^k (1-p)^{n-k}$ изисква пресмятането на големи факториели и високи степени.
 
 Ако разполагаме със случайна величина $Y \sim \Bin(n, p)$, където $n$ е достатъчно голямо, а $p$ е достатъчно малко, можем да използваме приближението:
@@ -49,7 +52,6 @@ G_{X_n}(s) = \left(1 - \frac{\lambda}{n} + \frac{\lambda}{n} s\right)^n = \left(
 \mathbb{P}(Y = k) \approx \frac{\lambda^k}{k!} e^{-\lambda}, \quad \text{където } \lambda = n p
 \]
 \emph{Рецепта:} Приближението работи добре и може спокойно да се използва в случаите, когато $n \ge 100$ и $np \le 20$. Тогава, дори и да не знаем „границите“, твърдим, че биномните вероятности са изключително близки до Поасоновите с параметър $\lambda = np$.
-\end{proof}
 
 
 \section{Хипергеометрично разпределение}
@@ -285,17 +287,17 @@ $\sum_j \tilde X_j$ на квадрат диагоналните членове 
 За да компенсираме ефекта от мащабирането, ние не само центрираме случайните величини, но ги и \emph{нормираме}, разделяйки ги на корен квадратен от техните дисперсии (т.е. на стандартните им отклонения).
 
 \begin{defn}
-Коефициент на корелация $\rho(X, Y)$ между две случайни величини с крайни дисперсии $\Var X$ и $\Var Y$ се дефинира като:
+Коефициент на корелация $\rho(X, Y)$ между две случайни величини с крайни и \emph{строго положителни} дисперсии $\Var X$ и $\Var Y$ се дефинира като:
 \[
 \rho(X, Y) = \frac{\Cov(X, Y)}{\sqrt{\Var X} \sqrt{\Var Y}}
 \]
 Ако дефинираме центрираните и нормирани случайни величини като:
 \[
-\overline{X} = \frac{X - \E X}{\sqrt{\Var X}}, \quad \overline{Y} = \frac{Y - \E Y}{\sqrt{\Var Y}}
+\widetilde{X} = \frac{X - \E X}{\sqrt{\Var X}}, \quad \widetilde{Y} = \frac{Y - \E Y}{\sqrt{\Var Y}}
 \]
-може лесно да се провери, че $\E\overline{X} = 0$ и $\Var\overline{X} = 1$. В тези термини, коефициентът на корелация е просто очакването на тяхното произведение:
+може лесно да се провери, че $\E\widetilde{X} = 0$ и $\Var\widetilde{X} = 1$. В тези термини, коефициентът на корелация е просто очакването на тяхното произведение:
 \[
-\rho(X, Y) = \E[\overline{X}\overline{Y}]
+\rho(X, Y) = \E[\widetilde{X}\widetilde{Y}]
 \]
 Коефициентът на корелация е безразмерна величина. Ако пресметнем корелацията на $(10X, 10Y)$, множителят $100$ се появява както в числителя (ковариацията), така и в знаменателя (от корените на дисперсиите), и се съкращава. Следователно мащабирането не променя корелацията.
 \end{defn}
@@ -315,13 +317,13 @@ $\sum_j \tilde X_j$ на квадрат диагоналните членове 
 \begin{proof}
 Ще използваме очевидния факт, че квадратът на всяка случайна величина е неотрицателен, следователно и очакването му е неотрицателно:
 \[
-0 \le \E[(\overline{X} \pm \overline{Y})^2]
+0 \le \E[(\widetilde{X} \pm \widetilde{Y})^2]
 \]
 Разкриваме скобите, ползвайки линейността на очакването:
 \[
-0 \le \E[\overline{X}^2 \pm 2\overline{X}\overline{Y} + \overline{Y}^2] = \E\overline{X}^2 \pm 2\E[\overline{X}\overline{Y}] + \E\overline{Y}^2
+0 \le \E[\widetilde{X}^2 \pm 2\widetilde{X}\widetilde{Y} + \widetilde{Y}^2] = \E\widetilde{X}^2 \pm 2\E[\widetilde{X}\widetilde{Y}] + \E\widetilde{Y}^2
 \]
-Тъй като $\overline{X}$ и $\overline{Y}$ имат нулеви очаквания, техните дисперсии съвпадат с очакването на квадратите им: $\E\overline{X}^2 = \Var\overline{X} = 1$ и $\E\overline{Y}^2 = \Var\overline{Y} = 1$. Заместваме това заедно с дефиницията за $\rho(X, Y) = \E[\overline{X}\overline{Y}]$ и получаваме:
+Тъй като $\widetilde{X}$ и $\widetilde{Y}$ имат нулеви очаквания, техните дисперсии съвпадат с очакването на квадратите им: $\E\widetilde{X}^2 = \Var\widetilde{X} = 1$ и $\E\widetilde{Y}^2 = \Var\widetilde{Y} = 1$. Заместваме това заедно с дефиницията за $\rho(X, Y) = \E[\widetilde{X}\widetilde{Y}]$ и получаваме:
 \[
 0 \le 1 \pm 2\rho(X, Y) + 1 = 2 \pm 2\rho(X, Y)
 \]
@@ -335,32 +337,32 @@ $\sum_j \tilde X_j$ на квадрат диагоналните членове 
 \end{keythm}
 
 \begin{proof}[Доказателство ($\implies$)]
-Нека е дадено, че $Y = aX + b$. Ще изразим връзката между нормираните величини $\overline{Y}$ и $\overline{X}$.
+Нека е дадено, че $Y = aX + b$. Ще изразим връзката между нормираните величини $\widetilde{Y}$ и $\widetilde{X}$.
 \[
-\overline{Y} = \frac{Y - \E Y}{\sqrt{\Var Y}} = \frac{aX + b - (a\E X + b)}{\sqrt{\Var Y}} = \frac{a}{\sqrt{\Var Y}}(X - \E X)
+\widetilde{Y} = \frac{Y - \E Y}{\sqrt{\Var Y}} = \frac{aX + b - (a\E X + b)}{\sqrt{\Var Y}} = \frac{a}{\sqrt{\Var Y}}(X - \E X)
 \]
 Тъй като $\sqrt{\Var X} = \frac{\sqrt{\Var Y}}{|a|}$, следва че:
 \[
-\overline{Y} = \frac{a}{|a|} \frac{X - \E X}{\sqrt{\Var X}} = v \overline{X}
+\widetilde{Y} = \frac{a}{|a|} \frac{X - \E X}{\sqrt{\Var X}} = v \widetilde{X}
 \]
-където $v = \text{sgn}(a) = \pm 1$. Така получихме връзката $\overline{Y} = \pm \overline{X}$.
+където $v = \text{sgn}(a) = \pm 1$. Така получихме връзката $\widetilde{Y} = \pm \widetilde{X}$.
 Сега пресмятаме коефициента на корелация:
 \[
-\rho(X, Y) = \E[\overline{X}\overline{Y}] = \E[\overline{X}(\pm \overline{X})] = \pm \E\overline{X}^2 = \pm 1
+\rho(X, Y) = \E[\widetilde{X}\widetilde{Y}] = \E[\widetilde{X}(\pm \widetilde{X})] = \pm \E\widetilde{X}^2 = \pm 1
 \]
-Тъй като $\E\overline{X}^2 = \Var\overline{X} = 1$. Това показва, че $|\rho(X, Y)| = 1$.
+Тъй като $\E\widetilde{X}^2 = \Var\widetilde{X} = 1$. Това показва, че $|\rho(X, Y)| = 1$.
 \end{proof}
 
 \begin{proof}[Доказателство ($\Longleftarrow$)]
 Нека сега е дадено, че $|\rho(X, Y)| = 1$. Ще разгледаме случая $\rho(X, Y) = 1$ (доказателството за $\rho = -1$ е аналогично).
 От предишното доказателство знаем, че:
 \[
-\E[(\overline{X} - \overline{Y})^2] = 2 - 2\rho(X, Y)
+\E[(\widetilde{X} - \widetilde{Y})^2] = 2 - 2\rho(X, Y)
 \]
-При $\rho(X, Y) = 1$, получаваме $\E[(\overline{X} - \overline{Y})^2] = 0$.
+При $\rho(X, Y) = 1$, получаваме $\E[(\widetilde{X} - \widetilde{Y})^2] = 0$.
 Тъй като интегрираме (търсим математическо очакване) на строго неотрицателна случайна величина и получаваме 0, това означава, че самата случайна величина е тъждествено равна на нула (с вероятност 1):
 \[
-(\overline{X} - \overline{Y})^2 = 0 \implies \overline{X} = \overline{Y}
+(\widetilde{X} - \widetilde{Y})^2 = 0 \implies \widetilde{X} = \widetilde{Y}
 \]
 Заместваме дефинициите за центрирани и нормирани величини:
 \[
