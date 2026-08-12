@@ -56,15 +56,26 @@
 \chapter*{Основни означения}
 \addcontentsline{toc}{chapter}{Основни означения}
 
-\[
-\begin{array}{c|l}
-\text{Означение} & \text{Значение} \\ \hline
-\E X & \text{математическо очакване на }X \\
-\Var X & \text{дисперсия на }X \\
-\ind_A & \text{индикатор на събитието }A \\
-\mathbb{P}(A\given B) & \text{условна вероятност на }A\text{ при }B \\
-\Ber(p) & \text{разпределение на Бернули с параметър }p \\
-\Bin(n,p) & \text{биномно разпределение с параметри }n,p \\
-\Poi(\lambda) & \text{Поасоново разпределение с параметър }\lambda
-\end{array}
-\]
+\begin{center}
+\begin{tabular}{@{}ll@{\hspace{2.5em}}ll@{}}
+\multicolumn{2}{@{}l}{\textbf{Общи}} & \multicolumn{2}{l}{\textbf{Разпределения}} \\[2pt]
+$\Omega,\ \mathcal{A},\ \mathbb{P}$ & вероятностно пространство & $\Ber(p)$ & Бернули \\
+$\mathbb{P}(A\given B)$ & условна вероятност & $\Bin(n,p)$ & биномно \\
+$\ind_A$ & индикатор на събитието $A$ & $\Geo(p)$ & геометрично \\
+$X \perp\!\!\!\perp Y$ & независими случайни величини & $\NegBin(r,p)$ & отрицателно биномно \\
+$X \stackrel{d}{=} Y$ & равни по разпределение & $\Poi(\lambda)$ & Поасоново \\[4pt]
+\multicolumn{2}{@{}l}{\textbf{Характеристики}} & $\Hyp(N,M,n)$ & хипергеометрично \\[2pt]
+$\E X$ & математическо очакване & $\Unif(a,b)$ & равномерно \\
+$\Var X$ & дисперсия & $N(\mu,\sigma^2)$ & нормално \\
+$\Cov(X,Y)$ & ковариация & $\Exponential(\lambda)$ & експоненциално \\
+$\rho(X,Y)$ & коефициент на корелация & $\Gamma(\alpha,\beta)$ & Гама \\
+$F_X,\ f_X$ & функция на разпределение, плътност & $\chi^2(n)$ & хи-квадрат \\
+$\Phi$ & ф.\ на разпр.\ на $N(0,1)$ & $t(n)$ & на Стюдънт \\
+$g_X,\ M_X$ & пораждаща ф., ф.\ на моментите & & \\[4pt]
+\multicolumn{2}{@{}l}{\textbf{Статистика}} & \multicolumn{2}{l}{\textbf{Сходимости}} \\[2pt]
+$\overline{X}_n$ & извадково средно & $\xrightarrow{\text{п.с.}}$ & почти сигурно \\
+$\overline{X}_n^{(j)}$ & $j$-ти извадков момент & $\xrightarrow{\mathbb{P}}$ & по вероятност \\
+$S^2,\ \hat\sigma^2$ & извадкови дисперсии & $\xrightarrow{d}$ & по разпределение \\
+$\hat\theta$ & оценка на параметъра $\theta$ & & \\
+\end{tabular}
+\end{center}
