@@ -50,6 +50,33 @@ H(q_1) = \frac{1-\gamma}{2}
 \[
 H(q_2) = 1 - \frac{1-\gamma}{2} = \frac{1+\gamma}{2}
 \]
+\begin{lecfigure}[Симетричен избор на квантилите. Защрихованата площ между $q_1$ и $q_2$
+е нивото на доверие $\gamma$; в двете опашки остава по $\frac{1-\gamma}{2}$. При
+симетрично около нулата разпределение $q_1 = -q$ и $q_2 = q$.\label{fig:quantiles}]
+\begin{tikzpicture}[x=1.15cm, y=1.75cm]
+  \def\q{1.75}
+  % tails
+  \fill[exrule!25] (-3.2,0) -- plot[domain=-3.2:-\q, samples=60] (\x,{exp(-\x*\x/2)})
+      -- (-\q,0) -- cycle;
+  \fill[exrule!25] (\q,0) -- plot[domain=\q:3.2, samples=60] (\x,{exp(-\x*\x/2)})
+      -- (3.2,0) -- cycle;
+  % central mass
+  \fill[thmframe!18] (-\q,0) -- plot[domain=-\q:\q, samples=100] (\x,{exp(-\x*\x/2)})
+      -- (\q,0) -- cycle;
+  % density
+  \draw[cdfstep] plot[domain=-3.2:3.2, samples=140, smooth] (\x,{exp(-\x*\x/2)});
+  \draw[axisline] (-3.5,0) -- (3.6,0) node[right, font=\small] {$x$};
+  % markers
+  \draw[guide] (-\q,0) -- (-\q,{exp(-\q*\q/2)});
+  \draw[guide] (\q,0)  -- (\q,{exp(-\q*\q/2)});
+  \node[below, font=\small] at (-\q,-0.03) {$q_1$};
+  \node[below, font=\small] at (\q,-0.03) {$q_2$};
+  \node[font=\small] at (0,0.42) {$\gamma$};
+  \node[font=\small] at (-2.42,0.1) {$\frac{1-\gamma}{2}$};
+  \node[font=\small] at (2.42,0.1) {$\frac{1-\gamma}{2}$};
+\end{tikzpicture}
+\end{lecfigure}
+
 Това означава, че ако бъркаме, ще бъркаме еднакво и от ляво, и от дясно. Разбира се, има ситуации (в зависимост от модела), при които може да сложим $q_1 = -\infty$ и да оставим цялата маса $1-\gamma$ в дясната опашка. Ние обаче ще се фокусираме върху симетричния случай.
 
 Ако разпределението на централната статистика е симетрично около нулата (както ще видим при нормалното разпределение), тогава можем да изберем $q_1 = -q$ и $q_2 = q$, където $q = q_{\frac{1+\gamma}{2}}$ е съответният квантил. Така двете граници се отличават само по знак.
