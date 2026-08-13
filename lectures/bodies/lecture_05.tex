@@ -211,6 +211,41 @@ $F(x) = \mathbb{P}(X < x)$ функцията е непрекъсната отл
  = \sum_{k \ge 1} \sum_{n=0}^{k-1} \mathbb{P}(X = k)
  = \sum_{k \ge 1} k\, \mathbb{P}(X = k) = \E X .
 \]
+
+\begin{lecfigure}[Смяната на реда на сумиране, нагледно. В стъпаловидната таблица е
+разположена по една клетка за всяка двойка $(n,k)$ с $k > n$; в клетката стои
+$p_k = \mathbb{P}(X=k)$. Съберем ли \emph{по редове}, ред $n$ дава опашката
+$\mathbb{P}(X > n)$ — това е лявата страна. Съберем ли \emph{по стълбове}, стълб $k$ съдържа
+точно $k$ клетки (за $n = 0, \dots, k-1$) и дава $k\,p_k$ — това е дефиницията на $\E X$.
+Едни и същи числа, преброени по два начина.\label{fig:tail-sum}]
+\begin{tikzpicture}[x=1.13cm, y=0.66cm]
+  \def\NC{5}
+  % cells: one for every pair (n,k) with k > n
+  \foreach \n in {0,...,4} {
+    \pgfmathtruncatemacro{\kstart}{\n+1}
+    \foreach \k in {\kstart,...,\NC} {
+      \fill[defback] ({\k-1.45},{-\n-0.4}) rectangle ({\k-0.55},{-\n+0.4});
+      \draw[defframe, line width=0.4pt] ({\k-1.45},{-\n-0.4}) rectangle ({\k-0.55},{-\n+0.4});
+      \node[font=\scriptsize] at ({\k-1},{-\n}) {$p_{\k}$};}
+    % row label = the tail
+    \node[left, font=\scriptsize] at (-0.62,{-\n}) {$\mathbb{P}(X > \n) =$};
+    % the row continues
+    \node[font=\scriptsize] at ({\NC+0.15},{-\n}) {$\cdots$};}
+  \node[left, font=\scriptsize] at (-0.62,-5.05) {$\vdots$};
+  \foreach \k in {1,...,\NC} { \node[font=\scriptsize] at ({\k-1},-5.05) {$\vdots$}; }
+  % column totals
+  \draw[exrule, line width=0.6pt] (-0.5,-5.5) -- ({\NC+0.45},-5.5);
+  \foreach \k in {1,...,\NC} {
+    \node[font=\scriptsize, below] at ({\k-1},-5.62) {$\k\,p_{\k}$}; }
+  \node[font=\scriptsize, below] at ({\NC+0.15},-5.62) {$\cdots$};
+  \node[left, font=\scriptsize] at (-0.62,-6.05) {стълбови суми:};
+  % the two readings
+  \node[right, font=\small, defframe, align=left] at ({\NC+0.75},-1.4)
+       {по редове:\\[1pt] $\sum_{n \ge 0} \mathbb{P}(X > n)$};
+  \node[right, font=\small, defframe, align=left] at ({\NC+0.75},-4.3)
+       {по стълбове:\\[1pt] $\sum_{k \ge 1} k\,p_k = \E X$};
+\end{tikzpicture}
+\end{lecfigure}
 Формулата често спестява работа. Например при $X \sim \Geo(p)$ имаме
 $\mathbb{P}(X > n) = q^{\,n+1}$, откъдето веднага
 $\E X = \sum_{n \ge 0} q^{\,n+1} = \frac{q}{1-q} = \frac{q}{p}$,
