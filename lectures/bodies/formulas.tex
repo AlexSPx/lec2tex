@@ -162,6 +162,46 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
   \item \emph{Сума от независими:} $f_{X+Y}(z) = \int f_X(x) f_Y(z-x)\,dx$ (свъртка).
 \end{itemize}
 
+\subsection*{Максимум и минимум на независими величини}
+
+Нека $X_1,\dots,X_n$ са независими с функции на разпределение $F_1,\dots,F_n$, и нека
+\[ M = \max_j X_j, \qquad m = \min_j X_j . \]
+И двете се получават \emph{без} интегриране — само чрез преминаване към сечение на събития:
+\[
+  \{M < x\} = \bigcap_j \{X_j < x\}
+  \;\Longrightarrow\;
+  F_M(x) = \prod_{j=1}^{n} F_j(x)
+  \;\overset{\text{е.р.}}{=}\; \big(F(x)\big)^{n},
+\]
+\[
+  \{m \ge x\} = \bigcap_j \{X_j \ge x\}
+  \;\Longrightarrow\;
+  F_m(x) = 1 - \prod_{j=1}^{n}\big(1 - F_j(x)\big)
+  \;\overset{\text{е.р.}}{=}\; 1 - \big(1-F(x)\big)^{n}.
+\]
+Плътностите се намират чрез диференциране; при еднакво разпределени
+\[
+  f_M(x) = n\,\big(F(x)\big)^{n-1} f(x), \qquad
+  f_m(x) = n\,\big(1-F(x)\big)^{n-1} f(x).
+\]
+
+\begin{itemize}\itemsep2pt
+  \item Работи се с $M$ през $F$, а с $m$ през \emph{опашката} $1-F$ — това е цялата идея.
+        За минимум директното разписване на обединение води до включване-изключване и е
+        излишно трудно.
+  \item \emph{Полезен частен случай:} минимумът на независими $\Exponential(\lambda_j)$ е
+        отново експоненциален, $m \sim \Exponential\!\left(\sum_j \lambda_j\right)$; при
+        еднакви $\lambda$ това е $\Exponential(n\lambda)$. Максимумът \emph{не} е
+        експоненциален.
+  \item \emph{Пример:} за $X_j \sim U(0,\theta)$ имаме $F_M(x) = (x/\theta)^n$ и
+        $f_M(x) = n x^{n-1}/\theta^n$ — точно оценката $X^*$ от метода на максималното
+        правдоподобие в лекция~12.
+  \item \emph{Обща поредна статистика:} $k$-тата по големина сред $n$ е.р.\ наблюдения има
+        плътност
+        $\dfrac{n!}{(k-1)!\,(n-k)!}\,\big(F(x)\big)^{k-1}\big(1-F(x)\big)^{n-k} f(x)$.
+        За $U(0,1)$ това е $\text{Beta}(k,\,n-k+1)$.
+\end{itemize}
+
 \section{Пораждащи функции и функции на моментите}
 
 \begin{itemize}\itemsep2pt

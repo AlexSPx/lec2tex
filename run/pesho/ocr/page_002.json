@@ -1,0 +1,357 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "("
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{A} = 2^\\Omega"
+  },
+  {
+   "type": "text",
+   "content": " ← най-често ще е така)\nДеф| "
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega"
+  },
+  {
+   "type": "text",
+   "content": " - мн-во от ел събития, "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": " е колекция от\nподмн-ва на "
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": " се нарича "
+  },
+  {
+   "type": "equation",
+   "content": "\\sigma"
+  },
+  {
+   "type": "text",
+   "content": "-алгебра,\nако са изпълнени:\n1) "
+  },
+  {
+   "type": "equation",
+   "content": "\\emptyset \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": "\n2) "
+  },
+  {
+   "type": "equation",
+   "content": "A \\in \\mathcal{A} \\rightarrow A^c \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": "\n3) "
+  },
+  {
+   "type": "equation",
+   "content": "A, B \\in \\mathcal{A} \\rightarrow A \\cup B \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": ", "
+  },
+  {
+   "type": "equation",
+   "content": "A_i, i \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "A_i \\in \\mathcal{A} \\rightarrow \\bigcup_{i=1}^\\infty A_i \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": "\n\nСледствие| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": " е "
+  },
+  {
+   "type": "equation",
+   "content": "\\sigma"
+  },
+  {
+   "type": "text",
+   "content": "-алгебра и "
+  },
+  {
+   "type": "equation",
+   "content": "A_i \\in \\mathcal{A}, \\forall i \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": ".\nТогава "
+  },
+  {
+   "type": "equation",
+   "content": "B = \\bigcap_{i=1}^\\infty A_i \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": ".\n\nД-во: Ако "
+  },
+  {
+   "type": "equation",
+   "content": "B = \\bigcap_{i=1}^\\infty A_i"
+  },
+  {
+   "type": "text",
+   "content": " . "
+  },
+  {
+   "type": "equation",
+   "content": "B^c = (\\bigcap_{i=1}^\\infty A_i)^c = \\bigcup_{i=1}^\\infty A_i^c"
+  },
+  {
+   "type": "text",
+   "content": ", но щом "
+  },
+  {
+   "type": "equation",
+   "content": "A_i \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": ",\nто "
+  },
+  {
+   "type": "equation",
+   "content": "A_i^c \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": " и оттам "
+  },
+  {
+   "type": "equation",
+   "content": "\\bigcup_{i=1}^\\infty A_i^c \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": ". От "
+  },
+  {
+   "type": "equation",
+   "content": "B^c \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "B \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": ".\n\nЛекция 2\n\nДеф| "
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega, \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": " е "
+  },
+  {
+   "type": "equation",
+   "content": "\\sigma"
+  },
+  {
+   "type": "text",
+   "content": "-алгебра. Тогава ф-ята "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}: \\mathcal{A} \\rightarrow [0, 1]"
+  },
+  {
+   "type": "text",
+   "content": "\nсе нарича вероятност, ако:\n1) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\Omega) = 1"
+  },
+  {
+   "type": "text",
+   "content": "\n2) "
+  },
+  {
+   "type": "equation",
+   "content": "A \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "A^c \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A^c) = 1 - \\mathbb{P}(A)"
+  },
+  {
+   "type": "text",
+   "content": "\n3) "
+  },
+  {
+   "type": "equation",
+   "content": "A_i \\in \\mathcal{A}, i \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": ", "
+  },
+  {
+   "type": "equation",
+   "content": "A_i \\cap A_j = \\emptyset"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\bigcup_{i=1}^\\infty A_i) = \\sum_{i=1}^\\infty \\mathbb{P}(A_i)"
+  },
+  {
+   "type": "text",
+   "content": "\n\n- "
+  },
+  {
+   "type": "equation",
+   "content": "A, B \\in \\mathcal{A} \\rightarrow A \\setminus B = A \\cap B^c"
+  },
+  {
+   "type": "text",
+   "content": "\n\nСледствие| "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{A}, \\mathbb{P}"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава са в сила:\nа) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\emptyset) = 0"
+  },
+  {
+   "type": "text",
+   "content": "\nб) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(B) = \\mathbb{P}(A \\cap B) + \\mathbb{P}(A^c \\cap B) \\quad \\forall A, B \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": "\nв) ако "
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq B"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) \\le \\mathbb{P}(B)"
+  },
+  {
+   "type": "text",
+   "content": "\nг) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) + \\mathbb{P}(B) - \\mathbb{P}(A \\cap B)"
+  },
+  {
+   "type": "text",
+   "content": "\nд) ако "
+  },
+  {
+   "type": "equation",
+   "content": "A_1 \\supseteq A_2 \\supseteq \\dots"
+  },
+  {
+   "type": "text",
+   "content": " т.е. "
+  },
+  {
+   "type": "equation",
+   "content": "\\bigcap_{j=1}^\\infty A_j = \\emptyset"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{j \\rightarrow \\infty} \\mathbb{P}(A_j) = 0"
+  },
+  {
+   "type": "text",
+   "content": "\nе) ако "
+  },
+  {
+   "type": "equation",
+   "content": "A_j, j \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": ", "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\bigcup_{j=1}^\\infty A_j) \\le \\sum_{j=1}^\\infty \\mathbb{P}(A_j)"
+  }
+ ],
+ "page": 2
+}

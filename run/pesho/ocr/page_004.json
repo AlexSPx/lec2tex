@@ -1,0 +1,297 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "• Геометрична вероятност"
+  },
+  {
+   "type": "equation",
+   "content": "\\infty > \\text{Vol}(\\Omega) = |\\Omega| = \\int_{\\Omega} dx"
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega \\subseteq \\mathbb{R}^d"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\{x\\}) = 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow"
+  },
+  {
+   "type": "text",
+   "content": "точката има нулев обем"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) = \\frac{|A|}{|\\Omega|}"
+  },
+  {
+   "type": "text",
+   "content": "// равномерна вероятност"
+  },
+  {
+   "type": "text",
+   "content": "вероятността да се падне точка от"
+  },
+  {
+   "type": "equation",
+   "content": "A"
+  },
+  {
+   "type": "text",
+   "content": "Деф 1"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Omega, \\mathcal{A}, \\mathbb{P})"
+  },
+  {
+   "type": "text",
+   "content": "се нарича вероятностно пр-во."
+  },
+  {
+   "type": "equation",
+   "content": "\\oplus"
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega = \\{1, 2, \\dots, N\\}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{A} = 2^\\Omega"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\{i\\}) = 1/N, \\quad 1 \\le i \\le N"
+  },
+  {
+   "type": "text",
+   "content": "(пример)"
+  },
+  {
+   "type": "equation",
+   "content": "\\uparrow"
+  },
+  {
+   "type": "text",
+   "content": "мн-во от събития"
+  },
+  {
+   "type": "equation",
+   "content": "\\uparrow"
+  },
+  {
+   "type": "equation",
+   "content": "\\sigma"
+  },
+  {
+   "type": "text",
+   "content": "-алгебра"
+  },
+  {
+   "type": "equation",
+   "content": "\\uparrow"
+  },
+  {
+   "type": "text",
+   "content": "вероятностна ф-я"
+  },
+  {
+   "type": "text",
+   "content": "Деф 1 (условна вероятност)"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Omega, \\mathcal{A}, \\mathbb{P}) \\to"
+  },
+  {
+   "type": "text",
+   "content": "вер. пр-во и нека"
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq \\Omega"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) > 0"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава под условна вероят."
+  },
+  {
+   "type": "text",
+   "content": "при настъпване на"
+  },
+  {
+   "type": "equation",
+   "content": "A"
+  },
+  {
+   "type": "text",
+   "content": "разбираме"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}_A(B) = \\mathbb{P}(B|A) = \\frac{\\mathbb{P}(A \\cap B)}{\\mathbb{P}(A)}"
+  },
+  {
+   "type": "text",
+   "content": "за"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall B \\in \\mathcal{A}"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Omega, \\mathcal{A}, \\mathbb{P}) \\to (A, \\mathcal{A}_A, \\mathbb{P}_A)"
+  },
+  {
+   "type": "text",
+   "content": "Лекция 3"
+  },
+  {
+   "type": "text",
+   "content": "Деф 1 Нека"
+  },
+  {
+   "type": "equation",
+   "content": "A, B"
+  },
+  {
+   "type": "text",
+   "content": "са две събития в"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Omega, \\mathcal{A}, \\mathbb{P})"
+  },
+  {
+   "type": "text",
+   "content": ", т.е."
+  },
+  {
+   "type": "equation",
+   "content": "A, B \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": "."
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "A"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "B"
+  },
+  {
+   "type": "text",
+   "content": "са независими"
+  },
+  {
+   "type": "equation",
+   "content": "(A \\perp\\!\\!\\!\\perp B)"
+  },
+  {
+   "type": "text",
+   "content": ", ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A \\cap B) = \\mathbb{P}(A)\\mathbb{P}(B)"
+  },
+  {
+   "type": "text",
+   "content": "*"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) = 0 \\Rightarrow \\mathbb{P}(A \\cap B) = 0"
+  },
+  {
+   "type": "text",
+   "content": ", защото"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A \\cap B) \\le \\mathbb{P}(A)"
+  },
+  {
+   "type": "text",
+   "content": "*"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) > 0 \\Rightarrow \\mathbb{P}(B|A) = \\mathbb{P}(B)"
+  },
+  {
+   "type": "text",
+   "content": ", защото"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A \\cap B) = \\mathbb{P}(A).\\mathbb{P}(B)"
+  },
+  {
+   "type": "text",
+   "content": "Деф 1"
+  },
+  {
+   "type": "equation",
+   "content": "A_1, \\dots, A_n"
+  },
+  {
+   "type": "text",
+   "content": "са"
+  },
+  {
+   "type": "equation",
+   "content": "n"
+  },
+  {
+   "type": "text",
+   "content": "-събития, тогава"
+  },
+  {
+   "type": "equation",
+   "content": "A_1, A_2, \\dots, A_n"
+  },
+  {
+   "type": "text",
+   "content": "са независими в съвкупност, ако"
+  },
+  {
+   "type": "equation",
+   "content": "M \\subseteq \\{1, 2, \\dots, n\\}"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "|M| \\ge 2 :"
+  }
+ ],
+ "page": 4
+}

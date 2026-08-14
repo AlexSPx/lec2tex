@@ -1,0 +1,285 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Д-во:"
+  },
+  {
+   "type": "text",
+   "content": "а)"
+  },
+  {
+   "type": "equation",
+   "content": "\\emptyset = \\Omega^c"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\emptyset) = 1 - \\mathbb{P}(\\Omega) = 0"
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(B) = \\mathbb{P}(A \\cap B) + \\mathbb{P}(A^c \\cap B)"
+  },
+  {
+   "type": "text",
+   "content": ", защото"
+  },
+  {
+   "type": "equation",
+   "content": "B = A \\cap B \\cup A^c \\cap B"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq B"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(B) = \\mathbb{P}(A \\cap B) + \\mathbb{P}(A^c \\cap B) = \\mathbb{P}(A) + \\mathbb{P}(A^c \\cap B) \\geq \\mathbb{P}(A)"
+  },
+  {
+   "type": "text",
+   "content": "г)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A \\cup B) = \\mathbb{P}(A) + \\mathbb{P}(A^c \\cap B) = \\mathbb{P}(A) + \\mathbb{P}(B) - \\mathbb{P}(A \\cap B)"
+  },
+  {
+   "type": "text",
+   "content": "д)"
+  },
+  {
+   "type": "equation",
+   "content": "A_j = A_j \\setminus A_{j+1} \\cup A_{j+1} = A_j \\setminus A_{j+1} \\cup A_{j+1} \\setminus A_{j+2} \\cup A_{j+2} = \\dots = \\bigcup_{n=j}^\\infty A_n \\setminus A_{n+1}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A_j) = \\sum_{n=j}^\\infty \\mathbb{P}(A_n \\setminus A_{n+1}) \\xrightarrow[j \\to \\infty]{(*)} 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A_1) = \\sum_{n=1}^\\infty \\mathbb{P}(A_n \\setminus A_{n+1}) \\quad (*)"
+  },
+  {
+   "type": "text",
+   "content": ", редът е сходящ"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A_1) \\leq 1"
+  },
+  {
+   "type": "text",
+   "content": "е)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}\\left(\\bigcup_{j=1}^\\infty A_j\\right) \\leq \\sum_{j=1}^\\infty \\mathbb{P}(A_j)"
+  },
+  {
+   "type": "equation",
+   "content": "A_1 = C_1"
+  },
+  {
+   "type": "equation",
+   "content": "A_2 \\setminus A_1 = C_2 \\subseteq A_2"
+  },
+  {
+   "type": "equation",
+   "content": "A_3 \\setminus (A_1 \\cup A_2) = C_3 \\subseteq A_3"
+  },
+  {
+   "type": "equation",
+   "content": "\\bigcup_{j=1}^\\infty A_j = \\bigcup_{j=1}^\\infty C_j"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "C_i \\cap C_j = \\emptyset"
+  },
+  {
+   "type": "equation",
+   "content": "\\vdots"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}\\left(\\bigcup_{j=1}^\\infty A_j\\right) = \\mathbb{P}\\left(\\bigcup_{j=1}^\\infty C_j\\right) = \\sum_{j=1}^\\infty \\mathbb{P}(C_j) \\leq \\sum_{j=1}^\\infty \\mathbb{P}(A_j)"
+  },
+  {
+   "type": "text",
+   "content": "• Дискретна вероятност"
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega = \\{\\omega_1, \\dots, \\omega_n\\} = \\{1, 2, \\dots, N\\}"
+  },
+  {
+   "type": "equation",
+   "content": "(p_1, \\dots, p_n)"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "p_i \\geq 0"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "i \\in \\{1, \\dots, n\\}"
+  },
+  {
+   "type": "equation",
+   "content": "\\sum_{i=1}^n p_i = 1"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\{i\\}) = p_i"
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq \\Omega"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) = \\sum_{i \\in A} p_i"
+  },
+  {
+   "type": "text",
+   "content": "1)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P} : \\mathcal{A} = 2^\\Omega \\to [0, 1]"
+  },
+  {
+   "type": "text",
+   "content": "2)"
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq \\Omega"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A^c) = \\sum_{i \\in A^c} p_i \\stackrel{?}{=} 1 - \\sum_{i \\in A} p_i"
+  },
+  {
+   "type": "text",
+   "content": "3)"
+  },
+  {
+   "type": "equation",
+   "content": "A_1, A_2, \\dots, A_k"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "A_i \\cap A_j = \\emptyset"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}\\left(\\bigcup_j A_j\\right) = \\sum_{i \\in \\bigcup A_k} p_i \\stackrel{?}{=} \\sum \\mathbb{P}(A_j)"
+  },
+  {
+   "type": "text",
+   "content": "• Равномерна вероятност е частният случай,"
+  },
+  {
+   "type": "text",
+   "content": "при който"
+  },
+  {
+   "type": "equation",
+   "content": "p_i = 1/N"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "\\forall i \\in \\{1, \\dots, N\\}"
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega = \\{\\omega_1, \\omega_2, \\dots \\} = \\{1, 2, 3, 4, \\dots \\} = \\{0, 1, 2, 3, \\dots \\}"
+  },
+  {
+   "type": "text",
+   "content": "(изброимо безкрайна)"
+  },
+  {
+   "type": "equation",
+   "content": "(p_1, p_2, \\dots, p_n, \\dots)"
+  },
+  {
+   "type": "equation",
+   "content": "p_i \\geq 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\sum_{i=1}^\\infty p_i = 1 = \\mathbb{P}(\\Omega)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(\\{i\\}) = p_i"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) = \\sum_{i \\in A} p_i"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "\\forall A \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": "-2"
+  }
+ ],
+ "page": 3
+}
