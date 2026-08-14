@@ -17,14 +17,20 @@ Usage:
     python3 scripts/ocr_pesho.py --pages 1-4            # OCR a sample
     python3 scripts/ocr_pesho.py                        # OCR all 37 pages
 
+Pages that already have output are skipped, so re-running resumes; --force
+re-reads them. The agy CLI drops a connection now and then on a run this long,
+hence the retry with backoff.
+
 Backends (reuses src/backends.py, same flags as the video pipeline):
-    --mode local  --model mlx-community/Qwen2.5-VL-7B-Instruct-4bit
-    --mode cloud  --provider gemini      (needs GEMINI_API_KEY)
+    --mode cloud --provider agy          (default; local CLI, no API key)
+    --mode cloud --provider gemini       (needs GEMINI_API_KEY)
+    --mode local --model mlx-community/Qwen2.5-VL-7B-Instruct-4bit
 """
 import argparse
 import json
 import os
 import sys
+import time
 
 import cv2
 import numpy as np
@@ -114,6 +120,9 @@ def main():
     ap.add_argument("--provider", default="agy",
                     help="agy uses the local Antigravity CLI and needs no API key")
     ap.add_argument("--base-url", default=None)
+    ap.add_argument("--retries", type=int, default=4)
+    ap.add_argument("--force", action="store_true",
+                    help="re-OCR pages that already have output")
     args = ap.parse_args()
 
     total = pymupdf.open(SRC_PDF).page_count
@@ -132,20 +141,42 @@ def main():
         return
 
     from backends import VLMClient
+    from vlm_ocr import _extract_json
     client = VLMClient(mode=args.mode, model=args.model,
                        provider=args.provider, base_url=args.base_url)
+    failed = []
     for p, path in prepped:
-        raw = client.read_image(path, PROMPT)
         dest = os.path.join(OUT, "ocr", "page_%03d.json" % (p + 1))
-        try:
-            from vlm_ocr import _extract_json
-            data = _extract_json(raw)
-        except Exception:
-            data = {"items": [], "raw": raw}
+        # Resume: a 37-page run is long enough that a transient network error
+        # partway through should not cost the pages already read.
+        if os.path.exists(dest) and not args.force:
+            print("skip page %d (already done)" % (p + 1))
+            continue
+        data = None
+        for attempt in range(1, args.retries + 1):
+            try:
+                raw = client.read_image(path, PROMPT)
+                try:
+                    data = _extract_json(raw)
+                except Exception:
+                    data = {"items": [], "raw": raw}
+                break
+            except Exception as e:
+                wait = min(60, 5 * 2 ** (attempt - 1))
+                print("page %d attempt %d/%d failed (%s)"
+                      % (p + 1, attempt, args.retries, str(e)[:90]))
+                if attempt < args.retries:
+                    print("   retrying in %ds" % wait)
+                    time.sleep(wait)
+        if data is None:
+            failed.append(p + 1)
+            continue
         data["page"] = p + 1
         json.dump(data, open(dest, "w"), ensure_ascii=False, indent=1)
-        n = len(data.get("items", []))
-        print("ocr page %d -> %d items" % (p + 1, n))
+        print("ocr page %d -> %d items" % (p + 1, len(data.get("items", []))))
+    if failed:
+        print("FAILED pages (re-run to retry): %s"
+              % ",".join(str(f) for f in failed))
 
 
 if __name__ == "__main__":
