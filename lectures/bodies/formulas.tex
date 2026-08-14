@@ -1,0 +1,218 @@
+\chapter{Справочник с формули}
+\label{app:formulas}
+
+Този справочник събира на едно място формулите, които се използват най-често при
+решаване на задачи. Всяко твърдение е доказано на съответното място в лекциите —
+тук са само резултатите. Навсякъде $q = 1-p$.
+
+\section{Комбинаторика}
+
+\begin{center}
+\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+& \textbf{редът има значение} & \textbf{редът няма значение} \\
+\midrule
+\textbf{без повторение} & $\dfrac{n!}{(n-k)!}$ (вариации) & $\dbinom{n}{k}$ (комбинации) \\[10pt]
+\textbf{с повторение}   & $n^k$ & $\dbinom{n+k-1}{k}$ (стълбчета и звезди) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+Тук избираме $k$ обекта измежду $n$. Пермутациите на $n$ различни обекта са $n!$.
+
+\begin{itemize}\itemsep2pt
+  \item \emph{Мултиномен коефициент} (подреждания с повтарящи се букви):
+        $\dbinom{n}{k_1,\dots,k_m} = \dfrac{n!}{k_1!\,k_2!\cdots k_m!}$, където $\sum k_i = n$.
+  \item \emph{Формула за включване и изключване:}
+        $\displaystyle \Big|\bigcup_{i=1}^{n} A_i\Big|
+          = \sum_i |A_i| - \sum_{i<j} |A_i \cap A_j| + \cdots + (-1)^{n-1}|A_1 \cap \dots \cap A_n|$.
+  \item \emph{Брой сюрекции} от $k$-елементно върху $n$-елементно множество:
+        $\displaystyle \sum_{m=0}^{n} (-1)^m \binom{n}{m} (n-m)^k$.
+  \item \emph{Свойства:} $\binom{n}{k} = \binom{n}{n-k}$;\quad
+        $\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}$;\quad
+        $k\binom{n}{k} = n\binom{n-1}{k-1}$;\quad
+        $\sum_{k} \binom{n}{k} = 2^n$;\quad
+        $\sum_{k}(-1)^k\binom{n}{k} = 0$ за $n \ge 1$.
+  \item \emph{Бином на Нютон:} $(a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^k b^{n-k}$.
+\end{itemize}
+
+\section{Основни вероятностни правила}
+
+\begin{itemize}\itemsep2pt
+  \item \emph{Класическа вероятност:} $\mathbb{P}(A) = \dfrac{|A|}{|\Omega|}$ при равновероятни изходи.
+        \emph{Геометрична:} $\mathbb{P}(A) = \dfrac{|A|}{|\Omega|}$ с мярка (дължина, площ, обем).
+  \item $\mathbb{P}(A^c) = 1 - \mathbb{P}(A)$;\quad
+        $\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$.
+  \item \emph{Условна вероятност:} $\mathbb{P}(B \given A) = \dfrac{\mathbb{P}(A \cap B)}{\mathbb{P}(A)}$, при $\mathbb{P}(A) > 0$.
+  \item \emph{Верижно правило:}
+        $\mathbb{P}(A_1 \cap \dots \cap A_n) = \mathbb{P}(A_1)\mathbb{P}(A_2 \given A_1)\cdots
+         \mathbb{P}(A_n \given A_1 \cap \dots \cap A_{n-1})$.
+  \item \emph{Формула за пълната вероятност:} при пълна група $\{H_i\}$ с $\mathbb{P}(H_i)>0$,
+        $\displaystyle \mathbb{P}(A) = \sum_i \mathbb{P}(A \given H_i)\,\mathbb{P}(H_i)$.
+  \item \emph{Формула на Бейс:}
+        $\displaystyle \mathbb{P}(H_j \given A) = \frac{\mathbb{P}(A \given H_j)\mathbb{P}(H_j)}{\sum_i \mathbb{P}(A \given H_i)\mathbb{P}(H_i)}$.
+  \item \emph{Независимост:} $A \perp\!\!\!\perp B \iff \mathbb{P}(A \cap B) = \mathbb{P}(A)\mathbb{P}(B)$.
+        В съвкупност: равенството важи за \emph{всяко} подмножество от индекси — това е
+        по-силно от двойката по двойка.
+\end{itemize}
+
+\section{Дискретни разпределения}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llccl@{}}
+\toprule
+\textbf{Разпределение} & $\mathbb{P}(X=k)$ & $\E X$ & $\Var X$ & $g_X(s)$ \\
+\midrule
+$\Ber(p)$ & $p^k q^{1-k}$, $k \in \{0,1\}$ & $p$ & $pq$ & $q+ps$ \\[3pt]
+$\Bin(n,p)$ & $\dbinom{n}{k} p^k q^{n-k}$, $0 \le k \le n$ & $np$ & $npq$ & $(q+ps)^n$ \\[5pt]
+$\Geo(p)$ & $q^k p$, $k \ge 0$ & $\dfrac{q}{p}$ & $\dfrac{q}{p^2}$ & $\dfrac{p}{1-qs}$ \\[7pt]
+$\NegBin(r,p)$ & $\dbinom{r+k-1}{k} p^r q^k$, $k \ge 0$ & $\dfrac{rq}{p}$ & $\dfrac{rq}{p^2}$ & $\left(\dfrac{p}{1-qs}\right)^{\! r}$ \\[7pt]
+$\Poi(\lambda)$ & $e^{-\lambda}\dfrac{\lambda^k}{k!}$, $k \ge 0$ & $\lambda$ & $\lambda$ & $e^{\lambda(s-1)}$ \\[7pt]
+$\Hyp(N,M,n)$ & $\dfrac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}}$ & $n\dfrac{M}{N}$ & $n\dfrac{M}{N}\dfrac{N-M}{N}\dfrac{N-n}{N-1}$ & --- \\[7pt]
+равномерно в $\{1,\dots,n\}$ & $\dfrac{1}{n}$ & $\dfrac{n+1}{2}$ & $\dfrac{n^2-1}{12}$ & $\dfrac{s(1-s^n)}{n(1-s)}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+$\Geo$ и $\NegBin$ броят \emph{неуспехите} преди първия (съответно $r$-тия) успех;
+$\NegBin(1,p) = \Geo(p)$. Множителят $\frac{N-n}{N-1}$ при $\Hyp$ е поправката за
+теглене без връщане: при $N \to \infty$ той клони към $1$ и $\Hyp \to \Bin$.
+
+\begin{itemize}\itemsep2pt
+  \item \emph{Липса на памет} (само $\Geo$ сред дискретните):
+        $\mathbb{P}(X \ge m+k \given X \ge m) = \mathbb{P}(X \ge k)$.
+  \item \emph{Мода:} за $\Bin(n,p)$ е $\lfloor p(n+1) \rfloor$; за $\Poi(\lambda)$ е $\lfloor \lambda \rfloor$.
+  \item \emph{Приближение на Поасон:} при голямо $n$ и малко $p$, $\Bin(n,p) \approx \Poi(np)$.
+\end{itemize}
+
+\section{Непрекъснати разпределения}
+
+\begin{center}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llccl@{}}
+\toprule
+\textbf{Разпределение} & $f_X(x)$ & $\E X$ & $\Var X$ & $M_X(t) = \E e^{tX}$ \\
+\midrule
+$U(a,b)$ & $\dfrac{1}{b-a}$, $a<x<b$ & $\dfrac{a+b}{2}$ & $\dfrac{(b-a)^2}{12}$ & $\dfrac{e^{tb}-e^{ta}}{t(b-a)}$ \\[7pt]
+$\Exponential(\lambda)$ & $\lambda e^{-\lambda x}$, $x>0$ & $\dfrac{1}{\lambda}$ & $\dfrac{1}{\lambda^2}$ & $\dfrac{\lambda}{\lambda-t}$, $t<\lambda$ \\[7pt]
+$\Gamma(\alpha,\beta)$ & $\dfrac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha-1} e^{-\beta x}$, $x>0$ & $\dfrac{\alpha}{\beta}$ & $\dfrac{\alpha}{\beta^2}$ & $\left(\dfrac{\beta}{\beta-t}\right)^{\!\alpha}$ \\[7pt]
+$N(\mu,\sigma^2)$ & $\dfrac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ & $\mu$ & $\sigma^2$ & $e^{\mu t + \sigma^2 t^2/2}$ \\[7pt]
+$\chi^2(n) = \Gamma\!\left(\frac{n}{2},\frac12\right)$ & $\dfrac{x^{n/2-1}e^{-x/2}}{2^{n/2}\Gamma(n/2)}$, $x>0$ & $n$ & $2n$ & $(1-2t)^{-n/2}$, $t<\tfrac12$ \\[7pt]
+$t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1+\frac{x^2}{n}\right)^{-\frac{n+1}{2}}$ & $0$, $n>1$ & $\dfrac{n}{n-2}$, $n>2$ & не съществува \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{itemize}\itemsep2pt
+  \item $\Gamma(\alpha+1) = \alpha\,\Gamma(\alpha)$;\quad $\Gamma(n) = (n-1)!$;\quad
+        $\Gamma(\tfrac12) = \sqrt{\pi}$;\quad $\Exponential(\lambda) = \Gamma(1,\lambda)$.
+  \item \emph{Липса на памет} (само $\Exponential$ сред непрекъснатите):
+        $\mathbb{P}(X > s+t \given X > s) = \mathbb{P}(X > t)$.
+  \item \emph{Стандартизиране:} $X \sim N(\mu,\sigma^2) \implies \dfrac{X-\mu}{\sigma} \sim N(0,1)$,
+        откъдето $\mathbb{P}(X < x) = \Phi\!\left(\frac{x-\mu}{\sigma}\right)$ и
+        $\Phi(-z) = 1-\Phi(z)$.
+  \item \emph{Устойчивост:} сума от независими нормални е нормална
+        ($\mu$ и $\sigma^2$ се събират); сума от независими $\Poi$ е $\Poi$;
+        сума от независими $\Gamma$ с общо $\beta$ е $\Gamma$ (събира се $\alpha$).
+  \item \emph{Връзки:} $Z \sim N(0,1) \implies Z^2 \sim \chi^2(1)$;\quad
+        сума от $n$ независими $\chi^2(1)$ е $\chi^2(n)$;\quad
+        $\dfrac{Z}{\sqrt{U/n}} \sim t(n)$ при $Z \perp\!\!\!\perp U \sim \chi^2(n)$.
+\end{itemize}
+
+\section{Числови характеристики}
+
+\begin{itemize}\itemsep2pt
+  \item $\E X = \sum_j x_j p_j$ (дискретно), $\E X = \int_{-\infty}^{\infty} x f_X(x)\,dx$ (непрекъснато).
+  \item \emph{Формула на статистика:} $\E g(X) = \sum_j g(x_j)p_j$, съответно $\int g(x) f_X(x)\,dx$
+        — не е нужно да се търси разпределението на $g(X)$.
+  \item \emph{Линейност:} $\E(aX+bY) = a\E X + b\E Y$ \emph{винаги}, независимост не се изисква.
+  \item $\Var X = \E X^2 - (\E X)^2$;\quad $\Var(aX+b) = a^2 \Var X$.
+  \item $\Cov(X,Y) = \E[XY] - \E X\,\E Y$;\quad
+        $\Var\!\left(\sum_j X_j\right) = \sum_j \Var X_j + 2\sum_{i<j} \Cov(X_i,X_j)$.
+  \item $X \perp\!\!\!\perp Y \implies \E[XY] = \E X\,\E Y$ и $\Cov(X,Y)=0$. Обратното \emph{не} е вярно.
+  \item $\rho(X,Y) = \dfrac{\Cov(X,Y)}{\sqrt{\Var X}\sqrt{\Var Y}} \in [-1,1]$;\quad
+        $|\rho| = 1 \iff Y = aX+b$ п.с.
+  \item \emph{Очакване чрез опашките} (за $X \in \{0,1,2,\dots\}$):
+        $\displaystyle \E X = \sum_{n \ge 0} \mathbb{P}(X > n)$.
+  \item \emph{Индикатори:} $\E \ind_A = \mathbb{P}(A)$. Разбиването на брояч на сума от
+        индикатори е най-прекият път към $\E X$, дори когато събираемите не са независими.
+  \item \emph{Условно очакване:} $\E[\E[X \given Y]] = \E X$ (формула за пълното очакване);\quad
+        $\Var X = \E[\Var(X \given Y)] + \Var(\E[X \given Y])$.
+\end{itemize}
+
+\section{Функция на разпределение и трансформации}
+
+\begin{itemize}\itemsep2pt
+  \item В тези записки $F_X(x) = \mathbb{P}(X < x)$ (строго неравенство); $F$ е ненамаляваща,
+        непрекъсната отляво, $F(-\infty)=0$, $F(+\infty)=1$.
+  \item $\mathbb{P}(a \le X < b) = F_X(b) - F_X(a)$;\quad
+        за непрекъсната $X$: $f_X = F_X'$ и $\mathbb{P}(X=a)=0$.
+  \item \emph{Смяна на променливите} (монотонна $g$): $Y = g(X)$ има плътност
+        \[ f_Y(y) = f_X\big(g^{-1}(y)\big)\,\Big|\tfrac{d}{dy}g^{-1}(y)\Big| . \]
+  \item \emph{Метод на функцията на разпределение:} намираме $F_Y(y)=\mathbb{P}(g(X)<y)$ и
+        диференцираме — работи и когато $g$ не е монотонна.
+  \item \emph{Двумерни:} $f_X(x) = \int f_{X,Y}(x,y)\,dy$ (маргинална);\quad
+        $X \perp\!\!\!\perp Y \iff f_{X,Y}(x,y) = f_X(x) f_Y(y)$.
+  \item \emph{Сума от независими:} $f_{X+Y}(z) = \int f_X(x) f_Y(z-x)\,dx$ (свъртка).
+\end{itemize}
+
+\section{Пораждащи функции и функции на моментите}
+
+\begin{itemize}\itemsep2pt
+  \item $g_X(s) = \E s^X$ (за целочислени $X \ge 0$);\quad $M_X(t) = \E e^{tX}$.
+  \item $\E X = g_X'(1)$;\quad $\Var X = g_X''(1) + g_X'(1) - (g_X'(1))^2$;\quad
+        $k!\,\mathbb{P}(X=k) = g_X^{(k)}(0)$.
+  \item $\E X^k = M_X^{(k)}(0)$.
+  \item \emph{Еднозначност:} $g_X \equiv g_Y \iff X \stackrel{d}{=} Y$ (същото за $M_X$).
+  \item \emph{Суми от независими:} $g_{X+Y} = g_X \cdot g_Y$ и $M_{X+Y} = M_X \cdot M_Y$.
+        Това е основният начин да се разпознае разпределението на сума.
+\end{itemize}
+
+\section{Неравенства и гранични теореми}
+
+\begin{itemize}\itemsep2pt
+  \item \emph{Марков:} при $X \ge 0$, $\mathbb{P}(X > a) \le \dfrac{\E X}{a}$.
+  \item \emph{Чебишов:} $\mathbb{P}(|X - \E X| > a) \le \dfrac{\Var X}{a^2}$.
+  \item \emph{Слаб ЗГЧ:} $\dfrac{S_n}{n} \xrightarrow{\mathbb{P}} \mu$;\quad
+        \emph{усилен ЗГЧ:} $\dfrac{S_n}{n} \xrightarrow{\text{п.с.}} \mu$ (изисква $\E|X_1| < \infty$).
+  \item \emph{ЦГТ:} при $\Var X_1 = \sigma^2 < \infty$,
+        $\displaystyle \frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0,1)$, откъдето
+        $\mathbb{P}(S_n < b) \approx \Phi\!\left(\dfrac{b-n\mu}{\sigma\sqrt{n}}\right)$.
+  \item \emph{Йерархия:} п.с. $\implies$ по вероятност $\implies$ по разпределение;
+        обратните посоки не са верни.
+\end{itemize}
+
+\section{Статистика}
+
+\begin{itemize}\itemsep2pt
+  \item \emph{Извадкови характеристики:} $\overline{X}_n = \frac1n\sum X_j$;\quad
+        $S^2 = \frac{1}{n-1}\sum (X_j - \overline{X}_n)^2$ (неизместена);\quad
+        $\hat\sigma^2 = \frac{n-1}{n}S^2$ (МПО, изместена).
+  \item $\E \overline{X}_n = \mu$, $\Var \overline{X}_n = \dfrac{\sigma^2}{n}$;\quad $\E S^2 = \sigma^2$.
+  \item \emph{Максимално правдоподобие:} максимизираме $L(\vec X,\theta) = \prod_j f(X_j;\theta)$,
+        обикновено през $\ln L$. Ако носителят зависи от $\theta$ (напр.\ $U(0,\theta)$),
+        диференцирането не работи — решава формата на $L$.
+  \item \emph{Метод на моментите:} приравняваме теоретични към извадкови моменти.
+  \item \emph{Централна статистика} $T(\vec X,\theta)$: монотонна по $\theta$, с разпределение,
+        което не зависи от $\theta$. Оттук интервалът се получава чрез обръщане на
+        $\mathbb{P}(q_1 < T < q_2) = \gamma$.
+  \item При $X \sim N(\mu,\sigma^2)$ и \emph{известна} $\sigma$:\;
+        $\overline{X}_n \pm q_{\frac{1+\gamma}{2}}\dfrac{\sigma}{\sqrt{n}}$.
+  \item При \emph{неизвестна} $\sigma$:\;
+        $\overline{X}_n \pm t_{\frac{1+\gamma}{2},\,n-1}\dfrac{S}{\sqrt{n}}$, понеже
+        $\dfrac{\overline{X}_n-\mu}{S/\sqrt{n}} \sim t(n-1)$.
+  \item За дисперсията: $\dfrac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$ — интервалът използва
+        \emph{два различни} квантила, защото $\chi^2$ не е симетрично.
+  \item \emph{Проверка на хипотези:} грешка от I род $\alpha = \mathbb{P}(\vec X \in W \given H_0)$,
+        от II род $\beta = \mathbb{P}(\vec X \notin W \given H_1)$. Лемата на
+        Нейман\,--\,Пиърсън дава най-мощната област чрез отношението
+        $L_1(\vec x) \ge k\,L_0(\vec x)$.
+  \item \emph{Линейна регресия:} $b_1 = \dfrac{\sum (X_k-\overline X)(Y_k-\overline Y)}{\sum (X_k - \overline X)^2}$,\;
+        $b_0 = \overline Y - b_1 \overline X$.
+\end{itemize}
