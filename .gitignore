@@ -60,3 +60,7 @@ Thumbs.db
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+
+# Preprocessed page images for the handwritten notes: derived from
+# pesho-stat-1.pdf by scripts/ocr_pesho.py, regenerate rather than track.
+/run/pesho/prep/
