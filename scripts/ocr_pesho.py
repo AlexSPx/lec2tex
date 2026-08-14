@@ -109,9 +109,10 @@ def main():
     ap.add_argument("--pages", default=None, help="e.g. 1-4 or 1,7,12")
     ap.add_argument("--prep-only", action="store_true")
     ap.add_argument("--dpi", type=int, default=220)
-    ap.add_argument("--mode", default="local")
+    ap.add_argument("--mode", default="cloud")
     ap.add_argument("--model", default=None)
-    ap.add_argument("--provider", default="gemini")
+    ap.add_argument("--provider", default="agy",
+                    help="agy uses the local Antigravity CLI and needs no API key")
     ap.add_argument("--base-url", default=None)
     args = ap.parse_args()
 
@@ -134,7 +135,7 @@ def main():
     client = VLMClient(mode=args.mode, model=args.model,
                        provider=args.provider, base_url=args.base_url)
     for p, path in prepped:
-        raw = client.read(path, PROMPT)
+        raw = client.read_image(path, PROMPT)
         dest = os.path.join(OUT, "ocr", "page_%03d.json" % (p + 1))
         try:
             from vlm_ocr import _extract_json

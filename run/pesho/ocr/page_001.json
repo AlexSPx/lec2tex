@@ -1,0 +1,289 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Лекция 1\n+ Под случаен експеримент разбираме изследване /\nопит , чийто изход не е предопределен. Изходите\nсе наричат елементарни събития и се\nозначават с "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega"
+  },
+  {
+   "type": "text",
+   "content": "\nДеф 1 За даден сл. експеримент мн-вото от ел\nсъбития се означава с "
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega"
+  },
+  {
+   "type": "text",
+   "content": "\n\"Деф\" | "
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega , A \\subseteq \\Omega"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "A"
+  },
+  {
+   "type": "text",
+   "content": " е събитие\n"
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq B"
+  },
+  {
+   "type": "text",
+   "content": " ако "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in A \\Rightarrow \\omega \\in B"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "A = B"
+  },
+  {
+   "type": "text",
+   "content": " ако "
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq B"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "B \\subseteq A"
+  },
+  {
+   "type": "text",
+   "content": "\nДеф 1 \"или\" "
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq \\Omega , B \\subseteq \\Omega"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "C = A \\cup B"
+  },
+  {
+   "type": "text",
+   "content": " разбираме\n"
+  },
+  {
+   "type": "equation",
+   "content": "C"
+  },
+  {
+   "type": "text",
+   "content": " , така че ако "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in C"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in A"
+  },
+  {
+   "type": "text",
+   "content": " или "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in B"
+  },
+  {
+   "type": "text",
+   "content": "\nДеф 1 \"и\" "
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq \\Omega , B \\subseteq \\Omega"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "C = A \\cap B"
+  },
+  {
+   "type": "text",
+   "content": " разбираме\n"
+  },
+  {
+   "type": "equation",
+   "content": "C"
+  },
+  {
+   "type": "text",
+   "content": " , така че ако "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in C"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in A"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in B"
+  },
+  {
+   "type": "text",
+   "content": "\nДеф 1 \"допълнение\" "
+  },
+  {
+   "type": "equation",
+   "content": "A \\subseteq \\Omega"
+  },
+  {
+   "type": "text",
+   "content": " то "
+  },
+  {
+   "type": "equation",
+   "content": "A^c = \\Omega \\setminus A"
+  },
+  {
+   "type": "text",
+   "content": " или събитието\nако "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\in A^c"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "\\omega \\notin A"
+  },
+  {
+   "type": "text",
+   "content": " . ( "
+  },
+  {
+   "type": "equation",
+   "content": "A \\cup A^c = \\Omega"
+  },
+  {
+   "type": "text",
+   "content": " )\nСв-ва:\nа) "
+  },
+  {
+   "type": "equation",
+   "content": "A \\cap B = B \\cap A ; A \\cup B = B \\cup A"
+  },
+  {
+   "type": "text",
+   "content": "\nб) "
+  },
+  {
+   "type": "equation",
+   "content": "A \\cup (B \\cup C) = (A \\cup B) \\cup C"
+  },
+  {
+   "type": "text",
+   "content": " и за сечението\nв) "
+  },
+  {
+   "type": "equation",
+   "content": "A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)"
+  },
+  {
+   "type": "text",
+   "content": " и обратното\nг) Ако "
+  },
+  {
+   "type": "equation",
+   "content": "A_i , i \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": " са събития , то "
+  },
+  {
+   "type": "equation",
+   "content": "(\\bigcup_{i=1}^\\infty A_i)^c = \\bigcap_{i=1}^\\infty A_i^c"
+  },
+  {
+   "type": "text",
+   "content": " и\n"
+  },
+  {
+   "type": "equation",
+   "content": "(\\bigcap_{i=1}^\\infty A_i)^c = \\bigcup_{i=1}^\\infty A_i^c"
+  },
+  {
+   "type": "text",
+   "content": " ( закони на Де Морган )\n"
+  },
+  {
+   "type": "equation",
+   "content": "\\bigcup_{i=1}^\\infty A_i = \\{ \\omega \\in \\Omega : \\omega"
+  },
+  {
+   "type": "text",
+   "content": " принадлежи на поне едно "
+  },
+  {
+   "type": "equation",
+   "content": "A_i \\}"
+  },
+  {
+   "type": "text",
+   "content": " ( "
+  },
+  {
+   "type": "equation",
+   "content": "\\cap"
+  },
+  {
+   "type": "text",
+   "content": " - всички )\n- 1 -"
+  }
+ ],
+ "page": 1
+}

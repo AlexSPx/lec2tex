@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Сл| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Ge(p)"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "EX = q/p"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "DX = q/p^2"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "EX = g_X'(1) = \\left. \\frac{pq}{(1-qs)^2} \\right|_{s=1} = \\frac{pq}{(1-q)^2} = \\frac{pq}{p^2} = \\frac{q}{p}"
+  },
+  {
+   "type": "equation",
+   "content": "DX = g_X''(1) + g_X'(1) - (g_X'(1))^2 = \\dots = q/p^2"
+  },
+  {
+   "type": "text",
+   "content": "Те| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Ge(p)"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\mathbb{P}(X \\ge m) \\quad \\forall m \\ge 0, k \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": "( св-вото безпаметност )"
+  },
+  {
+   "type": "text",
+   "content": "Д-во| "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X \\ge m+k \\mid X \\ge k) = \\frac{\\mathbb{P}(X \\ge m+k, X \\ge k)}{\\mathbb{P}(X \\ge k)} = \\frac{\\mathbb{P}(X \\ge m+k)}{\\mathbb{P}(X \\ge k)}"
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{q^{m+k}}{q^k} = q^m = \\mathbb{P}(X \\ge m)"
+  },
+  {
+   "type": "equation",
+   "content": "\\hookrightarrow \\mathbb{P}(X \\ge m) = \\mathbb{P}(X_1=0, \\dots, X_m=0) = q^m"
+  },
+  {
+   "type": "text",
+   "content": "П| Отрицателно биномно разпр - "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim NB(r,p)"
+  },
+  {
+   "type": "equation",
+   "content": "r \\ge 1"
+  },
+  {
+   "type": "equation",
+   "content": "X = \\min \\{ n \\ge 1 : \\sum_{j=1}^n X_j = r \\} - r"
+  },
+  {
+   "type": "equation",
+   "content": "( NB(1, p) \\sim Ge(p) )"
+  },
+  {
+   "type": "text",
+   "content": "е броя на неуспехи до r-тия успех."
+  },
+  {
+   "type": "equation",
+   "content": "X = \\sum_{j=1}^r Y_j"
+  },
+  {
+   "type": "text",
+   "content": ", където "
+  },
+  {
+   "type": "equation",
+   "content": "(Y_j)_{j=1}^r"
+  },
+  {
+   "type": "text",
+   "content": " са незав в съвк. "
+  },
+  {
+   "type": "equation",
+   "content": "Y_j \\sim Ge(p)"
+  },
+  {
+   "type": "text",
+   "content": "Те| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim NB(r,p)"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = \\left(\\frac{p}{1-qs}\\right)^r"
+  },
+  {
+   "type": "text",
+   "content": "Д-во| Като на биномното"
+  },
+  {
+   "type": "text",
+   "content": "Сл| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim NB(r,p)"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "EX = r \\cdot q/p"
+  },
+  {
+   "type": "equation",
+   "content": "DX = r \\cdot q/p^2"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k, \\quad k \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": "Д-во| "
+  },
+  {
+   "type": "equation",
+   "content": "EX = \\mathbb{E}\\sum_{j=1}^r Y_j = \\sum_{j=1}^r \\mathbb{E}Y_j \\overset{d}{=} \\sum_{j=1}^r \\mathbb{E}Y_1 = r \\cdot q/p"
+  },
+  {
+   "type": "text",
+   "content": "( същото за "
+  },
+  {
+   "type": "equation",
+   "content": "DX"
+  },
+  {
+   "type": "text",
+   "content": " ↑ защото са незав )"
+  }
+ ],
+ "page": 13
+}

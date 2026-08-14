@@ -1,0 +1,229 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "\\frac{\\beta^\\alpha}{\\Gamma(\\alpha)} \\int_0^{+\\infty} x^{\\alpha-1} e^{-x(\\beta-t)} dx \\stackrel{x(\\beta-t)=y}{=} \\frac{\\beta^\\alpha}{\\Gamma(\\alpha)} \\int_0^\\infty y^{\\alpha-1} e^{-y} dy \\cdot \\frac{1}{(\\beta-t)^\\alpha}"
+  },
+  {
+   "type": "text",
+   "content": "плътност на"
+  },
+  {
+   "type": "equation",
+   "content": "\\Gamma(\\alpha, 1)"
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{\\beta^\\alpha}{(\\beta-t)^\\alpha} , (t<\\beta)"
+  },
+  {
+   "type": "text",
+   "content": "Лекция 12 → Статистика"
+  },
+  {
+   "type": "text",
+   "content": "• Точкови оценки"
+  },
+  {
+   "type": "text",
+   "content": "Постановка:"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "описва някакво св-во на някаква"
+  },
+  {
+   "type": "text",
+   "content": "генерална съвкупност"
+  },
+  {
+   "type": "equation",
+   "content": "X, F_X(x) = \\mathbb{P}(X < x), f_X(x)"
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow"
+  },
+  {
+   "type": "text",
+   "content": "извадка"
+  },
+  {
+   "type": "text",
+   "content": "Целта:"
+  },
+  {
+   "type": "equation",
+   "content": "\\vec{X} = (X_1, \\dots, X_n) , (X_j)_{j=1}^n"
+  },
+  {
+   "type": "text",
+   "content": "са н.е.р. сл. вел."
+  },
+  {
+   "type": "equation",
+   "content": "X_j \\stackrel{d}{=} X"
+  },
+  {
+   "type": "text",
+   "content": "На базата на"
+  },
+  {
+   "type": "equation",
+   "content": "\\vec{X}"
+  },
+  {
+   "type": "text",
+   "content": "искаме да определим /приближим/"
+  },
+  {
+   "type": "equation",
+   "content": "F_X, f_X"
+  },
+  {
+   "type": "equation",
+   "content": "\\cdot \\vec{x} = (x_1, x_2, \\dots, x_n)"
+  },
+  {
+   "type": "text",
+   "content": "// реализация"
+  },
+  {
+   "type": "text",
+   "content": "Допускания:"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "принадлежи на някакъв клас от сл. вел."
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim \\text{Ber}(p), X, F_X(x, \\underline{p}), p \\in (0, 1)"
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow \\theta = p"
+  },
+  {
+   "type": "equation",
+   "content": "X, F_X(x, \\theta), f_X(x, \\theta)"
+  },
+  {
+   "type": "text",
+   "content": "//"
+  },
+  {
+   "type": "equation",
+   "content": "\\theta"
+  },
+  {
+   "type": "text",
+   "content": "може да е"
+  },
+  {
+   "type": "equation",
+   "content": "\\vec{\\theta}"
+  },
+  {
+   "type": "text",
+   "content": "(м.б.)"
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow \\vec{x} \\implies \\hat{\\theta}"
+  },
+  {
+   "type": "text",
+   "content": "ще бъде оценка на"
+  },
+  {
+   "type": "equation",
+   "content": "\\theta"
+  },
+  {
+   "type": "text",
+   "content": "Деф: 1 (точкови оценки)"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "от класа"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x, \\theta)"
+  },
+  {
+   "type": "text",
+   "content": "."
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\hat{\\theta} = \\hat{\\theta}(\\vec{X})"
+  },
+  {
+   "type": "text",
+   "content": "е точкова оценка на"
+  },
+  {
+   "type": "equation",
+   "content": "\\theta"
+  },
+  {
+   "type": "equation",
+   "content": "\\rightarrow \\vec{x}, \\quad \\hat{\\theta} = \\hat{\\theta}(\\vec{x})"
+  },
+  {
+   "type": "text",
+   "content": "А) Метод на макс. правдоподобие (ММП)"
+  },
+  {
+   "type": "equation",
+   "content": "X, f_X(x, \\theta), \\vec{X}"
+  },
+  {
+   "type": "text",
+   "content": ", ф-я на макс. правдоподобие"
+  },
+  {
+   "type": "equation",
+   "content": "\\downarrow"
+  },
+  {
+   "type": "text",
+   "content": "сл. вел"
+  },
+  {
+   "type": "equation",
+   "content": "\\downarrow"
+  },
+  {
+   "type": "text",
+   "content": "плътност"
+  },
+  {
+   "type": "equation",
+   "content": "\\downarrow"
+  },
+  {
+   "type": "text",
+   "content": "дискр"
+  }
+ ],
+ "page": 37
+}
