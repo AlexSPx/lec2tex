@@ -1,0 +1,169 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Деф| (Усилен ЗГЧ) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^\\infty"
+  },
+  {
+   "type": "text",
+   "content": "е редица от сл вел с очаквания"
+  },
+  {
+   "type": "equation",
+   "content": "(\\mathbb{E} X_i)_{i=1}^\\infty"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава редицата е в сила УЗГЧ, ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\circledast \\quad \\frac{\\sum_{i=1}^n (X_i - \\mathbb{E} X_i)}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} 0"
+  },
+  {
+   "type": "text",
+   "content": "Ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E} X_1 = \\mathbb{E} X_i, \\forall i \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\circledast"
+  },
+  {
+   "type": "text",
+   "content": "може да се напише"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} \\mathbb{E} X_1"
+  },
+  {
+   "type": "text",
+   "content": "Теор| (УЗГЧ) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^\\infty"
+  },
+  {
+   "type": "text",
+   "content": "от незав и еднакво разпр сл. вел, т.ч."
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}|X_1| < \\infty"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} \\mathbb{E} X_1"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "text",
+   "content": "- Средноаритметичното се схожда към очакването"
+  },
+  {
+   "type": "text",
+   "content": "Лекция 11 - ЦГТ"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^\\infty"
+  },
+  {
+   "type": "text",
+   "content": "i.i.d. н.е.р. сл вел"
+  },
+  {
+   "type": "equation",
+   "content": "X_1 \\overset{d}{=} X_i, \\forall i \\ge 2, F_{X_1}"
+  },
+  {
+   "type": "text",
+   "content": ". Нека"
+  },
+  {
+   "type": "equation",
+   "content": "\\mu = \\mathbb{E} X_1"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}|X_1| < \\infty"
+  },
+  {
+   "type": "text",
+   "content": "и да означим"
+  },
+  {
+   "type": "equation",
+   "content": "S_n = \\sum_{i=1}^n X_i \\quad n \\ge 1;"
+  },
+  {
+   "type": "text",
+   "content": "УЗГЧ"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{S_n}{n} \\xrightarrow[n \\to \\infty]{\\text{п.с.}} \\mu \\quad E_n = \\frac{S_n}{n} - \\mu \\xrightarrow[n \\to \\infty]{\\text{п.с.}} 0"
+  },
+  {
+   "type": "text",
+   "content": "Теор| (ЦГТ) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^\\infty"
+  },
+  {
+   "type": "text",
+   "content": "н.е.р. сл вел със средно"
+  },
+  {
+   "type": "equation",
+   "content": "\\mu = \\mathbb{E} X_1"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "DX_1 = \\sigma^2 < \\infty"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава е вярно следното"
+  },
+  {
+   "type": "equation",
+   "content": "Z_n := \\frac{\\sqrt{n}}{\\sigma} E_n = \\frac{\\sqrt{n}}{\\sigma} \\left( \\frac{S_n}{n} - \\mu \\right) = \\frac{S_n - n\\mu}{\\sigma\\sqrt{n}}"
+  },
+  {
+   "type": "text",
+   "content": ", се"
+  }
+ ],
+ "page": 35
+}

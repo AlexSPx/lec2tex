@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Ако"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е НСВ и"
+  },
+  {
+   "type": "equation",
+   "content": "\\int_{-\\infty}^{\\infty} |x| f_X(x) dx < \\infty"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = \\int_{-\\infty}^{\\infty} x f_X(x) dx"
+  },
+  {
+   "type": "equation",
+   "content": "DX = \\mathbb{E}(X - \\mathbb{E}X)^2 = \\int_{-\\infty}^{\\infty} (x - \\mathbb{E}X)^2 f_X(x) dx"
+  },
+  {
+   "type": "text",
+   "content": "Св-ва|"
+  },
+  {
+   "type": "text",
+   "content": "1)"
+  },
+  {
+   "type": "equation",
+   "content": "g(X)"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}g(X) = \\int_{-\\infty}^{\\infty} g(x) f_X(x) dx"
+  },
+  {
+   "type": "text",
+   "content": "2)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[aX+b] = a\\mathbb{E}X + b"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[X+Y] = \\mathbb{E}X + \\mathbb{E}Y"
+  },
+  {
+   "type": "text",
+   "content": "3)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y \\to \\mathbb{E}XY = \\mathbb{E}X \\mathbb{E}Y"
+  },
+  {
+   "type": "text",
+   "content": "4)"
+  },
+  {
+   "type": "equation",
+   "content": "D[aX+b] = a^2 DX + 0"
+  },
+  {
+   "type": "text",
+   "content": "5)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y \\to D[X+Y] = DX + DY"
+  },
+  {
+   "type": "text",
+   "content": "Класове НСВ|"
+  },
+  {
+   "type": "text",
+   "content": "А| Равномерно разпр"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim U(a,b)"
+  },
+  {
+   "type": "equation",
+   "content": "a < b"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) = \\begin{cases} \\frac{1}{b-a}, & x \\in (a,b) \\\\ 0, & \\text{иначе} \\end{cases}"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\begin{cases} 0, & x \\le a \\\\ \\frac{x-a}{b-a}, & x \\in (a,b] \\\\ 1, & x > b \\end{cases}"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (равенство по разпр)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\stackrel{d}{=} Y"
+  },
+  {
+   "type": "text",
+   "content": "тстк"
+  },
+  {
+   "type": "equation",
+   "content": "F_X = F_Y \\stackrel{X,Y \\text{ НСВ}}{\\iff} f_X = f_Y"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X \\in (a,b)) = \\int_a^b f_X(x) dx = \\int_a^b f_Y(x) dx = \\mathbb{P}(Y \\in (a,b))"
+  },
+  {
+   "type": "text",
+   "content": "Пак към"
+  },
+  {
+   "type": "equation",
+   "content": "U(a,b) \\sim X"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = \\int_a^b x f_X(x) dx = \\frac{a+b}{2}"
+  },
+  {
+   "type": "equation",
+   "content": "DX = \\frac{(b-a)^2}{12}"
+  },
+  {
+   "type": "equation",
+   "content": "Y \\sim U(0,1)"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim U(a,b)"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{X-a}{b-a} = Z \\sim U(0,1) \\iff X = a + (b-a)Z"
+  },
+  {
+   "type": "equation",
+   "content": "Z = g(X)"
+  },
+  {
+   "type": "equation",
+   "content": "g(x) = \\frac{x-a}{b-a}"
+  },
+  {
+   "type": "text",
+   "content": "(строго монот. раст)"
+  },
+  {
+   "type": "text",
+   "content": "линейна ф-я"
+  },
+  {
+   "type": "text",
+   "content": "-12-"
+  }
+ ],
+ "page": 22
+}

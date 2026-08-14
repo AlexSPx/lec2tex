@@ -54,3 +54,77 @@ Traceback (most recent call last):
     raise RuntimeError(f"agy CLI failed (exit {res.returncode}): {res.stderr}")
 RuntimeError: agy CLI failed (exit 1): Error: There was a network issue connecting to the server, please try again.
 
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_001.png (6108, 4544)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_002.png (5877, 4550)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_003.png (6055, 4266)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_004.png (6108, 4544)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_005.png (5680, 4556)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_006.png (5465, 4560)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_007.png (6108, 4544)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_008.png (5975, 4548)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_009.png (5856, 4552)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_010.png (6108, 4178)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_011.png (5928, 4550)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_012.png (6002, 4548)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_013.png (5746, 4090)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_014.png (5577, 4558)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_015.png (5489, 4400)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_016.png (5580, 4558)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_017.png (6095, 4180)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_018.png (6093, 4546)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_019.png (5791, 4264)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_020.png (5729, 4202)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_021.png (5488, 4560)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_022.png (5831, 4552)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_023.png (5590, 4558)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_024.png (5425, 4562)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_025.png (5422, 4562)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_026.png (5482, 4502)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_027.png (5297, 4380)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_028.png (5475, 4321)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_029.png (5969, 4548)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_030.png (5399, 4562)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_031.png (5935, 4337)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_032.png (5512, 4560)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_033.png (5732, 4127)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_034.png (5909, 4550)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_035.png (5327, 4564)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_036.png (5659, 4556)
+prepped /Users/g8row/Documents/lec2tex/run/pesho/prep/page_037.png (5684, 4556)
+skip page 1 (already done)
+skip page 2 (already done)
+skip page 3 (already done)
+skip page 4 (already done)
+skip page 5 (already done)
+skip page 6 (already done)
+skip page 7 (already done)
+skip page 8 (already done)
+skip page 9 (already done)
+skip page 10 (already done)
+ocr page 11 -> 73 items
+ocr page 12 -> 53 items
+skip page 13 (already done)
+ocr page 14 -> 46 items
+ocr page 15 -> 46 items
+ocr page 16 -> 54 items
+ocr page 17 -> 50 items
+ocr page 18 -> 32 items
+ocr page 19 -> 63 items
+ocr page 20 -> 37 items
+ocr page 21 -> 46 items
+ocr page 22 -> 45 items
+ocr page 23 -> 30 items
+ocr page 24 -> 29 items
+ocr page 25 -> 54 items
+ocr page 26 -> 70 items
+ocr page 27 -> 39 items
+ocr page 28 -> 32 items
+ocr page 29 -> 85 items
+ocr page 30 -> 37 items
+ocr page 31 -> 52 items
+ocr page 32 -> 57 items
+ocr page 33 -> 56 items
+ocr page 34 -> 34 items
+ocr page 35 -> 41 items
+ocr page 36 -> 25 items
+skip page 37 (already done)

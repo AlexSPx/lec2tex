@@ -1,0 +1,153 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Тв| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X_i \\sim \\Gamma(\\alpha_i, \\beta)"
+  },
+  {
+   "type": "text",
+   "content": ", i=1..n и"
+  },
+  {
+   "type": "equation",
+   "content": "(X_1, \\dots, X_n)"
+  },
+  {
+   "type": "text",
+   "content": "са незав в съвк."
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "Y = X_1 + \\dots + X_n \\sim \\Gamma(\\alpha_1 + \\dots + \\alpha_n, \\beta)"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "(n=2)"
+  },
+  {
+   "type": "equation",
+   "content": "y = \\begin{pmatrix} y_1 \\\\ y_2 \\end{pmatrix} = \\begin{pmatrix} x_1 \\\\ x_1+x_2 \\end{pmatrix}"
+  },
+  {
+   "type": "equation",
+   "content": "f_y(y_1, y_2) = f_x(H(y_1, y_2)) = f_x(y_1, y_2-y_1) = f_{x_1}(y_1)f_{x_2}(y_2-y_1)"
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{\\beta^{\\alpha_1}}{\\Gamma(\\alpha_1)} y_1^{\\alpha_1-1} e^{-\\beta y_1} \\frac{\\beta^{\\alpha_2}}{\\Gamma(\\alpha_2)} (y_2-y_1)^{\\alpha_2-1} e^{-\\beta(y_2-y_1)} = \\dots"
+  },
+  {
+   "type": "equation",
+   "content": "f_{y_2}(y_2) = \\int_0^{y_2} f_{x_1}(y_1) f_{x_2}(y_2-y_1) dy_1 = \\dots = \\frac{\\beta^{\\alpha_1+\\alpha_2}}{\\Gamma(\\alpha_1+\\alpha_2)} y_2^{\\alpha_1+\\alpha_2-1} e^{-\\beta y_2}"
+  },
+  {
+   "type": "equation",
+   "content": "y_2 \\sim \\Gamma(\\alpha_1+\\alpha_2, \\beta)"
+  },
+  {
+   "type": "equation",
+   "content": "\\lambda > 0"
+  },
+  {
+   "type": "text",
+   "content": "Сл| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "(X_1, \\dots, X_n)"
+  },
+  {
+   "type": "text",
+   "content": "са незав в съвкупност,"
+  },
+  {
+   "type": "equation",
+   "content": "X_i \\sim Exp(\\lambda)"
+  },
+  {
+   "type": "equation",
+   "content": "Y = \\sum_i^n X_i \\sim \\Gamma(n, \\lambda)"
+  },
+  {
+   "type": "text",
+   "content": ", т.к."
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Exp(\\lambda) \\sim \\Gamma(1, \\lambda)"
+  },
+  {
+   "type": "text",
+   "content": "Теор|"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim \\Gamma(\\alpha, \\beta)"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "EX = \\alpha/\\beta"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "DX = \\alpha/\\beta^2"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "EX = \\int_{-\\infty}^\\infty x \\frac{\\beta^\\alpha}{\\Gamma(\\alpha)} x^{\\alpha-1} e^{-\\beta x} dx = \\frac{\\beta^{\\alpha+1}}{\\Gamma(\\alpha)\\beta} \\int_0^\\infty x^\\alpha e^{-\\beta x} dx \\frac{\\Gamma(\\alpha+1)}{\\Gamma(\\alpha+1)}"
+  },
+  {
+   "type": "equation",
+   "content": "y \\sim \\Gamma(\\alpha+1, \\beta)"
+  },
+  {
+   "type": "equation",
+   "content": "f_y(y) = \\frac{\\beta^{\\alpha+1}}{\\Gamma(\\alpha+1)} x^\\alpha e^{-\\beta x}"
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{\\Gamma(\\alpha+1)}{\\Gamma(\\alpha)\\beta} \\int_0^\\infty \\frac{\\beta^{\\alpha+1}}{\\Gamma(\\alpha+1)} x^\\alpha e^{-\\beta x} dx = \\frac{\\Gamma(\\alpha+1)}{\\Gamma(\\alpha)\\beta} \\cdot 1 = \\frac{\\alpha}{\\beta}"
+  },
+  {
+   "type": "equation",
+   "content": "\\Gamma(\\alpha+1) = \\alpha\\Gamma(\\alpha)"
+  },
+  {
+   "type": "equation",
+   "content": "DX = EX^2 - (EX)^2"
+  },
+  {
+   "type": "text",
+   "content": "<- по същия начин"
+  },
+  {
+   "type": "equation",
+   "content": "DX = \\alpha/\\beta^2"
+  }
+ ],
+ "page": 30
+}

@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Деф| (chi-squared)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim \\chi^2(n), \\ n \\ge 1 \\iff X \\sim \\Gamma(n/2, 1/2)"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) = \\begin{cases} \\frac{(1/2)^{n/2}}{\\Gamma(n/2)} x^{\\frac{n}{2}-1} e^{-\\frac{1}{2}x} & x > 0 \\\\ 0 & x \\le 0 \\end{cases}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = n"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = 2n"
+  },
+  {
+   "type": "text",
+   "content": "Теор| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "Z_1, \\dots, Z_n"
+  },
+  {
+   "type": "text",
+   "content": "са станд. нор. разпр. и незав. в съвк."
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "Y = (Z_1)^2 + \\dots + (Z_n)^2 \\sim \\chi^2(n)"
+  },
+  {
+   "type": "text",
+   "content": "Д-во| ще док. че"
+  },
+  {
+   "type": "equation",
+   "content": "(Z_1)^2 \\sim \\chi^2(1) = \\Gamma(1/2, 1/2)"
+  },
+  {
+   "type": "equation",
+   "content": "Y = \\sum Z_i^2 \\sim \\chi^2(n) = \\Gamma(n/2, 1/2)"
+  },
+  {
+   "type": "equation",
+   "content": "T_1 = Z_1^2 \\sim \\chi^2(1)"
+  },
+  {
+   "type": "equation",
+   "content": "T_1 = g(Z_1) = Z_1^2"
+  },
+  {
+   "type": "text",
+   "content": "не е монотонна"
+  },
+  {
+   "type": "equation",
+   "content": "F_{T_1}(t) = \\mathbb{P}(T_1 \\le t) = \\mathbb{P}(Z_1^2 \\le t) = \\mathbb{P}(-\\sqrt{t} < Z_1 < \\sqrt{t}) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\sqrt{t}}^{\\sqrt{t}} e^{-\\frac{y^2}{2}} dy"
+  },
+  {
+   "type": "text",
+   "content": "четна"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\partial}{\\partial t} F_{T_1} = f_{T_1}(t) = \\frac{1}{\\sqrt{2\\pi}} (e^{-\\frac{t}{2}} + e^{-\\frac{t}{2}}) \\frac{1}{2\\sqrt{t}} = \\frac{1}{\\sqrt{2\\pi}} \\frac{1}{\\sqrt{t}} e^{-\\frac{t}{2}} = f_{\\chi^2(1)}(t)"
+  },
+  {
+   "type": "equation",
+   "content": "f_{\\chi^2(1)}(x) = \\begin{cases} \\frac{(1/2)^{1/2}}{\\Gamma(1/2)} x^{-1/2} e^{-\\frac{1}{2}x} & x > 0 \\\\ 0 & x \\le 0 \\end{cases} \\leftarrow \\frac{1}{\\sqrt{2}\\Gamma(1/2)} \\frac{1}{\\sqrt{x}} e^{-\\frac{x}{2}}"
+  },
+  {
+   "type": "equation",
+   "content": "\\Gamma(1/2) = \\sqrt{\\pi}"
+  },
+  {
+   "type": "text",
+   "content": "Лекция 10"
+  },
+  {
+   "type": "text",
+   "content": "Видове сходимости"
+  },
+  {
+   "type": "equation",
+   "content": "X_n : \\Omega \\to \\mathbb{R}, n \\ge 1"
+  },
+  {
+   "type": "equation",
+   "content": "X : \\Omega \\to \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "и в"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Omega, \\mathcal{A}, \\mathbb{P})"
+  },
+  {
+   "type": "equation",
+   "content": "L_X = \\{ \\omega \\in \\Omega : \\lim_{n \\to \\infty} X_n(\\omega) = X(\\omega) \\} = \\{ \\lim_{n \\to \\infty} X_n \\to X \\}"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (сходимост почти сигурно (п.с.)) Казваме, че"
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\xrightarrow{\\text{п.с.}} X"
+  },
+  {
+   "type": "text",
+   "content": "ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(L_X) = 1"
+  }
+ ],
+ "page": 28
+}

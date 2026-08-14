@@ -1,0 +1,189 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Д-во| "
+  },
+  {
+   "type": "equation",
+   "content": "p_n = \\lambda/n"
+  },
+  {
+   "type": "equation",
+   "content": "g_{X_n}(s) = (1-p_n + p_ns)^n = (1-\\lambda/n + \\lambda s/n)^n = (1-\\frac{\\lambda}{n}(1-s))^n"
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} \\left(1-\\frac{\\lambda(1-s)}{n}\\right)^n = e^{\\lambda(s-1)} = g_X(s)"
+  },
+  {
+   "type": "text",
+   "content": "\n\n5| Хипергеометрично разпр\n\nДеф| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim HG(M,N,n)"
+  },
+  {
+   "type": "text",
+   "content": " , "
+  },
+  {
+   "type": "equation",
+   "content": "M,N,n"
+  },
+  {
+   "type": "text",
+   "content": " целочислени полож.\nако "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " описва модел: "
+  },
+  {
+   "type": "equation",
+   "content": "N \\rightarrow"
+  },
+  {
+   "type": "text",
+   "content": " брой обекти , "
+  },
+  {
+   "type": "equation",
+   "content": "M<N"
+  },
+  {
+   "type": "text",
+   "content": "\nброй обекти с дадена хар-ка и теглим "
+  },
+  {
+   "type": "equation",
+   "content": "n"
+  },
+  {
+   "type": "text",
+   "content": " обекта\nот всичките "
+  },
+  {
+   "type": "equation",
+   "content": "N"
+  },
+  {
+   "type": "text",
+   "content": " а броят маркирани от изтеглените\n"
+  },
+  {
+   "type": "equation",
+   "content": "n"
+  },
+  {
+   "type": "text",
+   "content": " е "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": ".\n\nТ| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim HG(M,N,n)"
+  },
+  {
+   "type": "text",
+   "content": " , тогава\nа) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = \\frac{\\binom{M}{k}\\binom{N-M}{n-k}}{\\binom{N}{n}}"
+  },
+  {
+   "type": "text",
+   "content": " , "
+  },
+  {
+   "type": "equation",
+   "content": "k \\le \\min\\{M,n\\}"
+  },
+  {
+   "type": "text",
+   "content": " , "
+  },
+  {
+   "type": "equation",
+   "content": "k \\ge \\max\\{0, n-N+M\\}"
+  },
+  {
+   "type": "text",
+   "content": "\nб) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = n \\cdot \\frac{M}{N}"
+  },
+  {
+   "type": "text",
+   "content": " в) "
+  },
+  {
+   "type": "equation",
+   "content": "DX = n\\frac{M}{N} \\cdot \\frac{N-M}{N} \\cdot \\frac{N-n}{N-1}"
+  },
+  {
+   "type": "text",
+   "content": "\n\nД-во|\nб) "
+  },
+  {
+   "type": "equation",
+   "content": "X_j \\begin{cases} 1 & , \\text{ако } j^{\\text{-то}} \\text{ място е марк.} \\\\ 0 & , \\text{иначе } \\quad 1 \\le j \\le n \\end{cases}"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "X = \\sum_{j=1}^n X_j \\implies \\mathbb{E}X = \\sum_{j=1}^n \\mathbb{E}X_j"
+  },
+  {
+   "type": "text",
+   "content": " , те не са независими\n"
+  },
+  {
+   "type": "equation",
+   "content": "X_j \\sim Ber(p_j)"
+  },
+  {
+   "type": "text",
+   "content": " "
+  },
+  {
+   "type": "equation",
+   "content": "\\implies \\sum_{j=1}^n p_j = n \\cdot \\frac{M}{N}"
+  },
+  {
+   "type": "text",
+   "content": " \\leftarrow не може да го ползваме за "
+  },
+  {
+   "type": "equation",
+   "content": "DX"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\binom{N-1}{M-1}}{\\binom{N}{M}} = \\frac{M}{N} = \\mathbb{P}(X_j=1)"
+  }
+ ],
+ "page": 15
+}

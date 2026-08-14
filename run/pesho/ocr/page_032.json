@@ -1,0 +1,233 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Коментар //"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{S_n}{n} - \\mu = E_n = \\frac{\\sigma}{\\sqrt{n}} Z_n \\approx \\frac{\\sigma}{\\sqrt{n}} Z"
+  },
+  {
+   "type": "text",
+   "content": "(Имаме универсалност на теоремата)"
+  },
+  {
+   "type": "text",
+   "content": "2."
+  },
+  {
+   "type": "equation",
+   "content": "\\Phi(x)"
+  },
+  {
+   "type": "text",
+   "content": "е непр."
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow C_Z = C_\\Phi = \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": ", т.е"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(Z_n < b) \\xrightarrow{n \\to \\infty} \\mathbb{P}(Z < b) = \\Phi(b)"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall b \\in C_\\Phi = \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "• ф-ции на моментите"
+  },
+  {
+   "type": "text",
+   "content": "Деф | Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е сл. вел. Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "има ф-я на моменти"
+  },
+  {
+   "type": "equation",
+   "content": "M_X(t)"
+  },
+  {
+   "type": "text",
+   "content": ", ако"
+  },
+  {
+   "type": "equation",
+   "content": "M_X(t) = \\mathbb{E} e^{tX}"
+  },
+  {
+   "type": "text",
+   "content": "за"
+  },
+  {
+   "type": "equation",
+   "content": "|t| < a"
+  },
+  {
+   "type": "text",
+   "content": "."
+  },
+  {
+   "type": "equation",
+   "content": "\\rightarrow \\mathbb{E} e^{tX} = \\sum_{x \\in X} e^{tx} \\mathbb{P}(X=x)"
+  },
+  {
+   "type": "text",
+   "content": "| Пример"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim U(0,1) \\Rightarrow a = \\infty \\Rightarrow |t| < \\infty"
+  },
+  {
+   "type": "equation",
+   "content": "\\rightarrow \\mathbb{E} e^{tX} = \\int_{-\\infty}^{\\infty} e^{tx} f_X(x) dx"
+  },
+  {
+   "type": "text",
+   "content": "| Пример"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Exp(1) \\Rightarrow a = 1 \\Rightarrow |t| < 1"
+  },
+  {
+   "type": "text",
+   "content": "Деф | (моменти от ред"
+  },
+  {
+   "type": "equation",
+   "content": "k"
+  },
+  {
+   "type": "text",
+   "content": ") Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е сл. вел. Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E} X^k"
+  },
+  {
+   "type": "text",
+   "content": "е момент от ред"
+  },
+  {
+   "type": "equation",
+   "content": "k"
+  },
+  {
+   "type": "text",
+   "content": ":"
+  },
+  {
+   "type": "equation",
+   "content": "\\rightarrow \\mathbb{E} X^k = \\sum_{x \\in X} x^k \\mathbb{P}(X=x)"
+  },
+  {
+   "type": "text",
+   "content": "// дискр"
+  },
+  {
+   "type": "equation",
+   "content": "\\rightarrow \\mathbb{E} X^k = \\int_{-\\infty}^{\\infty} x^k \\cdot f_X(x) dx"
+  },
+  {
+   "type": "text",
+   "content": "// непрек"
+  },
+  {
+   "type": "text",
+   "content": "Деф | (абсолютни моменти и централни моменти от ред"
+  },
+  {
+   "type": "equation",
+   "content": "k"
+  },
+  {
+   "type": "text",
+   "content": ")"
+  },
+  {
+   "type": "text",
+   "content": "Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е сл. вел. Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E} |X|^k"
+  },
+  {
+   "type": "text",
+   "content": "е абсолютен момент от ред"
+  },
+  {
+   "type": "equation",
+   "content": "k"
+  },
+  {
+   "type": "text",
+   "content": ":"
+  },
+  {
+   "type": "equation",
+   "content": "\\rightarrow \\mathbb{E} |X|^k = \\sum_{x} |x|^k \\mathbb{P}(X=x)"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E} |X|^k = \\int_{-\\infty}^{\\infty} |x|^k f_X(x) dx"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E} |X - \\mathbb{E}X|^k"
+  },
+  {
+   "type": "text",
+   "content": "се нарича абсолютен центр. момент от ред"
+  },
+  {
+   "type": "equation",
+   "content": "k"
+  }
+ ],
+ "page": 32
+}

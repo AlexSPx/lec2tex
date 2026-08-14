@@ -1,0 +1,257 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "e)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "f(X, Y)"
+  },
+  {
+   "type": "text",
+   "content": ", тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[f(X, Y) \\mid Y = y_j] = \\mathbb{E}f(X, y_j)"
+  },
+  {
+   "type": "text",
+   "content": "• Условни разпределения"
+  },
+  {
+   "type": "equation",
+   "content": "X, Y"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ."
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[X \\mid Y = y_j] = \\sum_i x_i \\mathbb{P}(X = x_i \\mid Y = y_j)"
+  },
+  {
+   "type": "text",
+   "content": "Деф 1 (усл. разпр) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ. Тогава усл разпр на"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "при"
+  },
+  {
+   "type": "equation",
+   "content": "Y = y_j"
+  },
+  {
+   "type": "equation",
+   "content": "\\begin{array}{c|c|c|c|c|c} X & x_1 & x_2 & \\dots & x_i & \\dots \\\\ \\hline & \\mathbb{P}(X=x_1 \\mid Y=y_j) & & \\dots & \\mathbb{P}(X=x_i \\mid Y=y_j) & \\end{array}"
+  },
+  {
+   "type": "text",
+   "content": "• Полиномно разпр."
+  },
+  {
+   "type": "equation",
+   "content": "n \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": ", "
+  },
+  {
+   "type": "equation",
+   "content": "n"
+  },
+  {
+   "type": "text",
+   "content": "- брой експ. , "
+  },
+  {
+   "type": "equation",
+   "content": "(X_1, X_2, \\dots, X_r)"
+  },
+  {
+   "type": "text",
+   "content": "[?] ст-ст"
+  },
+  {
+   "type": "text",
+   "content": "бр попадения на "
+  },
+  {
+   "type": "equation",
+   "content": "i"
+  },
+  {
+   "type": "text",
+   "content": "-тата ст-ст"
+  },
+  {
+   "type": "equation",
+   "content": "(p_1, p_2, \\dots, p_r)"
+  },
+  {
+   "type": "text",
+   "content": "вер да се случи "
+  },
+  {
+   "type": "equation",
+   "content": "i"
+  },
+  {
+   "type": "text",
+   "content": "-тия изход "
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow \\sum_i p_i = 1"
+  },
+  {
+   "type": "equation",
+   "content": "k_1 + k_2 + \\dots + k_r = n"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X_1 = k_1, X_2 = k_2, \\dots, X_r = k_r) = \\frac{n!}{k_1! \\dots k_r!} \\cdot p_1^{k_1} p_2^{k_2} \\dots p_r^{k_r}"
+  },
+  {
+   "type": "text",
+   "content": "• Непрекъснати сл. вел."
+  },
+  {
+   "type": "text",
+   "content": "Деф 1 "
+  },
+  {
+   "type": "equation",
+   "content": "(\\Omega, \\mathcal{A}, \\mathbb{P})"
+  },
+  {
+   "type": "text",
+   "content": " е вер. пр-во. Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "X : \\Omega \\to \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": " е НСВ, ако приема неизброимо много ст-сти."
+  },
+  {
+   "type": "text",
+   "content": "Деф 1 (непр) "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е абсолютно непр (непрекъсната), ако "
+  },
+  {
+   "type": "equation",
+   "content": "\\exists f_X : \\mathbb{R} \\to [0, \\infty)"
+  },
+  {
+   "type": "text",
+   "content": ", т.е. (ф-я на плътността)"
+  },
+  {
+   "type": "text",
+   "content": "а)"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": ", "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall x \\in \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "\\int_{-\\infty}^{+\\infty} f_X(x) dx = 1"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall a < b \\Rightarrow \\mathbb{P}(a < X < b) = \\int_a^b f_X(x) dx"
+  },
+  {
+   "type": "equation",
+   "content": "a"
+  },
+  {
+   "type": "text",
+   "content": " може да е "
+  },
+  {
+   "type": "equation",
+   "content": "-\\infty"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "b"
+  },
+  {
+   "type": "text",
+   "content": " може да е "
+  },
+  {
+   "type": "equation",
+   "content": "\\infty"
+  }
+ ],
+ "page": 19
+}

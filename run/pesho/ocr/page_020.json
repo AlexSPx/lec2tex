@@ -1,0 +1,153 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "X = \\sum_i x_i \\mathbb{1}_{B_i} \\Rightarrow \\mathbb{E}[X|Y] = \\sum_j \\sum_i x_i \\frac{\\mathbb{P}(A_j \\cap B_i)}{\\mathbb{P}(A_j)} \\mathbb{1}_{A_j} ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\sum_j \\sum_i x_i \\mathbb{P}(B_i|A_j) \\cdot \\mathbb{1}_{A_j}"
+  },
+  {
+   "type": "text",
+   "content": "Деф/ Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ. Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "A_j = \\{ Y = y_j \\}"
+  },
+  {
+   "type": "equation",
+   "content": "B_i = \\{ X = x_i \\}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[X|Y=y_j] = \\sum_i x_i \\mathbb{P}(B_i|A_j)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[X|Y] = \\sum_j \\mathbb{E}[X|Y=y_j] \\cdot \\mathbb{1}_{A_j}"
+  },
+  {
+   "type": "text",
+   "content": "Ако"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ, то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[X|Y]"
+  },
+  {
+   "type": "text",
+   "content": "е ДСВ със следната таблица"
+  },
+  {
+   "type": "equation",
+   "content": "\\begin{array}{c|c|c|c|c} \\mathbb{E}[X|Y] & \\mathbb{E}[X|Y=y_1] & \\dots & \\mathbb{E}[X|Y=y_j] & \\dots \\\\ \\hline \\mathbb{P} & \\mathbb{P}(A_1)=p_1 & \\dots & \\mathbb{P}(A_j)=p_j & \\dots \\end{array}"
+  },
+  {
+   "type": "text",
+   "content": "Св-ва на УМО |"
+  },
+  {
+   "type": "text",
+   "content": "а)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[aX+bZ|Y] = a\\mathbb{E}[X|Y] + b\\mathbb{E}[Z|Y]"
+  },
+  {
+   "type": "equation",
+   "content": "- \\mathbb{E}[aX+bZ|Y] = \\sum_j \\frac{\\mathbb{E}((aX+bZ)\\mathbb{1}_{A_j})}{\\mathbb{P}(A_j)} ="
+  },
+  {
+   "type": "text",
+   "content": "отваряме скобите..."
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y \\Rightarrow \\mathbb{E}[X|Y] = \\mathbb{E}X"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[f(x)g(y)] = \\mathbb{E}f(x) \\cdot \\mathbb{E}g(y) \\leftarrow X \\perp\\!\\!\\!\\perp Y"
+  },
+  {
+   "type": "equation",
+   "content": "- \\mathbb{E}[X|Y] = \\sum_j \\frac{\\mathbb{E}(X \\cdot \\mathbb{1}_{\\{y=y_j\\}})}{\\mathbb{P}(y=y_j)} \\cdot \\mathbb{1}_{\\{y=y_j\\}} \\stackrel{X \\perp\\!\\!\\!\\perp Y}{=} \\sum_j \\frac{\\mathbb{E}X \\cdot \\mathbb{P}(y=y_j)}{\\mathbb{P}(y=y_j)} \\cdot \\mathbb{1}_{\\{y=y_j\\}} ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\mathbb{E}X \\cdot \\sum_j \\mathbb{1}_{A_j} = \\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "X = f(Y) \\Rightarrow \\mathbb{E}[X|Y] = X = f(Y)"
+  },
+  {
+   "type": "equation",
+   "content": "\\circledast f(Y) \\cdot \\mathbb{1}_{A_j} = f(y_j) \\cdot \\mathbb{1}_{A_j}"
+  },
+  {
+   "type": "equation",
+   "content": "- \\mathbb{E}[X|Y] = \\sum_j \\frac{\\mathbb{E}(f(Y) \\cdot \\mathbb{1}_{A_j})}{\\mathbb{P}(A_j)} \\cdot \\mathbb{1}_{A_j} \\stackrel{\\circledast}{=} \\sum_j \\frac{f(y_j) \\cdot \\mathbb{P}(A_j)}{\\mathbb{P}(A_j)} \\cdot \\mathbb{1}_{A_j} = f(Y)"
+  },
+  {
+   "type": "text",
+   "content": "г)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[\\mathbb{E}[X|Y]] = \\mathbb{E}X"
+  },
+  {
+   "type": "equation",
+   "content": "- \\mathbb{E}[\\mathbb{E}[X|Y]] = \\mathbb{E} \\left[ \\sum_j \\frac{\\mathbb{E}(X\\mathbb{1}_{A_j})}{\\mathbb{P}(A_j)} \\mathbb{1}_{A_j} \\right] = \\sum_j \\frac{\\mathbb{E}(X\\mathbb{1}_{A_j})}{\\mathbb{P}(A_j)} \\mathbb{E}\\mathbb{1}_{A_j} ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\sum_j \\mathbb{E}(X\\mathbb{1}_{A_j}) = \\mathbb{E}(X \\sum_j \\mathbb{1}_{A_j}) = \\mathbb{E}X"
+  }
+ ],
+ "page": 20
+}

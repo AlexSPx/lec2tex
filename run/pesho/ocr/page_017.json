@@ -1,0 +1,205 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "центрирана и\nнормирана\nсл величина"
+  },
+  {
+   "type": "equation",
+   "content": "Z \\in \\{X, Y\\}"
+  },
+  {
+   "type": "text",
+   "content": "ТВ/ Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са сл вел и"
+  },
+  {
+   "type": "equation",
+   "content": "DX, DY < \\infty"
+  },
+  {
+   "type": "text",
+   "content": ". Нека"
+  },
+  {
+   "type": "equation",
+   "content": "\\overline{Z} = \\frac{Z-EZ}{\\sqrt{DZ}}"
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "E\\overline{X} = E\\overline{Y} = 0"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "D\\overline{X} = D\\overline{Y} = 1"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\rho(X, Y) = E\\overline{X}\\overline{Y}"
+  },
+  {
+   "type": "text",
+   "content": "Д-во/"
+  },
+  {
+   "type": "equation",
+   "content": "E\\overline{X} = E\\left[\\frac{X-EX}{\\sqrt{DX}}\\right] = \\frac{1}{\\sqrt{DX}} E[X-EX] = 0"
+  },
+  {
+   "type": "equation",
+   "content": "D\\overline{X} = D\\left[\\frac{X-EX}{\\sqrt{DX}}\\right] = \\frac{1}{DX} D[X-EX] = \\frac{1}{DX} \\cdot DX - 0 = 1"
+  },
+  {
+   "type": "equation",
+   "content": "\\rho(X, Y) = \\frac{E((X-EX)(Y-EY))}{\\sqrt{DX}\\sqrt{DY}} = E\\left[\\frac{X-EX}{\\sqrt{DX}} \\frac{Y-EY}{\\sqrt{DY}}\\right] = E\\overline{X}\\overline{Y}"
+  },
+  {
+   "type": "text",
+   "content": "Теор/"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са сл вел."
+  },
+  {
+   "type": "equation",
+   "content": "DX, DY < \\infty"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "|\\rho(X, Y)| \\le 1"
+  },
+  {
+   "type": "text",
+   "content": "Д-во/"
+  },
+  {
+   "type": "equation",
+   "content": "\\rho(X, Y) \\stackrel{\\text{тв}}{=} E\\overline{X}\\overline{Y}"
+  },
+  {
+   "type": "equation",
+   "content": "0 \\le E(\\overline{X} \\pm \\overline{Y})^2 = E[\\overline{X}^2 \\pm 2\\overline{X}\\overline{Y} + \\overline{Y}^2] = E\\overline{X}^2 \\pm 2E\\overline{X}\\overline{Y} + E\\overline{Y}^2 ="
+  },
+  {
+   "type": "text",
+   "content": "Ако"
+  },
+  {
+   "type": "equation",
+   "content": "EZ=0"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "DZ=EZ^2"
+  },
+  {
+   "type": "equation",
+   "content": "= D\\overline{X} \\pm 2E\\overline{X}\\overline{Y} + D\\overline{Y} = \\pm 2\\rho(X, Y) + 2 \\ge 0 \\Rightarrow |\\rho(X, Y)| \\le 1"
+  },
+  {
+   "type": "text",
+   "content": "Теор/ Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са сл вел с"
+  },
+  {
+   "type": "equation",
+   "content": "DX, DY < \\infty"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "Y = aX + b \\iff |\\rho(X, Y)| = 1"
+  },
+  {
+   "type": "text",
+   "content": "Д-во/"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Rightarrow) Y = aX + b \\Rightarrow \\frac{Y-EY}{\\sqrt{DY}} = \\frac{a(X-EX+EX) + b - EY}{\\sqrt{DY}} ="
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow \\overline{Y} = \\underbrace{\\frac{a\\sqrt{DX}}{\\sqrt{DY}}}_{v} \\frac{(X-EX)}{\\sqrt{DX}} + \\underbrace{\\frac{a(EX) + b - EY}{\\sqrt{DY}}}_{\\omega} ="
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow \\overline{Y} = v\\overline{X} + \\omega"
+  },
+  {
+   "type": "equation",
+   "content": "\\left.\\begin{aligned} E\\overline{Y} = vE\\overline{X} + \\omega = \\omega = 0, \\text{ то } \\omega = 0 \\\\ D\\overline{Y} = v^2D\\overline{X} = v^2 = 1, \\text{ то } v = \\pm 1 \\end{aligned}\\right\\} \\overline{Y} = \\pm \\overline{X}"
+  },
+  {
+   "type": "equation",
+   "content": "\\rho(X, Y) = E\\overline{X}\\overline{Y} = \\pm E\\overline{X}\\overline{X} = \\pm E\\overline{X}^2 = \\pm D\\overline{X} = \\pm 1"
+  }
+ ],
+ "page": 17
+}

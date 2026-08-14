@@ -1,0 +1,217 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Б1 Биномно разпределение -"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Bin(n, p)"
+  },
+  {
+   "type": "text",
+   "content": "+"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "брои броя успехи в първите"
+  },
+  {
+   "type": "equation",
+   "content": "n"
+  },
+  {
+   "type": "text",
+   "content": "експеримента"
+  },
+  {
+   "type": "text",
+   "content": "в схема на Бернули с вер. за успех"
+  },
+  {
+   "type": "equation",
+   "content": "p = \\mathbb{P}(X_1=1)"
+  },
+  {
+   "type": "equation",
+   "content": "X = \\sum_{j=1}^n X_j"
+  },
+  {
+   "type": "text",
+   "content": "ТЕ| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Bin(n, p)"
+  },
+  {
+   "type": "text",
+   "content": "а)"
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = (q + ps)^n"
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = np"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = npq"
+  },
+  {
+   "type": "text",
+   "content": "г)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}, \\quad 0 \\le k \\le n"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "text",
+   "content": "а)"
+  },
+  {
+   "type": "equation",
+   "content": "X = \\sum_{j=1}^n X_j \\stackrel{\\text{тв}}{\\Rightarrow} g_X(s) = (g_{X_1}(s))^n = (q + ps)^n"
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = g_X'(1) = np(q + ps)^{n-1} \\big|_{s=1} = np(p+q)^{n-1} = np"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = g_X''(1) + g_X'(1) - (g_X'(1))^2"
+  },
+  {
+   "type": "text",
+   "content": "г)"
+  },
+  {
+   "type": "equation",
+   "content": "k! \\mathbb{P}(X=k) \\stackrel{\\text{тв}}{\\Rightarrow} g_X^{(k)}(0) = \\left((q+ps)^n\\right)^{(k)} \\big|_{s=0} = n(n-1)\\dots(n-k+1)p^k q^{n-k}"
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow \\mathbb{P}(X=k) = \\binom{n}{k} p^k q^{n-k}"
+  },
+  {
+   "type": "text",
+   "content": "В1 Геометрично разпределение -"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Ge(p)"
+  },
+  {
+   "type": "text",
+   "content": "+"
+  },
+  {
+   "type": "equation",
+   "content": "X = \\min \\{ n \\ge 1 : \\sum_{j=1}^n X_j = 1 \\} - 1 \\rightarrow"
+  },
+  {
+   "type": "text",
+   "content": "бр неуспехи до първия успех"
+  },
+  {
+   "type": "text",
+   "content": "в схема на Бернули"
+  },
+  {
+   "type": "text",
+   "content": "ТЕ|"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Ge(p)"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = q^k p, \\quad k \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "k=0 \\quad \\{X=0\\} = \\{X_1=1\\} \\Rightarrow \\mathbb{P}(X=0) = \\mathbb{P}(X_1=1) = p"
+  },
+  {
+   "type": "equation",
+   "content": "k \\ge 1 \\quad \\{X=k\\} = \\{X_1=0, \\dots, X_k=0, X_{k+1}=1\\} \\Rightarrow"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = \\mathbb{P}(X_1=0, X_2=0, \\dots, X_{k+1}=1) \\stackrel{\\text{н}}{=} \\mathbb{P}(X_1=0)\\dots\\mathbb{P}(X_{k+1}=1) = q^k p"
+  },
+  {
+   "type": "text",
+   "content": "ТЕ|"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Ge(p)"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = \\frac{p}{1-qs}"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\mathbb{P}(X=n) = \\sum_{n=0}^{\\infty} s^n q^n p = p \\sum_{n=0}^{\\infty} (sq)^n ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{p}{1-sq}"
+  },
+  {
+   "type": "equation",
+   "content": "\\square"
+  },
+  {
+   "type": "equation",
+   "content": "-7-"
+  }
+ ],
+ "page": 12
+}

@@ -1,0 +1,285 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Твърд/ Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X = (X_1, X_2)"
+  },
+  {
+   "type": "text",
+   "content": " е непр вектор със съвм плът "
+  },
+  {
+   "type": "equation",
+   "content": "f_X"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава ако съществуват "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_1"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_2"
+  },
+  {
+   "type": "text",
+   "content": ", то\n"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}(X_1+X_2) = \\mathbb{E}X_1 + \\mathbb{E}X_2"
+  },
+  {
+   "type": "text",
+   "content": "\nД-во/ "
+  },
+  {
+   "type": "equation",
+   "content": "g(x) = x_1 + x_2 \\Rightarrow \\mathbb{E}(X_1+X_2) = \\int_{-\\infty}^\\infty \\int_{-\\infty}^\\infty (x_1+x_2)f_X(x_1, x_2)dx_2 dx_1 ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\int_{-\\infty}^\\infty x_1 \\underbrace{\\int_{-\\infty}^\\infty f_X(x_1, x_2)dx_2}_{f_{X_1}(x_1)} dx_1 + \\int_{-\\infty}^\\infty x_2 \\underbrace{\\int_{-\\infty}^\\infty f_X(x_1, x_2)dx_1}_{f_{X_2}(x_2)} dx_2 ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\int_{-\\infty}^\\infty x_1 f_{X_1}(x_1) dx_1 + \\quad -//- \\quad = \\mathbb{E}X_1 + \\mathbb{E}X_2"
+  },
+  {
+   "type": "text",
+   "content": "\n\nТвърд/ "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е непр вектор "
+  },
+  {
+   "type": "equation",
+   "content": "X = (X_1, X_2)"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "X_1 \\perp\\!\\!\\!\\perp X_2"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава\nпри доп че "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_1"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_2"
+  },
+  {
+   "type": "text",
+   "content": " същ, то "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_1 X_2 = \\mathbb{E}X_1 \\mathbb{E}X_2"
+  },
+  {
+   "type": "text",
+   "content": " и\nако "
+  },
+  {
+   "type": "equation",
+   "content": "DX_1, DX_2"
+  },
+  {
+   "type": "text",
+   "content": " същ, то "
+  },
+  {
+   "type": "equation",
+   "content": "D(X_1+X_2) = DX_1 + DX_2"
+  },
+  {
+   "type": "text",
+   "content": "\nД-во/ • за "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_1 X_2 = \\mathbb{E}X_1 \\mathbb{E}X_2 \\rightarrow g(X) = X_1 X_2"
+  },
+  {
+   "type": "text",
+   "content": "\n• за "
+  },
+  {
+   "type": "equation",
+   "content": "D(X_1+X_2) = \\mathbb{E}(X_1+X_2)^2 - (\\mathbb{E}(X_1+X_2))^2"
+  },
+  {
+   "type": "text",
+   "content": "\n\nТеор/ За "
+  },
+  {
+   "type": "equation",
+   "content": "n=2"
+  },
+  {
+   "type": "text",
+   "content": " (смяна на пром) "
+  },
+  {
+   "type": "equation",
+   "content": "X = (X_1, X_2)"
+  },
+  {
+   "type": "text",
+   "content": " е със съвм\nплътност "
+  },
+  {
+   "type": "equation",
+   "content": "f_X"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "D(f_X)"
+  },
+  {
+   "type": "text",
+   "content": ". Нека "
+  },
+  {
+   "type": "equation",
+   "content": "g: \\mathbb{R}^2 \\rightarrow \\mathbb{R}^2"
+  },
+  {
+   "type": "text",
+   "content": " като\n"
+  },
+  {
+   "type": "equation",
+   "content": "g: D(f_X) \\rightarrow \\mathbb{R}^2"
+  },
+  {
+   "type": "text",
+   "content": " е взаимно еднозначна. Нека "
+  },
+  {
+   "type": "equation",
+   "content": "Y = \\begin{pmatrix} y_1 \\\\ y_2 \\end{pmatrix} = g(X) = \\begin{pmatrix} g_1(X_1, X_2) \\\\ g_2(X_1, X_2) \\end{pmatrix}"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "g(D(f_X)) = \\{y \\in \\mathbb{R}^2 : y = g(x) \\text{ за някое } x \\in D(f_X)\\}"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow h = g^{-1}"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "X = g^{-1}(Y) = h(Y)"
+  },
+  {
+   "type": "text",
+   "content": ". Нека "
+  },
+  {
+   "type": "equation",
+   "content": "g"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "h"
+  },
+  {
+   "type": "text",
+   "content": " са непр и дифер в\n"
+  },
+  {
+   "type": "equation",
+   "content": "D(f_X)"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "g(D(f_X))"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава\n"
+  },
+  {
+   "type": "equation",
+   "content": "f_Y(y) = f_X(h(y)) \\cdot |J(y)|"
+  },
+  {
+   "type": "text",
+   "content": ", "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall y \\in g(D(f_X))"
+  },
+  {
+   "type": "text",
+   "content": "\n\n"
+  },
+  {
+   "type": "equation",
+   "content": "J(y) = \\begin{vmatrix} \\frac{\\partial h_1}{\\partial y_1} & \\frac{\\partial h_1}{\\partial y_2} \\\\ \\frac{\\partial h_2}{\\partial y_1} & \\frac{\\partial h_2}{\\partial y_2} \\end{vmatrix}"
+  },
+  {
+   "type": "text",
+   "content": " \\quad "
+  },
+  {
+   "type": "equation",
+   "content": "h = g^{-1} = (h_1, h_2)"
+  }
+ ],
+ "page": 26
+}

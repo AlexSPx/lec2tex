@@ -1,0 +1,221 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Съвместни дискр разпр."
+  },
+  {
+   "type": "text",
+   "content": "Деф| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": " са две ДСВ във "
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава под съвместно разпр на "
+  },
+  {
+   "type": "equation",
+   "content": "(X,Y)"
+  },
+  {
+   "type": "text",
+   "content": " разбираме:"
+  },
+  {
+   "type": "equation",
+   "content": "\\begin{array}{c|c|c|c|c|c} y \\setminus x & x_1 & x_2 & \\dots & x_n & \\\\ \\hline y_1 & p_{11} & & & & \\Sigma p_{i1} \\\\ \\hline y_2 & & & & & \\Sigma p_{i2} \\\\ \\hline \\vdots & & & & & \\\\ \\hline y_k & & p_{2k} & & p_{nk} & \\Sigma p_{ik} \\\\ \\hline & \\Sigma p_{1j} & \\Sigma p_{2j} & \\dots & \\Sigma p_{nj} & \\\\ & \\mathbb{P}(X=x_1) & & & \\mathbb{P}(X=x_n) & \\end{array}"
+  },
+  {
+   "type": "equation",
+   "content": "p_{i,j} = \\mathbb{P}(X=x_i, Y=y_j) = \\mathbb{P}(X=x_i \\cap Y=y_j)"
+  },
+  {
+   "type": "equation",
+   "content": "\\sum_{i,j} p_{i,j} = 1"
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow"
+  },
+  {
+   "type": "text",
+   "content": " маргинални разпределения (пак се сумират до 1)"
+  },
+  {
+   "type": "text",
+   "content": "Деф| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": " са две сл вел. Тогава съвместна ф-я на разпределение на "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": " е"
+  },
+  {
+   "type": "equation",
+   "content": "F_{X,Y}(x,y) = \\mathbb{P}(X < x, Y < y) \\quad \\forall (x,y) \\in \\mathbb{R}^2"
+  },
+  {
+   "type": "text",
+   "content": "Деф| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y \\iff F_{X,Y}(x,y) = F_X(x)F_Y(y) \\quad \\forall (x,y) \\in \\mathbb{R}^2"
+  },
+  {
+   "type": "text",
+   "content": "Деф| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": " са две сл вел. Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "Cov(X,Y) = \\mathbb{E}[(X - \\mathbb{E}X)(Y - \\mathbb{E}Y)]"
+  },
+  {
+   "type": "text",
+   "content": ", ако очакването съществува"
+  },
+  {
+   "type": "text",
+   "content": "ТВ| "
+  },
+  {
+   "type": "equation",
+   "content": "Cov(X,Y) = \\mathbb{E}XY - \\mathbb{E}X\\mathbb{E}Y"
+  },
+  {
+   "type": "text",
+   "content": "Д-во| "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[XY - X\\mathbb{E}Y - Y\\mathbb{E}X + \\mathbb{E}X\\mathbb{E}Y] = \\mathbb{E}XY - 2\\mathbb{E}Y\\mathbb{E}X + \\mathbb{E}Y\\mathbb{E}X = \\mathbb{E}XY - \\mathbb{E}X\\mathbb{E}Y"
+  },
+  {
+   "type": "text",
+   "content": "Сл| Ако "
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "Cov(X,Y) = 0"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (корелация) Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": " са сл вел и "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X, \\mathbb{D}Y < \\infty"
+  },
+  {
+   "type": "text",
+   "content": "."
+  },
+  {
+   "type": "text",
+   "content": "Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "\\rho(X,Y) = \\frac{Cov(X,Y)}{\\sqrt{\\mathbb{D}X} \\sqrt{\\mathbb{D}Y}}"
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow"
+  },
+  {
+   "type": "text",
+   "content": " коефициент на корелация"
+  },
+  {
+   "type": "text",
+   "content": "9-"
+  }
+ ],
+ "page": 16
+}

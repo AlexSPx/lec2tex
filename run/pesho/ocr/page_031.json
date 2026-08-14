@@ -1,0 +1,213 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "б) "
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\xrightarrow[n \\to \\infty]{\\mathbb{P}} X"
+  },
+  {
+   "type": "text",
+   "content": " то "
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\xrightarrow[n \\to \\infty]{d} X"
+  },
+  {
+   "type": "text",
+   "content": " Нека "
+  },
+  {
+   "type": "equation",
+   "content": "x \\in C_X"
+  },
+  {
+   "type": "text",
+   "content": ", трябва да пок, че "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X_n < x) \\xrightarrow[n \\to \\infty]{} \\mathbb{P}(X < x)."
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} \\mathbb{P}(A_{n, \\varepsilon}) = 0"
+  },
+  {
+   "type": "text",
+   "content": " , защото "
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\xrightarrow[n \\to \\infty]{\\mathbb{P}} X"
+  },
+  {
+   "type": "equation",
+   "content": "\\{X_n < x\\} = \\{X_n < x\\} \\cap A_{n, \\varepsilon}^c \\cup A_{n, \\varepsilon} \\subseteq \\{X < x + \\varepsilon\\} \\cup A_{n, \\varepsilon}"
+  },
+  {
+   "type": "text",
+   "content": "от тези двете излиза "
+  },
+  {
+   "type": "equation",
+   "content": "\\{X < x + \\varepsilon\\}"
+  },
+  {
+   "type": "equation",
+   "content": "\\{X_n < x\\} \\cap A_{n, \\varepsilon}^c \\supseteq \\{X < x - \\varepsilon\\} \\cap A_{n, \\varepsilon}^c"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X < x - \\varepsilon, A_{n, \\varepsilon}^c) \\le \\mathbb{P}(X_n < x) \\le \\mathbb{P}(X < x + \\varepsilon) + \\mathbb{P}(A_{n, \\varepsilon})"
+  },
+  {
+   "type": "text",
+   "content": "сходяща"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x)"
+  },
+  {
+   "type": "text",
+   "content": "сходяща"
+  },
+  {
+   "type": "text",
+   "content": "<- константа"
+  },
+  {
+   "type": "text",
+   "content": "Тв1| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\xrightarrow[n \\to \\infty]{d} C"
+  },
+  {
+   "type": "text",
+   "content": ", тогава "
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\xrightarrow[n \\to \\infty]{\\mathbb{P}} C"
+  },
+  {
+   "type": "text",
+   "content": "; C - сл. вел. с в. едно "
+  },
+  {
+   "type": "equation",
+   "content": "C"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "F_C(x) = \\begin{cases} 0, & x \\le C \\\\ 1, & x > C \\end{cases}"
+  },
+  {
+   "type": "equation",
+   "content": "C_C = \\mathbb{R} \\setminus \\{C\\}"
+  },
+  {
+   "type": "equation",
+   "content": "F_{X_n}(x) \\xrightarrow[n \\to \\infty]{} F_X(x)"
+  },
+  {
+   "type": "text",
+   "content": " за "
+  },
+  {
+   "type": "equation",
+   "content": "x \\in \\mathbb{R} \\setminus \\{C\\}"
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} \\mathbb{P}(|X_n - C| \\ge \\varepsilon) = 0"
+  },
+  {
+   "type": "text",
+   "content": " за "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall \\varepsilon > 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(|X_n - C| > \\varepsilon) = \\mathbb{P}(X_n > C + \\varepsilon)"
+  },
+  {
+   "type": "equation",
+   "content": "+ \\mathbb{P}(X_n < C - \\varepsilon) = 1 - \\underset{\\xrightarrow[n \\to \\infty]{} 1}{\\mathbb{P}(X_n < C + \\varepsilon)} + \\mathbb{P}(X_n < C - \\varepsilon) = 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X_n < C - \\varepsilon) = F_{X_n}(C - \\varepsilon) \\xrightarrow[n \\to \\infty]{} 0 \\quad \\square"
+  },
+  {
+   "type": "text",
+   "content": "• Неравенство на Чебишев"
+  },
+  {
+   "type": "text",
+   "content": "Теор1| (Чебишев) Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е сл. вел. с "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(|X - \\mathbb{E}X| \\ge a) \\le \\mathbb{D}X / a^2"
+  },
+  {
+   "type": "text",
+   "content": ", за "
+  },
+  {
+   "type": "equation",
+   "content": "a > 0"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "X - \\mathbb{E}X = Y"
+  },
+  {
+   "type": "text",
+   "content": " то "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(|X - \\mathbb{E}X| \\ge a) = \\mathbb{P}(|Y| \\ge a) = \\mathbb{E} 1_{\\{|Y| \\ge a\\}}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = \\mathbb{D}Y = \\mathbb{E}Y^2"
+  }
+ ],
+ "page": 31
+}

@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "(\\Leftarrow) |\\rho(X, Y)| = 1"
+  },
+  {
+   "type": "text",
+   "content": "Б.о.о"
+  },
+  {
+   "type": "equation",
+   "content": "\\rho(X, Y) = 1 = \\mathbb{E}\\bar{X}\\bar{Y}"
+  },
+  {
+   "type": "equation",
+   "content": "0 \\le \\mathbb{E}(\\bar{X} - \\bar{Y})^2 = \\mathbb{E}(\\bar{X}^2 - 2\\bar{X}\\bar{Y} + \\bar{Y}^2) = D\\bar{X} - 2\\mathbb{E}\\bar{X}\\bar{Y} + D\\bar{Y} = 0"
+  },
+  {
+   "type": "equation",
+   "content": "0 = \\sum \\underbrace{p_{ij}}_{\\ge 0} \\underbrace{(\\bar{x}_i - \\bar{y}_j)^2}_{= 0} \\Rightarrow \\bar{X} = \\bar{Y}"
+  },
+  {
+   "type": "equation",
+   "content": "\\bar{Y} = \\frac{Y - \\mathbb{E}Y}{\\sqrt{DY}} = \\frac{X - \\mathbb{E}X}{\\sqrt{DX}} \\Rightarrow Y - \\mathbb{E}Y = X \\underbrace{\\frac{\\sqrt{DY}}{\\sqrt{DX}}}_{a} - \\underbrace{\\mathbb{E}X \\frac{\\sqrt{DY}}{\\sqrt{DX}} + \\mathbb{E}Y}_{b} \\Rightarrow"
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow Y = aX + b \\quad \\square"
+  },
+  {
+   "type": "text",
+   "content": "Лекция 8"
+  },
+  {
+   "type": "equation",
+   "content": "y = 1_A"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(A) = \\mathbb{E}1_A"
+  },
+  {
+   "type": "equation",
+   "content": "\\min_G \\mathbb{E}(X - G(Y))^2, \\quad G(Y) = a \\cdot 1_A + b \\cdot 1_{A^c} \\quad a = G(1) \\quad b = G(0)"
+  },
+  {
+   "type": "equation",
+   "content": "= \\min_{a, b \\in \\mathbb{R}} \\underbrace{\\mathbb{E}[X - a \\cdot 1_A - b \\cdot 1_{A^c}]^2}_{f(a,b)} = \\min_{a, b \\in \\mathbb{R}} f(a,b)"
+  },
+  {
+   "type": "equation",
+   "content": "f(a,b) = \\mathbb{E}[X^2 + a^2 1_A + b^2 1_{A^c} - 2aX 1_A - 2bX 1_{A^c}] ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\mathbb{E}X^2 + a^2 \\mathbb{P}(A) + b^2 \\mathbb{P}(A^c) - 2a \\mathbb{E}X 1_A - 2b \\mathbb{E}X 1_{A^c}"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\partial f}{\\partial a} = 2a \\mathbb{P}(A) - 2 \\mathbb{E}X 1_A = 0"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "2b \\mathbb{P}(A^c) - 2 \\mathbb{E}X 1_{A^c} = 0"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "a = \\frac{\\mathbb{E}X 1_A}{\\mathbb{P}(A)} = \\frac{\\mathbb{E}XY}{\\mathbb{P}(Y=1)}"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "b = \\frac{\\mathbb{E}X 1_{A^c}}{\\mathbb{P}(A^c)} = \\frac{\\mathbb{E}X(1-Y)}{\\mathbb{P}(Y=0)}"
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow G^*(Y) = \\frac{\\mathbb{E}X 1_A}{\\mathbb{P}(A)} 1_A + \\frac{\\mathbb{E}X 1_{A^c}}{\\mathbb{P}(A^c)} 1_{A^c} =: \\mathbb{E}(X|Y)"
+  },
+  {
+   "type": "text",
+   "content": "Деф (Условно мат очакв) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са сл. вел. (дискр)."
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}[X|Y]"
+  },
+  {
+   "type": "text",
+   "content": "е тази сл. вел., която минимизира"
+  },
+  {
+   "type": "equation",
+   "content": "\\min_G \\mathbb{E}(X - G(Y))^2 = \\mathbb{E}(X - \\mathbb{E}[X|Y])^2"
+  },
+  {
+   "type": "text",
+   "content": "- 10 -"
+  }
+ ],
+ "page": 18
+}

@@ -1,0 +1,141 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Y^2 \\cdot 1 = \\mathbb{E}\\overbrace{Y^2}^{>0} (\\underbrace{1_{\\{|Y| \\le a\\}}}_{>0} + 1_{\\{|Y| > a\\}}) \\ge \\mathbb{E}\\overbrace{Y^2}^{\\ge a^2} 1_{\\{|Y| > a\\}} \\ge a^2 \\cdot \\mathbb{E}1_{\\{|Y| > a\\}}"
+  },
+  {
+   "type": "equation",
+   "content": "= a^2 \\mathbb{P}(|Y| > a) \\Rightarrow"
+  },
+  {
+   "type": "equation",
+   "content": "\\Rightarrow \\mathbb{P}(|X - \\mathbb{E}X| > a) \\le \\frac{\\mathbb{D}X}{a^2}"
+  },
+  {
+   "type": "text",
+   "content": "•"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(|X - \\mathbb{E}X| > a) \\le \\frac{\\mathbb{E}|X - \\mathbb{E}X|^n}{a^n}, \\forall n \\ge 1, \\quad n=2 (\\text{Чебишев})"
+  },
+  {
+   "type": "text",
+   "content": "и ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(|X| > a) \\le \\frac{\\mathbb{E}|X|^n}{a^n}, \\forall n \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": "• Закон за големите числа"
+  },
+  {
+   "type": "text",
+   "content": "Деф1 (ЗГЧ) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^{\\infty}"
+  },
+  {
+   "type": "text",
+   "content": "е редица от сл. вел с очаквания"
+  },
+  {
+   "type": "equation",
+   "content": "(\\mathbb{E}X_i)_{i=1}^{\\infty}"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава за редицата е в сила ЗГЧ, ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\sum_{i=1}^n (X_i - \\mathbb{E}X_i)}{n} \\xrightarrow[n \\to \\infty]{\\mathbb{P}} 0"
+  },
+  {
+   "type": "text",
+   "content": "ако"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^{\\infty}"
+  },
+  {
+   "type": "text",
+   "content": "са незав и еднакво разпр , то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_i = \\mathbb{E}X_1, \\forall i \\ge 1"
+  },
+  {
+   "type": "equation",
+   "content": "\\text{ЗГЧ} \\Rightarrow \\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\mathbb{P}} \\mathbb{E}X_1"
+  },
+  {
+   "type": "text",
+   "content": "Теор1"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^{\\infty}"
+  },
+  {
+   "type": "text",
+   "content": "от незав и еднакво разпр сл вел с"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X_1"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}|X_1| < \\infty"
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\sum_{i=1}^n X_i}{n} \\xrightarrow[n \\to \\infty]{\\mathbb{P}} \\mathbb{E}X_1"
+  },
+  {
+   "type": "text",
+   "content": "Д-во ще док. когато"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X_1 < \\infty"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall \\varepsilon > 0 \\quad \\lim_{n \\to \\infty} \\mathbb{P}\\left(\\left| \\frac{\\sum_{i=1}^n X_i}{n} - \\mathbb{E}X_1 \\right| > \\varepsilon \\right) = \\lim_{n \\to \\infty} \\mathbb{P}\\left(\\left| \\frac{\\sum_{i=1}^n (X_i - \\mathbb{E}X_i)}{n} \\right| > \\varepsilon \\right)"
+  },
+  {
+   "type": "text",
+   "content": "Нер на Чебишев"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}\\left(\\left| \\sum_{i=1}^n X_i - \\mathbb{E}X_i \\right| > \\varepsilon n \\right) \\le \\frac{\\mathbb{D}\\left(\\sum_{i=1}^n X_i - \\mathbb{E}X_i\\right)}{\\varepsilon^2 n^2} ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{\\sum_{i=1}^n \\mathbb{D}(X_i)}{\\varepsilon^2 n^2} = \\frac{n \\mathbb{D}X_1}{n^2 \\varepsilon^2} = \\frac{\\mathbb{D}}{n \\varepsilon^2} \\xrightarrow{n \\to \\infty} 0"
+  }
+ ],
+ "page": 34
+}

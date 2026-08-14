@@ -1,0 +1,189 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0) = \\frac{d^k}{ds^k} \\left(\\frac{p}{1-qs}\\right)^r = p^r \\cdot \\frac{d^k}{ds^k} \\frac{1}{(1-qs)^r} ="
+  },
+  {
+   "type": "equation",
+   "content": "= p^r \\cdot r(r+1) \\dots (r+k-1) \\cdot q^k \\cdot \\frac{1}{(1-qs)^{r+k}} \\bigg|_{s=0} \\Rightarrow"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = \\binom{r+k-1}{k} p^r q^k"
+  },
+  {
+   "type": "text",
+   "content": "Д| Поасоново разпр - "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Po(\\lambda), \\lambda > 0"
+  },
+  {
+   "type": "text",
+   "content": "Деф| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Poi(\\lambda)"
+  },
+  {
+   "type": "text",
+   "content": ", ако "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = \\frac{\\lambda^k}{k!} e^{-\\lambda}, k \\ge 0"
+  },
+  {
+   "type": "equation",
+   "content": "1 \\stackrel{?}{=} \\sum_{k=0}^{\\infty} \\mathbb{P}(X=k) = \\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!} e^{-\\lambda} = e^{-\\lambda} \\sum_{k=0}^{\\infty} \\frac{\\lambda^k}{k!} = e^{-\\lambda} \\cdot e^\\lambda = 1"
+  },
+  {
+   "type": "text",
+   "content": "ред на Тейлър за "
+  },
+  {
+   "type": "equation",
+   "content": "e^\\lambda"
+  },
+  {
+   "type": "text",
+   "content": "ТЕ| "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Poi(\\lambda)"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = e^{\\lambda s - \\lambda}"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "EX = DX = \\lambda"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = \\sum_{n=0}^{\\infty} s^n \\cdot \\frac{\\lambda^n}{n!} e^{-\\lambda} = e^{-\\lambda} \\sum_{n=0}^{\\infty} \\frac{(\\lambda s)^n}{n!} = e^{-\\lambda} e^{\\lambda s} = e^{\\lambda s - \\lambda}"
+  },
+  {
+   "type": "equation",
+   "content": "g'_X(s) = \\lambda e^{\\lambda s - \\lambda} \\big|_{s=1} = \\lambda e^{\\lambda - \\lambda} = \\lambda"
+  },
+  {
+   "type": "equation",
+   "content": "g''_X(s) = \\lambda^2 e^{\\lambda s - \\lambda} \\big|_{s=1} = \\lambda^2"
+  },
+  {
+   "type": "equation",
+   "content": "DX = g''_X(1) + g'_X(1) - (g'_X(1))^2 = \\lambda^2 + \\lambda - \\lambda^2 = \\lambda \\quad \\square"
+  },
+  {
+   "type": "text",
+   "content": "ТВ| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "(X_n)_{n \\ge 1}"
+  },
+  {
+   "type": "text",
+   "content": " е редица от целочислени сл. вел., т.ч."
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} g_{X_n}(s) = g_X(s), -1 \\le s \\le 1"
+  },
+  {
+   "type": "text",
+   "content": ", където "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е целос. сл. вел."
+  },
+  {
+   "type": "text",
+   "content": "и "
+  },
+  {
+   "type": "equation",
+   "content": "g_X"
+  },
+  {
+   "type": "text",
+   "content": " е нейната пораждаща ф-я. Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall k \\ge 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} \\mathbb{P}(X_n=k) = \\mathbb{P}(X=k)"
+  },
+  {
+   "type": "text",
+   "content": "Теорема| (Поасон) Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\sim Bin(n, p_n)"
+  },
+  {
+   "type": "text",
+   "content": ", "
+  },
+  {
+   "type": "equation",
+   "content": "n \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": ". Нека "
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} n \\cdot p_n = \\lambda > 0"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall k \\ge 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} \\mathbb{P}(X_n=k) = \\mathbb{P}(X=k) = \\frac{\\lambda^k}{k!} e^{-\\lambda}"
+  },
+  {
+   "type": "text",
+   "content": " или "
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Poi(\\lambda)"
+  }
+ ],
+ "page": 14
+}

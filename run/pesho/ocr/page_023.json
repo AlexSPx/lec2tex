@@ -1,0 +1,125 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "g(x) = z"
+  },
+  {
+   "type": "equation",
+   "content": "g^{-1}(z) = a + (b-a)z"
+  },
+  {
+   "type": "equation",
+   "content": "f_Z(y) = f_X(g^{-1}(y)) \\cdot |(g^{-1}(y))'| = f_X(a + (b-a)y) \\cdot |(b-a)|"
+  },
+  {
+   "type": "equation",
+   "content": "f_Z(y) = \\begin{cases} \\frac{b-a}{b-a} = 1 & , y \\in (0, 1) \\\\ 0 & \\text{иначе} \\end{cases}"
+  },
+  {
+   "type": "text",
+   "content": "<- плътността на"
+  },
+  {
+   "type": "equation",
+   "content": "U(0, 1)"
+  },
+  {
+   "type": "equation",
+   "content": "EX = a + (b-a)EZ = a + (b-a)\\frac{1}{2} = (a+b)/2"
+  },
+  {
+   "type": "equation",
+   "content": "DX = (b-a)^2 DZ = (b-a)^2 / 12"
+  },
+  {
+   "type": "text",
+   "content": "5.1 Нормално разпр. (Гаусово)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim \\mathcal{N}(\\mu, \\sigma^2), \\mu \\in \\mathbb{R}, \\sigma > 0"
+  },
+  {
+   "type": "text",
+   "content": "ако"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}} \\quad , \\forall x \\in \\mathbb{R}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mu = 0, \\sigma^2 = 1"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "Z \\sim \\mathcal{N}(0, 1)"
+  },
+  {
+   "type": "text",
+   "content": "(стандартно нормално разпр)"
+  },
+  {
+   "type": "text",
+   "content": "<- стръмността зависи от"
+  },
+  {
+   "type": "equation",
+   "content": "\\sigma^2"
+  },
+  {
+   "type": "equation",
+   "content": "f_Z(z) = \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{z^2}{2}}, z \\in \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "<- интеграл на Дирихле"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\int_{-\\infty}^x \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(y-\\mu)^2}{2\\sigma^2}} dy"
+  },
+  {
+   "type": "text",
+   "content": "<- ст-стите се гледат от таблици"
+  },
+  {
+   "type": "equation",
+   "content": "F_Z(x) = \\Phi(x) = \\int_{-\\infty}^x \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{y^2}{2}} dy"
+  },
+  {
+   "type": "equation",
+   "content": "Y = \\frac{X-\\mu}{\\sigma} \\sim \\mathcal{N}(0, 1)"
+  },
+  {
+   "type": "equation",
+   "content": "y = g(x)"
+  },
+  {
+   "type": "equation",
+   "content": "g(x) = (x-\\mu)/\\sigma \\quad g \\uparrow"
+  },
+  {
+   "type": "equation",
+   "content": "g'(x) = 1/\\sigma > 0"
+  },
+  {
+   "type": "equation",
+   "content": "g^{-1}(y) = \\sigma y + \\mu \\quad (g^{-1}(y))' = \\sigma > 0"
+  },
+  {
+   "type": "equation",
+   "content": "f_Y(y) = f_X(\\sigma y + \\mu) \\cdot \\sigma ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{(\\sigma y + \\mu - \\mu)^2}{2\\sigma^2}} = \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{y^2}{2}}"
+  }
+ ],
+ "page": 23
+}

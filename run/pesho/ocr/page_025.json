@@ -1,0 +1,221 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Деф| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "f_X"
+  },
+  {
+   "type": "text",
+   "content": "е съвместна плътност на"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "D(f_X) = \\{ x \\in \\mathbb{R}^n : f_X(x) > 0 \\}"
+  },
+  {
+   "type": "text",
+   "content": "Деф| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "f_X"
+  },
+  {
+   "type": "text",
+   "content": "е съвместна плътност на"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall 1 \\le j \\le n:"
+  },
+  {
+   "type": "equation",
+   "content": "f_{X_j}(x_j) = \\int_{-\\infty}^{\\infty} \\dots \\int_{-\\infty}^{\\infty} f_X(x_1, \\dots, x_{j-1}, x_j, x_{j+1}, \\dots, x_n) dx_n \\dots dx_{j+1} dx_{j-1} \\dots dx_1"
+  },
+  {
+   "type": "text",
+   "content": "маргинална плътност на"
+  },
+  {
+   "type": "equation",
+   "content": "X_j"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (съвм ф.я на разпр)"
+  },
+  {
+   "type": "equation",
+   "content": "X = (X_1, \\dots, X_n)"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\mathbb{P}(X < x) = \\mathbb{P}(X_1 < x_1, X_2 < x_2, \\dots, X_n < x_n), \\forall x=(x_1, \\dots, x_n) \\in \\mathbb{R}^n"
+  },
+  {
+   "type": "text",
+   "content": "трябва да е непр в"
+  },
+  {
+   "type": "equation",
+   "content": "x \\in \\mathbb{R}^n"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е непр вектор от сл. вел, то"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) = \\frac{\\partial^n F_X}{\\partial x_1 \\dots \\partial x_n}"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\int_{-\\infty}^{x_1} \\dots \\int_{-\\infty}^{x_n} f_X(x_1, \\dots, x_n) dx_n \\dots dx_1, x=(x_1, \\dots, x_n) \\in \\mathbb{R}^n"
+  },
+  {
+   "type": "text",
+   "content": "Деф|"
+  },
+  {
+   "type": "equation",
+   "content": "X_1 \\perp\\!\\!\\!\\perp X_2 \\iff X = (X_1, X_2)"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x_1, x_2) = F_{X_1}(x_1) F_{X_2}(x_2)"
+  },
+  {
+   "type": "text",
+   "content": "т.е."
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X_1 < x_1, X_2 < x_2) = \\mathbb{P}(X_1 < x_1) \\mathbb{P}(X_2 < x_2)"
+  },
+  {
+   "type": "text",
+   "content": "X е непр. вектор"
+  },
+  {
+   "type": "equation",
+   "content": "\\iff"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x_1, x_2) = f_{X_1}(x_1) f_{X_2}(x_2)"
+  },
+  {
+   "type": "text",
+   "content": "непр вектор от сл вел"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (незав в съвкупн)"
+  },
+  {
+   "type": "equation",
+   "content": "X = (X_1, \\dots, X_n)"
+  },
+  {
+   "type": "text",
+   "content": "Нека тогава"
+  },
+  {
+   "type": "equation",
+   "content": "X_1, \\dots, X_n"
+  },
+  {
+   "type": "text",
+   "content": "са незав в съвк, ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall k \\ge 2, \\forall (j_1, \\dots, j_k)"
+  },
+  {
+   "type": "text",
+   "content": "- различни индекси от 1 до n, то"
+  },
+  {
+   "type": "equation",
+   "content": "Y = (X_{j_1}, \\dots, X_{j_k})"
+  },
+  {
+   "type": "equation",
+   "content": "F_Y(y_{j_1}, \\dots, y_{j_k}) = F_{X_{j_1}}(y_{j_1}) \\dots F_{X_{j_k}}(y_{j_k})"
+  },
+  {
+   "type": "text",
+   "content": "т.е."
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x_1, \\dots, x_n) = f_{X_1}(x_1) \\dots f_{X_n}(x_n)"
+  },
+  {
+   "type": "text",
+   "content": "при"
+  },
+  {
+   "type": "equation",
+   "content": "k = n"
+  },
+  {
+   "type": "text",
+   "content": "• Ако"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е непрек. вектор и"
+  },
+  {
+   "type": "equation",
+   "content": "g: \\mathbb{R}^n \\to \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "E(g(X)) = \\int g(x) f_X(x) dx"
+  }
+ ],
+ "page": 25
+}

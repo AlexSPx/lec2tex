@@ -1,0 +1,229 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Св-ва|"
+  },
+  {
+   "type": "text",
+   "content": "a)"
+  },
+  {
+   "type": "equation",
+   "content": "M_X(0) = \\mathbb{E}e^{0X} = \\mathbb{E}1 = 1"
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "M_X(t) = \\sum_{k=0}^\\infty \\frac{t^k}{k!} \\mathbb{E}X^k"
+  },
+  {
+   "type": "text",
+   "content": ", т.к."
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}e^{tX} = \\mathbb{E}\\sum_{k=0}^\\infty \\frac{t^k X^k}{k!}"
+  },
+  {
+   "type": "text",
+   "content": "(ред на Тейлър)"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "M_X^{(k)}(t)|_{t=0} = \\mathbb{E}X^k"
+  },
+  {
+   "type": "text",
+   "content": "г)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp Y"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "M_{X+Y}(t) = M_X(t)M_Y(t)"
+  },
+  {
+   "type": "text",
+   "content": "д) ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\lim_{n \\to \\infty} M_{X_n}(t) = M_X(t)"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "|t|<\\epsilon"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "X_n \\xrightarrow{d} X"
+  },
+  {
+   "type": "text",
+   "content": "е)"
+  },
+  {
+   "type": "equation",
+   "content": "M_X(t) = M_Y(t)"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "|t| < a"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "X \\stackrel{d}{=} Y"
+  },
+  {
+   "type": "text",
+   "content": "ж)"
+  },
+  {
+   "type": "equation",
+   "content": "Y = aX + b"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "M_Y(t) = e^{bt} M_X(at)"
+  },
+  {
+   "type": "text",
+   "content": "ТЕ1| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim \\mathcal{N}(\\mu, \\sigma^2)"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "M_X(t) = e^{\\mu t} M_Z(\\sigma t)"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "text",
+   "content": "където"
+  },
+  {
+   "type": "equation",
+   "content": "Z \\sim \\mathcal{N}(0, 1)"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "M_X(t) = e^{\\mu t + \\frac{\\sigma^2 t^2}{2}}"
+  },
+  {
+   "type": "text",
+   "content": ", т.е."
+  },
+  {
+   "type": "equation",
+   "content": "M_Z(t) = e^{\\frac{t^2}{2}}"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "X = \\mu + \\sigma Z \\implies M_X(t) \\stackrel{(ж)}{=} e^{\\mu t} M_Z(\\sigma t)"
+  },
+  {
+   "type": "equation",
+   "content": "M_Z(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e^{sy} e^{-\\frac{y^2}{2}} dy = \\frac{e^{\\frac{s^2}{2}}}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e^{-\\frac{y^2 - 2sy + s^2}{2}} dy ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\frac{e^{\\frac{s^2}{2}}}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e^{-\\frac{(y-s)^2}{2}} dy \\stackrel{(y-s)=w}{=} e^{\\frac{s^2}{2}} \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e^{-\\frac{w^2}{2}} dw = e^{\\frac{s^2}{2}} \\cdot 1"
+  },
+  {
+   "type": "equation",
+   "content": "1 \\to \\mathcal{N}(0, 1)"
+  },
+  {
+   "type": "text",
+   "content": "Д-во| (ЦГТ) Цел:"
+  },
+  {
+   "type": "equation",
+   "content": "Z_n = \\frac{S_n - n\\mu}{\\sigma\\sqrt{n}} \\xrightarrow[n \\to \\infty]{d} Z \\sim \\mathcal{N}(0,1)"
+  },
+  {
+   "type": "equation",
+   "content": "Z_n = \\frac{1}{\\sqrt{n}} \\frac{S_n - n\\mu}{\\sigma} = \\frac{1}{\\sqrt{n}} \\sum_{j=1}^n \\frac{X_j - \\mu}{\\sigma} = \\frac{1}{\\sqrt{n}} \\sum_{j=1}^n Y_j"
+  },
+  {
+   "type": "text",
+   "content": "ще покажем"
+  },
+  {
+   "type": "equation",
+   "content": "\\xrightarrow{n \\to \\infty} Z"
+  },
+  {
+   "type": "equation",
+   "content": "Y_j = \\frac{X_j - \\mu}{\\sigma}"
+  },
+  {
+   "type": "text",
+   "content": "ще допуснем, че"
+  },
+  {
+   "type": "equation",
+   "content": "M_{Y_1}"
+  },
+  {
+   "type": "text",
+   "content": "е деф."
+  },
+  {
+   "type": "equation",
+   "content": "|t| < \\infty"
+  }
+ ],
+ "page": 33
+}

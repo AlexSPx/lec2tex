@@ -1,0 +1,189 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Тв 1 | Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е НСВ и "
+  },
+  {
+   "type": "equation",
+   "content": "c \\in \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=c)=0"
+  },
+  {
+   "type": "text",
+   "content": "и следов за "
+  },
+  {
+   "type": "equation",
+   "content": "a < b"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X \\in (a, b)) = \\mathbb{P}(a < X < b) = \\mathbb{P}(a < X \\le b) = \\mathbb{P}(a \\le X < b) = \\mathbb{P}(a \\le X \\le b)"
+  },
+  {
+   "type": "text",
+   "content": "Д-во |"
+  },
+  {
+   "type": "equation",
+   "content": "\\{X = c\\} \\subseteq \\left\\{c - \\frac{1}{n} < X < c + \\frac{1}{n}\\right\\} \\quad \\forall n \\ge 1"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X = c) \\le \\mathbb{P}\\left(X \\in \\left(c - \\frac{1}{n}; c + \\frac{1}{n}\\right)\\right) \\overset{\\text{деф}}{=} \\int_{c-\\frac{1}{n}}^{c+\\frac{1}{n}} f_X(x) dx \\xrightarrow[n \\to \\infty]{} \\int_{c}^{c} f_X(x) dx = 0"
+  },
+  {
+   "type": "text",
+   "content": "Деф 1 | (ф-я на разпр) "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е сл. вел. , то "
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\mathbb{P}(X < x)"
+  },
+  {
+   "type": "text",
+   "content": ". Ако "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е НСВ , то "
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\int_{-\\infty}^{x} f_X(y) dy \\quad \\forall x \\in \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "ако "
+  },
+  {
+   "type": "equation",
+   "content": "f_X"
+  },
+  {
+   "type": "text",
+   "content": " е непр в "
+  },
+  {
+   "type": "equation",
+   "content": "x_0"
+  },
+  {
+   "type": "text",
+   "content": ", то "
+  },
+  {
+   "type": "equation",
+   "content": "F_X'(x_0) = f_X(x_0) , \\quad \\boxed{F_X' = f_X}"
+  },
+  {
+   "type": "text",
+   "content": "• Смяна на промен"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е НСВ , "
+  },
+  {
+   "type": "equation",
+   "content": "Y = g(X)"
+  },
+  {
+   "type": "equation",
+   "content": "g: \\mathbb{R} \\to \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "строго монотонна ф-я"
+  },
+  {
+   "type": "text",
+   "content": "Теор 1 | Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е НСВ и "
+  },
+  {
+   "type": "equation",
+   "content": "g: \\mathbb{R} \\to \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": " , която е строго монотонна ф-я. Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "Y = g(X)"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "f_Y(y) = f_X(g^{-1}(y)) \\cdot |(g^{-1}(y))'|"
+  },
+  {
+   "type": "text",
+   "content": "Заб 1 | "
+  },
+  {
+   "type": "equation",
+   "content": "g"
+  },
+  {
+   "type": "text",
+   "content": " трябва да е строго монотонна само в интервала , където "
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) > 0"
+  },
+  {
+   "type": "text",
+   "content": "Д-во |"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(Y \\in (a, b)) = \\mathbb{P}(g(X) \\in (a, b)) = \\left\\{ \\begin{array}{l} \\stackrel{g \\uparrow}{=} \\mathbb{P}(X \\in (g^{-1}(a), g^{-1}(b))) = \\int_{g^{-1}(a)}^{g^{-1}(b)} f_X(v) dv \\stackrel{v=g^{-1}(y)}{=} \\int_{a}^{b} f_X(g^{-1}(y)) d(g^{-1}(y)) = \\int_{a}^{b} f_X(g^{-1}(y)) \\underset{>0}{(g^{-1}(y))'} dy \\\\ \\stackrel{g \\downarrow}{=} \\mathbb{P}(X \\in (g^{-1}(b), g^{-1}(a))) = \\int_{g^{-1}(b)}^{g^{-1}(a)} f_X(v) dv \\stackrel{v=g^{-1}(y)}{=} \\int_{b}^{a} f_X(g^{-1}(y)) d(g^{-1}(y)) = \\int_{b}^{a} f_X(g^{-1}(y)) (g^{-1}(y))' dy = - \\int_{a}^{b} f_X(g^{-1}(y)) \\underset{<0}{(g^{-1}(y))'} dy \\end{array} \\right\\} = \\int_{a}^{b} f_X(g^{-1}(y)) |(g^{-1}(y))'| dy"
+  }
+ ],
+ "page": 21
+}

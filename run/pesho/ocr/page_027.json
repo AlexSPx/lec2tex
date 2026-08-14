@@ -1,0 +1,161 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "y = g(x) , \\quad A \\subseteq g(D(f_X))"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(Y \\in A) = \\int_A f_Y(y) dy"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(Y \\in A) = \\mathbb{P}(g(X) \\in A) = \\mathbb{P}(X \\in h(A)) = \\int_{x \\in h(A)} f_X(x) dx \\stackrel{x=h(y)}{=}"
+  },
+  {
+   "type": "equation",
+   "content": "\\int_{y \\in A} f_X(h(y)) \\cdot |J(y)| dy"
+  },
+  {
+   "type": "equation",
+   "content": "f_Y(y)"
+  },
+  {
+   "type": "equation",
+   "content": "\\leftarrow"
+  },
+  {
+   "type": "text",
+   "content": "плътност на"
+  },
+  {
+   "type": "equation",
+   "content": "y"
+  },
+  {
+   "type": "equation",
+   "content": "\\rightarrow"
+  },
+  {
+   "type": "text",
+   "content": "якоби диск [?]"
+  },
+  {
+   "type": "text",
+   "content": "Схема|"
+  },
+  {
+   "type": "equation",
+   "content": "X_1, X_2"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "(X_1 \\perp\\!\\!\\!\\perp X_2)"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x_1, x_2) = f_{X_1}(x_1) f_{X_2}(x_2)"
+  },
+  {
+   "type": "text",
+   "content": "и се интересуваме от"
+  },
+  {
+   "type": "equation",
+   "content": "Y_1 = X_1 + X_2 \\Rightarrow f_{Y_1}(y_1) = ?"
+  },
+  {
+   "type": "equation",
+   "content": "y = \\begin{cases} y_1 = x_1 + x_2 \\\\ y_2 = x_1 \\end{cases} \\Rightarrow f_Y \\xrightarrow{\\text{марг}} f_{Y_1}"
+  },
+  {
+   "type": "equation",
+   "content": "y = \\begin{pmatrix} y_1 \\\\ y_2 \\end{pmatrix} = \\begin{pmatrix} x_1 + x_2 \\\\ x_1 \\end{pmatrix} = g(x)"
+  },
+  {
+   "type": "equation",
+   "content": "x = h(y) = \\begin{pmatrix} y_2 \\\\ y_1 - y_2 \\end{pmatrix} = \\begin{pmatrix} x_1 \\\\ x_2 \\end{pmatrix}"
+  },
+  {
+   "type": "text",
+   "content": "Пример 1|"
+  },
+  {
+   "type": "text",
+   "content": "Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X_i \\sim \\mathcal{N}(\\mu_i, \\sigma_i^2)"
+  },
+  {
+   "type": "equation",
+   "content": ", \\quad i = 1 \\dots n"
+  },
+  {
+   "type": "equation",
+   "content": "(X_1, \\dots, X_n)"
+  },
+  {
+   "type": "text",
+   "content": "са незав. в съвкуп"
+  },
+  {
+   "type": "equation",
+   "content": "Y = X_1 + \\dots + X_n \\sim \\mathcal{N}(\\sum \\mu_i, \\sum \\sigma_i^2)"
+  },
+  {
+   "type": "text",
+   "content": "Деф1 (Гама разпр)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim \\Gamma(\\alpha, \\beta) \\quad (\\alpha, \\beta > 0)"
+  },
+  {
+   "type": "text",
+   "content": "ако"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) = \\begin{cases} \\frac{\\beta^\\alpha}{\\Gamma(\\alpha)} x^{\\alpha - 1} e^{-\\beta x}, & x > 0 \\\\ 0, & x \\le 0 \\end{cases}"
+  },
+  {
+   "type": "equation",
+   "content": "\\Gamma(\\alpha) = \\int_0^\\infty x^{\\alpha - 1} e^{-x} dx ;"
+  },
+  {
+   "type": "equation",
+   "content": "\\Gamma(1) = 1 ; \\quad \\Gamma(n+1) = n!"
+  },
+  {
+   "type": "equation",
+   "content": "\\ominus"
+  },
+  {
+   "type": "equation",
+   "content": "\\beta > 0, \\alpha = 1"
+  },
+  {
+   "type": "text",
+   "content": "то"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) = \\frac{\\beta^1}{\\Gamma(1)} e^{-\\beta x} = \\beta e^{-\\beta x} \\quad x > 0 \\sim \\text{Exp}(\\beta)"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim \\Gamma(1, \\beta) \\sim \\text{Exp}(\\beta)"
+  }
+ ],
+ "page": 27
+}

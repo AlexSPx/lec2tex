@@ -1,0 +1,121 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = \\sigma\\mathbb{E}Z + \\mu = \\mu; \\mathbb{E}Z = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty y \\cdot e^{-\\frac{y^2}{2}} dy = 0"
+  },
+  {
+   "type": "text",
+   "content": "неч. ф-я."
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = \\sigma^2 \\mathbb{D}Z + 0 = \\sigma^2; \\mathbb{E}Z^2 = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty y^2 e^{-\\frac{y^2}{2}} dy = 1"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X < x) = \\mathbb{P}\\left(\\frac{X-\\mu}{\\sigma} < \\frac{x-\\mu}{\\sigma}\\right) = \\mathbb{P}\\left(Z < \\frac{x-\\mu}{\\sigma}\\right) = \\Phi\\left(\\frac{x-\\mu}{\\sigma}\\right)"
+  },
+  {
+   "type": "text",
+   "content": "В) Експоненциално разпр"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Exp(\\lambda), \\lambda > 0"
+  },
+  {
+   "type": "equation",
+   "content": "f_X(x) = \\begin{cases} \\lambda e^{-\\lambda x}, & x > 0 \\\\ 0, & x \\le 0 \\end{cases}"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\int_0^x \\lambda e^{-\\lambda x} dx = 1 - e^{-\\lambda x}"
+  },
+  {
+   "type": "equation",
+   "content": "1 - F_X(x) = e^{-\\lambda x}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X > x) = \\overline{F}_X(x)"
+  },
+  {
+   "type": "text",
+   "content": "\\leftarrow опашка"
+  },
+  {
+   "type": "text",
+   "content": "• Безпаметност"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X > x+y \\mid X > x) = \\mathbb{P}(X > y)"
+  },
+  {
+   "type": "text",
+   "content": "Д-во"
+  },
+  {
+   "type": "equation",
+   "content": "\\frac{\\mathbb{P}(X > x+y, X > x)}{\\mathbb{P}(X > x)} = \\frac{\\mathbb{P}(X > x+y)}{\\mathbb{P}(X > x)} = \\frac{e^{-\\lambda(x+y)}}{e^{-\\lambda x}} = e^{-\\lambda y}"
+  },
+  {
+   "type": "equation",
+   "content": "X \\sim Exp(\\lambda)"
+  },
+  {
+   "type": "equation",
+   "content": "Y = \\lambda X \\sim Exp(1)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(Y < x) = \\mathbb{P}(\\lambda X < x) = \\mathbb{P}(X < x/\\lambda) = 1 - e^{-\\lambda \\frac{x}{\\lambda}} = 1 - e^{-x} = \\mathbb{P}(Z < x)"
+  },
+  {
+   "type": "equation",
+   "content": "Z \\sim Exp(1)"
+  },
+  {
+   "type": "equation",
+   "content": "\\overset{\\mathbb{E}Y=1}{\\mathbb{E}Y} = \\lambda \\mathbb{E}X \\Rightarrow \\mathbb{E}X = 1/\\lambda"
+  },
+  {
+   "type": "equation",
+   "content": "\\overset{\\mathbb{D}Y=1}{\\mathbb{D}Y} = \\lambda^2 \\mathbb{D}X \\Rightarrow \\mathbb{D}X = 1/\\lambda^2"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Y = \\int_0^\\infty y e^{-y} dy = 1"
+  },
+  {
+   "type": "text",
+   "content": "• Непр. съвместни разпр"
+  },
+  {
+   "type": "text",
+   "content": "Деф 1"
+  },
+  {
+   "type": "equation",
+   "content": "X = (X_1, \\dots, X_n)"
+  },
+  {
+   "type": "text",
+   "content": "е непр вектор от сл вел ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\exists f_X: \\mathbb{R}^n \\to [0, +\\infty)"
+  },
+  {
+   "type": "equation",
+   "content": "1) f_X(x) \\ge 0, \\forall x \\in \\mathbb{R}^n"
+  },
+  {
+   "type": "equation",
+   "content": "3) \\forall D \\subseteq \\mathbb{R}^n, \\mathbb{P}(X \\in D) = \\int \\dots \\int_D f_X(x) dx"
+  }
+ ],
+ "page": 24
+}

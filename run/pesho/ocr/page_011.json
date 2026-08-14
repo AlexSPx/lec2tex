@@ -1,0 +1,297 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Лекция 6\nДеф| "
+  },
+  {
+   "type": "equation",
+   "content": "X : \\Omega \\to \\mathbb{N}"
+  },
+  {
+   "type": "text",
+   "content": " е целочислена сл. вел. Тогава\nпод пораждаща ф-я на "
+  },
+  {
+   "type": "equation",
+   "content": "X :"
+  },
+  {
+   "type": "equation",
+   "content": "g_X : [-1, 1] \\to \\mathbb{R}"
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) := \\mathbb{E}s^X = \\sum_{n=0}^\\infty s^n \\mathbb{P}(X=n)"
+  },
+  {
+   "type": "text",
+   "content": " , за "
+  },
+  {
+   "type": "equation",
+   "content": "s \\in [-1, 1]"
+  },
+  {
+   "type": "text",
+   "content": "\nТвърд| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " е целочис. и ф-я "
+  },
+  {
+   "type": "equation",
+   "content": "g_X"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава\nа) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = g_X'(1)"
+  },
+  {
+   "type": "text",
+   "content": "\nб) "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = g_X''(1) + g_X'(1) - (g_X'(1))^2"
+  },
+  {
+   "type": "text",
+   "content": "\nв) "
+  },
+  {
+   "type": "equation",
+   "content": "k! \\mathbb{P}(X=k) = g_X^{(k)}(0)"
+  },
+  {
+   "type": "text",
+   "content": " , за "
+  },
+  {
+   "type": "equation",
+   "content": "k \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": "\nД-во|\nа) "
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = \\sum s^n \\mathbb{P}(X=n) \\xrightarrow{\\text{произв}} \\sum n.s^{n-1} \\mathbb{P}(X=n) \\Big|_{s=1} \\Rightarrow \\sum_{n=0}^\\infty n.\\mathbb{P}(X=n) = \\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": " , ако то е крайно\nб) "
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = \\mathbb{E}s^X \\Rightarrow g_X'(s) = \\frac{d}{ds} \\mathbb{E}s^X = \\mathbb{E}\\frac{d}{ds} s^X = \\mathbb{E} X.s^{X-1}"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "g_X''(s) = \\mathbb{E} X(X-1)s^{X-2}"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = \\mathbb{E}X^2 - (\\mathbb{E}X)^2 = \\mathbb{E}X^2 - (g_X'(1))^2"
+  },
+  {
+   "type": "text",
+   "content": "\n"
+  },
+  {
+   "type": "equation",
+   "content": "g_X''(1) = \\mathbb{E} X(X-1) = \\mathbb{E}X^2 - \\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": " т.е "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X^2 = g_X''(1) + \\mathbb{E}X = g_X''(1) + g_X'(1)"
+  },
+  {
+   "type": "text",
+   "content": " , то\n"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{D}X = g_X''(1) + g_X'(1) - (g_X'(1))^2"
+  },
+  {
+   "type": "text",
+   "content": "\nв) "
+  },
+  {
+   "type": "equation",
+   "content": "1! \\mathbb{P}(X=1) = g_X'(0)"
+  },
+  {
+   "type": "text",
+   "content": " ← просто продължаване\n"
+  },
+  {
+   "type": "equation",
+   "content": "g_X'(s) = \\sum_{n=0}^\\infty n s^{n-1} \\mathbb{P}(X=n) = \\sum_{n=1}^\\infty n.s^{n-1} \\mathbb{P}(X=n) \\xrightarrow{s \\to 0} g_X'(0) = \\mathbb{P}(X=1)"
+  },
+  {
+   "type": "text",
+   "content": "\nСл| Нека "
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": " и "
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": " са целочис. Тогава "
+  },
+  {
+   "type": "equation",
+   "content": "X \\overset{d}{=} Y \\Leftrightarrow g_X = g_Y"
+  },
+  {
+   "type": "text",
+   "content": "\nД-во|\n"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Rightarrow)"
+  },
+  {
+   "type": "text",
+   "content": " "
+  },
+  {
+   "type": "equation",
+   "content": "X \\overset{d}{=} Y"
+  },
+  {
+   "type": "text",
+   "content": " то "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=n) = \\mathbb{P}(Y=n)"
+  },
+  {
+   "type": "text",
+   "content": " , "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall n \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": " .\n"
+  },
+  {
+   "type": "equation",
+   "content": "g_X(s) = \\sum s^n \\mathbb{P}(X=n) = \\sum s^n \\mathbb{P}(Y=n) = g_Y(s)"
+  },
+  {
+   "type": "text",
+   "content": " , за "
+  },
+  {
+   "type": "equation",
+   "content": "s \\in [-1, 1]"
+  },
+  {
+   "type": "text",
+   "content": " .\n"
+  },
+  {
+   "type": "equation",
+   "content": "(\\Leftarrow)"
+  },
+  {
+   "type": "text",
+   "content": " "
+  },
+  {
+   "type": "equation",
+   "content": "g_X = g_Y \\Rightarrow k! \\mathbb{P}(X=k) = g_X^{(k)}(0) = g_Y^{(k)}(0) = k! \\mathbb{P}(Y=k)"
+  },
+  {
+   "type": "text",
+   "content": " , то "
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=k) = \\mathbb{P}(Y=k)"
+  },
+  {
+   "type": "text",
+   "content": " , "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall k \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": " .\n"
+  },
+  {
+   "type": "equation",
+   "content": "\\square"
+  },
+  {
+   "type": "text",
+   "content": "\nДеф| ДСВ "
+  },
+  {
+   "type": "equation",
+   "content": "X_1, \\dots, X_n"
+  },
+  {
+   "type": "text",
+   "content": " или "
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^\\infty"
+  },
+  {
+   "type": "text",
+   "content": " са независими в\nсъвкупност (вече сме дефинирали) или "
+  },
+  {
+   "type": "equation",
+   "content": "\\forall (j_1, \\dots, j_n), \\forall n \\ge 2"
+  },
+  {
+   "type": "text",
+   "content": "\n-6-"
+  }
+ ],
+ "page": 11
+}
