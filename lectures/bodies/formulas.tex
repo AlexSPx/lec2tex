@@ -93,6 +93,13 @@ $\NegBin(1,p) = \Geo(p)$. Множителят $\frac{N-n}{N-1}$ при $\Hyp$ �
         $\mathbb{P}(X \ge m+k \given X \ge m) = \mathbb{P}(X \ge k)$.
   \item \emph{Мода:} за $\Bin(n,p)$ е $\lfloor p(n+1) \rfloor$; за $\Poi(\lambda)$ е $\lfloor \lambda \rfloor$.
   \item \emph{Приближение на Поасон:} при голямо $n$ и малко $p$, $\Bin(n,p) \approx \Poi(np)$.
+  \item \emph{Сума от геометрични с различни параметри} (задачата за колекционера): ако
+        $T_i$ е броят \emph{опити} на $i$-тия етап и $p_i = \frac{n-i+1}{n}$, то
+        \[ \E T = n H_n = n\sum_{k=1}^{n}\frac1k \approx n\ln n + \gamma n, \qquad
+           \Var T = n^2\sum_{k=1}^{n}\frac{1}{k^2} - n H_n \to \frac{\pi^2}{6}n^2 . \]
+        Схемата — етапи, линейност за очакването, независимост за дисперсията — е описана
+        в \crosslecture{supp:collector}{допълнението в лекция 6}. Внимавайте: $\Geo$ брои
+        неуспехи, а тук се броят опити, тоест $T_i = 1 + \Geo(p_i)$ и $\E T_i = 1/p_i$.
 \end{itemize}
 
 \section{Непрекъснати разпределения}
