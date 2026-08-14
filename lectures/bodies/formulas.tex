@@ -72,11 +72,16 @@ $\Bin(n,p)$ & $\dbinom{n}{k} p^k q^{n-k}$, $0 \le k \le n$ & $np$ & $npq$ & $(q+
 $\Geo(p)$ & $q^k p$, $k \ge 0$ & $\dfrac{q}{p}$ & $\dfrac{q}{p^2}$ & $\dfrac{p}{1-qs}$ \\[7pt]
 $\NegBin(r,p)$ & $\dbinom{r+k-1}{k} p^r q^k$, $k \ge 0$ & $\dfrac{rq}{p}$ & $\dfrac{rq}{p^2}$ & $\left(\dfrac{p}{1-qs}\right)^{\! r}$ \\[7pt]
 $\Poi(\lambda)$ & $e^{-\lambda}\dfrac{\lambda^k}{k!}$, $k \ge 0$ & $\lambda$ & $\lambda$ & $e^{\lambda(s-1)}$ \\[7pt]
-$\Hyp(N,M,n)$ & $\dfrac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}}$ & $n\dfrac{M}{N}$ & $n\dfrac{M}{N}\dfrac{N-M}{N}\dfrac{N-n}{N-1}$ & --- \\[7pt]
+$\Hyp(N,M,n)$ & $\dfrac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}}$ ${}^{(*)}$ & $n\dfrac{M}{N}$ & $n\dfrac{M}{N}\dfrac{N-M}{N}\dfrac{N-n}{N-1}$ & --- \\[7pt]
 равномерно в $\{1,\dots,n\}$ & $\dfrac{1}{n}$ & $\dfrac{n+1}{2}$ & $\dfrac{n^2-1}{12}$ & $\dfrac{s(1-s^n)}{n(1-s)}$ \\
 \bottomrule
 \end{tabular}
 \end{center}
+
+\noindent
+${}^{(*)}$ Носителят на $\Hyp$ не е целият интервал $0..n$: изтеглените не могат да
+надхвърлят наличните, нито да са твърде малко, тоест
+$\max(0,\, n-N+M) \le k \le \min(M,\, n)$.
 
 \noindent
 $\Geo$ и $\NegBin$ броят \emph{неуспехите} преди първия (съответно $r$-тия) успех;
