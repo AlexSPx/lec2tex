@@ -1,0 +1,241 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "• Независимост на ДСВ"
+  },
+  {
+   "type": "text",
+   "content": "Деф1 Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ във"
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y"
+  },
+  {
+   "type": "text",
+   "content": "тстк за вс две възм ст-сти"
+  },
+  {
+   "type": "equation",
+   "content": "x_i"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "y_j"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=x_i \\wedge Y=y_j) = \\mathbb{P}(X=x_i)\\mathbb{P}(Y=y_j)"
+  },
+  {
+   "type": "text",
+   "content": "Деф1 (незав в съвкупност) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X_1, \\dots, X_n"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ във"
+  },
+  {
+   "type": "equation",
+   "content": "\\Omega"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава те са незав в съвкупност тстк"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall M \\subseteq \\{1, 2, \\dots, n\\}"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "|M| \\ge 2"
+  },
+  {
+   "type": "text",
+   "content": "и всички възможни ст-сти"
+  },
+  {
+   "type": "equation",
+   "content": "(x_{j_1}, x_{j_2}, \\dots, x_{j_m})"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "|M|=m"
+  },
+  {
+   "type": "text",
+   "content": ","
+  },
+  {
+   "type": "equation",
+   "content": "M=\\{j_1, \\dots, j_m\\}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X_{j_1}=x_{j_1} \\wedge X_{j_2}=x_{j_2} \\wedge \\dots \\wedge X_{j_m}=x_{j_m}) = \\mathbb{P}(X_{j_1}=x_{j_1}) \\dots \\mathbb{P}(X_{j_m}=x_{j_m})"
+  },
+  {
+   "type": "text",
+   "content": "Лекция 5"
+  },
+  {
+   "type": "text",
+   "content": "Деф1 (ф-я на разпределение) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е сл вел. Тогава ф-ята"
+  },
+  {
+   "type": "equation",
+   "content": "F_X(x) = \\mathbb{P}(X < x)"
+  },
+  {
+   "type": "equation",
+   "content": "\\forall x \\in \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "се нарича ф-я на разпр."
+  },
+  {
+   "type": "text",
+   "content": "• Матем. очакване и дисперсия"
+  },
+  {
+   "type": "text",
+   "content": "Деф1 Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е ДСВ. Тогава под очакване на"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "или"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": "е сумата -"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = \\sum x_j \\mathbb{P}(X=x_j) = \\sum x_j p_j"
+  },
+  {
+   "type": "text",
+   "content": ", ако"
+  },
+  {
+   "type": "equation",
+   "content": "\\sum |x_j| p_j < \\infty"
+  },
+  {
+   "type": "text",
+   "content": "(сходяща е)"
+  },
+  {
+   "type": "equation",
+   "content": "\\sum_j (x_j - a)^2 p_j \\xrightarrow{\\min} a = \\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": "(като център на тежестта)"
+  },
+  {
+   "type": "equation",
+   "content": "\\to \\mathbb{P}(X=x_j)"
+  },
+  {
+   "type": "text",
+   "content": "•"
+  },
+  {
+   "type": "equation",
+   "content": "Y = g(X)"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Y = \\mathbb{E}g(X) = \\sum_j g(x_j) \\cdot p_j = \\sum_j y_j \\cdot p_j"
+  },
+  {
+   "type": "text",
+   "content": "•"
+  },
+  {
+   "type": "equation",
+   "content": "Z = g(X,Y)"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Z = \\mathbb{E}g(X,Y) = \\sum_{i,j} g(x_i, y_j) \\cdot \\mathbb{P}(X=x_i, Y=y_j)"
+  }
+ ],
+ "page": 7
+}

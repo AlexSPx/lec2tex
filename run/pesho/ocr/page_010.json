@@ -1,0 +1,181 @@
+{
+ "items": [
+  {
+   "type": "equation",
+   "content": "(X_{j_1}, \\dots, X_{j_n})"
+  },
+  {
+   "type": "text",
+   "content": "са независими в съвкупност."
+  },
+  {
+   "type": "text",
+   "content": "Деф| ДСВ"
+  },
+  {
+   "type": "equation",
+   "content": "X_1, \\dots, X_n"
+  },
+  {
+   "type": "text",
+   "content": "или"
+  },
+  {
+   "type": "equation",
+   "content": "(X_i)_{i=1}^{\\infty}"
+  },
+  {
+   "type": "text",
+   "content": "имат еднакво"
+  },
+  {
+   "type": "text",
+   "content": "разпределение, ако"
+  },
+  {
+   "type": "text",
+   "content": "1)"
+  },
+  {
+   "type": "equation",
+   "content": "X_i \\overset{d}{=} X_j \\ , \\ 1 \\le i, j \\le n"
+  },
+  {
+   "type": "text",
+   "content": "2)"
+  },
+  {
+   "type": "equation",
+   "content": "X_i \\overset{d}{=} X_j \\ , \\ 1 \\le i, j \\le \\infty"
+  },
+  {
+   "type": "text",
+   "content": "Теорема| Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X_1, \\dots, X_n"
+  },
+  {
+   "type": "text",
+   "content": "са незав. в съвкупност"
+  },
+  {
+   "type": "text",
+   "content": "целочисл. сл. вел. Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "Y = X_1 + \\dots + X_n"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "g_Y(s) = \\prod_{i=1}^n g_{X_i}(s)"
+  },
+  {
+   "type": "text",
+   "content": "Ако в допълнение, ако са равни по разпределение,"
+  },
+  {
+   "type": "text",
+   "content": "то"
+  },
+  {
+   "type": "equation",
+   "content": "g_Y(s) = (g_{X_1}(s))^n"
+  },
+  {
+   "type": "text",
+   "content": ", т.к"
+  },
+  {
+   "type": "equation",
+   "content": "g_{X_i} = g_{X_j} \\ , \\ \\forall 1 \\le i, j \\le n"
+  },
+  {
+   "type": "text",
+   "content": "Д-во|"
+  },
+  {
+   "type": "equation",
+   "content": "n=2"
+  },
+  {
+   "type": "equation",
+   "content": "Y = X_1 + X_2"
+  },
+  {
+   "type": "equation",
+   "content": "g_Y(s) = \\sum s^n \\mathbb{P}(X_1 + X_2 = n) = \\sum_{i}^{\\infty} \\sum_{j}^{\\infty} s^{i+j} \\mathbb{P}(X_1 = i, X_2 = j) ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\sum_{i}^{\\infty} \\sum_{j}^{\\infty} s^{i+j} \\mathbb{P}(X_1 = i) \\mathbb{P}(X_2 = j) = \\sum_i s^i \\mathbb{P}(X_1 = i) \\cdot \\sum_j s^j \\mathbb{P}(X_2 = j) ="
+  },
+  {
+   "type": "equation",
+   "content": "= g_{X_1}(s) \\cdot g_{X_2}(s)"
+  },
+  {
+   "type": "text",
+   "content": "Схема на Бернули"
+  },
+  {
+   "type": "equation",
+   "content": "(X_j)_{j=1}^{\\infty}"
+  },
+  {
+   "type": "text",
+   "content": "са незав. в съвк. и равни по разпр. , т.е"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X_1 = 1) = p = \\mathbb{P}(X_j = 1) \\ , \\ j \\ge 1 \\to"
+  },
+  {
+   "type": "text",
+   "content": "вероят. за успех"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X_1 = 0) = 1-p = q = \\mathbb{P}(X_j = 0) \\ , \\ j \\ge 1"
+  },
+  {
+   "type": "text",
+   "content": "А| Разпред. на Бернули - това е"
+  },
+  {
+   "type": "equation",
+   "content": "X_1"
+  },
+  {
+   "type": "text",
+   "content": "в схемата на Берн."
+  },
+  {
+   "type": "equation",
+   "content": "X_1 \\sim Ber(p)"
+  },
+  {
+   "type": "equation",
+   "content": "\\begin{array}{c|c|c} X_1 & 0 & 1 \\\\ \\hline \\mathbb{P} & q & p \\end{array}"
+  },
+  {
+   "type": "equation",
+   "content": "\\cdot \\mathbb{E}X = p"
+  },
+  {
+   "type": "equation",
+   "content": "\\cdot g_{X_1}(s) = q + ps"
+  },
+  {
+   "type": "equation",
+   "content": "\\cdot \\mathbb{D}X = p.q"
+  }
+ ],
+ "page": 10
+}

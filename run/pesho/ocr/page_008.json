@@ -1,0 +1,277 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "числата са разл"
+  },
+  {
+   "type": "equation",
+   "content": "V"
+  },
+  {
+   "type": "text",
+   "content": "- вер пр-во"
+  },
+  {
+   "type": "equation",
+   "content": "\\bar{X} \\begin{cases} (x_1, \\dots, x_n) \\\\ (x_1, x_2, \\dots) \\end{cases}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{H} = \\begin{cases} (H_1, \\dots, H_n) \\\\ (H_1, \\dots, H_n, \\dots) \\end{cases}"
+  },
+  {
+   "type": "text",
+   "content": "където"
+  },
+  {
+   "type": "equation",
+   "content": "\\bigcup_{i=1}^{n(\\infty)} H_i = \\Omega"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "H_i \\in \\mathcal{A}"
+  },
+  {
+   "type": "text",
+   "content": "(означения за после)"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (дискр сл вел) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "V"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\bar{X}"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathcal{H}"
+  },
+  {
+   "type": "text",
+   "content": "са дадени."
+  },
+  {
+   "type": "text",
+   "content": "Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "X(\\omega) = \\sum_j x_j \\cdot 1_{H_j}(\\omega)"
+  },
+  {
+   "type": "text",
+   "content": "(или"
+  },
+  {
+   "type": "equation",
+   "content": "\\infty"
+  },
+  {
+   "type": "text",
+   "content": ") се нарича"
+  },
+  {
+   "type": "text",
+   "content": "дискр. сл. вел."
+  },
+  {
+   "type": "equation",
+   "content": "X = \\sum_j x_j 1_{H_j}"
+  },
+  {
+   "type": "text",
+   "content": "- знаем че е сл вел, защото индикаторната ф-я е сл вел, после умножението с константа го запазва и сума от сл вел е сл вел."
+  },
+  {
+   "type": "equation",
+   "content": "H_j = \\{X = x_j\\}, \\mathbb{P}(H_j) = \\mathbb{P}(X = x_j) = p_j"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (разпред на ДСВ). Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е дискр сл. вел."
+  },
+  {
+   "type": "text",
+   "content": "Тогава от разпределение на"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "разбираме таблицата"
+  },
+  {
+   "type": "equation",
+   "content": "\\begin{array}{c|c|c|c|c|c} X & x_1 & x_2 & \\dots & x_n & \\dots \\\\ \\hline \\mathbb{P} & p_1 & p_2 & \\dots & p_n & \\dots \\end{array}"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=x_j) = p_j \\ge 0"
+  },
+  {
+   "type": "equation",
+   "content": "\\sum_j p_j = 1"
+  },
+  {
+   "type": "text",
+   "content": "Деф| (равенство по разпр) Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ. Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "X \\stackrel{d}{=} Y"
+  },
+  {
+   "type": "text",
+   "content": ", ако таблицата на"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "съвпада с разпр на"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X=x_j) = \\mathbb{P}(Y=y_j) = p_j \\quad \\forall j"
+  },
+  {
+   "type": "text",
+   "content": "Деф|"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е ДСВ"
+  },
+  {
+   "type": "equation",
+   "content": "\\begin{array}{c|c|c|c|c|c} X & x_1 & x_2 & \\dots & x_n & \\dots \\\\ \\hline \\mathbb{P} & p_1 & p_2 & \\dots & p_n & \\dots \\end{array}"
+  },
+  {
+   "type": "text",
+   "content": "• Смяна на променливите на ДСВ"
+  },
+  {
+   "type": "equation",
+   "content": "g: \\mathbb{R} \\to \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е ДСВ, то"
+  },
+  {
+   "type": "equation",
+   "content": "Y = g(X)"
+  },
+  {
+   "type": "text",
+   "content": "е ДСВ"
+  },
+  {
+   "type": "equation",
+   "content": "Y = \\sum_j g(x_j) 1_{H_j}"
+  },
+  {
+   "type": "equation",
+   "content": "y_j = g(x_j)"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(Y=y_j) = \\mathbb{P}(Y=g(x_j))"
+  },
+  {
+   "type": "text",
+   "content": "+ като двете"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "трябва да са в едно вер пр-во"
+  },
+  {
+   "type": "text",
+   "content": "ако имаме смяна с две или повече пром."
+  },
+  {
+   "type": "text",
+   "content": "- 4 -"
+  }
+ ],
+ "page": 8
+}

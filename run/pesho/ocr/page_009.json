@@ -1,0 +1,309 @@
+{
+ "items": [
+  {
+   "type": "text",
+   "content": "Лема |"
+  },
+  {
+   "type": "text",
+   "content": "Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "Y"
+  },
+  {
+   "type": "text",
+   "content": "са ДСВ, т.е"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": "и"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Y"
+  },
+  {
+   "type": "text",
+   "content": "съществуват:"
+  },
+  {
+   "type": "text",
+   "content": "а)"
+  },
+  {
+   "type": "equation",
+   "content": "X = C"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = C"
+  },
+  {
+   "type": "text",
+   "content": "(константа)"
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "c \\in \\mathbb{R}"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}cX = c \\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}(X+Y) = \\mathbb{E}X + \\mathbb{E}Y"
+  },
+  {
+   "type": "text",
+   "content": "(линейност)"
+  },
+  {
+   "type": "text",
+   "content": "г) ако"
+  },
+  {
+   "type": "equation",
+   "content": "X \\perp\\!\\!\\!\\perp Y"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}XY = \\mathbb{E}X \\mathbb{E}Y"
+  },
+  {
+   "type": "text",
+   "content": "Д-во |"
+  },
+  {
+   "type": "text",
+   "content": "а)"
+  },
+  {
+   "type": "equation",
+   "content": "X = C"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = C \\mathbb{P}(X=C) = C"
+  },
+  {
+   "type": "text",
+   "content": "б)"
+  },
+  {
+   "type": "equation",
+   "content": "Z = cX"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Z = \\mathbb{E}cX = \\sum_j g(x_j)p_j = \\sum c x_j p_j = c \\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": "в)"
+  },
+  {
+   "type": "equation",
+   "content": "Z = X+Y"
+  },
+  {
+   "type": "text",
+   "content": ", то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Z = \\mathbb{E}[X+Y] = \\sum_{i,j} g(x_i, y_j) \\mathbb{P}(X=x_i, Y=y_j) ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\sum_{i,j} (x_i+y_j) \\mathbb{P}(X=x_i, Y=y_j) = \\sum_{i,j} x_i \\mathbb{P}(X=x_i, Y=y_j) + \\sum_{i,j} y_j \\mathbb{P}(X=x_i, Y=y_j)"
+  },
+  {
+   "type": "equation",
+   "content": "= \\sum_i x_i \\sum_j \\mathbb{P}(X=x_i, Y=y_j) + \\sum_j y_j \\sum_i \\mathbb{P}(X=x_i, Y=y_j) ="
+  },
+  {
+   "type": "equation",
+   "content": "= \\sum_i x_i \\mathbb{P}(X=x_i) + \\sum_j y_j \\mathbb{P}(Y=y_j) = \\mathbb{E}X + \\mathbb{E}Y"
+  },
+  {
+   "type": "equation",
+   "content": "\\{X=x_i\\} = \\{X=x_i\\} \\cap \\Omega = \\{X=x_i\\} \\cap \\bigcup_j \\{Y=y_j\\}"
+  },
+  {
+   "type": "text",
+   "content": "-> пълна група от събития"
+  },
+  {
+   "type": "equation",
+   "content": "= \\bigcup_j \\{X=x_i, Y=y_j\\}"
+  },
+  {
+   "type": "text",
+   "content": "-> илюстрация"
+  },
+  {
+   "type": "text",
+   "content": "г)"
+  },
+  {
+   "type": "equation",
+   "content": "Z = XY \\quad g(x,y) = xy"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}Z = \\mathbb{E}XY = \\sum_{i,j} g(x_i, y_j) \\mathbb{P}(X=x_i, Y=y_j) = \\sum_{i,j} x_i y_j \\mathbb{P}(X=x_i) \\mathbb{P}(Y=y_j)"
+  },
+  {
+   "type": "equation",
+   "content": "= \\sum_i x_i \\mathbb{P}(X=x_i) \\sum_j y_j \\mathbb{P}(Y=y_j) = \\mathbb{E}X \\mathbb{E}Y"
+  },
+  {
+   "type": "equation",
+   "content": "\\square"
+  },
+  {
+   "type": "text",
+   "content": "Сл |"
+  },
+  {
+   "type": "text",
+   "content": "Ако"
+  },
+  {
+   "type": "equation",
+   "content": "X \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": "("
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{P}(X \\ge 0)"
+  },
+  {
+   "type": "text",
+   "content": "), то"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": "Д-во |"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X = \\sum_j x_j p_j \\ge 0"
+  },
+  {
+   "type": "text",
+   "content": ", защото"
+  },
+  {
+   "type": "equation",
+   "content": "x_j \\ge 0 \\quad \\forall j"
+  },
+  {
+   "type": "text",
+   "content": "Деф |"
+  },
+  {
+   "type": "text",
+   "content": "Нека"
+  },
+  {
+   "type": "equation",
+   "content": "X"
+  },
+  {
+   "type": "text",
+   "content": "е ДСВ с очакване"
+  },
+  {
+   "type": "equation",
+   "content": "\\mathbb{E}X"
+  },
+  {
+   "type": "text",
+   "content": ". Тогава"
+  },
+  {
+   "type": "equation",
+   "content": "DX := \\sum_j (x_j - \\mathbb{E}X)^2 p_j"
+  },
+  {
+   "type": "text",
+   "content": "стига"
+  },
+  {
+   "type": "equation",
+   "content": "DX < \\infty"
+  },
+  {
+   "type": "equation",
+   "content": "DX = Var X"
+  },
+  {
+   "type": "equation",
+   "content": "DX = \\min_{a \\in \\mathbb{R}} \\sum_j (x_j - a)^2 p_j = \\sum_j (x_j - \\mathbb{E}X)^2 p_j = \\mathbb{E}(X - \\mathbb{E}X)^2"
+  },
+  {
+   "type": "equation",
+   "content": "\\sqrt{DX}"
+  },
+  {
+   "type": "text",
+   "content": "-> стандартно отклонение"
+  },
+  {
+   "type": "text",
+   "content": "-5-"
+  }
+ ],
+ "page": 9
+}
