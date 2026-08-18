@@ -62,5 +62,11 @@ Thumbs.db
 *.fdb_latexmk
 
 # Preprocessed page images for the handwritten notes: derived from
-# pesho-stat-1.pdf by scripts/ocr_pesho.py, regenerate rather than track.
+# refs/pesho-stat-1.pdf by scripts/ocr_pesho.py, regenerate rather than track.
 /run/pesho/prep/
+
+# The book is compiled inside lectures/ but belongs at the repository root as
+# probability-statistics-bg.pdf; both build_lectures.py and check_refs.py move
+# it there. Never track a copy left behind by a bare tectonic run.
+/lectures/lectures_full.pdf
+/lectures/all_lectures.pdf

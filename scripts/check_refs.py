@@ -30,6 +30,9 @@ import re
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from build_lectures import BOOK_PDF  # noqa: E402  (one definition of the name)
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEC = os.path.join(ROOT, "lectures")
 AUX = os.path.join(LEC, "lectures_full.aux")
@@ -59,6 +62,13 @@ def main():
     compile_once()
     if not os.path.exists(AUX):
         sys.exit("could not produce lectures_full.aux")
+
+    # This script compiles as well, so it owns the freshest PDF by the time it
+    # gets here. Leaving it in lectures/ would strand the root deliverable one
+    # edit behind, so move it the same way build_lectures.py does.
+    built = os.path.join(LEC, "lectures_full.pdf")
+    if os.path.exists(built):
+        os.replace(built, BOOK_PDF)
 
     aux = open(AUX, encoding="utf-8").read()
 

@@ -9,6 +9,9 @@ lectures/preamble.tex. This script writes the thin drivers around them:
                                table of contents, continuous pagination,
                                running heads, per-lecture \\chapter
 
+The compiled book does not stay in lectures/ — it is moved to the repository
+root as probability-statistics-bg.pdf, which is the deliverable.
+
 and then runs tectonic over whichever of those you ask for.
 
   python3 scripts/build_lectures.py            # drivers + full book
@@ -19,6 +22,7 @@ import os, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEC = os.path.join(ROOT, "lectures")
+BOOK_PDF = os.path.join(ROOT, "probability-statistics-bg.pdf")
 
 TITLES = {
     "01": "Въведение. Случайни експерименти, събития и \\texorpdfstring{$\\sigma$}{σ}-алгебри",
@@ -189,6 +193,12 @@ def main():
             print(r.stderr[-4000:])
             sys.exit("FAILED: %s" % t)
         print("  ok — %d over/underfull boxes" % len(warn))
+        if t == "lectures_full.tex":
+            # The book is the repository's deliverable, so it lives at the root
+            # under a name that means something to whoever downloads it, not
+            # buried next to its own sources as "lectures_full.pdf".
+            os.replace(os.path.join(LEC, "lectures_full.pdf"), BOOK_PDF)
+            print("  ->", os.path.basename(BOOK_PDF))
 
 
 if __name__ == "__main__":

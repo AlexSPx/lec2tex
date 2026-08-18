@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""OCR the handwritten lecture notes in pesho-stat-1.pdf.
+"""OCR the handwritten lecture notes in refs/pesho-stat-1.pdf.
 
 The source is 37 phone photos of a spiral notebook: Bulgarian cursive on
 tinted ruled paper, shot at an angle, ~1536x2048 each. Ordinary OCR engines
@@ -39,7 +39,7 @@ import pymupdf
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-SRC_PDF = os.path.join(ROOT, "pesho-stat-1.pdf")
+SRC_PDF = os.path.join(ROOT, "refs", "pesho-stat-1.pdf")
 OUT = os.path.join(ROOT, "run", "pesho")
 
 PROMPT = """Транскрибирай тази снимка на ръкописни лекционни записки по теория на вероятностите и статистика. Текстът е на български, писан на ръка с курсив.
