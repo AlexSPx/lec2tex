@@ -33,7 +33,7 @@ Every claim below is marked with a verification status:
 ## 1. Repository orientation
 
 ```
-probability-statistics-bg.pdf   the compiled book (168 pp.), at the repo root
+probability-statistics-bg.pdf   the compiled book (172 pp.), at the repo root
 lectures/
   preamble.tex            shared style: fonts, polyglossia, tcolorbox, amsthm envs
   bodies/lecture_NN.tex   CONTENT — the source of truth. Edit here.

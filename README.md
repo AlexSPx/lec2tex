@@ -15,7 +15,7 @@ first draft. `lectures/` and `scripts/` are the edited book that draft became �
 see [The lecture book](#the-lecture-book-lectures) below.
 
 ```
-probability-statistics-bg.pdf   THE BOOK — 168 pages, the deliverable
+probability-statistics-bg.pdf   THE BOOK — 172 pages, the deliverable
 lectures/                       its LaTeX sources (and the 15 standalone PDFs)
 scripts/                        build, table generation, reference check, OCR
 src/                            the video→draft pipeline
@@ -50,11 +50,11 @@ cross-platform binary) with a Docker/`pdflatex` fallback.
 ## The lecture book (`lectures/`)
 
 The pipeline's raw output is a starting point, not a deliverable. `lectures/`
-carries the edited result: a 168-page Bulgarian book covering 14 lectures plus
-one combinatorics упражнение. On one shared counter it runs 149 numbered
-statements — 19 theorems, 60 definitions, 38 propositions, 8 corollaries,
-2 lemmas and 22 supplements, 31 of them marked landmark — alongside 47 proofs,
-44 examples and 21 TikZ figures. Two appendices close it: a formula sheet
+carries the edited result: a 172-page Bulgarian book covering 14 lectures plus
+one combinatorics упражнение. On one shared counter it runs 151 numbered
+statements — 19 theorems, 60 definitions, 39 propositions, 8 corollaries,
+2 lemmas and 23 supplements, 31 of them marked landmark — alongside 47 proofs,
+44 examples and 22 TikZ figures. Two appendices close it: a formula sheet
 (Приложение А) and statistical tables (Приложение Б).
 
 ### What is source and what is generated
@@ -98,7 +98,7 @@ Four tiers, so the book can be skimmed rather than only read:
   `Твърдение 4.7` is unambiguous and `\label` / `\ref` work.
 - Proofs are `\begin{proof}`, always *outside* the statement box, closed by an
   automatic flush-right □.
-- Landmark starring is a signal and dilutes if overused: 31 of 149 statements
+- Landmark starring is a signal and dilutes if overused: 31 of 151 statements
   are starred (21%). Keep it near that.
 - Defined terms in `\emph{}`. Bulgarian quotation marks `„ “`. Decimal comma,
   braced in math (`$0{,}95$`) so TeX does not set it as punctuation.
