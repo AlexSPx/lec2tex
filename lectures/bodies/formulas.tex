@@ -177,6 +177,27 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
   \item \emph{Двумерни:} $f_X(x) = \int f_{X,Y}(x,y)\,dy$ (маргинална);\quad
         $X \perp\!\!\!\perp Y \iff f_{X,Y}(x,y) = f_X(x) f_Y(y)$.
   \item \emph{Сума от независими:} $f_{X+Y}(z) = \int f_X(x) f_Y(z-x)\,dx$ (свъртка).
+  \item \emph{Условна плътност:} $f_{Y \given X}(y \given x) = f_{X,Y}(x,y)/f_X(x)$, откъдето
+        $\E[Y \given X = x] = \int y\, f_{Y \given X}(y \given x)\,dy$. Практически: фиксираме
+        $x$, взимаме сечението на съвместната плътност и го нормираме — знаменателят е
+        точно интегралът на сечението.
+  \item \emph{Смяна на променливите в две измерения.} За взаимно еднозначно
+        $(z,w) = g(x,y)$ с обратно $(x,y) = h(z,w)$:
+        \[ f_{Z,W}(z,w) = f_{X,Y}\big(h(z,w)\big)\,|J|, \qquad
+           J = \det\begin{pmatrix}
+             \partial x/\partial z & \partial x/\partial w \\
+             \partial y/\partial z & \partial y/\partial w
+           \end{pmatrix}, \]
+        след което $f_Z(z) = \int f_{Z,W}(z,w)\,dw$. Готови якобиани:
+        \[ \begin{array}{@{}lll@{}}
+             Z = X+Y, & W = X: & |J| = 1; \\
+             Z = XY,  & W = X: & |J| = 1/|w|; \\
+             Z = X/Y, & W = Y: & |J| = |w| .
+           \end{array} \]
+        Границите са цялата трудност: \emph{всяко} неравенство от дефиниционната област се
+        преписва в новите променливи и получената система се решава за $w$ при фиксирано $z$
+        — оттам излизат и границите на интеграла, и областта на $z$. Решен пример с
+        нетривиална област — \crosslecture{supp:joint-worked}{допълнението в лекция 9}.
 \end{itemize}
 
 \subsection*{Максимум и минимум на независими величини}
