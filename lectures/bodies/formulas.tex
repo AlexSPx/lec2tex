@@ -98,6 +98,14 @@ $\NegBin(1,p) = \Geo(p)$. Множителят $\frac{N-n}{N-1}$ при $\Hyp$ �
   \item \emph{Липса на памет} (само $\Geo$ сред дискретните):
         $\mathbb{P}(X \ge m+k \given X \ge m) = \mathbb{P}(X \ge k)$.
   \item \emph{Мода:} за $\Bin(n,p)$ е $\lfloor p(n+1) \rfloor$; за $\Poi(\lambda)$ е $\lfloor \lambda \rfloor$.
+  \item \emph{Сума със случаен брой събираеми:} при $N$ независимо от независимите еднакво
+        разпределени $X_j$ и $S_N = \sum_{j=1}^N X_j$ пораждащите функции се \emph{съставят}:
+        \[ g_{S_N}(s) = g_N\big(g_{X_1}(s)\big), \qquad
+           \E S_N = \E N\,\E X_1, \qquad
+           \Var S_N = \E N \Var X_1 + \Var N (\E X_1)^2 . \]
+        Оттук прореждането на $\Poi(\lambda)$ с $\Ber(p)$ пада на един ред:
+        $e^{\lambda(q+ps-1)} = e^{\lambda p(s-1)}$. Вж.
+        \crosslecture{supp:random-sum}{допълнението в лекция 6}.
   \item \emph{Приближение на Поасон:} при голямо $n$ и малко $p$, $\Bin(n,p) \approx \Poi(np)$.
   \item \emph{Прореждане на Поасоново:} ако $N \sim \Poi(\lambda)$ и всеки от $N$-те обекта
         независимо се маркира с вероятност $p$, то броят маркирани $M \sim \Poi(\lambda p)$,
