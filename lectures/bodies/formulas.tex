@@ -49,6 +49,13 @@
   \item \emph{Верижно правило:}
         $\mathbb{P}(A_1 \cap \dots \cap A_n) = \mathbb{P}(A_1)\mathbb{P}(A_2 \given A_1)\cdots
          \mathbb{P}(A_n \given A_1 \cap \dots \cap A_{n-1})$.
+  \item \emph{Условна независимост:} $\mathbb{P}(A \cap B \given C) = \mathbb{P}(A \given C)\mathbb{P}(B \given C)$
+        е \emph{друго} свойство от независимостта на $A$ и $B$ — нито едното не влече другото.
+        В примера с двата зара $A \perp\!\!\!\perp B$, но при условие $C$ е в сила $A \iff B$.
+  \item \emph{Пълна вероятност по непрекъснат параметър:}
+        $\mathbb{P}(A) = \int \mathbb{P}(A \given \Theta = \theta) f_\Theta(\theta)\,d\theta$ —
+        така се смятат смеси (случаен параметър). Вж.
+        \crosslecture{supp:cond-indep}{допълнението в лекция 3}.
   \item \emph{Формула за пълната вероятност:} при пълна група $\{H_i\}$ с $\mathbb{P}(H_i)>0$,
         $\displaystyle \mathbb{P}(A) = \sum_i \mathbb{P}(A \given H_i)\,\mathbb{P}(H_i)$.
   \item \emph{Формула на Бейс:}
@@ -128,6 +135,19 @@ $\NegBin(1,p) = \Geo(p)$. Множителят $\frac{N-n}{N-1}$ при $\Hyp$ �
         $\mathbb{P}(S_n = k) = \frac{1}{n+1}$ за всяко $k$ — $S_n$ е \emph{равномерно} върху
         $\{0,1,\dots,n\}$. Оттук и правилото за наследяване на Лаплас:
         \[ \mathbb{P}(\text{следващото е успех} \given S_n = k) = \frac{k+1}{n+2} . \]
+\end{itemize}
+
+\begin{itemize}\itemsep2pt
+  \item \emph{Линейна рекурсия с неподвижна точка:} ако $p_{n+1} = a\,p_n + b$ с $|a| < 1$, то
+        неподвижната точка е $p^{*} = \dfrac{b}{1-a}$ и
+        \[ p_n = p^{*} + (p_0 - p^{*})\,a^{n} \;\xrightarrow[n\to\infty]{}\; p^{*} . \]
+        Типично приложение: вероятност за връщане в изходно състояние при разходка по краен
+        граф. Например при разходка по върховете на равностранен триъгълник
+        $p_{n+1} = \frac{1-p_n}{2}$, тоест $a = -\frac12$, $b = \frac12$, $p^{*} = \frac13$ и
+        $p_n = \frac13 + \frac23\left(-\frac12\right)^n \to \frac13$.
+  \item \emph{Афинна замяна при нормално приближение:} ако $S \approx N(\mu, \sigma^2)$, то
+        $aS + b \approx N(a\mu + b,\ a^2\sigma^2)$. Затова „брой загубени“ $= n - S$ и „брой думи“
+        $= (n-S)/6$ се смятат направо, без нова ЦГТ.
 \end{itemize}
 
 \section{Непрекъснати разпределения}
