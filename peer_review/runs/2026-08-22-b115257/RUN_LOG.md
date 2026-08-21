@@ -264,3 +264,11 @@
 - Formula evidence for expectation, pool testing, and variance was checked; a
   blank first OCR frame was handled with transcript/source agreement.
 - Started cross-book notation and convention audit.
+
+## 2026-08-22 — Lecture 08 fidelity review complete
+
+- Canonical package contains 14 Stage A entries, all 8 blind verdicts, and 4
+  independent fidelity gaps.
+- An ad hoc new-findings filename and two transient jq syntax failures were
+  corrected and logged; final validation passed.
+- Started cross-book dependency and theorem-use audit.

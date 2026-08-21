@@ -1,0 +1,17 @@
+{
+  "agent": "lecture_08_fidelity",
+  "scope": "lectures/bodies/lecture_08.tex; run/lecture_08/audio/transcript.json; selected run/lecture_08/ocr frames; blind findings in agents/lecture_08_math/findings.jsonl",
+  "status": "complete",
+  "rubric_read": true,
+  "sections": {
+    "independent_source_map": "completed",
+    "blind_finding_adjudication": "completed",
+    "canonical_artifact_correction": "completed"
+  },
+  "unfinished_sections": [],
+  "source_edited": false,
+  "inventory_entries": 14,
+  "blind_verdict_entries": 8,
+  "new_finding_entries": 4,
+  "coverage_complete": true
+}
