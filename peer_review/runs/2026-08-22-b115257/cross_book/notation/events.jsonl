@@ -1,0 +1,5 @@
+{"event":"started","scope":"all 15 lecture bodies plus formulas, frontmatter, preamble","source_root":"lectures"}
+{"event":"source_path_resolution","detail":"Requested bodies paths resolve in this workspace as lectures/bodies/*.tex; reviewed those source files."}
+{"event":"review_evidence_loaded","detail":"Completed math agent findings and completed fidelity verdicts in run 2026-08-22-b115257 were consulted; no remediation file or Git history was read."}
+{"event":"coverage_complete","files_reviewed":18,"lecture_bodies_reviewed":15}
+{"event":"validation_complete","json_files":1,"jsonl_files":3,"records":{"coverage":18,"findings":8,"events":5}}

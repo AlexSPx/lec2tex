@@ -1,0 +1,18 @@
+{"file":"lectures/bodies/lecture_01.tex","lines":328,"status":"reviewed","topics":["measurability","events","independence baseline"]}
+{"file":"lectures/bodies/lecture_02.tex","lines":239,"status":"reviewed","topics":["probability space","conditional probability"]}
+{"file":"lectures/bodies/lecture_03.tex","lines":471,"status":"reviewed","topics":["conditional bar","independence","Bayes","continuous conditioning"]}
+{"file":"lectures/bodies/lecture_04.tex","lines":281,"status":"reviewed","topics":["random-variable measurability","indicator","discrete distributions"]}
+{"file":"lectures/bodies/lecture_05.tex","lines":473,"status":"reviewed","topics":["strict CDF","expectation","variance"]}
+{"file":"lectures/bodies/lecture_06.tex","lines":477,"status":"reviewed","topics":["Bernoulli","geometric","negative binomial","PGF"]}
+{"file":"lectures/bodies/lecture_07.tex","lines":646,"status":"reviewed","topics":["joint CDF","covariance","correlation","conditional expectation"]}
+{"file":"lectures/bodies/lecture_08.tex","lines":466,"status":"reviewed","topics":["conditional expectation","conditional distributions","continuous CDF"]}
+{"file":"lectures/bodies/lecture_09.tex","lines":745,"status":"reviewed","topics":["normal","exponential","Gamma rate","chi-square"]}
+{"file":"lectures/bodies/lecture_10.tex","lines":415,"status":"reviewed","topics":["convergence","LLN","indicator"]}
+{"file":"lectures/bodies/lecture_11.tex","lines":319,"status":"reviewed","topics":["CLT","MGF","normal","Gamma rate"]}
+{"file":"lectures/bodies/lecture_12.tex","lines":406,"status":"reviewed","topics":["sampling","statistics symbols","MLE","sample variance"]}
+{"file":"lectures/bodies/lecture_13.tex","lines":470,"status":"reviewed","topics":["quantiles","normal","chi-square","Student t"]}
+{"file":"lectures/bodies/lecture_14.tex","lines":251,"status":"reviewed","topics":["regression","bar notation","normal","chi-square","Student t"]}
+{"file":"lectures/bodies/lecture_15.tex","lines":389,"status":"reviewed","topics":["random-walk notation","convergence symbol only"]}
+{"file":"lectures/bodies/formulas.tex","lines":478,"status":"reviewed","topics":["canonical appendix","all audited convention families"]}
+{"file":"lectures/bodies/frontmatter.tex","lines":85,"status":"reviewed","topics":["notation guide","distribution names","statistics symbols"]}
+{"file":"lectures/preamble.tex","lines":205,"status":"reviewed","topics":["semantic macro definitions","distribution operators"]}

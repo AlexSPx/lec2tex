@@ -281,3 +281,10 @@
 - All 15 lectures now have accepted fidelity packages; invalidated attempts for
   Lectures 06 and 12 remain preserved but excluded.
 - Started cross-book formulas, examples, exercises, and appendix audit.
+
+## 2026-08-22 — cross-book notation audit complete
+
+- Covered all 15 lecture bodies plus formulas, front matter, and preamble.
+- Findings: P0=0, P1=2, P2=6, P3=0; all reported high confidence.
+- No source edits, path failures, or validation failures.
+- Started rendered-PDF and reference-integrity audit using the PDF workflow.
