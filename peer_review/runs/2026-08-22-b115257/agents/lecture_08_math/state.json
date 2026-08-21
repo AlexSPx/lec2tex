@@ -1,0 +1,19 @@
+{
+  "agent": "lecture_08_math",
+  "scope": "lectures/bodies/lecture_08.tex; lectures/preamble.tex semantics; lectures/lecture_08.tex standalone wrapper",
+  "status": "complete",
+  "rubric_read": true,
+  "sections": {
+    "conditional_expectation": "completed",
+    "conditional_and_multinomial_distributions": "completed",
+    "continuous_density_cdf": "completed",
+    "transformations_and_order_statistics": "completed",
+    "moments_uniform_exercises": "completed"
+  },
+  "unfinished_sections": [
+    
+  ],
+  "source_edited": false,
+  "finding_totals": {"P0": 0, "P1": 3, "P2": 5, "P3": 0},
+  "coverage_complete": true
+}

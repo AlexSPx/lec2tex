@@ -1,0 +1,10 @@
+{"event":"started","scope":"lectures/bodies/lecture_10.tex; notation semantics in lectures/preamble.tex","status":"in_progress"}
+{"event":"inspected","file":"peer_review/runs/2026-08-22-b115257/rubric.md","check":"read complete blind-mathematical rubric before substantive review"}
+{"event":"scope_deviation","detail":"An initial filename-discovery command was overbroad and listed peer-review agent artifact paths; their contents were not opened or used. Subsequent work was restricted to the assigned lecture, preamble, rubric, and own audit directory."}
+{"event":"inspected","file":"lectures/preamble.tex","lines":"23-40","check":"verified notation: \\E is expectation, \\Var is variance, \\ind is indicator; no hidden mathematical semantics alter Lecture 10 claims"}
+{"event":"inspected","file":"lectures/bodies/lecture_10.tex","lines":"1-415","check":"line-by-line review of all prose, displays, definitions, statements, proofs, examples, supplements, and exercises"}
+{"event":"checked","topic":"a.s. and probability convergence","result":"definitions, Borel--Cantelli examples, countable-threshold reduction, and a.s.=>probability proof are correct; endpoint defect recorded for typewriter example"}
+{"event":"checked","topic":"distribution convergence","result":"definition, probability=>distribution sandwich proof, constant-limit converse idea, and independent-normal counterexample are mathematically valid under the explicitly stated strict-CDF convention"}
+{"event":"checked","topic":"Markov/Chebyshev","result":"Markov and direct Chebyshev proofs are valid for their positive-threshold domains; finite-moment and zero-variance edge cases recorded"}
+{"event":"checked","topic":"LLN","result":"iid integrable weak and strong laws are correctly stated; Chebyshev proof correctly establishes the finite-variance special case; applications omit needed sampling hypotheses"}
+{"event":"completed","status":"complete","findings":5,"failures":0,"retries":0,"uncertainties":1}

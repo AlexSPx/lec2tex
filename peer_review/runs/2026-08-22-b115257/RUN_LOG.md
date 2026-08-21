@@ -112,3 +112,29 @@
 - Toto and Bayes calculations were independently confirmed.
 - A JSON validation retry was logged; no unresolved failures.
 - Started Lecture 10, the final blind mathematical unit.
+
+## 2026-08-22 — Lecture 05 blind review complete; fidelity phase begins
+
+- Candidate findings: P0=0, P1=2, P2=2, P3=0.
+- Complete coverage through all 473 lines; the pool-testing optimum was
+  numerically confirmed.
+- Added fidelity rubric v1.
+- Started a fresh Lecture 02 fidelity verifier, with an independent transcript
+  map required before exposure to the blind findings.
+
+## 2026-08-22 — Lecture 10 blind review complete
+
+- Candidate findings: P0=0, P1=0, P2=5, P3=0.
+- Coverage ledger contains 37 objects across nine section units.
+- No failures or retries; one terminology uncertainty was recorded for later
+  adjudication.
+- Started Lecture 09 fidelity verification.
+
+## 2026-08-22 — blind mathematical phase complete
+
+- Lecture 08 completed with P0=0, P1=3, P2=5, P3=0.
+- All 15 blind lecture reviews are now complete with durable coverage and
+  finding ledgers.
+- Lecture 08 logged and recovered from unavailable `pdftotext` and a malformed
+  summary query; neither affected final coverage.
+- Started Lecture 14 fidelity verification.

@@ -1,0 +1,19 @@
+{"event":"scope_initialized","status":"ok","detail":"Read the run rubric before inspecting lecture content; review limited to Lecture 08, needed preamble semantics, and standalone wrapper."}
+{"event":"file_inspected","path":"lectures/bodies/lecture_08.tex","detail":"Read source with numbered lines in chunks for mathematical audit."}
+{"event":"file_inspected","path":"lectures/preamble.tex","detail":"Verified notation semantics: \\E is expectation, \\Var is variance (printed as blackboard D), \\ind is an indicator, and \\given is a conditioning bar."}
+{"event":"file_inspected","path":"lectures/lecture_08.tex","detail":"Verified the body is included verbatim in the standalone Lecture 08 document."}
+{"event":"check_completed","scope":"lines 1-145","detail":"Verified conditional-expectation algebra, conditioning-event requirements, the two-dice-independent mixture calculation, and the stated discrete properties against the definition."}
+{"event":"hypothesis_rejected","scope":"lines 125-142","detail":"No arithmetic issue found in the Bernoulli-mixture result: conditioning gives E[X|Y]=Y and hence P(X=1)=2p/3+(1-p)/3."}
+{"event":"tool_failure","tool":"pdftotext","detail":"The requested PDF text-extraction executable was unavailable (shell reported command not found)."}
+{"event":"retry_completed","tool":"pdftoppm plus image inspection","detail":"Rendered pages 7-8 of lecture_08.pdf read-only; confirmed the CDF/transform material is visibly present and matches the source topic ordering."}
+{"event":"check_completed","scope":"lines 146-199","detail":"Verified that the two-dice joint table totals 1, the Y=0 row totals 25/36, its conditioned row is (16,8,1)/25, and the multinomial-counting product telescopes to n!/(k_1!...k_r!)."}
+{"event":"check_completed","scope":"lines 200-301","detail":"Verified integral_0^1 5(1-x)^4 dx=1 and integral_(1/10)^1 5(1-x)^4 dx=(9/10)^5; checked the CDF differentiation assertion for noncontinuous densities."}
+{"event":"hypothesis_rejected","scope":"lines 162-181","detail":"No error found in the two-dice conditional-distribution example; conditioning on no sixes yields 25 equiprobable ordered pairs and the stated probabilities."}
+{"event":"hypothesis_rejected","scope":"lines 185-198","detail":"No arithmetic error found in the multinomial mass formula or its sequential-binomial counting derivation, under the implicit standard assumptions n is a nonnegative integer and p_j are probabilities."}
+{"event":"check_completed","scope":"lines 302-392","detail":"Checked the increasing/decreasing substitutions, range and differentiability requirements, independent max/min identities, and the exponential minimum formula."}
+{"event":"check_completed","scope":"lines 394-466","detail":"Checked moment formulas and assumptions, uniform density/CDF normalization, and both exercise prompts."}
+{"event":"hypothesis_rejected","scope":"lines 355-375","detail":"No sign or complement error found in the maximum/minimum formulas when F(x)=P(X<x): P(m>=x)=product_j(1-F_j(x)) and differentiation gives the stated i.i.d. densities where F is differentiable."}
+{"event":"hypothesis_rejected","scope":"lines 436-455","detail":"No error found in the uniform density or CDF: endpoint choices are immaterial and the stated piecewise formula is correct for a<b."}
+{"event":"completion_check","detail":"Every listed source section, numbered statement, proof, display, example, figure, and exercise has a completed coverage entry; no source file was edited."}
+{"event":"tool_failure","tool":"jq summary query","detail":"Initial post-review severity query treated JSONL records as one object and failed; ledger JSON validation itself succeeded."}
+{"event":"retry_completed","tool":"jq summary query","detail":"Retried with jq --slurp; all four JSON/JSONL ledgers validate, findings total 3 P1 plus 5 P2, and state records complete coverage with no unfinished sections."}

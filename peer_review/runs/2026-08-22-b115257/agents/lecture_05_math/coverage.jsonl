@@ -1,0 +1,21 @@
+{"object":"CDF definition and terminology convention","lines":"5-12","status":"completed"}
+{"object":"CDF properties proposition and proof (bounds, monotonicity, limits, left continuity)","lines":"14-31","status":"completed"}
+{"object":"CDF jump claim and discrete-support table/derivation","lines":"33-55","status":"completed"}
+{"object":"Indicator example, formula, and endpoint-coded figure","lines":"57-94","status":"completed"}
+{"object":"Expectation definition, absolute-integrability condition, and divergent-harmonic example","lines":"102-115","status":"completed"}
+{"object":"Squared-loss interpretation","lines":"119-123","status":"completed"}
+{"object":"Center-measures supplement/table/definitions/scenario and figure","lines":"125-194","status":"completed"}
+{"object":"Uniform and roulette examples","lines":"198-218","status":"completed"}
+{"object":"Expectation-properties lemma and proof (constant, scale, sum, independent product)","lines":"224-260","status":"completed"}
+{"object":"Nonnegative-expectation proposition and proof","lines":"262-273","status":"completed"}
+{"object":"Tail-sum supplement, derivation, figure, and geometric example","lines":"275-324","status":"completed"}
+{"object":"Pool-testing assumptions, two-point distribution, expectation derivation, optimization, numerical conclusion","lines":"326-358","status":"completed"}
+{"object":"Variance definition, finite-support statement, standard-deviation definition","lines":"360-378","status":"completed"}
+{"object":"Roulette-variance interpretation","lines":"380-387","status":"completed"}
+{"object":"Random-walk example","lines":"389-397","status":"completed"}
+{"object":"Alternative-variance theorem and proof","lines":"403-417","status":"completed"}
+{"object":"Variance nonnegativity corollary and proof","lines":"419-426","status":"completed"}
+{"object":"Variance-properties proposition and proof (zero, scaling, independent sums) plus explanatory paragraph","lines":"428-465","status":"completed"}
+{"object":"Pool-testing exercise","lines":"467-473","status":"completed"}
+{"object":"Section/subsection headings and connective prose not otherwise itemized","lines":"1-4,37-43,96-101,117-118,196,220-223,326-330,360-365,380-382,399-402,467","status":"completed","note":"Checked for mathematical assertions; no additional finding."}
+{"object":"Remainder of lecture","lines":"261-EOF","status":"pending"}

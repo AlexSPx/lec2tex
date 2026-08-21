@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "scope": ["lectures/bodies/lecture_05.tex", "lectures/preamble.tex", "lectures/lecture_05.pdf"],
+  "sections": {
+    "cdf": "completed",
+    "expectation": "completed",
+    "pool_testing": "completed",
+    "variance": "completed",
+    "exercises": "completed"
+  },
+  "unfinished_sections": []
+}
