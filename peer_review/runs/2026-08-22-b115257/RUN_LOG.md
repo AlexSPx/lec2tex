@@ -156,3 +156,24 @@
   strengthened the source.
 - A corrupted 45:00–60:00 ASR interval was isolated and logged.
 - Started Lecture 01 fidelity verification.
+
+## 2026-08-22 — orchestration intervention: Lecture 06 fidelity
+
+- Detected an empty Stage A inventory while the agent reported Stage A ready.
+- The agent then disclosed that the blind findings had already been opened
+  before the independent source map was persisted.
+- Interrupted and invalidated that attempt for adjudication purposes; retained
+  its files as behavior evidence.
+- Started a fresh-context Lecture 06 fidelity retry in a separate directory.
+
+## 2026-08-22 — Lecture 11 fidelity review corrected and complete
+
+- All 10 blind findings received structured verdicts; three additional fidelity
+  issues were recorded.
+- The P0 candidate was independently confirmed: the transcript describes a
+  simplified/non-rigorous MGF argument, while the body presents a proof of the
+  finite-variance CLT.
+- The agent initially wrote Markdown artifacts outside the run directory; it
+  corrected and validated the required JSONL package after intervention. The
+  misplaced artifacts remain as behavior evidence.
+- Started Lecture 04 fidelity verification.

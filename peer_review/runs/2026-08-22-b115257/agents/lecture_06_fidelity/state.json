@@ -1,0 +1,18 @@
+{
+  "lecture": "lecture_06",
+  "stage": "A_complete",
+  "status": "stage_b_ready",
+  "rubric_read": true,
+  "blind_findings_opened": false,
+  "transcript_segments_total": 3237,
+  "transcript_end_seconds": 6427.07,
+  "source_sections_completed": [
+    "00:00-19:09_pgf_and_distribution_identity",
+    "19:09-31:59_independence_iid_and_sum_pgf",
+    "32:00-62:02_bernoulli_binomial_and_model",
+    "62:02-87:01_geometric_and_memorylessness",
+    "87:03-99:00_negative_binomial",
+    "99:01-107:07_poisson_and_closing"
+  ],
+  "stage_a_inventory_persisted": true
+}

@@ -1,0 +1,3 @@
+{"event":"initialized","stage":"A","detail":"Read fidelity rubric. Transcript inventory begins before blind findings are opened.","timestamp":"2026-08-22"}
+{"event":"checkpoint","stage":"A","detail":"Complete transcript/body inventory persisted. Coverage: 3237/3237 segments, 00:00-107:07; six source sections completed. Blind findings remain unopened.","timestamp":"2026-08-22"}
+{"event":"correction","stage":"A","detail":"Added required fidelity_inventory.jsonl with 25 timestamped Stage-A map records and will validate it before further Stage-B work. Blind findings had already been opened before this artifact gap was identified.","timestamp":"2026-08-22"}

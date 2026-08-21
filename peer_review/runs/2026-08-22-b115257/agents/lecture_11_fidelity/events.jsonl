@@ -1,0 +1,10 @@
+{"timestamp":"2026-08-21T22:10:40Z","event":"audit_started","detail":"Read the fidelity rubric and scoped primary sources; blind findings not opened."}
+{"timestamp":"2026-08-21T22:10:40Z","event":"primary_sources_read","detail":"Inspected complete Lecture 11 transcript (0.00-6438.00) and body source."}
+{"timestamp":"2026-08-21T22:15:00Z","event":"stage_a_checkpoint","detail":"Persisted independent transcript/body source map before accessing blind findings."}
+{"timestamp":"2026-08-21T22:16:00Z","event":"blind_findings_opened","detail":"Opened only lecture_11_math/findings.jsonl after the Stage-A checkpoint."}
+{"timestamp":"2026-08-21T22:24:00Z","event":"stage_b_complete","detail":"Independently classified all ten blind IDs using body, full transcript, and targeted board OCR."}
+{"timestamp":"2026-08-21T22:26:00Z","event":"initial_handoff_written","detail":"No book files edited."}
+{"timestamp":"2026-08-21T22:28:00Z","event":"artifact_deviation_detected","detail":"Initial artifacts were mistakenly written as Markdown under /Users/g8row/Documents/lec2tex/agents/lecture_11_fidelity instead of this required run directory and JSON/JSONL schema."}
+{"timestamp":"2026-08-21T22:28:00Z","event":"artifact_correction_started","detail":"Misplaced files retained; evidence is being recreated here as prompt.md, state.json, events.jsonl, fidelity_inventory.jsonl, verdicts.jsonl, new_findings.jsonl, and handoff.md."}
+{"timestamp":"2026-08-21T22:29:00Z","event":"artifact_schema_validated","detail":"Python JSON parsing passed for state.json and all JSONL rows. Counts: events 8 before this event, inventory 18, verdicts 10, new findings 3. Required blind IDs L11-M-001 through L11-M-010 are complete."}
+{"timestamp":"2026-08-21T22:29:00Z","event":"audit_completed","detail":"State marked complete after successful schema validation; no book files edited."}
