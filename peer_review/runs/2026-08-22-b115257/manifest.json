@@ -27,11 +27,11 @@
     "05": {"math": "pending", "fidelity": "pending"},
     "06": {"math": "complete", "fidelity": "pending"},
     "07": {"math": "running", "fidelity": "pending"},
-    "08": {"math": "pending", "fidelity": "pending"},
+    "08": {"math": "running", "fidelity": "pending"},
     "09": {"math": "complete", "fidelity": "pending"},
     "10": {"math": "pending", "fidelity": "pending"},
     "11": {"math": "complete", "fidelity": "pending"},
-    "12": {"math": "running", "fidelity": "pending"},
+    "12": {"math": "complete", "fidelity": "pending"},
     "13": {"math": "complete", "fidelity": "pending"},
     "14": {"math": "complete", "fidelity": "pending"},
     "15": {"math": "complete", "fidelity": "pending"}

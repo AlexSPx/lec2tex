@@ -1,0 +1,15 @@
+{"event":"scope_initialized","observable":"Created assigned-agent audit directory and initialized required artifacts.","status":"ok"}
+{"event":"rubric_inspected","file":"peer_review/runs/2026-08-22-b115257/rubric.md","observable":"Read complete blind mathematical-pass rubric before reviewing source.","status":"ok"}
+{"event":"source_inspected","file":"lectures/bodies/lecture_12.tex","observable":"Read complete line-numbered Lecture 12 source (1-406).","status":"ok"}
+{"event":"preamble_inspected","file":"lectures/preamble.tex","observable":"Checked notation semantics: \\E is expectation, \\Var is variance, \\ind is indicator; no mathematical conflict found.","status":"ok"}
+{"event":"check","topic":"U(0,theta) likelihood support","observable":"Tested x=(-1,1/2), theta=1; maximum-only indicator gives 1 while the product support indicator gives 0.","status":"failed_claim","finding":"L12-M-004"}
+{"event":"check","topic":"Normal unknown-variance MLE boundary","observable":"For n=1 and mu=x_1, likelihood is (2pi sigma^2)^(-1/2) and diverges as sigma^2 tends down to 0.","status":"failed_claim","finding":"L12-M-005"}
+{"event":"check","topic":"Normal MLE algebra","observable":"Verified both score derivatives and n-denominator stationary formulas for positive residual sum of squares; no algebraic error found in lines 118-147 under the missing existence conditions.","status":"ok"}
+{"event":"check","topic":"Normal MoM algebra","observable":"Verified E[X^2]=sigma^2+mu^2 and identity n^{-1}sum X_j^2-Xbar^2=n^{-1}sum(X_j-Xbar)^2.","status":"ok"}
+{"event":"check","topic":"U(0,theta) maximum distribution and bias","observable":"Verified F_{X*}(x)=(x/theta)^n on 0<x<theta, density n x^(n-1)/theta^n, and E[X*]=n theta/(n+1).","status":"ok"}
+{"event":"check","topic":"U(0,theta) consistency epsilon domain","observable":"Tested theta=1, epsilon=2, n=2: left probability is 0 but displayed power is 1.","status":"failed_claim","finding":"L12-M-009"}
+{"event":"check","topic":"variance-bias proof","observable":"Verified centering identity and E[Xbar^2]=sigma^2/n under independent centered equal-variance observations; conclusion (n-1)sigma^2/n is correct where defined.","status":"ok"}
+{"event":"check","topic":"Cramer-Rao regularity","observable":"Applied displayed score formula formally to U(0,theta); it would contradict the variance of unbiased 2X, rejecting the hypothesis that smoothness alone suffices.","status":"failed_claim","finding":"L12-M-008"}
+{"event":"scope","observable":"Did not inspect README, remediation, git history, raw transcripts, references, other lectures, or other agents' reports. PDF was not needed because all mathematical claims were inspectable in source.","status":"ok"}
+{"event":"artifact_validation","observable":"Validated state.json and every JSONL record with jq; counted 29 coverage objects and 10 findings (P1=1, P2=9).","status":"ok"}
+{"event":"review_completed","observable":"Every assigned source range and enumerated in-scope object has a coverage record; no unfinished section remains.","status":"ok"}

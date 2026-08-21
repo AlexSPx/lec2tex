@@ -1,0 +1,19 @@
+{
+  "agent": "lecture_12_math",
+  "scope": "lectures/bodies/lecture_12.tex; preamble semantics needed for notation",
+  "status": "complete",
+  "sections": [
+    {"lines": "1-18", "name": "Introduction and mathematical setup", "status": "complete"},
+    {"lines": "19-33", "name": "Point estimators", "status": "complete"},
+    {"lines": "34-155", "name": "Maximum likelihood", "status": "complete"},
+    {"lines": "157-221", "name": "Method of moments", "status": "complete"},
+    {"lines": "223-394", "name": "Estimator properties", "status": "complete"},
+    {"lines": "396-406", "name": "Exercises", "status": "complete"}
+  ],
+  "unfinished_sections": [],
+  "coverage_objects": 29,
+  "findings_count": 10,
+  "finding_totals": {"P0": 0, "P1": 1, "P2": 9, "P3": 0},
+  "uncertainties": ["The CDF < convention could be intentional, but it conflicts with the standard CDF for discrete laws; reported as a convention defect.", "The sample-moment proposition may inherit i.i.d. and integer-index assumptions from the lecture setup, but its numbered statement omits them; reported as a completeness gap."],
+  "tool_failures": 0
+}

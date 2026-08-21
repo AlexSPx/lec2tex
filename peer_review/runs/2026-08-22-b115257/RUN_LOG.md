@@ -89,3 +89,10 @@
 - Candidate findings: P0=0, P1=0, P2=4, P3=0.
 - Small exhaustive computational checks passed; no tool failures.
 - Started Lecture 03 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 12 blind review complete
+
+- Coverage ledger contains 29 records across all six sections.
+- Candidate findings: P0=0, P1=1, P2=9, P3=0.
+- No tool failures reported.
+- Started Lecture 08 in the newly available worker slot.
