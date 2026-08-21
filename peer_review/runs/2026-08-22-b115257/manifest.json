@@ -31,8 +31,8 @@
     "09": {"math": "complete", "fidelity": "pending"},
     "10": {"math": "pending", "fidelity": "pending"},
     "11": {"math": "complete", "fidelity": "pending"},
-    "12": {"math": "pending", "fidelity": "pending"},
-    "13": {"math": "running", "fidelity": "pending"},
+    "12": {"math": "running", "fidelity": "pending"},
+    "13": {"math": "complete", "fidelity": "pending"},
     "14": {"math": "complete", "fidelity": "pending"},
     "15": {"math": "running", "fidelity": "pending"}
   }

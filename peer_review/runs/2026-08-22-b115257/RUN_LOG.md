@@ -73,3 +73,11 @@
   independence material.
 - No failures, retries, or scope deviations reported.
 - Started Lecture 07 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 13 blind review complete
+
+- Candidate findings: P0=0, P1=1, P2=5, P3=1.
+- Complete confidence-interval and hypothesis-testing coverage; Neyman-Pearson
+  was independently checked despite no proof being supplied in the source.
+- No tool failures or scope deviations reported.
+- Started Lecture 12 in the newly available worker slot.

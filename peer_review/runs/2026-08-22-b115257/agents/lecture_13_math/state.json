@@ -1,0 +1,29 @@
+{
+  "agent": "lecture_13_math",
+  "scope": [
+    "lectures/bodies/lecture_13.tex",
+    "lectures/preamble.tex (notation only)",
+    "peer_review/runs/2026-08-22-b115257/rubric.md"
+  ],
+  "status": "complete",
+  "sections": {
+    "confidence_intervals": "complete",
+    "ci_examples": "complete",
+    "hypothesis_testing": "complete",
+    "exercises": "complete"
+  },
+  "unfinished_sections": [],
+  "findings_count": 7,
+  "severity_totals": {
+    "P0": 0,
+    "P1": 1,
+    "P2": 5,
+    "P3": 1
+  },
+  "tool_failures": 0,
+  "scope_deviations": 0,
+  "uncertainties": [
+    "The source intentionally omits a proof of the Neyman--Pearson lemma; its stated result was independently verified, but there is no source proof text to assess.",
+    "No rendered PDF inspection was necessary for mathematical verification."
+  ]
+}
