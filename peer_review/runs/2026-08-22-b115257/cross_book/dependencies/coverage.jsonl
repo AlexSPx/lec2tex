@@ -1,0 +1,21 @@
+{"object":"lectures/lectures_full.tex","lines":"1-108","status":"completed","check":"Driver/preamble inputs, chapter order, chapter-number convention, and appendix order inspected. Lectures 01-15 are numerically ordered at 56-101; appendices follow at 103-106."}
+{"object":"lectures/preamble.tex","lines":"1-205","status":"completed","check":"Shared theorem counters, crosslecture fallback/link override, and label-capable environments inspected."}
+{"object":"lectures/bodies/frontmatter.tex","lines":"1-119","status":"completed","check":"Frontmatter inputs and notation/convention context inspected; no source-label references found."}
+{"object":"lectures/bodies/lecture_01.tex","lines":"1-314","status":"completed","check":"Foundation for events and sigma-algebras; outgoing/incoming cross-lecture references and exercises traced."}
+{"object":"lectures/bodies/lecture_02.tex","lines":"1-240","status":"completed","check":"Probability-space prerequisites, forward conditional-probability signpost, and exercise prerequisites traced."}
+{"object":"lectures/bodies/lecture_03.tex","lines":"1-469","status":"completed","check":"Conditional probability/independence chains and forward continuous-conditioning signpost traced."}
+{"object":"lectures/bodies/lecture_04.tex","lines":"1-282","status":"completed","check":"Random-variable and discrete-independence definitions traced against later use."}
+{"object":"lectures/bodies/lecture_05.tex","lines":"1-479","status":"completed","check":"CDF/expectation/variance prerequisites and forward mode signpost traced."}
+{"object":"lectures/bodies/lecture_06.tex","lines":"1-474","status":"completed","check":"PGF conventions, random-sum formula, and forward Poisson-thinning crosslink traced."}
+{"object":"lectures/bodies/lecture_07.tex","lines":"1-642","status":"completed","check":"Poisson thinning, joint-law independence criterion, covariance/correlation hypotheses, and exercises traced."}
+{"object":"lectures/bodies/lecture_08.tex","lines":"1-463","status":"completed","check":"Conditional expectation, continuous transformations, and maximum/minimum chains traced."}
+{"object":"lectures/bodies/lecture_09.tex","lines":"1-744","status":"completed","check":"Continuous joint laws, normal/Gamma conventions, and inbound references traced."}
+{"object":"lectures/bodies/lecture_10.tex","lines":"1-415","status":"completed","check":"Convergence/Law-of-Large-Numbers assumptions and inbound examples traced."}
+{"object":"lectures/bodies/lecture_11.tex","lines":"1-319","status":"completed","check":"SLLN-to-CLT dependency, MGF proof scope, and downstream approximation claims traced."}
+{"object":"lectures/bodies/lecture_12.tex","lines":"1-406","status":"completed","check":"MLE/moment-estimator prerequisites and maximum/Cauchy links traced."}
+{"object":"lectures/bodies/lecture_13.tex","lines":"1-469","status":"completed","check":"pivot/quantile/t-distribution prerequisites and appendix-table link traced."}
+{"object":"lectures/bodies/lecture_14.tex","lines":"1-251","status":"completed","check":"Transfer from one-sample t inference to regression residual inference traced."}
+{"object":"lectures/bodies/lecture_15.tex","lines":"1-389","status":"completed","check":"Counting/random-walk prerequisites and appendix formula repetition traced."}
+{"object":"lectures/bodies/formulas.tex","lines":"1-478","status":"completed","check":"Every formula section checked for retained parameter, moment, independence, and support hypotheses; all six crosslecture targets resolved."}
+{"object":"lectures/bodies/tables.tex","lines":"1-163","status":"completed","check":"Quantile appendix label and lecture-13 crosslink resolved; table dependency inspected."}
+{"object":"label/reference graph","status":"completed","check":"171/171 unique labels; all 90 parsed ref/eqref/autoref/crosslecture/hyperref targets resolve; no duplicate target labels. Full TeX build unavailable because no engine is installed."}

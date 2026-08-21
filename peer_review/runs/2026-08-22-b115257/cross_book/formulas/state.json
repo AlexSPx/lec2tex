@@ -1,0 +1,16 @@
+{
+  "audit": "cross-book formulas/examples/exercises/appendix",
+  "status": "complete",
+  "scope": {
+    "lecture_bodies": 15,
+    "formula_appendices": 2,
+    "source_writes": false,
+    "remediation_or_git_read": false
+  },
+  "findings": {"P1": 1, "P2": 4, "P3": 3, "total": 8},
+  "validation": {
+    "exact_arithmetic_checks": 4,
+    "statistical_table_spot_checks": 3,
+    "failures": 0
+  }
+}

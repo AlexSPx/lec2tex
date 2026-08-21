@@ -288,3 +288,13 @@
 - Findings: P0=0, P1=2, P2=6, P3=0; all reported high confidence.
 - No source edits, path failures, or validation failures.
 - Started rendered-PDF and reference-integrity audit using the PDF workflow.
+
+## 2026-08-22 — cross-book formula and dependency audits complete
+
+- Formula/example/appendix audit: P0=0, P1=1, P2=4, P3=3; all 15 lectures
+  and both appendices covered.
+- Dependency/theorem-use audit: P0=1, P1=5, P2=4; 171 unique labels and 90
+  static references checked with no duplicate or unresolved targets.
+- The dependency agent could not run a full TeX build because it did not find a
+  TeX engine; the separate rendered-PDF agent remains responsible for output QA.
+- Started an independent agent-behavior and performance audit.

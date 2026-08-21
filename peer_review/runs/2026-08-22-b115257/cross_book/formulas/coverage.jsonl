@@ -1,0 +1,17 @@
+{"target":"lectures/bodies/lecture_01.tex","status":"covered","focus":"set/probability examples; two-envelopes derivation and exercise"}
+{"target":"lectures/bodies/lecture_02.tex","status":"covered","focus":"probability axioms, discrete/geometric normalizations, exercises"}
+{"target":"lectures/bodies/lecture_03.tex","status":"covered","focus":"conditional probability, Bayes examples, posterior-odds exercise"}
+{"target":"lectures/bodies/lecture_04.tex","status":"covered","focus":"random-variable transformations, discrete distributions, task identity"}
+{"target":"lectures/bodies/lecture_05.tex","status":"covered","focus":"expectation/variance and pooled-testing worked numerical example"}
+{"target":"lectures/bodies/lecture_06.tex","status":"covered","focus":"PGFs, Bin/Geo/Poi claims, mode formula, exercises"}
+{"target":"lectures/bodies/lecture_07.tex","status":"covered","focus":"Hypergeometric, Poisson, joint laws/covariance, marker exercise"}
+{"target":"lectures/bodies/lecture_08.tex","status":"covered","focus":"continuous variables, density transformations, extrema, exercises"}
+{"target":"lectures/bodies/lecture_09.tex","status":"covered","focus":"normal/exponential/gamma laws and joint-density worked example"}
+{"target":"lectures/bodies/lecture_10.tex","status":"covered","focus":"convergence, inequalities, LLN and numerical examples"}
+{"target":"lectures/bodies/lecture_11.tex","status":"covered","focus":"CLT/MGF hypotheses and worked examples"}
+{"target":"lectures/bodies/lecture_12.tex","status":"covered","focus":"MLE/MOM assumptions and exercises"}
+{"target":"lectures/bodies/lecture_13.tex","status":"covered","focus":"confidence intervals, tests, quantile/table use"}
+{"target":"lectures/bodies/lecture_14.tex","status":"covered","focus":"OLS, regression inference prerequisites, exercise coverage"}
+{"target":"lectures/bodies/lecture_15.tex","status":"covered","focus":"combinatorics, random-walk counting, exercise coverage"}
+{"target":"lectures/bodies/formulas.tex","status":"covered","focus":"all formula families, parameterization, hypotheses, reference cross-links"}
+{"target":"lectures/bodies/tables.tex","status":"covered","focus":"normal, Student-t and chi-square layout, quantile convention, numerical spot checks"}

@@ -1,0 +1,28 @@
+{
+  "agent": "cross_book_dependencies",
+  "status": "complete",
+  "date": "2026-08-22",
+  "scope": {
+    "lectures_accounted_for": 15,
+    "appendices_accounted_for": ["formulas", "tables"],
+    "supporting_sources_accounted_for": ["lectures_full.tex", "preamble.tex", "frontmatter.tex"],
+    "excluded": ["docs/", "REMEDIATION/", "git history"]
+  },
+  "validation": {
+    "label_occurrences": 171,
+    "unique_labels": 171,
+    "ref_like_commands": 90,
+    "duplicate_label_ids": 0,
+    "unresolved_reference_ids": 0,
+    "generated_book_order": "lecture_01 through lecture_15, then formulas and tables",
+    "tex_build": "not run: xelatex/lualatex/pdflatex absent; disposable xelatex attempt exited 127"
+  },
+  "findings": {
+    "total": 10,
+    "severity": {"P0": 1, "P1": 5, "P2": 4}
+  },
+  "failures": [
+    "Full TeX compile/reference-warning validation unavailable because no TeX engine is installed; static target validation passed."
+  ],
+  "book_files_modified": false
+}

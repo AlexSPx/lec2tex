@@ -1,0 +1,8 @@
+{"event":"scope","status":"complete","detail":"Read-only audit limited to 15 lecture bodies, formulas.tex and generated tables.tex; no remediation or git material inspected."}
+{"event":"cross_reference","status":"complete","detail":"Checked distribution parameterizations, CDF convention P(X<x), Geo convention (failures before success), Gamma rate beta, and inferential degrees of freedom against lecture bodies."}
+{"event":"numeric_check","status":"pass","detail":"L03 coin posterior odds recomputed exactly: ratio = 0.03409270053223639; posteriors 0.03296870823543116 and 0.9670312917645688, consistent with approximately 0.03."}
+{"event":"numeric_check","status":"pass","detail":"L05 pooled-testing objective at p=0.95 has integer minimizer n=5, f(5)=0.4262190625; E[X_5]=1363901/640000=2.1310953125, consistent with stated rounded values."}
+{"event":"numeric_check","status":"pass","detail":"L07 marker exercise recomputed as (P0,P1,P2,P3)=(1/14,3/7,3/7,1/14), summing to 1."}
+{"event":"numeric_check","status":"pass","detail":"L09 joint-density worked example checked: normalizer c=23/2, E[Y|X=1/2]=71/564, and f_{XY}(z)=12 sqrt(1-8z) on [0,1/8] integrate correctly."}
+{"event":"table_check","status":"pass","detail":"Normal, Student-t, and chi-square appendix entries spot-checked at tail, central, and large-df rows against standard quantiles; rounded values and quantile conventions agree."}
+{"event":"validation","status":"pass","detail":"All 17 coverage records parse as JSON. Finding counts reconcile with state.json: P1=1, P2=4, P3=3, total=8."}
