@@ -298,3 +298,13 @@
 - The dependency agent could not run a full TeX build because it did not find a
   TeX engine; the separate rendered-PDF agent remains responsible for output QA.
 - Started an independent agent-behavior and performance audit.
+
+## 2026-08-22 — rendered-output and cross-book phases complete
+
+- Render audit rasterized and inspected 177/177 collected-book pages and all 15
+  standalone PDFs (149/149 pages), 326 pages total.
+- Poppler/pdfinfo decoding passed; 171 labels survived into AUX data and no
+  reference target was missing.
+- `qpdf` and `pdftotext` were unavailable; the audit used Poppler and static/AUX
+  checks instead. No actionable visual defect was found.
+- Cross-book phase is complete; final adjudication is running.

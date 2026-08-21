@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "audit": "cross_book_render",
+  "date": "2026-08-22",
+  "scope": {
+    "book": "probability-statistics-bg.pdf",
+    "book_pages": 177,
+    "standalones": 15,
+    "standalone_pages": 149
+  },
+  "progress": {
+    "book_pages_rasterized": 177,
+    "book_pages_contact_inspected": 177,
+    "standalone_pages_rasterized": 149,
+    "standalone_pages_contact_inspected": 149,
+    "high_resolution_book_pages_inspected": [1, 157, 167, 172, 177]
+  },
+  "constraints": [
+    "read-only source and PDF audit",
+    "no PDF/book rebuild or export",
+    "scratch render images are not audit evidence citations"
+  ],
+  "result": {
+    "visual_failures": 0,
+    "reference_target_failures": 0,
+    "package_readability_failures": 0,
+    "tool_limitations": ["qpdf unavailable", "pdftotext unavailable"]
+  }
+}
