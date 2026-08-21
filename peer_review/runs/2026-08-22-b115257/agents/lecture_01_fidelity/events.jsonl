@@ -1,0 +1,8 @@
+{"timestamp":"2026-08-21T22:12:11Z","event":"rubric_read","path":"peer_review/runs/2026-08-22-b115257/fidelity_rubric.md"}
+{"timestamp":"2026-08-21T22:12:11Z","event":"source_inventory","body_lines":328,"primary_transcript_segments":3621,"primary_transcript_end_seconds":1830.15,"board_ocr_ids":"001-081"}
+{"timestamp":"2026-08-21T22:20:00Z","event":"stage_a_persisted_before_findings","artifact":"fidelity_inventory.md","transcript_coverage":"00:00:00-00:30:30.15"}
+{"timestamp":"2026-08-21T22:20:01Z","event":"blind_findings_opened","path":"peer_review/runs/2026-08-22-b115257/agents/lecture_01_math/findings.jsonl","finding_count":6}
+{"timestamp":"2026-08-21T22:27:00Z","event":"stage_b_completed","blind_verdict_count":6,"new_finding_count":3}
+{"timestamp":"2026-08-21T22:29:00Z","event":"recording_integrity_assessment","result":"Two ASR-only Sigma-replacement gaps observed in both transcript derivatives; unavailable source audio prevents a conclusion that the original recording is partial or corrupt."}
+{"timestamp":"2026-08-21T22:35:00Z","event":"schema_deviation_corrected","deviation":"Initial persistence used Markdown only for state, events, inventory, verdicts, and new findings.","correction":"Added state.json plus JSONL artifacts with one JSON object per record; Markdown artifacts retained."}
+{"timestamp":"2026-08-21T22:36:00Z","event":"json_validation_passed","validation":"jq parsed state.json and all JSONL records; verdict set exactly covers the six expected blind IDs.","record_counts":{"events":8,"fidelity_inventory":15,"verdicts":6,"new_findings":3}}

@@ -1,0 +1,1 @@
+{"agent":"lecture_01_fidelity","status":"complete","updated_at":"2026-08-21T22:36:00Z","stage_a":"complete","stage_b":"complete","required_json_validation":"passed","blind_finding_ids_expected":["L01-MATH-001","L01-MATH-002","L01-MATH-003","L01-MATH-004","L01-MATH-005","L01-MATH-006"],"record_counts":{"events":8,"fidelity_inventory":15,"verdicts":6,"new_findings":3}}

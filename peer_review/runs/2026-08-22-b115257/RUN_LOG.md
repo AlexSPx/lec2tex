@@ -177,3 +177,20 @@
   corrected and validated the required JSONL package after intervention. The
   misplaced artifacts remain as behavior evidence.
 - Started Lecture 04 fidelity verification.
+
+## 2026-08-22 — fidelity reviews 01 and 06 complete
+
+- Lecture 01 covered all six blind IDs and recorded three additional fidelity
+  findings. Its initial Markdown-only package was corrected to validated JSONL.
+- The fresh Lecture 06 retry completed 22 Stage A records before first successful
+  blind-finding access, adjudicating all eight IDs. The event sequence preserves
+  evidence of ordering and the earlier attempt remains excluded.
+- Started fidelity reviews for Lectures 13 and 15.
+
+## 2026-08-22 — Lecture 06 retry path correction pending
+
+- The replacement verifier satisfied the blindness and validation protocol but
+  wrote its package to repository-level `agents/lecture_06_fidelity_retry`
+  instead of the canonical run directory.
+- Data are preserved; manifest status is `artifact_correction_pending` until a
+  validated canonical copy is produced.
