@@ -239,3 +239,12 @@
   persisted, despite later completing and validating the package.
 - The attempt is retained as behavior evidence but excluded from adjudication.
 - Started a fresh-context retry in `lecture_12_fidelity_retry`.
+
+## 2026-08-22 — Lecture 03 fidelity review complete
+
+- Canonical package contains 13 Stage A records and all 10 blind verdicts: six
+  confirmed, three faithful informal presentations, and one source-caveat
+  omission.
+- No new finding or process failure was reported; later Bayes work relied on the
+  complete transcript because board OCR ended early.
+- Started Lecture 08 fidelity verification.

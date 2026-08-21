@@ -1,0 +1,10 @@
+{
+  "lecture": "lecture_03",
+  "status": "complete",
+  "stage_a": {"complete": true, "map_file": "fidelity_inventory.jsonl", "records": 13, "validated_before_blind_findings": true},
+  "stage_b": {"complete": true, "blind_findings_total": 10, "verdicts_total": 10, "verdict_counts":{"confirmed_book_error":6,"faithful_nonstandard_presentation":3,"fidelity_omission_or_strengthening":1}, "new_findings_total": 0},
+  "evidence_gaps": ["Board-state/OCR capture ends at 59:45, before the full-probability and Bayes board work; the complete timestamped transcript was used for those derivations.","The available Toto OCR confirms the event definition and De Morgan/product/power-9999 calculation, while exact early conditional-Toto arithmetic is corroborated by the transcript because board_001 has no OCR items."],
+  "failures": [],
+  "files": {"prompt": "prompt.md", "state": "state.json", "events": "events.jsonl", "fidelity_inventory": "fidelity_inventory.jsonl", "verdicts": "verdicts.jsonl", "new_findings": "new_findings.jsonl", "handoff": "handoff.md"},
+  "artifact_contract": {"canonical_files_present": true, "validation_pending": false, "validated_json": true, "validated_jsonl": true, "blind_ids_confirmed": 10}
+}
