@@ -232,3 +232,10 @@
   findings: six confirmed book errors and one faithful nonstandard presentation.
 - No additional fidelity finding or process failure was reported.
 - Started Lecture 05 fidelity verification.
+
+## 2026-08-22 — Lecture 12 fidelity attempt invalidated
+
+- The verifier disclosed that blind findings were opened before Stage A was
+  persisted, despite later completing and validating the package.
+- The attempt is retained as behavior evidence but excluded from adjudication.
+- Started a fresh-context retry in `lecture_12_fidelity_retry`.

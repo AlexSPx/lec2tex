@@ -31,7 +31,7 @@
     "09": {"math": "complete", "fidelity": "complete"},
     "10": {"math": "complete", "fidelity": "pending"},
     "11": {"math": "complete", "fidelity": "complete"},
-    "12": {"math": "complete", "fidelity": "running"},
+    "12": {"math": "complete", "fidelity": "retry_running"},
     "13": {"math": "complete", "fidelity": "complete"},
     "14": {"math": "complete", "fidelity": "complete"},
     "15": {"math": "complete", "fidelity": "complete"}

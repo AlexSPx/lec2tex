@@ -1,0 +1,10 @@
+{
+  "lecture": "lecture_12",
+  "status": "complete",
+  "stage_a": {"complete": true, "records": 12, "validated_before_blind_findings": false},
+  "stage_b": {"complete": true, "blind_findings_total": 10, "verdicts_total": 10, "verdict_counts":{"confirmed_book_error":9,"primary_reviewer_error":1}, "new_findings_total": 3},
+  "evidence_gaps": ["The transcript contains a 46:01-59:12 interruption/garbled advertising segment; normal-MLE claims were corroborated by the book, surrounding speech, and board_006/010/011 OCR.","board_001 OCR has no recovered text, so the distribution-function convention is supported by the transcript and lecture body rather than board OCR."],
+  "failures": ["Process-order violation: the first inspection command inadvertently included lecture_12_math/findings.jsonl before the Stage-A inventory was persisted and validated. The independent map was then completed and validated before Stage-B adjudication; this is recorded for transparency."],
+  "files": {"prompt": "prompt.md", "state": "state.json", "events": "events.jsonl", "fidelity_inventory": "fidelity_inventory.jsonl", "verdicts": "verdicts.jsonl", "new_findings": "new_findings.jsonl", "handoff": "handoff.md"},
+  "artifact_contract": {"canonical_files_present": true, "only_required_files_present": true, "validated_json": true, "validated_jsonl": true, "inventory_records": 12, "blind_ids_complete": true, "process_order_compliant": false}
+}

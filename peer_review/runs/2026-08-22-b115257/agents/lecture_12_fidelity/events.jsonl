@@ -1,0 +1,5 @@
+{"timestamp":"2026-08-22T00:00:00+03:00","event":"artifact_contract_initialized","required_files":["prompt.md","state.json","events.jsonl","fidelity_inventory.jsonl","verdicts.jsonl","new_findings.jsonl","handoff.md"]}
+{"timestamp":"2026-08-22T01:28:09+03:00","event":"stage_a_inventory_persisted","records":12,"source":"lectures/bodies/lecture_12.tex + complete run/lecture_12/audio/transcript.json","targeted_ocr":["board_004@39:27","board_006@46:06","board_012@68:33","board_014@73:39","board_019@87:21","board_020@99:51"]}
+{"timestamp":"2026-08-22T01:28:09+03:00","event":"stage_a_inventory_validated","records":12,"validator":"jq required-field schema + exact line count"}
+{"timestamp":"2026-08-22T01:28:09+03:00","event":"stage_b_completed","blind_findings":10,"verdicts":10,"new_fidelity_findings":3}
+{"timestamp":"2026-08-22T01:28:09+03:00","event":"audit_completed","status":"complete","process_order_compliant":false,"failures":1,"evidence_gaps":2}
