@@ -1,0 +1,5 @@
+{"timestamp":"2026-08-22T00:00:00+03:00","event":"artifacts_initialized","lecture":"07"}
+{"timestamp":"2026-08-22T01:25:45+03:00","event":"stage_a_inventory_persisted","records":12,"validation":"pending"}
+{"timestamp":"2026-08-22T01:26:00+03:00","event":"stage_a_inventory_validated","records":12}
+{"timestamp":"2026-08-22T01:28:05+03:00","event":"stage_b_verdicts_persisted","blind_findings":7,"new_findings":0,"targeted_ocr_frames":["board_003","board_004","board_010","board_015","board_019","board_020","board_023"]}
+{"timestamp":"2026-08-22T01:29:02+03:00","event":"artifacts_validated","inventory_records":12,"verdict_records":7,"required_artifacts":"present_nonempty"}
