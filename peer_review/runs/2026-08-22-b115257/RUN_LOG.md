@@ -256,3 +256,11 @@
 - Event order proves persistence and validation before first blind-finding
   access. The earlier attempt remains excluded.
 - Started Lecture 10, the final fidelity unit.
+
+## 2026-08-22 — Lecture 05 fidelity review complete
+
+- Canonical package contains 14 Stage A records, verdicts for all four blind
+  findings, and three additional fidelity records.
+- Formula evidence for expectation, pool testing, and variance was checked; a
+  blank first OCR frame was handled with transcript/source agreement.
+- Started cross-book notation and convention audit.

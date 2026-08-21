@@ -15,7 +15,7 @@
     "baseline": "complete",
     "blind_math": "complete",
     "fidelity": "running",
-    "cross_book": "pending",
+    "cross_book": "running",
     "adjudication": "pending",
     "final_report": "pending"
   },
@@ -24,7 +24,7 @@
     "02": {"math": "complete", "fidelity": "complete"},
     "03": {"math": "complete", "fidelity": "complete"},
     "04": {"math": "complete", "fidelity": "complete"},
-    "05": {"math": "complete", "fidelity": "running"},
+    "05": {"math": "complete", "fidelity": "complete"},
     "06": {"math": "complete", "fidelity": "complete"},
     "07": {"math": "complete", "fidelity": "complete"},
     "08": {"math": "complete", "fidelity": "running"},
