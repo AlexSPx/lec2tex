@@ -1,0 +1,8 @@
+{"event":"rubric_read","path":"peer_review/runs/2026-08-22-b115257/rubric.md","outcome":"Rubric v1 read in full; source will not be edited.","date":"2026-08-22"}
+{"event":"checkpoint_initialized","outcome":"Created assigned-agent audit ledger before source inspection.","date":"2026-08-22"}
+{"event":"source_inspected","path":"lectures/bodies/lecture_15.tex","outcome":"Read all 389 source lines with line numbers; all statement environments, proofs, displays, examples, and exercises entered in coverage ledger.","date":"2026-08-22"}
+{"event":"preamble_inspected","path":"lectures/preamble.tex","outcome":"Checked theorem environment and math-command semantics relevant to this body; no macro changes the stated counting formulae.","date":"2026-08-22"}
+{"event":"computational_check","outcome":"Small exhaustive checks passed: distinct tuples/subsets (n<=5), surjection inclusion-exclusion (n<=4,k<=6), nonnegative bridges and strict excursions (n<=7).","date":"2026-08-22"}
+{"event":"hypothesis_rejected","outcome":"No off-by-one error was found in the reflection/Catalan counts for tested positive n; the remaining issue there is the unstated n=0 boundary convention.","date":"2026-08-22"}
+{"event":"scope_decision","outcome":"Did not inspect lecture_15.pdf: source gives the complete mathematical claims and no render-dependent mathematical ambiguity required resolution.","date":"2026-08-22"}
+{"event":"ledger_validated","outcome":"state.json and all JSONL records parsed successfully; final ledger totals are 27 coverage objects, 4 findings, and 0 tool failures.","date":"2026-08-22"}

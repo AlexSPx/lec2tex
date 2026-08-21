@@ -1,0 +1,16 @@
+{
+  "agent": "lecture_15_math",
+  "scope": "lectures/bodies/lecture_15.tex",
+  "status": "complete",
+  "rubric_read": true,
+  "source_inspected": true,
+  "preamble_inspected": true,
+  "pdf_inspected": false,
+  "unfinished_sections": [],
+  "findings": 4,
+  "failures": 0,
+  "coverage_objects": 27,
+  "checks": ["manual source audit", "small exhaustive finite enumerations"],
+  "uncertainties": ["F015-004 severity depends on whether 'simple random walk' is intended only as conventional terminology; no later probability calculation relies on it.", "Rendered PDF was not inspected because no mathematical issue required visual disambiguation."],
+  "updated": "2026-08-22"
+}

@@ -81,3 +81,11 @@
   was independently checked despite no proof being supplied in the source.
 - No tool failures or scope deviations reported.
 - Started Lecture 12 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 15 blind review complete
+
+- Coverage ledger contains 27 records across all counting and random-walk
+  material.
+- Candidate findings: P0=0, P1=0, P2=4, P3=0.
+- Small exhaustive computational checks passed; no tool failures.
+- Started Lecture 03 in the newly available worker slot.
