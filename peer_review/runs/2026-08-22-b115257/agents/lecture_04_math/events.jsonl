@@ -1,0 +1,10 @@
+{"event":"inspected","target":"peer_review/runs/2026-08-22-b115257/rubric.md","result":"Read full blind-mathematical-pass requirements, severity definitions, evidence standard, and coverage/logging requirements."}
+{"event":"inspected","target":"lectures/bodies/lecture_04.tex","result":"Read lines 1-281; enumerated definitions, propositions, proofs, displays, examples, figure claims, and exercise."}
+{"event":"inspected","target":"lectures/preamble.tex","result":"Checked semantic macros and theorem environments; \\ind is the indicator-function macro and no additional mathematical convention changes Lecture 04 claims."}
+{"event":"checked","target":"lecture_04.tex:47-49,276-280","result":"Verified the rational-union identity: RHS implies X+Y<b directly; conversely, for X(omega)+Y(omega)<b, density of Q supplies q in (X(omega),b-Y(omega))."}
+{"event":"checked","target":"lecture_04.tex:160-185","result":"Counted ordered die pairs by sum as 1,2,3,4,5,6,5,4,3,2,1; total 36 and symmetry about 7 hold."}
+{"event":"checked","target":"lecture_04.tex:68-104,241-256,262-271","result":"Verified indicator identities pointwise, indicator measurability case split, pushforward mass formula, two-variable partition expression, and discrete independence factorization."}
+{"event":"rejected_hypothesis","target":"lecture_04.tex:47-49","result":"No defect: the displayed sum-event equality is valid, and the omitted left-to-right inclusion is explicitly assigned as the exercise."}
+{"event":"rejected_hypothesis","target":"lecture_04.tex:254-256","result":"No defect: intersections of the two full partitions form a countable measurable full partition (possibly with empty cells), so the pointwise double-sum expression is valid."}
+{"event":"scope","target":"excluded materials","result":"Did not inspect README, remediation material, git information, other lectures, other agent reports, raw artifacts, or reference material. Lecture PDF was not needed for mathematical verification."}
+

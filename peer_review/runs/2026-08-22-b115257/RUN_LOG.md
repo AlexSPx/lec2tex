@@ -65,3 +65,11 @@
 - Candidate findings: P0=0, P1=1, P2=5, P3=0.
 - No tool failures or unfinished scope reported.
 - Started Lecture 15 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 04 blind review complete
+
+- Candidate findings: P0=0, P1=1, P2=3, P3=1.
+- Complete coverage of random-variable, indicator, discrete-transformation, and
+  independence material.
+- No failures, retries, or scope deviations reported.
+- Started Lecture 07 in the newly available worker slot.

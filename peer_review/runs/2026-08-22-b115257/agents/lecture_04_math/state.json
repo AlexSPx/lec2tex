@@ -1,0 +1,21 @@
+{
+  "agent": "lecture_04_math",
+  "lecture": "lectures/bodies/lecture_04.tex",
+  "status": "complete",
+  "unfinished_sections": [],
+  "sections": {
+    "random_variables_and_operations": "complete",
+    "indicator_functions": "complete",
+    "discrete_random_variables": "complete",
+    "transformations": "complete",
+    "independence": "complete",
+    "exercise": "complete"
+  },
+  "finding_totals": {"P0": 0, "P1": 1, "P2": 3, "P3": 1, "total": 5},
+  "uncertainties": [
+    "The equality-in-distribution display can be read as quantifying over the union of both supports; its surrounding prose does not state that scope explicitly.",
+    "The positive-mass convention might be intended to omit null-probability values, but that convention conflicts with the preceding exact partition representation unless stated as an a.s. convention."
+  ],
+  "failures": []
+}
+
