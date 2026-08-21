@@ -1,0 +1,14 @@
+{"event":"scope_initialized","date":"2026-08-22","detail":"Read required rubric, lecture source, and semantic macro/environment definitions in preamble; excluded materials were not opened."}
+{"event":"source_line_map_created","date":"2026-08-22","detail":"Numbered lecture source lines 1–239 for exact-object coverage."}
+{"event":"section_checked","date":"2026-08-22","section":"lines 1-25","detail":"Checked probability axioms, their relation to nonnegativity, and the set-difference identity; no defect found."}
+{"event":"section_checked","date":"2026-08-22","section":"lines 27-96","detail":"Verified all six numbered results and proofs, including the telescoping decomposition in continuity at zero and disjointification in subadditivity; no defect found."}
+{"event":"finding_recorded","date":"2026-08-22","id":"L02-M-001","detail":"Countable discrete weights are normalized but lack an explicit event-space and event-probability construction."}
+{"event":"section_checked","date":"2026-08-22","section":"lines 98-150","detail":"Checked finite and countable constructions, displayed normalizations, all three examples, and geometric-distribution convention; one construction-detail omission recorded."}
+{"event":"finding_recorded","date":"2026-08-22","id":"L02-M-002","detail":"Geometric probability is asserted for every subset and allows zero-volume Omega, so it does not define a probability measure as written."}
+{"event":"section_checked","date":"2026-08-22","section":"lines 152-190","detail":"Checked definition, figure, singleton calculation, and Monte Carlo discussion; one essential-hypotheses defect recorded."}
+{"event":"section_checked","date":"2026-08-22","section":"lines 192-212","detail":"Checked probability-space triple and finite uniform example; no additional defect found."}
+{"event":"section_checked","date":"2026-08-22","section":"lines 214-228","detail":"Checked positive-conditioning condition, normalization interpretation, and geometric conditional-probability cancellation; no additional defect found."}
+{"event":"finding_recorded","date":"2026-08-22","id":"L02-M-003","detail":"Exercise labelled as an A3 verification asks only finite additivity without stating the finite-space reduction."}
+{"event":"section_checked","date":"2026-08-22","section":"lines 230-239","detail":"Verified both exercises; the odd-label computation is correct and one P3 scope/terminology note was recorded."}
+{"event":"review_completed","date":"2026-08-22","detail":"All seven sections and every enumerated in-scope statement, proof, displayed derivation, example, figure-supported mathematical claim, and exercise have coverage entries. No source edits and no tool failures."}
+{"event":"artifact_validation","date":"2026-08-22","detail":"Validated state.json and all JSONL ledgers with jq; state is completed, all 7 section statuses are completed, and ledger line counts are events=13, coverage=7, findings=3."}

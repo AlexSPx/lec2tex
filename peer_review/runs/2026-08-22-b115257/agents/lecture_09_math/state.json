@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "current": null,
+  "completed": ["Section 1: classes of continuous random variables", "Section 2: continuous joint distributions", "Section 3: change of variables for random vectors", "Section 4: Gamma and chi-square distributions", "Section 5: exercises", "final ledger reconciliation"],
+  "remaining": []
+}

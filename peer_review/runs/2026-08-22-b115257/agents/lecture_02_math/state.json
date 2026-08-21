@@ -1,0 +1,20 @@
+{
+  "agent": "lecture_02_math",
+  "status": "completed",
+  "source": "lectures/bodies/lecture_02.tex",
+  "sections": [
+    {"start_line": 1, "title": "Въведение. Дефиниция за вероятност", "status": "completed"},
+    {"start_line": 27, "title": "Следствия от дефиницията за вероятност", "status": "completed"},
+    {"start_line": 98, "title": "Дискретна вероятност", "status": "completed"},
+    {"start_line": 152, "title": "Геометрична вероятност", "status": "completed"},
+    {"start_line": 192, "title": "Вероятностно пространство", "status": "completed"},
+    {"start_line": 214, "title": "Условна вероятност", "status": "completed"},
+    {"start_line": 230, "title": "Задачи", "status": "completed"}
+  ],
+  "findings": 3,
+  "severity_counts": {"P0": 0, "P1": 1, "P2": 1, "P3": 1},
+  "coverage": {"sections": 7, "numbered_statements": 13, "proofs": 6, "examples": 3, "exercises": 2, "displayed_derivations_or_definitions": 21},
+  "uncertainties": ["The geometric definition may use the informal word 'област' to intend a positive measurable region, but its quantified formula still explicitly says every subset and only states finite volume."],
+  "process_tool_failures": [],
+  "updated": "2026-08-22"
+}

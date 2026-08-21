@@ -15,3 +15,20 @@
   dangling references.
 - Advanced the blind mathematical phase and selected Lectures 09, 02, and 14
   for wave 1.
+
+## 2026-08-22 — Lecture 02 blind review complete
+
+- Terra/high reviewer completed all 7 sections.
+- Coverage reported: 13 numbered statements, 6 proofs, 3 examples, 2 exercises.
+- Candidate findings: P0=0, P1=1, P2=1, P3=1.
+- No process or tool failures reported.
+- Started Lecture 06 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 09 blind review complete
+
+- Terra/high reviewer completed the largest source in five section checkpoints.
+- Coverage ledger contains 48 records, including four exercises.
+- Candidate findings: P0=0, P1=2, P2=7, P3=0.
+- SymPy was unavailable to the agent; exact checks were completed with Python
+  `fractions` and the fallback was logged.
+- Started Lecture 11 in the newly available worker slot.
