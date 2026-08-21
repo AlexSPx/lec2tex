@@ -32,3 +32,11 @@
 - SymPy was unavailable to the agent; exact checks were completed with Python
   `fractions` and the fallback was logged.
 - Started Lecture 11 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 14 blind review complete
+
+- Coverage ledger contains 45 records across all six sections.
+- Candidate findings: P0=0, P1=2, P2=1, P3=1.
+- The agent checked rendered output. Optional SciPy was unavailable; a
+  dependency-free numerical retry was logged.
+- Started Lecture 01 in the newly available worker slot.

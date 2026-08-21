@@ -1,0 +1,25 @@
+{
+  "agent": "lecture_14_math",
+  "status": "complete",
+  "scope": [
+    "lectures/bodies/lecture_14.tex",
+    "lectures/preamble.tex (semantic definitions only)",
+    "lectures/lecture_14.pdf (rendered confirmation)"
+  ],
+  "completed_sections": [
+    "Introduction and historical context",
+    "Deterministic model and ordinary least squares",
+    "Stochastic model",
+    "Properties of estimators",
+    "Estimation of sigma squared",
+    "Hypothesis testing"
+  ],
+  "unfinished_sections": [
+    
+  ],
+  "findings_recorded": 4,
+  "tool_failures": [
+    "Optional scipy quantile verification was unavailable (ModuleNotFoundError); the F14-004 values were retained from independent analytic/table knowledge and labeled P3.",
+    "Cleanup command for the temporary PDF-render directory was rejected by command safety policy before execution; it is outside the workspace and contains only derived PNGs."
+  ]
+}
