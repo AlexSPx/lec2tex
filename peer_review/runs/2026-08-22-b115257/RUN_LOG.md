@@ -272,3 +272,12 @@
 - An ad hoc new-findings filename and two transient jq syntax failures were
   corrected and logged; final validation passed.
 - Started cross-book dependency and theorem-use audit.
+
+## 2026-08-22 — fidelity phase complete
+
+- Lecture 10 closed the phase with 16 Stage A records, all 5 blind verdicts,
+  and 6 independent fidelity records.
+- It logged two transient jq-command retries; content validation passed.
+- All 15 lectures now have accepted fidelity packages; invalidated attempts for
+  Lectures 06 and 12 remain preserved but excluded.
+- Started cross-book formulas, examples, exercises, and appendix audit.

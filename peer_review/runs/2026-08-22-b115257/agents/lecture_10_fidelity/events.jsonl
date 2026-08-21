@@ -1,0 +1,5 @@
+{"event":"rubric_read","path":"peer_review/runs/2026-08-22-b115257/fidelity_rubric.md","outcome":"Read in full before audit; prohibited files not inspected.","date":"2026-08-22"}
+{"event":"stage_a_checkpoint","outcome":"Completed and validated timestamped independent body-versus-transcript map before opening blind findings: 16 unique records spanning 0.0-6470.96 seconds.","date":"2026-08-22"}
+{"event":"targeted_board_ocr","outcome":"Checked board_002/004/006/018/019/020/021/022/023/024 for convergence, Chebyshev, and LLN claims; board_024 had empty OCR and was not treated as formula evidence.","date":"2026-08-22"}
+{"event":"stage_b_checkpoint","outcome":"Adjudicated all 5 blind IDs and recorded 6 independent source-fidelity findings; no book files changed.","date":"2026-08-22"}
+{"event":"ledger_validated","outcome":"All JSON/JSONL parsed. Counts: 16 inventory, 5 blind verdicts, 6 independent findings; all required fields and 7 canonical artifacts present; content validation failures 0. Two jq-filter compatibility/scope attempts failed before the successful validation rerun.","date":"2026-08-22"}

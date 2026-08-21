@@ -14,7 +14,7 @@
   "phases": {
     "baseline": "complete",
     "blind_math": "complete",
-    "fidelity": "running",
+    "fidelity": "complete",
     "cross_book": "running",
     "adjudication": "pending",
     "final_report": "pending"
@@ -29,7 +29,7 @@
     "07": {"math": "complete", "fidelity": "complete"},
     "08": {"math": "complete", "fidelity": "complete"},
     "09": {"math": "complete", "fidelity": "complete"},
-    "10": {"math": "complete", "fidelity": "running"},
+    "10": {"math": "complete", "fidelity": "complete"},
     "11": {"math": "complete", "fidelity": "complete"},
     "12": {"math": "complete", "fidelity": "complete"},
     "13": {"math": "complete", "fidelity": "complete"},
