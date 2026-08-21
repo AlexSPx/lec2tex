@@ -1,0 +1,3 @@
+# Assigned review prompt
+
+Perform blind mathematical peer review of Lecture 07 only. Scope: `lectures/bodies/lecture_07.tex`, needed preamble semantics, and `lectures/lecture_07.pdf` if useful. Do not inspect the README, remediation materials, git history, run artifacts, references, other lectures, or reports. Do not edit the book. Verify Poisson limits/approximation and error claims, hypergeometric PMF/moments, joint distributions/CDF, covariance/correlation identities and equality conditions, independence implications, examples, exercises, proofs, and displays. Maintain this directory's audit records and report complete coverage, counts, uncertainties, and failures.

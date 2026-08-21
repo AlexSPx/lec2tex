@@ -96,3 +96,11 @@
 - Candidate findings: P0=0, P1=1, P2=9, P3=0.
 - No tool failures reported.
 - Started Lecture 08 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 07 blind review complete
+
+- Candidate findings: P0=0, P1=3, P2=4, P3=0.
+- Complete coverage of Poisson approximation, hypergeometric, joint
+  distributions, covariance/correlation, and exercises.
+- One patch-context mismatch during finalization was retried successfully.
+- Started Lecture 05 in the newly available worker slot.

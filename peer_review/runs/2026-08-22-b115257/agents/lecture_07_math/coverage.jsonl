@@ -1,0 +1,26 @@
+{"object":"preamble semantics","lines":"lectures/preamble.tex:23-41","status":"checked","result":"Notation supports ordinary expectation, variance, covariance, and distribution labels; no semantic issue."}
+{"object":"Poisson section","lines":"lecture_07.tex:1-176","status":"completed"}
+{"object":"PGF convergence premise and Poisson theorem","lines":"7-25","status":"checked","result":"Pointwise PGF argument and fixed-k Poisson limit are correct under the implicit binomial parameter domain."}
+{"object":"Poisson special-case proof displays","lines":"27-44","status":"checked","result":"Algebra and limiting PGF are correct eventually; finding L07-M-006 flags invalid all-n parameterization when lambda>1."}
+{"object":"Practical Poisson approximation rule","lines":"46-54","status":"checked","result":"Finding L07-M-001: advertised sufficient conditions admit non-small p and do not ensure the claimed accuracy."}
+{"object":"Poisson thinning statement/proof","lines":"57-121","status":"checked","result":"Correct for j,k>=0, lambda>=0, and independent Bernoulli marks; product factorization proves independence."}
+{"object":"Thinning fixed-N comparison and figures","lines":"123-149","status":"checked","result":"Correct; plotted areas (via squared radii) accord with the stated joint-mass proportionality."}
+{"object":"Thinning example and uniqueness supplement","lines":"151-176","status":"checked","result":"Means, variances, probability, conditional implication, and Poisson characterization are correct with stated endpoint caveat."}
+{"object":"Hypergeometric section","lines":"lecture_07.tex:179-250","status":"completed"}
+{"object":"Hypergeometric definition and parameter domain","lines":"183-188","status":"checked","result":"Sampling model/PMF domain are correct in the ordinary nondegenerate setting; finding L07-M-002 identifies omitted N>1 condition for variance formula."}
+{"object":"Hypergeometric PMF and proof","lines":"190-210","status":"checked","result":"Subset-counting formula and support max(0,n-N+M)<=k<=min(M,n) are correct."}
+{"object":"Hypergeometric expectation and variance discussion","lines":"212-234","status":"checked","result":"Indicator expectation proof is correct; variance formula valid for N>1, with L07-M-002 at permitted boundary N=1."}
+{"object":"Hypergeometric example and binomial limit supplement","lines":"236-250","status":"checked","result":"Example parameterization and fixed-n limit are correct."}
+{"object":"Joint-distributions section","lines":"lecture_07.tex:252-351","status":"completed"}
+{"object":"Joint discrete distribution definition and marginals","lines":"258-274","status":"checked","result":"Joint PMF and marginalization identities are correct for the stated discrete setting."}
+{"object":"Two-dice joint-distribution example","lines":"276-309","status":"checked","result":"All six nonzero cells, normalization, and Bin(2,1/6) marginal check are correct."}
+{"object":"Joint CDF definition and marginal-CDF proposition","lines":"311-336","status":"checked","result":"Strict-inequality convention is internally usable; finding L07-M-003 flags evaluation outside declared R^2 domain."}
+{"object":"Independence criterion and normal-sum remark","lines":"338-351","status":"checked","result":"CDF and discrete criteria are correct; the Z=Y counterexample is valid."}
+{"object":"Covariance/correlation section","lines":"lecture_07.tex:354-619","status":"completed"}
+{"object":"Covariance definition, independence corollary, variance-of-sum proposition/proof","lines":"354-406","status":"checked","result":"Identities and proof are correct when covariance/second moments exist; finding L07-M-007 flags overstatement of finite-population shrinkage at boundaries."}
+{"object":"Correlation definition and scaling claim","lines":"408-428","status":"checked","result":"Definition correctly requires finite positive variances; scaling statement is correct for the stated simultaneous positive scaling."}
+{"object":"Correlation figure, bounds theorem, and proof","lines":"430-500","status":"checked","result":"Cauchy-style proof is correct on positive-variance domain; finding L07-M-004 flags theorem quantifier/domain mismatch."}
+{"object":"Linear-dependence theorem and both proofs","lines":"502-547","status":"checked","result":"Proof establishes the standard a.s. affine criterion on positive-variance domain; finding L07-M-004 flags missing conditions."}
+{"object":"Part-whole and thinning correlation supplement","lines":"549-596","status":"checked","result":"Algebra is correct on nondegenerate domain; finding L07-M-005 flags omitted conditions and exact-conditioning formulation."}
+{"object":"AR(1) supplement","lines":"598-619","status":"checked","result":"Expansion, variance, covariance, and limiting stationary correlation are correct."}
+{"object":"Exercises","lines":"622-646","status":"checked","result":"All six are correct subject to the domains/clarifications already identified in L07-M-002, L07-M-003, and L07-M-006."}

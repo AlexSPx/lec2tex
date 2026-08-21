@@ -1,0 +1,18 @@
+{
+  "agent": "lecture_07_math",
+  "scope": ["lectures/bodies/lecture_07.tex", "lectures/preamble.tex", "lectures/lecture_07.tex", "lectures/lecture_07.pdf"],
+  "status": "completed",
+  "sections": {
+    "poisson": "completed",
+    "hypergeometric": "completed",
+    "joint_distributions": "completed",
+    "covariance_correlation": "completed",
+    "exercises": "completed"
+  },
+  "unfinished_sections": [],
+  "findings_total": 7,
+  "severity_totals": {"P0": 0, "P1": 3, "P2": 4, "P3": 0},
+  "failures": ["One final-ledger apply_patch attempt had a context mismatch; no files were changed by that attempt and the split retry succeeded."],
+  "scope_deviations": ["lecture_07.pdf was not inspected because source-level inspection covered all mathematical displays and numerical visual claims."],
+  "uncertainties": []
+}
