@@ -1,0 +1,30 @@
+{"event":"initialized","scope":"Lecture 11 mathematical review","status":"in_progress"}
+{"event":"inspected","file":"peer_review/runs/2026-08-22-b115257/rubric.md","check":"read complete rubric"}
+{"event":"inspected","file":"lectures/preamble.tex","lines":"26-43,110-159","check":"verified probability notation and theorem environments"}
+{"event":"inspected","file":"lectures/bodies/lecture_11.tex","check":"obtained line-numbered source; terminal display truncated, will retry in bounded ranges"}
+{"event":"retry_succeeded","file":"lectures/bodies/lecture_11.tex","lines":"1-119","check":"reviewed setup, CLT statement, interpretations, two examples, and Lindeberg--Feller supplement"}
+{"event":"checked","lines":"19-25","check":"CLT algebraic scaling correct conditional on positive sigma; detected omitted nondegeneracy"}
+{"event":"checked","lines":"27-50","check":"uniform-standardization histogram supports/densities are consistent with n=1,2,8"}
+{"event":"checked","lines":"52-70","check":"finite variance implies finite mean; distributional interval limits and threshold algebra are correct under sigma>0"}
+{"event":"checked","lines":"74-100","check":"symmetric ±1 moments and stated continuous-density moments verified; detected missing independent-identically-distributed-copy assumption for Y_j"}
+{"event":"checked","lines":"102-119","check":"Lindeberg expression and normalized conclusion correct when normalization is defined; degenerate zero-variance case remains excluded by the CLT finding"}
+{"event":"rejected_hypothesis","lines":"83","check":"tie probability claim is true: for even n it is binomial(n,n/2)/2^n~sqrt(2/(pi n)), and for odd n it is zero; wording is informal but no separate finding recorded"}
+{"event":"inspected","file":"lectures/bodies/lecture_11.tex","lines":"121-183","check":"reviewed MGF definition, uniform/exponential examples, moments, all listed properties, and characteristic-function remark"}
+{"event":"checked","lines":"125-148","check":"MGF formulae and stated domains verified: U(0,1) has removable value M(0)=1; Exp(1) has M(t)=(1-t)^-1 for t<1"}
+{"event":"checked","lines":"150-158","check":"moment definitions valid for finite moments; flagged imprecise identification of standardized shape statistics as moments"}
+{"event":"checked","lines":"160-175","check":"M(0), independence, affine transformation, uniqueness, and Curtiss convergence statement checked; detected unqualified moment-series/differentiation claim"}
+{"event":"checked","lines":"177-183","check":"finite-mean/variance variables can lack an MGF near zero, and characteristic-function boundedness statement is correct"}
+{"event":"inspected","file":"lectures/bodies/lecture_11.tex","lines":"185-227","check":"reviewed normal MGF derivation and every proof step of thm:clt"}
+{"event":"checked","lines":"187-197","check":"completion of square, translated normal-density integral, and affine normal MGF formula are algebraically correct"}
+{"event":"checked","lines":"204-225","check":"under the extra all-real MGF assumption and sigma>0, standardization, factorization, Taylor expansion, and exponential limit are valid; detected that this extra assumption is absent from thm:clt"}
+{"event":"inspected","file":"lectures/bodies/lecture_11.tex","lines":"229-278","check":"reviewed binomial CLT, local Moivre--Laplace supplement, Monte Carlo derivation, normal-tail bound, and Berry--Esseen statement"}
+{"event":"checked","lines":"232-240","check":"Bernoulli mean/variance and CLT algebra correct for fixed 0<p<1; detected missing nondegenerate parameter restriction"}
+{"event":"checked","lines":"242-253","check":"detected local approximation lacks its required central/moderate-deviation range for k"}
+{"event":"checked","lines":"256-267","check":"standardization and p(1-p)<=1/4 threshold comparison are exact; detected unjustified conversion of CLT normal approximation into a finite-sample upper bound"}
+{"event":"checked","lines":"267","check":"two-sided normal Mills bound is correct for A>0"}
+{"event":"checked","lines":"272-277","check":"Berry--Esseen formula has correct form under iid, sigma>0, and finite absolute third central moment; detected omitted finiteness hypothesis and inaccurate non-absolute wording"}
+{"event":"inspected","file":"lectures/bodies/lecture_11.tex","lines":"279-319","check":"reviewed Gamma MGF derivation, both moment derivatives, and all three exercises"}
+{"event":"checked","lines":"281-301","check":"rate-parameter Gamma density, substitution, MGF, first derivative, and second derivative are correct conditional on alpha>0 and beta>0; detected unstated parameter domain"}
+{"event":"checked","lines":"306-319","check":"exercise 1 formula is correct; exercise 2 poses a valid fixed-threshold CLT question; exercise 3 correctly requests repeated differentiation conditional on the Gamma domain"}
+{"event":"completed","file":"lectures/bodies/lecture_11.tex","coverage":"all 319 source lines and all listed mathematical objects reviewed","findings":{"P0":1,"P1":5,"P2":3,"P3":1},"uncertainty":"No PDF inspection was needed; one P3 terminology item is non-substantive."}
+{"event":"validated","check":"state completion, required finding fields, severity totals, and six completed coverage records","result":"passed"}

@@ -40,3 +40,21 @@
 - The agent checked rendered output. Optional SciPy was unavailable; a
   dependency-free numerical retry was logged.
 - Started Lecture 01 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 06 blind review complete
+
+- Candidate findings: P0=0, P1=3, P2=4, P3=1.
+- Complete coverage across generating functions, five discrete distribution
+  families, exercises, supplements, proofs, and the figure.
+- A truncated initial source read was retried with bounded reads; no blocker
+  remained.
+- Started Lecture 13 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 11 blind review complete
+
+- Candidate findings: P0=1, P1=5, P2=3, P3=1.
+- Complete coverage across all six review blocks and 319 source lines.
+- The P0 candidate concerns an MGF-based proof presented under only a
+  finite-variance CLT hypothesis; it will receive independent fidelity and
+  adjudication checks before acceptance.
+- Started Lecture 04 in the newly available worker slot.

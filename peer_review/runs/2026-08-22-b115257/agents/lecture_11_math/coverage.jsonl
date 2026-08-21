@@ -1,0 +1,12 @@
+{"section":"s1_setup","lines":"1-14","status":"pending","objects":[]}
+{"section":"s2_clt","lines":"15-119","status":"pending","objects":[]}
+{"section":"s1_setup","lines":"1-14","status":"completed","objects":["iid setup","S_n definition","SLLN recall","E_n definition"]}
+{"section":"s2_clt","lines":"15-119","status":"completed","objects":["CLT theorem","CLT figure","scaling interpretation","universality prose","CDF/interval consequences","tug-of-war example","continuous-density example","Lindeberg--Feller supplement"]}
+{"section":"s3_mgf","lines":"121-183","status":"pending","objects":[]}
+{"section":"s3_mgf","lines":"121-183","status":"completed","objects":["MGF definition/domain","U(0,1) MGF example","Exp(1) MGF example","four moment definitions","M(0)","moment generating/differentiation property","independence product","affine MGF","uniqueness","MGF convergence","characteristic-function remark"]}
+{"section":"s4_normal_and_proof","lines":"185-227","status":"pending","objects":[]}
+{"section":"s4_normal_and_proof","lines":"185-227","status":"completed","objects":["standard normal MGF integral","general normal MGF","CLT proof standardization","MGF factorization","Taylor expansion","exponential limit","MGF convergence conclusion"]}
+{"section":"s5_applications","lines":"229-278","status":"pending","objects":[]}
+{"section":"s5_applications","lines":"229-278","status":"completed","objects":["binomial-as-Bernoulli-sum","binomial CLT","moving threshold tail application","local Moivre--Laplace supplement","Bernoulli/Monte-Carlo standardization","worst-case variance threshold","normal tail integral/Mills bound","Berry--Esseen theorem"]}
+{"section":"s6_gamma_and_exercises","lines":"279-319","status":"pending","objects":[]}
+{"section":"s6_gamma_and_exercises","lines":"279-319","status":"completed","objects":["Gamma rate-parameter density","Gamma MGF substitution/domain","Gamma integral identity","Gamma MGF formula","first and second derivative moments","exercise 1 normal MGF","exercise 2 fixed winning threshold","exercise 3 higher Gamma moments"]}

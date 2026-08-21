@@ -1,0 +1,16 @@
+{"event":"initialized","scope":"Lecture 06 blind mathematical review","status":"in_progress"}
+{"event":"inspected","file":"peer_review/runs/2026-08-22-b115257/rubric.md","check":"read completely before review"}
+{"event":"inspected","file":"lectures/preamble.tex","lines":"1-205","check":"semantic notation and numbered-environment definitions"}
+{"event":"inspected","file":"lectures/bodies/lecture_06.tex","check":"initial full source read attempted; terminal output truncated, proceeding with line-bounded reads"}
+{"event":"retry","file":"lectures/bodies/lecture_06.tex","reason":"combined source read was truncated","action":"read bounded ranges 1-180 and 178-280"}
+{"event":"checked","section":"Пораждащи функции","checks":["absolute convergence of PGF on [-1,1]","endpoint derivative/moment conditions","coefficient extraction at k=0","finite independent-sum PGF factorization","compound-sum conditioning","CDF-PGF identity","Poisson thinning substitution"]}
+{"event":"checkpoint","section":"Пораждащи функции","status":"completed","findings":["L06-M001","L06-M002","L06-M003","L06-M004"]}
+{"event":"checked","section":"Основни дискретни разпределения","checks":["Bernoulli PMF/PGF/moments","binomial PGF, coefficient calculation and variance target","mode adjacent-ratio boundary and tie cases","geometric hitting-time, geometric-series, derivatives, moments and conditioning","coupon-collector stage decomposition, reindexing, variance and asymptotics","negative-binomial PGF/product derivative and PMF","Poisson normalization/PGF/moments"]}
+{"event":"rejected_hypothesis","claim":"Coupon-collector variance reindexing is erroneous","reason":"Substitution k=n-i+1 gives (1-p_i)/p_i^2=n(n-k)/k^2, and the printed variance identity follows exactly."}
+{"event":"rejected_hypothesis","claim":"Poisson PGF or moment differentiation is erroneous","reason":"Direct Taylor-series calculation gives exp(lambda(s-1)), first derivative lambda exp(lambda(s-1)), and variance lambda."}
+{"event":"checkpoint","section":"Основни дискретни разпределения","status":"completed","findings":["L06-M005","L06-M006","L06-M007","L06-M008"]}
+{"event":"checked","section":"Задачи","checks":["all four exercises","finite-product induction target","binomial second derivative","geometric expectation series","Poisson PGF derivatives"],"result":"no additional findings"}
+{"event":"inspected","file":"lectures/bodies/lecture_06.tex","check":"environment/display inventory cross-check against coverage ledger"}
+{"event":"checked","file":"peer_review/runs/2026-08-22-b115257/agents/lecture_06_math/state.json and findings.jsonl","check":"JSON parsing","result":"valid"}
+{"event":"checkpoint","section":"Задачи","status":"completed","findings":[]}
+{"event":"checked","check":"final review-record invariants","result":"state completed; no unfinished sections; 8 findings; every coverage entry checkpointed"}

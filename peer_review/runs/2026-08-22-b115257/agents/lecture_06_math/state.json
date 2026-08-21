@@ -1,0 +1,18 @@
+{
+  "agent": "lecture_06_math",
+  "status": "completed",
+  "scope": [
+    "lectures/bodies/lecture_06.tex",
+    "lectures/preamble.tex (semantic macros/environments only)",
+    "lectures/lecture_06.pdf (if needed)"
+  ],
+  "sections": [
+    {"name": "Пораждащи функции", "lines": "1-188", "status": "completed", "findings": ["L06-M001", "L06-M002", "L06-M003", "L06-M004"]}
+    ,{"name": "Основни дискретни разпределения", "lines": "190-464", "status": "completed", "findings": ["L06-M005", "L06-M006", "L06-M007", "L06-M008"]}
+    ,{"name": "Задачи", "lines": "466-477", "status": "completed", "findings": []}
+  ],
+  "unfinished_sections": [],
+  "findings_total": 8,
+  "severity_counts": {"P0": 0, "P1": 3, "P2": 4, "P3": 1},
+  "last_checkpoint": "Задачи"
+}

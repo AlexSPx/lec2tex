@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "scope": ["lectures/bodies/lecture_11.tex", "lectures/preamble.tex"],
+  "sections": {
+    "s1_setup": "completed", "s2_clt": "completed", "s3_mgf": "completed",
+    "s4_normal_and_proof": "completed", "s5_applications": "completed",
+    "s6_gamma_and_exercises": "completed"
+  },
+  "unfinished_sections": []
+}
