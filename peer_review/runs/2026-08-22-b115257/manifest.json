@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-22-b115257",
+  "baseline_commit": "b11525775f8d5c49ed9297b4aa53d6e0a134e523",
+  "branch": "codex/math-peer-review",
+  "created_at": "2026-08-22T00:39:10+03:00",
+  "review_policy": {
+    "primary_model": "gpt-5.6-terra",
+    "primary_reasoning": "high",
+    "fresh_context": true,
+    "book_edits_allowed": false,
+    "checkpoint_unit": "section"
+  },
+  "phases": {
+    "baseline": "complete",
+    "blind_math": "running",
+    "fidelity": "pending",
+    "cross_book": "pending",
+    "adjudication": "pending",
+    "final_report": "pending"
+  },
+  "lectures": {
+    "01": {"math": "pending", "fidelity": "pending"},
+    "02": {"math": "running", "fidelity": "pending"},
+    "03": {"math": "pending", "fidelity": "pending"},
+    "04": {"math": "pending", "fidelity": "pending"},
+    "05": {"math": "pending", "fidelity": "pending"},
+    "06": {"math": "pending", "fidelity": "pending"},
+    "07": {"math": "pending", "fidelity": "pending"},
+    "08": {"math": "pending", "fidelity": "pending"},
+    "09": {"math": "running", "fidelity": "pending"},
+    "10": {"math": "pending", "fidelity": "pending"},
+    "11": {"math": "pending", "fidelity": "pending"},
+    "12": {"math": "pending", "fidelity": "pending"},
+    "13": {"math": "pending", "fidelity": "pending"},
+    "14": {"math": "running", "fidelity": "pending"},
+    "15": {"math": "pending", "fidelity": "pending"}
+  }
+}
