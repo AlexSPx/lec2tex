@@ -11,7 +11,8 @@
     "math_events": 224,
     "math_coverage_records": 291,
     "math_candidate_findings": 100,
-    "accepted_fidelity_events": 104,
+    "accepted_fidelity_events_at_primary_audit": 104,
+    "accepted_fidelity_events_after_late_correction": 106,
     "accepted_fidelity_stage_a_records": 207,
     "accepted_fidelity_verdict_records": 101,
     "accepted_fidelity_id_linked_verdicts": 100,
@@ -31,10 +32,17 @@
       "accepted_fidelity_raw_verdict_records": 101,
       "accepted_fidelity_id_linked_verdicts": 100,
       "accepted_fidelity_new_finding_records": 41,
-      "accepted_contract_files": 104,
+      "accepted_contract_files_at_primary_audit": 104,
+      "accepted_contract_files_after_late_correction": 105,
       "agent_jsonl_streams": 118,
       "agent_jsonl_parse_failures": 0
     }
+  },
+  "late_artifact_contract_correction": {
+    "package": "agents/lecture_12_fidelity_retry",
+    "original_audit_observation": "handoff.md was absent; 14/15 accepted fidelity packages had the complete contract.",
+    "final_state": "handoff.md is nonempty and package validation records all seven required canonical files; 15/15 accepted packages are contract-complete.",
+    "verdict_or_finding_change": false
   },
   "next": null
 }

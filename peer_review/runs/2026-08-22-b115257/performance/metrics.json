@@ -28,6 +28,8 @@
     "math_complete_states": "15/15",
     "math_required_artifact_sets_complete": "15/15",
     "math_events": 224,
+    "accepted_fidelity_events_at_primary_audit": 104,
+    "accepted_fidelity_events_after_late_correction": 106,
     "math_coverage_records": 291,
     "accepted_fidelity_stage_a_records": 207,
     "accepted_fidelity_id_linked_verdicts": 100,
@@ -81,17 +83,28 @@
     "note": "This is an observable lower-bound incident count. It excludes passive source/OCR corruption and does not treat an invalidated blindness violation as a tool failure."
   },
   "artifact_discipline": {
-    "accepted_packages_with_all_7_contract_files": "14/15",
+    "accepted_packages_with_all_7_contract_files": "15/15",
     "expected_contract_files_across_accepted_packages": 105,
-    "present_contract_files_across_accepted_packages": 104,
-    "remaining_missing_contract_file": "agents/lecture_12_fidelity_retry/handoff.md",
-    "accepted_attempts_requiring_schema_or_path_correction": 7,
+    "present_contract_files_across_accepted_packages": 105,
+    "remaining_missing_contract_file": null,
+    "primary_audit_observation": {
+      "accepted_packages_with_all_7_contract_files": "14/15",
+      "present_contract_files_across_accepted_packages": 104,
+      "missing_contract_file": "agents/lecture_12_fidelity_retry/handoff.md"
+    },
+    "late_correction": {
+      "package": "lecture_12_fidelity_retry",
+      "change": "Added nonempty handoff.md; events seq 10/11 and state package_validation record final seven-file validation.",
+      "substantive_ledger_change": false
+    },
+    "accepted_attempts_requiring_schema_or_path_correction": 8,
     "corrected_attempts": [
       "lecture_01_fidelity",
       "lecture_04_fidelity",
       "lecture_06_fidelity_retry",
       "lecture_08_fidelity",
       "lecture_11_fidelity",
+      "lecture_12_fidelity_retry",
       "lecture_13_fidelity",
       "lecture_15_fidelity"
     ],
@@ -109,13 +122,15 @@
     }
   },
   "orchestration": {
-    "documented_interventions": 9,
+    "documented_interventions_at_primary_audit": 9,
+    "late_artifact_contract_correction": 1,
+    "documented_interventions_after_late_correction": 10,
     "intervention_types": {
       "blindness_invalidation_and_fresh_retry": 2,
       "schema_or_filename_correction": 5,
       "misplaced_path_correction": 2
     },
-    "recovery_result": "Both invalidated fidelity passes were replaced by fresh-context, gate-compliant accepted packages; all seven correction cases retained observable originals and produced usable canonical data, but L12 retry still lacks a handoff."
+    "recovery_result": "Both invalidated fidelity passes were replaced by fresh-context, gate-compliant accepted packages. Eight accepted packages required a schema/path/completeness correction; all now have usable canonical data and all 15 have the complete seven-file contract."
   },
   "uncertainties": [
     "Events are self-reported observable artifacts, not an execution trace; a no-violation finding means no explicit violation marker was found.",

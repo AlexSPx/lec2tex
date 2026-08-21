@@ -22,6 +22,7 @@ reasoning, and no book files were edited.
 | Accepted ID-linked fidelity verdicts | 100 / 100 math IDs |
 | Accepted raw verdict records | 101 (one L05 completion summary is not a verdict) |
 | Material independent fidelity findings | 37 |
+| Accepted fidelity contract files | 105 / 105 final (104 / 105 at the primary audit) |
 | Existing agent JSONL streams parsed | 118 / 118 |
 
 The accepted verdict outcomes are 71 `confirmed_book_error`/`confirmed`, 12
@@ -36,7 +37,7 @@ while a fidelity omission identifies a book/source difference.
 | Phase | Analysis quality | Artifact discipline |
 |---|---|---|
 | Blind math | 15/15 complete, 291 coverage records, 100 candidates, and 224 observable events. The model used exact calculations, proof checks, fallback numerical methods, and rendered checks where appropriate. | All 15 have the expected core package. Transient read/tool/validation incidents were recoverable, though logging terminology is not consistent. No explicit blind-scope violation marker was found. |
-| Fidelity, accepted | All 15 packages show a persisted independent Stage A before blind finding access and reconcile every math ID exactly once. The 207 map records and 37 independent findings add meaningful source-fidelity coverage. | 7 accepted attempts required schema/path/name correction; 14/15 now contain all seven contract files. `lecture_12_fidelity_retry/handoff.md` remains absent. |
+| Fidelity, accepted | All 15 packages show a persisted independent Stage A before blind finding access and reconcile every math ID exactly once. The 207 map records and 37 independent findings add meaningful source-fidelity coverage. | The primary audit observed 7 schema/path/name corrections plus a missing L12 retry handoff. The late L12 correction is now validated: 15/15 accepted packages contain all seven contract files. |
 | Fidelity, invalidated | The original Lecture 06 and 12 attempts cannot count as independent analysis: both opened the blind finding set before persisting Stage A. | This is a real protocol failure, but it was visibly documented, invalidated, and retained rather than hidden. |
 | Orchestration | The coordinator detected both blindness failures, forced fresh contexts, corrected canonicalization, and maintained a recoverable audit trail. | Intervention was effective but too frequent: natural-language constraints alone did not reliably produce contract-compliant artifacts. |
 
@@ -73,11 +74,12 @@ measurement.
 
 ## Schema and path discipline
 
-Seven accepted fidelity attempts required correction: Lecture 01 (Markdown-only
+Eight accepted fidelity attempts ultimately required correction: Lecture 01 (Markdown-only
 initial persistence), 04 (ad hoc names), 06 retry (repository-level write), 08
 (ad hoc new-findings name), 11 (repository-level Markdown package), 13 (ad hoc
-Stage-A names), and 15 (ad hoc originals). All preserve the originals as
-behavior evidence and have usable canonical data afterwards.
+Stage-A names), 15 (ad hoc originals), and 12 retry (late missing handoff).
+All preserve observable correction evidence and have usable canonical data
+afterwards.
 
 Two misplaced directories remain outside the run root, with 14 files total:
 
@@ -86,11 +88,14 @@ Two misplaced directories remain outside the run root, with 14 files total:
 - `/Users/g8row/Documents/lec2tex/agents/lecture_11_fidelity` — 7 Markdown
   artifacts.
 
-The accepted-package contract is otherwise close to complete: 104 of 105
-expected files exist. The remaining exception is
-`agents/lecture_12_fidelity_retry/handoff.md`. The invalidated Lecture 06
-attempt lacks Stage-B artifacts as expected after interruption; that absence is
-not charged against the accepted-package rate.
+At the primary audit, the accepted-package contract was 104 of 105 files: the
+remaining exception was `agents/lecture_12_fidelity_retry/handoff.md`. That
+late correction is now complete: the handoff is nonempty, retry events 10 and
+11 record the correction and all-seven-file validation, and its state is
+`validated_complete`. Final accepted-package compliance is **105 of 105 files,
+15 of 15 packages**. No verdict or finding ledger changed. The invalidated
+Lecture 06 attempt lacks Stage-B artifacts as expected after interruption; that
+absence is not charged against the accepted-package rate.
 
 ## Model and harness assessment
 
