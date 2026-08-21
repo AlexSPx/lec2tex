@@ -1,0 +1,17 @@
+{
+  "lecture": "12",
+  "audit": "fidelity_retry",
+  "stage": "complete",
+  "status": "completed",
+  "blind_findings_opened": true,
+  "stage_a_inventory_persisted": true,
+  "stage_a_inventory_validated_nonempty": true,
+  "transcript_complete": true,
+  "sections": {
+    "source_discovery": "completed",
+    "source_map": "completed",
+    "blind_adjudication": "completed",
+    "new_issue_search": "completed"
+  },
+  "unfinished_sections": []
+}

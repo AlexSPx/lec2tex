@@ -1,0 +1,9 @@
+{"seq":1,"event":"audit_initialized","detail":"Created retry prompt, state, and observable event log before source inspection; Stage A gate active.","blind_findings_opened":false}
+{"seq":2,"event":"source_checkpoint","detail":"Inspected complete book body and transcript minutes 0–31:59 (sampling/statistical model through the MLE definition); blind findings remain unopened.","blind_findings_opened":false}
+{"seq":3,"event":"source_checkpoint","detail":"Inspected transcript minutes 32:00–63:59 (uniform and normal MLE) and on-demand OCR board_004-011 for formula/end-point evidence; blind findings remain unopened.","blind_findings_opened":false}
+{"seq":4,"event":"source_checkpoint","detail":"Inspected transcript minutes 64:00–107:28 (method of moments, estimator properties, uniform maximum, variance correction) and OCR board_012-014, board_019-020; complete transcript/body source map is ready.","blind_findings_opened":false}
+{"seq":5,"event":"stage_a_inventory_persisted","detail":"Persisted a 12-record independent fidelity inventory before any blind-findings access.","blind_findings_opened":false}
+{"seq":6,"event":"stage_a_inventory_validated","detail":"Validated that fidelity_inventory.jsonl is nonempty and contains 12 schema-complete JSON objects; state gate is now recorded before Stage B.","blind_findings_opened":false}
+{"seq":7,"event":"blind_findings_opened","detail":"Opened only lecture_12_math/findings.jsonl after the recorded Stage A validation; found 10 blind IDs.","blind_findings_opened":true}
+{"seq":8,"event":"stage_b_checkpoint","detail":"Adjudicated all 10 blind IDs and persisted four independent transcript-fidelity findings; no book source was edited.","blind_findings_opened":true}
+{"seq":9,"event":"audit_validated_complete","detail":"Validated JSONL schemas, 12 inventory records, one verdict for each of 10 blind IDs, four new fidelity findings, and event sequence; audit completed without book edits.","blind_findings_opened":true}

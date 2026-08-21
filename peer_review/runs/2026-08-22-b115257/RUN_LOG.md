@@ -248,3 +248,11 @@
 - No new finding or process failure was reported; later Bayes work relied on the
   complete transcript because board OCR ended early.
 - Started Lecture 08 fidelity verification.
+
+## 2026-08-22 — Lecture 12 fresh fidelity retry complete
+
+- The valid replacement contains 12 Stage A records, 10 blind verdicts, 4 new
+  findings, and 9 ordered behavior events.
+- Event order proves persistence and validation before first blind-finding
+  access. The earlier attempt remains excluded.
+- Started Lecture 10, the final fidelity unit.
