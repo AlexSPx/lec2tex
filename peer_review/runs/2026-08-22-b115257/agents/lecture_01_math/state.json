@@ -1,0 +1,22 @@
+{
+  "agent": "lecture_01_math",
+  "scope": "lectures/bodies/lecture_01.tex; semantic notation from lectures/preamble.tex",
+  "status": "in_progress",
+  "sections": [
+    {"lines": "1-19", "title": "Introduction and motivation", "status": "complete"},
+    {"lines": "22-79", "title": "Elementary outcomes and sample spaces", "status": "complete"},
+    {"lines": "81-181", "title": "Events and operations", "status": "complete"},
+    {"lines": "183-254", "title": "Sigma-algebra", "status": "complete"},
+    {"lines": "256-284", "title": "Toto modeling", "status": "complete"},
+    {"lines": "286-328", "title": "Exercises and two envelopes", "status": "complete"}
+  ],
+  "unfinished_sections": [],
+  "findings_total": 6,
+  "severity_totals": {"P0": 0, "P1": 1, "P2": 5, "P3": 0},
+  "uncertainties": [
+    "Historical/source claims were outside the blind mathematical verification scope.",
+    "The lecture PDF was not inspected: the TeX source supplied every in-scope mathematical object and no rendering-dependent mathematical ambiguity was found."
+  ],
+  "failures": [],
+  "status": "complete"
+}
