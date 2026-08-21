@@ -104,3 +104,11 @@
   distributions, covariance/correlation, and exercises.
 - One patch-context mismatch during finalization was retried successfully.
 - Started Lecture 05 in the newly available worker slot.
+
+## 2026-08-22 — Lecture 03 blind review complete
+
+- Coverage ledger contains 30 records across all 471 source lines.
+- Candidate findings: P0=0, P1=0, P2=8, P3=2.
+- Toto and Bayes calculations were independently confirmed.
+- A JSON validation retry was logged; no unresolved failures.
+- Started Lecture 10, the final blind mathematical unit.

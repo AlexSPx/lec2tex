@@ -1,0 +1,22 @@
+{
+  "agent": "lecture_03_math",
+  "review_type": "blind_mathematical",
+  "source": "lectures/bodies/lecture_03.tex",
+  "status": "in_progress",
+  "sections": {
+    "conditional_probability": "completed",
+    "independence": "completed",
+    "total_probability": "completed",
+    "bayes_and_exercises": "completed"
+  },
+  "unfinished_sections": [
+  ],
+  "findings_total": 10,
+  "findings_by_severity": {"P0": 0, "P1": 0, "P2": 8, "P3": 2},
+  "uncertainties": [
+    "The line-299 hospital wording may be intended to stipulate an exhaustive mutually exclusive disease classification; it does not state this expressly.",
+    "The continuous-conditioning formula is valid under standard regular-conditional-probability assumptions, which are not made explicit."
+  ],
+  "failures": [],
+  "status": "completed"
+}
