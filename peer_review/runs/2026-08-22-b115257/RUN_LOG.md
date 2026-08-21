@@ -147,3 +147,12 @@
   targeted OCR resolved weak ASR around chi-square notation.
 - Both verifiers persisted Stage A before opening blind findings.
 - Started fidelity reviews for Lectures 06 and 11.
+
+## 2026-08-22 — Lecture 14 fidelity review complete
+
+- Covered 00:00–96:45 across 2,053 transcript segments.
+- Adjudicated 4/4 blind findings; three missing-condition findings were faithful
+  to the lecturer's unqualified presentation, while one wording change
+  strengthened the source.
+- A corrupted 45:00–60:00 ASR interval was isolated and logged.
+- Started Lecture 01 fidelity verification.

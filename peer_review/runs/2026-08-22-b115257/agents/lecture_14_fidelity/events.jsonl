@@ -1,0 +1,12 @@
+{"event":"started","stage":"A","timestamp":"2026-08-22T00:00:00+03:00","detail":"Fresh, transcript-first audit begun; blind findings not opened."}
+{"event":"checkpoint","stage":"A","checkpoint":"A1","source_range":"00:00-15:00","detail":"Transcript segments 0-185 compared to body lines 1-110 and persisted before blind review."}
+{"event":"checkpoint","stage":"A","checkpoint":"A2","source_range":"15:00-30:00","detail":"Transcript segments 186-685 compared to body lines 89-139 and persisted before blind review."}
+{"event":"checkpoint","stage":"A","checkpoint":"A3","source_range":"30:00-45:00","detail":"Transcript segments 686-1132 compared to body lines 135-210 and persisted before blind review."}
+{"event":"checkpoint","stage":"A","checkpoint":"A4","source_range":"45:00-60:00","detail":"Transcript segments 1133-1205 audited; severe unrelated ASR corruption persisted as evidence gap before blind review."}
+{"event":"checkpoint","stage":"A","checkpoint":"A5","source_range":"60:00-75:00","detail":"Transcript segments 1206-1396 compared to body lines 189-251 and persisted before blind review."}
+{"event":"checkpoint","stage":"A","checkpoint":"A6","source_range":"75:00-90:00","detail":"Transcript segments 1397-1816 compared to body lines 216-251 and persisted before blind review."}
+{"event":"checkpoint","stage":"A","checkpoint":"A7","source_range":"90:00-96:45","detail":"Transcript segments 1817-2052 compared; remaining content is administration and off-topic homework."}
+{"event":"stage_complete","stage":"A","detail":"Full 0:00-96:45 transcript coverage persisted in fidelity_inventory.jsonl; blind findings may now be opened."}
+{"event":"blind_findings_opened","stage":"B","detail":"Opened all four IDs in lecture_14_math/findings.jsonl only after Stage A completion."}
+{"event":"stage_complete","stage":"B","detail":"All blind IDs independently classified and the complete source map was searched for additional fidelity issues."}
+{"event":"validated","stage":"B","detail":"All persisted JSON/JSONL artifacts parse. Independent numerical integration gives P(|t_30|>=1.95996398)=0.05934672, confirming F14-004's approximate 5.9% size statement."}

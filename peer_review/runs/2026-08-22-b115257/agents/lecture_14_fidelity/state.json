@@ -1,0 +1,12 @@
+{
+  "lecture": 14,
+  "rubric": "fidelity_rubric.md v1",
+  "stage": "B",
+  "blind_findings_opened": true,
+  "transcript_segments_total": 2053,
+  "transcript_coverage": [{"range":"00:00-15:00","segments":"0-185","checkpoint":"A1"},{"range":"15:00-30:00","segments":"186-685","checkpoint":"A2"},{"range":"30:00-45:00","segments":"686-1132","checkpoint":"A3"},{"range":"45:00-60:00","segments":"1133-1205","checkpoint":"A4"},{"range":"60:00-75:00","segments":"1206-1396","checkpoint":"A5"},{"range":"75:00-90:00","segments":"1397-1816","checkpoint":"A6"},{"range":"90:00-96:45","segments":"1817-2052","checkpoint":"A7"}],
+  "checkpoints": ["A1","A2","A3","A4","A5","A6","A7"],
+  "blind_ids_total": 4,
+  "blind_ids_classified": 4,
+  "status": "complete"
+}

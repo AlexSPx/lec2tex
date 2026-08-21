@@ -20,7 +20,7 @@
     "final_report": "pending"
   },
   "lectures": {
-    "01": {"math": "complete", "fidelity": "pending"},
+    "01": {"math": "complete", "fidelity": "running"},
     "02": {"math": "complete", "fidelity": "complete"},
     "03": {"math": "complete", "fidelity": "pending"},
     "04": {"math": "complete", "fidelity": "pending"},
@@ -33,7 +33,7 @@
     "11": {"math": "complete", "fidelity": "running"},
     "12": {"math": "complete", "fidelity": "pending"},
     "13": {"math": "complete", "fidelity": "pending"},
-    "14": {"math": "complete", "fidelity": "running"},
+    "14": {"math": "complete", "fidelity": "complete"},
     "15": {"math": "complete", "fidelity": "pending"}
   }
 }
