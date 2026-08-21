@@ -209,3 +209,19 @@
 - Ad hoc Stage A filenames were corrected into the canonical package after
   intervention; originals are retained.
 - Started Lecture 07 fidelity verification.
+
+## 2026-08-22 — Lecture 06 fidelity retry canonicalized
+
+- Canonical package contains 22 Stage A records, 8 verdicts, 1 new finding, and
+  7 behavior events; all JSON/JSONL validation passed.
+- Event ordering proves that the fresh retry opened blind findings only after
+  Stage A persistence and validation.
+- Started Lecture 12 fidelity verification.
+
+## 2026-08-22 — Lecture 15 fidelity review complete
+
+- Canonical package contains 13 Stage A records, 4 blind verdicts, and 6 new
+  fidelity findings.
+- Original ad hoc filenames were preserved; exact contract files were added and
+  validated after intervention.
+- Started Lecture 03 fidelity verification.

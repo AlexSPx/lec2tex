@@ -1,0 +1,13 @@
+{
+  "lecture": "06",
+  "stage": "stage_B_persisted",
+  "stage_A_persisted": true,
+  "blind_findings_opened": true,
+  "body_complete": true,
+  "transcript_complete": true,
+  "all_finding_ids_verified": true,
+  "blind_finding_artifact": "/Users/g8row/Documents/lec2tex/peer_review/runs/2026-08-22-b115257/agents/lecture_06_math/findings.jsonl",
+  "blind_finding_id_count": 8,
+  "verified_finding_id_count": 8,
+  "stage_B_persisted": true
+}

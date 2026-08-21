@@ -1,0 +1,7 @@
+{"event":"rubric_read","path":"peer_review/runs/2026-08-22-b115257/fidelity_rubric.md","outcome":"Read in full before audit; prohibited files not inspected.","date":"2026-08-22"}
+{"event":"stage_a_checkpoint","outcome":"Complete timestamped independent body-versus-transcript map persisted as 13 JSONL records before findings.jsonl was opened.","date":"2026-08-22"}
+{"event":"board_check","outcome":"Viewed board_057 (3891s) to resolve task 5(c) as homework and board_062 (4290s) to validate bad-path count C(2n,n+1)=C(2n,n-1).","date":"2026-08-22"}
+{"event":"stage_b_checkpoint","outcome":"All 4 blind finding IDs adjudicated and 6 independent fidelity records added.","date":"2026-08-22"}
+{"event":"ledger_validated","outcome":"All JSON and JSONL records parsed; required Stage A/B fields validated; counts are 13 Stage A maps, 4 blind verdicts, 6 independent verdicts, 0 tool failures.","date":"2026-08-22"}
+{"event":"canonical_artifact_correction","outcome":"Preserved stage_a_map.jsonl and findings.jsonl; emitted canonical fidelity_inventory.jsonl, verdicts.jsonl, new_findings.jsonl, prompt.md, and handoff.md.","date":"2026-08-22"}
+{"event":"canonical_validation","outcome":"Validated 13 unique inventory records, exactly blind IDs F015-001..F015-004 in verdicts.jsonl, 6 unique new findings, required fields, and canonical artifact existence.","date":"2026-08-22"}
