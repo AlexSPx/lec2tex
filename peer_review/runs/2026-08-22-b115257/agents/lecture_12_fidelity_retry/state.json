@@ -7,6 +7,25 @@
   "stage_a_inventory_persisted": true,
   "stage_a_inventory_validated_nonempty": true,
   "transcript_complete": true,
+  "counts": {
+    "inventory_records": 12,
+    "blind_findings": 10,
+    "blind_verdicts": 10,
+    "new_fidelity_findings": 4,
+    "required_package_files": 7
+  },
+  "package_validation": {
+    "required_files": [
+      "prompt.md",
+      "state.json",
+      "events.jsonl",
+      "fidelity_inventory.jsonl",
+      "verdicts.jsonl",
+      "new_findings.jsonl",
+      "handoff.md"
+    ],
+    "status": "validated_complete"
+  },
   "sections": {
     "source_discovery": "completed",
     "source_map": "completed",
