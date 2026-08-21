@@ -1,0 +1,17 @@
+{
+  "lecture": "02",
+  "rubric": "fidelity verification rubric v1",
+  "stage_a": "complete_and_persisted",
+  "stage_b": "complete",
+  "blind_findings_opened": true,
+  "blind_findings_total": 3,
+  "blind_findings_with_verdict": 3,
+  "transcript_coverage": {
+    "start_seconds": 0,
+    "end_seconds": 6521.8,
+    "segments": 3766,
+    "covered": true,
+    "known_gap_or_corruption": "2880.0-3612.0: repeated non-lecture 'Абонирайте се!' / filler transcript; no reliable instructional content."
+  },
+  "source_map_file": "fidelity_inventory.jsonl"
+}

@@ -1,0 +1,14 @@
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"rubric_read","observable":"Read fidelity_rubric.md completely before source comparison."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"path_probe_retry","observable":"The requested shorthand peer_review run/lecture_02 path did not exist; located the specified source as run/lecture_02/ without opening any blind findings."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"source_read","observable":"Read all 3,766 transcript segments (0.0-6521.8 s) in timestamped minute aggregates and all 239 numbered book-body lines."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"section_checkpoint","observable":"Mapped A01-A04: probability axioms, set difference, empty/split/monotonicity/union results (58-1501 s)."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"section_checkpoint","observable":"Mapped A05-A07: continuity at zero, subadditivity, finite discrete construction/exercise (1440-2821 s)."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"section_checkpoint","observable":"Mapped A08-A10: corrupt non-lecture interval, uniform/toto discussion, odd/even reduction (2880-4440 s)."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"section_checkpoint","observable":"Mapped A11: countable discrete construction and examples (4440-5160 s)."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"section_checkpoint","observable":"Mapped A12: geometric probability, measurable-set caveat, fixed-point and Monte Carlo discussion (5160-5761 s)."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"section_checkpoint","observable":"Mapped A13-A15: probability space, conditional probability, and closing/filler (5760-6521.8 s)."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"transcript_anomaly","observable":"2880.0-3612.0 s consists almost entirely of repeated 'Абонирайте се!' then filler; treated as corrupted/non-lecture span, not evidence of an instructional omission."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"A","event":"checkpoint","observable":"Complete independent source map persisted before blind findings were opened."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"B","event":"blind_findings_opened","observable":"Opened all 3 JSONL objects only after the Stage A source map checkpoint."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"B","event":"targeted_board_ocr","observable":"Inspected board-state 029 / OCR board_029 at 5412 s for the disputed geometric-probability formula; it records finite-volume notation and the displayed ratio, while the spoken caveat follows at 5422.64-5436.28 s."}
+{"time":"2026-08-22T00:00:00+03:00","stage":"B","event":"checkpoint","observable":"All 3 blind findings independently re-derived and assigned verdicts; no reference PDF was needed for the elementary measure/probability facts."}

@@ -138,3 +138,12 @@
 - Lecture 08 logged and recovered from unavailable `pdftotext` and a malformed
   summary query; neither affected final coverage.
 - Started Lecture 14 fidelity verification.
+
+## 2026-08-22 — fidelity reviews 02 and 09 complete
+
+- Lecture 02 covered 0–6521.8 seconds and adjudicated 3/3 blind findings; a
+  corrupted non-lecture transcript interval was isolated and logged.
+- Lecture 09 covered 0–10280.1 seconds and adjudicated 9/9 blind findings;
+  targeted OCR resolved weak ASR around chi-square notation.
+- Both verifiers persisted Stage A before opening blind findings.
+- Started fidelity reviews for Lectures 06 and 11.

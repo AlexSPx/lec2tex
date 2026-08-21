@@ -1,0 +1,26 @@
+{
+  "lecture": "09",
+  "rubric": "fidelity_rubric_v1",
+  "stage": "B_complete",
+  "blind_findings_read": true,
+  "blind_findings_total": 9,
+  "verdict_counts": {
+    "confirmed_book_error": 8,
+    "faithful_nonstandard_presentation": 1,
+    "fidelity_omission_or_strengthening": 4,
+    "transcription_or_ocr_uncertainty": 0,
+    "primary_reviewer_error": 0,
+    "insufficient_evidence": 0
+  },
+  "new_findings_total": 4,
+  "transcript_duration_seconds": 10280.1,
+  "transcript_coverage": [
+    {"start":0,"end":300,"checkpoint":"equality/uniform introduction"},
+    {"start":300,"end":1201,"checkpoint":"uniform and normal introduction"},
+    {"start":1201,"end":3025,"checkpoint":"normal and exponential"},
+    {"start":3025,"end":4804,"checkpoint":"joint distributions"},
+    {"start":4805,"end":6300,"checkpoint":"expectations/change variables theorem"},
+    {"start":6300,"end":9001,"checkpoint":"sum scheme/Gamma"},
+    {"start":9001,"end":10280.1,"checkpoint":"Gamma moments/chi-square/end Q&A"}
+  ]
+}
