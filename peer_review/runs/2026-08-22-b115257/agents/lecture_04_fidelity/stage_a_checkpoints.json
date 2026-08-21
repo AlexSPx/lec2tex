@@ -1,0 +1,18 @@
+{
+  "lecture": "lecture_04",
+  "stage": "A",
+  "status": "complete_before_blind_findings_opened",
+  "map_file": "independent_source_map.jsonl",
+  "map_records": 9,
+  "checkpoints": [
+    {"section":"Introduction/RV definition","status":"complete","map_ids":["L04-A01"]},
+    {"section":"Closure operations","status":"complete","map_ids":["L04-A02"]},
+    {"section":"Indicators","status":"complete","map_ids":["L04-A03"]},
+    {"section":"Discrete variables/distribution","status":"complete","map_ids":["L04-A04"]},
+    {"section":"Equality/histogram","status":"complete","map_ids":["L04-A05","L04-A06"]},
+    {"section":"One/two-variable transforms","status":"complete","map_ids":["L04-A07","L04-A08"]},
+    {"section":"Independence","status":"complete","map_ids":["L04-A09"]}
+  ],
+  "known_independent_fidelity_candidate_ids": ["L04-FID-NEW-01"],
+  "validation": {"nonempty": true, "timestamped": true, "covers_all_body_sections": true, "blind_findings_opened": false}
+}

@@ -1,0 +1,33 @@
+{
+  "lecture": "lecture_04",
+  "stage": "B",
+  "status": "complete",
+  "input_validation": {
+    "stage_a_map_validated_before_blind_open": true,
+    "blind_findings_reviewed": 5,
+    "blind_ids_reviewed": ["F04-01", "F04-02", "F04-03", "F04-04", "F04-05"]
+  },
+  "per_section_checkpoints": [
+    {"section":"RV definition and closure","status":"complete","finding_ids":["F04-01","F04-02"]},
+    {"section":"Indicators","status":"complete","finding_ids":[]},
+    {"section":"Discrete definition/distribution","status":"complete","finding_ids":["F04-03","F04-04"]},
+    {"section":"Equality/histogram","status":"complete","finding_ids":["F04-05"]},
+    {"section":"Transforms","status":"complete","finding_ids":[]},
+    {"section":"Independence/homework","status":"complete","finding_ids":[]}
+  ],
+  "verdict_counts": {
+    "confirmed_book_error": 4,
+    "fidelity_omission_or_strengthening": 1,
+    "faithful_nonstandard_presentation": 0,
+    "transcription_or_ocr_uncertainty": 0,
+    "primary_reviewer_error": 0,
+    "insufficient_evidence": 0
+  },
+  "new_fidelity_issues": 1,
+  "evidence_gaps": [
+    "The early closure-operation board state is not retained between board_004 (t=330) and board_005 (t=1617); verification therefore uses the transcript, not a visual formula frame.",
+    "The transcript contains synthetic/repeated filler around the break (approximately 2778-3615) and a coarse post-break ASR segment beginning at 3615; no conclusion depends on that gap."
+  ],
+  "failures": [],
+  "validation": {"verdict_jsonl_nonempty": true, "new_findings_jsonl_nonempty": true, "all_blind_ids_covered": true}
+}

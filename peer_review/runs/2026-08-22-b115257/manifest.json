@@ -23,7 +23,7 @@
     "01": {"math": "complete", "fidelity": "complete"},
     "02": {"math": "complete", "fidelity": "complete"},
     "03": {"math": "complete", "fidelity": "pending"},
-    "04": {"math": "complete", "fidelity": "running"},
+    "04": {"math": "complete", "fidelity": "complete"},
     "05": {"math": "complete", "fidelity": "pending"},
     "06": {"math": "complete", "fidelity": "artifact_correction_pending"},
     "07": {"math": "complete", "fidelity": "pending"},

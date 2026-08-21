@@ -1,0 +1,4 @@
+{"event_id":"L04-EVT-01","timestamp":"2026-08-21T22:21:42Z","event":"schema_correction_started","detail":"Creating canonical run-contract filenames; original artifacts remain preserved."}
+{"event_id":"L04-EVT-02","timestamp":"2026-08-21T22:21:42Z","event":"stage_a_prior_validation","detail":"Independent source map had 9 nonempty timestamped records and was validated before blind findings were opened."}
+{"event_id":"L04-EVT-03","timestamp":"2026-08-21T22:21:42Z","event":"record_conversion","detail":"Copied all 9 inventory, 5 verdict, and 1 new-finding records into canonical filenames without changing substance."}
+{"event_id":"L04-EVT-04","timestamp":"2026-08-21T22:21:42Z","event":"canonical_validation_passed","detail":"All seven required files are nonempty; JSON/JSONL parses; canonical records exactly match originals; all five blind IDs are covered. State set to complete after this validation."}

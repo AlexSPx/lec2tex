@@ -1,0 +1,21 @@
+{
+  "lecture": "lecture_04",
+  "status": "complete",
+  "schema_correction": {
+    "status": "complete",
+    "reason": "Original artifact filenames did not match the run contract.",
+    "originals_preserved": true,
+    "started_at": "2026-08-21T22:21:42Z",
+    "validated_at": "2026-08-21T22:21:42Z"
+  },
+  "stage_a": {
+    "status": "complete",
+    "inventory_records": 9,
+    "validated_before_blind_open": true
+  },
+  "stage_b": {
+    "status": "complete",
+    "blind_findings_reviewed": 5,
+    "new_findings": 1
+  }
+}

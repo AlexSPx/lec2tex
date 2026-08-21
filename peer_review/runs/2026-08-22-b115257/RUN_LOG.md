@@ -194,3 +194,10 @@
   instead of the canonical run directory.
 - Data are preserved; manifest status is `artifact_correction_pending` until a
   validated canonical copy is produced.
+
+## 2026-08-22 — Lecture 04 fidelity review complete
+
+- Stage A contained 9 timestamped records; all 5 blind findings received
+  verdicts and one new fidelity issue was recorded.
+- The first package used ad hoc filenames. The agent preserved those files and
+  produced a validated canonical JSONL package after intervention.
