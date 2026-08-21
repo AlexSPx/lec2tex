@@ -320,3 +320,12 @@
   repository-level misplaced directories remain preserved as behavior evidence.
 - Performance audit found one missing `handoff.md` in the valid Lecture 12 retry;
   a late contract correction was requested before finalization.
+
+## 2026-08-22 — adjudication complete; final verification begins
+
+- Reconciled all 100 blind findings to 100 accepted fidelity verdicts and all
+  162 substantive source IDs to accepted or rejected/downgraded ledgers.
+- Accepted master: 84 findings (P0=1, P1=25, P2=58).
+- Rejected/downgraded: 28 decisions covering 31 source IDs.
+- Render and prior-remediation comparisons incorporated; no book edit made.
+- Started a fresh Terra/max final-report verification pass.

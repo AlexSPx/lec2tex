@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-22-b115257",
+  "agent": "adjudication",
+  "status": "complete",
+  "phase": "final_adjudication_complete",
+  "updated_at": "2026-08-21T23:20:00Z",
+  "book_sources_modified": false,
+  "scope": {
+    "valid_blind_math_packages": 15,
+    "valid_blind_math_findings": 100,
+    "valid_fidelity_packages": 15,
+    "valid_fidelity_verdicts_expected": 100,
+    "cross_book_audits": {
+      "notation": 8,
+      "dependencies": 10,
+      "formulas": 8
+    }
+  },
+  "source_inventory": {
+    "read": [
+      "manifest.json",
+      "RUN_LOG.md",
+      "rubric.md",
+      "fidelity_rubric.md",
+      "all valid lecture_*_math findings.jsonl and handoff.md",
+      "all valid fidelity verdicts.jsonl, new_findings.jsonl, handoff.md, and state evidence",
+      "cross_book/notation/findings.jsonl",
+      "cross_book/dependencies/findings.jsonl",
+      "cross_book/formulas/findings.jsonl",
+      "cross_book/render/state.json, findings.jsonl, coverage.jsonl, and handoff.md",
+      "docs/REMEDIATION.md (final comparison only; not treated as ground truth)"
+    ],
+    "excluded": [
+      "agents/lecture_06_fidelity (INVALIDATED.md present)",
+      "agents/lecture_12_fidelity (INVALIDATED.md present)"
+    ],
+    "provisional_phase_exclusions": [
+      "docs/REMEDIATION.md",
+      "cross_book/render"
+    ],
+    "replacement_packages": [
+      "agents/lecture_06_fidelity_retry",
+      "agents/lecture_12_fidelity_retry"
+    ]
+  },
+  "progress": {
+    "raw_findings_reviewed": true,
+    "blind_to_fidelity_join_started": true,
+    "blind_to_fidelity_join_completed": true,
+    "deduplication_completed": true,
+    "p0_p1_evidence_gate_completed": true,
+    "master_ledger_written": true,
+    "master_records_checkpointed": 84,
+    "master_coverage_checkpointed_through": "All accepted P0-P2 findings from valid lecture reviews, fidelity additions, and notation/dependencies/formulas cross-book audits",
+    "master_json_validation": "passed (84 records; P0=1, P1=25, P2=58; IDs unique)",
+    "rejected_ledger_written": true,
+    "rejected_records_checkpointed": 28,
+    "source_id_reconciliation": "passed (162 substantive source IDs mapped; 0 missing; 0 unexpected)",
+    "provisional_report_written": true,
+    "render_and_remediation_pending": false,
+    "render_audit_incorporated": "pass: 326 pages inspected; 0 actionable visual, reference-target, or PDF-readability defects",
+    "remediation_comparison_completed": true,
+    "final_report_written": true,
+    "remediation_queue_written": true,
+    "final_validation": "passed: required artifacts nonempty; state/events/master/rejected JSON parsed; master IDs unique; rejected IDs unique; 162/162 source IDs mapped; 100/100 blind-to-fidelity IDs matched",
+    "final_counts": {
+      "master": 84,
+      "P0": 1,
+      "P1": 25,
+      "P2": 58,
+      "rejected_or_downgraded_decisions": 28,
+      "rejected_or_downgraded_source_ids": 31
+    }
+  },
+  "next_actions": []
+}

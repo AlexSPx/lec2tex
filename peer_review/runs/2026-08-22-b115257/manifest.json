@@ -16,8 +16,8 @@
     "blind_math": "complete",
     "fidelity": "complete",
     "cross_book": "complete",
-    "adjudication": "running",
-    "final_report": "pending"
+    "adjudication": "complete",
+    "final_report": "verification_running"
   },
   "lectures": {
     "01": {"math": "complete", "fidelity": "complete"},
