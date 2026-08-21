@@ -1,0 +1,40 @@
+{
+  "agent": "agent_performance",
+  "run_id": "2026-08-22-b115257",
+  "status": "completed",
+  "scope": "Observable artifacts only; no private reasoning and no lecture edits.",
+  "primary_metrics_fixed": true,
+  "filesystem_inventory": {
+    "math_attempts": 15,
+    "accepted_fidelity_packages": 15,
+    "invalidated_fidelity_attempts": 2,
+    "math_events": 224,
+    "math_coverage_records": 291,
+    "math_candidate_findings": 100,
+    "accepted_fidelity_events": 104,
+    "accepted_fidelity_stage_a_records": 207,
+    "accepted_fidelity_verdict_records": 101,
+    "accepted_fidelity_id_linked_verdicts": 100,
+    "accepted_fidelity_new_finding_records": 41,
+    "all_existing_jsonl_streams_validated": 118
+  },
+  "remediation_read": false,
+  "book_edits_made": false,
+  "validation": {
+    "performance_json_valid": true,
+    "performance_jsonl_valid": true,
+    "filesystem_counts_rechecked": true,
+    "rechecked_counts": {
+      "math_candidate_findings": 100,
+      "math_coverage_records": 291,
+      "accepted_fidelity_stage_a_records": 207,
+      "accepted_fidelity_raw_verdict_records": 101,
+      "accepted_fidelity_id_linked_verdicts": 100,
+      "accepted_fidelity_new_finding_records": 41,
+      "accepted_contract_files": 104,
+      "agent_jsonl_streams": 118,
+      "agent_jsonl_parse_failures": 0
+    }
+  },
+  "next": null
+}

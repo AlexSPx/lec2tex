@@ -1,0 +1,126 @@
+{
+  "run_id": "2026-08-22-b115257",
+  "method": {
+    "sources": [
+      "manifest.json",
+      "RUN_LOG.md",
+      "agents/*/{prompt.md,state.json,events.jsonl,coverage.jsonl,findings.jsonl,fidelity_inventory.jsonl,verdicts.jsonl,new_findings.jsonl,handoff.md,INVALIDATED.md}",
+      "repository-level misplaced agents/ artifacts"
+    ],
+    "exclusions": [
+      "private chain-of-thought",
+      "lecture edits",
+      "docs/REMEDIATION.md before primary metrics were fixed"
+    ],
+    "counting_rule": "Parsed JSONL object count (jq -s length), not physical line count. Empty JSONL is a valid zero-record stream; status-summary records are not blind-finding verdicts."
+  },
+  "population": {
+    "lectures": 15,
+    "math_attempts": 15,
+    "math_manifest_complete": 15,
+    "fidelity_attempts": 17,
+    "accepted_fidelity_packages": 15,
+    "invalidated_fidelity_attempts": 2,
+    "replacement_attempts": 2,
+    "successful_replacements": 2
+  },
+  "completion_and_coverage": {
+    "math_complete_states": "15/15",
+    "math_required_artifact_sets_complete": "15/15",
+    "math_events": 224,
+    "math_coverage_records": 291,
+    "accepted_fidelity_stage_a_records": 207,
+    "accepted_fidelity_id_linked_verdicts": 100,
+    "accepted_fidelity_raw_verdict_records": 101,
+    "accepted_fidelity_new_finding_records": 41,
+    "accepted_fidelity_material_new_findings": 37,
+    "accepted_fidelity_stage_a_gate_evidence": "15/15",
+    "math_blindness_violations_explicitly_recorded": 0,
+    "fidelity_blindness_violations_explicitly_recorded": 2
+  },
+  "math_candidates": {
+    "total": 100,
+    "severity": {
+      "P0": 1,
+      "P1": 25,
+      "P2": 66,
+      "P3": 8
+    }
+  },
+  "accepted_fidelity_outcomes_for_math_candidates": {
+    "total_id_linked": 100,
+    "confirmed_book_error_or_confirmed": 71,
+    "fidelity_omission_or_strengthening": 12,
+    "faithful_nonstandard_presentation": 15,
+    "primary_reviewer_error": 2,
+    "coverage_of_math_candidate_ids": "100/100"
+  },
+  "process_incidents": {
+    "explicit_math_tool_command_or_read_incidents": 10,
+    "explicit_fidelity_tool_command_or_path_probe_incidents": 7,
+    "explicit_incidents_total": 17,
+    "recovered_without_coverage_blocker": 17,
+    "counted_examples": {
+      "math": [
+        "L03 JSON ledger validation repair",
+        "L06 bounded-read retry after truncation",
+        "L07 patch-context retry",
+        "L08 pdftotext fallback and malformed-query repair",
+        "L09 SymPy fallback",
+        "L11 and L13 output-truncation retries",
+        "L14 SciPy fallback and rejected temporary-cleanup command"
+      ],
+      "fidelity": [
+        "L02 initial path probe",
+        "L06 retry blind-artifact path clarification",
+        "L08 two jq syntax retries",
+        "L09 malformed apply_patch retry",
+        "L10 two jq-filter retries"
+      ]
+    },
+    "note": "This is an observable lower-bound incident count. It excludes passive source/OCR corruption and does not treat an invalidated blindness violation as a tool failure."
+  },
+  "artifact_discipline": {
+    "accepted_packages_with_all_7_contract_files": "14/15",
+    "expected_contract_files_across_accepted_packages": 105,
+    "present_contract_files_across_accepted_packages": 104,
+    "remaining_missing_contract_file": "agents/lecture_12_fidelity_retry/handoff.md",
+    "accepted_attempts_requiring_schema_or_path_correction": 7,
+    "corrected_attempts": [
+      "lecture_01_fidelity",
+      "lecture_04_fidelity",
+      "lecture_06_fidelity_retry",
+      "lecture_08_fidelity",
+      "lecture_11_fidelity",
+      "lecture_13_fidelity",
+      "lecture_15_fidelity"
+    ],
+    "misplaced_artifact_directories": 2,
+    "misplaced_artifact_files": 14,
+    "misplaced_directories": [
+      "/Users/g8row/Documents/lec2tex/agents/lecture_06_fidelity_retry (7 JSON/Markdown contract artifacts)",
+      "/Users/g8row/Documents/lec2tex/agents/lecture_11_fidelity (7 Markdown artifacts)"
+    ],
+    "all_existing_agent_jsonl_streams": 118,
+    "jsonl_parse_failures": 0,
+    "invalidated_attempt_missing_contract_files": {
+      "lecture_06_fidelity": ["verdicts.jsonl", "new_findings.jsonl", "handoff.md"],
+      "lecture_12_fidelity": []
+    }
+  },
+  "orchestration": {
+    "documented_interventions": 9,
+    "intervention_types": {
+      "blindness_invalidation_and_fresh_retry": 2,
+      "schema_or_filename_correction": 5,
+      "misplaced_path_correction": 2
+    },
+    "recovery_result": "Both invalidated fidelity passes were replaced by fresh-context, gate-compliant accepted packages; all seven correction cases retained observable originals and produced usable canonical data, but L12 retry still lacks a handoff."
+  },
+  "uncertainties": [
+    "Events are self-reported observable artifacts, not an execution trace; a no-violation finding means no explicit violation marker was found.",
+    "Individual prompts do not record an agent model. Model suitability is therefore assessed only against the manifest's gpt-5.6-terra/high policy and observed outputs.",
+    "The rubric asks for section checkpoints, but schemas differ too much to certify a uniform per-section event count. The Stage-A-before-Stage-B gate is auditable for all accepted packages.",
+    "The 37 material independent fidelity findings are reconstructed from handoffs/states and record semantics; the raw new_findings ledgers contain four explicit no-issue/completion records."
+  ]
+}

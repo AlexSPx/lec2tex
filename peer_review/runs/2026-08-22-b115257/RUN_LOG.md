@@ -308,3 +308,15 @@
 - `qpdf` and `pdftotext` were unavailable; the audit used Poppler and static/AUX
   checks instead. No actionable visual defect was found.
 - Cross-book phase is complete; final adjudication is running.
+
+## 2026-08-22 — agent performance audit complete
+
+- 15/15 mathematical packages and 15 accepted fidelity packages were measured.
+- Parsed 291 mathematical coverage rows, 100 blind candidates, 207 accepted
+  Stage A rows, 100 ID-linked accepted verdicts, and 118 JSONL streams with zero
+  parse failure.
+- Two blindness violations were invalidated and replaced successfully.
+- Seven accepted fidelity packages required path/schema correction; two
+  repository-level misplaced directories remain preserved as behavior evidence.
+- Performance audit found one missing `handoff.md` in the valid Lecture 12 retry;
+  a late contract correction was requested before finalization.
