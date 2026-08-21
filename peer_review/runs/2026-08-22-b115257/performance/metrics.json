@@ -31,11 +31,13 @@
     "accepted_fidelity_events_at_primary_audit": 104,
     "accepted_fidelity_events_after_late_correction": 106,
     "math_coverage_records": 291,
-    "accepted_fidelity_stage_a_records": 207,
+    "accepted_fidelity_stage_a_inventory_rows": 207,
+    "accepted_fidelity_actual_source_map_entries": 206,
     "accepted_fidelity_id_linked_verdicts": 100,
     "accepted_fidelity_raw_verdict_records": 101,
     "accepted_fidelity_new_finding_records": 41,
-    "accepted_fidelity_material_new_findings": 37,
+    "accepted_fidelity_id_bearing_independent_fidelity_records": 37,
+    "accepted_fidelity_material_new_findings": 36,
     "accepted_fidelity_stage_a_gate_evidence": "15/15",
     "math_blindness_violations_explicitly_recorded": 0,
     "fidelity_blindness_violations_explicitly_recorded": 2
@@ -136,6 +138,7 @@
     "Events are self-reported observable artifacts, not an execution trace; a no-violation finding means no explicit violation marker was found.",
     "Individual prompts do not record an agent model. Model suitability is therefore assessed only against the manifest's gpt-5.6-terra/high policy and observed outputs.",
     "The rubric asks for section checkpoints, but schemas differ too much to certify a uniform per-section event count. The Stage-A-before-Stage-B gate is auditable for all accepted packages.",
-    "The 37 material independent fidelity findings are reconstructed from handoffs/states and record semantics; the raw new_findings ledgers contain four explicit no-issue/completion records."
+    "The accepted new_findings ledgers contain 41 raw rows: 37 ID-bearing independent-fidelity records, three non-ID completion/summary rows, and L02-F-001, an ID-bearing no-additional-issue status record. One of the 37 independent records, F14-FID-001, explicitly reports no additional material error, leaving 36 material findings.",
+    "The accepted Stage-A inventories contain 207 raw rows. Lecture 05 contributes one stage-complete/status row, so the actual source-map-entry total is 206."
   ]
 }

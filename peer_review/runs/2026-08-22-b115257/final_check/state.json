@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-22-b115257",
+  "agent": "final_report_check",
+  "status": "complete",
+  "phase": "final_check_revalidation_complete",
+  "started_at": "2026-08-22T00:00:00Z",
+  "updated_at": "2026-08-22T00:20:00Z",
+  "scope": {
+    "book_sources_modified": false,
+    "final_report_modified": false,
+    "invalidated_fidelity_packages_excluded": [
+      "agents/lecture_06_fidelity",
+      "agents/lecture_12_fidelity"
+    ],
+    "required_p0_p1_master_records": 26,
+    "required_p2_sample_minimum": 12
+  },
+  "progress": {
+    "artifacts_initialized": true,
+    "json_jsonl_parse_check": "passed after correction revalidation: run corpus excluding this final_check directory has 43 JSON + 136 JSONL files; final run including this checker has 44 JSON + 139 JSONL files; 0 parse failures",
+    "initial_ledger_count_recomputation": "passed: master 84 (P0=1,P1=25,P2=58); rejected decisions=28 / source IDs=31; ledger union=162",
+    "initial_join_recomputation": "passed: 100 valid math IDs found; detailed accepted-fidelity join and evidence checks pending",
+    "performance_metric_review": "passed after correction revalidation: accepted Stage-A rows/maps are explicitly 207/206; accepted ID-bearing independent-fidelity/material records are explicitly 37/36",
+    "p0_p1_evidence_checked": 26,
+    "p2_sample_evidence_checked": 16,
+    "issues_open": 0,
+    "accepted_fidelity_join": "passed: 100 unique math IDs matched exactly once to 100 accepted retry-or-canonical verdict IDs; 0 missing, 0 orphan, 0 duplicate",
+    "source_ledger_reconciliation": "passed numerically: 162 = 100 math + 36 accepted independent-fidelity + 26 cross-book source IDs; 0 ledger IDs missing from valid source ledgers",
+    "render_recomputation": "passed: pdfinfo and render coverage both give 177 book + 149 standalone = 326 pages",
+    "rejected_reason_review": "passed: all 28 reasons align to raw source records and accepted verdict outcomes; the L12 collision registry and accepted-retry source_refs now make the three previously ambiguous source identities explicit",
+    "final_report_claim_restraint": "passed: final-report wording distinguishes valid verdicts from confirmation, treats docs/REMEDIATION.md as historical comparison evidence, and its corrected queue/collision claims match the underlying ledgers",
+    "correction_revalidation": {
+      "FC-I-001": "passed: 41 raw accepted new-finding rows comprise 37 ID-bearing independent-fidelity records, three non-ID completion/summary rows, and L02-F-001 as an ID-bearing no-additional-issue status; F14-FID-001 is the one no-additional-material record, leaving 36 material findings",
+      "FC-I-002": "passed: Q0=[ADJ-058] exactly equals P0; Q1 has 25 unique IDs exactly equal to P1 including ADJ-014 and excluding ADJ-058; Q2 has 58 unique IDs exactly equal to P2",
+      "FC-I-003": "passed: the three collision-registry records cover the complete L12 invalidated/retry overlap; each selector resolves one accepted retry record and the matching master source_ref, with no master source_ref to the invalidated artifact",
+      "FC-I-004": "passed: 207 accepted Stage-A inventory rows include one L05 completion/status row, so 206 actual source-map entries; both metrics and report use this distinction"
+    },
+    "no_new_issues_after_revalidation": true,
+    "final_disposition": "certified_pass"
+  },
+  "next_actions": []
+}

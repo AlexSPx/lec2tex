@@ -13,10 +13,13 @@
     "math_candidate_findings": 100,
     "accepted_fidelity_events_at_primary_audit": 104,
     "accepted_fidelity_events_after_late_correction": 106,
-    "accepted_fidelity_stage_a_records": 207,
+    "accepted_fidelity_stage_a_inventory_rows": 207,
+    "accepted_fidelity_actual_source_map_entries": 206,
     "accepted_fidelity_verdict_records": 101,
     "accepted_fidelity_id_linked_verdicts": 100,
     "accepted_fidelity_new_finding_records": 41,
+    "accepted_fidelity_id_bearing_independent_fidelity_records": 37,
+    "accepted_fidelity_material_new_findings": 36,
     "all_existing_jsonl_streams_validated": 118
   },
   "remediation_read": false,
@@ -28,10 +31,13 @@
     "rechecked_counts": {
       "math_candidate_findings": 100,
       "math_coverage_records": 291,
-      "accepted_fidelity_stage_a_records": 207,
+      "accepted_fidelity_stage_a_inventory_rows": 207,
+      "accepted_fidelity_actual_source_map_entries": 206,
       "accepted_fidelity_raw_verdict_records": 101,
       "accepted_fidelity_id_linked_verdicts": 100,
       "accepted_fidelity_new_finding_records": 41,
+      "accepted_fidelity_id_bearing_independent_fidelity_records": 37,
+      "accepted_fidelity_material_new_findings": 36,
       "accepted_contract_files_at_primary_audit": 104,
       "accepted_contract_files_after_late_correction": 105,
       "agent_jsonl_streams": 118,
@@ -43,6 +49,11 @@
     "original_audit_observation": "handoff.md was absent; 14/15 accepted fidelity packages had the complete contract.",
     "final_state": "handoff.md is nonempty and package validation records all seven required canonical files; 15/15 accepted packages are contract-complete.",
     "verdict_or_finding_change": false
+  },
+  "final_check_semantic_count_corrections": {
+    "FC-I-001": "Reclassified 37 as ID-bearing independent-fidelity records and 36 as material findings because F14-FID-001 explicitly says no additional material error.",
+    "FC-I-004": "Relabeled 207 as Stage-A inventory rows and added 206 actual source-map entries because Lecture 05 includes one Stage-A completion/status row.",
+    "raw_ledgers_changed": false
   },
   "next": null
 }

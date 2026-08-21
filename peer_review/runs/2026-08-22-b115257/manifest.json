@@ -17,7 +17,7 @@
     "fidelity": "complete",
     "cross_book": "complete",
     "adjudication": "complete",
-    "final_report": "verification_running"
+    "final_report": "complete_certified"
   },
   "lectures": {
     "01": {"math": "complete", "fidelity": "complete"},

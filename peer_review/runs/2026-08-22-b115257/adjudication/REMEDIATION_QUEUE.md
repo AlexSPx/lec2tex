@@ -14,9 +14,9 @@ change, re-check the relevant transcript/board evidence; do not use
 
 | Cluster | Master IDs | Required disposition |
 |---|---|---|
-| Models, measures, moments, and boundaries | ADJ-003, ADJ-006, ADJ-010, ADJ-018, ADJ-020, ADJ-022, ADJ-024--ADJ-028, ADJ-041, ADJ-043 | Add exact domains/assumptions and correct historical/model data. Preserve source wording in a note where fidelity requires it, but do not leave false unconditional claims. |
+| Models, measures, moments, and boundaries | ADJ-003, ADJ-006, ADJ-010, ADJ-014, ADJ-018, ADJ-020, ADJ-022, ADJ-024--ADJ-028, ADJ-041, ADJ-043 | Add exact domains/assumptions and correct historical/model data. For ADJ-014, require nonzero quotient values or define the null-set modification with an explicit almost-sure qualification. Preserve source wording in a note where fidelity requires it, but do not leave false unconditional claims. |
 | Conditioning and transformations | ADJ-034, ADJ-037 | Repair zero-denominator/atom formulas and state valid transformation regularity/support assumptions. |
-| Limit theorems and inference | ADJ-056--ADJ-061, ADJ-067, ADJ-076--ADJ-077 | Restore iid/nondegeneracy/range assumptions, replace invalid finite-sample normal bounds, and separate one-sample from regression prerequisites. |
+| Limit theorems and inference | ADJ-056--ADJ-057, ADJ-059--ADJ-061, ADJ-067, ADJ-076--ADJ-077 | Restore iid/nondegeneracy/range assumptions, replace invalid finite-sample normal bounds, and separate one-sample from regression prerequisites. |
 | Major fidelity divergence | ADJ-049 | Decide whether the large bounded-triangle example belongs in the book; if retained, label it as supplemental and repair ADJ-045. |
 
 ## Q2 — grouped P2 work after Q0/Q1

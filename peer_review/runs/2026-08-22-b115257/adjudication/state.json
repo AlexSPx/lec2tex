@@ -4,7 +4,7 @@
   "agent": "adjudication",
   "status": "complete",
   "phase": "final_adjudication_complete",
-  "updated_at": "2026-08-21T23:20:00Z",
+  "updated_at": "2026-08-22T00:10:00Z",
   "book_sources_modified": false,
   "scope": {
     "valid_blind_math_packages": 15,
@@ -29,7 +29,8 @@
       "cross_book/dependencies/findings.jsonl",
       "cross_book/formulas/findings.jsonl",
       "cross_book/render/state.json, findings.jsonl, coverage.jsonl, and handoff.md",
-      "docs/REMEDIATION.md (final comparison only; not treated as ground truth)"
+      "docs/REMEDIATION.md (final comparison only; not treated as ground truth)",
+      "adjudication/SOURCE_COLLISION_REGISTRY.jsonl (FC-I-003 provenance registry)"
     ],
     "excluded": [
       "agents/lecture_06_fidelity (INVALIDATED.md present)",
@@ -63,7 +64,11 @@
     "remediation_comparison_completed": true,
     "final_report_written": true,
     "remediation_queue_written": true,
-    "final_validation": "passed: required artifacts nonempty; state/events/master/rejected JSON parsed; master IDs unique; rejected IDs unique; 162/162 source IDs mapped; 100/100 blind-to-fidelity IDs matched",
+    "final_validation": "passed: required artifacts nonempty; state/events/master/rejected/collision-registry JSON parsed; master IDs unique; rejected IDs unique; 162/162 source IDs mapped; 100/100 blind-to-fidelity IDs matched; Q0/Q1/Q2 exactly partition master severities (1/25/58); all three L12 retry-collision master refs resolve only to accepted retry artifact paths",
+    "final_check_corrections": {
+      "FC-I-002": "passed: Q0=[ADJ-058] (P0 only); Q1=25 exact P1 IDs including ADJ-014 and excluding ADJ-058; Q2=58 exact P2 IDs",
+      "FC-I-003": "passed: registry has three L12-F collision records; ADJ-065/066/071 source_refs point only to the accepted lecture_12_fidelity_retry/new_findings.jsonl artifact"
+    },
     "final_counts": {
       "master": 84,
       "P0": 1,

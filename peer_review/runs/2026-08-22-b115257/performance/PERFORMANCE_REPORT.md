@@ -18,10 +18,12 @@ reasoning, and no book files were edited.
 | Parsed math coverage records | 291 |
 | Parsed math candidate findings | 100 |
 | Candidate severity | P0 1, P1 25, P2 66, P3 8 |
-| Accepted Stage-A source-map records | 207 |
+| Accepted Stage-A inventory rows | 207 |
+| Actual Stage-A source-map entries | 206 (L05 has one completion/status row) |
 | Accepted ID-linked fidelity verdicts | 100 / 100 math IDs |
 | Accepted raw verdict records | 101 (one L05 completion summary is not a verdict) |
-| Material independent fidelity findings | 37 |
+| ID-bearing independent-fidelity records | 37 |
+| Material independent fidelity findings | 36 (F14-FID-001 says no additional material error) |
 | Accepted fidelity contract files | 105 / 105 final (104 / 105 at the primary audit) |
 | Existing agent JSONL streams parsed | 118 / 118 |
 
@@ -37,7 +39,7 @@ while a fidelity omission identifies a book/source difference.
 | Phase | Analysis quality | Artifact discipline |
 |---|---|---|
 | Blind math | 15/15 complete, 291 coverage records, 100 candidates, and 224 observable events. The model used exact calculations, proof checks, fallback numerical methods, and rendered checks where appropriate. | All 15 have the expected core package. Transient read/tool/validation incidents were recoverable, though logging terminology is not consistent. No explicit blind-scope violation marker was found. |
-| Fidelity, accepted | All 15 packages show a persisted independent Stage A before blind finding access and reconcile every math ID exactly once. The 207 map records and 37 independent findings add meaningful source-fidelity coverage. | The primary audit observed 7 schema/path/name corrections plus a missing L12 retry handoff. The late L12 correction is now validated: 15/15 accepted packages contain all seven contract files. |
+| Fidelity, accepted | All 15 packages show a persisted independent Stage A before blind finding access and reconcile every math ID exactly once. The 207 inventory rows contain 206 source-map entries, while 37 ID-bearing independent-fidelity records contain 36 material findings. | The primary audit observed 7 schema/path/name corrections plus a missing L12 retry handoff. The late L12 correction is now validated: 15/15 accepted packages contain all seven contract files. |
 | Fidelity, invalidated | The original Lecture 06 and 12 attempts cannot count as independent analysis: both opened the blind finding set before persisting Stage A. | This is a real protocol failure, but it was visibly documented, invalidated, and retained rather than hidden. |
 | Orchestration | The coordinator detected both blindness failures, forced fresh contexts, corrected canonicalization, and maintained a recoverable audit trail. | Intervention was effective but too frequent: natural-language constraints alone did not reliably produce contract-compliant artifacts. |
 

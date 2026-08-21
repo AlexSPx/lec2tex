@@ -329,3 +329,17 @@
 - Rejected/downgraded: 28 decisions covering 31 source IDs.
 - Render and prior-remediation comparisons incorporated; no book edit made.
 - Started a fresh Terra/max final-report verification pass.
+
+## 2026-08-22 — final report certified
+
+- The independent checker evidence-checked all 26 P0/P1 findings and 16 P2
+  samples, and independently recomputed all headline joins and page counts.
+- Its first pass found four report/provenance defects; all four were corrected
+  without changing mathematical dispositions.
+- Certified queue partition: Q0/Q1/Q2 = 1/25/58.
+- Certified performance semantics: 207 Stage A inventory rows / 206 source maps;
+  37 ID-bearing independent-fidelity records / 36 material findings.
+- Lecture 12 collision registry resolves all three reused IDs exclusively to
+  the accepted retry package.
+- Final parse check: 44 JSON and 139 JSONL files, zero failures.
+- Final checker status: `certified_pass`.

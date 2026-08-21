@@ -9,6 +9,20 @@ findings have a one-to-one valid fidelity verdict.
 
 No book source was edited.
 
+## Final-check traceability corrections
+
+- **FC-I-002:** Q0 now contains only the sole P0, ADJ-058. Q1 contains all
+  25 P1 items, including ADJ-014 with its quotient-domain/null-set
+  disposition, and expressly excludes ADJ-058. Q2 contains all 58 P2 items.
+  Thus the three queue bands are an exact severity partition of the master
+  ledger.
+- **FC-I-003:** L12-F-001 through L12-F-003 occur in both an invalidated
+  fidelity package and its accepted retry. `SOURCE_COLLISION_REGISTRY.jsonl`
+  records both canonical paths and the exclusion rule. The `source_refs` on
+  ADJ-065, ADJ-066, and ADJ-071 bind their evidence specifically to
+  `agents/lecture_12_fidelity_retry/new_findings.jsonl`. This provenance repair
+  changes no master severity, disposition, or count.
+
 ## Render and reference result
 
 The completed render audit is clean: 177/177 book pages and 149/149 standalone
