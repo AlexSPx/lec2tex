@@ -1,0 +1,29 @@
+{
+  "lecture": "lecture_13",
+  "stage": "A_complete_before_blind_findings",
+  "created_at": "2026-08-21T22:21:04Z",
+  "source_files": [
+    "lectures/bodies/lecture_13.tex",
+    "run/lecture_13/audio/transcript.json",
+    "run/lecture_13/board_states.json",
+    "run/lecture_13/ocr/board_022.json",
+    "run/lecture_13/ocr/board_023.json",
+    "run/lecture_13/ocr/board_024.json",
+    "run/lecture_13/ocr/board_025.json",
+    "run/lecture_13/ocr/board_026.json",
+    "run/lecture_13/ocr/board_027.json",
+    "run/lecture_13/ocr/board_029.json",
+    "run/lecture_13/ocr/board_030.json",
+    "run/lecture_13/ocr/board_031.json"
+  ],
+  "sections": [
+    {"range":"00:58-13:52","status":"checked","map_ids":["A13-001","A13-002","A13-003"]},
+    {"range":"13:53-37:14","status":"checked","map_ids":["A13-004","A13-005"]},
+    {"range":"37:55-64:50","status":"checked","map_ids":["A13-006","A13-007"]},
+    {"range":"66:51-89:20","status":"checked","map_ids":["A13-008","A13-009","A13-010"]},
+    {"range":"93:42-107:56","status":"checked","map_ids":["A13-011","A13-012"]}
+  ],
+  "map_records": 12,
+  "blind_findings_opened": false,
+  "validation": {"json_valid": true, "jsonl_records_expected": 12, "timestamped_coverage_complete": true}
+}

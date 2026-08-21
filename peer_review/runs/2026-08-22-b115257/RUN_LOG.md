@@ -201,3 +201,11 @@
   verdicts and one new fidelity issue was recorded.
 - The first package used ad hoc filenames. The agent preserved those files and
   produced a validated canonical JSONL package after intervention.
+
+## 2026-08-22 — Lecture 13 fidelity review complete
+
+- Stage A contained 12 timestamped records; 7/7 blind findings were confirmed
+  and two additional fidelity issues were recorded.
+- Ad hoc Stage A filenames were corrected into the canonical package after
+  intervention; originals are retained.
+- Started Lecture 07 fidelity verification.

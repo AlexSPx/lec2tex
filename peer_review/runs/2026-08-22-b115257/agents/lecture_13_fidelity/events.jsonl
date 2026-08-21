@@ -1,0 +1,4 @@
+{"timestamp":"2026-08-21T22:21:04Z","event":"stage_a_persisted","map_records":12,"blind_findings_opened":false}
+{"timestamp":"2026-08-21T22:21:04Z","event":"stage_a_validated","checks":["stage_a_checkpoints.json parses","independent_source_map.jsonl parses","12 JSONL records","all source sections checkpointed"]}
+{"timestamp":"2026-08-21T22:21:04Z","event":"stage_b_complete","blind_findings_reviewed":7,"new_fidelity_findings":2}
+{"timestamp":"2026-08-21T22:21:04Z","event":"artifact_contract_correction","detail":"Preserved independent_source_map.jsonl and stage_a_checkpoints.json as pre-contract originals; converted all 12 Stage A records into canonical fidelity_inventory.jsonl and added required prompt.md and handoff.md.","canonical_files":["prompt.md","state.json","events.jsonl","fidelity_inventory.jsonl","verdicts.jsonl","new_findings.jsonl","handoff.md"]}

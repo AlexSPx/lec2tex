@@ -1,0 +1,10 @@
+{
+  "lecture":"lecture_13",
+  "status":"complete",
+  "stage_a":{"complete":true,"map_file":"independent_source_map.jsonl","records":12,"validated_before_blind_findings":true},
+  "stage_b":{"complete":true,"blind_findings_total":7,"verdicts_total":7,"verdict_counts":{"confirmed_book_error":7},"new_findings_total":2},
+  "evidence_gaps":["No independent video/slide source was required: formula disputes were resolved from board OCR and transcript.","OCR for board_022 loses one square in the denominator visually; audio plus the displayed book and standard expansion identify it as sigma^2, so this is not an unresolved formula dispute."],
+  "failures":[],
+  "files":{"prompt":"prompt.md","state":"state.json","events":"events.jsonl","fidelity_inventory":"fidelity_inventory.jsonl","verdicts":"verdicts.jsonl","new_findings":"new_findings.jsonl","handoff":"handoff.md","preserved_originals":["independent_source_map.jsonl","stage_a_checkpoints.json"]},
+  "artifact_contract":{"canonical_files_present":true,"contract_correction_recorded":true,"validation_pending":false,"validated_json":true,"validated_jsonl":true,"blind_ids_confirmed":7}
+}
