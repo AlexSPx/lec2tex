@@ -1,0 +1,23 @@
+{"event":"start","source_files":["lectures/bodies/formulas.tex","lectures/bodies/frontmatter.tex"],"master_ids":["ADJ-011","ADJ-013","ADJ-024","ADJ-025","ADJ-028","ADJ-029","ADJ-033","ADJ-034","ADJ-037","ADJ-041","ADJ-044","ADJ-046","ADJ-056","ADJ-057","ADJ-058","ADJ-073","ADJ-075","ADJ-077","ADJ-079","ADJ-083","ADJ-084"]}
+{"event":"checkpoint","master_id":"ADJ-011","status":"resolved","note":"Shared conditioning ratios now require positive mass and point conditioning is version/a.e.-qualified."}
+{"event":"checkpoint","master_id":"ADJ-013","status":"resolved","note":"Fixed-sum conditional expectation is stated almost surely with regular-version language for point values."}
+{"event":"checkpoint","master_id":"ADJ-024","status":"resolved","note":"Binomial and Poisson mode ties and degenerate endpoints are explicit."}
+{"event":"checkpoint","master_id":"ADJ-025","status":"resolved","note":"Geo/NegBin table domains and endpoint conventions are explicit."}
+{"event":"checkpoint","master_id":"ADJ-028","status":"resolved","note":"Correlation requires finite positive variances and equality is almost sure; frontmatter notation is separated."}
+{"event":"checkpoint","master_id":"ADJ-029","status":"resolved","note":"Supplement correlation and fixed-sum conditional domains are qualified."}
+{"event":"checkpoint","master_id":"ADJ-033","status":"resolved","note":"Expectation, covariance, variance, conditional variance, and random-sum formulas carry existence hypotheses."}
+{"event":"checkpoint","master_id":"ADJ-034","status":"resolved","note":"Discrete conditional atoms require positive mass and pushforward aggregation is noted."}
+{"event":"checkpoint","master_id":"ADJ-037","status":"resolved","note":"One-dimensional transformation has C1/nonzero-derivative, a.e., image-support conditions."}
+{"event":"checkpoint","master_id":"ADJ-041","status":"resolved","note":"Exponential CDF/survival are piecewise and memorylessness is support-qualified."}
+{"event":"checkpoint","master_id":"ADJ-044","status":"resolved","note":"Two-dimensional change of variables states measurable/C1/Jacobian and zero-off-image scope."}
+{"event":"checkpoint","master_id":"ADJ-046","status":"resolved","note":"Gamma beta is consistently called rate/intensity."}
+{"event":"checkpoint","master_id":"ADJ-056","status":"resolved","note":"LLN/CLT entries state iid, moment, and positive-variance prerequisites."}
+{"event":"checkpoint","master_id":"ADJ-057","status":"resolved","note":"MGF differentiation/uniqueness requires an open neighborhood of zero."}
+{"event":"checkpoint","master_id":"ADJ-058","status":"resolved","note":"CLT entry labels the MGF derivation as a narrower proof sketch and points to characteristic functions for the general theorem."}
+{"event":"checkpoint","master_id":"ADJ-073","status":"resolved","note":"Pivot inversion requires strict monotonicity, attainable range, and solvability, with generalized inverse fallback."}
+{"event":"checkpoint","master_id":"ADJ-075","status":"resolved","note":"Known/unknown mean and sigma pivots, iid normal assumptions, and sample-size gates are separated."}
+{"event":"checkpoint","master_id":"ADJ-077","status":"resolved","note":"Regression formula requires independent normal errors, A>0, and n gates."}
+{"event":"checkpoint","master_id":"ADJ-079","status":"resolved","note":"Counting ranges and binomial zero extension are explicit."}
+{"event":"checkpoint","master_id":"ADJ-083","status":"resolved","note":"Frontmatter reserves circ notation for standardized variables and documents regression sample-mean bars."}
+{"event":"checkpoint","master_id":"ADJ-084","status":"resolved","note":"Continuous table supports and parameter/MGF domains are explicit."}
+{"event":"validated","checks":["git diff --check","JSONL parse","TeX environment balance","brace balance heuristic","targeted labels"],"result":"passed"}

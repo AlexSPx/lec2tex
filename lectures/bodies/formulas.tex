@@ -3,7 +3,8 @@
 
 Този справочник събира на едно място формулите, които се използват най-често при
 решаване на задачи. Всяко твърдение е доказано на съответното място в лекциите —
-тук са само резултатите. Навсякъде $q = 1-p$.
+тук са само резултатите. Навсякъде $q=1-p$; за вероятностни модели с $p$ се
+разбира $0\le p\le1$, а по-тесните области са отбелязани изрично.
 
 \section{Комбинаторика}
 
@@ -20,22 +21,33 @@
 \end{center}
 
 \noindent
-Тук избираме $k$ обекта измежду $n$. Пермутациите на $n$ различни обекта са $n!$.
+Тук избираме $k$ обекта измежду $n$, при $n,k\in\mathbb Z_{\ge0}$ и
+$0\le k\le n$ за избор без повторение. За двата случая с повторение в
+таблицата приемаме $n\ge1$ и $k\ge0$. Пермутациите на $n$ различни обекта са $n!$.
 
 \begin{itemize}\itemsep2pt
-  \item \emph{Мултиномен коефициент} (подреждания с повтарящи се букви):
-        $\dbinom{n}{k_1,\dots,k_m} = \dfrac{n!}{k_1!\,k_2!\cdots k_m!}$, където $\sum k_i = n$.
+  \item \emph{Мултиномен коефициент} (подреждания с повтарящи се букви): за
+        $k_i\in\mathbb Z_{\ge0}$ и $\sum_i k_i=n$,
+        $\dbinom{n}{k_1,\dots,k_m} = \dfrac{n!}{k_1!\,k_2!\cdots k_m!}$.
   \item \emph{Формула за включване и изключване:}
         $\displaystyle \Big|\bigcup_{i=1}^{n} A_i\Big|
           = \sum_i |A_i| - \sum_{i<j} |A_i \cap A_j| + \cdots + (-1)^{n-1}|A_1 \cap \dots \cap A_n|$.
-  \item \emph{Брой сюрекции} от $k$-елементно върху $n$-елементно множество:
+  \item \emph{Брой сюрекции} от $k$-елементно върху $n$-елементно множество,
+        $n\ge1$, $k\ge0$ цели:
         $\displaystyle \sum_{m=0}^{n} (-1)^m \binom{n}{m} (n-m)^k$.
-  \item \emph{Свойства:} $\binom{n}{k} = \binom{n}{n-k}$;\quad
+        При $n=0$ има една сюрекция само ако $k=0$, и нито една при $k>0$.
+  \item \emph{Свойства:} за $n\ge1$ и $0\le k\le n$, като в Pascal и
+        absorption използваме стандартната нулева екстензия
+        $\binom nk=0$ извън $0\le k\le n$,
+        $\binom{n}{k} = \binom{n}{n-k}$;\quad
         $\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}$;\quad
         $k\binom{n}{k} = n\binom{n-1}{k-1}$;\quad
-        $\sum_{k} \binom{n}{k} = 2^n$;\quad
-        $\sum_{k}(-1)^k\binom{n}{k} = 0$ за $n \ge 1$.
-  \item \emph{Бином на Нютон:} $(a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^k b^{n-k}$.
+        $\sum_{k=0}^{n} \binom{n}{k} = 2^n$;\quad
+        $\sum_{k=0}^{n}(-1)^k\binom{n}{k} = 0$ за $n \ge 1$.
+  \item \emph{Бином на Нютон:} за $n\in\mathbb Z_{\ge0}$,
+        $(a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^k b^{n-k}$.
+        Извън $0\le k\le n$ приемаме $\binom nk=0$ само когато е обявена
+        тази стандартна нулева екстензия.
 \end{itemize}
 
 \section{Основни вероятностни правила}
@@ -46,19 +58,23 @@
   \item $\mathbb{P}(A^c) = 1 - \mathbb{P}(A)$;\quad
         $\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$.
   \item \emph{Условна вероятност:} $\mathbb{P}(B \given A) = \dfrac{\mathbb{P}(A \cap B)}{\mathbb{P}(A)}$, при $\mathbb{P}(A) > 0$.
-  \item \emph{Верижно правило:}
+  \item \emph{Верижно правило} (когато всяко условящо сечение в знаменател е с
+        положителна вероятност):
         $\mathbb{P}(A_1 \cap \dots \cap A_n) = \mathbb{P}(A_1)\mathbb{P}(A_2 \given A_1)\cdots
          \mathbb{P}(A_n \given A_1 \cap \dots \cap A_{n-1})$.
-  \item \emph{Условна независимост:} $\mathbb{P}(A \cap B \given C) = \mathbb{P}(A \given C)\mathbb{P}(B \given C)$
+  \item \emph{Условна независимост:} при $\mathbb P(C)>0$,
+        $\mathbb{P}(A \cap B \given C) = \mathbb{P}(A \given C)\mathbb{P}(B \given C)$
         е \emph{друго} свойство от независимостта на $A$ и $B$ — нито едното не влече другото.
         В примера с двата зара $A \perp\!\!\!\perp B$, но при условие $C$ е в сила $A \iff B$.
   \item \emph{Пълна вероятност по непрекъснат параметър:}
         $\mathbb{P}(A) = \int \mathbb{P}(A \given \Theta = \theta) f_\Theta(\theta)\,d\theta$ —
-        така се смятат смеси (случаен параметър). Вж.
+        така се смятат смеси (случаен параметър). Точковото условие означава избрана
+        регулярна условна версия и е определено само за $\mathbb P_\Theta$-почти всяко
+        $\theta$; стойностите върху нулево множество не влияят на интеграла. Вж.
         \crosslecture{supp:cond-indep}{допълнението в лекция 3}.
   \item \emph{Формула за пълната вероятност:} при пълна група $\{H_i\}$ с $\mathbb{P}(H_i)>0$,
         $\displaystyle \mathbb{P}(A) = \sum_i \mathbb{P}(A \given H_i)\,\mathbb{P}(H_i)$.
-  \item \emph{Формула на Бейс:}
+  \item \emph{Формула на Бейс:} при положителен знаменател и $\mathbb P(H_j)>0$,
         $\displaystyle \mathbb{P}(H_j \given A) = \frac{\mathbb{P}(A \given H_j)\mathbb{P}(H_j)}{\sum_i \mathbb{P}(A \given H_i)\mathbb{P}(H_i)}$.
   \item \emph{Независимост:} $A \perp\!\!\!\perp B \iff \mathbb{P}(A \cap B) = \mathbb{P}(A)\mathbb{P}(B)$.
   \item \emph{Две по две $\ne$ съвкупно:} събития може да са независими по двойки, без да са
@@ -80,19 +96,20 @@
 \toprule
 \textbf{Разпределение} & $\mathbb{P}(X=k)$ & $\E X$ & $\Var X$ & $g_X(s)$ \\
 \midrule
-$\Ber(p)$ & $p^k q^{1-k}$, $k \in \{0,1\}$ & $p$ & $pq$ & $q+ps$ \\[3pt]
-$\Bin(n,p)$ & $\dbinom{n}{k} p^k q^{n-k}$, $0 \le k \le n$ & $np$ & $npq$ & $(q+ps)^n$ \\[5pt]
-$\Geo(p)$ & $q^k p$, $k \ge 0$ & $\dfrac{q}{p}$ & $\dfrac{q}{p^2}$ & $\dfrac{p}{1-qs}$ \\[7pt]
-$\NegBin(r,p)$ & $\dbinom{r+k-1}{k} p^r q^k$, $k \ge 0$ & $\dfrac{rq}{p}$ & $\dfrac{rq}{p^2}$ & $\left(\dfrac{p}{1-qs}\right)^{\! r}$ \\[7pt]
-$\Poi(\lambda)$ & $e^{-\lambda}\dfrac{\lambda^k}{k!}$, $k \ge 0$ & $\lambda$ & $\lambda$ & $e^{\lambda(s-1)}$ \\[7pt]
+$\Ber(p)$ & $p^k q^{1-k}$, $k \in \{0,1\}$, $0\le p\le1$ & $p$ & $pq$ & $q+ps$ \\[3pt]
+$\Bin(n,p)$ & $\dbinom{n}{k} p^k q^{n-k}$, $0 \le k \le n$, $n\in\mathbb Z_{\ge0}$ & $np$ & $npq$ & $(q+ps)^n$ \\[5pt]
+$\Geo(p)$ & $q^k p$, $k \ge 0$, $0<p<1$ & $\dfrac{q}{p}$ & $\dfrac{q}{p^2}$ & $\dfrac{p}{1-qs}$ \\[7pt]
+$\NegBin(r,p)$ & $\dbinom{r+k-1}{k} p^r q^k$, $k \ge 0$, $r\in\mathbb Z_{>0},\ 0<p<1$ & $\dfrac{rq}{p}$ & $\dfrac{rq}{p^2}$ & $\left(\dfrac{p}{1-qs}\right)^{\! r}$ \\[7pt]
+$\Poi(\lambda)$ & $e^{-\lambda}\dfrac{\lambda^k}{k!}$, $k \ge 0$, $\lambda\ge0$ & $\lambda$ & $\lambda$ & $e^{\lambda(s-1)}$ \\[7pt]
 $\Hyp(N,M,n)$ & $\dfrac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}}$ ${}^{(*)}$ & $n\dfrac{M}{N}$ & $n\dfrac{M}{N}\dfrac{N-M}{N}\dfrac{N-n}{N-1}$ & --- \\[7pt]
-равномерно в $\{1,\dots,n\}$ & $\dfrac{1}{n}$ & $\dfrac{n+1}{2}$ & $\dfrac{n^2-1}{12}$ & $\dfrac{s(1-s^n)}{n(1-s)}$ \\
+равномерно в $\{1,\dots,n\}$, $n\ge1$ & $\dfrac{1}{n}$ & $\dfrac{n+1}{2}$ & $\dfrac{n^2-1}{12}$ & $\dfrac{s(1-s^n)}{n(1-s)}$ \\
 \bottomrule
 \end{tabular}
 \end{center}
 
 \noindent
-${}^{(*)}$ Носителят на $\Hyp$ не е целият интервал $0..n$: изтеглените не могат да
+${}^{(*)}$ За $N\in\mathbb Z_{>0}$, $0\le M\le N$ и $0\le n\le N$; при $N>1$
+е дадена дисперсията (при $N=1$ тя е $0$). Носителят на $\Hyp$ не е целият интервал $0..n$: изтеглените не могат да
 надхвърлят наличните, нито да са твърде малко, тоест
 $\max(0,\, n-N+M) \le k \le \min(M,\, n)$.
 
@@ -100,12 +117,19 @@ $\max(0,\, n-N+M) \le k \le \min(M,\, n)$.
 $\Geo$ и $\NegBin$ в таблицата броят \emph{неуспехите} преди първия (съответно $r$-тия)
 успех; $\NegBin(1,p) = \Geo(p)$. Множителят $\frac{N-n}{N-1}$ при $\Hyp$ е поправката за
 теглене без връщане: при $N \to \infty$ той клони към $1$ и $\Hyp \to \Bin$.
+При $p=0$ или $p=1$ биномното е дегенерирано съответно в $0$ или $n$;
+$\Poi(0)$ е дегенерирано в $0$. За $\NegBin$ краят $p=1$ дава нула
+неуспехи, а при $p=0$ времето до $r$-тия успех не е крайно.
 
 \subsection*{Двете конвенции за $\Geo(p)$: броим ли последния опит}
 
 Геометричното разпределение се среща в два варианта според това дали броим и
 \emph{последния} (успешния) опит. Двата се различават само с изместване с единица, но
 $\E$ и пораждащата функция изглеждат различно — оттам идват повечето грешки.
+
+В таблицата по-долу $0<p<1$. При $p=1$ съответните величини са дегенерирани
+($X\equiv0$, $Y\equiv1$), а при $p=0$ времето до успех не е крайно; затова
+формулите с $1/p$ и последващите условни отношения не се пренасят към тези краища.
 
 \begin{center}
 \footnotesize
@@ -149,11 +173,18 @@ $g(s)$ & $\dfrac{p}{1-qs}$ & $\dfrac{ps}{1-qs}$ \\[6pt]
 \end{itemize}
 
 \begin{itemize}\itemsep2pt
-  \item \emph{Липса на памет} (само $\Geo$ сред дискретните):
+  \item \emph{Липса на памет} (само $\Geo$, при $0<p<1$ и $m,k\ge0$):
         $\mathbb{P}(X \ge m+k \given X \ge m) = \mathbb{P}(X \ge k)$.
-  \item \emph{Мода:} за $\Bin(n,p)$ е $\lfloor p(n+1) \rfloor$; за $\Poi(\lambda)$ е $\lfloor \lambda \rfloor$.
-  \item \emph{Сума със случаен брой събираеми:} при $N$ независимо от независимите еднакво
-        разпределени $X_j$ и $S_N = \sum_{j=1}^N X_j$ пораждащите функции се \emph{съставят}:
+  \item \emph{Мода:} за $0<p<1$, ако $(n+1)p$ не е цяло, единствената мода на $\Bin(n,p)$ е
+        $\lfloor p(n+1)\rfloor$; ако $(n+1)p=m\in\mathbb Z$, модите са $m-1,m$.
+        При $p=0$ модата е $0$, а при $p=1$ е $n$. За $\Poi(\lambda)$,
+        $\lambda>0$, мода е $\lfloor\lambda\rfloor$ при нецяло $\lambda$, а при
+        цяло $\lambda$ са $\lambda-1,\lambda$; при $\lambda=0$ модата е $0$.
+  \item \emph{Сума със случаен брой събираеми:} при целочислено $N\ge0$, $N$ независимо
+        от независимите еднакво разпределени $X_j$, и $S_N = \sum_{j=1}^N X_j$,
+        пораждащите функции се \emph{съставят}. Ако $\E N,\E X_1<\infty$, важи
+        формулата за средното; за дисперсията изискваме
+        $\E N^2,\E X_1^2<\infty$:
         \[ g_{S_N}(s) = g_N\big(g_{X_1}(s)\big), \qquad
            \E S_N = \E N\,\E X_1, \qquad
            \Var S_N = \E N \Var X_1 + \Var N (\E X_1)^2 . \]
@@ -167,9 +198,11 @@ $g(s)$ & $\dfrac{p}{1-qs}$ & $\dfrac{ps}{1-qs}$ \\[6pt]
         \crosslecture{supp:poisson-thinning}{допълнението в лекция 7}. При \emph{фиксиран} брой
         опити $n$ същото не важи: там $K = n - M$ е напълно определено от $M$.
   \item \emph{Сума от геометрични с различни параметри} (задачата за колекционера): ако
-        $T_i$ е броят \emph{опити} на $i$-тия етап и $p_i = \frac{n-i+1}{n}$, то
+        $n\ge1$, $T_i$ е броят \emph{опити} на $i$-тия етап и $p_i = \frac{n-i+1}{n}$,
+        то
         \[ \E T = n H_n = n\sum_{k=1}^{n}\frac1k \approx n\ln n + \gamma n, \qquad
-           \Var T = n^2\sum_{k=1}^{n}\frac{1}{k^2} - n H_n \to \frac{\pi^2}{6}n^2 . \]
+           \Var T = n^2\sum_{k=1}^{n}\frac{1}{k^2} - n H_n
+           \sim \frac{\pi^2}{6}n^2 . \]
         Схемата — етапи, линейност за очакването, независимост за дисперсията — е описана
         в \crosslecture{supp:collector}{допълнението в лекция 6}. Внимавайте: $\Geo$ брои
         неуспехи, а тук се броят опити, тоест $T_i = 1 + \Geo(p_i)$ и $\E T_i = 1/p_i$.
@@ -206,27 +239,39 @@ $g(s)$ & $\dfrac{p}{1-qs}$ & $\dfrac{ps}{1-qs}$ \\[6pt]
 \toprule
 \textbf{Разпределение} & $f_X(x)$ & $\E X$ & $\Var X$ & $M_X(t) = \E e^{tX}$ \\
 \midrule
-$U(a,b)$ & $\dfrac{1}{b-a}$, $a<x<b$ & $\dfrac{a+b}{2}$ & $\dfrac{(b-a)^2}{12}$ & $\dfrac{e^{tb}-e^{ta}}{t(b-a)}$ \\[7pt]
-$\Exponential(\lambda)$ & $\lambda e^{-\lambda x}$, $x>0$ & $\dfrac{1}{\lambda}$ & $\dfrac{1}{\lambda^2}$ & $\dfrac{\lambda}{\lambda-t}$, $t<\lambda$ \\[7pt]
-$\Gamma(\alpha,\beta)$ & $\dfrac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha-1} e^{-\beta x}$, $x>0$ & $\dfrac{\alpha}{\beta}$ & $\dfrac{\alpha}{\beta^2}$ & $\left(\dfrac{\beta}{\beta-t}\right)^{\!\alpha}$ \\[7pt]
-$N(\mu,\sigma^2)$ & $\dfrac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ & $\mu$ & $\sigma^2$ & $e^{\mu t + \sigma^2 t^2/2}$ \\[7pt]
-$\chi^2(n) = \Gamma\!\left(\frac{n}{2},\frac12\right)$ & $\dfrac{x^{n/2-1}e^{-x/2}}{2^{n/2}\Gamma(n/2)}$, $x>0$ & $n$ & $2n$ & $(1-2t)^{-n/2}$, $t<\tfrac12$ \\[7pt]
-$t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1+\frac{x^2}{n}\right)^{-\frac{n+1}{2}}$ & $0$, $n>1$ & $\dfrac{n}{n-2}$, $n>2$ & не съществува \\
+$U(a,b)$ & $\dfrac{1}{b-a}$, $a<x<b$, $a<b$ & $\dfrac{a+b}{2}$ & $\dfrac{(b-a)^2}{12}$ & $\dfrac{e^{tb}-e^{ta}}{t(b-a)}$ \\[7pt]
+$\Exponential(\lambda)$ & $\lambda e^{-\lambda x}$, $x>0$, $\lambda>0$ & $\dfrac{1}{\lambda}$ & $\dfrac{1}{\lambda^2}$ & $\dfrac{\lambda}{\lambda-t}$, $t<\lambda$ \\[7pt]
+$\Gamma(\alpha,\beta)$ & $\dfrac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha-1} e^{-\beta x}$, $x>0$, $\alpha,\beta>0$ & $\dfrac{\alpha}{\beta}$ & $\dfrac{\alpha}{\beta^2}$ & $\left(\dfrac{\beta}{\beta-t}\right)^{\!\alpha}$ \\[7pt]
+$N(\mu,\sigma^2)$ & $\dfrac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$, $\sigma>0$ & $\mu$ & $\sigma^2$ & $e^{\mu t + \sigma^2 t^2/2}$ \\[7pt]
+$\chi^2(n) = \Gamma\!\left(\frac{n}{2},\frac12\right)$ & $\dfrac{x^{n/2-1}e^{-x/2}}{2^{n/2}\Gamma(n/2)}$, $x>0$, $n>0$ & $n$ & $2n$ & $(1-2t)^{-n/2}$, $t<\tfrac12$ \\[7pt]
+$t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1+\frac{x^2}{n}\right)^{-\frac{n+1}{2}}$, $n>0$ & $0$, $n>1$ & $\dfrac{n}{n-2}$, $n>2$ & няма MGF в отворена околност на $0$ \\
 \bottomrule
 \end{tabular}
 \end{center}
 
+\noindent
+В таблицата $\beta$ е \emph{скорост} (rate/intensity), не scale. За $U(a,b)$
+формулата за $M_X(t)$ при $t=0$ се разбира по непрекъснатост като $1$;
+за $\Gamma$ е валидна при $t<\beta$, за $\chi^2$ при $t<1/2$, а за
+нормалното — за всяко реално $t$. За $t$-разпределението $M_X(0)=1$ по
+дефиниция, но няма нетривиална околност на нулата, в която MGF да е крайна.
+
 \begin{itemize}\itemsep2pt
   \item $\Gamma(\alpha+1) = \alpha\,\Gamma(\alpha)$;\quad $\Gamma(n) = (n-1)!$;\quad
         $\Gamma(\tfrac12) = \sqrt{\pi}$;\quad $\Exponential(\lambda) = \Gamma(1,\lambda)$.
-  \item \emph{Липса на памет} (само $\Exponential$ сред непрекъснатите):
-        $\mathbb{P}(X > s+t \given X > s) = \mathbb{P}(X > t)$.
-  \item \emph{Стандартизиране:} $X \sim N(\mu,\sigma^2) \implies \dfrac{X-\mu}{\sigma} \sim N(0,1)$,
+  \item За $X\sim\Exponential(\lambda)$, $\lambda>0$,
+        $F_X(x)=0$ при $x\le0$ и $F_X(x)=1-e^{-\lambda x}$ при $x>0$;
+        съответно $\mathbb P(X>x)=1$ при $x\le0$ и $e^{-\lambda x}$ при $x>0$.
+        Липсата на паметта $\mathbb{P}(X > s+t \given X > s) = \mathbb{P}(X > t)$
+        е за $s,t\ge0$.
+  \item \emph{Стандартизиране:} при $0<\sigma^2<\infty$,
+        $X \sim N(\mu,\sigma^2) \implies \dfrac{X-\mu}{\sigma} \sim N(0,1)$,
         откъдето $\mathbb{P}(X < x) = \Phi\!\left(\frac{x-\mu}{\sigma}\right)$ и
         $\Phi(-z) = 1-\Phi(z)$.
   \item \emph{Устойчивост:} сума от независими нормални е нормална
         ($\mu$ и $\sigma^2$ се събират); сума от независими $\Poi$ е $\Poi$;
-        сума от независими $\Gamma$ с общо $\beta$ е $\Gamma$ (събира се $\alpha$).
+        сума от независими $\Gamma$ с обща скорост $\beta>0$ е $\Gamma$
+        (събира се $\alpha$).
   \item \emph{Връзки:} $Z \sim N(0,1) \implies Z^2 \sim \chi^2(1)$;\quad
         сума от $n$ независими $\chi^2(1)$ е $\chi^2(n)$;\quad
         $\dfrac{Z}{\sqrt{U/n}} \sim t(n)$ при $Z \perp\!\!\!\perp U \sim \chi^2(n)$.
@@ -235,28 +280,43 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
 \section{Числови характеристики}
 
 \begin{itemize}\itemsep2pt
-  \item $\E X = \sum_j x_j p_j$ (дискретно), $\E X = \int_{-\infty}^{\infty} x f_X(x)\,dx$ (непрекъснато).
-  \item \emph{Формула на статистика:} $\E g(X) = \sum_j g(x_j)p_j$, съответно $\int g(x) f_X(x)\,dx$
+  \item $\E X = \sum_j x_j p_j$ (дискретно), $\E X = \int_{-\infty}^{\infty} x f_X(x)\,dx$ (непрекъснато),
+        когато съответното очакване съществува като крайно число.
+  \item \emph{Формула на статистика:} ако $\E|g(X)|<\infty$, тогава
+        $\E g(X) = \sum_j g(x_j)p_j$, съответно $\int g(x) f_X(x)\,dx$
         — не е нужно да се търси разпределението на $g(X)$.
-  \item \emph{Линейност:} $\E(aX+bY) = a\E X + b\E Y$ \emph{винаги}, независимост не се изисква.
-  \item $\Var X = \E X^2 - (\E X)^2$;\quad $\Var(aX+b) = a^2 \Var X$.
-  \item $\Cov(X,Y) = \E[XY] - \E X\,\E Y$;\quad
+  \item \emph{Линейност:} при крайни $\E|X|$ и $\E|Y|$,
+        $\E(aX+bY) = a\E X + b\E Y$; независимост не се изисква.
+  \item При $\E X^2<\infty$, $\Var X = \E X^2 - (\E X)^2$ и
+        $\Var(aX+b) = a^2 \Var X$.
+  \item При крайни втори моменти, $\Cov(X,Y) = \E[XY] - \E X\,\E Y$;\quad
         $\Var\!\left(\sum_j X_j\right) = \sum_j \Var X_j + 2\sum_{i<j} \Cov(X_i,X_j)$.
-  \item $X \perp\!\!\!\perp Y \implies \E[XY] = \E X\,\E Y$ и $\Cov(X,Y)=0$. Обратното \emph{не} е вярно.
-  \item $\rho(X,Y) = \dfrac{\Cov(X,Y)}{\sqrt{\Var X}\sqrt{\Var Y}} \in [-1,1]$;\quad
+  \item Ако $X,Y$ са независими и $\E|XY|<\infty$, тогава
+        $\E[XY] = \E X\,\E Y$ и $\Cov(X,Y)=0$. Обратното \emph{не} е вярно.
+  \item При $0<\Var X,\Var Y<\infty$,
+        $\rho(X,Y) = \dfrac{\Cov(X,Y)}{\sqrt{\Var X}\sqrt{\Var Y}} \in [-1,1]$;\quad
         $|\rho| = 1 \iff Y = aX+b$ п.с.
   \item \emph{Очакване чрез опашките} (за $X \in \{0,1,2,\dots\}$):
-        $\displaystyle \E X = \sum_{n \ge 0} \mathbb{P}(X > n)$.
+        $\displaystyle \E X = \sum_{n \ge 0} \mathbb{P}(X > n)$, като равенството
+        е в $[0,\infty]$; при конвенция само с крайни очаквания се изисква $\E X<\infty$.
   \item \emph{Индикатори:} $\E \ind_A = \mathbb{P}(A)$. Разбиването на брояч на сума от
         индикатори е най-прекият път към $\E X$, дори когато събираемите не са независими.
-  \item \emph{Част срещу цяло:} $\Cov(X, X+Y) = \Var X + \Cov(X,Y)$; при $X \perp\!\!\!\perp Y$ —
+  \item \emph{Част срещу цяло:} при съществуващи втори моменти,
+        $\Cov(X, X+Y) = \Var X + \Cov(X,Y)$; при $X \perp\!\!\!\perp Y$ и
+        $0<\Var X,\Var Y<\infty$ —
         $\rho(X, X+Y) = \dfrac{\sigma_X}{\sqrt{\sigma_X^2+\sigma_Y^2}}$, а за независими еднакво
         разпределени $\rho(X_1, S_n) = \dfrac{1}{\sqrt n}$ (при $n=2$: $1/\sqrt2$, независимо от
         разпределението).
-  \item \emph{Събираемо при фиксирана сума:} за независими еднакво разпределени
-        $\E[X_1 \given S_n = t] = \dfrac{t}{n}$ — по симетрия, без сметка.
-  \item \emph{Условно очакване:} $\E[\E[X \given Y]] = \E X$ (формула за пълното очакване);\quad
+  \item \emph{Събираемо при фиксирана сума:} за интегрируеми независими еднакво разпределени
+        $X_j$ и $S_n=\sum_jX_j$, $\E[X_1\given S_n]=S_n/n$ п.с. (за $n\ge1$).
+        Записът $\E[X_1\given S_n=t]=t/n$ означава избрана регулярна условна версия
+        и е само почти навсякъде по закона на $S_n$, особено когато $\mathbb P(S_n=t)=0$.
+  \item \emph{Условно очакване:} при интегруем $X$,
+        $\E[\E[X \given Y]] = \E X$ (формула за пълното очакване); при $\E X^2<\infty$,
         $\Var X = \E[\Var(X \given Y)] + \Var(\E[X \given Y])$.
+  \item В дискретния случай $\E[X\given Y=y]$ се дефинира само за атоми
+        с $\mathbb P(Y=y)>0$ чрез деление на тази маса; еднаквите стойности
+        на условното средно се групират според pushforward-разпределението на $Y$.
 \end{itemize}
 
 \section{Функция на разпределение и трансформации}
@@ -265,26 +325,35 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
   \item В тези записки $F_X(x) = \mathbb{P}(X < x)$ (строго неравенство); $F$ е ненамаляваща,
         непрекъсната отляво, $F(-\infty)=0$, $F(+\infty)=1$.
   \item $\mathbb{P}(a \le X < b) = F_X(b) - F_X(a)$;\quad
-        за непрекъсната $X$: $f_X = F_X'$ и $\mathbb{P}(X=a)=0$.
-  \item \emph{Смяна на променливите} (монотонна $g$): $Y = g(X)$ има плътност
-        \[ f_Y(y) = f_X\big(g^{-1}(y)\big)\,\Big|\tfrac{d}{dy}g^{-1}(y)\Big| . \]
+        за непрекъсната $X$: $F_X'=f_X$ почти навсякъде (точково в точките на
+        непрекъснатост на $f_X$) и $\mathbb{P}(X=a)=0$.
+  \item \emph{Смяна на променливите} (едно-към-едно $C^1$-монотонна $g$ с
+        $g'\ne0$ върху интервала на поддръжка $I$): ако $X$ има плътност $f_X$
+        върху $I$, тогава почти навсякъде за $y\in g(I)$
+        \[ f_Y(y) = f_X\big(g^{-1}(y)\big)\,\Big|\tfrac{d}{dy}g^{-1}(y)\Big| , \]
+        а $f_Y(y)=0$ извън $g(I)$. По-общо е достатъчно да се изиска абсолютно
+        непрекъсната обратна функция; само строгата монотонност не е достатъчна.
   \item \emph{Метод на функцията на разпределение:} намираме $F_Y(y)=\mathbb{P}(g(X)<y)$ и
         диференцираме — работи и когато $g$ не е монотонна.
   \item \emph{Двумерни:} $f_X(x) = \int f_{X,Y}(x,y)\,dy$ (маргинална);\quad
-        $X \perp\!\!\!\perp Y \iff f_{X,Y}(x,y) = f_X(x) f_Y(y)$.
+        $X \perp\!\!\!\perp Y \iff f_{X,Y}(x,y) = f_X(x) f_Y(y)$ почти навсякъде.
   \item \emph{Сума от независими:} $f_{X+Y}(z) = \int f_X(x) f_Y(z-x)\,dx$ (свъртка).
-  \item \emph{Условна плътност:} $f_{Y \given X}(y \given x) = f_{X,Y}(x,y)/f_X(x)$, откъдето
+  \item \emph{Условна плътност:} при $f_X(x)>0$ (и за избрана регулярна версия),
+        $f_{Y \given X}(y \given x) = f_{X,Y}(x,y)/f_X(x)$, откъдето
         $\E[Y \given X = x] = \int y\, f_{Y \given X}(y \given x)\,dy$. Практически: фиксираме
         $x$, взимаме сечението на съвместната плътност и го нормираме — знаменателят е
         точно интегралът на сечението.
-  \item \emph{Смяна на променливите в две измерения.} За взаимно еднозначно
-        $(z,w) = g(x,y)$ с обратно $(x,y) = h(z,w)$:
+  \item \emph{Смяна на променливите в две измерения.} За отворени измерими области
+        и $C^1$-дифеоморфизъм между тях с $C^1$ обратно
+        $(x,y)=h(z,w)$ и ненулев Якобиан:
         \[ f_{Z,W}(z,w) = f_{X,Y}\big(h(z,w)\big)\,|J|, \qquad
            J = \det\begin{pmatrix}
              \partial x/\partial z & \partial x/\partial w \\
              \partial y/\partial z & \partial y/\partial w
            \end{pmatrix}, \]
-        след което $f_Z(z) = \int f_{Z,W}(z,w)\,dw$. Готови якобиани:
+        формулата е почти навсякъде върху образа на областта и плътността е нула
+        извън този образ; след което $f_Z(z) = \int f_{Z,W}(z,w)\,dw$.
+        Готови якобиани:
         \[ \begin{array}{@{}lll@{}}
              Z = X+Y, & W = X: & |J| = 1; \\
              Z = XY,  & W = X: & |J| = 1/|w|; \\
@@ -323,11 +392,13 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
   \item Работи се с $M$ през $F$, а с $m$ през \emph{опашката} $1-F$ — това е цялата идея.
         За минимум директното разписване на обединение води до включване-изключване и е
         излишно трудно.
-  \item \emph{Полезен частен случай:} минимумът на независими $\Exponential(\lambda_j)$ е
+  \item \emph{Полезен частен случай:} за краен брой независими
+        $\Exponential(\lambda_j)$ с $\lambda_j>0$ минимумът е
         отново експоненциален, $m \sim \Exponential\!\left(\sum_j \lambda_j\right)$; при
         еднакви $\lambda$ това е $\Exponential(n\lambda)$. Максимумът \emph{не} е
         експоненциален.
-  \item \emph{Пример:} за $X_j \sim U(0,\theta)$ имаме $F_M(x) = (x/\theta)^n$ и
+  \item \emph{Пример:} за $n\ge1$, $\theta>0$ и $X_j \sim U(0,\theta)$ имаме
+        $F_M(x) = (x/\theta)^n$ и
         $f_M(x) = n x^{n-1}/\theta^n$ — точно оценката $X^*$ от метода на максималното
         правдоподобие в лекция~12.
   \item \emph{Обща поредна статистика:} $k$-тата по големина сред $n$ е.р.\ наблюдения има
@@ -339,25 +410,38 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
 \section{Пораждащи функции и функции на моментите}
 
 \begin{itemize}\itemsep2pt
-  \item $g_X(s) = \E s^X$ (за целочислени $X \ge 0$);\quad $M_X(t) = \E e^{tX}$.
-  \item $\E X = g_X'(1)$;\quad $\Var X = g_X''(1) + g_X'(1) - (g_X'(1))^2$;\quad
+  \item $g_X(s) = \E s^X$ (за целочислени $X \ge 0$);\quad $M_X(t) = \E e^{tX}$,
+        като за MGF се посочва областта от $t$, където очакването е крайно.
+  \item В разширен смисъл $\E X=g_X'(1-)$; ако $\E X^2<\infty$, тогава
+        $\Var X = g_X''(1-) + g_X'(1-) - (g_X'(1-))^2$;\quad
+        при съществуваща $k$-та производна в нулата
         $k!\,\mathbb{P}(X=k) = g_X^{(k)}(0)$.
-  \item $\E X^k = M_X^{(k)}(0)$.
-  \item \emph{Еднозначност:} $g_X \equiv g_Y \iff X \stackrel{d}{=} Y$ (същото за $M_X$).
-  \item \emph{Суми от независими:} $g_{X+Y} = g_X \cdot g_Y$ и $M_{X+Y} = M_X \cdot M_Y$.
+  \item Ако MGF е крайна в отворена околност на $0$, тогава
+        $\E X^k = M_X^{(k)}(0)$ и равенството на MGF-ите в такава околност
+        характеризира разпределението. За PGF равенството на функциите в
+        общата област на сходимост също характеризира разпределението.
+  \item \emph{Суми от независими:} $g_{X+Y} = g_X \cdot g_Y$ и
+        $M_{X+Y} = M_X \cdot M_Y$ във всяка обща област, където произведенията
+        са крайни.
         Това е основният начин да се разпознае разпределението на сума.
 \end{itemize}
 
 \section{Неравенства и гранични теореми}
 
 \begin{itemize}\itemsep2pt
-  \item \emph{Марков:} при $X \ge 0$, $\mathbb{P}(X > a) \le \dfrac{\E X}{a}$.
-  \item \emph{Чебишов:} $\mathbb{P}(|X - \E X| > a) \le \dfrac{\Var X}{a^2}$.
-  \item \emph{Слаб ЗГЧ:} $\dfrac{S_n}{n} \xrightarrow{\mathbb{P}} \mu$;\quad
-        \emph{усилен ЗГЧ:} $\dfrac{S_n}{n} \xrightarrow{\text{п.с.}} \mu$ (изисква $\E|X_1| < \infty$).
-  \item \emph{ЦГТ:} при $\Var X_1 = \sigma^2 < \infty$,
+  \item \emph{Марков:} при $X \ge 0$, $a>0$ и $\E X<\infty$,
+        $\mathbb{P}(X > a) \le \dfrac{\E X}{a}$.
+  \item \emph{Чебишов:} при $\E X^2<\infty$ и $a>0$,
+        $\mathbb{P}(|X - \E X| > a) \le \dfrac{\Var X}{a^2}$.
+  \item \emph{Слаб ЗГЧ:} за iid $X_j$ с $\E|X_1|<\infty$,
+        $\dfrac{S_n}{n} \xrightarrow{\mathbb{P}} \mu$;\quad
+        \emph{усилен ЗГЧ:} при същите предпоставки
+        $\dfrac{S_n}{n} \xrightarrow{\text{п.с.}} \mu$.
+  \item \emph{ЦГТ:} за iid $X_j$ с $\mu=\E X_1$ и $0<\Var X_1=\sigma^2<\infty$,
         $\displaystyle \frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0,1)$, откъдето
         $\mathbb{P}(S_n < b) \approx \Phi\!\left(\dfrac{b-n\mu}{\sigma\sqrt{n}}\right)$.
+        Показаната MGF-аргументация е само доказателство-скица при MGF в
+        околност на нулата; общата ЦГТ се доказва например с характеристични функции.
   \item \emph{Йерархия:} п.с. $\implies$ по вероятност $\implies$ по разпределение;
         обратните посоки не са верни.
 \end{itemize}
@@ -365,30 +449,49 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
 \section{Статистика}
 
 \begin{itemize}\itemsep2pt
-  \item \emph{Извадкови характеристики:} $\overline{X}_n = \frac1n\sum X_j$;\quad
+  \item \emph{Извадкови характеристики:} за $n\ge1$,
+        $\overline{X}_n = \frac1n\sum X_j$; за $n\ge2$,
         $S^2 = \frac{1}{n-1}\sum (X_j - \overline{X}_n)^2$ (неизместена);\quad
         $\hat\sigma^2 = \frac{n-1}{n}S^2$ (МПО, изместена).
-  \item $\E \overline{X}_n = \mu$, $\Var \overline{X}_n = \dfrac{\sigma^2}{n}$;\quad $\E S^2 = \sigma^2$.
-  \item \emph{Максимално правдоподобие:} максимизираме $L(\vec X,\theta) = \prod_j f(X_j;\theta)$,
-        обикновено през $\ln L$. Ако носителят зависи от $\theta$ (напр.\ $U(0,\theta)$),
-        диференцирането не работи — решава формата на $L$.
+  \item При iid извадка с $\E X_1=\mu$ и $\Var X_1=\sigma^2<\infty$,
+        $\E \overline{X}_n = \mu$, $\Var \overline{X}_n = \dfrac{\sigma^2}{n}$;\quad
+        при $n\ge2$ и $\E X_1^2<\infty$, $\E S^2 = \sigma^2$.
+  \item \emph{Максимално правдоподобие:} за фиксирани данни $\vec x$ максимизираме
+        $L(\theta;\vec x)=\prod_j g_\theta(x_j)$, където $g_\theta$ е pmf или плътност,
+        обикновено през $\ln L$ в областта $L>0$. Уравнението на score дава само
+        вътрешни кандидати; проверяват се границата и достигането на супремума.
+        Ако носителят зависи от $\theta$ (напр.\ $U(0,\theta)$), решава цялата форма на $L$.
   \item \emph{Метод на моментите:} приравняваме теоретични към извадкови моменти.
-  \item \emph{Централна статистика} $T(\vec X,\theta)$: монотонна по $\theta$, с разпределение,
-        което не зависи от $\theta$. Оттук интервалът се получава чрез обръщане на
-        $\mathbb{P}(q_1 < T < q_2) = \gamma$.
-  \item При $X \sim N(\mu,\sigma^2)$ и \emph{известна} $\sigma$:\;
+  \item \emph{Централна статистика} $T(\vec X,\theta)$: с разпределение,
+        което не зависи от $\theta$, и строго монотонна по $\theta$ върху параметърното
+        пространство, така че уравненията $q_i=T(\vec X,\theta)$ имат решения в
+        допустимия диапазон. Оттук интервалът се получава чрез обръщане на
+        $\mathbb{P}(q_1 < T < q_2) = \gamma$; при липса на обратимост се използва
+        обобщена обратна функция и се проверява покритието отделно.
+        Получените граници са доверителни само ако
+        $\mathbb P_\theta(I_1(\vec X)<\theta<I_2(\vec X))\ge\gamma$ за всяко
+        $\theta$ от параметърното пространство.
+  \item При iid $N(\mu,\sigma^2)$ наблюдения, $n\ge1$ и известна $\sigma>0$:\;
         $\overline{X}_n \pm q_{\frac{1+\gamma}{2}}\dfrac{\sigma}{\sqrt{n}}$.
-  \item При \emph{неизвестна} $\sigma$:\;
+  \item При iid $N(\mu,\sigma^2)$ наблюдения, $n\ge2$, $\sigma>0$ и \emph{неизвестна} $\sigma$:\;
         $\overline{X}_n \pm t_{\frac{1+\gamma}{2},\,n-1}\dfrac{S}{\sqrt{n}}$, понеже
         $\dfrac{\overline{X}_n-\mu}{S/\sqrt{n}} \sim t(n-1)$.
-  \item За дисперсията: $\dfrac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$ — интервалът използва
+  \item При iid $N(\mu,\sigma^2)$, $n\ge1$, $\sigma>0$ и известна $\mu$,
+        $\dfrac{\sum_{j=1}^n(X_j-\mu)^2}{\sigma^2}\sim\chi^2(n)$.
+        При неизвестна $\mu$, $n\ge2$,
+        $\dfrac{(n-1)S^2}{\sigma^2} \sim \chi^2(n-1)$ — интервалът използва
         \emph{два различни} квантила, защото $\chi^2$ не е симетрично.
   \item \emph{Проверка на хипотези:} грешка от I род $\alpha = \mathbb{P}(\vec X \in W \given H_0)$,
         от II род $\beta = \mathbb{P}(\vec X \notin W \given H_1)$. Лемата на
         Нейман\,--\,Пиърсън дава най-мощната област чрез отношението
         $L_1(\vec x) \ge k\,L_0(\vec x)$.
-  \item \emph{Линейна регресия:} $b_1 = \dfrac{\sum (X_k-\overline X)(Y_k-\overline Y)}{\sum (X_k - \overline X)^2}$,\;
-        $b_0 = \overline Y - b_1 \overline X$.
+  \item \emph{Линейна регресия:} при фиксиран дизайн, независими
+        $N(0,\sigma^2)$ грешки с $\sigma^2>0$, $n\ge2$ и
+        $A=\sum (X_k-\overline X)^2>0$,
+        $b_1 = \dfrac{\sum (X_k-\overline X)(Y_k-\overline Y)}{A}$,\;
+        $b_0 = \overline Y - b_1 \overline X$. За остатъчната дисперсия и $t$
+        изводи е нужно $n\ge3$ (остатъчни степени $n-2>0$); тук
+        $\overline X,\overline Y$ са аритметични извадкови средни.
 \end{itemize}
 
 \section{Апарат от анализа}

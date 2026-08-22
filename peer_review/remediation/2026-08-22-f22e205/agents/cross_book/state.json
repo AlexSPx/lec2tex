@@ -1,0 +1,9 @@
+{
+  "agent": "cross_book",
+  "source_files": ["lectures/bodies/formulas.tex", "lectures/bodies/frontmatter.tex"],
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-011", "ADJ-013", "ADJ-024", "ADJ-025", "ADJ-028", "ADJ-029", "ADJ-033", "ADJ-034", "ADJ-037", "ADJ-041", "ADJ-044", "ADJ-046", "ADJ-056", "ADJ-057", "ADJ-058", "ADJ-073", "ADJ-075", "ADJ-077", "ADJ-079", "ADJ-083", "ADJ-084"],
+  "completed_master_ids": ["ADJ-011", "ADJ-013", "ADJ-024", "ADJ-025", "ADJ-028", "ADJ-029", "ADJ-033", "ADJ-034", "ADJ-037", "ADJ-041", "ADJ-044", "ADJ-046", "ADJ-056", "ADJ-057", "ADJ-058", "ADJ-073", "ADJ-075", "ADJ-077", "ADJ-079", "ADJ-083", "ADJ-084"],
+  "validation": ["git diff --check", "JSONL parse", "TeX environment balance", "brace balance heuristic", "targeted label inspection"],
+  "global_build": false
+}

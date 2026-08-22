@@ -158,3 +158,16 @@
 - Counting domains, Catalan `n=0`, positive stars-and-bars, source context,
   supplement/task provenance, audit data, and scoped checks passed.
 - All 15 lecture-body edit packages are now complete.
+
+## 2026-08-22 — cross-book checkpoint
+
+- Luna/high completed all 21 assigned formulas/frontmatter records.
+- Coordinator review additionally repaired repeated-choice and empty-codomain
+  combinatorics domains, chain-rule positivity, regular-conditional a.e. scope,
+  explicit endpoint modes, random-sum moment gates, a variance asymptotic,
+  extended tail sums, a.e. CDF/density and independence statements, 2-D
+  diffeomorphism conditions, PGF left derivatives, MLE scope, and uniform
+  confidence coverage.
+- The 21/21 shared resolution records, JSON/JSONL, TeX balance, labels, and
+  scoped diff checks passed. All source editing phases are complete; central
+  build and verification started.

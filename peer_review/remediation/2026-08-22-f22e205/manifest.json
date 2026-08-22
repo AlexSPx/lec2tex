@@ -8,8 +8,8 @@
   "book_sources_only": true,
   "phases": {
     "lecture_edits": "complete",
-    "cross_book_edits": "running",
-    "build_and_checks": "pending",
+    "cross_book_edits": "complete",
+    "build_and_checks": "running",
     "resolution_audit": "pending"
   },
   "lectures": {
@@ -18,5 +18,5 @@
     "09":"complete", "10":"complete", "11":"complete", "12":"complete",
     "13":"complete", "14":"complete", "15":"complete"
   },
-  "cross_book": "running"
+  "cross_book": "complete"
 }
