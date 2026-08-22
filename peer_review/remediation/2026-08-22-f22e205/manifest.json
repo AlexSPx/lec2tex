@@ -15,8 +15,8 @@
   "lectures": {
     "01":"complete", "02":"complete", "03":"complete", "04":"complete",
     "05":"running", "06":"pending", "07":"complete", "08":"complete",
-    "09":"complete", "10":"running", "11":"complete", "12":"complete",
-    "13":"running", "14":"pending", "15":"pending"
+    "09":"complete", "10":"complete", "11":"complete", "12":"complete",
+    "13":"running", "14":"running", "15":"pending"
   },
   "cross_book": "pending"
 }

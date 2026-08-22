@@ -99,3 +99,13 @@
 - Support, a.e. density, transformation, Jacobian, moment, Gamma, supplement,
   parameter-domain, JSON/JSONL, TeX structure, and scoped diff checks passed.
 - Reused the worker slot for Lecture 13.
+
+## 2026-08-22 — Lecture 10 checkpoint
+
+- Luna/high completed all seven Lecture 10 body assignments; ADJ-056 remains
+  partial only for its shared consumers.
+- Coordinator validation confirmed a disjoint half-open typewriter partition
+  with infinitely many zeros, higher-moment finiteness, a separate zero-variance
+  Chebyshev branch, general and iid LLN scope, iid application assumptions,
+  supplement labels, and clean audit/structure checks.
+- Reused the worker slot for Lecture 14.

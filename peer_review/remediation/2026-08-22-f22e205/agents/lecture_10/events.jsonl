@@ -1,0 +1,7 @@
+{"master_id":"ADJ-050","status":"checkpointed","change":"Replaced closed intervals by half-open intervals with a closed final endpoint and justified infinitely many zeros.","source_file":"lectures/bodies/lecture_10.tex"}
+{"master_id":"ADJ-051","status":"checkpointed","change":"Required finite central mth moment and stated the extended-value vacuity when it is infinite.","source_file":"lectures/bodies/lecture_10.tex"}
+{"master_id":"ADJ-052","status":"checkpointed","change":"Separated Var X=0 from the positive-variance Chebyshev cancellation in the example and exercise.","source_file":"lectures/bodies/lecture_10.tex"}
+{"master_id":"ADJ-053","status":"checkpointed","change":"Added iid model assumptions globally for applications and locally for repeated observations, games, and Monte Carlo.","source_file":"lectures/bodies/lecture_10.tex"}
+{"master_id":"ADJ-054","status":"checkpointed","change":"Marked added counterexamples, figure, proof enrichment, and exercises as authored supplemental material.","source_file":"lectures/bodies/lecture_10.tex"}
+{"master_id":"ADJ-055","status":"checkpointed","change":"Restored general centered WLLN and SLLN definitions before the iid sufficient theorems.","source_file":"lectures/bodies/lecture_10.tex"}
+{"master_id":"ADJ-056","status":"checkpointed","change":"Added iid, finite-first-moment, finite-variance, and nondegenerate-standardization prerequisites in the Lecture 10 body; shared Lecture 11/formula work remains pending.","source_file":"lectures/bodies/lecture_10.tex"}

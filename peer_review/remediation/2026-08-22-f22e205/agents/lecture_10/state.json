@@ -1,0 +1,10 @@
+{
+  "agent": "lecture_10",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-050", "ADJ-051", "ADJ-052", "ADJ-053", "ADJ-054", "ADJ-055", "ADJ-056"],
+  "source_file": "lectures/bodies/lecture_10.tex",
+  "completed_ids": ["ADJ-050", "ADJ-051", "ADJ-052", "ADJ-053", "ADJ-054", "ADJ-055", "ADJ-056"],
+  "shared_work_pending": ["ADJ-056: Lecture 11 and formulas appendix"],
+  "tests": ["git diff --check"],
+  "global_build": false
+}
