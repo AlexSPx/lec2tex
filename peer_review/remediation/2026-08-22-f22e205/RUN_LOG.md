@@ -36,3 +36,14 @@
   `2^Omega`, its countable-additivity argument, and the measurable finite
   positive-volume domain for geometric probability.
 - JSON/JSONL and scoped diff checks passed; the slot moved to Lecture 12.
+
+## 2026-08-22 — Lecture 07 checkpoint
+
+- Luna/high completed all 10 assigned Lecture 07 body remediations.
+- Six records are fully resolved and four are correctly marked partial only
+  because their cross-book formulas/frontmatter sides remain coordinator-owned.
+- Coordinator checks confirmed valid parameter boundaries, the Le Cam error
+  qualification, regular-conditional/a.e. wording, positive-variance and
+  almost-sure correlation statements, notation separation, valid audit data,
+  balanced environments, and a clean scoped diff.
+- Reused the worker slot for Lecture 03.
