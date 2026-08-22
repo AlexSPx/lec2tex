@@ -1,0 +1,13 @@
+{
+  "agent": "lecture_14",
+  "source_file": "lectures/bodies/lecture_14.tex",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-075", "ADJ-077", "ADJ-078", "ADJ-083"],
+  "completed_master_ids": ["ADJ-075", "ADJ-077", "ADJ-078", "ADJ-083"],
+  "last_checkpoint": "ADJ-083",
+  "shared_work_pending": [
+    "ADJ-075: Lecture 13 and formulas.tex",
+    "ADJ-077: formulas.tex",
+    "ADJ-083: Lecture 07, Lecture 12, formulas.tex, and frontmatter.tex"
+  ]
+}

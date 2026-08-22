@@ -129,3 +129,13 @@
   and an explicit warning that Lecture 11's MGF sketch is not the general CLT
   proof.
 - Audit and scoped structural checks passed; the slot moved to Lecture 15.
+
+## 2026-08-22 — Lecture 14 checkpoint
+
+- Luna/high completed all four body-side assignments; shared findings remain
+  partial until the cross-book pass.
+- Coordinator validation confirmed full-rank and degrees-of-freedom gates,
+  positive-variance iid Normal errors, separate Z/t pivots and endpoints, and
+  regression notation scope. A nearby universal `n>=32` safety claim was also
+  narrowed to an accuracy-dependent heuristic.
+- Started the disjoint formulas/frontmatter remediation pass.
