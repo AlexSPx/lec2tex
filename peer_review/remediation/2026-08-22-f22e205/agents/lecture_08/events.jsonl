@@ -1,0 +1,10 @@
+{"event":"started","master_ids":["ADJ-011","ADJ-033","ADJ-034","ADJ-035","ADJ-036","ADJ-037","ADJ-038","ADJ-039"],"source_file":"lectures/bodies/lecture_08.tex"}
+{"event":"checkpoint","master_id":"ADJ-011","status":"partially_resolved","summary":"Restricted binary and discrete point conditioning to positive-probability atoms and stated the a.e./version convention; formulas.tex overlap remains for central pass."}
+{"event":"checkpoint","master_id":"ADJ-033","status":"partially_resolved","summary":"Added L2, integrability, LOTUS, variance, and finite-moment conditions in the Lecture 08 body; formulas.tex overlap remains for central pass."}
+{"event":"checkpoint","master_id":"ADJ-034","status":"partially_resolved","summary":"Added positive-atom and integrability conditions and clarified pushforward aggregation in the body; formulas.tex overlap remains for central pass."}
+{"event":"checkpoint","master_id":"ADJ-035","status":"resolved","summary":"Restored the discrete-Y scope and stated that continuous point conditioning needs a regular conditional version."}
+{"event":"checkpoint","master_id":"ADJ-036","status":"resolved","summary":"Qualified CDF differentiation to almost everywhere, retaining pointwise equality at continuity points and correcting the caption."}
+{"event":"checkpoint","master_id":"ADJ-037","status":"partially_resolved","summary":"Strengthened the body transformation theorem to a C1 one-to-one map with nonzero derivative, a.e. formula, and zero off-image; formulas.tex overlap remains for central pass."}
+{"event":"checkpoint","master_id":"ADJ-038","status":"resolved","summary":"Required positive exponential rates and supplied the piecewise nonnegative-support minimum law."}
+{"event":"checkpoint","master_id":"ADJ-039","status":"resolved","summary":"Marked the medical example and exercises as editor-created additions."}
+{"event":"validated","checks":["git diff --check scoped paths","JSONL audit parsing","TeX begin/end balance","TeX brace heuristic"],"status":"passed"}

@@ -1,0 +1,8 @@
+{
+  "agent": "lecture_08",
+  "source_file": "lectures/bodies/lecture_08.tex",
+  "assigned_master_ids": ["ADJ-011", "ADJ-033", "ADJ-034", "ADJ-035", "ADJ-036", "ADJ-037", "ADJ-038", "ADJ-039"],
+  "status": "completed",
+  "last_checkpoint": "ADJ-039",
+  "validation": "scoped git diff --check, JSONL parsing, TeX environment balance, and brace heuristic passed"
+}

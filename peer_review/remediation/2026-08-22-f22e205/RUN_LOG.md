@@ -47,3 +47,14 @@
   almost-sure correlation statements, notation separation, valid audit data,
   balanced environments, and a clean scoped diff.
 - Reused the worker slot for Lecture 03.
+
+## 2026-08-22 — Lecture 08 checkpoint
+
+- Luna/high completed all eight assigned body-side records; four remain
+  partial solely for their shared `formulas.tex` side.
+- Coordinator validation confirmed positive-atom and a.e./version semantics,
+  integrability/L2 scope, the pushforward law, a.e. CDF differentiation,
+  a valid one-to-one C1 change-of-variables theorem with zero density off the
+  image, exponential support, supplement labels, and clean structural/data
+  checks.
+- Reused the worker slot for Lecture 04.
