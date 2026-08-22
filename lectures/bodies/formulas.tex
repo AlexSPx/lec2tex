@@ -190,7 +190,7 @@ $g(s)$ & $\dfrac{p}{1-qs}$ & $\dfrac{ps}{1-qs}$ \\[6pt]
            \Var S_N = \E N \Var X_1 + \Var N (\E X_1)^2 . \]
         Оттук прореждането на $\Poi(\lambda)$ с $\Ber(p)$ пада на един ред:
         $e^{\lambda(q+ps-1)} = e^{\lambda p(s-1)}$. Вж.
-        \crosslecture{supp:random-sum}{допълнението в лекция 6}.
+        \crosslecture{supp:random-sum}{допълнението в лекция 8}.
   \item \emph{Приближение на Поасон:} при голямо $n$ и малко $p$, $\Bin(n,p) \approx \Poi(np)$.
   \item \emph{Прореждане на Поасоново:} ако $N \sim \Poi(\lambda)$ и всеки от $N$-те обекта
         независимо се маркира с вероятност $p$, то броят маркирани $M \sim \Poi(\lambda p)$,
@@ -314,6 +314,7 @@ $t(n)$ & $\dfrac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\,\Gamma(\frac{n}{2})}\left(1
   \item \emph{Условно очакване:} при интегруем $X$,
         $\E[\E[X \given Y]] = \E X$ (формула за пълното очакване); при $\E X^2<\infty$,
         $\Var X = \E[\Var(X \given Y)] + \Var(\E[X \given Y])$.
+        Вж. \crosslecture{thm:total-variance}{дефиницията и извеждането в лекция 8}.
   \item В дискретния случай $\E[X\given Y=y]$ се дефинира само за атоми
         с $\mathbb P(Y=y)>0$ чрез деление на тази маса; еднаквите стойности
         на условното средно се групират според pushforward-разпределението на $Y$.
