@@ -187,3 +187,21 @@
   the reference audit.
 - Source remediation is frozen for independent resolution and agent-performance
   audits. Generated PDFs remain build artifacts outside the source commits.
+
+## 2026-08-22 — independent-audit correction checkpoint
+
+- The first independent resolution audit correctly withheld certification at
+  source freeze `b73e168` despite complete 84/84 ledger coverage. It identified
+  three residual defects: Bayes conditioning on zero-mass partition members, a
+  largest/smallest order-statistic wording mismatch, and Boolean operators in a
+  numerical hypergeometric support bound.
+- Corrected the Bayes statement by requiring a positive-mass selected
+  hypothesis and summing only over positive-mass partition members; relabeled
+  the displayed order-statistic density as the k-th smallest; and replaced the
+  support notation by explicit `max`/`min` bounds.
+- Rebuilt the combined book and all 15 standalones. All 16 PDF targets compile,
+  the combined warning count remains 17, and reference validation again passes
+  with 173 labels, 61 references, and zero dangling targets.
+- Re-rendered and inspected the affected Bayes, hypergeometric, and formula
+  pages; all three corrections are legible and remain inside the page bounds.
+  A fresh independent audit is required against the new source freeze.

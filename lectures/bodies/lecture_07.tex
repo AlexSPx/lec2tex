@@ -201,7 +201,8 @@ $G_N(s) = e^{\lambda(s-1)}$, тоест $N \sim \Poi(\lambda)$.
     \[
     \mathbb{P}(X = k) = \frac{\binom{M}{k} \binom{N-M}{n-k}}{\binom{N}{n}}
     \]
-    където $k$ удовлетворява естествените ограничения $0 \lor (n - N + M) \le k \le M \land n$.
+    където $k$ удовлетворява естествените ограничения
+    $\max\{0,n-N+M\}\le k\le\min\{M,n\}$.
     \item[б)] Математическото очакване е:
     \[
     \E X = n \frac{M}{N}
