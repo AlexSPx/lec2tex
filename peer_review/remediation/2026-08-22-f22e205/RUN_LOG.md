@@ -109,3 +109,12 @@
   Chebyshev branch, general and iid LLN scope, iid application assumptions,
   supplement labels, and clean audit/structure checks.
 - Reused the worker slot for Lecture 14.
+
+## 2026-08-22 — Lecture 05 checkpoint
+
+- Luna/high completed four findings and the Lecture 05 side of shared ADJ-033.
+- Coordinator validation confirmed the finite-second-moment squared-loss
+  decomposition, finite/extended tail-sum conventions, mutually independent
+  random-walk signs with parity-exact zero probability, covariance-scoped
+  variance additivity, and clean audit/structure checks.
+- Reused the worker slot for Lecture 06 with accepted-retry-only provenance.

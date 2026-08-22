@@ -1,0 +1,6 @@
+{"event":"start","source_file":"lectures/bodies/lecture_05.tex","master_ids":["ADJ-018","ADJ-019","ADJ-020","ADJ-021","ADJ-033"]}
+{"event":"checkpoint","master_id":"ADJ-018","status":"resolved","new_lines":"121-127,140-158,379-391","note":"Required E[X^2]<infinity, added the squared-loss variance decomposition, and qualified the expectation/variance interpretation."}
+{"event":"checkpoint","master_id":"ADJ-019","status":"resolved","new_lines":"285-297","note":"Restricted the tail-sum statement to finite expectation or explicitly adopted the extended nonnegative expectation convention."}
+{"event":"checkpoint","master_id":"ADJ-020","status":"resolved","new_lines":"408-422","note":"Added mutual independence of the signs and stated the exact-zero probability separately for odd and even n."}
+{"event":"checkpoint","master_id":"ADJ-021","status":"resolved","new_lines":"493-498","note":"Replaced the independence-only wording with the zero-covariance condition and retained independence as a sufficient case."}
+{"event":"checkpoint","master_id":"ADJ-033","status":"partially_resolved","new_lines":"113,232-235,379-385,430-433","note":"Attached finite-existence conditions to Lecture 05 formula blocks; shared Lecture 06/07/08/formula instances remain pending."}

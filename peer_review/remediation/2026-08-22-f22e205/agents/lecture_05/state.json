@@ -1,0 +1,9 @@
+{
+  "agent": "lecture_05",
+  "source_file": "lectures/bodies/lecture_05.tex",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-018", "ADJ-019", "ADJ-020", "ADJ-021", "ADJ-033"],
+  "completed_master_ids": ["ADJ-018", "ADJ-019", "ADJ-020", "ADJ-021", "ADJ-033"],
+  "last_checkpoint": "ADJ-033",
+  "shared_work_pending": ["ADJ-033: lectures 06/07/08 and formulas.tex"]
+}
