@@ -88,3 +88,14 @@
   in-order discrete independence criterion.
 - Audit data, environment, and scoped diff checks passed; the slot moved to
   Lecture 10.
+
+## 2026-08-22 — Lecture 09 checkpoint
+
+- Luna/high completed 11 body-side assignments; shared formulas/table consumers
+  remain explicitly partial.
+- Coordinator review removed a false equivalence between Borel and
+  Lebesgue-measurable sets and narrowed the zero-boundary CDF statement to the
+  listed continuous nonnegative laws.
+- Support, a.e. density, transformation, Jacobian, moment, Gamma, supplement,
+  parameter-domain, JSON/JSONL, TeX structure, and scoped diff checks passed.
+- Reused the worker slot for Lecture 13.
