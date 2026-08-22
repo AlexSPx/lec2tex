@@ -148,3 +148,13 @@
   derivatives and moment hypotheses, random-sum moment gates, Binomial/Poisson
   tie and endpoint modes, Geo/NegBin endpoint conventions, and valid audit data.
 - The shared formula-sheet sides remain assigned to the active cross-book pass.
+
+## 2026-08-22 — Lecture 15 checkpoint
+
+- Luna/high completed three findings and the lecture side of shared ADJ-079.
+- Coordinator review caught and fixed the residual Pascal-domain boundary:
+  the recurrence now requires `n>=1`, so no negative upper binomial index is
+  invoked under the declared convention.
+- Counting domains, Catalan `n=0`, positive stars-and-bars, source context,
+  supplement/task provenance, audit data, and scoped checks passed.
+- All 15 lecture-body edit packages are now complete.

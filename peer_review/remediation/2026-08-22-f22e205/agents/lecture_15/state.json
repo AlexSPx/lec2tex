@@ -1,0 +1,11 @@
+{
+  "agent": "lecture_15",
+  "source_file": "lectures/bodies/lecture_15.tex",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-079", "ADJ-080", "ADJ-081", "ADJ-082"],
+  "completed_master_ids": ["ADJ-079", "ADJ-080", "ADJ-081", "ADJ-082"],
+  "last_checkpoint": "ADJ-082",
+  "shared_work_pending": [
+    "ADJ-079: formulas.tex binomial/counting instances remain for coordinator"
+  ]
+}
