@@ -1,0 +1,8 @@
+{
+  "agent": "lecture_03",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-011", "ADJ-012", "ADJ-013"],
+  "source_file": "lectures/bodies/lecture_03.tex",
+  "last_event": "all assigned local findings patched; cross-book work pending",
+  "tests": ["git diff --check", "path validation"]
+}

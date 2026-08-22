@@ -58,3 +58,13 @@
   image, exponential support, supplement labels, and clean structural/data
   checks.
 - Reused the worker slot for Lecture 04.
+
+## 2026-08-22 — Lecture 03 checkpoint
+
+- Luna/high completed all three Lecture 03 body assignments; ADJ-011 and
+  ADJ-013 remain partial only for their other lecture/formula consumers.
+- Coordinator review tightened the total-probability display to sum conditional
+  terms only over positive-mass hypotheses, eliminating even conventional use
+  of an undefined zero-mass conditional probability.
+- Partition, regular-conditional/a.e., integrability, JSON/JSONL, TeX structure,
+  and scoped diff checks passed; the slot moved to Lecture 09.
