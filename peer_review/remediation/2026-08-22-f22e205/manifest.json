@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-22-f22e205",
+  "review_run": "2026-08-22-b115257",
+  "baseline_commit": "f22e205",
+  "branch": "codex/math-peer-remediation",
+  "model_policy": {"model": "gpt-5.6-luna", "reasoning": "high"},
+  "book_sources_only": true,
+  "phases": {
+    "lecture_edits": "running",
+    "cross_book_edits": "pending",
+    "build_and_checks": "pending",
+    "resolution_audit": "pending"
+  },
+  "lectures": {
+    "01":"running", "02":"pending", "03":"pending", "04":"pending",
+    "05":"pending", "06":"pending", "07":"running", "08":"pending",
+    "09":"pending", "10":"pending", "11":"running", "12":"pending",
+    "13":"pending", "14":"pending", "15":"pending"
+  },
+  "cross_book": "pending"
+}
+
