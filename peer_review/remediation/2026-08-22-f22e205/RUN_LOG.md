@@ -78,3 +78,13 @@
 - ADJ-083 was corrected from resolved to partial because its shared notation
   consumers remain for the central pass. Audit parsing and scoped checks passed.
 - Reused the worker slot for Lecture 05.
+
+## 2026-08-22 — Lecture 04 checkpoint
+
+- Luna/high completed all five assigned records.
+- Coordinator validation confirmed a total measurable null-set modification
+  for the quotient, the correct countable-preimage measurability proof,
+  nonnegative support masses, all-real equality-in-law quantification, and an
+  in-order discrete independence criterion.
+- Audit data, environment, and scoped diff checks passed; the slot moved to
+  Lecture 10.

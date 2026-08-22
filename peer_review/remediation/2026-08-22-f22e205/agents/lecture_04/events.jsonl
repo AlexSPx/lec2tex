@@ -1,0 +1,6 @@
+{"event":"start","source_file":"lectures/bodies/lecture_04.tex","master_ids":["ADJ-014","ADJ-015","ADJ-016","ADJ-017","ADJ-032"]}
+{"event":"checkpoint","master_id":"ADJ-014","status":"resolved","new_lines":"38-50","note":"Separated the pointwise no-zero condition from the probability-zero caveat and defined a total null-set modification that is almost surely equal where the quotient is defined."}
+{"event":"checkpoint","master_id":"ADJ-015","status":"resolved","new_lines":"133-137","note":"Replaced the finite-linear-combination rationale with the direct preimage identity as a countable union of partition cells."}
+{"event":"checkpoint","master_id":"ADJ-016","status":"resolved","new_lines":"140-149","note":"Changed the general mass convention to p_j >= 0 and stated the optional positive-support convention."}
+{"event":"checkpoint","master_id":"ADJ-017","status":"resolved","new_lines":"153-160","note":"Quantified equality of point masses over every real x and clarified the respective probability measures on different spaces."}
+{"event":"checkpoint","master_id":"ADJ-032","status":"resolved","new_lines":"279-283","note":"Named and labeled Lecture 04's discrete independence criterion, establishing the earlier criterion used by the thinning proof after its Lecture 07 forward-reference repair."}

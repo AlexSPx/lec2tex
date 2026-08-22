@@ -13,9 +13,9 @@
     "resolution_audit": "pending"
   },
   "lectures": {
-    "01":"complete", "02":"complete", "03":"complete", "04":"running",
+    "01":"complete", "02":"complete", "03":"complete", "04":"complete",
     "05":"running", "06":"pending", "07":"complete", "08":"complete",
-    "09":"running", "10":"pending", "11":"complete", "12":"complete",
+    "09":"running", "10":"running", "11":"complete", "12":"complete",
     "13":"pending", "14":"pending", "15":"pending"
   },
   "cross_book": "pending"
