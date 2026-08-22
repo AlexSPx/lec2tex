@@ -9,8 +9,8 @@
   "phases": {
     "lecture_edits": "complete",
     "cross_book_edits": "complete",
-    "build_and_checks": "running",
-    "resolution_audit": "pending"
+    "build_and_checks": "complete",
+    "resolution_audit": "running"
   },
   "lectures": {
     "01":"complete", "02":"complete", "03":"complete", "04":"complete",

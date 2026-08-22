@@ -171,3 +171,19 @@
 - The 21/21 shared resolution records, JSON/JSONL, TeX balance, labels, and
   scoped diff checks passed. All source editing phases are complete; central
   build and verification started.
+
+## 2026-08-22 — final build and render checkpoint
+
+- Rebuilt the combined 189-page book and all 15 standalone lecture PDFs with
+  `scripts/build_lectures.py --all`; every target compiled successfully.
+- `scripts/check_refs.py` passed with 173 registered labels, 61 references,
+  and no dangling references; `git diff --check` also passed.
+- Rasterized and visually inspected 347 pages in total: all 189 combined-book
+  pages and all 158 standalone-lecture pages. A clipped notation-table cell on
+  combined page 8 was shortened without dropping its explanatory condition,
+  then rebuilt and re-inspected at 150 dpi; the corrected page is clean.
+- Moved two theorem-style labels into their rendered bodies so they register in
+  the AUX output. The mathematical content is unchanged; both targets now pass
+  the reference audit.
+- Source remediation is frozen for independent resolution and agent-performance
+  audits. Generated PDFs remain build artifacts outside the source commits.
