@@ -1,0 +1,11 @@
+{"event":"start","source_file":"lectures/bodies/lecture_11.tex","master_ids":["ADJ-046","ADJ-056","ADJ-057","ADJ-058","ADJ-059","ADJ-060","ADJ-061","ADJ-062","ADJ-063","ADJ-084"]}
+{"event":"checkpoint","master_id":"ADJ-046","status":"resolved","new_lines":"320-327","note":"Gamma beta explicitly identified as positive rate/intensity; MGF domain retained."}
+{"event":"checkpoint","master_id":"ADJ-056","status":"resolved","new_lines":"20-24;98-105;242-251;310-315","note":"IID/finite-mean and nondegenerate variance conditions made explicit at theorem and applications."}
+{"event":"checkpoint","master_id":"ADJ-057","status":"resolved","new_lines":"171-174;210-225","note":"MGF operations and convergence are restricted to an open neighborhood of zero."}
+{"event":"checkpoint","master_id":"ADJ-058","status":"resolved","new_lines":"199-207;216-225;239-244","note":"Finite-variance CLT retained; proof relabeled as MGF-neighborhood sketch and characteristic-function scope stated."}
+{"event":"checkpoint","master_id":"ADJ-059","status":"resolved","new_lines":"249-253","note":"Binomial application now requires fixed 0<p<1."}
+{"event":"checkpoint","master_id":"ADJ-060","status":"resolved","new_lines":"260-267","note":"Local approximation restricted to fixed p in (0,1) and central k_n=np+O(sqrt(n)) regime."}
+{"event":"checkpoint","master_id":"ADJ-061","status":"resolved","new_lines":"284-296","note":"False finite-sample normal inequality removed; asymptotic heuristic and Hoeffding guarantee supplied."}
+{"event":"checkpoint","master_id":"ADJ-062","status":"resolved","new_lines":"310-315","note":"Berry--Esseen now states positive variance and finite absolute third central moment."}
+{"event":"checkpoint","master_id":"ADJ-063","status":"resolved","new_lines":"296-306","note":"Sampling/nonresponse caveat and source-backed molecule-force application restored as supplements."}
+{"event":"checkpoint","master_id":"ADJ-084","status":"resolved","new_lines":"320-334","note":"Gamma shape/rate positivity, rate convention, MGF domain, and continuity at zero made explicit."}

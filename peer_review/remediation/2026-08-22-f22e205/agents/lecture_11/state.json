@@ -1,0 +1,8 @@
+{
+  "agent": "lecture_11",
+  "source_file": "lectures/bodies/lecture_11.tex",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-046", "ADJ-056", "ADJ-057", "ADJ-058", "ADJ-059", "ADJ-060", "ADJ-061", "ADJ-062", "ADJ-063", "ADJ-084"],
+  "completed_master_ids": ["ADJ-046", "ADJ-056", "ADJ-057", "ADJ-058", "ADJ-059", "ADJ-060", "ADJ-061", "ADJ-062", "ADJ-063", "ADJ-084"],
+  "last_checkpoint": "ADJ-084"
+}
