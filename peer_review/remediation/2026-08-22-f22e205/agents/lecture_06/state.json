@@ -1,0 +1,10 @@
+{
+  "agent": "lecture_06",
+  "source_file": "lectures/bodies/lecture_06.tex",
+  "status": "completed",
+  "assigned_master_ids": ["ADJ-022", "ADJ-023", "ADJ-024", "ADJ-025", "ADJ-033"],
+  "completed_master_ids": ["ADJ-022", "ADJ-023", "ADJ-024", "ADJ-025", "ADJ-033"],
+  "partial_due_to_shared_scope": ["ADJ-024", "ADJ-025", "ADJ-033"],
+  "validation": ["git diff --check", "scoped path validation", "JSONL parse validation"],
+  "global_build": false
+}

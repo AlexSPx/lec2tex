@@ -139,3 +139,12 @@
   regression notation scope. A nearby universal `n>=32` safety claim was also
   narrowed to an accuracy-dependent heuristic.
 - Started the disjoint formulas/frontmatter remediation pass.
+
+## 2026-08-22 — Lecture 06 checkpoint
+
+- Luna/high completed two local findings and the Lecture 06 sides of three
+  shared findings, using only the accepted fidelity retry.
+- Coordinator validation confirmed nonnegative-integer PGF scope, left-limit
+  derivatives and moment hypotheses, random-sum moment gates, Binomial/Poisson
+  tie and endpoint modes, Geo/NegBin endpoint conventions, and valid audit data.
+- The shared formula-sheet sides remain assigned to the active cross-book pass.

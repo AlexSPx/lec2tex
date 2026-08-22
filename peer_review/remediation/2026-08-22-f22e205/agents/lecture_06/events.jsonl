@@ -1,0 +1,7 @@
+{"seq":1,"event":"remediation_initialized","source_file":"lectures/bodies/lecture_06.tex","assigned_master_ids":["ADJ-022","ADJ-023","ADJ-024","ADJ-025","ADJ-033"],"fidelity_artifact":"lecture_06_fidelity_retry","invalidated_artifact_excluded":"lecture_06_fidelity"}
+{"seq":2,"event":"checkpoint","master_id":"ADJ-022","status":"resolved","change":"PGF mean stated as extended left-derivative identity; finite variance identity now requires E[X^2]<infinity."}
+{"seq":3,"event":"checkpoint","master_id":"ADJ-023","status":"resolved","change":"Random-sum mean and variance formulas now state finite first- and second-moment assumptions separately."}
+{"seq":4,"event":"checkpoint","master_id":"ADJ-024","status":"partially_resolved","change":"Lecture 06 mode supplement now lists Binomial/Poisson ties and Binomial/Poisson endpoint cases; formulas.tex remains pending outside scope."}
+{"seq":5,"event":"checkpoint","master_id":"ADJ-025","status":"partially_resolved","change":"Lecture 06 uses 0<p<1 for Geo/NegBin, treats p=1 as degenerate and p=0 as no finite waiting law, and fixes coupon-collector p_1=1; formulas.tex remains pending outside scope."}
+{"seq":6,"event":"checkpoint","master_id":"ADJ-033","status":"partially_resolved","change":"Lecture 06 expectation/variance statements now carry existence conditions; cross-book and formula-sheet occurrences remain pending outside this owned file."}
+{"seq":7,"event":"validation","checks":["scoped diff review","git diff --check","JSONL parsing","no global build"],"result":"passed"}
