@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Вероятности и статистика</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+        --sidebar-width: 19rem;
+        --toolbar-height: 3.5rem;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        display: grid;
+        grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+        height: 100dvh;
+        margin: 0;
+        overflow: hidden;
+        background: #242424;
+        color: #f3f3f3;
+        transition: grid-template-columns 180ms ease;
+      }
+
+      body.sidebar-closed { grid-template-columns: 0 minmax(0, 1fr); }
+
+      aside {
+        position: relative;
+        z-index: 3;
+        min-width: 0;
+        height: 100dvh;
+        overflow: auto;
+        background: #171717;
+        border-right: 1px solid #3b3b3b;
+        transition: transform 180ms ease;
+      }
+
+      body.sidebar-closed aside { transform: translateX(-100%); }
+
+      .sidebar-heading {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        margin: 0;
+        padding: 1rem;
+        background: #171717ee;
+        border-bottom: 1px solid #333;
+        font-size: 1rem;
+        backdrop-filter: blur(8px);
+      }
+
+      #outline,
+      #outline ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      #outline { padding: 0.5rem 0.5rem 1.5rem; }
+      #outline ul { padding-left: 0.85rem; }
+
+      .outline-row {
+        display: flex;
+        align-items: center;
+        min-width: 0;
+      }
+
+      .outline-toggle {
+        flex: 0 0 1.7rem;
+        width: 1.7rem;
+        height: 1.7rem;
+        padding: 0;
+        color: #aaa;
+        background: transparent;
+        border: 0;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        transition: transform 120ms ease;
+      }
+
+      .outline-toggle:hover,
+      .outline-toggle:focus-visible {
+        color: white;
+        background: #303030;
+        outline: none;
+      }
+
+      .outline-toggle[aria-expanded="true"] { transform: rotate(90deg); }
+
+      .outline-spacer {
+        flex: 0 0 1.7rem;
+        width: 1.7rem;
+      }
+
+      .outline-link {
+        display: block;
+        min-width: 0;
+        flex: 1;
+        padding: 0.45rem 0.55rem;
+        overflow: hidden;
+        color: #dedede;
+        background: transparent;
+        border: 0;
+        border-radius: 0.3rem;
+        font: inherit;
+        font-size: 0.875rem;
+        text-align: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+
+      .outline-link:hover,
+      .outline-link:focus-visible {
+        color: white;
+        background: #303030;
+        outline: none;
+      }
+
+      #scroller {
+        height: 100dvh;
+        overflow: auto;
+        scroll-behavior: smooth;
+        scrollbar-gutter: stable;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        height: var(--toolbar-height);
+        padding: 0 1rem;
+        background: #171717ee;
+        box-shadow: 0 1px 5px #0008;
+        backdrop-filter: blur(8px);
+      }
+
+      button.toolbar-button {
+        display: grid;
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0;
+        place-items: center;
+        color: inherit;
+        background: #303030;
+        border: 1px solid #505050;
+        border-radius: 0.35rem;
+        font-size: 1.15rem;
+        cursor: pointer;
+      }
+
+      header h1 {
+        min-width: 0;
+        margin: 0;
+        overflow: hidden;
+        font-size: 0.95rem;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      #page-status {
+        margin-left: auto;
+        color: #c8c8c8;
+        font-size: 0.875rem;
+        white-space: nowrap;
+      }
+
+      #pages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        min-height: calc(100dvh - var(--toolbar-height));
+        padding: 1rem;
+      }
+
+      .page-shell {
+        position: relative;
+        flex: 0 0 auto;
+        overflow: hidden;
+        background: white;
+        box-shadow: 0 3px 14px #000a;
+        scroll-margin-top: calc(var(--toolbar-height) + 1rem);
+      }
+
+      .page-shell canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
+      .page-number {
+        position: absolute;
+        right: 0.4rem;
+        bottom: 0.35rem;
+        padding: 0.15rem 0.35rem;
+        color: #eee;
+        background: #0009;
+        border-radius: 0.2rem;
+        font-size: 0.7rem;
+        pointer-events: none;
+      }
+
+      #error {
+        max-width: 42rem;
+        margin: 3rem auto;
+        padding: 1rem;
+        color: #ffb4ab;
+        background: #421f1f;
+        border-radius: 0.4rem;
+      }
+
+      #backdrop { display: none; }
+
+      @media (max-width: 760px) {
+        body,
+        body.sidebar-closed { grid-template-columns: minmax(0, 1fr); }
+
+        aside {
+          position: fixed;
+          inset: 0 auto 0 0;
+          width: min(var(--sidebar-width), 86vw);
+          box-shadow: 5px 0 20px #000a;
+        }
+
+        body.sidebar-closed aside { transform: translateX(-105%); }
+
+        #backdrop {
+          position: fixed;
+          inset: 0;
+          z-index: 2;
+          display: block;
+          background: #0008;
+        }
+
+        body.sidebar-closed #backdrop { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <aside id="sidebar" aria-label="Съдържание">
+      <h2 class="sidebar-heading">Съдържание</h2>
+      <nav id="outline"><p>Зареждане…</p></nav>
+    </aside>
+    <div id="backdrop" aria-hidden="true"></div>
+
+    <div id="scroller">
+      <header>
+        <button
+          id="toggle-sidebar"
+          class="toolbar-button"
+          type="button"
+          aria-controls="sidebar"
+          aria-expanded="false"
+          aria-label="Покажи съдържанието"
+        >☰</button>
+        <h1>Вероятности и статистика</h1>
+        <span id="page-status">Зареждане…</span>
+      </header>
+      <main id="pages"></main>
+      <p id="error" hidden></p>
+    </div>
+
+    <noscript>
+      <a href="../probability-statistics-bg.pdf">Отвори PDF файла</a>
+    </noscript>
+
+    <script type="module">
+      import * as pdfjsDist from "https://cdn.jsdelivr.net/npm/pdfjs-dist@6.2.108/+esm";
+
+      pdfjsDist.GlobalWorkerOptions.workerSrc =
+        "https://cdn.jsdelivr.net/npm/pdfjs-dist@6.2.108/build/pdf.worker.min.mjs";
+
+      const body = document.body;
+      const scroller = document.querySelector("#scroller");
+      const pages = document.querySelector("#pages");
+      const outlineElement = document.querySelector("#outline");
+      const pageStatus = document.querySelector("#page-status");
+      const errorElement = document.querySelector("#error");
+      const toggleSidebar = document.querySelector("#toggle-sidebar");
+      const requestedFile = new URL(location.href).searchParams.get("file");
+      const pdfUrl = new URL(
+        requestedFile || "../probability-statistics-bg.pdf",
+        location.href,
+      );
+
+      let pdf;
+      let baseViewport;
+      let fitScale = 1;
+      let renderObserver;
+      let currentPageObserver;
+      let resizeTimer;
+      const visibility = new Map();
+
+      function setSidebar(open) {
+        body.classList.toggle("sidebar-closed", !open);
+        toggleSidebar.setAttribute("aria-expanded", String(open));
+        toggleSidebar.setAttribute(
+          "aria-label",
+          open ? "Скрий съдържанието" : "Покажи съдържанието",
+        );
+        if (pdf) setTimeout(sizePages, 200);
+      }
+
+      toggleSidebar.addEventListener("click", () => {
+        setSidebar(body.classList.contains("sidebar-closed"));
+      });
+      document.querySelector("#backdrop").addEventListener("click", () => setSidebar(false));
+      if (matchMedia("(max-width: 760px)").matches) setSidebar(false);
+      else setSidebar(true);
+
+      function updatePageStatus() {
+        let currentPage = 1;
+        let largestRatio = 0;
+        for (const [pageNumber, ratio] of visibility) {
+          if (ratio > largestRatio) {
+            currentPage = pageNumber;
+            largestRatio = ratio;
+          }
+        }
+        pageStatus.textContent = `${currentPage} / ${pdf.numPages}`;
+      }
+
+      async function renderPage(shell) {
+        if (shell.dataset.rendering === "true" || shell.dataset.rendered === "true") return;
+        shell.dataset.rendering = "true";
+        const pageNumber = Number(shell.dataset.pageNumber);
+
+        try {
+          const page = await pdf.getPage(pageNumber);
+          const viewport = page.getViewport({ scale: fitScale });
+          const outputScale = Math.min(window.devicePixelRatio || 1, 2);
+          const canvas = document.createElement("canvas");
+          const context = canvas.getContext("2d", { alpha: false });
+
+          canvas.width = Math.floor(viewport.width * outputScale);
+          canvas.height = Math.floor(viewport.height * outputScale);
+          canvas.setAttribute("aria-label", `Страница ${pageNumber}`);
+
+          await page.render({
+            canvasContext: context,
+            transform: outputScale === 1
+              ? null
+              : [outputScale, 0, 0, outputScale, 0, 0],
+            viewport,
+          }).promise;
+
+          if (shell.dataset.nearby === "true") {
+            shell.prepend(canvas);
+            shell.dataset.rendered = "true";
+          }
+        } finally {
+          shell.dataset.rendering = "false";
+        }
+      }
+
+      function releasePage(shell) {
+        shell.querySelector("canvas")?.remove();
+        shell.dataset.rendered = "false";
+      }
+
+      function sizePages() {
+        const toolbarHeight = document.querySelector("header").offsetHeight;
+        const availableHeight = Math.max(240, scroller.clientHeight - toolbarHeight - 32);
+        const availableWidth = Math.max(180, scroller.clientWidth - 32);
+        fitScale = Math.min(
+          availableHeight / baseViewport.height,
+          availableWidth / baseViewport.width,
+        );
+        const width = Math.floor(baseViewport.width * fitScale);
+        const height = Math.floor(baseViewport.height * fitScale);
+
+        for (const shell of pages.children) {
+          shell.style.width = `${width}px`;
+          shell.style.height = `${height}px`;
+          releasePage(shell);
+          if (shell.dataset.nearby === "true") renderPage(shell);
+        }
+      }
+
+      function createPageShells() {
+        const fragment = document.createDocumentFragment();
+        for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
+          const shell = document.createElement("section");
+          const label = document.createElement("span");
+          shell.className = "page-shell";
+          shell.dataset.pageNumber = String(pageNumber);
+          shell.dataset.rendered = "false";
+          shell.dataset.rendering = "false";
+          shell.dataset.nearby = "false";
+          shell.setAttribute("aria-label", `Страница ${pageNumber}`);
+          label.className = "page-number";
+          label.textContent = String(pageNumber);
+          shell.append(label);
+          fragment.append(shell);
+        }
+        pages.append(fragment);
+      }
+
+      function observePages() {
+        renderObserver = new IntersectionObserver((entries) => {
+          for (const entry of entries) {
+            const shell = entry.target;
+            shell.dataset.nearby = String(entry.isIntersecting);
+            if (entry.isIntersecting) renderPage(shell);
+            else releasePage(shell);
+          }
+        }, {
+          root: scroller,
+          rootMargin: "100% 0px",
+        });
+
+        currentPageObserver = new IntersectionObserver((entries) => {
+          for (const entry of entries) {
+            visibility.set(Number(entry.target.dataset.pageNumber), entry.intersectionRatio);
+          }
+          updatePageStatus();
+        }, {
+          root: scroller,
+          threshold: [0, 0.25, 0.5, 0.75, 1],
+        });
+
+        for (const shell of pages.children) {
+          renderObserver.observe(shell);
+          currentPageObserver.observe(shell);
+        }
+      }
+
+      async function destinationPage(destination) {
+        if (!destination) return null;
+        const explicitDestination = typeof destination === "string"
+          ? await pdf.getDestination(destination)
+          : destination;
+        if (!Array.isArray(explicitDestination)) return null;
+
+        const pageReference = explicitDestination[0];
+        return Number.isInteger(pageReference)
+          ? pageReference + 1
+          : (await pdf.getPageIndex(pageReference)) + 1;
+      }
+
+      async function outlineItemPage(item) {
+        const ownPage = await destinationPage(item.dest);
+        if (ownPage) return ownPage;
+
+        for (const child of item.items || []) {
+          const childPage = await outlineItemPage(child);
+          if (childPage) return childPage;
+        }
+        return null;
+      }
+
+      function goToPage(pageNumber) {
+        const target = pages.children[pageNumber - 1];
+        if (!target) return;
+        const toolbarHeight = document.querySelector("header").offsetHeight;
+        scroller.scrollTo({
+          top: target.offsetTop - toolbarHeight - 16,
+          behavior: "smooth",
+        });
+        pageStatus.textContent = `${pageNumber} / ${pdf.numPages}`;
+        if (matchMedia("(max-width: 760px)").matches) setSidebar(false);
+      }
+
+      function buildOutline(items) {
+        const list = document.createElement("ul");
+        for (const item of items) {
+          const listItem = document.createElement("li");
+          const row = document.createElement("div");
+          const link = document.createElement("button");
+          const hasChildren = Boolean(item.items?.length);
+          row.className = "outline-row";
+
+          if (hasChildren) {
+            const toggle = document.createElement("button");
+            const children = buildOutline(item.items);
+            toggle.className = "outline-toggle";
+            toggle.type = "button";
+            toggle.textContent = "›";
+            toggle.setAttribute("aria-expanded", "false");
+            toggle.setAttribute("aria-label", `Разгъни ${item.title || "раздела"}`);
+            children.hidden = true;
+            toggle.addEventListener("click", () => {
+              const expanded = toggle.getAttribute("aria-expanded") === "true";
+              toggle.setAttribute("aria-expanded", String(!expanded));
+              toggle.setAttribute(
+                "aria-label",
+                `${expanded ? "Разгъни" : "Свий"} ${item.title || "раздела"}`,
+              );
+              children.hidden = expanded;
+            });
+            row.append(toggle);
+            listItem.append(row, children);
+          } else {
+            const spacer = document.createElement("span");
+            spacer.className = "outline-spacer";
+            spacer.setAttribute("aria-hidden", "true");
+            row.append(spacer);
+            listItem.append(row);
+          }
+
+          link.className = "outline-link";
+          link.type = "button";
+          link.textContent = item.title || "Без заглавие";
+          link.title = item.title || "Без заглавие";
+          link.addEventListener("click", async () => {
+            const pageNumber = await outlineItemPage(item);
+            if (pageNumber) goToPage(pageNumber);
+          });
+          row.append(link);
+          list.append(listItem);
+        }
+        return list;
+      }
+
+      async function loadOutline() {
+        const outline = await pdf.getOutline();
+        outlineElement.replaceChildren();
+        if (outline?.length) {
+          outlineElement.append(buildOutline(outline));
+        } else {
+          const message = document.createElement("p");
+          message.textContent = "Документът няма вградено съдържание.";
+          outlineElement.append(message);
+        }
+      }
+
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(sizePages, 150);
+      });
+
+      try {
+        pdf = await pdfjsDist.getDocument({ url: pdfUrl.href }).promise;
+        const firstPage = await pdf.getPage(1);
+        baseViewport = firstPage.getViewport({ scale: 1 });
+        createPageShells();
+        sizePages();
+        observePages();
+        await loadOutline();
+      } catch (cause) {
+        pages.hidden = true;
+        errorElement.hidden = false;
+        errorElement.textContent = `PDF файлът не може да бъде отворен: ${cause.message}`;
+        pageStatus.textContent = "Грешка";
+      }
+    </script>
+  </body>
+</html>
