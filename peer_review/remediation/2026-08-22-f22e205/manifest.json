@@ -13,8 +13,8 @@
     "resolution_audit": "pending"
   },
   "lectures": {
-    "01":"running", "02":"pending", "03":"pending", "04":"pending",
-    "05":"pending", "06":"pending", "07":"running", "08":"pending",
+    "01":"complete", "02":"running", "03":"pending", "04":"pending",
+    "05":"pending", "06":"pending", "07":"running", "08":"running",
     "09":"pending", "10":"pending", "11":"complete", "12":"pending",
     "13":"pending", "14":"pending", "15":"pending"
   },

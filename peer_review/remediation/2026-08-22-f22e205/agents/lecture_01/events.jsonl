@@ -1,0 +1,10 @@
+{"event":"started","master_ids":["ADJ-001","ADJ-002","ADJ-003","ADJ-004","ADJ-005","ADJ-006","ADJ-007","ADJ-008"],"source_file":"lectures/bodies/lecture_01.tex"}
+{"event":"checkpoint","master_id":"ADJ-001","status":"resolved","summary":"Distinguished outcome 5 from singleton event {5}."}
+{"event":"checkpoint","master_id":"ADJ-002","status":"resolved","summary":"Replaced one-way set-operation characterizations with iff statements."}
+{"event":"checkpoint","master_id":"ADJ-003","status":"resolved","summary":"Qualified nonmeasurability by Lebesgue-length/invariance requirements and noted special full-power-set measures."}
+{"event":"checkpoint","master_id":"ADJ-004","status":"resolved","summary":"Used Cartesian product notation and bound omega in each adjacent-match event."}
+{"event":"checkpoint","master_id":"ADJ-005","status":"resolved","summary":"Declared independent identically distributed uniform lottery draws before probability conclusions."}
+{"event":"checkpoint","master_id":"ADJ-006","status":"resolved","summary":"Corrected the historical game to 6/42, winner count to 18, N to binom(42,6), and the derived probability."}
+{"event":"checkpoint","master_id":"ADJ-007","status":"resolved","summary":"Added the almost-sure/probability-one qualifier for Brownian path properties."}
+{"event":"checkpoint","master_id":"ADJ-008","status":"resolved","summary":"Restored illustrative COVID framing and removed unsupported causal effectiveness claim."}
+{"event":"validated","checks":["git diff --check scoped paths","JSON audit parsing","TeX begin/end balance","TeX brace heuristic","6/42 probability numerical check"],"status":"passed"}

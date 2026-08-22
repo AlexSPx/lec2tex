@@ -18,3 +18,13 @@
   `git diff --check`.
 - The P0 CLT proof-scope defect is resolved without weakening the stated
   finite-variance theorem.
+- Reused the freed worker slot for Lecture 02.
+
+## 2026-08-22 — Lecture 01 checkpoint
+
+- Luna/high completed ADJ-001--008 with 8/8 unique resolved records.
+- Coordinator checks confirmed accepted historical data (6/42, 18 winners),
+  a stated i.i.d.-uniform model, the exact adjacent-repeat probability,
+  almost-sure and measurability qualifications, valid JSON/JSONL, balanced
+  TeX environments, and a clean scoped diff.
+- Reused the freed worker slot for Lecture 08.
