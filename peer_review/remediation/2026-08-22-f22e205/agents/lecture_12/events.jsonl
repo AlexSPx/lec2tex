@@ -1,0 +1,12 @@
+{"event":"scope_opened","source_file":"lectures/bodies/lecture_12.tex","accepted_retry_sources":["SRC-COLL-001","SRC-COLL-002","SRC-COLL-003"],"invalidated_sources_ignored":["lecture_12_fidelity/new_findings.jsonl"]}
+{"event":"checkpoint","master_id":"ADJ-064","status":"resolved","change":"Separated random-design language from the iid model assumption and documented the finite-population dependence caveat."}
+{"event":"checkpoint","master_id":"ADJ-065","status":"resolved","change":"Defined likelihood for fixed data using a pmf/density, parameter space, attainment, positive-likelihood log domain, and interior score candidates."}
+{"event":"checkpoint","master_id":"ADJ-066","status":"resolved","change":"Restored lower and upper Uniform support indicators and disclosed the closed-right-end corrective convention."}
+{"event":"checkpoint","master_id":"ADJ-067","status":"resolved","change":"Restricted the normal model to sigma^2>0 and recorded the positive-residual condition and boundary nonexistence."}
+{"event":"checkpoint","master_id":"ADJ-068","status":"resolved","change":"Added iid/finite-moment hypotheses and solution existence, selection, injectivity, and inverse-continuity conditions for MoM."}
+{"event":"checkpoint","master_id":"ADJ-069","status":"resolved","change":"Restricted Cramer--Rao to scalar regular models with stated differentiation/support conditions and warned about Uniform nonregularity."}
+{"event":"checkpoint","master_id":"ADJ-070","status":"resolved","change":"Split Uniform consistency epsilon cases, stated X^*<=theta, required n>=2 for S^2, and repaired both editor exercises."}
+{"event":"checkpoint","master_id":"ADJ-071","status":"resolved","change":"Marked formal moment-consistency and Cramer--Rao material as authored supplements with hypotheses and warnings; marked exercises as editor additions."}
+{"event":"checkpoint","master_id":"ADJ-083","status":"resolved","change":"Added a Lecture 12 local convention distinguishing sample means/moments from standardized-variable notation elsewhere."}
+{"event":"validation","checks":["git diff --check","targeted source inspection","JSONL structure inspection"],"global_build":false}
+{"event":"coordinator_status_correction","master_id":"ADJ-083","from":"resolved","to":"partially_resolved","reason":"Lecture 12 body is complete, but the certified master finding also covers coordinator-owned formulas/frontmatter and other lecture consumers."}

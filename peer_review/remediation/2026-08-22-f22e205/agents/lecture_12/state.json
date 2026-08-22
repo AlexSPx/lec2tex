@@ -1,0 +1,18 @@
+{
+  "agent": "lecture_12",
+  "source_file": "lectures/bodies/lecture_12.tex",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-064", "ADJ-065", "ADJ-066", "ADJ-067", "ADJ-068", "ADJ-069", "ADJ-070", "ADJ-071", "ADJ-083"],
+  "accepted_collision_sources": ["SRC-COLL-001", "SRC-COLL-002", "SRC-COLL-003"],
+  "invalidated_sources_ignored": ["lecture_12_fidelity/new_findings.jsonl"],
+  "files_changed": [
+    "lectures/bodies/lecture_12.tex",
+    "peer_review/remediation/2026-08-22-f22e205/agents/lecture_12/prompt.md",
+    "peer_review/remediation/2026-08-22-f22e205/agents/lecture_12/state.json",
+    "peer_review/remediation/2026-08-22-f22e205/agents/lecture_12/events.jsonl",
+    "peer_review/remediation/2026-08-22-f22e205/agents/lecture_12/resolution.jsonl",
+    "peer_review/remediation/2026-08-22-f22e205/agents/lecture_12/handoff.md"
+  ],
+  "sampling_assumptions": "The statistical model explicitly assumes an iid sample; random or representative selection alone does not imply independence.",
+  "validation": ["git diff --check", "targeted source inspection", "no global build run"]
+}

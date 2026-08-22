@@ -68,3 +68,13 @@
   of an undefined zero-mass conditional probability.
 - Partition, regular-conditional/a.e., integrability, JSON/JSONL, TeX structure,
   and scoped diff checks passed; the slot moved to Lecture 09.
+
+## 2026-08-22 — Lecture 12 checkpoint
+
+- Luna/high completed nine body assignments using only the accepted retry
+  provenance; the invalidated colliding fidelity package was explicitly ignored.
+- Coordinator review confirmed likelihood, MLE boundary, moment-method,
+  Cramer--Rao, Uniform consistency, sample-variance, and supplemental-label fixes.
+- ADJ-083 was corrected from resolved to partial because its shared notation
+  consumers remain for the central pass. Audit parsing and scoped checks passed.
+- Reused the worker slot for Lecture 05.
