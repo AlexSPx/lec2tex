@@ -1,0 +1,10 @@
+{
+  "agent": "lecture_13",
+  "source_file": "lectures/bodies/lecture_13.tex",
+  "assigned_master_ids": ["ADJ-058", "ADJ-072", "ADJ-073", "ADJ-074", "ADJ-075", "ADJ-076", "ADJ-084"],
+  "status": "completed",
+  "invalidated_packages_used": false,
+  "checkpointed_ids": ["ADJ-058", "ADJ-072", "ADJ-073", "ADJ-074", "ADJ-075", "ADJ-076", "ADJ-084"],
+  "validation": ["git diff --check", "JSONL/JSON audit files inspected", "no global build run"],
+  "shared_work_pending": ["Lecture 09/11/14", "lectures/bodies/formulas.tex"]
+}

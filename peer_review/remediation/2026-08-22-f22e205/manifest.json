@@ -16,7 +16,7 @@
     "01":"complete", "02":"complete", "03":"complete", "04":"complete",
     "05":"complete", "06":"running", "07":"complete", "08":"complete",
     "09":"complete", "10":"complete", "11":"complete", "12":"complete",
-    "13":"running", "14":"running", "15":"pending"
+    "13":"complete", "14":"running", "15":"running"
   },
   "cross_book": "pending"
 }

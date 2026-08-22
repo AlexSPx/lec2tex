@@ -118,3 +118,14 @@
   random-walk signs with parity-exact zero probability, covariance-scoped
   variance additivity, and clean audit/structure checks.
 - Reused the worker slot for Lecture 06 with accepted-retry-only provenance.
+
+## 2026-08-22 — Lecture 13 checkpoint
+
+- Luna/high completed all seven body-side assignments; shared consumers remain
+  explicitly partial.
+- Coordinator checks confirmed uniform-in-parameter coverage, invertible pivot
+  requirements, generalized quantiles, separate known/unknown-mean chi-square
+  intervals, exact normal-model t scope, distribution-sensitive asymptotics,
+  and an explicit warning that Lecture 11's MGF sketch is not the general CLT
+  proof.
+- Audit and scoped structural checks passed; the slot moved to Lecture 15.

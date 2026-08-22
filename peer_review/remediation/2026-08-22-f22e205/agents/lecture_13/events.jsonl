@@ -1,0 +1,7 @@
+{"seq":1,"master_id":"ADJ-058","event":"checkpoint","status":"completed","detail":"Qualified Lecture 13 CLT as iid, positive finite-variance, asymptotic; explicitly separated the Lecture 11 MGF sketch from a full theorem proof; shared Lecture 11/formula work pending."}
+{"seq":2,"master_id":"ADJ-072","event":"checkpoint","status":"completed","detail":"Defined coverage with P_theta and an explicit for-every-theta-in-Theta quantifier, including endpoint ordering."}
+{"seq":3,"master_id":"ADJ-073","event":"checkpoint","status":"completed","detail":"Required strict pivot monotonicity, attainable range, solvability, and a generalized-inverse fallback before inversion."}
+{"seq":4,"master_id":"ADJ-074","event":"checkpoint","status":"completed","detail":"Replaced equality-only quantile definition with inf{x:F(x)>=gamma} and qualified equality for continuous laws."}
+{"seq":5,"master_id":"ADJ-075","event":"checkpoint","status":"completed","detail":"Added known-mu and unknown-mu chi-square endpoints, separated their degrees of freedom, and stated iid normal, n, and sigma assumptions for variance and t pivots."}
+{"seq":6,"master_id":"ADJ-076","event":"checkpoint","status":"completed","detail":"Replaced universal n>=30 language with an assumption-sensitive asymptotic heuristic and stated the studentized asymptotic result."}
+{"seq":7,"master_id":"ADJ-084","event":"checkpoint","status":"completed","detail":"Stated positive normal variance, positive chi-square/t degrees of freedom, and the domains relevant to any MGF argument; shared table work pending."}
