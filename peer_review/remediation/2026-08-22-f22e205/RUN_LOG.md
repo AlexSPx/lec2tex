@@ -28,3 +28,11 @@
   almost-sure and measurability qualifications, valid JSON/JSONL, balanced
   TeX environments, and a clean scoped diff.
 - Reused the freed worker slot for Lecture 08.
+
+## 2026-08-22 — Lecture 02 checkpoint
+
+- Luna/high completed ADJ-009 and ADJ-010 with 2/2 unique resolved records.
+- Coordinator validation confirmed the probability construction on
+  `2^Omega`, its countable-additivity argument, and the measurable finite
+  positive-volume domain for geometric probability.
+- JSON/JSONL and scoped diff checks passed; the slot moved to Lecture 12.

@@ -1,0 +1,3 @@
+{"event":"start","source_file":"lectures/bodies/lecture_02.tex","master_ids":["ADJ-009","ADJ-010"]}
+{"event":"checkpoint","master_id":"ADJ-009","status":"resolved","new_lines":"134-143","note":"Added the full power-set event sigma-algebra, general-event weight sum, and nonnegative-series countable-additivity justification as an editorial supplement."}
+{"event":"checkpoint","master_id":"ADJ-010","status":"resolved","new_lines":"166-175;203-205;241-244","note":"Required measurable Omega with positive finite volume, preserved the source measurability caveat, restricted events to measurable subsets, and scoped the geometric conditional example."}

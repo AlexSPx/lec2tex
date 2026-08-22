@@ -1,0 +1,8 @@
+{
+  "agent": "lecture_02",
+  "source_file": "lectures/bodies/lecture_02.tex",
+  "status": "complete",
+  "assigned_master_ids": ["ADJ-009", "ADJ-010"],
+  "completed_master_ids": ["ADJ-009", "ADJ-010"],
+  "last_checkpoint": "ADJ-010"
+}
