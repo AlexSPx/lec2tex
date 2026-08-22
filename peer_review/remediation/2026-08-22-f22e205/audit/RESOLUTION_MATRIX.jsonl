@@ -1,0 +1,84 @@
+{"master_id":"ADJ-001","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:56"}
+{"master_id":"ADJ-002","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:106,113,120"}
+{"master_id":"ADJ-003","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:241"}
+{"master_id":"ADJ-004","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:264,280"}
+{"master_id":"ADJ-005","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:260"}
+{"master_id":"ADJ-006","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:13,59-66,258,273,286-291"}
+{"master_id":"ADJ-007","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:10"}
+{"master_id":"ADJ-008","verdict":"resolved","source_evidence":"lectures/bodies/lecture_01.tex:16"}
+{"master_id":"ADJ-009","verdict":"resolved","source_evidence":"lectures/bodies/lecture_02.tex:134-143"}
+{"master_id":"ADJ-010","verdict":"resolved","source_evidence":"lectures/bodies/lecture_02.tex:166-175;203-205;241-244"}
+{"master_id":"ADJ-011","verdict":"resolved","source_evidence":"lectures/bodies/lecture_03.tex:47,87,103,297-302; lectures/bodies/lecture_08.tex:4,12,22,34-121; lectures/bodies/formulas.tex:57,61-72,300-309,330-333"}
+{"master_id":"ADJ-012","verdict":"resolved","source_evidence":"lectures/bodies/lecture_03.tex:305-309"}
+{"master_id":"ADJ-013","verdict":"resolved","source_evidence":"lectures/bodies/lecture_03.tex:441-460; lectures/bodies/lecture_07.tex:592-610; lectures/bodies/formulas.tex:300-313"}
+{"master_id":"ADJ-014","verdict":"resolved","source_evidence":"lectures/bodies/lecture_04.tex:38-50"}
+{"master_id":"ADJ-015","verdict":"resolved","source_evidence":"lectures/bodies/lecture_04.tex:133-137"}
+{"master_id":"ADJ-016","verdict":"resolved","source_evidence":"lectures/bodies/lecture_04.tex:140-149"}
+{"master_id":"ADJ-017","verdict":"resolved","source_evidence":"lectures/bodies/lecture_04.tex:153-160"}
+{"master_id":"ADJ-018","verdict":"resolved","source_evidence":"lectures/bodies/lecture_05.tex:121-127,140-158,379-391"}
+{"master_id":"ADJ-019","verdict":"resolved","source_evidence":"lectures/bodies/lecture_05.tex:285-297"}
+{"master_id":"ADJ-020","verdict":"resolved","source_evidence":"lectures/bodies/lecture_05.tex:408-422"}
+{"master_id":"ADJ-021","verdict":"resolved","source_evidence":"lectures/bodies/lecture_05.tex:493-498"}
+{"master_id":"ADJ-022","verdict":"resolved","source_evidence":"lectures/bodies/lecture_06.tex:17-18,32-36,49-64"}
+{"master_id":"ADJ-023","verdict":"resolved","source_evidence":"lectures/bodies/lecture_06.tex:156-169"}
+{"master_id":"ADJ-024","verdict":"resolved","source_evidence":"lectures/bodies/lecture_06.tex:275-295; lectures/bodies/formulas.tex:172-182"}
+{"master_id":"ADJ-025","verdict":"resolved","source_evidence":"lectures/bodies/lecture_06.tex:227,300-315,350-357,381-388,422-436; lectures/bodies/formulas.tex:93-97,111-116,122-126,170-171"}
+{"master_id":"ADJ-026","verdict":"resolved","source_evidence":"lectures/bodies/lecture_07.tex:50-60"}
+{"master_id":"ADJ-027","verdict":"resolved","source_evidence":"lectures/bodies/lecture_07.tex:189-215,656-659; lectures/bodies/formulas.tex:104-114"}
+{"master_id":"ADJ-028","verdict":"resolved","source_evidence":"lectures/bodies/lecture_07.tex:425-442,488-523; lectures/bodies/formulas.tex:287-289; lectures/bodies/frontmatter.tex:83-92"}
+{"master_id":"ADJ-029","verdict":"resolved","source_evidence":"lectures/bodies/lecture_07.tex:573-620; lectures/bodies/formulas.tex:287-313"}
+{"master_id":"ADJ-030","verdict":"resolved","source_evidence":"lectures/bodies/lecture_07.tex:27-28"}
+{"master_id":"ADJ-031","verdict":"resolved","source_evidence":"lectures/bodies/lecture_07.tex:123-128,411-417"}
+{"master_id":"ADJ-032","verdict":"resolved","source_evidence":"lectures/bodies/lecture_04.tex:279-283; lectures/bodies/lecture_07.tex:119-121"}
+{"master_id":"ADJ-033","verdict":"resolved","source_evidence":"lectures/bodies/lecture_05.tex:113,232-235,379-385,430-433; lectures/bodies/lecture_06.tex:17-18,156-169,227,300-315,364-388,422-448,466-488; lectures/bodies/lecture_07.tex:364-408,573-643; lectures/bodies/lecture_08.tex:4,12,398-430; lectures/bodies/formulas.tex:177-182,274-309,442-444"}
+{"master_id":"ADJ-034","verdict":"resolved","source_evidence":"lectures/bodies/lecture_08.tex:22-69,84-121; lectures/bodies/formulas.tex:307-309,330-333"}
+{"master_id":"ADJ-035","verdict":"resolved","source_evidence":"lectures/bodies/lecture_08.tex:55-69,84-121"}
+{"master_id":"ADJ-036","verdict":"resolved","source_evidence":"lectures/bodies/lecture_08.tex:262-272,300"}
+{"master_id":"ADJ-037","verdict":"resolved","source_evidence":"lectures/bodies/lecture_08.tex:306-350; lectures/bodies/formulas.tex:319-324"}
+{"master_id":"ADJ-038","verdict":"resolved","source_evidence":"lectures/bodies/lecture_08.tex:381-392"}
+{"master_id":"ADJ-039","verdict":"resolved","source_evidence":"lectures/bodies/lecture_08.tex:234,457-466"}
+{"master_id":"ADJ-040","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:10"}
+{"master_id":"ADJ-041","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:145-175; lectures/bodies/formulas.tex:253-257"}
+{"master_id":"ADJ-042","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:196-199"}
+{"master_id":"ADJ-043","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:298-305,758-762"}
+{"master_id":"ADJ-044","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:338-368; lectures/bodies/formulas.tex:334-348"}
+{"master_id":"ADJ-045","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:496-526"}
+{"master_id":"ADJ-046","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:603-637,692-724; lectures/bodies/lecture_11.tex:320-334; lectures/bodies/formulas.tex:235,243-248,264-265"}
+{"master_id":"ADJ-047","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:634-651"}
+{"master_id":"ADJ-048","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:182,311"}
+{"master_id":"ADJ-049","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:432,496-526"}
+{"master_id":"ADJ-050","verdict":"resolved","source_evidence":"lectures/bodies/lecture_10.tex:102-128"}
+{"master_id":"ADJ-051","verdict":"resolved","source_evidence":"lectures/bodies/lecture_10.tex:298-307"}
+{"master_id":"ADJ-052","verdict":"resolved","source_evidence":"lectures/bodies/lecture_10.tex:311-318"}
+{"master_id":"ADJ-053","verdict":"resolved","source_evidence":"lectures/bodies/lecture_10.tex:406-444"}
+{"master_id":"ADJ-054","verdict":"resolved","source_evidence":"lectures/bodies/lecture_10.tex:99-102,130-139,150-215,250-254,322-331,450-451"}
+{"master_id":"ADJ-055","verdict":"resolved","source_evidence":"lectures/bodies/lecture_10.tex:337-351"}
+{"master_id":"ADJ-056","verdict":"resolved","source_evidence":"lectures/bodies/lecture_10.tex:348-394; lectures/bodies/lecture_11.tex:20-24,98-105,242-251,310-315; lectures/bodies/formulas.tex:422-430"}
+{"master_id":"ADJ-057","verdict":"resolved","source_evidence":"lectures/bodies/lecture_11.tex:171-174,210-225; lectures/bodies/formulas.tex:395-411"}
+{"master_id":"ADJ-058","verdict":"resolved","source_evidence":"lectures/bodies/lecture_11.tex:20-24,199-207,210-225,239-244; lectures/bodies/lecture_13.tex:326-350; lectures/bodies/formulas.tex:426-430"}
+{"master_id":"ADJ-059","verdict":"resolved","source_evidence":"lectures/bodies/lecture_11.tex:249-251"}
+{"master_id":"ADJ-060","verdict":"resolved","source_evidence":"lectures/bodies/lecture_11.tex:260-267"}
+{"master_id":"ADJ-061","verdict":"resolved","source_evidence":"lectures/bodies/lecture_11.tex:284-296"}
+{"master_id":"ADJ-062","verdict":"resolved","source_evidence":"lectures/bodies/lecture_11.tex:310-315"}
+{"master_id":"ADJ-063","verdict":"resolved","source_evidence":"lectures/bodies/lecture_11.tex:296-306"}
+{"master_id":"ADJ-064","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:7-21"}
+{"master_id":"ADJ-065","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:43-84"}
+{"master_id":"ADJ-066","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:88-120"}
+{"master_id":"ADJ-067","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:142-189,461"}
+{"master_id":"ADJ-068","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:193-228"}
+{"master_id":"ADJ-069","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:336-355"}
+{"master_id":"ADJ-070","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:388-400,448-467"}
+{"master_id":"ADJ-071","verdict":"resolved","source_evidence":"lectures/bodies/lecture_12.tex:303-355,458-467"}
+{"master_id":"ADJ-072","verdict":"resolved","source_evidence":"lectures/bodies/lecture_13.tex:4,12-18"}
+{"master_id":"ADJ-073","verdict":"resolved","source_evidence":"lectures/bodies/lecture_13.tex:32-45,135-145; lectures/bodies/formulas.tex:449-454"}
+{"master_id":"ADJ-074","verdict":"resolved","source_evidence":"lectures/bodies/lecture_13.tex:116-125,135-141"}
+{"master_id":"ADJ-075","verdict":"resolved","source_evidence":"lectures/bodies/lecture_13.tex:149-312; lectures/bodies/lecture_14.tex:191-255; lectures/bodies/formulas.tex:438-475"}
+{"master_id":"ADJ-076","verdict":"resolved","source_evidence":"lectures/bodies/lecture_13.tex:317-350"}
+{"master_id":"ADJ-077","verdict":"resolved","source_evidence":"lectures/bodies/lecture_14.tex:85,191-210,232-255; lectures/bodies/formulas.tex:469-475"}
+{"master_id":"ADJ-078","verdict":"resolved","source_evidence":"lectures/bodies/lecture_14.tex:122-127,195-210"}
+{"master_id":"ADJ-079","verdict":"resolved","source_evidence":"lectures/bodies/lecture_15.tex:24-79,141-150,375-380; lectures/bodies/formulas.tex:17-47"}
+{"master_id":"ADJ-080","verdict":"resolved","source_evidence":"lectures/bodies/lecture_15.tex:320-364"}
+{"master_id":"ADJ-081","verdict":"resolved","source_evidence":"lectures/bodies/lecture_15.tex:8,55-73,405"}
+{"master_id":"ADJ-082","verdict":"resolved","source_evidence":"lectures/bodies/lecture_15.tex:8,10,103,141,307-318,354-355,402"}
+{"master_id":"ADJ-083","verdict":"resolved","source_evidence":"lectures/bodies/lecture_07.tex:430-440,500-562; lectures/bodies/lecture_12.tex:21; lectures/bodies/lecture_14.tex:63,85-110; lectures/bodies/formulas.tex:287-289,438-475; lectures/bodies/frontmatter.tex:83-92"}
+{"master_id":"ADJ-084","verdict":"resolved","source_evidence":"lectures/bodies/lecture_09.tex:686-700; lectures/bodies/lecture_11.tex:320-334; lectures/bodies/lecture_13.tex:150-154,198-245,344-350; lectures/bodies/formulas.tex:233-248,258-268"}

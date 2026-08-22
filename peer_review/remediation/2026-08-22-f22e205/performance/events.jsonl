@@ -1,0 +1,11 @@
+{"event":"audit_started","read_only":true,"scope":"16 remediation worker packages plus certified review/build/git artifacts"}
+{"event":"packages_counted","worker_packages":16,"lecture_packages":15,"cross_book_packages":1}
+{"event":"ledgers_counted","assignment_rows":119,"resolution_rows":119,"unique_master_ids":84,"resolved_rows":90,"partially_resolved_rows":29}
+{"event":"artifacts_validated","required_worker_files":80,"present_worker_files":80,"json_parse_failures":0,"jsonl_parse_failures":0}
+{"event":"events_assessed","event_records":141,"packages_with_checkpoint_id_multiset_matching_resolutions":15,"packages_with_machine_validation_event":7,"packages_without_machine_validation_event":9,"lecture_12_extra_correction_event":true}
+{"event":"scope_assessed","source_freeze":"f952a54","expected_source_files":17,"unexpected_committed_source_files":0,"post_freeze_source_edits":0,"post_freeze_generated_pdf_changes":16}
+{"event":"provenance_assessed","invalidated_fidelity_attempts":2,"accepted_replacements":2,"l12_collision_records":3,"evidence_of_invalidated_content_leak":false}
+{"event":"pre_freeze_independent_audit_recovery","audited_freeze":"b73e168","residual_defects_found":3,"certified_pass_at_audited_freeze":false,"coordinator_fix_commit":"f952a54","fix_source_files":3,"fix_insertions":11,"fix_deletions":5}
+{"event":"build_assessed","source_freeze":"f952a54","targets_compiled":16,"targets_failed":0,"combined_pages":189,"standalone_pages":158,"raster_pages":347,"static_labels":173,"aux_labels":173,"references":61,"dangling_references":0,"combined_warning_count":17}
+{"event":"fresh_resolution_audit_completed","source_freeze":"f952a54","certified_pass":true,"master_count":84,"resolved_verdicts":84,"not_resolved":0,"uncertain":0,"prior_residual_defects_verified":3,"new_defects_introduced":false}
+{"event":"audit_completed","report":"PERFORMANCE_REPORT.md","read_only":true}

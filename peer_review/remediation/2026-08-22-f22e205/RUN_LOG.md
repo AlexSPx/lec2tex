@@ -205,3 +205,17 @@
 - Re-rendered and inspected the affected Bayes, hypergeometric, and formula
   pages; all three corrections are legible and remain inside the page bounds.
   A fresh independent audit is required against the new source freeze.
+
+## 2026-08-22 — final certification checkpoint
+
+- Froze corrected source at `f952a54` and reran the same independent resolution
+  auditor without allowing source or PDF edits.
+- Final audit certified all 84 master findings resolved (`P0=1`, `P1=25`,
+  `P2=58`), with zero unresolved or uncertain verdicts. Its 84-row matrix and
+  119-row package join validate; all 29 package-level partial records are
+  closed by shared-scope corrections.
+- The performance audit validated 16/16 worker packages, 80/80 required worker
+  artifacts, 119/119 assignment-resolution rows, and zero JSON/JSONL parse
+  failures. It preserves the first failed audit and all three recovery fixes.
+- Final status: certified pass for source commit `f952a54`; no deferred
+  mathematical findings and no book-source changes after the freeze.

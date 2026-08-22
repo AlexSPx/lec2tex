@@ -1,0 +1,20 @@
+{
+  "audit": "resolution_audit",
+  "run_id": "2026-08-22-f22e205",
+  "source_commit": "f952a54",
+  "baseline_commit": "f22e205",
+  "status": "complete",
+  "certified_pass": true,
+  "master_count": 84,
+  "master_severity_counts": {"P0": 1, "P1": 25, "P2": 58},
+  "matrix_count": 84,
+  "matrix_verdict_counts": {"resolved": 84, "not_resolved": 0, "uncertain": 0},
+  "resolution_rows": 119,
+  "resolution_status_counts": {"resolved": 90, "partially_resolved": 29},
+  "packages_checked": 16,
+  "partial_records_closed_by_cross_book": 29,
+  "scope_ok": true,
+  "json_contracts_ok": true,
+  "build_reference_render_evidence": "coherent",
+  "independent_blockers": []
+}

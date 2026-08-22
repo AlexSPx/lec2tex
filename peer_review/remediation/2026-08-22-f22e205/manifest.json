@@ -4,13 +4,16 @@
   "review_run": "2026-08-22-b115257",
   "baseline_commit": "f22e205",
   "branch": "codex/math-peer-remediation",
+  "final_source_commit": "f952a54",
   "model_policy": {"model": "gpt-5.6-luna", "reasoning": "high"},
   "book_sources_only": true,
   "phases": {
     "lecture_edits": "complete",
     "cross_book_edits": "complete",
     "build_and_checks": "complete",
-    "resolution_audit": "running"
+    "resolution_audit": "complete",
+    "performance_audit": "complete",
+    "final_report": "complete"
   },
   "lectures": {
     "01":"complete", "02":"complete", "03":"complete", "04":"complete",
@@ -18,5 +21,6 @@
     "09":"complete", "10":"complete", "11":"complete", "12":"complete",
     "13":"complete", "14":"complete", "15":"complete"
   },
-  "cross_book": "complete"
+  "cross_book": "complete",
+  "certified_pass": true
 }

@@ -1,0 +1,26 @@
+{
+  "audit": "remediation_performance",
+  "status": "complete",
+  "read_only": true,
+  "run_id": "2026-08-22-f22e205",
+  "baseline_commit": "f22e205",
+  "source_freeze": "f952a54",
+  "review_run": "2026-08-22-b115257",
+  "worker_packages": 16,
+  "required_outputs": [
+    "prompt.md",
+    "state.json",
+    "events.jsonl",
+    "metrics.json",
+    "findings.jsonl",
+    "PERFORMANCE_REPORT.md",
+    "handoff.md"
+  ],
+  "completed_at": "2026-08-22",
+  "initial_independent_audit_freeze": "b73e168",
+  "initial_independent_audit_residual_defects": 3,
+  "coordinator_recovery_commit": "f952a54",
+  "fresh_independent_audit_after_final_freeze_required": false,
+  "final_independent_audit_certified_pass": true,
+  "source_or_pdf_edits": 0
+}

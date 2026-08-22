@@ -1,0 +1,16 @@
+{"event":"audit_started","run_id":"2026-08-22-f22e205","source_commit":"b73e168","baseline_commit":"f22e205","read_only":true}
+{"event":"ledger_recomputed","master_count":84,"severity_counts":{"P0":1,"P1":25,"P2":58},"master_ids_unique":true}
+{"event":"packages_checked","package_count":16,"resolution_rows":119,"resolution_ids_unique_within_package":true,"all_master_ids_covered":true,"package_jsonl_parse":true}
+{"event":"partial_records_closed","partial_resolution_rows":29,"closed_by_cross_book":29,"unclosed":0}
+{"event":"source_scope_checked","baseline":"f22e205","source_commit":"b73e168","out_of_scope_source_edits":false,"generated_pdf_changes_ignored":true}
+{"event":"build_evidence_checked","run_log_coherent":true,"combined_pages":189,"standalone_pages":158,"rendered_pages":347,"reference_labels":173,"reference_uses":61,"dangling_references":0}
+{"event":"matrix_recomputed","matrix_rows":84,"matrix_ids_unique":true,"matrix_ids_exactly_ADJ_001_to_ADJ_084":true,"verdict_counts":{"resolved":84,"not_resolved":0,"uncertain":0}}
+{"event":"independent_residuals_found","count":3,"certified_pass":false,"source_edits_made":false,"pdf_edits_made":false}
+{"event":"audit_completed","status":"complete","certified_pass":false}
+{"event":"reaudit_started","run_id":"2026-08-22-f22e205","prior_source_commit":"b73e168","source_commit":"f952a54","prior_certified_pass":false,"read_only":true}
+{"event":"new_freeze_diff_checked","from":"b73e168","to":"f952a54","source_files_changed":["lectures/bodies/formulas.tex","lectures/bodies/lecture_03.tex","lectures/bodies/lecture_07.tex"],"run_log_changed":true,"unexpected_source_changes":false}
+{"event":"corrections_reverified","bayes_positive_mass_restriction":true,"order_statistic_kth_smallest_density":true,"hypergeometric_max_min_support":true,"new_defects_introduced":false}
+{"event":"ledger_revalidated","master_count":84,"severity_counts":{"P0":1,"P1":25,"P2":58},"matrix_rows":84,"matrix_ids_exactly_ADJ_001_to_ADJ_084":true,"matrix_verdict_counts":{"resolved":84,"not_resolved":0,"uncertain":0}}
+{"event":"packages_revalidated","package_count":16,"resolution_rows":119,"resolution_status_counts":{"resolved":90,"partially_resolved":29},"partial_records_closed_by_cross_book":29,"all_master_ids_covered":true}
+{"event":"artifacts_revalidated","json_jsonl_parse":true,"reference_labels":173,"reference_uses":61,"dangling_references":0,"build_render_evidence":"coherent"}
+{"event":"certification_updated","source_commit":"f952a54","status":"complete","certified_pass":true}
