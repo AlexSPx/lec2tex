@@ -159,7 +159,28 @@
 \newtheorem{example}[thm]{Пример}
 
 % Definitions in blue, everything provable in green. Proofs stay outside.
-\tcbset{lecbox/.style={enhanced, breakable, arc=2.4mm, boxrule=0.7pt,
+% `lines before break` is what keeps a statement whole. tcolorbox first asks
+% whether the box fits in the space left on the page; only if it does not does
+% this threshold apply, and then it ejects the page and re-asks on a fresh one.
+% Set just under a full text height (684pt / 14.7pt per line = 46.6 lines), so
+% "does not fit here" always becomes "start it at the top of the next page".
+% A box that is genuinely taller than a page still breaks -- but from the top of
+% a page, never with a two-line stub stranded under the previous paragraph.
+\newcommand{\lecbreakminlines}{45}
+% ...but only when ejecting the page would actually achieve something. A box
+% that is taller than the text block breaks no matter which page it starts on,
+% so pushing it forward buys nothing and strands up to three quarters of a page.
+% tcolorbox has just measured the box into \tcb@h@total when this runs, so the
+% question can be answered exactly: over-tall boxes keep the default threshold
+% and start where they stand, filling the page to its foot before they continue.
+\usepackage{etoolbox}
+\makeatletter
+\apptocmd{\tcb@comp@h@total@standalone}
+  {\ifdim\tcb@h@total>\textheight\relax\def\kvtcb@breakminlines{2}\fi}
+  {}{\PackageError{preamble}{could not patch tcolorbox height hook}{}}
+\makeatother
+\tcbset{lecbox/.style={enhanced, breakable, lines before break=\lecbreakminlines,
+    arc=2.4mm, boxrule=0.7pt,
     left=2.6mm, right=2.6mm, top=1.8mm, bottom=1.8mm, before skip=0.6em,
     after skip=0.6em}}
 \tcolorboxenvironment{defn}{lecbox, colback=defback, colframe=defframe}
@@ -177,7 +198,8 @@
 \tcolorboxenvironment{keylem} {leckeybox}
 
 % Supplement tier: dashed violet frame, no fill — visibly outside the lecture record.
-\tcolorboxenvironment{supp}{enhanced, breakable, colback=white,
+\tcolorboxenvironment{supp}{enhanced, breakable, lines before break=\lecbreakminlines,
+  colback=white,
   colframe=suppframe, boxrule=0.5pt, frame style={dash pattern=on 3pt off 2pt},
   arc=2.4mm, left=2.6mm, right=2.6mm, top=1.8mm, bottom=1.8mm,
   before skip=0.6em, after skip=0.6em}
